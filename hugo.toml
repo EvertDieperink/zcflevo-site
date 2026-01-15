@@ -1,4 +1,4 @@
 baseURL = "https://zcflevo.thebigdatacompany.nl/"
 relativeURLs = true
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+languageCode = 'nl-nl'
+title = 'Zweefvliegclub Flevo'
