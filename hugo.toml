@@ -1,4 +1,4 @@
-baseURL = "https://EvertDieperink.github.io/zcflevo-site/"
+baseURL = "https://zcflevo.thebigdatacompany.nl/"
 relativeURLs = true
 languageCode = 'en-us'
 title = 'My New Hugo Site'
