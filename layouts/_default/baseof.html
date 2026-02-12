@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ .Title }}</title>
+   <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
+
+</head>
+<body>
+  <div class="top-bar">
+    test
+    <!-- You can put contact info here later -->
+  </div>
+  <header>
+     <a href="{{ .Site.BaseURL }}">
+      <img src="{{ "images/logo.svg" | relURL }}" alt="{{ .Site.Title }}" style="height:50px; vertical-align:middle;">
+    </a>
+
+    <nav>
+  {{ range .Site.Menus.main }}
+    {{ if .HasChildren }}
+      <span class="dropdown">{{ .Name }}
+        <ul>
+          {{ range .Children }}
+            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      </span>
+    {{ else }}
+      <a href="{{ .URL }}">{{ .Name }}</a>
+    {{ end }}
+  {{ end }}
+</nav>
+
+  </header>
+
+  <main>
+ {{ block "main" . }}{{ end }}
+  </main>
+</body>
+</html>

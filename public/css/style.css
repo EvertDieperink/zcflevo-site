@@ -1,0 +1,41 @@
+body {  font-family: 'Inter', sans-serif; margin:0; padding:0; }
+    
+    .top-bar { background: #056BB3; padding: 2rem; color: white;  }
+    
+    header {
+  display: flex;              /* puts children in a row */
+  align-items: center;        /* vertically center logo and menu */
+  justify-content: space-between; /* space between logo and menu */
+  background-color: white;    /* your white header row */
+    padding: 0.5rem 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+header img {
+  height: 50px;               /* keeps logo size consistent */
+}
+    nav { display: flex; gap: 1rem; position: relative; }
+    
+    nav a, nav span { color: #333333; text-decoration: none; cursor: pointer; padding: 0.5rem; }
+    nav a:hover, nav span:hover { text-decoration: underline; }
+
+
+    /* Dropdown styling */
+    nav ul { 
+      display: none; 
+      position: absolute; 
+      background: #056BB3; 
+      list-style: none; 
+      margin: 0; 
+      padding: 0.5rem; 
+      min-width: 150px;
+      z-index: 100;
+    }
+    nav li { margin: 0; }
+    nav li a { display: block; padding: 0.3rem 0.5rem; color: white; }
+    nav li a:hover { background: #0050a0; }
+
+    /* Show dropdown on hover */
+    .dropdown:hover ul { display: block; }
+
+    main { padding: 2rem; max-width: 800px; margin: auto; }

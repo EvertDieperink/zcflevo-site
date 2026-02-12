@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Zweefvliegclub Flevo</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Zweefvliegclub Flevo</description>
+    <generator>Hugo</generator>
+    <language>nl-nl</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>De club</title>
+      <link>http://localhost:1313/club/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/club/</guid>
+      <description>&lt;p&gt;De club&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>De vloot</title>
+      <link>http://localhost:1313/vloot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/vloot/</guid>
+      <description>&lt;p&gt;De vloot&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lidmaatschap</title>
+      <link>http://localhost:1313/mogelijkheden/lidmaatschap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/mogelijkheden/lidmaatschap/</guid>
+      <description>&lt;p&gt;Lidmaatschap&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Zomercurus</title>
+      <link>http://localhost:1313/mogelijkheden/zomercursus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/mogelijkheden/zomercursus/</guid>
+      <description>&lt;p&gt;Zomercursus&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
