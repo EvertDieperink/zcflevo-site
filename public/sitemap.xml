@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/leden/annemieke/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/mogelijkheden/</loc>
@@ -12,11 +14,19 @@
   </url><url>
     <loc>http://localhost:1313/vloot/duo-discus-xlt/</loc>
   </url><url>
+    <loc>http://localhost:1313/leden/erwin/</loc>
+  </url><url>
+    <loc>http://localhost:1313/leden/hans/</loc>
+  </url><url>
     <loc>http://localhost:1313/</loc>
+  </url><url>
+    <loc>http://localhost:1313/leden/</loc>
   </url><url>
     <loc>http://localhost:1313/mogelijkheden/lidmaatschap/</loc>
   </url><url>
     <loc>http://localhost:1313/club/</loc>
+  </url><url>
+    <loc>http://localhost:1313/leden/paul/</loc>
   </url><url>
     <loc>http://localhost:1313/vloot/ls4b/</loc>
   </url><url>
@@ -27,6 +37,8 @@
     <loc>http://localhost:1313/vloot/junior/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/leden/tristan/</loc>
   </url><url>
     <loc>http://localhost:1313/vloot/</loc>
   </url><url>

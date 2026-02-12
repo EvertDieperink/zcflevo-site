@@ -1,0 +1,13 @@
+{{ define "main" }}
+<h1>Leden</h1>
+ {{ .Content }}
+
+{{ range .Pages }}
+<div>
+    <h2>{{ .Title }}</h2>
+   <img src="{{ .File.BaseFileName | lower }}.jpg" alt="{{ .Title }}" style="max-width:150px; margin-right:1rem;">
+    {{ .Content }}
+</div>
+{{ end }}
+
+{{ end }}
