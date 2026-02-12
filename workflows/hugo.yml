@@ -10,20 +10,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout source
       - uses: actions/checkout@v3
 
-      # Install Hugo
       - uses: peaceiris/actions-hugo@v4
         with:
           hugo-version: '0.116.0'
 
-      # Build Hugo site
-      - name: Build
+      - name: Build Hugo site
         run: hugo --minify
 
-      # Deploy to gh-pages
-      - name: Deploy
+      - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
