@@ -4,17 +4,31 @@
   <url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/club/</loc>
-  </url><url>
     <loc>http://localhost:1313/mogelijkheden/</loc>
   </url><url>
-    <loc>http://localhost:1313/vloot/</loc>
+    <loc>http://localhost:1313/vloot/dg-1000s/</loc>
+  </url><url>
+    <loc>http://localhost:1313/vloot/discus-2b/</loc>
+  </url><url>
+    <loc>http://localhost:1313/vloot/duo-discus-xlt/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
   </url><url>
     <loc>http://localhost:1313/mogelijkheden/lidmaatschap/</loc>
   </url><url>
+    <loc>http://localhost:1313/club/</loc>
+  </url><url>
+    <loc>http://localhost:1313/vloot/ls4b/</loc>
+  </url><url>
+    <loc>http://localhost:1313/vloot/ls7wl/</loc>
+  </url><url>
+    <loc>http://localhost:1313/vloot/ask-21/</loc>
+  </url><url>
+    <loc>http://localhost:1313/vloot/junior/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/vloot/</loc>
   </url><url>
     <loc>http://localhost:1313/mogelijkheden/zomercursus/</loc>
   </url>

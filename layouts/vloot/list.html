@@ -1,0 +1,14 @@
+{{ define "main" }}
+<h1>Vloot</h1>
+ {{ .Content }}
+
+{{ range .Pages }}
+<div>
+    <h2>{{ .Title }}</h2>
+    <div>Registratie:{{ .Params.registratie }}</div>
+    <div>Callsign:{{ .Params.callsign }}</div>
+    {{ .Content }}
+</div>
+{{ end }}
+
+{{ end }}

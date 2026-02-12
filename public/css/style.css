@@ -13,6 +13,7 @@ body {  font-family: 'Inter', sans-serif; margin:0; padding:0; }
 
 header img {
   height: 50px;               /* keeps logo size consistent */
+  padding: 1em;
 }
     nav { display: flex; gap: 1rem; position: relative; }
     
@@ -38,4 +39,31 @@ header img {
     /* Show dropdown on hover */
     .dropdown:hover ul { display: block; }
 
-    main { padding: 2rem; max-width: 800px; margin: auto; }
+
+
+    main { 
+      padding: 1em; 
+      font-size: 1.5em;
+      color: #555555;
+    }
+
+
+    .top-bar{
+      display: flex;
+    justify-content: flex-end; /* Align icons to the right */
+    gap: 20px; 
+    }
+    .social-icon {
+  color: white; /* Icon color */
+  font-size: 24px; /* Small size */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: #e1306c; /* Example: Instagram pink on hover */
+}
+
+.social-icon i {
+  display: inline-block;
+}

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Zweefvliegclub Flevo</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content in Home on Zweefvliegclub Flevo</description>
+    <title>Vloot on Zweefvliegclub Flevo</title>
+    <link>http://localhost:1313/vloot/</link>
+    <description>Recent content in Vloot on Zweefvliegclub Flevo</description>
     <generator>Hugo</generator>
     <language>nl-nl</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/vloot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DG-1000s</title>
       <link>http://localhost:1313/vloot/dg-1000s/</link>
@@ -27,20 +27,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/vloot/duo-discus-xlt/</guid>
       <description>&lt;p&gt;De Duo Discus XLT is de meest recente aanwinst van ZC Flevo. Deze moderne tweezitter is uitgerust met een kleine motor die kan worden uitgeklapt om terug naar het startpunt te vliegen indien er geen thermiek meer is.&lt;/p&gt;&#xA;&lt;p&gt;De “XLT” wordt voornamelijk ingezet voor wedstrijden, lange overland vluchten en overland training.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Lidmaatschap</title>
-      <link>http://localhost:1313/mogelijkheden/lidmaatschap/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mogelijkheden/lidmaatschap/</guid>
-      <description>&lt;p&gt;Lidmaatschap&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Onze club</title>
-      <link>http://localhost:1313/club/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/club/</guid>
-      <description>&lt;p&gt;De club&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rolladen-Schneider LS4-b</title>
@@ -69,13 +55,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/vloot/junior/</guid>
       <description>&lt;p&gt;De Junior is de overgangstrainer van ZC Flevo. Na een aantal solovluchten op de ASK-21, is dit de eerste eenzitter waar solisten mee mogen vliegen.&lt;/p&gt;&#xA;&lt;p&gt;De Junior is erg makkelijk te vliegen en gaat door zijn lage gewicht als een speer omhoog in de thermiek.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Zomercurus</title>
-      <link>http://localhost:1313/mogelijkheden/zomercursus/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/mogelijkheden/zomercursus/</guid>
-      <description>&lt;p&gt;Zomercursus&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

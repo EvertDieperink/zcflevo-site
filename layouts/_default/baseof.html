@@ -5,38 +5,60 @@
   <title>{{ .Title }}</title>
    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
-
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+/>
+<link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
 </head>
 <body>
   <div class="top-bar">
-    test
-    <!-- You can put contact info here later -->
+    <a href="https://www.instagram.com/zweefvliegclubflevo/" target="_blank" class="social-icon">
+    <i class="fab fa-instagram"></i>
+  </a>
+  <a href="https://www.facebook.com/zcflevo/" target="_blank" class="social-icon">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+  <a href="https://www.youtube.com/channel/UCjxBLZcew6u7KOLpH2wSq0A" target="_blank" class="social-icon">
+    <i class="fab fa-youtube"></i>
+  </a>
   </div>
   <header>
-     <a href="{{ .Site.BaseURL }}">
+    <a href="/">
       <img src="{{ "images/logo.svg" | relURL }}" alt="{{ .Site.Title }}" style="height:50px; vertical-align:middle;">
     </a>
-
     <nav>
-  {{ range .Site.Menus.main }}
-    {{ if .HasChildren }}
-      <span class="dropdown">{{ .Name }}
-        <ul>
-          {{ range .Children }}
-            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ range .Site.Menus.main }}
+        {{ if .HasChildren }}
+          {{ if .URL }}
+            <!-- Parent has children AND a URL → clickable with dropdown -->
+            <span class="dropdown">
+              <a href="{{ .URL }}">{{ .Name }}</a>
+              <ul>
+                {{ range .Children }}
+                  <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ end }}
+              </ul>
+            </span>
+          {{ else }}
+            <!-- Parent has children but no URL → just dropdown -->
+            <span class="dropdown">{{ .Name }}
+              <ul>
+                {{ range .Children }}
+                  <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ end }}
+              </ul>
+            </span>
           {{ end }}
-        </ul>
-      </span>
-    {{ else }}
-      <a href="{{ .URL }}">{{ .Name }}</a>
+        {{ else }}
+          <!-- No children → normal link -->
+          <a href="{{ .URL }}">{{ .Name }}</a>
+        {{ end }}
     {{ end }}
-  {{ end }}
-</nav>
-
+    </nav>
   </header>
-
   <main>
- {{ block "main" . }}{{ end }}
+    {{ block "main" . }}{{ end }}
   </main>
 </body>
 </html>

@@ -1,16 +1,9 @@
 ---
 title: "Home"
 draft: false
-menu:
-  main:
-    identifier: home   # unique ID for parent page
-    parent: ""          # empty for root items, set parent for child items
-    weight: 1           # optional, controls order
-
 ---
+Welkom op de site van Zweefvliegclub Flevo
 
-Welkom
-op de site van Zweefvliegclub Flevo
 Zweefvliegen, een fantastische bezigheid waar je niet snel op uitgekeken raakt!
 
 Met een elektrische lier worden onze motor-loze vliegtuigen in de lucht gebracht.

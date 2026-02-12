@@ -1,5 +1,5 @@
 ---
-title: "De club"
+title: "Onze club"
 draft: false
 menu:
   main:
