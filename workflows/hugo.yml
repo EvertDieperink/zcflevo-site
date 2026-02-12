@@ -1,4 +1,5 @@
 name: Deploy Hugo site to GitHub Pages
+workflow_dispatch:
 
 on:
   push:
