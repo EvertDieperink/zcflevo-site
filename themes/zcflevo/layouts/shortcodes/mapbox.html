@@ -1,4 +1,4 @@
-{{ $accessToken := .Get "token" }}
+{{ $accessToken := .Get "token" | default .Site.Params.mapboxToken }}
 {{ $lng := .Get "lng" }}
 {{ $lat := .Get "lat" }}
 {{ $zoom := .Get "zoom" | default "14" }}

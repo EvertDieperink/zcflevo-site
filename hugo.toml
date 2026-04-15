@@ -15,6 +15,7 @@ theme = 'zcflevo'
   instagram = "https://www.instagram.com/zweefvliegclubflevo/"
   youtube = "https://www.youtube.com/channel/UCjxBLZcew6u7KOLpH2wSq0A"
   tiktok = "https://www.tiktok.com/@zc.flevo"
+  mapboxToken = ""  # Set this via environment variable in GitHub Actions
 
 # ── Menu ──────────────────────────────────────────────────────────────────────
 
