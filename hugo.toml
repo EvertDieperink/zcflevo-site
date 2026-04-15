@@ -1,3 +1,82 @@
-baseURL = 'https://example.org/'
-languageCode = 'nl-nl'
+baseURL = '/'  # GitHub Actions injects the real URL at deploy time (see .github/workflows/hugo.yml)
+languageCode = 'nl'
 title = 'Zweefvliegclub Flevo'
+theme = 'zcflevo'
+
+[markup.goldmark.renderer]
+  unsafe = true  # Needed to render HTML in markdown (contact page)
+
+[params]
+  description = "ZC Flevo is een actieve zweefvliegclub vanuit Vliegveld Terlet bij Arnhem."
+  email = "secretaris@zcflevo.nl"
+  phone = "06-17722964"
+  address = "Vliegveld Terlet, Apeldoornseweg 203, 6816 SM Arnhem"
+  facebook = "https://www.facebook.com/zcflevo/"
+  instagram = "https://www.instagram.com/zweefvliegclubflevo/"
+  youtube = "https://www.youtube.com/channel/UCjxBLZcew6u7KOLpH2wSq0A"
+  tiktok = "https://www.tiktok.com/@zc.flevo"
+
+# ── Menu ──────────────────────────────────────────────────────────────────────
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Onze Club"
+  identifier = "onze-club"
+  url = "/onze-club/"
+  weight = 2
+
+[[menu.main]]
+  name = "Locatie"
+  url = "/onze-club/locatie/"
+  parent = "onze-club"
+  weight = 21
+
+[[menu.main]]
+  name = "Vloot"
+  url = "/onze-club/vloot/"
+  parent = "onze-club"
+  weight = 22
+
+[[menu.main]]
+  name = "Leden vertellen"
+  url = "/leden-vertellen/"
+  parent = "onze-club"
+  weight = 23
+
+[[menu.main]]
+  name = "De Mogelijkheden"
+  identifier = "de-mogelijkheden"
+  url = "/de-mogelijkheden/"
+  weight = 3
+
+[[menu.main]]
+  name = "Kennismaken"
+  url = "/de-mogelijkheden/kennismaken/"
+  parent = "de-mogelijkheden"
+  weight = 31
+
+[[menu.main]]
+  name = "Zomercursus"
+  url = "/de-mogelijkheden/zomercursus/"
+  parent = "de-mogelijkheden"
+  weight = 32
+
+[[menu.main]]
+  name = "Lidmaatschap"
+  url = "/de-mogelijkheden/lidmaatschap/"
+  parent = "de-mogelijkheden"
+  weight = 33
+
+[[menu.main]]
+  name = "FAQ"
+  url = "/faq/"
+  weight = 4
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 5

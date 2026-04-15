@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+<div class="page-header">
+  <div class="container">
+    {{ if .Parent }}
+    <div class="breadcrumb">
+      <a href="{{ "/" | relURL }}">Home</a>
+      <span aria-hidden="true"> › </span>
+      <a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a>
+      <span aria-hidden="true"> › </span>
+    </div>
+    {{ else }}
+    <div class="breadcrumb">
+      <a href="{{ "/" | relURL }}">Home</a>
+      <span aria-hidden="true"> › </span>
+    </div>
+    {{ end }}
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="page-description">{{ . }}</p>{{ end }}
+  </div>
+</div>
+
+<div class="page-content">
+  <div class="container">
+    {{ .Content }}
+  </div>
+</div>
+
+{{ end }}

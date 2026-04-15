@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+<div class="page-header">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="{{ "/" | relURL }}">Home</a>
+      <span aria-hidden="true"> › </span>
+    </div>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="page-description">{{ . }}</p>{{ end }}
+  </div>
+</div>
+
+<div class="page-content">
+  <div class="container">
+    {{ .Content }}
+
+    {{ if .Pages }}
+    <div class="child-pages">
+      {{ range .Pages }}
+      <a href="{{ .RelPermalink }}" class="child-page-card">
+        <h3>{{ .Title }}</h3>
+        {{ with .Description }}<p>{{ . }}</p>{{ end }}
+        <span class="read-more">Lees meer &rarr;</span>
+      </a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</div>
+
+{{ end }}

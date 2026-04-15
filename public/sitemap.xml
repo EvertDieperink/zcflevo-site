@@ -2,46 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/leden/annemieke/</loc>
+    <loc>//localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>//localhost:1313/contact/</loc>
   </url><url>
-    <loc>http://localhost:1313/mogelijkheden/</loc>
+    <loc>//localhost:1313/de-mogelijkheden/</loc>
   </url><url>
-    <loc>http://localhost:1313/vloot/dg-1000s/</loc>
+    <loc>//localhost:1313/de-mogelijkheden/kennismaken/</loc>
   </url><url>
-    <loc>http://localhost:1313/vloot/discus-2b/</loc>
+    <loc>//localhost:1313/leden-vertellen/</loc>
   </url><url>
-    <loc>http://localhost:1313/vloot/duo-discus-xlt/</loc>
+    <loc>//localhost:1313/de-mogelijkheden/lidmaatschap/</loc>
   </url><url>
-    <loc>http://localhost:1313/leden/erwin/</loc>
+    <loc>//localhost:1313/onze-club/locatie/</loc>
   </url><url>
-    <loc>http://localhost:1313/leden/hans/</loc>
+    <loc>//localhost:1313/onze-club/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>//localhost:1313/onze-club/vloot/</loc>
   </url><url>
-    <loc>http://localhost:1313/leden/</loc>
+    <loc>//localhost:1313/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/mogelijkheden/lidmaatschap/</loc>
+    <loc>//localhost:1313/faq/</loc>
   </url><url>
-    <loc>http://localhost:1313/club/</loc>
+    <loc>//localhost:1313/de-mogelijkheden/zomercursus/</loc>
   </url><url>
-    <loc>http://localhost:1313/leden/paul/</loc>
-  </url><url>
-    <loc>http://localhost:1313/vloot/ls4b/</loc>
-  </url><url>
-    <loc>http://localhost:1313/vloot/ls7wl/</loc>
-  </url><url>
-    <loc>http://localhost:1313/vloot/ask-21/</loc>
-  </url><url>
-    <loc>http://localhost:1313/vloot/junior/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-  </url><url>
-    <loc>http://localhost:1313/leden/tristan/</loc>
-  </url><url>
-    <loc>http://localhost:1313/vloot/</loc>
-  </url><url>
-    <loc>http://localhost:1313/mogelijkheden/zomercursus/</loc>
+    <loc>//localhost:1313/</loc>
   </url>
 </urlset>

@@ -1,0 +1,184 @@
+{{ define "main" }}
+
+<!-- Hero Section with photo background -->
+<section class="hero has-photo"
+  style="background-image: url('{{ .Params.hero_image | default "https://zcflevo.nl/wp-content/uploads/2020/04/banner1.jpg" }}')">
+  <div class="hero-overlay"></div>
+  <div class="container">
+    <div class="hero-content">
+      <h1>{{ .Params.hero_title | default .Site.Title }}</h1>
+      <p>{{ .Params.hero_subtitle | default .Site.Params.description }}</p>
+      <div class="hero-buttons">
+        <a href="{{ "/de-mogelijkheden/kennismaken/" | relURL }}" class="btn btn-primary">Kom kennismaken</a>
+        <a href="{{ "/contact/" | relURL }}" class="btn btn-outline">Neem contact op</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Stats Strip -->
+<div class="stats-strip">
+  <div class="container">
+    <div class="stats-grid">
+      <div>
+        <div class="stat-number">1972</div>
+        <div class="stat-label">Opgericht</div>
+      </div>
+      <div>
+        <div class="stat-number">7</div>
+        <div class="stat-label">Zweefvliegtuigen</div>
+      </div>
+      <div>
+        <div class="stat-number">1000<span style="font-size:1.5rem">+</span></div>
+        <div class="stat-label">km per vlucht mogelijk</div>
+      </div>
+      <div>
+        <div class="stat-number">0</div>
+        <div class="stat-label">gram CO&#x2082; uitstoot</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Photo strip -->
+<div class="photo-strip">
+  <div class="photo-item photo-wide">
+    <img src="https://zcflevo.nl/wp-content/uploads/2020/04/EVH_2739.jpg" alt="Zweefvliegtuig op Vliegveld Terlet" loading="lazy">
+  </div>
+  <div class="photo-item">
+    <img src="https://zcflevo.nl/wp-content/uploads/2020/04/DSC_3444.jpg" alt="Start met elektrische lier" loading="lazy">
+  </div>
+  <div class="photo-item">
+    <img src="https://zcflevo.nl/wp-content/uploads/2020/04/EVH_3096.jpg" alt="Zweefvliegen bij ZC Flevo" loading="lazy">
+  </div>
+  <div class="photo-item">
+    <img src="https://zcflevo.nl/wp-content/uploads/2020/04/DSC_1974.jpg" alt="Zweefvliegclub Flevo" loading="lazy">
+  </div>
+  <div class="photo-item">
+    <img src="https://zcflevo.nl/wp-content/uploads/2020/04/EVH_2736.jpg" alt="Zweefvliegen boven Nederland" loading="lazy">
+  </div>
+  <div class="photo-item">
+    <img src="https://zcflevo.nl/wp-content/uploads/2020/04/DSC_2131.jpg" alt="Vloot van ZC Flevo" loading="lazy">
+  </div>
+  <div class="photo-item">
+    <img src="https://zcflevo.nl/wp-content/uploads/2020/04/21788580089_1937427c68_k.jpg" alt="Tweede vlucht van de dag" loading="lazy">
+  </div>
+  <div class="photo-item">
+    <img src="https://zcflevo.nl/wp-content/uploads/2021/10/Naamloos-4.jpg" alt="ZC Flevo leden op het veld" loading="lazy">
+  </div>
+  <div class="photo-item photo-wide">
+    <img src="https://zcflevo.nl/wp-content/uploads/2020/04/DSC_7812_HDR.jpg" alt="Landschap boven Nederland vanuit zweefvliegtuig" loading="lazy">
+  </div>
+  <div class="photo-item">
+    <img src="https://zcflevo.nl/wp-content/uploads/2020/04/DSC_8006.jpg" alt="Zweefvliegtuigen klaar voor de dag" loading="lazy">
+  </div>
+ 
+</div>
+
+<!-- Intro content from _index.md body -->
+{{ if .Content }}
+<section class="intro-section">
+  <div class="container intro-container">
+    {{ .Content }}
+  </div>
+</section>
+{{ end }}
+
+<!-- Feature Cards -->
+<section class="features">
+  <div class="container">
+    <h2>Wat biedt ZC Flevo?</h2>
+    <div class="cards-grid">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="36" height="36">
+              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+              <path d="M14.05 2a9 9 0 018 7.94M14.05 6A5 5 0 0119 11"/>
+            </svg>
+          </div>
+          <h3>Kennismaken</h3>
+        </div>
+        <div class="card-body">
+          <p>Benieuwd naar zweefvliegen? Maak een afspraak voor een introductievlucht. Je gaat mee met een ervaren instructeur vanuit Vliegveld Terlet.</p>
+          <a href="{{ "/de-mogelijkheden/kennismaken/" | relURL }}" class="btn btn-blue">Meer weten</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="36" height="36">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+              <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+            </svg>
+          </div>
+          <h3>Opleiding &amp; Lidmaatschap</h3>
+        </div>
+        <div class="card-body">
+          <p>Word zweefvliegpiloot via onze vliegopleiding. Minimumleeftijd is 14 jaar, patent halen kan vanaf 16 jaar. Betaalbaar, alle vluchten inbegrepen.</p>
+          <a href="{{ "/de-mogelijkheden/lidmaatschap/" | relURL }}" class="btn btn-blue">Meer weten</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="36" height="36">
+              <circle cx="12" cy="8" r="6"/>
+              <path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/>
+            </svg>
+          </div>
+          <h3>Onze Club</h3>
+        </div>
+        <div class="card-body">
+          <p>ZC Flevo is een actieve en gezellige club met meer dan 40 jaar ervaring. Leer meer over onze geschiedenis, vloot en locatie bij Arnhem.</p>
+          <a href="{{ "/onze-club/" | relURL }}" class="btn btn-blue">Meer weten</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials / Leden vertellen -->
+<section class="testimonials">
+  <div class="container">
+    <h2>Wat onze leden zeggen</h2>
+    <p class="section-subtitle">Lees waarom onze leden zo enthousiast zijn over ZC Flevo</p>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <p class="testimonial-quote">Zweefvliegclub Flevo is een vereniging waar iedereen welkom is om te leren vliegen. De balans tussen serieus vliegen en clubgezelligheid maakt het uniek.</p>
+        <div class="testimonial-author">
+          <img class="testimonial-avatar" src="/images/annemieke.jpg" alt="Annemieke">
+          <div>
+            <div class="testimonial-name">Annemieke</div>
+            <div class="testimonial-role">Lid van ZC Flevo</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <p class="testimonial-quote">Zweefvliegen is voor mij meer dan een hobby&hellip; het is een lifestyle. ZC Flevo is uiterst gezellig en gepassioneerd &mdash; ontspanning, uitdaging en plezier in één.</p>
+        <div class="testimonial-author">
+          <img class="testimonial-avatar" src="/images/erwin.jpg" alt="Erwin">
+          <div>
+            <div class="testimonial-name">Erwin</div>
+            <div class="testimonial-role">Lid van ZC Flevo</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <p class="testimonial-quote">Ik ben in 2019 begonnen met zweefvliegen. Echt een jongensdroom die in vervulling ging. Als iets oudere nieuwkomer werd ik meteen hartelijk ontvangen.</p>
+        <div class="testimonial-author">
+          <img class="testimonial-avatar" src="/images/paul.jpg" alt="Paul">
+          <div>
+            <div class="testimonial-name">Paul</div>
+            <div class="testimonial-role">Lid van ZC Flevo</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonials-cta">
+      <a href="{{ "/leden-vertellen/" | relURL }}" class="btn btn-blue">Lees meer verhalen &rarr;</a>
+    </div>
+  </div>
+</section>
+
+{{ end }}
