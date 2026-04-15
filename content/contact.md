@@ -63,7 +63,7 @@ Heb je vragen over zweefvliegen, een introductievlucht, het lidmaatschap of iets
 </div>
 <div>
 
-{{< mapbox lng="5.867" lat="52.013" zoom="14" >}}
+{{< mapbox lng="5.937581961427093" lat="52.06107763169907" zoom="10" >}}
 
 <div class="notice-box">
   <strong>Belangrijk:</strong> Maak voor een bezoek altijd eerst een afspraak per mail. Betreed het vliegveld niet zelfstandig. Bij aankomst op de parkeerplaats bel je 06-17722964 — we halen je op en begeleiden je veilig naar de startplaats.
