@@ -63,13 +63,7 @@ Heb je vragen over zweefvliegen, een introductievlucht, het lidmaatschap of iets
 </div>
 <div>
 
-<div class="map-embed">
-  <iframe
-    src="https://www.openstreetmap.org/export/embed.html?bbox=5.847%2C52.003%2C5.887%2C52.023&amp;layer=mapnik&amp;marker=52.013%2C5.867"
-    title="Kaart van Vliegveld Terlet"
-    loading="lazy">
-  </iframe>
-</div>
+{{< mapbox token="pk.eyJ1IjoiZXZlcnQtZGllcGVyaW5rIiwiYSI6ImNtbzBjc21rcjA3ajAycHM5Z3F5c2t5MnUifQ.YnSSjteg3vUkzrBQik99ZQ" lng="5.937553386972396" lat="52.061058872978705" zoom="9" >}}
 
 <div class="notice-box">
   <strong>Belangrijk:</strong> Maak voor een bezoek altijd eerst een afspraak per mail. Betreed het vliegveld niet zelfstandig. Bij aankomst op de parkeerplaats bel je 06-17722964 — we halen je op en begeleiden je veilig naar de startplaats.

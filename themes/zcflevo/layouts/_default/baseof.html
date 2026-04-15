@@ -6,6 +6,8 @@
   <title>{{ if .IsHome }}{{ .Site.Title }} &mdash; Zweefvliegen in de Flevopolder{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css" rel="stylesheet" />
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
 </head>
 <body>
   {{ partial "header.html" . }}
