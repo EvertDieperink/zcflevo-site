@@ -452,6 +452,24 @@ strong { font-weight: 600; }
 #tab-senior:checked ~ #panel-senior,
 #tab-junior:checked ~ #panel-junior { display: block; }
 
+/* Installment note */
+.cost-installment {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 1.5rem;
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: var(--radius);
+  padding: 0.75rem 1.25rem;
+  font-size: 0.9rem;
+  color: rgba(255,255,255,0.9);
+  max-width: fit-content;
+}
+.cost-installment svg { flex-shrink: 0; opacity: 0.8; }
+.cost-installment strong { color: #fff; }
+
+
 /* ============================================================
    FEATURE CARDS
    ============================================================ */
