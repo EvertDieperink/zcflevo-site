@@ -34,14 +34,32 @@ We vliegen op **alle zater- en zondagen van 1 maart t/m 1 november**, plus veel 
 
 Zweefvliegen bestaat uit een paar vaste jaarlijkse kostenposten. Hieronder een overzicht.
 
-### Clubcontributie ZC Flevo
+### Tarieven ZC Flevo
 
-| | Volwassenen | Junioren (t/m 18 jaar) |
-|---|---|---|
-| Jaarlijkse contributie | € 385 | € 305 |
-| Startabonnement (onbeperkt starten) | € 380 | € 380 |
+| Omschrijving | Tarief |
+|---|---|
+| **Inschrijfgeld** | |
+| Inschrijfgeld senior (> 21 jaar) | € 150,00 |
+| Inschrijfgeld junior (≤ 21 jaar) | € 100,00 |
+| **Contributie** | |
+| Contributie senior — vol seizoen | € 385,00 |
+| Contributie senior — vanaf juli | € 270,00 |
+| Contributie junior (≤ 21) — vol seizoen | € 305,00 |
+| Contributie junior (≤ 21) — vanaf juli | € 215,00 |
+| Contributie vanaf september | € 65,00 |
+| Administratief lid of donateur | € 50,00 |
+| Kennismakingsstage | € 180,00 |
+| **Starts** | |
+| Startabonnement — vol seizoen | € 380,00 |
+| Startabonnement — vanaf juli | € 300,00 |
+| Lierstart clubvliegtuig | € 12,00 |
+| Lierstart privévliegtuig | € 10,00 |
+| Sleepstart clubvliegtuig (excl. sleepkosten) | € 6,00 |
+| **Toeslagen** | |
+| Thermiektoeslag clubvliegtuig (per minuut na 1e kwartier) | € 0,166 |
+| Motorgebruik Duo Discus XLT (per minuut) | € 2,00 |
 
-Zonder startabonnement betaal je **€ 12,– per start**, tot een maximum van het abonnementsbedrag — je betaalt dus nooit meer dan het abonnement kost.
+> **Thermiektoeslag:** Maximum € 40,– per dag. Maximum per seizoen: € 250,– voor senior leden en € 150,– voor junior leden.
 
 ### KNVVL Zweefvliegen Lidmaatschap
 
