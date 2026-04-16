@@ -94,7 +94,7 @@ strong { font-weight: 600; }
   gap: 0.3rem;
   padding: 0.5rem 0.9rem;
   color: var(--text);
-  font-size: 0.875rem;
+  font-size: 0.95rem;
   font-weight: 500;
   border-radius: var(--radius);
   transition: background var(--transition), color var(--transition);
@@ -189,6 +189,10 @@ strong { font-weight: 600; }
   background-size: cover;
   background-position: center top;
   background-attachment: fixed;
+}
+/* iOS Safari does not support background-attachment: fixed */
+@supports (-webkit-touch-callout: none) {
+  .hero.has-photo { background-attachment: scroll; }
 }
 /* Dark gradient overlay for photo readability */
 .hero-overlay {
@@ -342,6 +346,78 @@ strong { font-weight: 600; }
 .intro-container h2:first-child { margin-top: 0; }
 
 /* ============================================================
+   COST BANNER
+   ============================================================ */
+.cost-banner {
+  background: linear-gradient(135deg, var(--blue-dark) 0%, var(--blue) 100%);
+  color: #fff;
+  padding: 3.5rem 0;
+}
+.cost-banner-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: flex-start;
+}
+.cost-banner-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: rgba(255,255,255,0.7);
+  margin-bottom: 0.4rem;
+}
+.cost-banner h2 {
+  color: #fff;
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  margin: 0 0 0.75rem;
+}
+.cost-banner p {
+  color: rgba(255,255,255,0.85);
+  max-width: 540px;
+  margin: 0;
+  font-size: 0.95rem;
+}
+.cost-banner-items {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.cost-item {
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: var(--radius-lg);
+  padding: 1rem 1.5rem;
+  text-align: center;
+  min-width: 140px;
+}
+.cost-item-total {
+  background: rgba(255,255,255,0.2);
+  border-color: rgba(255,255,255,0.4);
+}
+.cost-item-amount {
+  font-size: 1.9rem;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.1;
+}
+.cost-item-total .cost-item-amount {
+  color: #fff;
+}
+.cost-item-label {
+  font-size: 0.75rem;
+  color: rgba(255,255,255,0.75);
+  margin-top: 0.3rem;
+  line-height: 1.3;
+}
+.cost-item-plus {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: rgba(255,255,255,0.5);
+}
+
+/* ============================================================
    FEATURE CARDS
    ============================================================ */
 .features {
@@ -423,6 +499,11 @@ strong { font-weight: 600; }
   position: relative;
   display: flex;
   flex-direction: column;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
 }
 .testimonial-card::before {
   content: '\201C'; /* opening quote mark */
@@ -771,7 +852,7 @@ strong { font-weight: 600; }
    ============================================================ */
 .site-footer {
   background: var(--bg-dark);
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.9);
   padding: 3.5rem 0 1.5rem;
 }
 .footer-grid {
@@ -788,11 +869,11 @@ strong { font-weight: 600; }
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 36px;
-  height: 36px;
+  width: 44px;
+  height: 44px;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.9);
   transition: background var(--transition), color var(--transition);
 }
 .footer-social a:hover { background: var(--blue); color: #fff; text-decoration: none; }
@@ -822,6 +903,10 @@ strong { font-weight: 600; }
 /* ============================================================
    RESPONSIVE
    ============================================================ */
+
+/* Prevent body scroll when mobile nav is open */
+body.nav-open { overflow: hidden; }
+
 @media (max-width: 960px) {
   .sport-teaser-content { grid-template-columns: 1fr; }
   .contact-grid { grid-template-columns: 1fr; }
@@ -852,7 +937,7 @@ strong { font-weight: 600; }
   .main-nav.open { display: block; }
   .main-nav ul { flex-direction: column; gap: 0; }
   .main-nav > ul > li > a {
-    padding: 0.9rem 0.5rem;
+    padding: 0.9rem 1rem;
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.92);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -872,7 +957,7 @@ strong { font-weight: 600; }
     color: rgba(255,255,255,0.75);
     border-left: none;
     font-size: 0.9rem;
-    padding: 0.5rem 1rem;
+    padding: 0.6rem 1rem;
   }
   .main-nav .dropdown li a:hover { background: rgba(255,255,255,0.1); color: #fff; }
 
@@ -885,6 +970,14 @@ strong { font-weight: 600; }
 @media (max-width: 480px) {
   h1 { font-size: 1.75rem; }
   .stat-number { font-size: 1.9rem; }
+  .cost-banner-items { gap: 0.6rem; }
+  .cost-item { min-width: 110px; padding: 0.75rem 1rem; }
+  .cost-item-amount { font-size: 1.5rem; }
   .photo-strip { grid-template-columns: 1fr 1fr; }
   .photo-strip .photo-wide { grid-column: span 2; }
+  .testimonials-grid { grid-template-columns: 1fr; }
+  .leden-grid { grid-template-columns: 1fr; }
+  .cards-grid { grid-template-columns: 1fr; }
+  .hero-buttons { flex-direction: column; align-items: center; }
+  .hero-buttons .btn { width: 100%; max-width: 280px; text-align: center; }
 }

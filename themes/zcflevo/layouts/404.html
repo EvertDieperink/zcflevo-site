@@ -1,0 +1,19 @@
+{{ define "main" }}
+<section class="page-header">
+  <div class="container">
+    <h1>Pagina niet gevonden</h1>
+    <p class="page-description">De pagina die je zoekt bestaat niet of is verplaatst.</p>
+  </div>
+</section>
+
+<section class="page-content" style="text-align: center; padding: 5rem 0;">
+  <div class="container">
+    <div style="font-size: 6rem; font-weight: 800; color: var(--blue); opacity: 0.15; line-height: 1; margin-bottom: 1rem;">404</div>
+    <h2 style="margin-top: 0; border: none; padding: 0; color: var(--blue-dark);">Oeps, we kunnen deze pagina niet vinden</h2>
+    <p style="color: var(--text-muted); max-width: 480px; margin: 1rem auto 2rem;">
+      Misschien is de pagina verplaatst, of heb je een verkeerd adres ingetypt. Ga terug naar de homepage en probeer het opnieuw.
+    </p>
+    <a href="{{ "/" | relURL }}" class="btn btn-blue">← Terug naar de homepage</a>
+  </div>
+</section>
+{{ end }}

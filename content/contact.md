@@ -1,6 +1,7 @@
 ---
 title: "Contact"
 description: "Neem contact op met Zweefvliegclub Flevo."
+has_map: true
 ---
 
 ## Neem contact op
