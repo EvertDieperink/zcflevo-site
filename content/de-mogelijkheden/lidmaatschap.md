@@ -38,10 +38,10 @@ Zweefvliegen bestaat uit een paar vaste jaarlijkse kostenposten. Hieronder een o
 
 | | Volwassenen | Junioren (t/m 18 jaar) |
 |---|---|---|
-| Jaarlijkse contributie | € 285 | € 175 |
-| Startabonnement (onbeperkt starten) | € 475 | € 285 |
+| Jaarlijkse contributie | € 385 | € 305 |
+| Startabonnement (onbeperkt starten) | € 380 | € 380 |
 
-Zonder startabonnement betaal je **€ 8,50 per start**, tot een maximum van het abonnementsbedrag — je betaalt dus nooit meer dan het abonnement kost.
+Zonder startabonnement betaal je **€ 12,– per start**, tot een maximum van het abonnementsbedrag — je betaalt dus nooit meer dan het abonnement kost.
 
 ### KNVVL Zweefvliegen Lidmaatschap
 
@@ -64,15 +64,15 @@ De geldigheidsduur is afhankelijk van je leeftijd:
 | 30 – 50 jaar | 2 jaar |
 | Vanaf 50 jaar | 1 jaar |
 
-### Totaaloverzicht — voorbeeld volwassene met startabonnement
+### Totaaloverzicht — met startabonnement
 
-| Post | Bedrag |
-|---|---|
-| Clubcontributie | € 285 |
-| Startabonnement | € 475 |
-| KNVVL lidmaatschap zweefvliegen | € 201 |
-| **Totaal per jaar** | **± € 961** |
-| LAPL medical (eenmalig / per periode) | ± € 125 |
+| Post | Volwassenen | Junioren |
+|---|---|---|
+| Clubcontributie | € 385 | € 305 |
+| Startabonnement | € 380 | € 380 |
+| KNVVL lidmaatschap zweefvliegen | € 201,16 | € 121,08 |
+| **Totaal per jaar** | **€ 966,16** | **€ 806,08** |
+| LAPL medical (eenmalig / per periode) | ± € 125 | ± € 125 |
 
 > Vluchten zijn **onbeperkt** inbegrepen in het startabonnement. Er zijn geen extra kosten per vlucht.
 
