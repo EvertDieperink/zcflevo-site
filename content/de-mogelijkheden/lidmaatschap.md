@@ -36,28 +36,31 @@ Zweefvliegen bestaat uit een paar vaste jaarlijkse kostenposten. Hieronder een o
 
 ### Tarieven ZC Flevo
 
-| Omschrijving | Tarief |
-|---|---|
-| **Inschrijfgeld** | |
-| Inschrijfgeld senior (> 21 jaar) | € 150,00 |
-| Inschrijfgeld junior (≤ 21 jaar) | € 100,00 |
-| **Contributie** | |
-| Contributie senior — vol seizoen | € 385,00 |
-| Contributie senior — vanaf juli | € 270,00 |
-| Contributie junior (≤ 21) — vol seizoen | € 305,00 |
-| Contributie junior (≤ 21) — vanaf juli | € 215,00 |
-| Contributie vanaf september | € 65,00 |
-| Administratief lid of donateur | € 50,00 |
-| Kennismakingsstage | € 180,00 |
-| **Starts** | |
-| Startabonnement — vol seizoen | € 380,00 |
-| Startabonnement — vanaf juli | € 300,00 |
-| Lierstart clubvliegtuig | € 12,00 |
-| Lierstart privévliegtuig | € 10,00 |
-| Sleepstart clubvliegtuig (excl. sleepkosten) | € 6,00 |
-| **Toeslagen** | |
-| Thermiektoeslag clubvliegtuig (per minuut na 1e kwartier) | € 0,166 |
-| Motorgebruik Duo Discus XLT (per minuut) | € 2,00 |
+<table>
+  <thead>
+    <tr><th>Omschrijving</th><th>Tarief</th></tr>
+  </thead>
+  <tbody>
+    <tr class="table-group-header"><td colspan="2">Inschrijfgeld</td></tr>
+    <tr><td>Inschrijfgeld senior (&gt; 21 jaar)</td><td>€ 150,00</td></tr>
+    <tr><td>Inschrijfgeld junior (≤ 21 jaar)</td><td>€ 100,00</td></tr>
+    <tr class="table-group-header"><td colspan="2">Contributie</td></tr>
+    <tr><td>Contributie senior — vol seizoen</td><td>€ 385,00</td></tr>
+    <tr><td>Contributie senior — vanaf juli</td><td>€ 270,00</td></tr>
+    <tr><td>Contributie junior (≤ 21) — vol seizoen</td><td>€ 305,00</td></tr>
+    <tr><td>Contributie junior (≤ 21) — vanaf juli</td><td>€ 215,00</td></tr>
+    <tr><td>Contributie vanaf september</td><td>€ 65,00</td></tr>
+    <tr><td>Administratief lid of donateur</td><td>€ 50,00</td></tr>
+    <tr class="table-group-header"><td colspan="2">Starts</td></tr>
+    <tr><td>Startabonnement — vol seizoen</td><td>€ 380,00</td></tr>
+    <tr><td>Startabonnement — vanaf juli</td><td>€ 300,00</td></tr>
+    <tr><td>Lierstart clubvliegtuig</td><td>€ 12,00</td></tr>
+    <tr><td>Lierstart privévliegtuig</td><td>€ 10,00</td></tr>
+    <tr class="table-group-header"><td colspan="2">Toeslagen</td></tr>
+    <tr><td>Thermiektoeslag clubvliegtuig (per minuut na 1e kwartier)</td><td>€ 0,166</td></tr>
+    <tr><td>Motorgebruik Duo Discus XLT (per minuut)</td><td>€ 2,00</td></tr>
+  </tbody>
+</table>
 
 > **Thermiektoeslag:** Maximum € 40,– per dag. Maximum per seizoen: € 250,– voor senior leden en € 150,– voor junior leden.
 

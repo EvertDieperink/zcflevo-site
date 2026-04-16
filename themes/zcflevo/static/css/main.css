@@ -850,6 +850,17 @@ strong { font-weight: 600; }
 .page-content table tr:nth-child(even) td { background: var(--bg-light); }
 .page-content table th:first-child,
 .page-content table td:first-child { font-weight: 600; color: var(--text); }
+/* Section group headers within a table */
+.page-content table tr.table-group-header td {
+  background: var(--blue-dark);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 0.45rem 1rem;
+  border-bottom: none;
+}
 
 /* ============================================================
    SECTION LIST (child page cards)
