@@ -55,7 +55,7 @@ theme = 'zcflevo'
   weight = 3
 
 [[menu.main]]
-  name = "Kennismaken"
+  name = "Kom een keer kijken"
   url = "/de-mogelijkheden/kennismaken/"
   parent = "de-mogelijkheden"
   weight = 31
