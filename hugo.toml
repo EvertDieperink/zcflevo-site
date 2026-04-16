@@ -67,14 +67,14 @@ theme = 'zcflevo'
   weight = 32
 
 [[menu.main]]
-  name = "Zomercursus"
-  url = "/de-mogelijkheden/zomercursus/"
+  name = "Lidmaatschap"
+  url = "/de-mogelijkheden/lidmaatschap/"
   parent = "de-mogelijkheden"
   weight = 33
 
 [[menu.main]]
-  name = "Lidmaatschap"
-  url = "/de-mogelijkheden/lidmaatschap/"
+  name = "Zomercursus"
+  url = "/de-mogelijkheden/zomercursus/"
   parent = "de-mogelijkheden"
   weight = 34
 

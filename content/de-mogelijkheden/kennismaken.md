@@ -1,5 +1,5 @@
 ---
-title: "Kennismaken"
+title: "Kom een keer kijken"
 description: "Benieuwd naar zweefvliegen? Maak een afspraak voor een introductievlucht met ZC Flevo."
 ---
 
