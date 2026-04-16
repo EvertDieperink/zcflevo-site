@@ -848,18 +848,18 @@ strong { font-weight: 600; }
 }
 .page-content table tr:last-child td { border-bottom: none; }
 .page-content table tr:nth-child(even) td { background: var(--bg-light); }
-.page-content table th:first-child,
 .page-content table td:first-child { font-weight: 600; color: var(--text); }
-/* Section group headers within a table */
-.page-content table tr.table-group-header td {
-  background: var(--blue-dark);
-  color: #fff;
+/* Groepskoppen: rijen met lege tweede cel (bijv. "Inschrijfgeld | |") */
+.page-content table tr:has(td:last-child:empty) td {
+  background: #eef3f9;
+  color: var(--blue-dark);
   font-weight: 700;
-  font-size: 0.78rem;
+  font-size: 0.82rem;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
-  padding: 0.45rem 1rem;
-  border-bottom: none;
+  letter-spacing: 0.07em;
+  border-bottom: 1px solid var(--border);
+  padding-top: 0.55rem;
+  padding-bottom: 0.55rem;
 }
 
 /* ============================================================
