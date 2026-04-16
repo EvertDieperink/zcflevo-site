@@ -417,6 +417,41 @@ strong { font-weight: 600; }
   color: rgba(255,255,255,0.5);
 }
 
+/* Tabs (pure CSS via radio buttons) */
+.cost-tabs { margin-top: 1.75rem; }
+.cost-tabs input[type="radio"] { display: none; }
+.cost-tab-labels {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.cost-tab-labels label {
+  padding: 0.45rem 1.25rem;
+  border-radius: 50px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  background: rgba(255,255,255,0.12);
+  color: rgba(255,255,255,0.7);
+  border: 1px solid rgba(255,255,255,0.2);
+  transition: all var(--transition);
+}
+.cost-tab-labels label:hover {
+  background: rgba(255,255,255,0.2);
+  color: #fff;
+}
+/* Active tab when senior is selected */
+#tab-senior:checked ~ .cost-tab-labels label[for="tab-senior"],
+#tab-junior:checked ~ .cost-tab-labels label[for="tab-junior"] {
+  background: #fff;
+  color: var(--blue-dark);
+  border-color: #fff;
+}
+/* Show/hide panels */
+.cost-tab-panel { display: none; }
+#tab-senior:checked ~ #panel-senior,
+#tab-junior:checked ~ #panel-junior { display: block; }
+
 /* ============================================================
    FEATURE CARDS
    ============================================================ */

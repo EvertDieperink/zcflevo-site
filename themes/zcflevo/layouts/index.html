@@ -87,30 +87,61 @@
 <!-- Kosten Banner -->
 <section class="cost-banner">
   <div class="container">
-    <div class="cost-banner-inner">
-      <div class="cost-banner-text">
-        <div class="cost-banner-label">Onbeperkt vliegen</div>
-        <h2>Zweefvliegen voor &lt; &euro;1.000 per jaar</h2>
-        <p>Inclusief onbeperkt starten, vliegopleiding, gebruik van alle clubvliegtuigen en verzekering. Geen brandstofkosten, geen verborgen kosten.</p>
-      </div>
-      <div class="cost-banner-items">
-        <div class="cost-item">
-          <div class="cost-item-amount">&euro;760</div>
-          <div class="cost-item-label">Contributie + startabonnement</div>
-        </div>
-        <div class="cost-item-plus">+</div>
-        <div class="cost-item">
-          <div class="cost-item-amount">&euro;201</div>
-          <div class="cost-item-label">KNVVL verzekering &amp; lidmaatschap</div>
-        </div>
-        <div class="cost-item-plus">=</div>
-        <div class="cost-item cost-item-total">
-          <div class="cost-item-amount">&euro;961</div>
-          <div class="cost-item-label">Totaal per jaar, all-in</div>
-        </div>
-      </div>
-      <a href="{{ "/de-mogelijkheden/lidmaatschap/" | relURL }}" class="btn btn-primary">Bekijk alle kosten &rarr;</a>
+    <div class="cost-banner-text">
+      <div class="cost-banner-label">Onbeperkt vliegen</div>
+      <h2>Zweefvliegen voor &lt; &euro;1.000 per jaar</h2>
+      <p>Inclusief onbeperkt starten, vliegopleiding, gebruik van alle clubvliegtuigen en verzekering. Geen brandstofkosten, geen verborgen kosten.</p>
     </div>
+
+    <!-- Tab toggle via hidden radio buttons (no JS) -->
+    <div class="cost-tabs">
+      <input type="radio" name="cost-tab" id="tab-senior" checked>
+      <input type="radio" name="cost-tab" id="tab-junior">
+      <div class="cost-tab-labels">
+        <label for="tab-senior">Senior</label>
+        <label for="tab-junior">Junior (t/m 18 jr)</label>
+      </div>
+
+      <div class="cost-tab-panel" id="panel-senior">
+        <div class="cost-banner-items">
+          <div class="cost-item">
+            <div class="cost-item-amount">&euro;760</div>
+            <div class="cost-item-label">Contributie + startabonnement</div>
+          </div>
+          <div class="cost-item-plus">+</div>
+          <div class="cost-item">
+            <div class="cost-item-amount">&euro;201</div>
+            <div class="cost-item-label">KNVVL lidmaatschap</div>
+          </div>
+          <div class="cost-item-plus">=</div>
+          <div class="cost-item cost-item-total">
+            <div class="cost-item-amount">&euro;961</div>
+            <div class="cost-item-label">Totaal per jaar, all-in</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cost-tab-panel" id="panel-junior">
+        <div class="cost-banner-items">
+          <div class="cost-item">
+            <div class="cost-item-amount">&euro;460</div>
+            <div class="cost-item-label">Contributie + startabonnement</div>
+          </div>
+          <div class="cost-item-plus">+</div>
+          <div class="cost-item">
+            <div class="cost-item-amount">&euro;121</div>
+            <div class="cost-item-label">KNVVL lidmaatschap</div>
+          </div>
+          <div class="cost-item-plus">=</div>
+          <div class="cost-item cost-item-total">
+            <div class="cost-item-amount">&euro;581</div>
+            <div class="cost-item-label">Totaal per jaar, all-in</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="{{ "/de-mogelijkheden/lidmaatschap/" | relURL }}" class="btn btn-primary">Bekijk alle kosten &rarr;</a>
   </div>
 </section>
 
