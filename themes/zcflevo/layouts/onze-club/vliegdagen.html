@@ -1,16 +1,17 @@
 {{ define "main" }}
 
-<section class="page-header">
+<div class="page-header">
   <div class="container">
-    <nav class="breadcrumb" aria-label="Breadcrumb">
-      <a href="{{ "/" | relURL }}">Home</a> /
-      <a href="{{ "/onze-club/" | relURL }}">Onze Club</a> /
-      {{ .Title }}
-    </nav>
+    <div class="breadcrumb">
+      <a href="{{ "/" | relURL }}">Home</a>
+      <span aria-hidden="true"> › </span>
+      <a href="{{ "/onze-club/" | relURL }}">Onze Club</a>
+      <span aria-hidden="true"> › </span>
+    </div>
     <h1>{{ .Title }}</h1>
     {{ with .Description }}<p class="page-description">{{ . }}</p>{{ end }}
   </div>
-</section>
+</div>
 
 <div class="flights-page">
   <div class="flights-container">
