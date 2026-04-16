@@ -26,6 +26,7 @@
   <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
 
   {{ if .Params.has_map }}{{ partial "mapbox-head.html" . }}{{ end }}
+  {{ if .Params.has_flights }}<script src="{{ "js/vliegdagen.js" | relURL }}" defer></script>{{ end }}
 </head>
 <body>
   {{ partial "header.html" . }}

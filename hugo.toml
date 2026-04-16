@@ -49,6 +49,12 @@ theme = 'zcflevo'
   weight = 23
 
 [[menu.main]]
+  name = "Vliegdagen"
+  url = "/onze-club/vliegdagen/"
+  parent = "onze-club"
+  weight = 25
+
+[[menu.main]]
   name = "De Mogelijkheden"
   identifier = "de-mogelijkheden"
   url = "/de-mogelijkheden/"

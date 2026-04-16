@@ -1,0 +1,48 @@
+{{ define "main" }}
+
+<section class="page-header">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="{{ "/" | relURL }}">Home</a> /
+      <a href="{{ "/onze-club/" | relURL }}">Onze Club</a> /
+      {{ .Title }}
+    </nav>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="page-description">{{ . }}</p>{{ end }}
+  </div>
+</section>
+
+<div class="flights-page">
+  <div class="flights-container">
+
+    <!-- Date picker -->
+    <div class="date-picker-bar">
+      <label for="flight-date">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+          <rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/>
+          <line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
+        </svg>
+        Datum
+      </label>
+      <input type="date" id="flight-date" />
+      <button id="prev-day" class="day-nav" aria-label="Vorige dag">&#8592;</button>
+      <button id="next-day" class="day-nav" aria-label="Volgende dag">&#8594;</button>
+    </div>
+
+    <!-- Dynamic content rendered by vliegdagen.js -->
+    <div id="flights-app">
+      <div class="flights-loading">
+        <div class="spinner"></div>
+        <span>Vluchten ophalen&hellip;</span>
+      </div>
+    </div>
+
+    <p class="flights-source">
+      Gegevens via <a href="https://flightbook.glidernet.org/logbook/EHTL/" target="_blank" rel="noopener">Open Glider Network</a>.
+      Vluchten worden geregistreerd via FLARM.
+    </p>
+
+  </div>
+</div>
+
+{{ end }}
