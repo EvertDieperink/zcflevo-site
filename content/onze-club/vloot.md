@@ -6,8 +6,8 @@ description: "ZC Flevo beschikt over zeven zweefvliegtuigen voor training en pre
 ZC Flevo beschikt over **zeven zweefvliegtuigen**, gestationeerd op Vliegveld Terlet. Alle toestellen worden in de wintermaanden in eigen beheer onderhouden in onze werkplaats in Biddinghuizen.
 
 <div class="photo-row">
-  <img src="https://zcflevo.nl/wp-content/uploads/2020/04/DSC_2131.jpg" alt="Zweefvliegtuig van ZC Flevo" loading="lazy">
-  <img src="https://zcflevo.nl/wp-content/uploads/2020/04/EVH_2736.jpg" alt="Zweefvliegtuig in de lucht" loading="lazy">
+  <img src="/images/DSC_2131.jpg" alt="Zweefvliegtuig van ZC Flevo" loading="lazy">
+  <img src="/images/EVH_2736.jpg" alt="Zweefvliegtuig in de lucht" loading="lazy">
 </div>
 
 ## Trainingstoestellen
@@ -65,7 +65,7 @@ Een wedstrijdtoestel met waterballast voor extra prestaties. Voorbehouden voor b
 - **Gebruik:** Competitie, gevorderde XC vluchten
 - **Bijzonderheid:** Waterballast voor optimale prestaties
 
-<img src="https://zcflevo.nl/wp-content/uploads/2020/04/DSC_3444.jpg" alt="Zweefvliegtuig klaar voor de start" loading="lazy">
+<img src="/images/DSC_3444.jpg" alt="Zweefvliegtuig klaar voor de start" loading="lazy">
 
 ## Tweepersoons Prestatiemachines
 
