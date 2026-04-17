@@ -85,6 +85,12 @@ theme = 'zcflevo'
   weight = 34
 
 [[menu.main]]
+  name = "Buitenlandkampen"
+  url = "/de-mogelijkheden/buitenlandkampen/"
+  parent = "de-mogelijkheden"
+  weight = 35
+
+[[menu.main]]
   name = "FAQ"
   url = "/faq/"
   weight = 4
