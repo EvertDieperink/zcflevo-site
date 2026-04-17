@@ -7,6 +7,10 @@ description: "Benieuwd naar zweefvliegen? Maak een afspraak voor een introductie
 
 Zweefvliegen is een unieke ervaring die je moeilijk kunt beschrijven — je moet het zelf voelen. De stilte, het uitzicht, het gevoel van vrij vliegen zonder motor.
 
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/bErB4X-h8O4" title="Zweefvliegen bij ZC Flevo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 Ben je nieuwsgierig? Dat begrijpen we. Je kunt contact opnemen met onze secretaris om een **introductievlucht** te regelen. Je gaat dan mee met een ervaren instructeur vanuit Vliegveld Terlet.
 
 ## Hoe werkt het?
