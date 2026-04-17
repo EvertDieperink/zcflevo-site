@@ -194,10 +194,23 @@ strong { font-weight: 600; }
 @supports (-webkit-touch-callout: none) {
   .hero.has-photo { background-attachment: scroll; }
 }
-/* Dark gradient overlay for photo readability */
+/* Background video (desktop only) */
+.hero-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+@media (max-width: 768px) {
+  .hero-video { display: none; }
+}
+/* Dark gradient overlay for photo/video readability */
 .hero-overlay {
   position: absolute;
   inset: 0;
+  z-index: 1;
   background: linear-gradient(
     160deg,
     rgba(26, 58, 92, 0.82) 0%,
