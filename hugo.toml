@@ -54,11 +54,6 @@ theme = 'zcflevo'
   parent = "onze-club"
   weight = 25
 
-[[menu.main]]
-  name = "Veiligheid"
-  url = "/onze-club/veiligheid/"
-  parent = "onze-club"
-  weight = 26
 
 [[menu.main]]
   name = "De Mogelijkheden"
