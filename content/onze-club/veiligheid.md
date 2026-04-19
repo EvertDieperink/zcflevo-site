@@ -3,19 +3,21 @@ title: "Veiligheid"
 description: "Zweefvliegen bij ZC Flevo is een serieuze sport met een indrukwekkende veiligheidsgeschiedenis. Lees hoe wij veiligheid borgen — voor elke leeftijd."
 ---
 
-## Vijftig jaar vliegen, nul dodelijke ongelukken
+## Veiligheid is een cultuur, geen toeval
 
-Sinds de oprichting van ZC Flevo in 1972 hebben wij **in meer dan vijftig jaar clubgeschiedenis nog nooit een dodelijk ongeluk** gehad. Dat is geen toeval. Het is het resultaat van een cultuur waarin veiligheid niet iets is wat je op papier regelt, maar iets wat je elke vliegdag opnieuw met elkaar doet.
+Zweefvliegen is een serieuze sport die risico's kent — zoals elke buitensport. Maar die risico's zijn beheersbaar, voorspelbaar en in grote mate te voorkomen. Dat is precies wat we doen, elke vliegdag opnieuw.
 
-Zweefvliegen is een serieuze sport die risico's kent — zoals elke buitensport. Maar die risico's zijn beheersbaar, voorspelbaar en in grote mate te voorkomen. Dat is precies wat we doen.
+Bij ZC Flevo staat veiligheid niet op papier, maar zit het in de manier waarop we met elkaar omgaan op het veld. Dat werpt zijn vruchten af: in meer dan vijftig jaar clubgeschiedenis hebben wij nog nooit een dodelijk ongeluk gehad.
 
 ---
 
 ## Hoe veiligheid werkt bij ZC Flevo
 
-### De instructeur beslist — altijd
+### Een zorgvuldig proces voor de eerste solo
 
-Leerlingen vliegen **nooit alleen** totdat een instructeur heeft bevestigd dat ze er klaar voor zijn. Dat geldt voor de eerste solo, maar ook daarna: bij twijfel over het weer, de conditie van de piloot of de omstandigheden op het veld, wordt er niet gevlogen. Geen uitzondering.
+Leerlingen vliegen **nooit alleen** totdat ze daar aantoonbaar klaar voor zijn. Dat is geen beslissing van één persoon: een leerling heeft een volledig **afgetekend opleidingsprogramma** afgerond, en de stap naar solo wordt besproken in een **instructeursvergadering**. Pas als het hele instructeursteam akkoord is, gaat een leerling alleen de lucht in.
+
+Bij twijfel over het weer, de conditie van de piloot of de omstandigheden op het veld wordt er niet gevlogen. Geen uitzondering.
 
 ### Elke vliegdag begint met een briefing
 
@@ -64,7 +66,7 @@ Zweefvliegen mag al vanaf **14 jaar**. Wij begrijpen dat dat vragen oproept bij 
 Nee — mits goed begeleid. Jonge leerlingen vliegen uitsluitend samen met een instructeur in een tweezitter. Ze gaan pas solo als de instructeur volledig overtuigd is van hun vaardigheid en rijpheid. Dat oordeel is onafhankelijk van leeftijd of hoe graag iemand wil.
 
 **Wie beslist wanneer mijn kind solo mag?**
-De instructeur — en alleen de instructeur. Geen enkele tijdsdruk, ouderdruk of eigen ambitie van de leerling verandert dat oordeel.
+Dat is een collectief besluit. Je kind rondt een volledig opleidingsprogramma af, waarbij elke stap wordt afgetekend door een instructeur. Daarna bespreken alle instructeurs samen of de leerling er klaar voor is. Geen tijdsdruk, ouderdruk of eigen ambitie van de leerling verandert dat oordeel.
 
 **Moet mijn kind een medische keuring ondergaan?**
 Ja. Voordat iemand solo mag vliegen, is een **LAPL medical** vereist: een eenvoudig medisch onderzoek bij een erkende vliegarts. Hiermee wordt vastgesteld dat er geen gezondheidsbezwaren zijn. Dit is een wettelijke verplichting — geen formaliteit.
