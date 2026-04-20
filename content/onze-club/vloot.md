@@ -104,6 +104,8 @@ Prestatie-tweezitter voor gevorderde vliegers. Voorbehouden voor GPL-geverifieer
 
 ## Startmethode: Elektrische Lier (ESW-2b)
 
+<img src="/images/vloot-lier.jpg" alt="De elektrische lier (ESW-2b) van ZC Flevo" loading="lazy">
+
 Sinds **maart 2013** gebruikt ZC Flevo een **elektrische lier** (ElektroStartWinde-2b) in plaats van de traditionele sleepstart of tegenvliegtuigstart. Dit heeft grote voordelen:
 
 ### Werking
