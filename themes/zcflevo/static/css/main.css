@@ -1273,6 +1273,74 @@ body.nav-open { overflow: hidden; }
   opacity: 0.7;
 }
 
+/* ============================================================
+   STARTLIJST ADDITIONS
+   ============================================================ */
+
+/* Live indicator badge */
+.live-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #065f46;
+  background: #d1fae5;
+  border-radius: 50px;
+  padding: 0.2rem 0.75rem;
+}
+.live-dot {
+  width: 7px;
+  height: 7px;
+  background: #10b981;
+  border-radius: 50%;
+  animation: live-pulse 1.4s ease-in-out infinite;
+}
+@keyframes live-pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.25; }
+}
+
+/* Pilot status badges */
+.pilot-badge {
+  display: inline-block;
+  padding: 0.1rem 0.5rem;
+  border-radius: 50px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.status-instructeur  { background: #dbeafe; color: #1e40af; }
+.status-linstructeur { background: #e0e7ff; color: #3730a3; }
+.status-solo         { background: #d1fae5; color: #065f46; }
+.status-zvb          { background: #f3f4f6; color: #374151; }
+.status-leerling     { background: #fef3c7; color: #92400e; }
+.status-dbo          { background: #fce7f3; color: #9d174d; }
+.status-other        { background: var(--bg-light); color: var(--text-muted); }
+
+/* ZC Flevo aircraft row highlight */
+.flights-table tr.flight-row--club td         { background: #eff6ff; }
+.flights-table tr.flight-row--club:hover td   { background: #dbeafe; }
+
+/* ZC Flevo legend chip in summary line */
+.flight-row-legend {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 2px;
+  vertical-align: middle;
+  margin: 0 0.1rem;
+}
+
+/* Muted helper used in table cells */
+.text-muted {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
 @media (max-width: 480px) {
   h1 { font-size: 1.75rem; }
   .stat-number { font-size: 1.9rem; }

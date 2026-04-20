@@ -29,6 +29,7 @@
 
   {{ if .Params.has_map }}{{ partial "mapbox-head.html" . }}{{ end }}
   {{ if .Params.has_flights }}<script src="{{ "js/vliegdagen.js" | relURL }}" defer></script>{{ end }}
+  {{ if .Params.has_startlijst }}<script src="{{ "js/startlijst.js" | relURL }}" defer></script>{{ end }}
 
   <!-- Structured data -->
   <script type="application/ld+json">
