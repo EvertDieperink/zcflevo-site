@@ -10,31 +10,30 @@ menu:
 
 ZC Flevo beschikt over **zeven zweefvliegtuigen**, gestationeerd op Vliegveld Terlet. Alle toestellen worden in de wintermaanden in eigen beheer onderhouden in onze werkplaats in Biddinghuizen.
 
-<div class="photo-row">
-  <img src="/images/DSC_2131.jpg" alt="Zweefvliegtuig van ZC Flevo" loading="lazy">
-  <img src="/images/EVH_2736.jpg" alt="Zweefvliegtuig in de lucht" loading="lazy">
-</div>
-
 ## Trainingstoestellen
 
 ### Schleicher ASK-21 (PH-1382)
 **Callsign:** YW | **Bouwjaar:** 1994
 
+<img src="/images/vloot-ask21.jpg" alt="Schleicher ASK-21 (YW), het primaire trainingstoestel van ZC Flevo" loading="lazy">
+
 Het primaire trainingstoestel van de club. De ASK-21 staat bekend om zijn prettige vliegeigenschappen en wordt gebruikt voor zowel de basisopleiding als kunstvliegtraining.
 
 - **Spanwijdte:** 17 m
 - **Maximale snelheid:** 280 km/h
-- **Glijverhouding:** 33,5 (bij 90 km/h)
+- **Beste glijgetal:** 33,5 (bij 90 km/h)
 - **Gebruik:** Eerste solo's, basisinstructie, kunstvliegen
 
 ### SZD-51-1 Junior (PH-1006)
 **Callsign:** YT | **Bouwjaar:** 1993
 
+<img src="/images/vloot-junior.jpg" alt="SZD-51-1 Junior (YT), overgangstrainer van ZC Flevo" loading="lazy">
+
 De overgangstrainer voor meer zelfstandig vliegen. De Junior is eenvoudig te vliegen en heeft goede klimcapaciteiten, ideaal als eerste stap naar eenpersoonstoestellen.
 
 - **Spanwijdte:** 15 m
 - **Maximale snelheid:** 220 km/h
-- **Glijverhouding:** 35 (bij 80 km/h)
+- **Beste glijgetal:** 35 (bij 80 km/h)
 - **Gebruik:** Voorbereiding op eenpersoonstoestellen
 
 ## Eenpersoonstoestellen
@@ -42,57 +41,65 @@ De overgangstrainer voor meer zelfstandig vliegen. De Junior is eenvoudig te vli
 ### Rolladen-Schneider LS4-b (PH-974)
 **Callsign:** YS | **Bouwjaar:** 1992
 
+<img src="/images/vloot-ls4b.jpg" alt="Rolladen-Schneider LS4-b (YS) van ZC Flevo" loading="lazy">
+
 Een geavanceerd prestatie-toestel voor ervaren piloten. Uitstekend geschikt voor XC (cross-country) vluchten.
 
 - **Spanwijdte:** 15 m
 - **Maximale snelheid:** 280 km/h
-- **Glijverhouding:** 40 (bij 105 km/h)
+- **Beste glijgetal:** 40 (bij 105 km/h)
 - **Gebruik:** Geavanceerde piloten, cross-country vliegen
 
 ### Rolladen-Schneider LS7-wl (PH-1273)
 **Callsign:** YZ | **Bouwjaar:** 1992
 
+<img src="/images/vloot-ls7wl.jpg" alt="Rolladen-Schneider LS7-wl (YZ) van ZC Flevo" loading="lazy">
+
 Veelzijdig prestatie-toestel dat zowel voor lokaal vliegen als voor competitie en lange afstandsvluchten geschikt is.
 
 - **Spanwijdte:** 15 m
 - **Maximale snelheid:** 270 km/h
-- **Glijverhouding:** 43 (bij 105 km/h)
+- **Beste glijgetal:** 43 (bij 105 km/h)
 - **Gebruik:** Lokaal vliegen, competitie, cross-country
 
 ### Discus 2b (PH-1210)
 **Callsign:** YF | **Bouwjaar:** 2000
 
+<img src="/images/vloot-discus2b.jpg" alt="Discus 2b (YF) van ZC Flevo" loading="lazy">
+
 Een wedstrijdtoestel met waterballast voor extra prestaties. Voorbehouden voor brevetteerde (GPL) piloten.
 
 - **Spanwijdte:** 15 m
 - **Maximale snelheid:** 250 km/h
-- **Glijverhouding:** ~45
+- **Beste glijgetal:** ~45
 - **Gebruik:** Competitie, gevorderde XC vluchten
 - **Bijzonderheid:** Waterballast voor optimale prestaties
-
-<img src="/images/DSC_3444.jpg" alt="Zweefvliegtuig klaar voor de start" loading="lazy">
 
 ## Tweepersoons Prestatiemachines
 
 ### Duo Discus XLT (PH-1571)
 **Callsign:** YD | **Bouwjaar:** 2016
 
+<img src="/images/EVH_2736.jpg" alt="Duo Discus XLT (YD) van ZC Flevo" loading="lazy">
+
 Onze nieuwste aanwinst. Een moderne tweezitter met ingebouwde hulpmotor voor nood-terugkeer. Perfect voor competitie en lange cross-country vluchten.
 
 - **Spanwijdte:** 18/20 m (variabel)
 - **Maximale snelheid:** 262 km/h
-- **Glijverhouding:** 46,6 (bij 120 km/h)
+- **Beste glijgetal:** 46,6 (bij 120 km/h)
 - **Gebruik:** Competitie, XC, nood-terugkeer op motor
 - **Bijzonderheid:** Uitklapbare hulpmotor voor veilig landen zonder thermiek
 
 ### DG-1000S (PH-1433)
 **Callsign:** YE | **Bouwjaar:** 2008
 
+<img src="/images/vloot-dg1000s.jpg" alt="DG-1000S (YE) van ZC Flevo" loading="lazy">
+
 Prestatie-tweezitter voor gevorderde vliegers. Voorbehouden voor GPL-geverifieerde (Gebreyaard Piloot Licentie) leden.
 
 - **Spanwijdte:** 18/20 m (variabel)
 - **Maximale snelheid:** 270 km/h
-- **Glijverhouding:** 46,6 (bij 120 km/h)
+- **Beste glijgetal:** 46,6 (bij 120 km/h)
 - **Gebruik:** Cross-country, competitie, kunstvliegen (GPL vereist)
 
 ## Startmethode: Elektrische Lier (ESW-2b)

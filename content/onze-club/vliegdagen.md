@@ -5,6 +5,7 @@ layout: "vliegdagen"
 has_flights: true
 menu:
   main:
+    name: "Vliegdagen op Terlet"
     parent: "onze-club"
     weight: 25
 ---
