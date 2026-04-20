@@ -143,14 +143,10 @@ function renderTotals(flights) {
 }
 
 function renderTable(flights, dateStr) {
-  const clubCount = flights.filter(f => isClub(f.plane?.registration)).length;
-
   const rows = flights.map(f => {
     const inAir      = f.startTime && !f.endTime;
     const callsign   = f.plane?.callsign || f.plane?.registration || '?';
     const planeName  = f.plane?.name || '';
-    const reg        = f.plane?.registration || '';
-    const clubRow    = isClub(reg);
 
     const commanderCell = f.commander?.name
       ? `${f.commander.name} ${statusBadge(f.commander.status)}`
@@ -164,7 +160,7 @@ function renderTable(flights, dateStr) {
       ? '<span class="flight-badge flight-badge--air">In de lucht</span>'
       : fmtTime(f.endTime);
 
-    return `<tr${clubRow ? ' class="flight-row--club"' : ''}>
+    return `<tr>
       <td><strong>${callsign}</strong><br><small class="text-muted">${planeName}</small></td>
       <td>${commanderCell}</td>
       <td>${passengerCell}</td>
@@ -176,13 +172,9 @@ function renderTable(flights, dateStr) {
     </tr>`;
   }).join('');
 
-  const clubNote = clubCount > 0
-    ? `, waarvan <strong>${clubCount}</strong> op een <span class="flight-row-legend">ZC Flevo toestel</span>`
-    : '';
-
   return `
     <div class="flights-summary">
-      <strong>${flights.length}</strong> start${flights.length !== 1 ? 'en' : ''} op <strong>${dateStr}</strong>${clubNote}
+      <strong>${flights.length}</strong> start${flights.length !== 1 ? 'en' : ''} van ZC Flevo toestellen op <strong>${dateStr}</strong>
     </div>
     <div class="flights-table-wrap">
       <table class="flights-table">
@@ -215,7 +207,9 @@ async function load(dateStr, silent = false) {
   try {
     const data = await fetchFlights(dateStr);
     const flights = data
-      ? Object.values(data).sort((a, b) => (a.startTime || 0) - (b.startTime || 0))
+      ? Object.values(data)
+          .filter(f => isClub(f.plane?.registration))
+          .sort((a, b) => (a.startTime || 0) - (b.startTime || 0))
       : [];
     app.innerHTML = flights.length ? renderTable(flights, dateStr) : renderEmpty(dateStr);
   } catch (err) {
