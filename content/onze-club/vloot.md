@@ -95,7 +95,7 @@ Onze nieuwste aanwinst. Een moderne tweezitter met ingebouwde hulpmotor voor noo
 
 <img src="/images/vloot-dg1000s.jpg" alt="DG-1000S (YE) van ZC Flevo" loading="lazy">
 
-Prestatie-tweezitter voor gevorderde vliegers. Voorbehouden voor GPL-geverifieerde (Gebreyaard Piloot Licentie) leden.
+Prestatie-tweezitter voor gevorderde vliegers. Voorbehouden voor gebreveteerde leden.
 
 - **Spanwijdte:** 18/20 m (variabel)
 - **Maximale snelheid:** 270 km/h

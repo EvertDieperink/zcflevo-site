@@ -80,9 +80,8 @@ De geldigheidsduur is afhankelijk van je leeftijd:
 
 | Leeftijd | Geldigheidsduur |
 |---|---|
-| Tot 30 jaar | 5 jaar |
-| 30 – 50 jaar | 2 jaar |
-| Vanaf 50 jaar | 1 jaar |
+| Tot 40 jaar | 5 jaar |
+| Na 40 jaar | 2 jaar |
 
 ### Totaaloverzicht, met startabonnement
 
