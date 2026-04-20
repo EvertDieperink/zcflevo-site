@@ -21,4 +21,4 @@ Onze club bestaat uit leden met uiteenlopende achtergronden en beroepen, verspre
 
 ## Vliegseizoen
 
-We vliegen op **alle zaterdagen en zondagen van 1 maart tot 1 november**, met ook veel vrijdagen in het seizoen. In schoolvakanties organiseren we zweefvliegkampen. In de wintermaanden houden we ons bezig met onderhoud aan vliegtuigen en accommodatie — voornamelijk in onze werkplaats in Biddinghuizen.
+We vliegen op **alle zaterdagen en zondagen van 1 maart tot 1 november**, met ook veel vrijdagen in het seizoen. In schoolvakanties organiseren we zweefvliegkampen. In de wintermaanden houden we ons bezig met onderhoud aan vliegtuigen en accommodatie, voornamelijk in onze werkplaats in Biddinghuizen.

@@ -30,7 +30,7 @@ Het primaire trainingstoestel van de club. De ASK-21 staat bekend om zijn pretti
 ### SZD-51-1 Junior (PH-1006)
 **Callsign:** YT | **Bouwjaar:** 1993
 
-De overgangstrainer voor meer zelfstandig vliegen. De Junior is eenvoudig te vliegen en heeft goede klimcapaciteiten — ideaal als eerste stap naar eenpersoonstoestellen.
+De overgangstrainer voor meer zelfstandig vliegen. De Junior is eenvoudig te vliegen en heeft goede klimcapaciteiten, ideaal als eerste stap naar eenpersoonstoestellen.
 
 - **Spanwijdte:** 15 m
 - **Maximale snelheid:** 220 km/h

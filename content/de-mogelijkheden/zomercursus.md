@@ -9,9 +9,9 @@ menu:
 
 ## Zomercursus
 
-In het verleden organiseerde ZC Flevo intensieve zweefvliegkampen tijdens de zomervakantie — een ideale manier om in korte tijd veel vliegervaring op te doen.
+In het verleden organiseerde ZC Flevo intensieve zweefvliegkampen tijdens de zomervakantie, een ideale manier om in korte tijd veel vliegervaring op te doen.
 
-> **Let op:** Voor 2026 is er nog geen zomercursus gepland. Neem contact op als je interesse hebt — we houden je op de hoogte als er een nieuwe editie wordt georganiseerd.
+> **Let op:** Voor 2026 is er nog geen zomercursus gepland. Neem contact op als je interesse hebt, dan houden we je op de hoogte als er een nieuwe editie wordt georganiseerd.
 
 ## Interesse voor een volgende editie?
 

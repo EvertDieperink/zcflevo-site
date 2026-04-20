@@ -9,16 +9,16 @@ menu:
 
 ## Wat is de kennismakingsstage?
 
-Wie overweegt lid te worden van ZC Flevo, start met een kennismakingsstage. Je draait **twee volledige vliegdagen mee** als volwaardig lid van de club — van de ochtendbriefing tot het opbergen van de vliegtuigen aan het einde van de dag. Zo krijg jij een eerlijk beeld van hoe het er bij ons aan toegaat, en krijgt de club een eerste indruk van jou als vlieger.
+Wie overweegt lid te worden van ZC Flevo, start met een kennismakingsstage. Je draait **twee volledige vliegdagen mee** als volwaardig lid van de club, van de ochtendbriefing tot het opbergen van de vliegtuigen aan het einde van de dag. Zo krijg jij een eerlijk beeld van hoe het er bij ons aan toegaat, en krijgt de club een eerste indruk van jou als vlieger.
 
 De stage omvat **6 starts met instructeur**, meestal verdeeld over twee vliegdagen. Op de eerste dag ontvang je een logboekje en een EVO-theorieboekje.
 
 ## Hoe werkt het?
 
-1. **Aanmelden** — Vul je persoonsgegevens in via deze website en maak het stagegeld over op de clubrekening onder vermelding van je naam.
-2. **Vliegdag plannen** — Stuur een mail naar [secretaris@zcflevo.nl](mailto:secretaris@zcflevo.nl) om een afspraak te maken voor je eerste vliegdag.
-3. **Stage volgen** — Je draait twee volledige dagen mee. Je vliegt 6 starts met een instructeur en maakt kennis met alle aspecten van de club.
-4. **Beslissing** — Na afloop meld je per mail aan [secretaris@zcflevo.nl](mailto:secretaris@zcflevo.nl) of je verder wilt als clublid. De penningmeester stuurt je vervolgens een lidmaatschapsfactuur.
+1. **Aanmelden:** vul je persoonsgegevens in via deze website en maak het stagegeld over op de clubrekening onder vermelding van je naam.
+2. **Vliegdag plannen:** stuur een mail naar [secretaris@zcflevo.nl](mailto:secretaris@zcflevo.nl) om een afspraak te maken voor je eerste vliegdag.
+3. **Stage volgen:** je draait twee volledige dagen mee, vliegt 6 starts met een instructeur en maakt kennis met alle aspecten van de club.
+4. **Beslissing:** na afloop meld je per mail aan [secretaris@zcflevo.nl](mailto:secretaris@zcflevo.nl) of je verder wilt als clublid. De penningmeester stuurt je vervolgens een lidmaatschapsfactuur.
 
 > De stagestarts moeten in principe binnen één seizoen worden gemaakt. Als dat door omstandigheden niet mogelijk is, kan in overleg worden afgesproken om in het volgende seizoen verder te gaan.
 

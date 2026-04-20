@@ -19,7 +19,7 @@ Apeldoornseweg 203
 
 Maak **altijd eerst een afspraak per mail** voordat je een bezoek brengt: [secretaris@zcflevo.nl](mailto:secretaris@zcflevo.nl)
 
-Betreed het vliegveld **niet zelfstandig**. Bij aankomst op de parkeerplaats bel je **06-17722964** — we halen je op en begeleiden je veilig naar de startplaats.
+Betreed het vliegveld **niet zelfstandig**. Bij aankomst op de parkeerplaats bel je **06-17722964**, dan halen we je op en begeleiden je veilig naar de startplaats.
 
 ## Bereikbaarheid
 

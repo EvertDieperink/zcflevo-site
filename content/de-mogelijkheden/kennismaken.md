@@ -9,7 +9,7 @@ menu:
 
 ## Kom kennismaken met zweefvliegen
 
-Zweefvliegen is een unieke ervaring die je moeilijk kunt beschrijven — je moet het zelf voelen. De stilte, het uitzicht, het gevoel van vrij vliegen zonder motor.
+Zweefvliegen is een unieke ervaring die je moeilijk kunt beschrijven, je moet het zelf voelen. De stilte, het uitzicht, het gevoel van vrij vliegen zonder motor.
 
 <div class="video-embed">
   <iframe src="https://www.youtube.com/embed/bErB4X-h8O4" title="Zweefvliegen bij ZC Flevo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -20,9 +20,9 @@ Ben je nieuwsgierig? Dat begrijpen we. Je kunt contact opnemen met onze secretar
 ## Hoe werkt het?
 
 1. **Neem contact op** via [secretaris@zcflevo.nl](mailto:secretaris@zcflevo.nl) om een afspraak te maken
-2. **Kom op een vliegdag** — wij laten je zien hoe alles werkt
+2. **Kom op een vliegdag:** wij laten je zien hoe alles werkt
 3. **Maak een vlucht** samen met een instructeur
-4. **Stel al je vragen** — we vertellen je alles over de sport en de club
+4. **Stel al je vragen:** we vertellen je alles over de sport en de club
 
 ## Praktische informatie
 

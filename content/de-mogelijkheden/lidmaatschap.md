@@ -46,15 +46,15 @@ Zweefvliegen bestaat uit een paar vaste jaarlijkse kostenposten. Hieronder een o
 | Inschrijfgeld senior (> 21 jaar) | € 150,00 |
 | Inschrijfgeld junior (≤ 21 jaar) | € 100,00 |
 | **Contributie** | |
-| Contributie senior — vol seizoen | € 385,00 |
-| Contributie senior — vanaf juli | € 270,00 |
-| Contributie junior (≤ 21) — vol seizoen | € 305,00 |
-| Contributie junior (≤ 21) — vanaf juli | € 215,00 |
+| Contributie senior, vol seizoen | € 385,00 |
+| Contributie senior, vanaf juli | € 270,00 |
+| Contributie junior (≤ 21), vol seizoen | € 305,00 |
+| Contributie junior (≤ 21), vanaf juli | € 215,00 |
 | Contributie vanaf september | € 65,00 |
 | Administratief lid of donateur | € 50,00 |
 | **Starts** | |
-| Startabonnement — vol seizoen | € 380,00 |
-| Startabonnement — vanaf juli | € 300,00 |
+| Startabonnement, vol seizoen | € 380,00 |
+| Startabonnement, vanaf juli | € 300,00 |
 | Lierstart clubvliegtuig | € 12,00 |
 | Lierstart privévliegtuig | € 10,00 |
 | **Toeslagen** | |
@@ -84,7 +84,7 @@ De geldigheidsduur is afhankelijk van je leeftijd:
 | 30 – 50 jaar | 2 jaar |
 | Vanaf 50 jaar | 1 jaar |
 
-### Totaaloverzicht — met startabonnement
+### Totaaloverzicht, met startabonnement
 
 | Post | Volwassenen | Junioren |
 |---|---|---|
@@ -96,9 +96,9 @@ De geldigheidsduur is afhankelijk van je leeftijd:
 
 > Vluchten zijn **onbeperkt** inbegrepen in het startabonnement. Er zijn geen extra kosten per vlucht.
 
-## Buitenlandkampen — vakantie inbegrepen
+## Buitenlandkampen, vakantie inbegrepen
 
-Als lid kun je elk jaar mee naar een **zweefvliegkamp in het buitenland**. En het bijzondere: het is waarschijnlijk de goedkoopste vakantie die je ooit hebt gehad. Slapen op het vliegveld kost een paar euro per nacht, eten maak je zelf zo duur als je wilt — en het vliegen en de instructie zitten er gewoon bij.
+Als lid kun je elk jaar mee naar een **zweefvliegkamp in het buitenland**. En het bijzondere: het is waarschijnlijk de goedkoopste vakantie die je ooit hebt gehad. Slapen op het vliegveld kost een paar euro per nacht, eten maak je zelf zo duur als je wilt, en het vliegen en de instructie zitten er gewoon bij.
 
 [Meer over buitenlandkampen →](/de-mogelijkheden/buitenlandkampen/)
 

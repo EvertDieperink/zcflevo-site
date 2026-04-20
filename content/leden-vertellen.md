@@ -27,7 +27,7 @@ Zweefvliegen is een sport die mensen raakt. Onze leden vertellen graag waarom ze
     <div class="leden-name">Erwin</div>
   </div>
   <div class="leden-card-body">
-    <p>Zweefvliegen is voor mij meer dan een hobby&hellip; het is een lifestyle. Iedere vlucht is anders: het weer, de thermiek, het uitzicht. ZC Flevo is uiterst gezellig en gepassioneerd. Ontspanning, uitdaging en plezier — dat vind ik hier allemaal in één.</p>
+    <p>Zweefvliegen is voor mij meer dan een hobby&hellip; het is een lifestyle. Iedere vlucht is anders: het weer, de thermiek, het uitzicht. ZC Flevo is uiterst gezellig en gepassioneerd. Ontspanning, uitdaging en plezier: dat vind ik hier allemaal in één.</p>
   </div>
 </div>
 
@@ -37,7 +37,7 @@ Zweefvliegen is een sport die mensen raakt. Onze leden vertellen graag waarom ze
     <div class="leden-name">Hans</div>
   </div>
   <div class="leden-card-body">
-    <p>Ik ontdekte de club via een zomercursus, deed de opleiding en haalde mijn brevet. Wat ik bijzonder vind is hoe de leden de club zelf draaiend houden: van instructie tot vliegtuigonderhoud. Je doet als lid veel meer dan alleen vliegen — en dat maakt het zo waardevol.</p>
+    <p>Ik ontdekte de club via een zomercursus, deed de opleiding en haalde mijn brevet. Wat ik bijzonder vind is hoe de leden de club zelf draaiend houden: van instructie tot vliegtuigonderhoud. Je doet als lid veel meer dan alleen vliegen, en dat maakt het zo waardevol.</p>
   </div>
 </div>
 
