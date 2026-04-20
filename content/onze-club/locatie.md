@@ -1,6 +1,10 @@
 ---
 title: "Locatie"
 description: "ZC Flevo vliegt vanuit Vliegveld Terlet bij Arnhem."
+menu:
+  main:
+    parent: "onze-club"
+    weight: 21
 ---
 
 ## Vliegveld Terlet

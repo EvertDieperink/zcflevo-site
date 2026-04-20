@@ -1,6 +1,10 @@
 ---
 title: "Kennismakingsstage"
 description: "Maak kennis met zweefvliegen via een intensieve stage van 2 dagen bij ZC Flevo."
+menu:
+  main:
+    parent: "de-mogelijkheden"
+    weight: 32
 ---
 
 ## Wat is de kennismakingsstage?

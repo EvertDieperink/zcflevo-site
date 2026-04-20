@@ -2,6 +2,10 @@
 title: "Onze Club"
 description: "Leer meer over ZC Flevo: onze geschiedenis, locatie, vloot en leden."
 header_image: "/images/EVH_2739.jpg"
+menu:
+  main:
+    identifier: "onze-club"
+    weight: 2
 ---
 
 ZC Flevo is een actieve en gezellige zweefvliegclub die in **1972** werd opgericht. Onze eerste zweefvlucht vond plaats op 2 september 1972, bestuurd door Henk Widman.

@@ -1,6 +1,10 @@
 ---
 title: "Veelgestelde Vragen"
 description: "Antwoorden op de meest gestelde vragen over zweefvliegen bij ZC Flevo."
+menu:
+  main:
+    name: "FAQ"
+    weight: 4
 faqs:
   - q: "Hoe ziet een vliegdag eruit?"
     a: "Een vliegdag begint rond 9:00 uur met een briefing over het weer en de veiligheid. Om ongeveer 10:30 uur zijn de vliegtuigen geassembleerd en geïnspecteerd voor de eerste vluchten. Leerlingen vliegen mee met instructeurs en helpen tussendoor mee met de operatie. Gemiddeld maak je 3 à 4 vluchten per dag van elk 7 tot 30 minuten."

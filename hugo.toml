@@ -16,87 +16,27 @@ theme = 'zcflevo'
   youtube = "https://www.youtube.com/channel/UCjxBLZcew6u7KOLpH2wSq0A"
   tiktok = "https://www.tiktok.com/@zc.flevo"
   mapboxToken = ""  # Set this via environment variable in GitHub Actions
+  tagline = "Een actieve en gezellige zweefvliegclub, opgericht in 1972. Wij vliegen vanuit Vliegveld Terlet bij Arnhem."
+  address_line1 = "Vliegveld Terlet"
+  address_line2 = "Apeldoornseweg 203"
+  address_line3 = "6816 SM Arnhem"
 
 # ── Menu ──────────────────────────────────────────────────────────────────────
-
-[[menu.main]]
-  name = "Home"
-  url = "/"
-  weight = 1
-
-[[menu.main]]
-  name = "Onze Club"
-  identifier = "onze-club"
-  url = "/onze-club/"
-  weight = 2
-
-[[menu.main]]
-  name = "Locatie"
-  url = "/onze-club/locatie/"
-  parent = "onze-club"
-  weight = 21
-
-[[menu.main]]
-  name = "Vloot"
-  url = "/onze-club/vloot/"
-  parent = "onze-club"
-  weight = 22
-
-[[menu.main]]
-  name = "Leden vertellen"
-  url = "/leden-vertellen/"
-  parent = "onze-club"
-  weight = 23
-
-[[menu.main]]
-  name = "Vliegdagen"
-  url = "/onze-club/vliegdagen/"
-  parent = "onze-club"
-  weight = 25
-
-
-[[menu.main]]
-  name = "De Mogelijkheden"
-  identifier = "de-mogelijkheden"
-  url = "/de-mogelijkheden/"
-  weight = 3
-
-[[menu.main]]
-  name = "Kom een keer kijken"
-  url = "/de-mogelijkheden/kennismaken/"
-  parent = "de-mogelijkheden"
-  weight = 31
-
-[[menu.main]]
-  name = "Kennismakingsstage"
-  url = "/de-mogelijkheden/kennismakingsstage/"
-  parent = "de-mogelijkheden"
-  weight = 32
-
-[[menu.main]]
-  name = "Lidmaatschap"
-  url = "/de-mogelijkheden/lidmaatschap/"
-  parent = "de-mogelijkheden"
-  weight = 33
-
-[[menu.main]]
-  name = "Zomercursus"
-  url = "/de-mogelijkheden/zomercursus/"
-  parent = "de-mogelijkheden"
-  weight = 34
-
-[[menu.main]]
-  name = "Buitenlandkampen"
-  url = "/de-mogelijkheden/buitenlandkampen/"
-  parent = "de-mogelijkheden"
-  weight = 35
-
-[[menu.main]]
-  name = "FAQ"
-  url = "/faq/"
-  weight = 4
-
-[[menu.main]]
-  name = "Contact"
-  url = "/contact/"
-  weight = 5
+# Het menu wordt automatisch opgebouwd vanuit de front matter van elke pagina.
+# Om een pagina in de navigatie te zetten, voeg je dit toe aan de front matter:
+#
+#   menu:
+#     main:
+#       weight: 10          # bepaalt de volgorde (laag = eerst)
+#
+# Voor een dropdown-pagina (kind van een sectie):
+#   menu:
+#     main:
+#       parent: "onze-club"        # of "de-mogelijkheden"
+#       weight: 21
+#
+# Voor een nieuwe sectie met dropdown (bovenste niveau):
+#   menu:
+#     main:
+#       identifier: "mijn-sectie"  # unieke naam voor dit dropdown-menu
+#       weight: 6

@@ -1,6 +1,10 @@
 ---
 title: "Buitenlandkampen"
 description: "Als lid van ZC Flevo kun je mee naar onze buitenlandkampen: zweefvliegen in het buitenland voor een fractie van de prijs van een gewone vakantie."
+menu:
+  main:
+    parent: "de-mogelijkheden"
+    weight: 35
 ---
 
 ## Zweefvliegen als goedkoopste vakantie

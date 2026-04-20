@@ -1,5 +1,12 @@
 {{ define "main" }}
 
+{{- $pricing := .Params.pricing -}}
+{{- $senior  := index $pricing.tabs 0 -}}
+{{- $junior  := index $pricing.tabs 1 -}}
+{{- $callout := .Params.stage_callout -}}
+{{- $feat    := .Params.features -}}
+{{- $testi   := .Params.testimonials -}}
+
 <!-- Hero Section with photo background -->
 <section class="hero has-photo"
   style="background-image: url('{{ .Params.hero_image | default "/images/banner1.jpg" }}')">
@@ -12,8 +19,9 @@
       <h1>{{ .Params.hero_title | default .Site.Title }}</h1>
       <p>{{ .Params.hero_subtitle | default .Site.Params.description }}</p>
       <div class="hero-buttons">
-        <a href="{{ "/de-mogelijkheden/kennismaken/" | relURL }}" class="btn btn-primary">Kom kennismaken</a>
-        <a href="{{ "/contact/" | relURL }}" class="btn btn-outline">Neem contact op</a>
+        {{ range .Params.hero_buttons }}
+        <a href="{{ .url | relURL }}" class="btn btn-{{ .style }}">{{ .text }}</a>
+        {{ end }}
       </div>
     </div>
   </div>
@@ -23,59 +31,23 @@
 <div class="stats-strip">
   <div class="container">
     <div class="stats-grid">
+      {{ range .Params.stats }}
       <div>
-        <div class="stat-number">1972</div>
-        <div class="stat-label">Opgericht</div>
+        <div class="stat-number">{{ .value }}</div>
+        <div class="stat-label">{{ .label }}</div>
       </div>
-      <div>
-        <div class="stat-number">7</div>
-        <div class="stat-label">Zweefvliegtuigen</div>
-      </div>
-      <div>
-        <div class="stat-number">1000<span style="font-size:1.5rem">+</span></div>
-        <div class="stat-label">km per vlucht mogelijk</div>
-      </div>
-      <div>
-        <div class="stat-number">0</div>
-        <div class="stat-label">gram CO&#x2082; uitstoot</div>
-      </div>
+      {{ end }}
     </div>
   </div>
 </div>
 
 <!-- Photo strip -->
 <div class="photo-strip">
-  <div class="photo-item photo-wide">
-    <img src="/images/EVH_2739.jpg" alt="Zweefvliegtuig op Vliegveld Terlet" loading="lazy">
+  {{ range .Params.photos }}
+  <div class="photo-item{{ if .wide }} photo-wide{{ end }}">
+    <img src="{{ .src }}" alt="{{ .alt }}" loading="lazy">
   </div>
-  <div class="photo-item">
-    <img src="/images/DSC_3444.jpg" alt="Start met elektrische lier" loading="lazy">
-  </div>
-  <div class="photo-item">
-    <img src="/images/EVH_3096.jpg" alt="Zweefvliegen bij ZC Flevo" loading="lazy">
-  </div>
-  <div class="photo-item">
-    <img src="/images/DSC_1974.jpg" alt="Zweefvliegclub Flevo" loading="lazy">
-  </div>
-  <div class="photo-item">
-    <img src="/images/EVH_2736.jpg" alt="Zweefvliegen boven Nederland" loading="lazy">
-  </div>
-  <div class="photo-item">
-    <img src="/images/DSC_2131.jpg" alt="Vloot van ZC Flevo" loading="lazy">
-  </div>
-  <div class="photo-item">
-    <img src="/images/21788580089_1937427c68_k.jpg" alt="Tweede vlucht van de dag" loading="lazy">
-  </div>
-  <div class="photo-item">
-    <img src="/images/Naamloos-4.jpg" alt="ZC Flevo leden op het veld" loading="lazy">
-  </div>
-  <div class="photo-item photo-wide">
-    <img src="/images/DSC_7812_HDR.jpg" alt="Landschap boven Nederland vanuit zweefvliegtuig" loading="lazy">
-  </div>
-  <div class="photo-item">
-    <img src="/images/DSC_8006.jpg" alt="Zweefvliegtuigen klaar voor de dag" loading="lazy">
-  </div>
- 
+  {{ end }}
 </div>
 
 <!-- Intro content from _index.md body -->
@@ -91,9 +63,9 @@
 <section class="cost-banner">
   <div class="container">
     <div class="cost-banner-text">
-      <div class="cost-banner-label">Onbeperkt vliegen</div>
-      <h2>Onbeperkt zweefvliegen vanaf &euro;806 per jaar</h2>
-      <p>Inclusief vlieglessen en opleiding tot brevet, onbeperkt starten en gebruik van alle clubvliegtuigen. Geen brandstofkosten.</p>
+      <div class="cost-banner-label">{{ $pricing.label }}</div>
+      <h2>{{ $pricing.title }}</h2>
+      <p>{{ $pricing.description }}</p>
     </div>
 
     <!-- Tab toggle via hidden radio buttons (no JS) -->
@@ -101,58 +73,58 @@
       <input type="radio" name="cost-tab" id="tab-senior" checked>
       <input type="radio" name="cost-tab" id="tab-junior">
       <div class="cost-tab-labels">
-        <label for="tab-senior">Senior</label>
-        <label for="tab-junior">Junior (t/m 18 jr)</label>
+        <label for="tab-senior">{{ $senior.label }}</label>
+        <label for="tab-junior">{{ $junior.label }}</label>
       </div>
 
       <div class="cost-tab-panel" id="panel-senior">
         <div class="cost-banner-items">
           <div class="cost-item">
-            <div class="cost-item-amount">&euro;765</div>
-            <div class="cost-item-label">Contributie + startabonnement</div>
+            <div class="cost-item-amount">{{ $senior.contribution }}</div>
+            <div class="cost-item-label">{{ $senior.contribution_label }}</div>
           </div>
           <div class="cost-item-plus">+</div>
           <div class="cost-item">
-            <div class="cost-item-amount">&euro;201</div>
-            <div class="cost-item-label">KNVVL lidmaatschap</div>
+            <div class="cost-item-amount">{{ $senior.knvvl }}</div>
+            <div class="cost-item-label">{{ $senior.knvvl_label }}</div>
           </div>
           <div class="cost-item-plus">=</div>
           <div class="cost-item cost-item-total">
-            <div class="cost-item-amount">&euro;966</div>
-            <div class="cost-item-label">Totaal per jaar, all-in</div>
+            <div class="cost-item-amount">{{ $senior.total }}</div>
+            <div class="cost-item-label">{{ $senior.total_label }}</div>
           </div>
         </div>
         <div class="cost-installment">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><rect x="1" y="4" width="22" height="16" rx="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
-          <span>Betalen in <strong>10 termijnen</strong> mogelijk &mdash; slechts <strong>&euro;&thinsp;96,60 per maand</strong></span>
+          <span>Betalen in termijnen mogelijk &mdash; slechts <strong>{{ $senior.installments }}</strong></span>
         </div>
       </div>
 
       <div class="cost-tab-panel" id="panel-junior">
         <div class="cost-banner-items">
           <div class="cost-item">
-            <div class="cost-item-amount">&euro;685</div>
-            <div class="cost-item-label">Contributie + startabonnement</div>
+            <div class="cost-item-amount">{{ $junior.contribution }}</div>
+            <div class="cost-item-label">{{ $junior.contribution_label }}</div>
           </div>
           <div class="cost-item-plus">+</div>
           <div class="cost-item">
-            <div class="cost-item-amount">&euro;121</div>
-            <div class="cost-item-label">KNVVL lidmaatschap</div>
+            <div class="cost-item-amount">{{ $junior.knvvl }}</div>
+            <div class="cost-item-label">{{ $junior.knvvl_label }}</div>
           </div>
           <div class="cost-item-plus">=</div>
           <div class="cost-item cost-item-total">
-            <div class="cost-item-amount">&euro;806</div>
-            <div class="cost-item-label">Totaal per jaar, all-in</div>
+            <div class="cost-item-amount">{{ $junior.total }}</div>
+            <div class="cost-item-label">{{ $junior.total_label }}</div>
           </div>
         </div>
         <div class="cost-installment">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><rect x="1" y="4" width="22" height="16" rx="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
-          <span>Betalen in <strong>10 termijnen</strong> mogelijk &mdash; slechts <strong>&euro;&thinsp;80,60 per maand</strong></span>
+          <span>Betalen in termijnen mogelijk &mdash; slechts <strong>{{ $junior.installments }}</strong></span>
         </div>
       </div>
     </div>
 
-    <a href="{{ "/de-mogelijkheden/lidmaatschap/" | relURL }}" class="btn btn-primary" style="margin-top: 1.25rem; display: inline-block;">Bekijk alle kosten &rarr;</a>
+    <a href="{{ $pricing.cta_url | relURL }}" class="btn btn-primary" style="margin-top: 1.25rem; display: inline-block;">{{ $pricing.cta_text }}</a>
   </div>
 </section>
 
@@ -167,11 +139,11 @@
         </svg>
       </div>
       <div class="stage-callout-text">
-        <div class="section-label">Laagdrempelig starten</div>
-        <h2>Nog niet zeker? Probeer het eerst — voor €180</h2>
-        <p>De kennismakingsstage geeft je 6 echte starts over 2 dagen, begeleid door een instructeur. Het bedrag is volledig verrekenbaar als korting op je inschrijfgeld zodra je lid wordt. Zo weet je zeker of zweefvliegen bij je past, zonder grote verplichting.</p>
+        <div class="section-label">{{ $callout.label }}</div>
+        <h2>{{ $callout.title }}</h2>
+        <p>{{ $callout.text }}</p>
       </div>
-      <a href="{{ "/de-mogelijkheden/kennismakingsstage/" | relURL }}" class="btn btn-primary" style="flex-shrink:0;">Meer over de stage</a>
+      <a href="{{ $callout.cta_url | relURL }}" class="btn btn-primary" style="flex-shrink:0;">{{ $callout.cta_text }}</a>
     </div>
   </div>
 </section>
@@ -179,53 +151,37 @@
 <!-- Feature Cards -->
 <section class="features">
   <div class="container">
-    <h2>Wat biedt ZC Flevo?</h2>
+    <h2>{{ $feat.title }}</h2>
     <div class="cards-grid">
+      {{ range $i, $card := $feat.cards }}
       <div class="card">
         <div class="card-header">
           <div class="card-icon">
+            {{ if eq $i 0 }}
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="36" height="36">
               <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
               <path d="M14.05 2a9 9 0 018 7.94M14.05 6A5 5 0 0119 11"/>
             </svg>
-          </div>
-          <h3>Kennismaken</h3>
-        </div>
-        <div class="card-body">
-          <p>Benieuwd naar zweefvliegen? Maak een afspraak voor een introductievlucht. Je gaat mee met een ervaren instructeur vanuit Vliegveld Terlet.</p>
-          <a href="{{ "/de-mogelijkheden/kennismaken/" | relURL }}" class="btn btn-blue">Meer weten</a>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-header">
-          <div class="card-icon">
+            {{ else if eq $i 1 }}
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="36" height="36">
               <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
               <path d="M6 12v5c3 3 9 3 12 0v-5"/>
             </svg>
-          </div>
-          <h3>Opleiding &amp; Lidmaatschap</h3>
-        </div>
-        <div class="card-body">
-          <p>Word zweefvliegpiloot via onze vliegopleiding. Minimumleeftijd is 14 jaar, patent halen kan vanaf 16 jaar. Betaalbaar, alle vluchten inbegrepen.</p>
-          <a href="{{ "/de-mogelijkheden/lidmaatschap/" | relURL }}" class="btn btn-blue">Meer weten</a>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-header">
-          <div class="card-icon">
+            {{ else }}
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="36" height="36">
               <circle cx="12" cy="8" r="6"/>
               <path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/>
             </svg>
+            {{ end }}
           </div>
-          <h3>Onze Club</h3>
+          <h3>{{ $card.title }}</h3>
         </div>
         <div class="card-body">
-          <p>ZC Flevo is een actieve en gezellige club met meer dan 40 jaar ervaring. Leer meer over onze geschiedenis, vloot en locatie bij Arnhem.</p>
-          <a href="{{ "/onze-club/" | relURL }}" class="btn btn-blue">Meer weten</a>
+          <p>{{ $card.text }}</p>
+          <a href="{{ $card.url | relURL }}" class="btn btn-blue">{{ $card.cta }}</a>
         </div>
       </div>
+      {{ end }}
     </div>
   </div>
 </section>
@@ -233,42 +189,24 @@
 <!-- Testimonials / Leden vertellen -->
 <section class="testimonials">
   <div class="container">
-    <h2>Wat onze leden zeggen</h2>
-    <p class="section-subtitle">Lees waarom onze leden zo enthousiast zijn over ZC Flevo</p>
+    <h2>{{ $testi.title }}</h2>
+    <p class="section-subtitle">{{ $testi.subtitle }}</p>
     <div class="testimonials-grid">
+      {{ range $testi.items }}
       <div class="testimonial-card">
-        <p class="testimonial-quote">Zweefvliegclub Flevo is een vereniging waar iedereen welkom is om te leren vliegen. De balans tussen serieus vliegen en clubgezelligheid maakt het uniek.</p>
+        <p class="testimonial-quote">{{ .quote }}</p>
         <div class="testimonial-author">
-          <img class="testimonial-avatar" src="/images/annemieke.jpg" alt="Annemieke">
+          <img class="testimonial-avatar" src="{{ .avatar }}" alt="{{ .name }}">
           <div>
-            <div class="testimonial-name">Annemieke</div>
-            <div class="testimonial-role">Lid van ZC Flevo</div>
+            <div class="testimonial-name">{{ .name }}</div>
+            <div class="testimonial-role">{{ .role }}</div>
           </div>
         </div>
       </div>
-      <div class="testimonial-card">
-        <p class="testimonial-quote">Zweefvliegen is voor mij meer dan een hobby&hellip; het is een lifestyle. ZC Flevo is uiterst gezellig en gepassioneerd &mdash; ontspanning, uitdaging en plezier in één.</p>
-        <div class="testimonial-author">
-          <img class="testimonial-avatar" src="/images/erwin.jpg" alt="Erwin">
-          <div>
-            <div class="testimonial-name">Erwin</div>
-            <div class="testimonial-role">Lid van ZC Flevo</div>
-          </div>
-        </div>
-      </div>
-      <div class="testimonial-card">
-        <p class="testimonial-quote">Ik ben in 2019 begonnen met zweefvliegen. Echt een jongensdroom die in vervulling ging. Als iets oudere nieuwkomer werd ik meteen hartelijk ontvangen.</p>
-        <div class="testimonial-author">
-          <img class="testimonial-avatar" src="/images/paul.jpg" alt="Paul">
-          <div>
-            <div class="testimonial-name">Paul</div>
-            <div class="testimonial-role">Lid van ZC Flevo</div>
-          </div>
-        </div>
-      </div>
+      {{ end }}
     </div>
     <div class="testimonials-cta">
-      <a href="{{ "/leden-vertellen/" | relURL }}" class="btn btn-blue">Lees meer verhalen &rarr;</a>
+      <a href="{{ $testi.cta_url | relURL }}" class="btn btn-blue">{{ $testi.cta_text }}</a>
     </div>
   </div>
 </section>

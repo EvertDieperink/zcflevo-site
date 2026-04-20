@@ -1,6 +1,11 @@
 ---
 title: "Onze Vloot"
 description: "ZC Flevo beschikt over zeven zweefvliegtuigen voor training en prestaties."
+menu:
+  main:
+    name: "Vloot"
+    parent: "onze-club"
+    weight: 22
 ---
 
 ZC Flevo beschikt over **zeven zweefvliegtuigen**, gestationeerd op Vliegveld Terlet. Alle toestellen worden in de wintermaanden in eigen beheer onderhouden in onze werkplaats in Biddinghuizen.

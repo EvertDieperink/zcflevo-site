@@ -1,6 +1,10 @@
 ---
 title: "Leden vertellen"
 description: "Lees waarom onze leden zo enthousiast zijn over zweefvliegen bij ZC Flevo."
+menu:
+  main:
+    parent: "onze-club"
+    weight: 23
 ---
 
 Zweefvliegen is een sport die mensen raakt. Onze leden vertellen graag waarom ze voor ZC Flevo hebben gekozen en wat zweefvliegen voor hen betekent.

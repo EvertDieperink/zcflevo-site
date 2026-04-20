@@ -1,6 +1,10 @@
 ---
 title: "Zomercursus"
 description: "Informatie over de zweefvlieg zomercursus van ZC Flevo."
+menu:
+  main:
+    parent: "de-mogelijkheden"
+    weight: 34
 ---
 
 ## Zomercursus

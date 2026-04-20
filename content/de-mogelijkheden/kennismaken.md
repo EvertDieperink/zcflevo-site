@@ -1,6 +1,10 @@
 ---
 title: "Kom een keer kijken"
 description: "Benieuwd naar zweefvliegen? Maak een afspraak voor een introductievlucht met ZC Flevo."
+menu:
+  main:
+    parent: "de-mogelijkheden"
+    weight: 31
 ---
 
 ## Kom kennismaken met zweefvliegen
