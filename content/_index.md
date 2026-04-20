@@ -94,7 +94,7 @@ features:
       url: "/de-mogelijkheden/lidmaatschap/"
       cta: "Meer weten"
     - title: "Onze Club"
-      text: "ZC Flevo is een actieve en gezellige club met meer dan 40 jaar ervaring. Leer meer over onze geschiedenis, vloot en locatie bij Arnhem."
+      text: "ZC Flevo is een actieve en gezellige club met meer dan 50 jaar ervaring. Leer meer over onze geschiedenis, vloot en locatie bij Arnhem."
       url: "/onze-club/"
       cta: "Meer weten"
 
@@ -120,7 +120,7 @@ testimonials:
 
 ## Welkom bij Zweefvliegclub Flevo
 
-ZC Flevo is een **actieve en gezellige zweefvliegclub** die al meer dan 40 jaar bestaat. Onze leden komen uit allerlei beroepen en delen één passie: de zweefvliegsport.
+ZC Flevo is een **actieve en gezellige zweefvliegclub** die al meer dan 50 jaar bestaat. Onze leden komen uit allerlei beroepen en delen één passie: de zweefvliegsport.
 
 Wij maken gebruik van een **elektrische lier** om onze motorloze vliegtuigen de lucht in te sturen. Onder goede omstandigheden kunnen zweefvliegtuigen urenlang in de lucht blijven op thermiek, warme stijgende luchtstromen die worden opgewekt door zonne-energie.
 
