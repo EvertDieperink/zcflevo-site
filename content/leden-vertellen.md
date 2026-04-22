@@ -61,6 +61,20 @@ Zweefvliegen is een sport die mensen raakt. Onze leden vertellen graag waarom ze
   </div>
 </div>
 
+<!-- PLACEHOLDER VOOR NIEUW VERHAAL - verwijder dit commentaar wanneer ingevuld -->
+<div class="leden-card">
+  <div class="leden-card-header">
+    <!-- STAP 1: Voeg de naam van het lid in en zet een foto in /static/images/ -->
+    <img class="leden-avatar" src="/images/nieuwe-naam.jpg" alt="Naam van lid">
+    <div class="leden-name">Naam van lid</div>
+  </div>
+  <div class="leden-card-body">
+    <!-- STAP 2: Vervang onderstaande tekst met het echte verhaal van het lid (3-4 zinnen) -->
+    <p>Dit is een voorbeeld van hoe een verhaal er uit kan zien. Het lid vertelt hier wat zweefvliegen voor hen betekent en waarom ze voor ZC Flevo hebben gekozen. Probeer het persoonlijk en authentiek te houden, net als de andere verhalen op deze pagina.</p>
+  </div>
+</div>
+<!-- EINDE PLACEHOLDER -->
+
 </div>
 
 ---
