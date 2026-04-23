@@ -1341,6 +1341,81 @@ body.nav-open { overflow: hidden; }
   font-size: 0.8rem;
 }
 
+/* ============================================================
+   FORM STYLES — Vrijdag Vliegen inschrijving
+   ============================================================ */
+.vrijdag-form {
+  max-width: 600px;
+  margin: 2.5rem 0;
+  padding: 2rem;
+  background: var(--bg-light);
+  border-radius: var(--radius-lg);
+  border-left: 4px solid var(--blue);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group:last-child {
+  margin-bottom: 1.75rem;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+  font-size: 0.95rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-family: inherit;
+  font-size: 1rem;
+  color: var(--text);
+  background: var(--bg);
+  transition: border-color var(--transition), box-shadow var(--transition);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--blue);
+  box-shadow: 0 0 0 3px rgba(5, 107, 179, 0.1);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.vrijdag-form .btn-primary {
+  width: 100%;
+  padding: 0.85rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  background: var(--red);
+  color: white;
+  border-radius: var(--radius);
+  transition: background var(--transition), transform var(--transition);
+}
+
+.vrijdag-form .btn-primary:hover {
+  background: var(--red-dark);
+  transform: translateY(-2px);
+}
+
+.vrijdag-form .btn-primary:active {
+  transform: translateY(0);
+}
+
 @media (max-width: 480px) {
   h1 { font-size: 1.75rem; }
   .stat-number { font-size: 1.9rem; }
