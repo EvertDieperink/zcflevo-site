@@ -1388,6 +1388,15 @@ body.nav-open { overflow: hidden; }
   display: block;
 }
 
+/* Hoogvliegers sfeer photo - wide banner at bottom */
+.page-content img[src*="hoogvliegers-sfeer"] {
+  width: 100%;
+  margin: 2.5rem 0 1rem;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  display: block;
+}
+
 /* Vrijdag Vliegen details table */
 .page-content table {
   width: 100%;

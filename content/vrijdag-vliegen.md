@@ -109,3 +109,5 @@ Heb je nog vragen over Vrijdag Vliegen? Neem gerust contact op:
 - **Telefoon**: 06-17722964
 
 We horen graag van je!
+
+![Stichting Hoogvliegers in actie](/images/hoogvliegers-sfeer.jpg)
