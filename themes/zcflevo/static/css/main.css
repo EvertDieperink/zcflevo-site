@@ -1342,13 +1342,61 @@ body.nav-open { overflow: hidden; }
 }
 
 /* ============================================================
-   VRIJDAG VLIEGEN PAGE — Logo styling
+   VRIJDAG VLIEGEN PAGE — Layout & styling
    ============================================================ */
-/* Remove shadow and border from Ko Piloot logo on vrijdag-vliegen page */
+/* Ko Piloot logo - clean, centered, no effects */
 .page-content img[src*="ko-piloot"] {
   box-shadow: none;
   border: none;
   border-radius: 0;
+  max-width: 420px;
+  width: 100%;
+  margin: 1.5rem auto;
+  display: block;
+}
+
+/* Vrijdag Vliegen details table */
+.page-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  background: var(--bg-light);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.page-content table td {
+  padding: 0.9rem 1.2rem;
+  border-bottom: 1px solid #e8e8e8;
+  vertical-align: top;
+}
+
+.page-content table tr:last-child td {
+  border-bottom: none;
+}
+
+.page-content table td:first-child {
+  width: 38%;
+  color: var(--blue-dark);
+  white-space: nowrap;
+}
+
+.page-content table thead {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .page-content table td:first-child {
+    width: 100%;
+    display: block;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  .page-content table td:last-child {
+    display: block;
+    padding-top: 0.3rem;
+  }
 }
 
 /* ============================================================

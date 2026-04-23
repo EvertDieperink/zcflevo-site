@@ -1,45 +1,49 @@
 ---
 title: "Vrijdag Vliegen – Steun Stichting Hoogvliegers"
-description: "Kom betaald vliegen en steun Stichting Hoogvliegers. €40 per introductievlucht gaat direct naar hen."
+description: "Kom vliegen op een vrijdag bij ZC Flevo en steun Stichting Hoogvliegers. €40 per vlucht gaat rechtstreeks naar deze mooie stichting."
 ---
 
-## Vrijdag Vliegen ✈️
+## Vlieg mee en steun een goed doel ✈️
 
-### Over Stichting Hoogvliegers
+Zweefvliegen is een ervaring die je niet snel vergeet. Bij **Zweefvliegclub Flevo** organiseren we **Vrijdag Vliegen**: een actie waarbij jij een introductievlucht maakt én meteen een goed doel steunt.
 
-**Stichting Hoogvliegers** geeft gehandicapte en zieke jongeren de kans om te vliegen én voor één dag zelf piloot te zijn. Zij maken hun dromen waar en geven hen onvergetelijke ervaringen in de lucht. Dit doen zij volledig gratis. Meer info: [www.stichtinghoogvliegers.nl](https://www.stichtinghoogvliegers.nl)
+Voor **€40** vlieg je mee in onze tweezitter. Het volledige bedrag gaat rechtstreeks naar **Stichting Hoogvliegers**.
+
+---
+
+## Over Stichting Hoogvliegers
 
 ![Ko Piloot - Stichting Hoogvliegers](/images/ko-piloot-logo.png)
 
+**Stichting Hoogvliegers** geeft gehandicapte en zieke jongeren de kans om te vliegen én voor één dag zelf piloot te zijn. Zij maken dromen waar en zorgen voor onvergetelijke ervaringen in de lucht – volledig gratis voor deze kinderen.
+
+Meer informatie vind je op [www.stichtinghoogvliegers.nl](https://www.stichtinghoogvliegers.nl).
+
 ---
 
-Zweefvliegen raakt mensen. Bij **Zweefvliegclub Flevo** organiseren we **Vrijdag Vliegen** – een actie waarbij normale recreatievluchten plaatsvinden. Het doel? Geld inzamelen voor **Stichting Hoogvliegers**.
+## Hoe werkt het?
 
+Je schrijft je in via onderstaand formulier. Wij nemen contact met je op om een geschikte vrijdag te plannen. Op de afgesproken dag kom je naar onze club, vlieg je mee in de tweezitter, en betaal je €40 ter plekke rechtstreeks aan Stichting Hoogvliegers.
 
-### Hoe het werkt
+### De details
 
-Je betaalt **€40 en vliegt een introductievlucht** in onze zweezitter. Dat bedrag geef je ter plekke rechtstreeks aan Stichting Hoogvliegers.
+| | |
+|---|---|
+| ⏱️ **Vluchtduur** | 5 tot 30 minuten (afhankelijk van de thermiek) |
+| 💰 **Kosten** | €40, rechtstreeks aan Stichting Hoogvliegers |
+| 📅 **Wanneer** | Op afspraak, op een vrijdag |
+| 👥 **Voor wie** | Iedereen is welkom – geen ervaring nodig |
+| 📋 **Inclusief** | Instructie, verzekering en een onvergetelijke ervaring |
 
-**De feiten:**
-- ⏱️ **Vluchtduur**: 5–30 minuten (afhankelijk van de thermiek)
-- 💰 **Prijs**: €40 per vlucht – direct betaald aan Stichting Hoogvliegers
-- 👥 **Voor wie**: Iedereen is welkom – geen vliegervaardigheden nodig
-- 📅 **Wanneer**: Op aanvraag – kies zelf een vrijdag
-- 📋 **Inclusief**: Verzekering, instructie, en een ervaring die je niet vergeet
+### Goed om te weten
 
-**ℹ️ Gezondheid:** Je moet in goede gezondheid zijn om mee te vliegen. Heb je twijfels? Neem contact met ons op.
-
-### Waarom Vrijdag Vliegen?
-
-Jij vliegt een leuke introductievlucht voor jezelf. Het geld dat je betaalt gaat direct naar **Stichting Hoogvliegers**, zodat zij gehandicapte en zieke jongeren gratis kunnen laten vliegen. 
-
-Met jouw betaling steun je rechtstreeks hun mooie werk. **Eenvoudig, direct, en eerlijk.**
+Om mee te mogen vliegen moet je in goede gezondheid zijn. Twijfel je of vliegen iets voor jou is? Neem gerust contact met ons op.
 
 ---
 
 ## Inschrijven
 
-Vul je gegevens in en wij nemen contact op om een geschikte vrijdag in te plannen. Je betaalt het €40-bedrag ter plekke, rechtstreeks aan Stichting Hoogvliegers.
+Vul onderstaand formulier in en wij nemen zo snel mogelijk contact met je op.
 
 <form action="https://formspree.io/f/FORMID_PLACEHOLDER" method="POST" class="vrijdag-form">
   <!-- Email destination: evert.dieperink@zcflevo.nl -->
@@ -65,18 +69,19 @@ Vul je gegevens in en wij nemen contact op om een geschikte vrijdag in te planne
 
   <div class="form-group">
     <label for="opmerkingen">Opmerkingen of vragen</label>
-    <textarea id="opmerkingen" name="opmerkingen" rows="4" aria-label="Opmerkingen of vragen"></textarea>
+    <textarea id="opmerkingen" name="opmerkingen" rows="4" placeholder="Bijvoorbeeld: voorkeur voor een bepaalde datum of bijzonderheden"></textarea>
   </div>
 
-  <button type="submit" class="btn-primary">Inschrijven</button>
+  <button type="submit" class="btn-primary">Schrijf mij in</button>
 </form>
 
 ---
 
 ## Vragen?
 
-Neem contact op met ZC Flevo:
-- **Email**: [evert.dieperink@zcflevo.nl](mailto:evert.dieperink@zcflevo.nl)
+Heb je nog vragen over Vrijdag Vliegen? Neem gerust contact op:
+
+- **E-mail**: [evert.dieperink@zcflevo.nl](mailto:evert.dieperink@zcflevo.nl)
 - **Telefoon**: 06-17722964
 
 We horen graag van je!
