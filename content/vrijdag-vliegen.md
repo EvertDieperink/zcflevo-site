@@ -5,8 +5,7 @@ description: "Kom betaald vliegen en steun Stichting Hoogvliegers. €40 per int
 
 ## Vrijdag Vliegen ✈️
 
-<!-- TODO: Ko Piloot logo toevoegen als /static/images/ko-piloot-logo.png -->
-<!-- ![Ko Piloot - Stichting Hoogvliegers](/images/ko-piloot-logo.png) -->
+![Ko Piloot - Stichting Hoogvliegers](/images/ko-piloot-logo.png)
 
 ### Over Stichting Hoogvliegers
 
