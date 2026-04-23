@@ -43,28 +43,27 @@ Om mee te mogen vliegen moet je in goede gezondheid zijn. Twijfel je of vliegen 
 
 ## Inschrijven
 
-Vul onderstaand formulier in en wij nemen zo snel mogelijk contact met je op.
+Vul onderstaand formulier in en klik op "Schrijf mij in". Je eigen e-mailprogramma opent met de inschrijving al ingevuld – klik op verzenden en wij nemen zo snel mogelijk contact met je op.
 
-<form action="https://formspree.io/f/FORMID_PLACEHOLDER" method="POST" class="vrijdag-form">
-  <!-- Email destination: evert.dieperink@zcflevo.nl -->
+<form id="vrijdag-form" class="vrijdag-form" onsubmit="return verzendInschrijving(event)">
   <div class="form-group">
     <label for="naam">Volledige naam *</label>
-    <input type="text" id="naam" name="naam" required aria-label="Volledige naam">
+    <input type="text" id="naam" name="naam" required>
   </div>
 
   <div class="form-group">
     <label for="email">E-mailadres *</label>
-    <input type="email" id="email" name="email" required aria-label="E-mailadres">
+    <input type="email" id="email" name="email" required>
   </div>
 
   <div class="form-group">
     <label for="telefoon">Telefoonnummer</label>
-    <input type="tel" id="telefoon" name="telefoon" aria-label="Telefoonnummer">
+    <input type="tel" id="telefoon" name="telefoon">
   </div>
 
   <div class="form-group">
     <label for="aantal">Aantal deelnemers *</label>
-    <input type="number" id="aantal" name="aantal" min="1" value="1" required aria-label="Aantal deelnemers">
+    <input type="number" id="aantal" name="aantal" min="1" value="1" required>
   </div>
 
   <div class="form-group">
@@ -74,6 +73,41 @@ Vul onderstaand formulier in en wij nemen zo snel mogelijk contact met je op.
 
   <button type="submit" class="btn-primary">Schrijf mij in</button>
 </form>
+
+<script>
+function verzendInschrijving(event) {
+  event.preventDefault();
+
+  var naam = document.getElementById('naam').value;
+  var email = document.getElementById('email').value;
+  var telefoon = document.getElementById('telefoon').value;
+  var aantal = document.getElementById('aantal').value;
+  var opmerkingen = document.getElementById('opmerkingen').value;
+
+  var onderwerp = 'Inschrijving Vrijdag Vliegen - ' + naam;
+
+  var body = 'Hallo,\n\n';
+  body += 'Ik wil me graag inschrijven voor Vrijdag Vliegen.\n\n';
+  body += '--- Mijn gegevens ---\n';
+  body += 'Naam: ' + naam + '\n';
+  body += 'E-mail: ' + email + '\n';
+  body += 'Telefoon: ' + (telefoon || '-') + '\n';
+  body += 'Aantal deelnemers: ' + aantal + '\n';
+
+  if (opmerkingen) {
+    body += '\n--- Opmerkingen ---\n' + opmerkingen + '\n';
+  }
+
+  body += '\nMet vriendelijke groet,\n' + naam;
+
+  var mailto = 'mailto:evert.dieperink@zcflevo.nl'
+    + '?subject=' + encodeURIComponent(onderwerp)
+    + '&body=' + encodeURIComponent(body);
+
+  window.location.href = mailto;
+  return false;
+}
+</script>
 
 ---
 
