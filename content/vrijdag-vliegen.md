@@ -15,10 +15,6 @@ description: "Kom betaald vliegen en steun Stichting Hoogvliegers. €40 per int
 
 Zweefvliegen raakt mensen. Bij **Zweefvliegclub Flevo** organiseren we **Vrijdag Vliegen** – een actie waarbij normale recreatievluchten plaatsvinden. Het doel? Geld inzamelen voor **Stichting Hoogvliegers**.
 
-<div class="notice-box">
-  <strong>🎯 Steun Stichting Hoogvliegers</strong><br>
-  ZC Flevo verzamelt geld voor deze prachtige organisatie. Jij vliegt, zij profiteren!
-</div>
 
 ### Hoe het werkt
 
@@ -31,9 +27,7 @@ Je betaalt **€40 en vliegt een introductievlucht** in onze zweezitter. Dat bed
 - 📅 **Wanneer**: Op aanvraag – kies zelf een vrijdag
 - 📋 **Inclusief**: Verzekering, instructie, en een ervaring die je niet vergeet
 
-<div class="notice-box">
-  <strong>ℹ️ Gezondheid:</strong> Je moet in goede gezondheid zijn om mee te vliegen. Heb je twijfels? Neem contact met ons op.
-</div>
+**ℹ️ Gezondheid:** Je moet in goede gezondheid zijn om mee te vliegen. Heb je twijfels? Neem contact met ons op.
 
 ### Waarom Vrijdag Vliegen?
 
