@@ -5,11 +5,11 @@ description: "Kom betaald vliegen en steun Stichting Hoogvliegers. €40 per int
 
 ## Vrijdag Vliegen ✈️
 
-![Ko Piloot - Stichting Hoogvliegers](/images/ko-piloot-logo.png)
-
 ### Over Stichting Hoogvliegers
 
 **Stichting Hoogvliegers** geeft gehandicapte en zieke jongeren de kans om te zweefvliegen. Zij maken hun dromen waar en geven hen onvergetelijke ervaringen in de lucht. Dit doen zij volledig gratis. Meer info: [www.stichtinghoogvliegers.nl](https://www.stichtinghoogvliegers.nl)
+
+![Ko Piloot - Stichting Hoogvliegers](/images/ko-piloot-logo.png)
 
 ---
 
