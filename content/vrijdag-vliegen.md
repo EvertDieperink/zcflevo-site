@@ -5,13 +5,15 @@ description: "Kom betaald vliegen en steun Stichting Hoogvliegers. €40 per int
 
 ## Vrijdag Vliegen ✈️
 
+![Ko Piloot - Stichting Hoogvliegers](/images/ko-piloot-logo.png)
+
 ### Over Stichting Hoogvliegers
 
-**Stichting Hoogvliegers** geeft jongeren en mensen die het nodig hebben een kans om **hun droom waar te maken**. Door zweefvliegen toegankelijk te maken, helpen zij mensen die anders nooit de kans zouden krijgen. Meer info: [www.stichtinghoogvliegers.nl](https://www.stichtinghoogvliegers.nl)
+**Stichting Hoogvliegers** geeft gehandicapte en zieke jongeren de kans om te zweefvliegen. Zij maken hun dromen waar en geven hen onvergetelijke ervaringen in de lucht. Dit doen zij volledig gratis. Meer info: [www.stichtinghoogvliegers.nl](https://www.stichtinghoogvliegers.nl)
 
 ---
 
-Zweefvliegen raakt mensen. Bij **Zweefvliegclub Flevo** organiseren we **Vrijdag Vliegen** – een actie om geld in te zamelen voor **Stichting Hoogvliegers**.
+Zweefvliegen raakt mensen. Bij **Zweefvliegclub Flevo** organiseren we **Vrijdag Vliegen** – een actie waarbij normale recreatievluchten plaatsvinden. Het doel? Geld inzamelen voor **Stichting Hoogvliegers**.
 
 <div class="notice-box">
   <strong>🎯 Steun Stichting Hoogvliegers</strong><br>
@@ -35,7 +37,9 @@ Je betaalt **€40 en vliegt een introductievlucht** in onze zweezitter. Dat bed
 
 ### Waarom Vrijdag Vliegen?
 
-Met jouw inschrijving en betaling steun je rechtstreeks de missie van Stichting Hoogvliegers. **Eenvoudig, direct, en eerlijk.**
+Jij vliegt een leuke introductievlucht voor jezelf. Het geld dat je betaalt gaat direct naar **Stichting Hoogvliegers**, zodat zij gehandicapte en zieke jongeren gratis kunnen laten vliegen. 
+
+Met jouw betaling steun je rechtstreeks hun mooie werk. **Eenvoudig, direct, en eerlijk.**
 
 ---
 
