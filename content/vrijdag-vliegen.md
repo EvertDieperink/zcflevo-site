@@ -3,7 +3,9 @@ title: "Vrijdag Vliegen – Steun Stichting Hoogvliegers"
 description: "Kom vliegen op een vrijdag bij ZC Flevo en steun Stichting Hoogvliegers. €40 per vlucht gaat rechtstreeks naar deze mooie stichting."
 ---
 
-<p class="vrijdag-slogan">Vlieg mee voor een glimlach ✈️</p>
+<div class="vrijdag-hero">
+  <p class="vrijdag-slogan">Vlieg mee voor een glimlach ✈️</p>
+</div>
 
 Zweefvliegen is een ervaring die je niet snel vergeet. Bij **Zweefvliegclub Flevo** organiseren we **Vrijdag Vliegen**: een actie waarbij jij een introductievlucht maakt én meteen een goed doel steunt. Voor **€40** vlieg je mee in onze tweezitter. Het volledige bedrag gaat rechtstreeks naar **Stichting Hoogvliegers**.
 
@@ -155,5 +157,3 @@ Heb je nog vragen over Vrijdag Vliegen? Neem gerust contact op:
 - **Telefoon**: 06-17722964
 
 We horen graag van je!
-
-![Stichting Hoogvliegers in actie](/images/hoogvliegers-sfeer.jpg)

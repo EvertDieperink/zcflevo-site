@@ -1344,21 +1344,46 @@ body.nav-open { overflow: hidden; }
 /* ============================================================
    VRIJDAG VLIEGEN PAGE — Layout & styling
    ============================================================ */
-/* Slogan — hero tagline */
-.vrijdag-slogan {
-  font-size: 1.85rem;
-  font-weight: 700;
-  color: var(--blue-dark);
-  text-align: center;
+/* Hero banner with photo background */
+.vrijdag-hero {
+  position: relative;
+  width: 100%;
+  min-height: 280px;
   margin: 0.5rem 0 2rem;
-  line-height: 1.3;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  background-image:
+    linear-gradient(rgba(5, 107, 179, 0.55), rgba(26, 58, 92, 0.65)),
+    url('/images/hoogvliegers-sfeer.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 2rem;
+}
+
+/* Slogan — hero tagline on top of photo */
+.vrijdag-slogan {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  line-height: 1.2;
   font-style: italic;
   letter-spacing: -0.01em;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
 }
 
 @media (max-width: 600px) {
+  .vrijdag-hero {
+    min-height: 200px;
+    padding: 2rem 1rem;
+  }
   .vrijdag-slogan {
-    font-size: 1.45rem;
+    font-size: 1.6rem;
   }
 }
 
