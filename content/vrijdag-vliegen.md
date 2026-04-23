@@ -3,7 +3,7 @@ title: "Vrijdag Vliegen – Steun Stichting Hoogvliegers"
 description: "Kom vliegen op een vrijdag bij ZC Flevo en steun Stichting Hoogvliegers. €40 per vlucht gaat rechtstreeks naar deze mooie stichting."
 ---
 
-## Vlieg mee en steun een goed doel ✈️
+<p class="vrijdag-slogan">Vlieg mee voor een glimlach ✈️</p>
 
 Zweefvliegen is een ervaring die je niet snel vergeet. Bij **Zweefvliegclub Flevo** organiseren we **Vrijdag Vliegen**: een actie waarbij jij een introductievlucht maakt én meteen een goed doel steunt.
 

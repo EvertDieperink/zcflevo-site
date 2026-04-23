@@ -1344,6 +1344,24 @@ body.nav-open { overflow: hidden; }
 /* ============================================================
    VRIJDAG VLIEGEN PAGE — Layout & styling
    ============================================================ */
+/* Slogan — hero tagline */
+.vrijdag-slogan {
+  font-size: 1.85rem;
+  font-weight: 700;
+  color: var(--blue-dark);
+  text-align: center;
+  margin: 0.5rem 0 2rem;
+  line-height: 1.3;
+  font-style: italic;
+  letter-spacing: -0.01em;
+}
+
+@media (max-width: 600px) {
+  .vrijdag-slogan {
+    font-size: 1.45rem;
+  }
+}
+
 /* Ko Piloot logo - clean, centered, no effects */
 .page-content img[src*="ko-piloot"] {
   box-shadow: none;
