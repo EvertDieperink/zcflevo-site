@@ -5,11 +5,7 @@ description: "Kom vliegen op een vrijdag bij ZC Flevo en steun Stichting Hoogvli
 
 <p class="vrijdag-slogan">Vlieg mee voor een glimlach ✈️</p>
 
-Zweefvliegen is een ervaring die je niet snel vergeet. Bij **Zweefvliegclub Flevo** organiseren we **Vrijdag Vliegen**: een actie waarbij jij een introductievlucht maakt én meteen een goed doel steunt.
-
-Voor **€40** vlieg je mee in onze tweezitter. Het volledige bedrag gaat rechtstreeks naar **Stichting Hoogvliegers**.
-
----
+Zweefvliegen is een ervaring die je niet snel vergeet. Bij **Zweefvliegclub Flevo** organiseren we **Vrijdag Vliegen**: een actie waarbij jij een introductievlucht maakt én meteen een goed doel steunt. Voor **€40** vlieg je mee in onze tweezitter. Het volledige bedrag gaat rechtstreeks naar **Stichting Hoogvliegers**.
 
 ## Over Stichting Hoogvliegers
 
@@ -18,8 +14,6 @@ Voor **€40** vlieg je mee in onze tweezitter. Het volledige bedrag gaat rechts
 **Stichting Hoogvliegers** geeft gehandicapte en zieke jongeren de kans om te vliegen én voor één dag zelf piloot te zijn. Zij maken dromen waar en zorgen voor onvergetelijke ervaringen in de lucht – volledig gratis voor deze kinderen.
 
 Meer informatie vind je op [www.stichtinghoogvliegers.nl](https://www.stichtinghoogvliegers.nl).
-
----
 
 ## Hoe werkt het?
 
@@ -38,8 +32,6 @@ Je schrijft je in via onderstaand formulier. Wij nemen contact met je op om een 
 ### Goed om te weten
 
 Om mee te mogen vliegen moet je in goede gezondheid zijn. Twijfel je of vliegen iets voor jou is? Neem gerust contact met ons op.
-
----
 
 ## Inschrijven
 
@@ -108,8 +100,6 @@ function verzendInschrijving(event) {
   return false;
 }
 </script>
-
----
 
 ## Vragen?
 

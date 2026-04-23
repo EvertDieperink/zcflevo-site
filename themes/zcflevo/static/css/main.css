@@ -1362,6 +1362,21 @@ body.nav-open { overflow: hidden; }
   }
 }
 
+/* Section spacing — clean structure without horizontal lines */
+.page-content h2 {
+  margin-top: 2.5rem;
+  color: var(--blue-dark);
+}
+
+.page-content h2:first-of-type {
+  margin-top: 2rem;
+}
+
+.page-content h3 {
+  margin-top: 1.75rem;
+  color: var(--text);
+}
+
 /* Ko Piloot logo - clean, centered, no effects */
 .page-content img[src*="ko-piloot"] {
   box-shadow: none;
