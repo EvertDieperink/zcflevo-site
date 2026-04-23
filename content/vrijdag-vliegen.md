@@ -5,7 +5,8 @@ description: "Kom betaald vliegen en steun Stichting Hoogvliegers. €40 per int
 
 ## Vrijdag Vliegen ✈️
 
-![Ko Piloot - Stichting Hoogvliegers](/images/ko-piloot-logo.png)
+<!-- TODO: Ko Piloot logo toevoegen als /static/images/ko-piloot-logo.png -->
+<!-- ![Ko Piloot - Stichting Hoogvliegers](/images/ko-piloot-logo.png) -->
 
 ### Over Stichting Hoogvliegers
 
@@ -48,6 +49,7 @@ Met jouw betaling steun je rechtstreeks hun mooie werk. **Eenvoudig, direct, en 
 Vul je gegevens in en wij nemen contact op om een geschikte vrijdag in te plannen. Je betaalt het €40-bedrag ter plekke, rechtstreeks aan Stichting Hoogvliegers.
 
 <form action="https://formspree.io/f/FORMID_PLACEHOLDER" method="POST" class="vrijdag-form">
+  <!-- Email destination: evert.dieperink@zcflevo.nl -->
   <div class="form-group">
     <label for="naam">Volledige naam *</label>
     <input type="text" id="naam" name="naam" required aria-label="Volledige naam">
@@ -81,7 +83,7 @@ Vul je gegevens in en wij nemen contact op om een geschikte vrijdag in te planne
 ## Vragen?
 
 Neem contact op met ZC Flevo:
-- **Email**: [secretaris@zcflevo.nl](mailto:secretaris@zcflevo.nl)
+- **Email**: [evert.dieperink@zcflevo.nl](mailto:evert.dieperink@zcflevo.nl)
 - **Telefoon**: 06-17722964
 
 We horen graag van je!
