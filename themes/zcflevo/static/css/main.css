@@ -1342,6 +1342,16 @@ body.nav-open { overflow: hidden; }
 }
 
 /* ============================================================
+   VRIJDAG VLIEGEN PAGE — Logo styling
+   ============================================================ */
+/* Remove shadow and border from Ko Piloot logo on vrijdag-vliegen page */
+.page-content img[src*="ko-piloot"] {
+  box-shadow: none;
+  border: none;
+  border-radius: 0;
+}
+
+/* ============================================================
    FORM STYLES — Vrijdag Vliegen inschrijving
    ============================================================ */
 .vrijdag-form {
