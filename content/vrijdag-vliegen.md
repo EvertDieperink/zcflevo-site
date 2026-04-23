@@ -1,39 +1,39 @@
 ---
-title: "Vrijdag Vliegen voor Stichting Hoogvliegers"
-description: "Betaald recreatievliegen op vrijdag. €40 per vlucht gaat direct naar Stichting Hoogvliegers."
+title: "Vrijdag Vliegen – Steun Stichting Hoogvliegers"
+description: "Kom betaald vliegen en steun Stichting Hoogvliegers. €40 per introductievlucht gaat direct naar hen."
 ---
 
-## Vrijdag Vliegen 🚀
+## Vrijdag Vliegen ✈️
 
-Zweefvliegen is een sport die mensen raakt. Samen met **Stichting Hoogvliegers** bieden we een unieke mogelijkheid: kom op vrijdag **betaald vliegen**!
-
-<!-- TODO: Voeg hier het logo van Stichting Hoogvliegers toe: /static/images/stichting-hoogvliegers-logo.png -->
-<!-- ![Stichting Hoogvliegers](/images/stichting-hoogvliegers-logo.png) -->
+Zweefvliegen raakt mensen. Bij **Zweefvliegclub Flevo** organiseren we **Vrijdag Vliegen** – een actie om geld in te zamelen voor **Stichting Hoogvliegers**, een organisatie die zweefvliegen toegankelijk maakt voor iedereen.
 
 <div class="notice-box">
-  <strong>💯 100% van de €40 gaat naar Stichting Hoogvliegers</strong><br>
-  Geen verborgen kosten, alles gaat direct naar deze organisatie die zweefvliegen toegankelijk maakt.
+  <strong>🎯 Steun Stichting Hoogvliegers</strong><br>
+  ZC Flevo verzamelt geld voor deze prachtige organisatie. Jij vliegt, zij profiteren!
 </div>
 
-### Hoe werkt het?
+### Hoe het werkt
 
-- **Wat**: Je krijgt een introductievlucht van ongeveer 5-30 minuten in een tweezitter (afhankelijk van de thermiek)
-- **Wanneer**: Op aanvraag – kies zelf een vrijdag die voor je past
-- **Kosten**: €40 per vlucht (inclusief verzekering en instructie) – **100% gaat naar Stichting Hoogvliegers**
-- **Voor wie**: Iedereen is welkom! Geen vliegervaardigheden nodig
-- **Doel**: Het geld gaat rechtstreeks naar Stichting Hoogvliegers
+Je betaalt **€40 en vliegt een introductievlucht** in onze zweezitter. Dat bedrag geef je ter plekke rechtstreeks aan Stichting Hoogvliegers.
 
-### Over Stichting Hoogvliegers
+**De feiten:**
+- ⏱️ **Vluchtduur**: 5–30 minuten (afhankelijk van de thermiek)
+- 💰 **Prijs**: €40 per vlucht – direct betaald aan Stichting Hoogvliegers
+- 👥 **Voor wie**: Iedereen is welkom – geen vliegervaardigheden nodig
+- 📅 **Wanneer**: Op aanvraag – kies zelf een vrijdag
+- 📋 **Inclusief**: Verzekering, instructie, en een ervaring die je niet vergeet
 
-Stichting Hoogvliegers maakt zweefvliegen toegankelijk voor mensen die anders geen mogelijkheid hebben. Met deze Vrijdag Vliegen actie helpen we hen hun droom waar te maken.
+### Waarom Stichting Hoogvliegers?
 
-**Jouw inschrijving = directe steun voor Stichting Hoogvliegers** 🎯
+Stichting Hoogvliegers geeft jongeren en mensen die het nodig hebben een kans om **hun droom waar te maken**. Zweefvliegen is voor velen onbereikbaar – deze stichting verandert dat.
+
+Met jouw inschrijving en betaling steun je rechtstreeks hun missie. **Eenvoudig, direct, en eerlijk.**
 
 ---
 
 ## Inschrijven
 
-Vul je gegevens in en wij nemen contact met je op om een geschikte vrijdag in te plannen. Je hoeft niets meer te betalen – het €40 bedrag betaal je rechtstreeks ter plekke.
+Vul je gegevens in en wij nemen contact op om een geschikte vrijdag in te plannen. Je betaalt het €40-bedrag ter plekke, rechtstreeks aan Stichting Hoogvliegers.
 
 <form action="https://formspree.io/f/FORMID_PLACEHOLDER" method="POST" class="vrijdag-form">
   <div class="form-group">
@@ -68,7 +68,7 @@ Vul je gegevens in en wij nemen contact met je op om een geschikte vrijdag in te
 
 ## Vragen?
 
-Neem direct contact op met de secretaris:
+Neem contact op met ZC Flevo:
 - **Email**: [secretaris@zcflevo.nl](mailto:secretaris@zcflevo.nl)
 - **Telefoon**: 06-17722964
 
