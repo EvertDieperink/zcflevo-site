@@ -9,7 +9,7 @@ menu:
 
 ## Wat is de kennismakingsstage?
 
-Iedereen die bij ZC Flevo wil leren zweefvliegen begint met de kennismakingsstage. Je draait **twee volledige vliegdagen mee** als volwaardig lid van de club, van de ochtendbriefing tot het opbergen van de vliegtuigen aan het einde van de dag. Zo krijg jij een eerlijk beeld van hoe het er bij ons aan toegaat, en krijgt de club jou alvast wat beter te leren kennen.
+Iedereen die bij ZC Flevo wil leren zweefvliegen begint met de kennismakingsstage. Je draait **twee volledige vliegdagen mee** als volwaardig lid van de club, van de ochtendbriefing tot het opbergen van de vliegtuigen aan het einde van de dag. Zo krijg jij een eerlijk beeld van hoe het er bij ons aan toegaat, en krijgt de club jou alvast wat beter te leren kennen. **De stage is volledig vrijblijvend**: je bent op geen enkele manier verplicht om daarna lid te worden.
 
 De stage omvat **6 starts met instructeur**, meestal verdeeld over twee vliegdagen. Op de eerste dag ontvang je een logboekje en een EVO-theorieboekje.
 

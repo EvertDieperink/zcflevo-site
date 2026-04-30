@@ -87,7 +87,7 @@ pricing:
 stage_callout:
   label: "Zo start je bij ZC Flevo"
   title: "Iedereen begint met de kennismakingsstage"
-  text: "Wil je leren zweefvliegen bij ZC Flevo? Dan begin je met de kennismakingsstage: 6 starts over 2 dagen, begeleid door een instructeur. Voor €180 ontdek je hoe het er bij ons aan toegaat. Word je lid, dan wordt het volledige bedrag verrekend als korting op je inschrijfgeld."
+  text: "Wil je leren zweefvliegen bij ZC Flevo? Dan begin je met de kennismakingsstage: 6 starts over 2 dagen, begeleid door een instructeur. Voor €180 ontdek je hoe het er bij ons aan toegaat. De stage is volledig vrijblijvend – je beslist na afloop zelf of je lid wilt worden. Word je lid, dan wordt het volledige bedrag verrekend als korting op je inschrijfgeld."
   cta_text: "Meer over de stage"
   cta_url: "/de-mogelijkheden/kennismakingsstage/"
 
