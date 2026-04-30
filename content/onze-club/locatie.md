@@ -12,8 +12,7 @@ menu:
 Zweefvliegclub Flevo vliegt vanaf het **Nationaal Zweefvliegcentrum Terlet**, gelegen op de Veluwe ten noorden van Arnhem. We delen het vliegveld met meerdere verenigingen.
 
 **Adres:**
-Apeldoornseweg 203
-6816 SM Arnhem
+{{< adres "block" >}}
 
 ## Bezoek ons
 

@@ -21,7 +21,7 @@ faqs:
   - q: "Hoeveel tijd kost het lidmaatschap?"
     a: "Een vliegdag duurt de hele dag (ca. 9:00 tot zonsondergang). Hoe vaak je komt is aan jou: sommige leden komen elk weekend, anderen minder frequent. Hoe vaker je komt, hoe sneller je leert vliegen."
   - q: "Hoe kom ik bij het vliegveld?"
-    a: "Maak altijd eerst een afspraak via {email}. Betreed het vliegveld niet zelfstandig. Rij naar de parkeerplaats van Vliegveld Terlet (Apeldoornseweg 203, Arnhem) en bel {phone}, dan halen we je op en begeleiden je veilig naar de startplaats."
+    a: "Maak altijd eerst een afspraak via {email}. Betreed het vliegveld niet zelfstandig. Rij naar de parkeerplaats van Vliegveld Terlet en bel {phone}, dan halen we je op en begeleiden je veilig naar de startplaats."
   - q: "Is zweefvliegen veilig?"
     a: "Zweefvliegen is een serieuze sport met inherente risico's, maar die risico's worden actief beheerd. We werken met gecertificeerde instructeurs, geïnspecteerde vliegtuigen en verplichte veiligheidsprocedures. Elke vlucht begint met een uitgebreide pre-flight check en we vliegen nooit bij onverantwoord weer. Veiligheid is bij ons een cultuur, geen toevalligheid."
   - q: "Vanaf welke leeftijd kun je beginnen met zweefvliegen?"
@@ -78,7 +78,7 @@ Een vliegdag duurt de hele dag (ca. 9:00 tot zonsondergang). Hoe vaak je komt is
 
 ### Hoe kom ik bij het vliegveld?
 
-Maak altijd **eerst een afspraak** via {{< email >}}. Betreed het vliegveld niet zelfstandig. Rij naar de parkeerplaats van Vliegveld Terlet (Apeldoornseweg 203, Arnhem) en bel {{< veldtelefoon >}}, dan halen we je op en begeleiden je veilig naar de startplaats.
+Maak altijd **eerst een afspraak** via {{< email >}}. Betreed het vliegveld niet zelfstandig. Rij naar de parkeerplaats van Vliegveld Terlet en bel {{< veldtelefoon >}}, dan halen we je op en begeleiden je veilig naar de startplaats.
 
 ---
 

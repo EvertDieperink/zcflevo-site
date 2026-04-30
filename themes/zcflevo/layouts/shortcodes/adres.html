@@ -1,0 +1,19 @@
+{{- /*
+  Renders the club's address (Vliegveld Terlet) using Site Params.
+
+  Usage:
+    {{< adres >}}        → "Vliegveld Terlet, Apeldoornseweg 203, 6816 SM Arnhem"
+    {{< adres "block" >}} → "Vliegveld Terlet<br>Apeldoornseweg 203<br>6816 SM Arnhem"
+
+  The address is configured in hugo.toml under [params]:
+    address_line1, address_line2, address_line3
+*/ -}}
+{{- $line1 := .Site.Params.address_line1 -}}
+{{- $line2 := .Site.Params.address_line2 -}}
+{{- $line3 := .Site.Params.address_line3 -}}
+{{- $format := .Get 0 | default "inline" -}}
+{{- if eq $format "block" -}}
+{{ $line1 }}<br>{{ $line2 }}<br>{{ $line3 }}
+{{- else -}}
+{{ $line1 }}, {{ $line2 }}, {{ $line3 }}
+{{- end -}}

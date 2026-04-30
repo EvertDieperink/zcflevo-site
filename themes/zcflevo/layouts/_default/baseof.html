@@ -42,11 +42,14 @@
     "telephone": {{ .Site.Params.veldtelefoonnummer | jsonify }},
     "email": {{ .Site.Params.email | jsonify }},
     "sport": "Zweefvliegen",
+    {{- $line3parts := split .Site.Params.address_line3 " " -}}
+    {{- $postalCode := printf "%s %s" (index $line3parts 0) (index $line3parts 1) -}}
+    {{- $city := index $line3parts 2 -}}
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Apeldoornseweg 203",
-      "addressLocality": "Arnhem",
-      "postalCode": "6816 SM",
+      "streetAddress": {{ .Site.Params.address_line2 | jsonify }},
+      "addressLocality": {{ $city | jsonify }},
+      "postalCode": {{ $postalCode | jsonify }},
       "addressCountry": "NL"
     },
     "geo": {

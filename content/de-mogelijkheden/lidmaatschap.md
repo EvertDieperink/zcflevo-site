@@ -34,6 +34,12 @@ Een gemiddeld lid maakt **3 à 4 vluchten per dag** van 7 tot 30 minuten.
 
 We vliegen op **alle zater- en zondagen van 1 maart t/m 1 november**, plus veel vrijdagen. In schoolvakanties zijn er zweefvliegkampen.
 
+## Winteronderhoud
+
+In de wintermaanden onderhouden we onze vliegtuigen, materialen en accommodatie volledig in eigen beheer. Daardoor blijven de kosten laag voor iedereen. Als clublid help je daaraan mee: je draait per seizoen onderhoudsuren in onze werkplaats in **Biddinghuizen**.
+
+Het aantal uren is **gemaximeerd op 40 uur per jaar** en hangt af van hoe vaak je hebt gevlogen: hoe meer je vliegt, hoe meer uren je meedraait. Onderhoudsdagen zijn ook gewoon gezellig: samen sleutelen aan de kisten, koffie erbij, en je leert je vliegtuigen van binnen en buiten kennen.
+
 ## Kosten
 
 Zweefvliegen bestaat uit een paar vaste jaarlijkse kostenposten. Hieronder een overzicht.

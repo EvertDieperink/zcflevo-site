@@ -20,7 +20,7 @@ Heb je vragen over zweefvliegen, een introductievlucht, het lidmaatschap of iets
   </div>
   <div class="contact-detail-text">
     <strong>Adres</strong>
-    <p>Vliegveld Terlet<br>Apeldoornseweg 203<br>6816 SM Arnhem</p>
+    <p>{{< adres "block" >}}</p>
   </div>
 </div>
 
