@@ -40,5 +40,5 @@ Omdat we als vereniging op kamp gaan, worden de kosten **eerlijk verdeeld over d
 
 De kampen worden elk jaar via de clubcommunicatie aangekondigd. Interesse? Neem contact op met de secretaris, dan zetten we je op de lijst.
 
-**E-mail:** [secretaris@zcflevo.nl](mailto:secretaris@zcflevo.nl)
+**E-mail:** {{< email >}}
 

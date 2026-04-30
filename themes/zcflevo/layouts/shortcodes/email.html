@@ -1,0 +1,13 @@
+{{- /*
+  Renders a mailto link to the club's secretary email.
+
+  Usage:
+    {{< email >}}                  → <a href="mailto:secretaris@zcflevo.nl">secretaris@zcflevo.nl</a>
+    {{< email "neem contact op" >}} → <a href="mailto:secretaris@zcflevo.nl">neem contact op</a>
+
+  The email address is configured in hugo.toml under [params].email
+*/ -}}
+{{- $email := .Site.Params.email -}}
+{{- $text := .Get 0 | default $email -}}
+<a href="mailto:{{ $email }}">{{ $text }}</a>
+{{- /* */ -}}

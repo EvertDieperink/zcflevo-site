@@ -1,4 +1,5 @@
 {{- with .Params.faqs -}}
+{{- $email := $.Site.Params.email -}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -8,10 +9,10 @@
     {{- if $i }},{{ end }}
     {
       "@type": "Question",
-      "name": {{ $faq.q | jsonify }},
+      "name": {{ replace $faq.q "{email}" $email | jsonify }},
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": {{ $faq.a | jsonify }}
+        "text": {{ replace $faq.a "{email}" $email | jsonify }}
       }
     }
     {{- end }}

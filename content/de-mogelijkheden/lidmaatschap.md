@@ -107,4 +107,4 @@ Als vereniging gaan we elk jaar tegen kostprijs op kamp – met een gezellige gr
 
 Interesse om lid te worden? Neem contact op met onze secretaris:
 
-**E-mail:** [secretaris@zcflevo.nl](mailto:secretaris@zcflevo.nl)
+**E-mail:** {{< email >}}

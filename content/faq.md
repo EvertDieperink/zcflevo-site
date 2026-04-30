@@ -13,7 +13,7 @@ faqs:
   - q: "Wanneer wordt er gevlogen?"
     a: "We vliegen op alle zaterdagen en zondagen van 1 maart t/m 1 november, met ook veel vrijdagen in het seizoen. In schoolvakanties zijn er zweefvliegkampen. Slecht weer of te weinig deelname kan een dag doen vervallen."
   - q: "Kan ik een proefvlucht maken?"
-    a: "Ja, maar alleen na vooraf contact opnemen via secretaris@zcflevo.nl. Vluchten zijn bedoeld voor serieus geïnteresseerde potentiële leden. Wij bieden geen commerciële rondvluchten of cadeauvluchten aan."
+    a: "Ja, maar alleen na vooraf contact opnemen via {email}. Vluchten zijn bedoeld voor serieus geïnteresseerde potentiële leden. Wij bieden geen commerciële rondvluchten of cadeauvluchten aan."
   - q: "Is zweefvliegen duur?"
     a: "Zweefvliegen is een van de betaalbaardere vormen van luchtvaart. Doordat de club door de leden zelf wordt gerund, zijn de kosten laag. Je betaalt een jaarlijkse contributie, en daarin zijn alle vluchten inbegrepen."
   - q: "Heb ik een rijbewijs nodig?"
@@ -21,7 +21,7 @@ faqs:
   - q: "Hoeveel tijd kost het lidmaatschap?"
     a: "Een vliegdag duurt de hele dag (ca. 9:00 tot zonsondergang). Hoe vaak je komt is aan jou: sommige leden komen elk weekend, anderen minder frequent. Hoe vaker je komt, hoe sneller je leert vliegen."
   - q: "Hoe kom ik bij het vliegveld?"
-    a: "Maak altijd eerst een afspraak via secretaris@zcflevo.nl. Betreed het vliegveld niet zelfstandig. Rij naar de parkeerplaats van Vliegveld Terlet (Apeldoornseweg 203, Arnhem) en bel 06-17722964, dan halen we je op en begeleiden je veilig naar de startplaats."
+    a: "Maak altijd eerst een afspraak via {email}. Betreed het vliegveld niet zelfstandig. Rij naar de parkeerplaats van Vliegveld Terlet (Apeldoornseweg 203, Arnhem) en bel 06-17722964, dan halen we je op en begeleiden je veilig naar de startplaats."
   - q: "Is zweefvliegen veilig?"
     a: "Zweefvliegen is een serieuze sport met inherente risico's, maar die risico's worden actief beheerd. We werken met gecertificeerde instructeurs, geïnspecteerde vliegtuigen en verplichte veiligheidsprocedures. Elke vlucht begint met een uitgebreide pre-flight check en we vliegen nooit bij onverantwoord weer. Veiligheid is bij ons een cultuur, geen toevalligheid."
   - q: "Vanaf welke leeftijd kun je beginnen met zweefvliegen?"
@@ -54,7 +54,7 @@ We vliegen op **alle zaterdagen en zondagen van 1 maart t/m 1 november**, met oo
 
 ### Kan ik een proefvlucht maken?
 
-Ja, maar alleen na **vooraf contact opnemen** via [secretaris@zcflevo.nl](mailto:secretaris@zcflevo.nl). Vluchten zijn bedoeld voor serieus geïnteresseerde potentiële leden. Wij bieden **geen commerciële rondvluchten of cadeauvluchten** aan; hiervoor kun je terecht bij commerciële vliegscholen.
+Ja, maar alleen na **vooraf contact opnemen** via {{< email >}}. Vluchten zijn bedoeld voor serieus geïnteresseerde potentiële leden. Wij bieden **geen commerciële rondvluchten of cadeauvluchten** aan; hiervoor kun je terecht bij commerciële vliegscholen.
 
 ---
 
@@ -78,7 +78,7 @@ Een vliegdag duurt de hele dag (ca. 9:00 tot zonsondergang). Hoe vaak je komt is
 
 ### Hoe kom ik bij het vliegveld?
 
-Maak altijd **eerst een afspraak** via [secretaris@zcflevo.nl](mailto:secretaris@zcflevo.nl). Betreed het vliegveld niet zelfstandig. Rij naar de parkeerplaats van Vliegveld Terlet (Apeldoornseweg 203, Arnhem) en bel **06-17722964**, dan halen we je op en begeleiden je veilig naar de startplaats.
+Maak altijd **eerst een afspraak** via {{< email >}}. Betreed het vliegveld niet zelfstandig. Rij naar de parkeerplaats van Vliegveld Terlet (Apeldoornseweg 203, Arnhem) en bel **06-17722964**, dan halen we je op en begeleiden je veilig naar de startplaats.
 
 ---
 

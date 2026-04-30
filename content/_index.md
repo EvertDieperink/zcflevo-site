@@ -135,4 +135,4 @@ Wij maken gebruik van een **elektrische lier** om onze motorloze vliegtuigen de 
 
 Zweefvliegen is een **betaalbare hobby**. Doordat de club volledig door de leden zelf wordt gerund, zijn de kosten laag in vergelijking met gemotoriseerde luchtvaart.
 
-Ben je benieuwd? Neem contact op via [secretaris@zcflevo.nl](mailto:secretaris@zcflevo.nl) of lees meer op deze site.
+Ben je benieuwd? Neem contact op via {{< email >}} of lees meer op deze site.

@@ -30,7 +30,7 @@ Heb je vragen over zweefvliegen, een introductievlucht, het lidmaatschap of iets
   </div>
   <div class="contact-detail-text">
     <strong>Secretariaat</strong>
-    <p><a href="mailto:secretaris@zcflevo.nl">secretaris@zcflevo.nl</a></p>
+    <p>{{< email >}}</p>
   </div>
 </div>
 

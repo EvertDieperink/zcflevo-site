@@ -5,7 +5,7 @@
         <a href="{{ "/" | relURL }}" class="logo" aria-label="{{ .Site.Title }}">
           <img src="{{ "/images/logo.svg" | relURL }}" alt="{{ .Site.Title }}" height="36">
         </a>
-        <p>{{ .Site.Params.tagline }}</p>
+        
         <div class="footer-social">
           <a href="{{ .Site.Params.facebook }}" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
@@ -41,7 +41,6 @@
           {{ .Site.Params.address_line3 }}
         </p>
         <p><a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></p>
-        <p><a href="tel:{{ .Site.Params.phone | replaceRE "[^0-9+]" "" }}">{{ .Site.Params.phone }}</a></p>
       </div>
     </div>
     <div class="footer-bottom">

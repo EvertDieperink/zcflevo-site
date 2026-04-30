@@ -19,7 +19,7 @@ Ben je nieuwsgierig? Dat begrijpen we. Je kunt contact opnemen met onze secretar
 
 ## Hoe werkt het?
 
-1. **Neem contact op** via [secretaris@zcflevo.nl](mailto:secretaris@zcflevo.nl) om een afspraak te maken
+1. **Neem contact op** via {{< email >}} om een afspraak te maken
 2. **Kom op een vliegdag:** wij laten je zien hoe alles werkt
 3. **Maak een vlucht** samen met een ervaren vlieger
 4. **Stel al je vragen:** we vertellen je alles over de sport en de club
@@ -39,7 +39,6 @@ Wil je serieus aan de slag met zweefvliegen? Dan begin je bij ZC Flevo altijd me
 
 Neem contact op met onze secretaris:
 
-**E-mail:** [secretaris@zcflevo.nl](mailto:secretaris@zcflevo.nl)
-**Telefoon:** [06-17722964](tel:0617722964)
+**E-mail:** {{< email >}}
 
 Of lees direct meer over de [kennismakingsstage](/de-mogelijkheden/kennismakingsstage/) en het [lidmaatschap](/de-mogelijkheden/lidmaatschap/).

@@ -16,9 +16,9 @@ De stage omvat **6 starts met instructeur**, meestal verdeeld over twee vliegdag
 ## Hoe werkt het?
 
 1. **Aanmelden:** vul je persoonsgegevens in via deze website en maak het stagegeld over op de clubrekening onder vermelding van je naam.
-2. **Vliegdag plannen:** stuur een mail naar [secretaris@zcflevo.nl](mailto:secretaris@zcflevo.nl) om een afspraak te maken voor je eerste vliegdag.
+2. **Vliegdag plannen:** stuur een mail naar {{< email >}} om een afspraak te maken voor je eerste vliegdag.
 3. **Stage volgen:** je draait twee volledige dagen mee, vliegt 6 starts met een instructeur en maakt kennis met alle aspecten van de club.
-4. **Beslissing:** na afloop meld je per mail aan [secretaris@zcflevo.nl](mailto:secretaris@zcflevo.nl) of je verder wilt als clublid. De penningmeester stuurt je vervolgens een lidmaatschapsfactuur.
+4. **Beslissing:** na afloop meld je per mail aan {{< email >}} of je verder wilt als clublid. De penningmeester stuurt je vervolgens een lidmaatschapsfactuur.
 
 > De stagestarts moeten in principe binnen één seizoen worden gemaakt. Als dat door omstandigheden niet mogelijk is, kan in overleg worden afgesproken om in het volgende seizoen verder te gaan.
 
@@ -30,7 +30,6 @@ Besluit je lid te worden? Dan wordt de **€ 180,– volledig verrekend als kort
 
 ## Aanmelden
 
-**E-mail:** [secretaris@zcflevo.nl](mailto:secretaris@zcflevo.nl)
-**Telefoon:** [06-17722964](tel:0617722964)
+**E-mail:** {{< email >}}
 
-Of lees meer over het [volledige lidmaatschap](/de-mogelijkheden/lidmaatschap/).
+Lees meer over het [volledige lidmaatschap](/de-mogelijkheden/lidmaatschap/).
