@@ -97,11 +97,11 @@ De geldigheidsduur is afhankelijk van je leeftijd:
 
 > Vluchten zijn **onbeperkt** inbegrepen in het startabonnement. Er zijn geen extra kosten per vlucht.
 
-## Buitenlandkampen, vakantie inbegrepen
+## Vliegkampen: een actieve vakantie met de club
 
-Als lid kun je elk jaar mee naar een **zweefvliegkamp in het buitenland**. En het bijzondere: het is waarschijnlijk de goedkoopste vakantie die je ooit hebt gehad. Slapen op het vliegveld kost een paar euro per nacht, eten maak je zelf zo duur als je wilt, en het vliegen en de instructie zitten er gewoon bij.
+Als vereniging gaan we elk jaar tegen kostprijs op kamp – met een gezellige groep een actieve vakantie in binnen- of buitenland. We nemen onze eigen vliegtuigen mee en maken er een of meerdere weken vakantie van.
 
-[Meer over buitenlandkampen →](/de-mogelijkheden/buitenlandkampen/)
+[Meer over vliegkampen →](/de-mogelijkheden/buitenlandkampen/)
 
 ## Aanmelden
 

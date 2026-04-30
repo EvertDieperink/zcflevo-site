@@ -1,54 +1,44 @@
 ---
-title: "Buitenlandkampen"
-description: "Als lid van ZC Flevo kun je mee naar onze buitenlandkampen: zweefvliegen in het buitenland voor een fractie van de prijs van een gewone vakantie."
+title: "Vliegkampen"
+description: "Als lid van ZC Flevo ga je mee op kamp: een actieve vakantie met een gezellige groep clubleden, in binnen- of buitenland."
 menu:
   main:
     parent: "de-mogelijkheden"
     weight: 35
 ---
 
-## Zweefvliegen als goedkoopste vakantie
+## Een actieve vakantie met de club
 
-Wist je dat een buitenlandkamp met ZC Flevo waarschijnlijk goedkoper is dan thuis blijven? Als lid kun je elk jaar mee naar een zweefvliegkamp in het buitenland, de kosten vallen verrassend mee.
+Als vereniging gaan we elk jaar **tegen kostprijs op kamp** – met een gezellige groep een actieve vakantie in binnen- of buitenland. We nemen onze eigen vliegtuigen mee en maken er een of meerdere weken vakantie van.
 
-## Hoe werkt het?
+## Wat houdt het in?
 
-Elk jaar trekt een groep ZC Flevo-leden een of twee weken naar een zweefvliegveld in het buitenland. Denk aan locaties in Duitsland, Tsjechië, Hongarije, Spanje of de Alpen. We vliegen overdag en leven samen op en rond het vliegveld.
+Een groep ZC Flevo-leden trekt samen naar een zweefvliegveld. Dat kan dichtbij zijn in Nederland of net over de grens, maar ook verder weg in de Alpen, Duitsland, Tsjechië, Hongarije of Spanje. We trailen onze eigen tweezitters en eenpersoonstoestellen mee, zodat we de hele week (of langer) volop kunnen vliegen.
 
-Het vliegtijdschema is informeel: je stapt in wanneer de condities goed zijn, het vliegtuig beschikbaar is en jij er zin in hebt. Instructeurs zijn mee, dus ook als je nog in opleiding bent haal je er maximaal uit.
+Het kampritme is informeel: je vliegt wanneer de condities goed zijn, en de rest van de tijd help je mee, ontdek je de omgeving, of zit je gewoon gezellig met elkaar buiten. 's Avonds koken we vaak samen op het vliegveld, of we trekken het dorp in.
 
-## De kosten, en waarom het zo voordelig is
+## Wat maakt het bijzonder?
 
-Dit is wat een buitenlandkamp zo bijzonder maakt: **de totale kosten zijn lager dan die van een gemiddelde campingvakantie**, terwijl je elke dag kunt vliegen.
-
-- **Kampeerkosten:** doorgaans een paar euro per persoon per nacht (vliegvelden hebben eenvoudige slaapaccommodatie of tentplaatsen vlak naast de startbaan)
-- **Eten:** kook je zelf of eet je uit, zo duur als je het zelf wilt maken
-- **Vliegen en instructie:** inbegrepen in het kamp, geen extra kosten per vlucht
-- **Brandstof:** zweefvliegtuigen hebben geen motor, dus geen brandstofrekening
-
-Een week buitenlandkamp kost al snel minder dan een gewone vakantie, terwijl je elke dag in de lucht kunt hangen, soms uren achtereen, afhankelijk van de thermiek.
-
-## Wat kun je verwachten?
-
-Buiten Europa zijn we zelden gegaan, maar de kansen zijn groot. Alpengebieden geven fantastische thermiek en spectaculair uitzicht. Vlakke gebieden in Oost-Europa zijn ideaal voor lange afstandsvluchten (cross-country). Elke locatie heeft zijn eigen karakter.
-
-Typisch schema van een kampdag:
-
-1. **Ochtend:** vliegtuigen inspecteren en rijklaar maken
-2. **Dag:** zo lang er thermiek is, vliegen we; instructeurs geven les in de tweezitter
-3. **Avond:** samen koken, kaarten leggen, ervaringen uitwisselen
+- **Vliegen in nieuw gebied:** elke locatie heeft zijn eigen karakter. Alpengebieden geven fantastische thermiek en spectaculair uitzicht, vlaktes in Oost-Europa zijn ideaal voor lange cross-country vluchten.
+- **Veel vlieguren in korte tijd:** in één kampweek maak je soms net zoveel vluchten als in een half seizoen op Terlet.
+- **Snel leren:** ben je in opleiding? Dan maak je in een week enorme sprongen. Instructeurs gaan mee en je vliegt elke dag.
+- **Echt clubgevoel:** samen vliegen, samen eten, samen ervaringen delen. Niets versterkt de band met je medeleden zo sterk als een gezamenlijke kampweek.
 
 ## Voor wie?
 
-Iedereen die lid is van ZC Flevo kan mee, ongeacht je vliegervaring:
+Iedereen die lid is van ZC Flevo kan mee, ongeacht vliegervaring:
 
-- **Beginners:** je vliegt met een instructeur en maakt in één week enorme sprongen
-- **Gevorderde leerlingen:** ideaal om uren te maken en solovluchten te verlengen
-- **Brevetten:** vlieg solo of cross-country in onbekend gebied
+- **Beginners:** je vliegt met een instructeur en maakt in één week grote sprongen
+- **Gevorderde leerlingen:** ideaal om uren te maken en je solovluchten te verlengen
+- **Brevethouders:** vlieg solo of cross-country in onbekend gebied
+
+## Wat kost het?
+
+Omdat we als vereniging op kamp gaan, worden de kosten **eerlijk verdeeld over de deelnemers** – we draaien geen winst. Hoe je eet en waar je slaapt (tent op het vliegveld of eenvoudige accommodatie) bepaal je deels zelf, dus ook qua budget is een kamp toegankelijk.
 
 ## Mee?
 
-Buitenlandkampen worden elk jaar aangekondigd via de clubcommunicatie. Interesse? Neem contact op met de secretaris, dan zetten we je op de lijst.
+De kampen worden elk jaar via de clubcommunicatie aangekondigd. Interesse? Neem contact op met de secretaris, dan zetten we je op de lijst.
 
 **E-mail:** [secretaris@zcflevo.nl](mailto:secretaris@zcflevo.nl)
 **Telefoon:** [06-17722964](tel:0617722964)
