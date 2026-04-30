@@ -9,7 +9,7 @@ menu:
 
 ## Word lid van ZC Flevo
 
-Zweefvliegen is een betaalbare hobby. Doordat er geen brandstof nodig is en de club volledig door de leden zelf wordt gerund, zijn de kosten laag in vergelijking met gemotoriseerde luchtvaart.
+Zweefvliegen is een betaalbare hobby. Doordat de club volledig door de leden zelf wordt gerund, zijn de kosten laag in vergelijking met gemotoriseerde luchtvaart.
 
 ## De Opleiding
 
@@ -18,7 +18,7 @@ Als nieuw lid begin je direct met de vliegopleiding onder begeleiding van onze i
 ### Vereisten
 - Minimumleeftijd om te starten: **14 jaar**
 - Minimumleeftijd voor vliegbrevet: **16 jaar**
-- Geldige LAPL medical keuring (zie hieronder)
+- LAPL medical keuring (alleen vereist voordat je solo gaat vliegen, niet tijdens de instructieperiode – zie hieronder)
 - Rijbewijs is **niet** vereist
 
 ### Hoe verloopt de opleiding?
@@ -74,7 +74,7 @@ Het KNVVL-lidmaatschap is verplicht en regelt onder andere je verzekering.
 
 ### LAPL Medical Keuring
 
-Om te mogen vliegen heb je een geldige LAPL-medical nodig (Light Aircraft Pilot Licence medical). Dit is een eenvoudig medisch onderzoek bij een erkende vliegarts. Kosten: **± € 100 – 150**.
+Om solo te mogen vliegen heb je een geldige LAPL-medical nodig (Light Aircraft Pilot Licence medical). Tijdens de instructieperiode is deze keuring nog niet vereist. Het is een eenvoudig medisch onderzoek bij een erkende vliegarts. Kosten: **± € 200 – 250**.
 
 De geldigheidsduur is afhankelijk van je leeftijd:
 
@@ -91,7 +91,7 @@ De geldigheidsduur is afhankelijk van je leeftijd:
 | Startabonnement | € 380 | € 380 |
 | KNVVL lidmaatschap zweefvliegen | € 201,16 | € 121,08 |
 | **Totaal per jaar** | **€ 966,16** | **€ 806,08** |
-| LAPL medical (eenmalig / per periode) | ± € 125 | ± € 125 |
+| LAPL medical (eenmalig / per periode) | ± € 225 | ± € 225 |
 
 > Vluchten zijn **onbeperkt** inbegrepen in het startabonnement. Er zijn geen extra kosten per vlucht.
 

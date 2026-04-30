@@ -15,7 +15,7 @@ faqs:
   - q: "Kan ik een proefvlucht maken?"
     a: "Ja, maar alleen na vooraf contact opnemen via secretaris@zcflevo.nl. Vluchten zijn bedoeld voor serieus geïnteresseerde potentiële leden. Wij bieden geen commerciële rondvluchten of cadeauvluchten aan."
   - q: "Is zweefvliegen duur?"
-    a: "Zweefvliegen is een van de betaalbaardere vormen van luchtvaart. Doordat er geen brandstof nodig is en de club door de leden zelf wordt gerund, zijn de kosten laag. Je betaalt een jaarlijkse contributie, en daarin zijn alle vluchten inbegrepen."
+    a: "Zweefvliegen is een van de betaalbaardere vormen van luchtvaart. Doordat de club door de leden zelf wordt gerund, zijn de kosten laag. Je betaalt een jaarlijkse contributie, en daarin zijn alle vluchten inbegrepen."
   - q: "Heb ik een rijbewijs nodig?"
     a: "Nee, een rijbewijs is geen vereiste. Clubleden rijden regelmatig samen; er zijn carpool-lijsten en app-groepen beschikbaar voor wie zelf geen vervoer heeft."
   - q: "Hoeveel tijd kost het lidmaatschap?"
@@ -62,7 +62,7 @@ Ja, maar alleen na **vooraf contact opnemen** via [secretaris@zcflevo.nl](mailto
 
 ### Is zweefvliegen duur?
 
-Zweefvliegen is een van de **betaalbaardere vormen van luchtvaart**. Doordat er geen brandstof nodig is en de club door de leden zelf wordt gerund, zijn de kosten laag. Je betaalt een jaarlijkse contributie, en daarin zijn alle vluchten inbegrepen.
+Zweefvliegen is een van de **betaalbaardere vormen van luchtvaart**. Doordat de club door de leden zelf wordt gerund, zijn de kosten laag. Je betaalt een jaarlijkse contributie, en daarin zijn alle vluchten inbegrepen.
 
 ---
 

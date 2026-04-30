@@ -1,7 +1,7 @@
 ---
 title: "Zweefvliegclub Flevo"
 hero_title: "Zweef mee. Voel de vrijheid."
-hero_subtitle: "ZC Flevo is een actieve zweefvliegclub vanuit Vliegveld Terlet bij Arnhem. Geen motor, geen uitstoot, puur vliegen op thermiek en zon."
+hero_subtitle: "ZC Flevo is een actieve zweefvliegclub vanuit Vliegveld Terlet bij Arnhem. Geen motor, puur vliegen op thermiek."
 description: "Zweefvliegclub Flevo is een actieve zweefvliegclub gevestigd bij Vliegveld Terlet, Arnhem."
 
 menu:
@@ -59,7 +59,7 @@ photos:
 pricing:
   label: "Onbeperkt vliegen"
   title: "Onbeperkt zweefvliegen vanaf €806 per jaar"
-  description: "Inclusief vlieglessen en opleiding tot brevet, onbeperkt starten en gebruik van alle clubvliegtuigen. Geen brandstofkosten."
+  description: "Inclusief vlieglessen en opleiding tot brevet, onbeperkt starten en gebruik van alle clubvliegtuigen."
   cta_text: "Bekijk alle kosten →"
   cta_url: "/de-mogelijkheden/lidmaatschap/"
   tabs:
@@ -70,7 +70,7 @@ pricing:
       knvvl_label: "KNVVL lidmaatschap"
       total: "€966"
       total_label: "Totaal per jaar, all-in"
-      installments: "10 termijnen van €96,60 per maand"
+      installments: "± €96,60 per maand"
     - label: "Junior (t/m 18 jr)"
       contribution: "€685"
       contribution_label: "Contributie + startabonnement"
@@ -78,7 +78,7 @@ pricing:
       knvvl_label: "KNVVL lidmaatschap"
       total: "€806"
       total_label: "Totaal per jaar, all-in"
-      installments: "10 termijnen van €80,60 per maand"
+      installments: "± €80,60 per maand"
 
 stage_callout:
   label: "Laagdrempelig starten"
@@ -127,8 +127,8 @@ testimonials:
 
 ZC Flevo is een **actieve en gezellige zweefvliegclub** die al meer dan 50 jaar bestaat. Onze leden komen uit allerlei beroepen en delen één passie: de zweefvliegsport.
 
-Wij maken gebruik van een **elektrische lier** om onze motorloze vliegtuigen de lucht in te sturen. Onder goede omstandigheden kunnen zweefvliegtuigen urenlang in de lucht blijven op thermiek, warme stijgende luchtstromen die worden opgewekt door zonne-energie.
+Wij maken gebruik van een **elektrische lier** om onze motorloze vliegtuigen de lucht in te sturen. Onder goede omstandigheden kunnen zweefvliegtuigen urenlang in de lucht blijven op thermiek, warme stijgende luchtstromen.
 
-Zweefvliegen is een **betaalbare hobby**. Doordat er geen brandstof nodig is en de club volledig door de leden zelf wordt gerund, zijn de kosten laag in vergelijking met gemotoriseerde luchtvaart. Alle vluchten zijn inbegrepen in het lidmaatschap.
+Zweefvliegen is een **betaalbare hobby**. Doordat de club volledig door de leden zelf wordt gerund, zijn de kosten laag in vergelijking met gemotoriseerde luchtvaart. Alle vluchten zijn inbegrepen in het lidmaatschap.
 
 Ben je benieuwd? Neem contact op via [secretaris@zcflevo.nl](mailto:secretaris@zcflevo.nl) of lees meer op deze site.

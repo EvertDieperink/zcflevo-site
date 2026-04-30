@@ -17,12 +17,12 @@ ZC Flevo beschikt over **zeven zweefvliegtuigen**, gestationeerd op Vliegveld Te
 
 <img src="/images/vloot-ask21.jpg" alt="Schleicher ASK-21 (YW), het primaire trainingstoestel van ZC Flevo" loading="lazy">
 
-Het primaire trainingstoestel van de club. De ASK-21 staat bekend om zijn prettige vliegeigenschappen en wordt gebruikt voor zowel de basisopleiding als kunstvliegtraining.
+Het primaire trainingstoestel van de club. De ASK-21 staat bekend om zijn prettige vliegeigenschappen en wordt gebruikt voor de basisopleiding.
 
 - **Spanwijdte:** 17 m
 - **Maximale snelheid:** 280 km/h
 - **Beste glijgetal:** 33,5 (bij 90 km/h)
-- **Gebruik:** Eerste solo's, basisinstructie, kunstvliegen
+- **Gebruik:** Eerste solo's, basisinstructie
 
 ### SZD-51-1 Junior (PH-1006)
 **Callsign:** YT | **Bouwjaar:** 1993
@@ -67,7 +67,7 @@ Veelzijdig prestatie-toestel dat zowel voor lokaal vliegen als voor competitie e
 
 <img src="/images/vloot-discus2b.jpg" alt="Discus 2b (YF) van ZC Flevo" loading="lazy">
 
-Een wedstrijdtoestel met waterballast voor extra prestaties. Voorbehouden voor brevetteerde (GPL) piloten.
+Een wedstrijdtoestel met waterballast voor extra prestaties. Voorbehouden voor brevetteerde (SPL) piloten.
 
 - **Spanwijdte:** 15 m
 - **Maximale snelheid:** 250 km/h
@@ -100,13 +100,13 @@ Prestatie-tweezitter voor gevorderde vliegers. Voorbehouden voor gebreveteerde l
 - **Spanwijdte:** 18/20 m (variabel)
 - **Maximale snelheid:** 270 km/h
 - **Beste glijgetal:** 46,6 (bij 120 km/h)
-- **Gebruik:** Cross-country, competitie, kunstvliegen (GPL vereist)
+- **Gebruik:** Cross-country, competitie (SPL vereist)
 
 ## Startmethode: Elektrische Lier (ESW-2b)
 
 <img src="/images/vloot-lier.jpg" alt="De elektrische lier (ESW-2b) van ZC Flevo" loading="lazy">
 
-Sinds **maart 2013** gebruikt ZC Flevo een **elektrische lier** (ElektroStartWinde-2b) in plaats van de traditionele sleepstart of tegenvliegtuigstart. Dit heeft grote voordelen:
+Sinds **maart 2013** gebruikt ZC Flevo een **elektrische lier** (ElektroStartWinde-2b) in plaats van de traditionele sleepstart of lierstart. Dit heeft grote voordelen:
 
 ### Werking
 De elektrische lier trekt het zweefvliegtuig via twee **Dyneema-kabels** omhoog totdat het ongeveer **400 meter hoogte** bereikt. Op dit moment wordt de kabel losgelaten en de piloot zoekt zelfstandig naar thermiek om verder omhoog te gaan.
@@ -114,9 +114,7 @@ De elektrische lier trekt het zweefvliegtuig via twee **Dyneema-kabels** omhoog 
 ### Voordelen
 - **Veilig:** Elektronisch bediend, zeer betrouwbaar
 - **Efficiënt:** Twee kabels betekenen opeenvolgende starts zonder wachttijd
-- **Duurzaam:** Elektrisch aangedreven, geen brandstofverbruik
 - **Toegankelijk:** Ideaal voor beginnende en gevorderde piloten
-- **Milieuvriendelijk:** Nul emissies tijdens het opstijgen
 
 ### Dyneema-Kabels
 De twee kabels bestaan uit **Dyneema**, een zeer sterke synthetische vezel die:
