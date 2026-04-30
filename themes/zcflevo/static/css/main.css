@@ -1139,6 +1139,14 @@ body.nav-open { overflow: hidden; }
   padding: 0 1.5rem;
 }
 
+/* Intro paragraph above the date picker */
+.flights-intro {
+  margin-bottom: 2.5rem;
+  color: var(--text);
+  line-height: 1.6;
+}
+.flights-intro p:last-child { margin-bottom: 0; }
+
 /* Date picker bar */
 .date-picker-bar {
   display: flex;

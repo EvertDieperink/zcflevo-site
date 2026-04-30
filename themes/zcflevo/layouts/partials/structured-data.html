@@ -1,5 +1,6 @@
 {{- with .Params.faqs -}}
 {{- $email := $.Site.Params.email -}}
+{{- $phone := $.Site.Params.veldtelefoonnummer -}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -9,10 +10,10 @@
     {{- if $i }},{{ end }}
     {
       "@type": "Question",
-      "name": {{ replace $faq.q "{email}" $email | jsonify }},
+      "name": {{ $faq.q | replace "{email}" $email | replace "{phone}" $phone | jsonify }},
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": {{ replace $faq.a "{email}" $email | jsonify }}
+        "text": {{ $faq.a | replace "{email}" $email | replace "{phone}" $phone | jsonify }}
       }
     }
     {{- end }}

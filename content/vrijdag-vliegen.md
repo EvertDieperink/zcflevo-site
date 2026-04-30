@@ -154,6 +154,6 @@ function verzendInschrijving(event) {
 Heb je nog vragen over Vrijdag Vliegen? Neem gerust contact op:
 
 - **E-mail**: [evert.dieperink@zcflevo.nl](mailto:evert.dieperink@zcflevo.nl)
-- **Telefoon**: 06-17722964
+- **Telefoon**: {{< veldtelefoon >}}
 
 We horen graag van je!

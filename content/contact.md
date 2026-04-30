@@ -40,7 +40,7 @@ Heb je vragen over zweefvliegen, een introductievlucht, het lidmaatschap of iets
   </div>
   <div class="contact-detail-text">
     <strong>Telefoon (bij aankomst)</strong>
-    <p><a href="tel:0617722964">06-17722964</a></p>
+    <p>{{< veldtelefoon >}}</p>
   </div>
 </div>
 
@@ -70,7 +70,7 @@ Heb je vragen over zweefvliegen, een introductievlucht, het lidmaatschap of iets
 {{< mapbox lng="5.937581961427093" lat="52.06107763169907" zoom="10" >}}
 
 <div class="notice-box">
-  <strong>Belangrijk:</strong> Maak voor een bezoek altijd eerst een afspraak per mail. Betreed het vliegveld niet zelfstandig. Bij aankomst op de parkeerplaats bel je 06-17722964, dan halen we je op en begeleiden je veilig naar de startplaats.
+  <strong>Belangrijk:</strong> Maak voor een bezoek altijd eerst een afspraak per mail. Betreed het vliegveld niet zelfstandig. Bij aankomst op de parkeerplaats bel je {{< veldtelefoon >}}, dan halen we je op en begeleiden je veilig naar de startplaats.
 </div>
 
 </div>

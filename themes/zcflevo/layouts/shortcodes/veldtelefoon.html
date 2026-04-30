@@ -1,0 +1,14 @@
+{{- /*
+  Renders a tel: link to the field phone number.
+
+  Usage:
+    {{< veldtelefoon >}}        → <a href="tel:0617722964">06-17722964</a>
+    {{< veldtelefoon "tekst" >}} → <a href="tel:0617722964">tekst</a>
+
+  The phone number is configured in hugo.toml under [params].veldtelefoonnummer
+*/ -}}
+{{- $phone := .Site.Params.veldtelefoonnummer -}}
+{{- $tel := replace $phone "-" "" | replace " " "" -}}
+{{- $text := .Get 0 | default $phone -}}
+<a href="tel:{{ $tel }}">{{ $text }}</a>
+{{- /* */ -}}
