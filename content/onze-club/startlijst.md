@@ -3,11 +3,6 @@ title: "Startlijst Terlet"
 description: "Starts en landingen op Vliegveld Terlet, bijgehouden via de DSA Startplank door de startleider op het veld."
 layout: "startlijst"
 has_startlijst: true
-menu:
-  main:
-    name: "Startlijst Terlet"
-    parent: "onze-club"
-    weight: 26
 ---
 
 Deze startlijst toont de starts en landingen op Vliegveld Terlet zoals **bijgehouden door de startleider** op het veld via de **DSA Startplank**. Naast de vluchten zie je ook informatie over de piloten en het type vlucht.

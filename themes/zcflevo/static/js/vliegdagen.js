@@ -188,42 +188,67 @@ function renderTable(flights, dateStr) {
     ${renderTotals(flights)}`;
 }
 
-// ── Main ──────────────────────────────────────────────────────────────────────
+// ── Init ──────────────────────────────────────────────────────────────────────
 
-const app     = document.getElementById('flights-app');
-const input   = document.getElementById('flight-date');
-const btnPrev = document.getElementById('prev-day');
-const btnNext = document.getElementById('next-day');
+/**
+ * Initialiseer de FLARM-vluchtenviewer op een specifieke set DOM-elementen.
+ * @param {object} ids
+ * @param {string} ids.appId   ID van het container-element waar vluchten in komen
+ * @param {string} ids.dateId  ID van de date input
+ * @param {string} ids.prevId  ID van de "vorige dag" knop
+ * @param {string} ids.nextId  ID van de "volgende dag" knop
+ */
+function initFlarmViewer(ids = {}) {
+  const appId  = ids.appId  || 'flights-app';
+  const dateId = ids.dateId || 'flight-date';
+  const prevId = ids.prevId || 'prev-day';
+  const nextId = ids.nextId || 'next-day';
 
-async function load(dateStr) {
-  app.innerHTML = renderLoading();
-  try {
-    const data   = await fetchLogbook(dateStr);
-    const flights = processLogbook(data);
-    app.innerHTML = flights.length ? renderTable(flights, dateStr) : renderEmpty(dateStr);
-  } catch (err) {
-    console.warn('Vluchtdata fout:', err);
-    app.innerHTML = renderError(dateStr);
+  const app     = document.getElementById(appId);
+  const input   = document.getElementById(dateId);
+  const btnPrev = document.getElementById(prevId);
+  const btnNext = document.getElementById(nextId);
+
+  if (!app || !input || !btnPrev || !btnNext) return;
+
+  async function load(dateStr) {
+    app.innerHTML = renderLoading();
+    try {
+      const data    = await fetchLogbook(dateStr);
+      const flights = processLogbook(data);
+      app.innerHTML = flights.length ? renderTable(flights, dateStr) : renderEmpty(dateStr);
+    } catch (err) {
+      console.warn('Vluchtdata fout:', err);
+      app.innerHTML = renderError(dateStr);
+    }
   }
+
+  function shiftDay(delta) {
+    const d = new Date(input.value + 'T12:00:00');
+    d.setDate(d.getDate() + delta);
+    const newDate = toDateStr(d);
+    if (newDate <= toDateStr(new Date())) {
+      input.value = newDate;
+      load(newDate);
+    }
+  }
+
+  const today = toDateStr(new Date());
+  input.value = today;
+  input.max   = today;
+
+  input.addEventListener('change', () => load(input.value));
+  btnPrev.addEventListener('click', () => shiftDay(-1));
+  btnNext.addEventListener('click', () => shiftDay(1));
+
+  load(today);
 }
 
-function shiftDay(delta) {
-  const d = new Date(input.value + 'T12:00:00');
-  d.setDate(d.getDate() + delta);
-  const newDate = toDateStr(d);
-  if (newDate <= toDateStr(new Date())) {
-    input.value = newDate;
-    load(newDate);
-  }
+// Expose voor expliciete init op nieuwe gecombineerde pagina
+window.ZCFlevo = window.ZCFlevo || {};
+window.ZCFlevo.initFlarmViewer = initFlarmViewer;
+
+// Auto-init op pagina's met de standaard IDs (oude vliegdagen-pagina)
+if (document.getElementById('flights-app') && document.getElementById('flight-date')) {
+  initFlarmViewer();
 }
-
-// Initialiseer op vandaag
-const today = toDateStr(new Date());
-input.value = today;
-input.max   = today;
-
-input.addEventListener('change', () => load(input.value));
-btnPrev.addEventListener('click', () => shiftDay(-1));
-btnNext.addEventListener('click', () => shiftDay(1));
-
-load(today);

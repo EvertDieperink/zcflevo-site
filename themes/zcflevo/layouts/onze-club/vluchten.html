@@ -1,0 +1,113 @@
+{{ define "main" }}
+
+<div class="page-header">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="{{ "/" | relURL }}">Home</a>
+      <span aria-hidden="true"> › </span>
+      <a href="{{ "/onze-club/" | relURL }}">Onze Club</a>
+      <span aria-hidden="true"> › </span>
+    </div>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="page-description">{{ . }}</p>{{ end }}
+  </div>
+</div>
+
+<div class="flights-page">
+  <div class="flights-container">
+
+    {{ with .Content }}
+    <div class="flights-intro">
+      {{ . }}
+    </div>
+    {{ end }}
+
+    <!-- Tab radio inputs (CSS-only switching, visually hidden but accessible) -->
+    <input type="radio" name="vluchten-tab" id="vluchten-tab-flarm" class="vluchten-tab-input" checked>
+    <input type="radio" name="vluchten-tab" id="vluchten-tab-startplank" class="vluchten-tab-input">
+
+    <div class="vluchten-tabs">
+
+      <div class="vluchten-tab-labels">
+        <label for="vluchten-tab-flarm">FLARM</label>
+        <label for="vluchten-tab-startplank">Startplank</label>
+      </div>
+
+      <!-- ── FLARM panel ──────────────────────────────────────────────── -->
+      <div class="vluchten-tab-panel" id="vluchten-panel-flarm">
+        <p class="vluchten-tab-source">
+          Live data via <a href="https://flightbook.glidernet.org/logbook/EHTL/" target="_blank" rel="noopener">Open Glider Network</a> — vluchten worden geregistreerd via FLARM.
+        </p>
+        <div class="date-picker-bar">
+          <label for="flarm-flight-date">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+              <rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/>
+              <line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
+            </svg>
+            Datum
+          </label>
+          <input type="date" id="flarm-flight-date" />
+          <button id="flarm-prev-day" class="day-nav" aria-label="Vorige dag">&#8592;</button>
+          <button id="flarm-next-day" class="day-nav" aria-label="Volgende dag">&#8594;</button>
+        </div>
+        <div id="flarm-flights-app">
+          <div class="flights-loading">
+            <div class="spinner"></div>
+            <span>Vluchten ophalen&hellip;</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── Startplank panel ──────────────────────────────────────────── -->
+      <div class="vluchten-tab-panel" id="vluchten-panel-startplank">
+        <p class="vluchten-tab-source">
+          Gegevens via <a href="https://dsa-startplank.firebaseapp.com/actief" target="_blank" rel="noopener">DSA Startplank</a> — bijgehouden door de startleider op het veld.
+        </p>
+        <div class="date-picker-bar">
+          <label for="startplank-flight-date">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+              <rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/>
+              <line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>
+            </svg>
+            Datum
+          </label>
+          <input type="date" id="startplank-flight-date" />
+          <button id="startplank-prev-day" class="day-nav" aria-label="Vorige dag">&#8592;</button>
+          <button id="startplank-next-day" class="day-nav" aria-label="Volgende dag">&#8594;</button>
+        </div>
+        <div id="startplank-flights-app">
+          <div class="flights-loading">
+            <div class="spinner"></div>
+            <span>Startlijst ophalen&hellip;</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<script>
+  // Initialiseer beide viewers met hun eigen geprefixte IDs
+  document.addEventListener('DOMContentLoaded', function () {
+    if (window.ZCFlevo && window.ZCFlevo.initFlarmViewer) {
+      window.ZCFlevo.initFlarmViewer({
+        appId:  'flarm-flights-app',
+        dateId: 'flarm-flight-date',
+        prevId: 'flarm-prev-day',
+        nextId: 'flarm-next-day',
+      });
+    }
+    if (window.ZCFlevo && window.ZCFlevo.initStartplankViewer) {
+      window.ZCFlevo.initStartplankViewer({
+        appId:  'startplank-flights-app',
+        dateId: 'startplank-flight-date',
+        prevId: 'startplank-prev-day',
+        nextId: 'startplank-next-day',
+      });
+    }
+  });
+</script>
+
+{{ end }}

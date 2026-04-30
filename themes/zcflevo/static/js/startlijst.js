@@ -17,8 +17,6 @@ const DB_URL       = 'https://dsa-startplank.firebaseio.com';
 const CLUB_REG     = ['PH-1433', 'PH-974', 'PH-1382', 'PH-1006', 'PH-1273', 'PH-1210', 'PH-1571'];
 const POLL_MS      = 30_000;
 
-let pollTimer = null;
-
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
 function toDateStr(d) { return d.toISOString().slice(0, 10); }
@@ -194,58 +192,85 @@ function renderTable(flights, dateStr) {
     ${renderTotals(flights)}`;
 }
 
-// ── Main ──────────────────────────────────────────────────────────────────────
+// ── Init ──────────────────────────────────────────────────────────────────────
 
-const app       = document.getElementById('flights-app');
-const input     = document.getElementById('flight-date');
-const btnPrev   = document.getElementById('prev-day');
-const btnNext   = document.getElementById('next-day');
+/**
+ * Initialiseer de Startplank-viewer op een specifieke set DOM-elementen.
+ * @param {object} ids
+ * @param {string} ids.appId   ID van het container-element waar vluchten in komen
+ * @param {string} ids.dateId  ID van de date input
+ * @param {string} ids.prevId  ID van de "vorige dag" knop
+ * @param {string} ids.nextId  ID van de "volgende dag" knop
+ */
+function initStartplankViewer(ids = {}) {
+  const appId  = ids.appId  || 'flights-app';
+  const dateId = ids.dateId || 'flight-date';
+  const prevId = ids.prevId || 'prev-day';
+  const nextId = ids.nextId || 'next-day';
 
-async function load(dateStr, silent = false) {
-  if (!silent) app.innerHTML = renderLoading();
-  try {
-    const data = await fetchFlights(dateStr);
-    const flights = data
-      ? Object.values(data)
-          .filter(f => isClub(f.plane?.registration))
-          .sort((a, b) => (a.startTime || 0) - (b.startTime || 0))
-      : [];
-    app.innerHTML = flights.length ? renderTable(flights, dateStr) : renderEmpty(dateStr);
-  } catch (err) {
-    console.warn('Startlijst fout:', err);
-    if (!silent) app.innerHTML = renderError();
+  const app     = document.getElementById(appId);
+  const input   = document.getElementById(dateId);
+  const btnPrev = document.getElementById(prevId);
+  const btnNext = document.getElementById(nextId);
+
+  if (!app || !input || !btnPrev || !btnNext) return;
+
+  let localPollTimer = null;
+
+  async function load(dateStr, silent = false) {
+    if (!silent) app.innerHTML = renderLoading();
+    try {
+      const data = await fetchFlights(dateStr);
+      const flights = data
+        ? Object.values(data)
+            .filter(f => isClub(f.plane?.registration))
+            .sort((a, b) => (a.startTime || 0) - (b.startTime || 0))
+        : [];
+      app.innerHTML = flights.length ? renderTable(flights, dateStr) : renderEmpty(dateStr);
+    } catch (err) {
+      console.warn('Startlijst fout:', err);
+      if (!silent) app.innerHTML = renderError();
+    }
   }
+
+  function startPolling(dateStr) {
+    stopPolling();
+    localPollTimer = setInterval(() => load(dateStr, true), POLL_MS);
+  }
+
+  function stopPolling() {
+    if (localPollTimer) { clearInterval(localPollTimer); localPollTimer = null; }
+  }
+
+  function setDate(dateStr) {
+    input.value = dateStr;
+    load(dateStr);
+    if (dateStr === toDateStr(new Date())) startPolling(dateStr);
+    else stopPolling();
+  }
+
+  function shiftDay(delta) {
+    const d = new Date(input.value + 'T12:00:00');
+    d.setDate(d.getDate() + delta);
+    const next = toDateStr(d);
+    if (next <= toDateStr(new Date())) setDate(next);
+  }
+
+  const today = toDateStr(new Date());
+  input.max   = today;
+
+  input.addEventListener('change', () => setDate(input.value));
+  btnPrev.addEventListener('click', () => shiftDay(-1));
+  btnNext.addEventListener('click', () => shiftDay(1));
+
+  setDate(today);
 }
 
-function startPolling(dateStr) {
-  stopPolling();
-  pollTimer = setInterval(() => load(dateStr, true), POLL_MS);
+// Expose voor expliciete init op nieuwe gecombineerde pagina
+window.ZCFlevo = window.ZCFlevo || {};
+window.ZCFlevo.initStartplankViewer = initStartplankViewer;
+
+// Auto-init op pagina's met de standaard IDs (oude startlijst-pagina)
+if (document.getElementById('flights-app') && document.getElementById('flight-date')) {
+  initStartplankViewer();
 }
-
-function stopPolling() {
-  if (pollTimer) { clearInterval(pollTimer); pollTimer = null; }
-}
-
-function setDate(dateStr) {
-  input.value = dateStr;
-  load(dateStr);
-  if (dateStr === toDateStr(new Date())) startPolling(dateStr);
-  else stopPolling();
-}
-
-function shiftDay(delta) {
-  const d = new Date(input.value + 'T12:00:00');
-  d.setDate(d.getDate() + delta);
-  const next = toDateStr(d);
-  if (next <= toDateStr(new Date())) setDate(next);
-}
-
-// Initialiseer op vandaag
-const today = toDateStr(new Date());
-input.max   = today;
-
-input.addEventListener('change', () => setDate(input.value));
-btnPrev.addEventListener('click', () => shiftDay(-1));
-btnNext.addEventListener('click', () => shiftDay(1));
-
-setDate(today);
