@@ -55,6 +55,9 @@ photos:
     wide: true
   - src: "/images/terlet-cockpit.jpg"
     alt: "In de cockpit van een zweefvliegtuig"
+  - src: "/images/terlet-stan.jpg"
+    alt: "Stan"
+
 
 pricing:
   label: "Onbeperkt vliegen"
