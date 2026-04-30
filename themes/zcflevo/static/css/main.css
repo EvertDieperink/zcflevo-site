@@ -1172,19 +1172,35 @@ body.nav-open { overflow: hidden; }
 }
 
 /* Active tab styling */
-#vluchten-tab-actief:checked ~ .vluchten-tabs .vluchten-tab-labels label[for="vluchten-tab-actief"],
-#vluchten-tab-flarm:checked ~ .vluchten-tabs .vluchten-tab-labels label[for="vluchten-tab-flarm"],
-#vluchten-tab-startplank:checked ~ .vluchten-tabs .vluchten-tab-labels label[for="vluchten-tab-startplank"] {
+#vluchten-tab-live:checked ~ .vluchten-tabs .vluchten-tab-labels label[for="vluchten-tab-live"],
+#vluchten-tab-startplank:checked ~ .vluchten-tabs .vluchten-tab-labels label[for="vluchten-tab-startplank"],
+#vluchten-tab-flarm:checked ~ .vluchten-tabs .vluchten-tab-labels label[for="vluchten-tab-flarm"] {
   color: var(--blue-dark);
   border-bottom-color: var(--blue);
 }
 
 /* Tab panels: hidden by default, show active one */
 .vluchten-tab-panel { display: none; }
-#vluchten-tab-actief:checked ~ .vluchten-tabs #vluchten-panel-actief,
-#vluchten-tab-flarm:checked ~ .vluchten-tabs #vluchten-panel-flarm,
-#vluchten-tab-startplank:checked ~ .vluchten-tabs #vluchten-panel-startplank {
+#vluchten-tab-live:checked ~ .vluchten-tabs #vluchten-panel-live,
+#vluchten-tab-startplank:checked ~ .vluchten-tabs #vluchten-panel-startplank,
+#vluchten-tab-flarm:checked ~ .vluchten-tabs #vluchten-panel-flarm {
   display: block;
+}
+
+/* Section titles within Live panel (Wachtlijst / In de lucht / Net geland) */
+.vluchten-section-title {
+  margin: 2rem 0 0.75rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--blue-dark);
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--border);
+}
+.vluchten-section-title:first-of-type { margin-top: 0.5rem; }
+.flights-section-empty {
+  margin: 0.5rem 0 1rem;
+  color: var(--text-muted);
+  font-style: italic;
 }
 
 /* Source attribution above each tab's date picker */

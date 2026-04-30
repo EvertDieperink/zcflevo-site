@@ -294,89 +294,182 @@ function renderActiefEmpty() {
   </div>`;
 }
 
-function renderActiefTable(flights) {
-  const rows = flights.map(f => {
-    const callsign  = f.plane?.callsign || f.plane?.registration || '?';
-    const planeName = f.plane?.name || '';
+// ── Drie sub-tabellen voor Live: Wachtlijst / In de lucht / Net geland ────
 
-    const commanderCell = f.commander?.name
-      ? `${f.commander.name} ${statusBadge(f.commander.status)}`
-      : '—';
+const NET_GELAND_WINDOW_MS = 15 * 60 * 1000; // 15 minuten
 
-    const passengerCell = f.passenger?.name
-      ? `${f.passenger.name} ${statusBadge(f.passenger.status)}`
-      : '<span class="text-muted">enkel</span>';
+function planeCellLive(f) {
+  const callsign  = f.plane?.callsign || f.plane?.registration || '?';
+  const planeName = f.plane?.name || '';
+  return `<strong>${callsign}</strong>` + (planeName ? `<br><small class="text-muted">${planeName}</small>` : '');
+}
 
-    return `<tr>
-      <td><strong>${callsign}</strong><br><small class="text-muted">${planeName}</small></td>
-      <td>${commanderCell}</td>
-      <td>${passengerCell}</td>
-      <td>${shortType(f.type)}</td>
-      <td>${fmtTime(f.startTime)}</td>
-      <td><strong>${fmtElapsed(f.startTime)}</strong></td>
-    </tr>`;
-  }).join('');
+function commanderCellLive(f) {
+  return f.commander?.name
+    ? `${f.commander.name} ${statusBadge(f.commander.status)}`
+    : '—';
+}
 
-  return `
-    <div class="flights-summary">
-      <span class="flight-badge flight-badge--air">In de lucht</span>
-      <strong>${flights.length}</strong> ZC Flevo ${flights.length === 1 ? 'toestel' : 'toestellen'} actief
-    </div>
-    <div class="flights-table-wrap">
-      <table class="flights-table">
-        <thead><tr>
-          <th>Vliegtuig</th>
-          <th>Gezagvoerder</th>
-          <th>Mede-inzittende</th>
-          <th>Type vlucht</th>
-          <th>Start</th>
-          <th>In de lucht</th>
-        </tr></thead>
-        <tbody>${rows}</tbody>
-      </table>
-    </div>`;
+function passengerCellLive(f) {
+  return f.passenger?.name
+    ? `${f.passenger.name} ${statusBadge(f.passenger.status)}`
+    : '<span class="text-muted">enkel</span>';
+}
+
+function renderEmptySection(message) {
+  return `<p class="flights-section-empty">${message}</p>`;
+}
+
+function renderWachtlijst(flights) {
+  if (!flights.length) return renderEmptySection('Geen vluchten op de wachtlijst.');
+  const rows = flights.map(f => `<tr>
+    <td>${planeCellLive(f)}</td>
+    <td>${commanderCellLive(f)}</td>
+    <td>${passengerCellLive(f)}</td>
+    <td>${shortType(f.type)}</td>
+    <td><small>${f.winch?.name || '—'}</small></td>
+  </tr>`).join('');
+  return `<div class="flights-table-wrap">
+    <table class="flights-table">
+      <thead><tr>
+        <th>Vliegtuig</th>
+        <th>Gezagvoerder</th>
+        <th>Mede-inzittende</th>
+        <th>Type vlucht</th>
+        <th>Lier</th>
+      </tr></thead>
+      <tbody>${rows}</tbody>
+    </table>
+  </div>`;
+}
+
+function renderInDeLucht(flights) {
+  if (!flights.length) return renderEmptySection('Geen toestellen in de lucht.');
+  const rows = flights.map(f => `<tr>
+    <td>${planeCellLive(f)}</td>
+    <td>${commanderCellLive(f)}</td>
+    <td>${passengerCellLive(f)}</td>
+    <td>${shortType(f.type)}</td>
+    <td>${fmtTime(f.startTime)}</td>
+    <td><strong>${fmtElapsedLive(f.startTime)}</strong></td>
+  </tr>`).join('');
+  return `<div class="flights-table-wrap">
+    <table class="flights-table">
+      <thead><tr>
+        <th>Vliegtuig</th>
+        <th>Gezagvoerder</th>
+        <th>Mede-inzittende</th>
+        <th>Type vlucht</th>
+        <th>Start</th>
+        <th>In de lucht</th>
+      </tr></thead>
+      <tbody>${rows}</tbody>
+    </table>
+  </div>`;
+}
+
+function renderNetGeland(flights) {
+  if (!flights.length) return renderEmptySection('Geen recent gelande vluchten.');
+  const rows = flights.map(f => `<tr>
+    <td>${planeCellLive(f)}</td>
+    <td>${commanderCellLive(f)}</td>
+    <td>${passengerCellLive(f)}</td>
+    <td>${shortType(f.type)}</td>
+    <td>${fmtTime(f.startTime)}</td>
+    <td>${fmtTime(f.endTime)}</td>
+    <td>${fmtDuration(f.startTime, f.endTime)}</td>
+  </tr>`).join('');
+  return `<div class="flights-table-wrap">
+    <table class="flights-table">
+      <thead><tr>
+        <th>Vliegtuig</th>
+        <th>Gezagvoerder</th>
+        <th>Mede-inzittende</th>
+        <th>Type vlucht</th>
+        <th>Start</th>
+        <th>Landing</th>
+        <th>Duur</th>
+      </tr></thead>
+      <tbody>${rows}</tbody>
+    </table>
+  </div>`;
+}
+
+function fmtElapsedLive(startMs) {
+  if (!startMs) return '—';
+  const sec = Math.round((Date.now() - startMs) / 1000);
+  if (sec < 0) return '—';
+  const h = Math.floor(sec / 3600);
+  const m = Math.floor((sec % 3600) / 60);
+  if (h > 0) return `${h}u ${String(m).padStart(2, '0')}m`;
+  return `${m} min`;
 }
 
 /**
- * Initialiseer de "actieve vluchten" viewer (Startplank, alleen de
- * vluchten die nu in de lucht zijn). Polling elke 30 seconden.
+ * Initialiseer de gecombineerde Live-viewer met drie secties:
+ * Wachtlijst, In de lucht, Net geland (laatste 15 minuten).
  * @param {object} ids
- * @param {string} ids.appId  ID van het container-element
+ * @param {string} ids.wachtlijstId  Container voor wachtlijst-tabel
+ * @param {string} ids.inluchtId     Container voor in-de-lucht tabel
+ * @param {string} ids.netgelandId   Container voor net-geland tabel
  */
-function initStartplankActiefViewer(ids = {}) {
-  const appId = ids.appId || 'startplank-actief-app';
-  const app   = document.getElementById(appId);
-  if (!app) return;
+function initStartplankLiveViewer(ids = {}) {
+  const wachtlijst = document.getElementById(ids.wachtlijstId || 'startplank-wachtlijst-app');
+  const inlucht    = document.getElementById(ids.inluchtId    || 'startplank-inlucht-app');
+  const netgeland  = document.getElementById(ids.netgelandId  || 'startplank-netgeland-app');
+  if (!wachtlijst || !inlucht || !netgeland) return;
 
-  let timer = null;
+  function setLoading() {
+    const loading = renderLoading();
+    [wachtlijst, inlucht, netgeland].forEach(el => { el.innerHTML = loading; });
+  }
+
+  function setError() {
+    const errorHtml = renderError();
+    [wachtlijst, inlucht, netgeland].forEach(el => { el.innerHTML = errorHtml; });
+  }
 
   async function load(silent = false) {
-    if (!silent) app.innerHTML = renderLoading();
+    if (!silent) setLoading();
     try {
       const today = toDateStr(new Date());
       const data  = await fetchFlights(today);
-      const flights = data
-        ? Object.values(data)
-            .filter(f => isClub(f.plane?.registration))
-            .filter(f => f.startTime && !f.endTime)
-            .sort((a, b) => (a.startTime || 0) - (b.startTime || 0))
+      const all = data
+        ? Object.values(data).filter(f => isClub(f.plane?.registration))
         : [];
-      app.innerHTML = flights.length ? renderActiefTable(flights) : renderActiefEmpty();
+
+      const now = Date.now();
+
+      const wachtlijstFlights = all
+        .filter(f => !f.startTime)
+        .sort((a, b) => (a.plane?.callsign || '').localeCompare(b.plane?.callsign || ''));
+
+      const inluchtFlights = all
+        .filter(f => f.startTime && !f.endTime)
+        .sort((a, b) => (a.startTime || 0) - (b.startTime || 0));
+
+      const netgelandFlights = all
+        .filter(f => f.endTime && (now - f.endTime) <= NET_GELAND_WINDOW_MS)
+        .sort((a, b) => (b.endTime || 0) - (a.endTime || 0));
+
+      wachtlijst.innerHTML = renderWachtlijst(wachtlijstFlights);
+      inlucht.innerHTML    = renderInDeLucht(inluchtFlights);
+      netgeland.innerHTML  = renderNetGeland(netgelandFlights);
     } catch (err) {
-      console.warn('Actieve vluchten fout:', err);
-      if (!silent) app.innerHTML = renderError();
+      console.warn('Live vluchten fout:', err);
+      if (!silent) setError();
     }
   }
 
   // Initieel laden + polling elke POLL_MS (30s)
   load();
-  timer = setInterval(() => load(true), POLL_MS);
+  setInterval(() => load(true), POLL_MS);
 }
 
 // Expose voor expliciete init op nieuwe gecombineerde pagina
 window.ZCFlevo = window.ZCFlevo || {};
 window.ZCFlevo.initStartplankViewer = initStartplankViewer;
-window.ZCFlevo.initStartplankActiefViewer = initStartplankActiefViewer;
+window.ZCFlevo.initStartplankLiveViewer = initStartplankLiveViewer;
 
 // Auto-init op pagina's met de standaard IDs (oude startlijst-pagina).
 // Op de gecombineerde vluchten-pagina bestaan deze IDs niet, dus geen botsing.
