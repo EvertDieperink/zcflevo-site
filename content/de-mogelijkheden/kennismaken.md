@@ -21,7 +21,7 @@ Ben je nieuwsgierig? Dat begrijpen we. Je kunt contact opnemen met onze secretar
 
 1. **Neem contact op** via [secretaris@zcflevo.nl](mailto:secretaris@zcflevo.nl) om een afspraak te maken
 2. **Kom op een vliegdag:** wij laten je zien hoe alles werkt
-3. **Maak een vlucht** samen met een instructeur
+3. **Maak een vlucht** samen met een ervaren vlieger
 4. **Stel al je vragen:** we vertellen je alles over de sport en de club
 
 ## Praktische informatie
@@ -31,6 +31,10 @@ Ben je nieuwsgierig? Dat begrijpen we. Je kunt contact opnemen met onze secretar
 - Minimum leeftijd om te starten met de opleiding: **14 jaar**
 - Voor het behalen van het vliegbrevet: **16 jaar** + medische keuring
 
+## Wil je echt starten?
+
+Wil je serieus aan de slag met zweefvliegen? Dan begin je bij ZC Flevo altijd met de **[kennismakingsstage](/de-mogelijkheden/kennismakingsstage/)**: twee vliegdagen waarin je 6 starts maakt en de club leert kennen. Het is de standaard eerste stap naar het lidmaatschap.
+
 ## Interesse?
 
 Neem contact op met onze secretaris:
@@ -38,4 +42,4 @@ Neem contact op met onze secretaris:
 **E-mail:** [secretaris@zcflevo.nl](mailto:secretaris@zcflevo.nl)
 **Telefoon:** [06-17722964](tel:0617722964)
 
-Of lees meer over [lidmaatschap](/de-mogelijkheden/lidmaatschap/) als je serieus wilt starten met de opleiding.
+Of lees direct meer over de [kennismakingsstage](/de-mogelijkheden/kennismakingsstage/) en het [lidmaatschap](/de-mogelijkheden/lidmaatschap/).

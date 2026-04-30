@@ -13,7 +13,7 @@ Zweefvliegen is een betaalbare hobby. Doordat de club volledig door de leden zel
 
 ## De Opleiding
 
-Als nieuw lid begin je direct met de vliegopleiding onder begeleiding van onze instructeurs.
+Iedereen die bij ZC Flevo wil leren vliegen begint met de [kennismakingsstage](/de-mogelijkheden/kennismakingsstage/): twee vliegdagen waarin je 6 starts maakt en de club leert kennen. Daarna start je als nieuw lid met de vliegopleiding onder begeleiding van onze instructeurs.
 
 ### Vereisten
 - Minimumleeftijd om te starten: **14 jaar**

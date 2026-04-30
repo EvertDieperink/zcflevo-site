@@ -82,9 +82,9 @@ pricing:
       note: "Voor leden van 19 t/m 21 jaar geldt het volwassen KNVVL-tarief van €201 (totaal dan ± €886)."
 
 stage_callout:
-  label: "Laagdrempelig starten"
-  title: "Nog niet zeker? Probeer het eerst, voor €180"
-  text: "De kennismakingsstage geeft je 6 echte starts over 2 dagen, begeleid door een instructeur. Het bedrag is volledig verrekenbaar als korting op je inschrijfgeld zodra je lid wordt. Zo weet je zeker of zweefvliegen bij je past, zonder grote verplichting."
+  label: "Zo start je bij ZC Flevo"
+  title: "Iedereen begint met de kennismakingsstage"
+  text: "Wil je leren zweefvliegen bij ZC Flevo? Dan begin je met de kennismakingsstage: 6 starts over 2 dagen, begeleid door een instructeur. Voor €180 ontdek je hoe het er bij ons aan toegaat. Word je lid, dan wordt het volledige bedrag verrekend als korting op je inschrijfgeld."
   cta_text: "Meer over de stage"
   cta_url: "/de-mogelijkheden/kennismakingsstage/"
 
@@ -92,7 +92,7 @@ features:
   title: "Wat biedt ZC Flevo?"
   cards:
     - title: "Kennismaken"
-      text: "Benieuwd naar zweefvliegen? Maak een afspraak voor een introductievlucht. Je gaat mee met een ervaren instructeur vanuit Vliegveld Terlet."
+      text: "Benieuwd naar zweefvliegen? Maak een afspraak voor een introductievlucht. Je gaat mee met een ervaren vlieger vanuit Vliegveld Terlet."
       url: "/de-mogelijkheden/kennismaken/"
       cta: "Meer weten"
     - title: "Opleiding & Lidmaatschap"
@@ -130,6 +130,6 @@ ZC Flevo is een **actieve en gezellige zweefvliegclub** die al meer dan 50 jaar 
 
 Wij maken gebruik van een **elektrische lier** om onze motorloze vliegtuigen de lucht in te sturen. Onder goede omstandigheden kunnen zweefvliegtuigen urenlang in de lucht blijven op thermiek, warme stijgende luchtstromen.
 
-Zweefvliegen is een **betaalbare hobby**. Doordat de club volledig door de leden zelf wordt gerund, zijn de kosten laag in vergelijking met gemotoriseerde luchtvaart. Alle vluchten zijn inbegrepen in het lidmaatschap.
+Zweefvliegen is een **betaalbare hobby**. Doordat de club volledig door de leden zelf wordt gerund, zijn de kosten laag in vergelijking met gemotoriseerde luchtvaart.
 
 Ben je benieuwd? Neem contact op via [secretaris@zcflevo.nl](mailto:secretaris@zcflevo.nl) of lees meer op deze site.
