@@ -16,6 +16,12 @@
 <div class="flights-page">
   <div class="flights-container">
 
+    {{ with .Content }}
+    <div class="flights-intro">
+      {{ . }}
+    </div>
+    {{ end }}
+
     <!-- Date picker -->
     <div class="date-picker-bar">
       <label for="flight-date">
