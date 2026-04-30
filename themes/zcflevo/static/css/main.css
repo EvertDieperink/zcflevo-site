@@ -483,6 +483,14 @@ strong { font-weight: 600; }
 .cost-installment svg { flex-shrink: 0; opacity: 0.8; }
 .cost-installment strong { color: #fff; }
 
+.cost-note {
+  margin: 0.75rem 0 0;
+  font-size: 0.82rem;
+  font-style: italic;
+  color: rgba(255,255,255,0.75);
+  line-height: 1.5;
+}
+
 
 /* ============================================================
    STAGE CALLOUT

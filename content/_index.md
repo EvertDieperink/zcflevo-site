@@ -71,7 +71,7 @@ pricing:
       total: "€966"
       total_label: "Totaal per jaar, all-in"
       installments: "± €96,60 per maand"
-    - label: "Junior (t/m 18 jr)"
+    - label: "Junior (t/m 21 jr)"
       contribution: "€685"
       contribution_label: "Contributie + startabonnement"
       knvvl: "€121"
@@ -79,6 +79,7 @@ pricing:
       total: "€806"
       total_label: "Totaal per jaar, all-in"
       installments: "± €80,60 per maand"
+      note: "Voor leden van 19 t/m 21 jaar geldt het volwassen KNVVL-tarief van €201 (totaal dan ± €886)."
 
 stage_callout:
   label: "Laagdrempelig starten"

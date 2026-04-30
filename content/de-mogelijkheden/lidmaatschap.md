@@ -70,7 +70,7 @@ Het KNVVL-lidmaatschap is verplicht en regelt onder andere je verzekering.
 | | Tarief 2026 |
 |---|---|
 | Volwassenen | € 201,16 |
-| Junioren (t/m 19 jaar) | € 121,08 |
+| Junioren (t/m 18 jaar) | € 121,08 |
 
 ### LAPL Medical Keuring
 
@@ -92,6 +92,8 @@ De geldigheidsduur is afhankelijk van je leeftijd:
 | KNVVL lidmaatschap zweefvliegen | € 201,16 | € 121,08 |
 | **Totaal per jaar** | **€ 966,16** | **€ 806,08** |
 | LAPL medical (eenmalig / per periode) | ± € 225 | ± € 225 |
+
+> **Let op leeftijdsgrenzen:** De junior clubcontributie geldt voor leden t/m 21 jaar. Het KNVVL juniortarief geldt echter alleen t/m 18 jaar – leden van 19 t/m 21 jaar betalen het volwassen KNVVL-tarief van € 201,16 (totaal dan ± € 886,16 per jaar).
 
 > Vluchten zijn **onbeperkt** inbegrepen in het startabonnement. Er zijn geen extra kosten per vlucht.
 
