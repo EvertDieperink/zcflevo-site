@@ -24,10 +24,8 @@ faqs:
     a: "Maak altijd eerst een afspraak via secretaris@zcflevo.nl. Betreed het vliegveld niet zelfstandig. Rij naar de parkeerplaats van Vliegveld Terlet (Apeldoornseweg 203, Arnhem) en bel 06-17722964, dan halen we je op en begeleiden je veilig naar de startplaats."
   - q: "Is zweefvliegen veilig?"
     a: "Zweefvliegen is een serieuze sport met inherente risico's, maar die risico's worden actief beheerd. We werken met gecertificeerde instructeurs, geïnspecteerde vliegtuigen en verplichte veiligheidsprocedures. Elke vlucht begint met een uitgebreide pre-flight check en we vliegen nooit bij onverantwoord weer. Veiligheid is bij ons een cultuur, geen toevalligheid."
-  - q: "Wie beslist wanneer een leerling solo mag vliegen?"
-    a: "Het besluit om een leerling solo te laten vliegen wordt nooit door één persoon genomen. Het instructeursteam bespreekt gezamenlijk of een leerling klaar is. Daarbij wordt gekeken of het volledige trainingsprogramma is doorlopen en ondertekend. De leerling vliegt pas solo als iedereen het er over eens is dat het veilig is."
-  - q: "Mijn kind is 14 jaar: is zweefvliegen veilig voor jongeren?"
-    a: "Ja. Vanaf 14 jaar mogen jongeren beginnen met zweefvliegopleidingen. Ze vliegen altijd mee met een gecertificeerde instructeur totdat het instructeursteam gezamenlijk heeft besloten dat ze klaar zijn voor solo. De minimumleeftijd voor een vliegbrevet is 16 jaar."
+  - q: "Vanaf welke leeftijd kun je beginnen en wanneer mag je solo vliegen?"
+    a: "Vanaf 14 jaar mag je beginnen met de zweefvliegopleiding. Tot je solo mag, vlieg je altijd mee met een gecertificeerde instructeur. Het besluit om iemand solo te laten vliegen wordt nooit door één persoon genomen: het hele instructeursteam bespreekt of het volledige trainingsprogramma is doorlopen en ondertekend, en de leerling vliegt pas solo als iedereen het er over eens is dat het veilig is. De minimumleeftijd voor het vliegbrevet is 16 jaar."
 ---
 
 ## Veelgestelde Vragen
@@ -90,12 +88,8 @@ Zweefvliegen is een serieuze sport met inherente risico's, maar die risico's wor
 
 ---
 
-### Wie beslist wanneer een leerling solo mag vliegen?
+### Vanaf welke leeftijd kun je beginnen en wanneer mag je solo vliegen?
 
-Het besluit om een leerling solo te laten vliegen wordt **nooit door één persoon** genomen. Het instructeursteam bespreekt gezamenlijk of een leerling klaar is. Daarbij wordt gekeken of het volledige trainingsprogramma is doorlopen en ondertekend. De leerling vliegt pas solo als iedereen het er over eens is dat het veilig is.
+Vanaf **14 jaar** mag je beginnen met de zweefvliegopleiding. Tot je solo mag vliegen, ga je altijd mee met een gecertificeerde instructeur.
 
----
-
-### Mijn kind is 14 jaar: is zweefvliegen veilig voor jongeren?
-
-Ja. Vanaf **14 jaar** mogen jongeren beginnen met zweefvliegopleidingen. Ze vliegen altijd mee met een gecertificeerde instructeur totdat het instructeursteam gezamenlijk heeft besloten dat ze klaar zijn voor solo. De minimumleeftijd voor een vliegbrevet is **16 jaar**.
+Het besluit om iemand solo te laten vliegen wordt **nooit door één persoon** genomen: het hele instructeursteam bespreekt of het volledige trainingsprogramma is doorlopen en ondertekend, en een leerling vliegt pas solo als iedereen het er over eens is dat het veilig is. De minimumleeftijd voor het vliegbrevet is **16 jaar**.
