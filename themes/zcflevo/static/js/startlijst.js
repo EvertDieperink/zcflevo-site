@@ -200,7 +200,6 @@ const app       = document.getElementById('flights-app');
 const input     = document.getElementById('flight-date');
 const btnPrev   = document.getElementById('prev-day');
 const btnNext   = document.getElementById('next-day');
-const liveBadge = document.getElementById('live-badge');
 
 async function load(dateStr, silent = false) {
   if (!silent) app.innerHTML = renderLoading();
@@ -220,13 +219,11 @@ async function load(dateStr, silent = false) {
 
 function startPolling(dateStr) {
   stopPolling();
-  liveBadge.hidden = false;
   pollTimer = setInterval(() => load(dateStr, true), POLL_MS);
 }
 
 function stopPolling() {
   if (pollTimer) { clearInterval(pollTimer); pollTimer = null; }
-  liveBadge.hidden = true;
 }
 
 function setDate(dateStr) {
