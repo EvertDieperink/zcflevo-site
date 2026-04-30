@@ -9,7 +9,13 @@
  *   response.flights[i].start         → "10h24"
  *   response.flights[i].stop          → "11h02" (null als nog in de lucht)
  *   response.flights[i].duration      → seconden
+ *
+ * Wrapped in IIFE om naam-conflicten met startlijst.js te voorkomen
+ * (beide scripts hebben helpers als renderTable, fmtTime, etc.).
  */
+
+(function () {
+'use strict';
 
 const CLUB_AIRCRAFT = [
   'PH-1433', 'PH-974', 'PH-1382', 'PH-1006',
@@ -248,7 +254,10 @@ function initFlarmViewer(ids = {}) {
 window.ZCFlevo = window.ZCFlevo || {};
 window.ZCFlevo.initFlarmViewer = initFlarmViewer;
 
-// Auto-init op pagina's met de standaard IDs (oude vliegdagen-pagina)
+// Auto-init op pagina's met de standaard IDs (oude vliegdagen-pagina).
+// Op de gecombineerde vluchten-pagina bestaan deze IDs niet, dus geen botsing.
 if (document.getElementById('flights-app') && document.getElementById('flight-date')) {
   initFlarmViewer();
 }
+
+})();

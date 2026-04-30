@@ -11,7 +11,13 @@
  *   plane                — { callsign, name, registration, seats }
  *   type                 — vluchttype (bijv. "Trainingsvlucht SFCL160.a.1.ii")
  *   winch                — { name }
+ *
+ * Wrapped in IIFE om naam-conflicten met vliegdagen.js te voorkomen
+ * (beide scripts hebben helpers als renderTable, fmtTime, etc.).
  */
+
+(function () {
+'use strict';
 
 const DB_URL       = 'https://dsa-startplank.firebaseio.com';
 const CLUB_REG     = ['PH-1433', 'PH-974', 'PH-1382', 'PH-1006', 'PH-1273', 'PH-1210', 'PH-1571'];
@@ -270,7 +276,10 @@ function initStartplankViewer(ids = {}) {
 window.ZCFlevo = window.ZCFlevo || {};
 window.ZCFlevo.initStartplankViewer = initStartplankViewer;
 
-// Auto-init op pagina's met de standaard IDs (oude startlijst-pagina)
+// Auto-init op pagina's met de standaard IDs (oude startlijst-pagina).
+// Op de gecombineerde vluchten-pagina bestaan deze IDs niet, dus geen botsing.
 if (document.getElementById('flights-app') && document.getElementById('flight-date')) {
   initStartplankViewer();
 }
+
+})();
