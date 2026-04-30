@@ -29,8 +29,8 @@ Het kampritme is informeel: je vliegt wanneer de condities goed zijn, en de rest
 Iedereen die lid is van ZC Flevo kan mee, ongeacht vliegervaring:
 
 - **Beginners:** je vliegt met een instructeur en maakt in één week grote sprongen
-- **Gevorderde leerlingen:** ideaal om uren te maken en je solovluchten te verlengen
-- **Brevethouders:** vlieg solo of cross-country in onbekend gebied
+- **Gevorderde leerlingen:** ideaal om uren te maken en je vluchten zonder instructeur te verlengen
+- **Brevethouders:** vlieg alleen of cross-country in onbekend gebied
 
 ## Wat kost het?
 
@@ -41,4 +41,4 @@ Omdat we als vereniging op kamp gaan, worden de kosten **eerlijk verdeeld over d
 De kampen worden elk jaar via de clubcommunicatie aangekondigd. Interesse? Neem contact op met de secretaris, dan zetten we je op de lijst.
 
 **E-mail:** [secretaris@zcflevo.nl](mailto:secretaris@zcflevo.nl)
-**Telefoon:** [06-17722964](tel:0617722964)
+

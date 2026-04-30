@@ -22,7 +22,7 @@ Het primaire trainingstoestel van de club. De ASK-21 staat bekend om zijn pretti
 - **Spanwijdte:** 17 m
 - **Maximale snelheid:** 280 km/h
 - **Beste glijgetal:** 33,5 (bij 90 km/h)
-- **Gebruik:** Eerste solo's, basisinstructie
+- **Gebruik:** Eerste keer alleen vliegen, basisinstructie
 
 ### SZD-51-1 Junior (PH-1006)
 **Callsign:** YT | **Bouwjaar:** 1993

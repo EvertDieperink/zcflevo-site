@@ -18,14 +18,14 @@ Iedereen die bij ZC Flevo wil leren vliegen begint met de [kennismakingsstage](/
 ### Vereisten
 - Minimumleeftijd om te starten: **14 jaar**
 - Minimumleeftijd voor vliegbrevet: **16 jaar**
-- LAPL medical keuring (alleen vereist voordat je solo gaat vliegen, niet tijdens de instructieperiode – zie hieronder)
+- LAPL medical keuring (alleen vereist voordat je alleen mag vliegen, niet tijdens de instructieperiode – zie hieronder)
 - Rijbewijs is **niet** vereist
 
 ### Hoe verloopt de opleiding?
 
 1. Je vliegt op weekenden (en vrije dagen) mee met een instructeur in een tweezitter
 2. Stap voor stap leer je alle basis- en gevorderde technieken
-3. Na voldoende vluchten en beheersing van de vaardigheden vlieg je **solo**
+3. Na voldoende vluchten en beheersing van de vaardigheden vlieg je **alleen**
 4. Vervolgens werk je toe naar je officiële zweefvliegbrevet (SPL)
 
 Een gemiddeld lid maakt **3 à 4 vluchten per dag** van 7 tot 30 minuten.
@@ -74,7 +74,7 @@ Het KNVVL-lidmaatschap is verplicht en regelt onder andere je verzekering.
 
 ### LAPL Medical Keuring
 
-Om solo te mogen vliegen heb je een geldige LAPL-medical nodig (Light Aircraft Pilot Licence medical). Tijdens de instructieperiode is deze keuring nog niet vereist. Het is een eenvoudig medisch onderzoek bij een erkende vliegarts. Kosten: **± € 200 – 250**.
+Om alleen te mogen vliegen heb je een geldige LAPL-medical nodig (Light Aircraft Pilot Licence medical). Tijdens de instructieperiode is deze keuring nog niet vereist. Het is een eenvoudig medisch onderzoek bij een erkende vliegarts. Kosten: **± € 200 – 250**.
 
 De geldigheidsduur is afhankelijk van je leeftijd:
 
@@ -108,4 +108,3 @@ Als vereniging gaan we elk jaar tegen kostprijs op kamp – met een gezellige gr
 Interesse om lid te worden? Neem contact op met onze secretaris:
 
 **E-mail:** [secretaris@zcflevo.nl](mailto:secretaris@zcflevo.nl)
-**Telefoon:** [06-17722964](tel:0617722964)
