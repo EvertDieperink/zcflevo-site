@@ -8,18 +8,18 @@ theme = 'zcflevo'
 
 [params]
   description = "ZC Flevo is een actieve zweefvliegclub vanuit Vliegveld Terlet bij Arnhem."
-  email = "secretaris@zcflevo.nl!!!!"
-  veldtelefoonnummer = "06-17722964!!!!"
-  address = "Vliegveld Terlet, Apeldoornseweg 203, 6816 SM Arnhem!!!!"
+  email = "secretaris@zcflevo.nl"
+  veldtelefoonnummer = "06-17722964"
+  address = "Vliegveld Terlet, Apeldoornseweg 203, 6816 SM Arnhem"
   facebook = "https://www.facebook.com/zcflevo/"
   instagram = "https://www.instagram.com/zweefvliegclubflevo/"
   youtube = "https://www.youtube.com/channel/UCjxBLZcew6u7KOLpH2wSq0A"
   tiktok = "https://www.tiktok.com/@zc.flevo"
   mapboxToken = ""  # Set this via environment variable in GitHub Actions
   tagline = "Een actieve en gezellige zweefvliegclub, opgericht in 1972. Wij vliegen vanuit Vliegveld Terlet bij Arnhem."
-  address_line1 = "Vliegveld Terlet!!!!"
-  address_line2 = "Apeldoornseweg 203!!!!"
-  address_line3 = "6816 SM Arnhem!!!!"
+  address_line1 = "Vliegveld Terlet"
+  address_line2 = "Apeldoornseweg 203"
+  address_line3 = "6816 SM Arnhem"
 
 # ── Menu ──────────────────────────────────────────────────────────────────────
 # Het menu wordt automatisch opgebouwd vanuit de front matter van elke pagina.
