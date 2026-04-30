@@ -272,9 +272,111 @@ function initStartplankViewer(ids = {}) {
   setDate(today);
 }
 
+// ── Actieve vluchten viewer ───────────────────────────────────────────────────
+
+function fmtElapsed(startMs) {
+  if (!startMs) return '—';
+  const sec = Math.round((Date.now() - startMs) / 1000);
+  if (sec < 0) return '—';
+  const h = Math.floor(sec / 3600);
+  const m = Math.floor((sec % 3600) / 60);
+  if (h > 0) return `${h}u ${String(m).padStart(2, '0')}m`;
+  return `${m} min`;
+}
+
+function renderActiefEmpty() {
+  return `<div class="flights-empty">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="48" height="48">
+      <path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/>
+    </svg>
+    <p>Op dit moment zijn er <strong>geen ZC Flevo toestellen in de lucht</strong>.</p>
+    <p class="flights-empty-sub">Deze pagina ververst zichzelf elke 30 seconden.</p>
+  </div>`;
+}
+
+function renderActiefTable(flights) {
+  const rows = flights.map(f => {
+    const callsign  = f.plane?.callsign || f.plane?.registration || '?';
+    const planeName = f.plane?.name || '';
+
+    const commanderCell = f.commander?.name
+      ? `${f.commander.name} ${statusBadge(f.commander.status)}`
+      : '—';
+
+    const passengerCell = f.passenger?.name
+      ? `${f.passenger.name} ${statusBadge(f.passenger.status)}`
+      : '<span class="text-muted">enkel</span>';
+
+    return `<tr>
+      <td><strong>${callsign}</strong><br><small class="text-muted">${planeName}</small></td>
+      <td>${commanderCell}</td>
+      <td>${passengerCell}</td>
+      <td>${shortType(f.type)}</td>
+      <td>${fmtTime(f.startTime)}</td>
+      <td><strong>${fmtElapsed(f.startTime)}</strong></td>
+    </tr>`;
+  }).join('');
+
+  return `
+    <div class="flights-summary">
+      <span class="flight-badge flight-badge--air">In de lucht</span>
+      <strong>${flights.length}</strong> ZC Flevo ${flights.length === 1 ? 'toestel' : 'toestellen'} actief
+    </div>
+    <div class="flights-table-wrap">
+      <table class="flights-table">
+        <thead><tr>
+          <th>Vliegtuig</th>
+          <th>Gezagvoerder</th>
+          <th>Mede-inzittende</th>
+          <th>Type vlucht</th>
+          <th>Start</th>
+          <th>In de lucht</th>
+        </tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>`;
+}
+
+/**
+ * Initialiseer de "actieve vluchten" viewer (Startplank, alleen de
+ * vluchten die nu in de lucht zijn). Polling elke 30 seconden.
+ * @param {object} ids
+ * @param {string} ids.appId  ID van het container-element
+ */
+function initStartplankActiefViewer(ids = {}) {
+  const appId = ids.appId || 'startplank-actief-app';
+  const app   = document.getElementById(appId);
+  if (!app) return;
+
+  let timer = null;
+
+  async function load(silent = false) {
+    if (!silent) app.innerHTML = renderLoading();
+    try {
+      const today = toDateStr(new Date());
+      const data  = await fetchFlights(today);
+      const flights = data
+        ? Object.values(data)
+            .filter(f => isClub(f.plane?.registration))
+            .filter(f => f.startTime && !f.endTime)
+            .sort((a, b) => (a.startTime || 0) - (b.startTime || 0))
+        : [];
+      app.innerHTML = flights.length ? renderActiefTable(flights) : renderActiefEmpty();
+    } catch (err) {
+      console.warn('Actieve vluchten fout:', err);
+      if (!silent) app.innerHTML = renderError();
+    }
+  }
+
+  // Initieel laden + polling elke POLL_MS (30s)
+  load();
+  timer = setInterval(() => load(true), POLL_MS);
+}
+
 // Expose voor expliciete init op nieuwe gecombineerde pagina
 window.ZCFlevo = window.ZCFlevo || {};
 window.ZCFlevo.initStartplankViewer = initStartplankViewer;
+window.ZCFlevo.initStartplankActiefViewer = initStartplankActiefViewer;
 
 // Auto-init op pagina's met de standaard IDs (oude startlijst-pagina).
 // Op de gecombineerde vluchten-pagina bestaan deze IDs niet, dus geen botsing.

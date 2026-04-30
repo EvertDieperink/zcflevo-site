@@ -23,14 +23,29 @@
     {{ end }}
 
     <!-- Tab radio inputs (CSS-only switching, visually hidden but accessible) -->
-    <input type="radio" name="vluchten-tab" id="vluchten-tab-flarm" class="vluchten-tab-input" checked>
+    <input type="radio" name="vluchten-tab" id="vluchten-tab-actief" class="vluchten-tab-input" checked>
+    <input type="radio" name="vluchten-tab" id="vluchten-tab-flarm" class="vluchten-tab-input">
     <input type="radio" name="vluchten-tab" id="vluchten-tab-startplank" class="vluchten-tab-input">
 
     <div class="vluchten-tabs">
 
       <div class="vluchten-tab-labels">
+        <label for="vluchten-tab-actief">Nu in de lucht</label>
         <label for="vluchten-tab-flarm">FLARM</label>
         <label for="vluchten-tab-startplank">Startplank</label>
+      </div>
+
+      <!-- ── Actief panel (Startplank, alleen vandaag, alleen in de lucht) ─── -->
+      <div class="vluchten-tab-panel" id="vluchten-panel-actief">
+        <p class="vluchten-tab-source">
+          Live overzicht van ZC Flevo toestellen die <strong>nu in de lucht zijn</strong> volgens de <a href="https://dsa-startplank.firebaseapp.com/actief" target="_blank" rel="noopener">DSA Startplank</a>. Ververst automatisch elke 30 seconden.
+        </p>
+        <div id="startplank-actief-app">
+          <div class="flights-loading">
+            <div class="spinner"></div>
+            <span>Actieve vluchten ophalen&hellip;</span>
+          </div>
+        </div>
       </div>
 
       <!-- ── FLARM panel ──────────────────────────────────────────────── -->
@@ -89,8 +104,13 @@
 </div>
 
 <script>
-  // Initialiseer beide viewers met hun eigen geprefixte IDs
+  // Initialiseer alle drie de viewers met hun eigen geprefixte IDs
   document.addEventListener('DOMContentLoaded', function () {
+    if (window.ZCFlevo && window.ZCFlevo.initStartplankActiefViewer) {
+      window.ZCFlevo.initStartplankActiefViewer({
+        appId: 'startplank-actief-app',
+      });
+    }
     if (window.ZCFlevo && window.ZCFlevo.initFlarmViewer) {
       window.ZCFlevo.initFlarmViewer({
         appId:  'flarm-flights-app',

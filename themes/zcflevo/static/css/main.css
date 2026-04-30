@@ -1172,6 +1172,7 @@ body.nav-open { overflow: hidden; }
 }
 
 /* Active tab styling */
+#vluchten-tab-actief:checked ~ .vluchten-tabs .vluchten-tab-labels label[for="vluchten-tab-actief"],
 #vluchten-tab-flarm:checked ~ .vluchten-tabs .vluchten-tab-labels label[for="vluchten-tab-flarm"],
 #vluchten-tab-startplank:checked ~ .vluchten-tabs .vluchten-tab-labels label[for="vluchten-tab-startplank"] {
   color: var(--blue-dark);
@@ -1180,6 +1181,7 @@ body.nav-open { overflow: hidden; }
 
 /* Tab panels: hidden by default, show active one */
 .vluchten-tab-panel { display: none; }
+#vluchten-tab-actief:checked ~ .vluchten-tabs #vluchten-panel-actief,
 #vluchten-tab-flarm:checked ~ .vluchten-tabs #vluchten-panel-flarm,
 #vluchten-tab-startplank:checked ~ .vluchten-tabs #vluchten-panel-startplank {
   display: block;
