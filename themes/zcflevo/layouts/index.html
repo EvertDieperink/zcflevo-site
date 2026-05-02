@@ -77,6 +77,76 @@
   {{ end }}
 </div>
 
+<!-- Photo lightbox -->
+<div class="photo-lightbox" id="photo-lightbox" aria-hidden="true" role="dialog" aria-label="Foto vergroot bekijken">
+  <button class="photo-lightbox-close" type="button" aria-label="Sluiten">&times;</button>
+  <button class="photo-lightbox-nav photo-lightbox-prev" type="button" aria-label="Vorige foto">&#8249;</button>
+  <button class="photo-lightbox-nav photo-lightbox-next" type="button" aria-label="Volgende foto">&#8250;</button>
+  <div class="photo-lightbox-content">
+    <img id="photo-lightbox-img" src="" alt="">
+    <p class="photo-lightbox-caption" id="photo-lightbox-caption"></p>
+  </div>
+</div>
+
+<script>
+(function () {
+  const lightbox = document.getElementById('photo-lightbox');
+  if (!lightbox) return;
+  const lightboxImg = document.getElementById('photo-lightbox-img');
+  const caption     = document.getElementById('photo-lightbox-caption');
+  const closeBtn    = lightbox.querySelector('.photo-lightbox-close');
+  const prevBtn     = lightbox.querySelector('.photo-lightbox-prev');
+  const nextBtn     = lightbox.querySelector('.photo-lightbox-next');
+  const photos      = Array.from(document.querySelectorAll('.photo-strip .photo-item img'));
+  if (!photos.length) return;
+
+  let currentIndex = 0;
+
+  function show(idx) {
+    currentIndex = (idx + photos.length) % photos.length;
+    const img = photos[currentIndex];
+    lightboxImg.src = img.src;
+    lightboxImg.alt = img.alt;
+    caption.textContent = img.alt || '';
+  }
+
+  function open(idx) {
+    show(idx);
+    lightbox.classList.add('is-open');
+    lightbox.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function close() {
+    lightbox.classList.remove('is-open');
+    lightbox.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+    lightboxImg.src = '';
+  }
+
+  photos.forEach((img, idx) => {
+    img.style.cursor = 'zoom-in';
+    img.addEventListener('click', () => open(idx));
+  });
+
+  closeBtn.addEventListener('click', close);
+  prevBtn.addEventListener('click', (e) => { e.stopPropagation(); show(currentIndex - 1); });
+  nextBtn.addEventListener('click', (e) => { e.stopPropagation(); show(currentIndex + 1); });
+
+  // Klik op de donkere achtergrond (niet op de afbeelding zelf) sluit
+  lightbox.addEventListener('click', (e) => {
+    if (e.target === lightbox || e.target === lightboxImg.parentElement) close();
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (!lightbox.classList.contains('is-open')) return;
+    if (e.key === 'Escape')      close();
+    if (e.key === 'ArrowLeft')   show(currentIndex - 1);
+    if (e.key === 'ArrowRight')  show(currentIndex + 1);
+  });
+})();
+</script>
+
 <!-- Intro content from _index.md body -->
 {{ if .Content }}
 <section class="intro-section">
