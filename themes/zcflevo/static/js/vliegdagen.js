@@ -115,25 +115,63 @@ function renderError(dateStr) {
   </div>`;
 }
 
-function renderTotals(flights) {
+function renderTotals(flights, isToday) {
   // Group by registration
   const map = {};
   for (const f of flights) {
     const key = f.registration;
-    if (!map[key]) map[key] = { registration: f.registration, type: f.type, cn: f.cn, starts: 0, totalSec: 0 };
+    if (!map[key]) map[key] = {
+      registration: f.registration, type: f.type, cn: f.cn,
+      starts: 0, totalSec: 0,
+      hasUncertain: false,
+      missingDuration: 0,
+    };
     map[key].starts++;
     map[key].totalSec += f.duration || 0;
+
+    // Een vlucht is "onzeker" als:
+    // - de start sterk geschat is (start_delta > drempel)
+    // - er geen exacte start gedetecteerd is
+    // - de duur onbekend is (en niet omdat de vlucht nu in de lucht is)
+    // - er geen landing gedetecteerd is op een historische dag
+    const isInAirNow = f.start && !f.stop && isToday;
+    const noStop     = f.start && !f.stop && !isToday;
+    const approxStart = f.start_delta && f.start_delta > APPROX_THRESHOLD_SEC;
+    const noDuration  = (f.duration == null || f.duration === 0) && !isInAirNow;
+
+    if (approxStart || noStop || noDuration || !f.start) {
+      map[key].hasUncertain = true;
+    }
+    if (noDuration) map[key].missingDuration++;
   }
 
   const rows = Object.values(map)
     .sort((a, b) => a.registration.localeCompare(b.registration))
-    .map(r => `<tr>
-      <td><strong>${r.registration}</strong></td>
-      <td>${r.type || '—'}</td>
-      <td>${r.cn || '—'}</td>
-      <td>${r.starts}</td>
-      <td>${fmtDuration(r.totalSec)}</td>
-    </tr>`).join('');
+    .map(r => {
+      let totalCell;
+      if (!r.totalSec) {
+        totalCell = '<span class="time-unknown" title="Geen meetbare duur beschikbaar">— onbekend</span>';
+      } else if (r.hasUncertain) {
+        const detail = r.missingDuration > 0
+          ? `Niet betrouwbaar: ${r.missingDuration} van ${r.starts} vlucht${r.starts !== 1 ? 'en' : ''} mist een exacte tijd`
+          : 'Niet betrouwbaar: bevat vluchten met onzekere tijden';
+        totalCell = `<span class="time-approx" title="${detail}">~ ${fmtDuration(r.totalSec)}</span>`;
+      } else {
+        totalCell = fmtDuration(r.totalSec);
+      }
+
+      const regCell = r.hasUncertain
+        ? `<strong>${r.registration}</strong> <span class="time-approx" title="Onzekere of ontbrekende tijden in deze totalen" aria-label="onzeker">*</span>`
+        : `<strong>${r.registration}</strong>`;
+
+      return `<tr>
+        <td>${regCell}</td>
+        <td>${r.type || '—'}</td>
+        <td>${r.cn || '—'}</td>
+        <td>${r.starts}</td>
+        <td>${totalCell}</td>
+      </tr>`;
+    }).join('');
 
   return `
     <h3 class="flights-totals-title">Totalen per vliegtuig</h3>
@@ -218,6 +256,7 @@ function renderTable(flights, dateStr) {
     <p class="flights-legend">
       <span class="time-approx">~ tijd</span> = geschatte tijd (FLARM-detectie onnauwkeurig).
       <span class="time-unknown">— niet gedetecteerd</span> = OGN heeft geen exact start- of landingsmoment kunnen vaststellen.
+      In de totalen-tabel hieronder markeert <span class="time-approx">*</span> vliegtuigen waarvan de totale duur niet betrouwbaar is doordat sommige vluchten onzekere of ontbrekende tijden hebben.
     </p>` : '';
 
   return `
@@ -241,7 +280,7 @@ function renderTable(flights, dateStr) {
       </table>
     </div>
     ${legend}
-    ${renderTotals(flights)}`;
+    ${renderTotals(flights, isToday)}`;
 }
 
 // ── Init ──────────────────────────────────────────────────────────────────────
