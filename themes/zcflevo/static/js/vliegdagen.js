@@ -167,9 +167,12 @@ function fmtStart(f) {
   return time;
 }
 
-function fmtStop(f) {
+function fmtStop(f, isToday) {
   if (f.start && !f.stop) {
-    return '<span class="flight-badge flight-badge--air">In de lucht</span>';
+    if (isToday) {
+      return '<span class="flight-badge flight-badge--air">In de lucht</span>';
+    }
+    return '<span class="time-unknown" title="Geen landings-detectie door OGN (FLARM-ontvangst mogelijk verloren)">— niet gedetecteerd</span>';
   }
   if (!f.stop) {
     return '<span class="time-unknown" title="Geen exacte landings-detectie">— niet gedetecteerd</span>';
@@ -177,9 +180,9 @@ function fmtStop(f) {
   return fmtTime(f.stop);
 }
 
-function fmtDurationCell(f) {
+function fmtDurationCell(f, isToday) {
   if (f.duration == null || f.duration === 0) {
-    if (f.start && !f.stop) {
+    if (f.start && !f.stop && isToday) {
       return '<span class="text-muted">—</span>';
     }
     return '<span class="time-unknown" title="Duur kon niet exact bepaald worden">— onbekend</span>';
@@ -188,12 +191,14 @@ function fmtDurationCell(f) {
 }
 
 function renderTable(flights, dateStr) {
+  const isToday = dateStr === toDateStr(new Date());
+
   // Heeft minstens 1 vlucht een onzekere tijd? Dan tonen we een legenda.
   const hasApprox = flights.some(f =>
     (f.start_delta && f.start_delta > APPROX_THRESHOLD_SEC) ||
-    (f.start && !f.stop) ||
+    (f.start && !f.stop && !isToday) ||
     (!f.start) ||
-    (f.duration == null && !(f.start && !f.stop))
+    (f.duration == null && !(f.start && !f.stop && isToday))
   );
 
   const rows = flights.map(f => {
@@ -203,8 +208,8 @@ function renderTable(flights, dateStr) {
       <td>${f.type || '—'}</td>
       <td>${f.cn || '—'}</td>
       <td>${fmtStart(f)}</td>
-      <td>${fmtStop(f)}</td>
-      <td>${fmtDurationCell(f)}</td>
+      <td>${fmtStop(f, isToday)}</td>
+      <td>${fmtDurationCell(f, isToday)}</td>
       <td>${height}</td>
     </tr>`;
   }).join('');
