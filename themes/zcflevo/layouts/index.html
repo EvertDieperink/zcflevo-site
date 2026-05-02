@@ -10,9 +10,6 @@
 <!-- Hero Section with photo background -->
 <section class="hero has-photo"
   style="background-image: url('{{ .Params.hero_image | default "/images/banner1.jpg" }}')">
-  <video class="hero-video" autoplay muted loop playsinline>
-    <source src="{{ "/videos/hero.mp4" | relURL }}" type="video/mp4">
-  </video>
   <div class="hero-overlay"></div>
   <div class="container">
     <div class="hero-content">
