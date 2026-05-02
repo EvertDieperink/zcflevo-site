@@ -41,22 +41,39 @@
   </div>
 </div>
 
-<!-- Photo strip — automatisch alle bestanden uit static/images/photo-strip -->
+<!-- Photo strip: automatisch uit static/images/photo-strip/normal en wide -->
 <div class="photo-strip">
-  {{ $stripDir := "static/images/photo-strip" }}
-  {{ range (readDir $stripDir) }}
-    {{ if not .IsDir }}
-      {{ $name := .Name }}
-      {{ $lower := lower $name }}
-      {{ if or (hasSuffix $lower ".jpg") (hasSuffix $lower ".jpeg") (hasSuffix $lower ".png") (hasSuffix $lower ".webp") }}
-        {{ $isWide := in $lower "wide" }}
-        {{ $base := strings.TrimSuffix (path.Ext $name) $name }}
-        {{ $alt := replace (replace $base "-" " ") "_" " " | humanize }}
-  <div class="photo-item{{ if $isWide }} photo-wide{{ end }}">
-    <img src="/images/photo-strip/{{ $name }}" alt="{{ $alt }}" loading="lazy">
-  </div>
+  {{ $items := slice }}
+  {{ $exts := slice ".jpg" ".jpeg" ".png" ".webp" }}
+
+  {{ $normalDir := "static/images/photo-strip/normal" }}
+  {{ if fileExists $normalDir }}
+    {{ range (readDir $normalDir) }}
+      {{ if not .IsDir }}
+        {{ if in $exts (lower (path.Ext .Name)) }}
+          {{ $items = $items | append (dict "name" .Name "wide" false "subdir" "normal") }}
+        {{ end }}
       {{ end }}
     {{ end }}
+  {{ end }}
+
+  {{ $wideDir := "static/images/photo-strip/wide" }}
+  {{ if fileExists $wideDir }}
+    {{ range (readDir $wideDir) }}
+      {{ if not .IsDir }}
+        {{ if in $exts (lower (path.Ext .Name)) }}
+          {{ $items = $items | append (dict "name" .Name "wide" true "subdir" "wide") }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+  {{ range (sort $items "name") }}
+    {{ $base := strings.TrimSuffix (path.Ext .name) .name }}
+    {{ $alt := replace (replace $base "-" " ") "_" " " | humanize }}
+  <div class="photo-item{{ if .wide }} photo-wide{{ end }}">
+    <img src="/images/photo-strip/{{ .subdir }}/{{ .name }}" alt="{{ $alt }}" loading="lazy">
+  </div>
   {{ end }}
 </div>
 
