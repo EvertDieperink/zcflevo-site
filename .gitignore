@@ -1,3 +1,6 @@
 public/
 resources/
 .hugo_build.lock
+
+# Claude Code worktrees (lokale werk-area, niet versioneren)
+.claude/worktrees/
