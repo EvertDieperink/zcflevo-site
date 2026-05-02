@@ -41,12 +41,22 @@
   </div>
 </div>
 
-<!-- Photo strip -->
+<!-- Photo strip — automatisch alle bestanden uit static/images/photo-strip -->
 <div class="photo-strip">
-  {{ range .Params.photos }}
-  <div class="photo-item{{ if .wide }} photo-wide{{ end }}">
-    <img src="{{ .src }}" alt="{{ .alt }}" loading="lazy">
+  {{ $stripDir := "static/images/photo-strip" }}
+  {{ range (readDir $stripDir) }}
+    {{ if not .IsDir }}
+      {{ $name := .Name }}
+      {{ $lower := lower $name }}
+      {{ if or (hasSuffix $lower ".jpg") (hasSuffix $lower ".jpeg") (hasSuffix $lower ".png") (hasSuffix $lower ".webp") }}
+        {{ $isWide := in $lower "wide" }}
+        {{ $base := strings.TrimSuffix (path.Ext $name) $name }}
+        {{ $alt := replace (replace $base "-" " ") "_" " " | humanize }}
+  <div class="photo-item{{ if $isWide }} photo-wide{{ end }}">
+    <img src="/images/photo-strip/{{ $name }}" alt="{{ $alt }}" loading="lazy">
   </div>
+      {{ end }}
+    {{ end }}
   {{ end }}
 </div>
 

@@ -27,37 +27,10 @@ stats:
   - value: "0"
     label: "gram CO₂ uitstoot"
 
-photos:
-  - src: "/images/EVH_2739.jpg"
-    alt: "Zweefvliegtuig op Vliegveld Terlet"
-    wide: true
-  - src: "/images/DSC_3444.jpg"
-    alt: "Start met elektrische lier"
-  - src: "/images/EVH_3096.jpg"
-    alt: "Zweefvliegen bij ZC Flevo"
-  - src: "/images/terlet-start.jpg"
-    alt: "Zweefvliegtuig klaar voor de start op Terlet"
-  - src: "/images/EVH_2736.jpg"
-    alt: "Zweefvliegen boven Nederland"
-  - src: "/images/DSC_2131.jpg"
-    alt: "Vloot van ZC Flevo"
-  - src: "/images/21788580089_1937427c68_k.jpg"
-    alt: "Tweede vlucht van de dag"
-  - src: "/images/terlet-discus-piloot.jpg"
-    alt: "Piloot in de Discus 2b op Terlet"
-  - src: "/images/terlet-ls4b-vlucht.jpg"
-    alt: "LS4b PH-974 in vlucht boven Terlet"
-    wide: true
-  - src: "/images/Naamloos-4.jpg"
-    alt: "ZC Flevo leden op het veld"
-  - src: "/images/DSC_7812_HDR.jpg"
-    alt: "Landschap boven Nederland vanuit zweefvliegtuig"
-    wide: true
-  - src: "/images/terlet-cockpit.jpg"
-    alt: "In de cockpit van een zweefvliegtuig"
-  - src: "/images/terlet-stan.jpg"
-    alt: "Stan"
-
+# Photo strip wordt automatisch opgebouwd uit alle foto's in
+# static/images/photo-strip/ — gesorteerd op bestandsnaam.
+# Voeg "wide" toe aan de bestandsnaam (bijv. landschap-wide.jpg)
+# om een foto over 2 kolommen te tonen.
 
 pricing:
   label: "Onbeperkt vliegen"
