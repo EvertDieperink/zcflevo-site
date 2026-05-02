@@ -1235,9 +1235,6 @@ body.nav-open { overflow: hidden; }
   outline: none;
   border-color: var(--blue);
 }
-.flights-filter-bar #startplank-filter-reset {
-  align-self: flex-end;
-}
 
 /* Approx/unknown FLARM time markers */
 .time-approx {

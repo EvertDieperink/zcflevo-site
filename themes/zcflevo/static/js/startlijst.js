@@ -226,7 +226,6 @@ function initStartplankViewer(ids = {}) {
   // Optionele filters (alleen aanwezig op de gecombineerde Vluchten-pagina)
   const pilotSelect = ids.pilotFilterId ? document.getElementById(ids.pilotFilterId) : null;
   const planeSelect = ids.planeFilterId ? document.getElementById(ids.planeFilterId) : null;
-  const resetBtn    = ids.filterResetId ? document.getElementById(ids.filterResetId) : null;
   const hasFilters  = pilotSelect && planeSelect;
 
   let localPollTimer = null;
@@ -349,11 +348,6 @@ function initStartplankViewer(ids = {}) {
 
   if (pilotSelect) pilotSelect.addEventListener('change', render);
   if (planeSelect) planeSelect.addEventListener('change', render);
-  if (resetBtn) resetBtn.addEventListener('click', () => {
-    if (pilotSelect) pilotSelect.value = '';
-    if (planeSelect) planeSelect.value = '';
-    render();
-  });
 
   setDate(today);
 }
