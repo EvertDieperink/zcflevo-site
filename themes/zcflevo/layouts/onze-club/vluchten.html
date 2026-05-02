@@ -124,8 +124,10 @@
       </div>
 
       <!-- ── Live kaart panel (Glide & Seek met aircraft whitelist) ───── -->
-      {{ $aircraftDataUrl := absURL "glide-and-seek-aircraft.json" }}
-      {{ $gsBase := printf "https://glideandseek.com/?aircraftDataUrl=%s&viewport=52.0572,5.9244,11&embed=zcflevo.nl" $aircraftDataUrl }}
+      {{/* Force https voor aircraftDataUrl en haal het host-domein dynamisch uit baseURL voor embed parameter */}}
+      {{ $aircraftDataUrl := absURL "glide-and-seek-aircraft.json" | replaceRE "^http://" "https://" }}
+      {{ $embedHost := .Site.BaseURL | replaceRE "^https?://" "" | replaceRE "/.*$" "" }}
+      {{ $gsBase := printf "https://glideandseek.com/?aircraftDataUrl=%s&viewport=52.0572,5.9244,11&embed=%s&hideSidebar=true" $aircraftDataUrl $embedHost }}
       <div class="vluchten-tab-panel" id="vluchten-panel-kaart">
         <p class="vluchten-tab-source">
           Live kaart via <a href="{{ $gsBase }}" target="_blank" rel="noopener">Glide &amp; Seek</a> &mdash; toont alleen onze ZC Flevo clubvliegtuigen (FLARM/OGN data), gecentreerd op Vliegveld Terlet.
