@@ -1237,6 +1237,26 @@ body.nav-open { overflow: hidden; }
   font-style: italic;
 }
 
+/* Incident-melden call-to-action */
+.incident-cta {
+  background: var(--bg-light);
+  border-left: 4px solid var(--blue);
+  border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+  padding: 1.5rem 1.75rem;
+  margin: 1.75rem 0;
+  text-align: center;
+}
+.incident-cta .btn {
+  font-size: 1rem;
+  padding: 0.85rem 1.75rem;
+}
+.incident-cta-sub {
+  margin: 0.75rem 0 0;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-family: monospace;
+}
+
 /* Photo lightbox / modal */
 .photo-lightbox {
   display: none;
