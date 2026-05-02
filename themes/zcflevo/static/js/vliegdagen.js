@@ -78,6 +78,8 @@ function processLogbook(data) {
         stop         : f.stop           || null,
         duration     : f.duration       || null,
         max_height   : f.max_height     || null,
+        start_delta  : f.start_delta    || 0,
+        warn         : f.warn           || false,
       };
     })
     .filter(f => isClubAircraft(f.registration))
@@ -151,25 +153,67 @@ function renderTotals(flights) {
     </div>`;
 }
 
+/** Drempel in seconden waarboven we een tijd als "geschat" markeren. */
+const APPROX_THRESHOLD_SEC = 60;
+
+/** Render starttijd; als sterk geschat: prefix "~" en title-tooltip. */
+function fmtStart(f) {
+  if (!f.start) return '<span class="time-unknown" title="Geen exacte start-detectie">— niet gedetecteerd</span>';
+  const time = fmtTime(f.start);
+  if (f.start_delta && f.start_delta > APPROX_THRESHOLD_SEC) {
+    const min = Math.round(f.start_delta / 60);
+    return `<span class="time-approx" title="Tijd geschat (onzekerheid ± ${min} min)">~ ${time}</span>`;
+  }
+  return time;
+}
+
+function fmtStop(f) {
+  if (f.start && !f.stop) {
+    return '<span class="flight-badge flight-badge--air">In de lucht</span>';
+  }
+  if (!f.stop) {
+    return '<span class="time-unknown" title="Geen exacte landings-detectie">— niet gedetecteerd</span>';
+  }
+  return fmtTime(f.stop);
+}
+
+function fmtDurationCell(f) {
+  if (f.duration == null || f.duration === 0) {
+    if (f.start && !f.stop) {
+      return '<span class="text-muted">—</span>';
+    }
+    return '<span class="time-unknown" title="Duur kon niet exact bepaald worden">— onbekend</span>';
+  }
+  return fmtDuration(f.duration);
+}
+
 function renderTable(flights, dateStr) {
+  // Heeft minstens 1 vlucht een onzekere tijd? Dan tonen we een legenda.
+  const hasApprox = flights.some(f =>
+    (f.start_delta && f.start_delta > APPROX_THRESHOLD_SEC) ||
+    (f.start && !f.stop) ||
+    (!f.start) ||
+    (f.duration == null && !(f.start && !f.stop))
+  );
+
   const rows = flights.map(f => {
-    const inAir = f.start && !f.stop;
-    const landingCell = inAir
-      ? '<span class="flight-badge flight-badge--air">In de lucht</span>'
-      : fmtTime(f.stop);
-
     const height = f.max_height ? `${f.max_height} m` : '—';
-
     return `<tr>
       <td><strong>${f.registration}</strong></td>
       <td>${f.type || '—'}</td>
       <td>${f.cn || '—'}</td>
-      <td>${fmtTime(f.start)}</td>
-      <td>${landingCell}</td>
-      <td>${fmtDuration(f.duration)}</td>
+      <td>${fmtStart(f)}</td>
+      <td>${fmtStop(f)}</td>
+      <td>${fmtDurationCell(f)}</td>
       <td>${height}</td>
     </tr>`;
   }).join('');
+
+  const legend = hasApprox ? `
+    <p class="flights-legend">
+      <span class="time-approx">~ tijd</span> = geschatte tijd (FLARM-detectie onnauwkeurig).
+      <span class="time-unknown">— niet gedetecteerd</span> = OGN heeft geen exact start- of landingsmoment kunnen vaststellen.
+    </p>` : '';
 
   return `
     <div class="flights-summary">
@@ -191,6 +235,7 @@ function renderTable(flights, dateStr) {
         <tbody>${rows}</tbody>
       </table>
     </div>
+    ${legend}
     ${renderTotals(flights)}`;
 }
 
