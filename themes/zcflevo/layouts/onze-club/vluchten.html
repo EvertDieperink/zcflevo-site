@@ -74,6 +74,21 @@
           <button id="startplank-prev-day" class="day-nav" aria-label="Vorige dag">&#8592;</button>
           <button id="startplank-next-day" class="day-nav" aria-label="Volgende dag">&#8594;</button>
         </div>
+        <div class="flights-filter-bar">
+          <label>
+            Piloot
+            <select id="startplank-pilot-filter">
+              <option value="">Alle piloten</option>
+            </select>
+          </label>
+          <label>
+            Vliegtuig
+            <select id="startplank-plane-filter">
+              <option value="">Alle vliegtuigen</option>
+            </select>
+          </label>
+          <button type="button" id="startplank-filter-reset" class="day-nav">Reset</button>
+        </div>
         <div id="startplank-flights-app">
           <div class="flights-loading">
             <div class="spinner"></div>
@@ -124,10 +139,13 @@
     }
     if (window.ZCFlevo && window.ZCFlevo.initStartplankViewer) {
       window.ZCFlevo.initStartplankViewer({
-        appId:  'startplank-flights-app',
-        dateId: 'startplank-flight-date',
-        prevId: 'startplank-prev-day',
-        nextId: 'startplank-next-day',
+        appId:        'startplank-flights-app',
+        dateId:       'startplank-flight-date',
+        prevId:       'startplank-prev-day',
+        nextId:       'startplank-next-day',
+        pilotFilterId: 'startplank-pilot-filter',
+        planeFilterId: 'startplank-plane-filter',
+        filterResetId: 'startplank-filter-reset',
       });
     }
     if (window.ZCFlevo && window.ZCFlevo.initFlarmViewer) {

@@ -1203,6 +1203,42 @@ body.nav-open { overflow: hidden; }
   font-style: italic;
 }
 
+/* Filter bar (Startplank: per dag) */
+.flights-filter-bar {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+  margin: 0 0 1.5rem;
+  flex-wrap: wrap;
+}
+.flights-filter-bar label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.flights-filter-bar select {
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.5rem 0.75rem;
+  font-size: 0.95rem;
+  background: #fff;
+  color: var(--text);
+  min-width: 200px;
+  cursor: pointer;
+}
+.flights-filter-bar select:focus {
+  outline: none;
+  border-color: var(--blue);
+}
+.flights-filter-bar #startplank-filter-reset {
+  align-self: flex-end;
+}
+
 /* Approx/unknown FLARM time markers */
 .time-approx {
   color: #b07a17;

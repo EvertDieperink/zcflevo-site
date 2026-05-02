@@ -223,18 +223,94 @@ function initStartplankViewer(ids = {}) {
 
   if (!app || !input || !btnPrev || !btnNext) return;
 
+  // Optionele filters (alleen aanwezig op de gecombineerde Vluchten-pagina)
+  const pilotSelect = ids.pilotFilterId ? document.getElementById(ids.pilotFilterId) : null;
+  const planeSelect = ids.planeFilterId ? document.getElementById(ids.planeFilterId) : null;
+  const resetBtn    = ids.filterResetId ? document.getElementById(ids.filterResetId) : null;
+  const hasFilters  = pilotSelect && planeSelect;
+
   let localPollTimer = null;
+  let cachedFlights  = [];     // alle gefetchte vluchten van huidige dag
+  let currentDateStr = null;
+
+  function applyFilters(flights) {
+    const pilotName = pilotSelect ? pilotSelect.value : '';
+    const planeKey  = planeSelect ? planeSelect.value : '';
+    return flights.filter(f => {
+      if (pilotName) {
+        const cmd = f.commander?.name || '';
+        const pas = f.passenger?.name || '';
+        if (cmd !== pilotName && pas !== pilotName) return false;
+      }
+      if (planeKey) {
+        const key = f.plane?.callsign || f.plane?.registration || '';
+        if (key !== planeKey) return false;
+      }
+      return true;
+    });
+  }
+
+  function populateFilters(flights) {
+    if (!hasFilters) return;
+
+    // Bewaar huidige selecties zodat ze hersteld worden na refresh
+    const prevPilot = pilotSelect.value;
+    const prevPlane = planeSelect.value;
+
+    // Verzamel unieke piloten (gezagvoerder + mede-inzittende samen)
+    const pilots = new Set();
+    flights.forEach(f => {
+      if (f.commander?.name) pilots.add(f.commander.name);
+      if (f.passenger?.name) pilots.add(f.passenger.name);
+    });
+    const sortedPilots = Array.from(pilots).sort((a, b) => a.localeCompare(b, 'nl'));
+
+    // Verzamel unieke vliegtuigen op callsign (of registratie als fallback)
+    const planes = new Map(); // key -> label
+    flights.forEach(f => {
+      const key = f.plane?.callsign || f.plane?.registration;
+      if (!key) return;
+      const label = (f.plane?.callsign && f.plane?.registration)
+        ? `${f.plane.callsign} (${f.plane.registration})`
+        : key;
+      if (!planes.has(key)) planes.set(key, label);
+    });
+    const sortedPlanes = Array.from(planes.entries()).sort((a, b) => a[1].localeCompare(b[1]));
+
+    pilotSelect.innerHTML = '<option value="">Alle piloten</option>' +
+      sortedPilots.map(p => `<option value="${p}">${p}</option>`).join('');
+    planeSelect.innerHTML = '<option value="">Alle vliegtuigen</option>' +
+      sortedPlanes.map(([k, l]) => `<option value="${k}">${l}</option>`).join('');
+
+    // Herstel selectie als deze nog bestaat
+    if (sortedPilots.includes(prevPilot)) pilotSelect.value = prevPilot;
+    if (Array.from(planes.keys()).includes(prevPlane)) planeSelect.value = prevPlane;
+  }
+
+  function render() {
+    if (!currentDateStr) return;
+    const filtered = applyFilters(cachedFlights);
+    if (cachedFlights.length === 0) {
+      app.innerHTML = renderEmpty(currentDateStr);
+    } else if (filtered.length === 0) {
+      app.innerHTML = `<div class="flights-summary">Geen vluchten gevonden met de huidige filters.</div>`;
+    } else {
+      app.innerHTML = renderTable(filtered, currentDateStr);
+    }
+  }
 
   async function load(dateStr, silent = false) {
+    currentDateStr = dateStr;
     if (!silent) app.innerHTML = renderLoading();
     try {
       const data = await fetchFlights(dateStr);
-      const flights = data
+      cachedFlights = data
         ? Object.values(data)
             .filter(f => isClub(f.plane?.registration))
             .sort((a, b) => (a.startTime || 0) - (b.startTime || 0))
         : [];
-      app.innerHTML = flights.length ? renderTable(flights, dateStr) : renderEmpty(dateStr);
+      populateFilters(cachedFlights);
+      render();
     } catch (err) {
       console.warn('Startlijst fout:', err);
       if (!silent) app.innerHTML = renderError();
@@ -270,6 +346,14 @@ function initStartplankViewer(ids = {}) {
   input.addEventListener('change', () => setDate(input.value));
   btnPrev.addEventListener('click', () => shiftDay(-1));
   btnNext.addEventListener('click', () => shiftDay(1));
+
+  if (pilotSelect) pilotSelect.addEventListener('change', render);
+  if (planeSelect) planeSelect.addEventListener('change', render);
+  if (resetBtn) resetBtn.addEventListener('click', () => {
+    if (pilotSelect) pilotSelect.value = '';
+    if (planeSelect) planeSelect.value = '';
+    render();
+  });
 
   setDate(today);
 }
