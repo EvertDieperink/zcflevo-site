@@ -1298,19 +1298,28 @@ body.nav-open { overflow: hidden; }
 .flights-table th {
   background: var(--blue-dark);
   color: #fff;
-  padding: 0.75rem 1rem;
+  padding: 0.7rem 0.7rem;
   text-align: left;
   font-weight: 600;
-  font-size: 0.82rem;
+  font-size: 0.78rem;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
   white-space: nowrap;
 }
 .flights-table td {
-  padding: 0.7rem 1rem;
+  padding: 0.65rem 0.7rem;
   border-bottom: 1px solid var(--border);
   color: var(--text-muted);
-  white-space: nowrap;
+  vertical-align: top;
+}
+/* Pas namen + lange teksten mogen wrappen, tijden niet */
+.flights-table td:nth-child(1),
+.flights-table td:nth-child(2),
+.flights-table td:nth-child(3),
+.flights-table td:nth-child(4) {
+  white-space: normal;
+  word-break: break-word;
 }
 .flights-table td:first-child { color: var(--text); font-weight: 600; }
 .flights-table tr:last-child td { border-bottom: none; }
