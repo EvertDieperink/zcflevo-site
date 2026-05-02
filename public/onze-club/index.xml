@@ -2,24 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Onze Club on Zweefvliegclub Flevo</title>
-    <link>//localhost:1313/onze-club/</link>
+    <link>/onze-club/</link>
     <description>Recent content in Onze Club on Zweefvliegclub Flevo</description>
     <generator>Hugo</generator>
     <language>nl</language>
-    <atom:link href="//localhost:1313/onze-club/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/onze-club/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Locatie</title>
-      <link>//localhost:1313/onze-club/locatie/</link>
+      <link>/onze-club/locatie/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/onze-club/locatie/</guid>
-      <description>&lt;h2 id=&#34;vliegveld-terlet&#34;&gt;Vliegveld Terlet&lt;/h2&gt;&#xA;&lt;p&gt;Zweefvliegclub Flevo vliegt vanaf het &lt;strong&gt;Nationaal Zweefvliegcentrum Terlet&lt;/strong&gt;, gelegen op de Veluwe ten noorden van Arnhem. We delen het vliegveld met meerdere verenigingen.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Adres:&lt;/strong&gt;&#xA;Apeldoornseweg 203&#xA;6816 SM Arnhem&lt;/p&gt;&#xA;&lt;h2 id=&#34;bezoek-ons&#34;&gt;Bezoek ons&lt;/h2&gt;&#xA;&lt;p&gt;Maak &lt;strong&gt;altijd eerst een afspraak per mail&lt;/strong&gt; voordat je een bezoek brengt: &lt;a href=&#34;mailto:secretaris@zcflevo.nl&#34;&gt;secretaris@zcflevo.nl&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Betreed het vliegveld &lt;strong&gt;niet zelfstandig&lt;/strong&gt;. Bij aankomst op de parkeerplaats bel je &lt;strong&gt;06-17722964&lt;/strong&gt; — we halen je op en begeleiden je veilig naar de startplaats.&lt;/p&gt;</description>
+      <guid>/onze-club/locatie/</guid>
+      <description>&lt;h2 id=&#34;vliegveld-terlet&#34;&gt;Vliegveld Terlet&lt;/h2&gt;&#xA;&lt;p&gt;Zweefvliegclub Flevo vliegt vanaf het &lt;strong&gt;Nationaal Zweefvliegcentrum Terlet&lt;/strong&gt;, gelegen op de Veluwe ten noorden van Arnhem. We delen het vliegveld met meerdere verenigingen.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Adres:&lt;/strong&gt;&#xA;Vliegveld Terlet&lt;br&gt;Apeldoornseweg 203&lt;br&gt;6816 SM Arnhem&lt;/p&gt;&#xA;&lt;h2 id=&#34;bezoek-ons&#34;&gt;Bezoek ons&lt;/h2&gt;&#xA;&lt;p&gt;Maak &lt;strong&gt;altijd eerst een afspraak per mail&lt;/strong&gt; voordat je een bezoek brengt: &lt;a href=&#34;mailto:secretaris@zcflevo.nl&#34;&gt;secretaris@zcflevo.nl&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Betreed het vliegveld &lt;strong&gt;niet zelfstandig&lt;/strong&gt;. Bij aankomst op de parkeerplaats bel je &lt;a href=&#34;tel:0617722964%200617722964&#34;&gt;06-17722964&lt;/a&gt;, dan halen we je op en begeleiden je veilig naar de startplaats.&lt;/p&gt;&#xA;&lt;h2 id=&#34;bereikbaarheid&#34;&gt;Bereikbaarheid&lt;/h2&gt;&#xA;&lt;h3 id=&#34;auto&#34;&gt;Auto&lt;/h3&gt;&#xA;&lt;p&gt;Terlet is goed bereikbaar via de snelwegen rond Arnhem. Vanaf de A50 (afslag Schaarsbergen) of de A12 (afslag Arnhem-Noord) volg je de borden richting Terlet. Parkeren kan op het veld.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Onze Vloot</title>
-      <link>//localhost:1313/onze-club/vloot/</link>
+      <link>/onze-club/vloot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/onze-club/vloot/</guid>
-      <description>&lt;p&gt;ZC Flevo beschikt over &lt;strong&gt;zeven zweefvliegtuigen&lt;/strong&gt;, gestationeerd op Vliegveld Terlet. Alle toestellen worden in de wintermaanden in eigen beheer onderhouden in onze werkplaats in Biddinghuizen.&lt;/p&gt;&#xA;&lt;div class=&#34;photo-row&#34;&gt;&#xA;  &lt;img src=&#34;https://zcflevo.nl/wp-content/uploads/2020/04/DSC_2131.jpg&#34; alt=&#34;Zweefvliegtuig van ZC Flevo&#34; loading=&#34;lazy&#34;&gt;&#xA;  &lt;img src=&#34;https://zcflevo.nl/wp-content/uploads/2020/04/EVH_2736.jpg&#34; alt=&#34;Zweefvliegtuig in de lucht&#34; loading=&#34;lazy&#34;&gt;&#xA;&lt;/div&gt;&#xA;&lt;h2 id=&#34;trainingstoestellen&#34;&gt;Trainingstoestellen&lt;/h2&gt;&#xA;&lt;h3 id=&#34;schleicher-ask-21-ph-1382&#34;&gt;Schleicher ASK-21 (PH-1382)&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Callsign:&lt;/strong&gt; YW | &lt;strong&gt;Bouwjaar:&lt;/strong&gt; 1994&lt;/p&gt;&#xA;&lt;p&gt;Het primaire trainingstoestel van de club. De ASK-21 staat bekend om zijn prettige vliegeigenschappen en wordt gebruikt voor zowel de basisopleiding als kunstvliegtraining.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Spanwijdte:&lt;/strong&gt; 17 m&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Maximale snelheid:&lt;/strong&gt; 280 km/h&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Glijverhouding:&lt;/strong&gt; 33,5 (bij 90 km/h)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Gebruik:&lt;/strong&gt; Eerste solo&amp;rsquo;s, basisinstructie, kunstvliegen&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;szd-51-1-junior-ph-1006&#34;&gt;SZD-51-1 Junior (PH-1006)&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Callsign:&lt;/strong&gt; YT | &lt;strong&gt;Bouwjaar:&lt;/strong&gt; 1993&lt;/p&gt;</description>
+      <guid>/onze-club/vloot/</guid>
+      <description>&lt;p&gt;ZC Flevo beschikt over &lt;strong&gt;zeven zweefvliegtuigen&lt;/strong&gt;, gestationeerd op Vliegveld Terlet. Alle toestellen worden in de wintermaanden in eigen beheer onderhouden in onze werkplaats in Biddinghuizen.&lt;/p&gt;&#xA;&lt;h2 id=&#34;trainingstoestellen&#34;&gt;Trainingstoestellen&lt;/h2&gt;&#xA;&lt;h3 id=&#34;schleicher-ask-21-ph-1382&#34;&gt;Schleicher ASK-21 (PH-1382)&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Callsign:&lt;/strong&gt; YW | &lt;strong&gt;Bouwjaar:&lt;/strong&gt; 1994&lt;/p&gt;&#xA;&lt;img src=&#34;/images/vloot-ask21.jpg&#34; alt=&#34;Schleicher ASK-21 (YW), het primaire trainingstoestel van ZC Flevo&#34; loading=&#34;lazy&#34;&gt;&#xA;&lt;p&gt;Het primaire trainingstoestel van de club. De ASK-21 staat bekend om zijn prettige vliegeigenschappen en wordt gebruikt voor de basisopleiding.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Spanwijdte:&lt;/strong&gt; 17 m&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Maximale snelheid:&lt;/strong&gt; 280 km/h&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Beste glijgetal:&lt;/strong&gt; 33,5 (bij 90 km/h)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Gebruik:&lt;/strong&gt; Eerste keer alleen vliegen, basisinstructie&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;szd-51-1-junior-ph-1006&#34;&gt;SZD-51-1 Junior (PH-1006)&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Callsign:&lt;/strong&gt; YT | &lt;strong&gt;Bouwjaar:&lt;/strong&gt; 1993&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Startlijst Terlet</title>
+      <link>/onze-club/startlijst/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/onze-club/startlijst/</guid>
+      <description>&lt;p&gt;Deze startlijst toont de starts en landingen op Vliegveld Terlet zoals &lt;strong&gt;bijgehouden door de startleider&lt;/strong&gt; op het veld via de &lt;strong&gt;DSA Startplank&lt;/strong&gt;. Naast de vluchten zie je ook informatie over de piloten en het type vlucht.&lt;/p&gt;&#xA;&lt;p&gt;De gegevens worden tijdens de vliegdag verzameld en aan het einde van de dag definitief bijgewerkt. Wil je live volgen welke kisten op dit moment in de lucht zijn? Bekijk dan de &lt;a href=&#34;/onze-club/vliegdagen/&#34;&gt;Vliegdagen op Terlet&lt;/a&gt; pagina, die werkt op basis van FLARM-data.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vliegdagen op Terlet</title>
+      <link>/onze-club/vliegdagen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/onze-club/vliegdagen/</guid>
+      <description>&lt;p&gt;Op deze pagina zie je een &lt;strong&gt;live overzicht&lt;/strong&gt; van de vluchten van onze clubvliegtuigen. De data komt binnen via &lt;strong&gt;FLARM&lt;/strong&gt; – het anti-botssysteem dat in zweefvliegtuigen zit en continu de positie uitzendt. Het &lt;a href=&#34;https://flightbook.glidernet.org/logbook/EHTL/&#34;&gt;Open Glider Network&lt;/a&gt; (een wereldwijd netwerk van ontvangstations) vangt deze signalen op en wij filteren daar onze eigen kisten uit.&lt;/p&gt;&#xA;&lt;p&gt;Zodra een van onze toestellen vliegt en door een ontvangststation wordt opgepikt – op Terlet of op een ander vliegveld dat de FLARM-data uitleest – verschijnt de vlucht hier automatisch. Selecteer een datum om eerdere vliegdagen terug te kijken.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vluchten op Terlet</title>
+      <link>/onze-club/vluchten/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/onze-club/vluchten/</guid>
+      <description>&lt;p&gt;Op deze pagina vind je drie weergaven van de vluchten van onze clubvliegtuigen:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Startplank: live&lt;/strong&gt; — vandaag&amp;rsquo;s wachtlijst, toestellen die in de lucht zijn en recent gelande vluchten. Bron: &lt;a href=&#34;https://dsa-startplank.firebaseapp.com/actief&#34;&gt;DSA Startplank&lt;/a&gt;. Ververst automatisch elke 30 seconden.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Startplank: per dag&lt;/strong&gt; — de officiële startlijst per dag, inclusief gezagvoerder, vluchttype en lierbestuurder. Wordt aan het einde van de dag definitief bijgewerkt.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;FLARM&lt;/strong&gt; — live vluchtdata via &lt;a href=&#34;https://flightbook.glidernet.org/logbook/EHTL/&#34;&gt;Open Glider Network&lt;/a&gt;, zodra een toestel met FLARM door een ontvangststation wordt opgepikt.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

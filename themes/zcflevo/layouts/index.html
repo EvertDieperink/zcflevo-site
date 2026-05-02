@@ -38,38 +38,32 @@
   </div>
 </div>
 
-<!-- Photo strip: automatisch uit static/images/photo-strip/normal en wide -->
+<!-- Photo strip: automatisch uit assets/images/photo-strip/normal en wide -->
+<!-- Foto's worden door Hugo verkleind tot snelle thumbnails. -->
 <div class="photo-strip">
+  {{ $normalImgs := resources.Match "images/photo-strip/normal/*.{jpg,jpeg,JPG,JPEG,png,PNG,webp,WEBP}" }}
+  {{ $wideImgs   := resources.Match "images/photo-strip/wide/*.{jpg,jpeg,JPG,JPEG,png,PNG,webp,WEBP}" }}
+
   {{ $items := slice }}
-  {{ $exts := slice ".jpg" ".jpeg" ".png" ".webp" }}
-
-  {{ $normalDir := "static/images/photo-strip/normal" }}
-  {{ if fileExists $normalDir }}
-    {{ range (readDir $normalDir) }}
-      {{ if not .IsDir }}
-        {{ if in $exts (lower (path.Ext .Name)) }}
-          {{ $items = $items | append (dict "name" .Name "wide" false "subdir" "normal") }}
-        {{ end }}
-      {{ end }}
-    {{ end }}
+  {{ range $normalImgs }}
+    {{ $items = $items | append (dict "img" . "wide" false "name" (path.Base .Name)) }}
   {{ end }}
-
-  {{ $wideDir := "static/images/photo-strip/wide" }}
-  {{ if fileExists $wideDir }}
-    {{ range (readDir $wideDir) }}
-      {{ if not .IsDir }}
-        {{ if in $exts (lower (path.Ext .Name)) }}
-          {{ $items = $items | append (dict "name" .Name "wide" true "subdir" "wide") }}
-        {{ end }}
-      {{ end }}
-    {{ end }}
+  {{ range $wideImgs }}
+    {{ $items = $items | append (dict "img" . "wide" true "name" (path.Base .Name)) }}
   {{ end }}
 
   {{ range (sort $items "name") }}
     {{ $base := strings.TrimSuffix (path.Ext .name) .name }}
     {{ $alt := replace (replace $base "-" " ") "_" " " | humanize }}
+    {{ $thumbWidth := cond .wide 1200 600 }}
+    {{ $thumb := .img.Resize (printf "%dx q80" $thumbWidth) }}
+    {{ $full  := .img.Resize "1600x q85" }}
   <div class="photo-item{{ if .wide }} photo-wide{{ end }}">
-    <img src="/images/photo-strip/{{ .subdir }}/{{ .name }}" alt="{{ $alt }}" loading="lazy">
+    <img src="{{ $thumb.RelPermalink }}"
+         data-full="{{ $full.RelPermalink }}"
+         alt="{{ $alt }}"
+         loading="lazy"
+         width="{{ $thumb.Width }}" height="{{ $thumb.Height }}">
   </div>
   {{ end }}
 </div>
@@ -102,7 +96,8 @@
   function show(idx) {
     currentIndex = (idx + photos.length) % photos.length;
     const img = photos[currentIndex];
-    lightboxImg.src = img.src;
+    // Gebruik data-full (grotere versie via Hugo image processing) als beschikbaar
+    lightboxImg.src = img.dataset.full || img.src;
     lightboxImg.alt = img.alt;
     caption.textContent = img.alt || '';
   }

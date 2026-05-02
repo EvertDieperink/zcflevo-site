@@ -2,30 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>//localhost:1313/contact/</loc>
+    <loc>/contact/</loc>
   </url><url>
-    <loc>//localhost:1313/de-mogelijkheden/</loc>
+    <loc>/de-mogelijkheden/</loc>
   </url><url>
-    <loc>//localhost:1313/de-mogelijkheden/kennismaken/</loc>
+    <loc>/de-mogelijkheden/kennismakingsstage/</loc>
   </url><url>
-    <loc>//localhost:1313/leden-vertellen/</loc>
+    <loc>/de-mogelijkheden/kennismaken/</loc>
   </url><url>
-    <loc>//localhost:1313/de-mogelijkheden/lidmaatschap/</loc>
+    <loc>/leden-vertellen/</loc>
   </url><url>
-    <loc>//localhost:1313/onze-club/locatie/</loc>
+    <loc>/de-mogelijkheden/lidmaatschap/</loc>
   </url><url>
-    <loc>//localhost:1313/onze-club/</loc>
+    <loc>/onze-club/locatie/</loc>
   </url><url>
-    <loc>//localhost:1313/onze-club/vloot/</loc>
+    <loc>/onze-club/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>/onze-club/vloot/</loc>
   </url><url>
-    <loc>//localhost:1313/faq/</loc>
+    <loc>/onze-club/startlijst/</loc>
   </url><url>
-    <loc>//localhost:1313/de-mogelijkheden/zomercursus/</loc>
+    <loc>/tags/</loc>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>/faq/</loc>
+  </url><url>
+    <loc>/onze-club/vliegdagen/</loc>
+  </url><url>
+    <loc>/de-mogelijkheden/buitenlandkampen/</loc>
+  </url><url>
+    <loc>/onze-club/vluchten/</loc>
+  </url><url>
+    <loc>/vrijdag-vliegen/</loc>
+  </url><url>
+    <loc>/de-mogelijkheden/zomercursus/</loc>
+  </url><url>
+    <loc>/</loc>
   </url>
 </urlset>
