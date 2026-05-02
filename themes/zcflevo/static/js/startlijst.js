@@ -35,8 +35,10 @@ function fmtTime(ms) {
 }
 
 function fmtDuration(startMs, endMs) {
-  if (!startMs || !endMs) return '\u2014';
+  // null/undefined check: 0 is een geldige startMs (gebruikt voor totalMs sommatie)
+  if (startMs == null || endMs == null) return '\u2014';
   const sec = Math.round((endMs - startMs) / 1000);
+  if (sec <= 0) return '\u2014';
   const h = Math.floor(sec / 3600);
   const m = Math.floor((sec % 3600) / 60);
   if (h > 0) return `${h}u\u00a0${String(m).padStart(2, '0')}m`;
