@@ -8,8 +8,16 @@
 {{- $testi   := .Params.testimonials -}}
 
 <!-- Hero Section with photo background -->
-<section class="hero has-photo"
-  style="background-image: url('{{ .Params.hero_image | default "/images/banner1.jpg" }}')">
+{{ $heroImgs := resources.Match "images/hero/*.{jpg,jpeg,JPG,JPEG,png,PNG,webp,WEBP}" }}
+<section class="hero has-photo"{{ if not $heroImgs }} style="background-image: url('{{ .Params.hero_image | default "/images/banner1.jpg" }}')"{{ end }}>
+  {{ if $heroImgs }}
+  <div class="hero-slideshow">
+    {{ range $i, $img := $heroImgs }}
+      {{ $resized := $img.Resize "1920x q85" }}
+    <div class="hero-slide{{ if eq $i 0 }} is-active{{ end }}" style="background-image: url('{{ $resized.RelPermalink }}')"></div>
+    {{ end }}
+  </div>
+  {{ end }}
   <div class="hero-overlay"></div>
   <div class="container">
     <div class="hero-content">
@@ -136,6 +144,18 @@
     if (e.key === 'ArrowLeft')   show(currentIndex - 1);
     if (e.key === 'ArrowRight')  show(currentIndex + 1);
   });
+})();
+
+// Hero slideshow: wissel achtergrond elke 10 seconden met fade.
+(function () {
+  const slides = document.querySelectorAll('.hero-slideshow .hero-slide');
+  if (slides.length < 2) return;
+  let current = 0;
+  setInterval(() => {
+    slides[current].classList.remove('is-active');
+    current = (current + 1) % slides.length;
+    slides[current].classList.add('is-active');
+  }, 10000);
 })();
 </script>
 

@@ -190,6 +190,23 @@ strong { font-weight: 600; }
   background-position: center top;
   background-attachment: fixed;
 }
+
+/* Hero slideshow (crossfade tussen meerdere foto's) */
+.hero-slideshow {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+.hero-slide {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+.hero-slide.is-active { opacity: 1; }
 /* iOS Safari does not support background-attachment: fixed */
 @supports (-webkit-touch-callout: none) {
   .hero.has-photo { background-attachment: scroll; }
