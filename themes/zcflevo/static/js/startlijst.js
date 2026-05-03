@@ -50,6 +50,25 @@ function isClub(reg) {
   return CLUB_REG.some(r => r.replace(/[\s-]/g, '') === n);
 }
 
+/**
+ * Maakt initialen van een naam, met tussenvoegsels in kleine letters.
+ *   "Evert Dieperink"      -> "ED"
+ *   "Hans van Zandvoort"   -> "HvZ"
+ *   "Anna van der Berg"    -> "AvdB"
+ */
+function initialsOf(name) {
+  if (!name) return '';
+  const tussen = new Set([
+    'van', 'de', 'der', 'den', 'het', 'ter', 'ten', "'t",
+    'la', 'le', 'el', 'di', 'da', 'do', 'du', 'op', 'in', 'aan'
+  ]);
+  return name.trim().split(/\s+/).map(w => {
+    if (!w) return '';
+    const lower = w.toLowerCase();
+    return tussen.has(lower) ? lower.charAt(0) : w.charAt(0).toUpperCase();
+  }).join('');
+}
+
 function statusBadge(status) {
   if (!status) return '';
   const cls = {
@@ -155,11 +174,11 @@ function renderTable(flights, dateStr) {
     const planeName  = f.plane?.name || '';
 
     const commanderCell = f.commander?.name
-      ? `${f.commander.name} ${statusBadge(f.commander.status)}`
+      ? `<span title="${f.commander.name}">${initialsOf(f.commander.name)}</span> ${statusBadge(f.commander.status)}`
       : '\u2014';
 
     const passengerCell = f.passenger?.name
-      ? `${f.passenger.name} ${statusBadge(f.passenger.status)}`
+      ? `<span title="${f.passenger.name}">${initialsOf(f.passenger.name)}</span> ${statusBadge(f.passenger.status)}`
       : '<span class="text-muted">enkel</span>';
 
     const landingCell = inAir
@@ -386,13 +405,13 @@ function planeCellLive(f) {
 
 function commanderCellLive(f) {
   return f.commander?.name
-    ? `${f.commander.name} ${statusBadge(f.commander.status)}`
+    ? `<span title="${f.commander.name}">${initialsOf(f.commander.name)}</span> ${statusBadge(f.commander.status)}`
     : '—';
 }
 
 function passengerCellLive(f) {
   return f.passenger?.name
-    ? `${f.passenger.name} ${statusBadge(f.passenger.status)}`
+    ? `<span title="${f.passenger.name}">${initialsOf(f.passenger.name)}</span> ${statusBadge(f.passenger.status)}`
     : '<span class="text-muted">enkel</span>';
 }
 
