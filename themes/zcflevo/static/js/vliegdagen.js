@@ -362,14 +362,8 @@ function initFlarmViewer(ids = {}) {
   load(today);
 }
 
-// Expose voor expliciete init op nieuwe gecombineerde pagina
+// Expose voor expliciete init op de Vluchten-pagina
 window.ZCFlevo = window.ZCFlevo || {};
 window.ZCFlevo.initFlarmViewer = initFlarmViewer;
-
-// Auto-init op pagina's met de standaard IDs (oude vliegdagen-pagina).
-// Op de gecombineerde vluchten-pagina bestaan deze IDs niet, dus geen botsing.
-if (document.getElementById('flights-app') && document.getElementById('flight-date')) {
-  initFlarmViewer();
-}
 
 })();
