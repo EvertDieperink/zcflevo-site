@@ -29,4 +29,4 @@ De exacte data, kosten en het aantal beschikbare plekken voor de zomercursus van
 
 ## Liever het hele seizoen vliegen?
 
-Wil je niet alleen één of twee weken in de zomer vliegen, maar het hele seizoen leren? Via het reguliere lidmaatschap kun je het volledige vliegseizoen (maart–november) op de weekenden meedraaien. Iedereen die bij ZC Flevo wil leren zweefvliegen begint met de [kennismakingsstage](/de-mogelijkheden/kennismakingsstage/). Lees meer op de [lidmaatschapspagina](/de-mogelijkheden/lidmaatschap/).
+Wil je niet alleen één of twee weken in de zomer vliegen, maar het hele seizoen leren? Via het reguliere lidmaatschap kun je het volledige vliegseizoen (maart tot november) op de weekenden meedraaien. Iedereen die bij ZC Flevo wil leren zweefvliegen begint met de [kennismakingsstage](/de-mogelijkheden/kennismakingsstage/). Lees meer op de [lidmaatschapspagina](/de-mogelijkheden/lidmaatschap/).

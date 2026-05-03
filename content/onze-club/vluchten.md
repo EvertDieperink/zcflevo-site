@@ -13,7 +13,7 @@ menu:
 
 Op deze pagina vind je vier weergaven van de vluchten van onze clubvliegtuigen:
 
-- **Startplank: live** &mdash; vandaag's wachtlijst, toestellen die in de lucht zijn en recent gelande vluchten. Bron: [DSA Startplank](https://dsa-startplank.firebaseapp.com/actief). Ververst automatisch elke 30 seconden.
-- **Startplank: per dag** &mdash; de officiële startlijst per dag, inclusief gezagvoerder, vluchttype en lierbestuurder. Wordt aan het einde van de dag definitief bijgewerkt.
-- **FLARM** &mdash; live vluchtdata via [Open Glider Network](https://flightbook.glidernet.org/logbook/EHTL/), zodra een toestel met FLARM door een ontvangststation wordt opgepikt.
-- **Live kaart** &mdash; positie van toestellen op een kaart via [Glide &amp; Seek](https://glideandseek.com/), gecentreerd op Vliegveld Terlet.
+- **Startplank: live**, vandaag's wachtlijst, toestellen die in de lucht zijn en recent gelande vluchten. Bron: [DSA Startplank](https://dsa-startplank.firebaseapp.com/actief). Ververst automatisch elke 30 seconden.
+- **Startplank: per dag**, de officiële startlijst per dag, inclusief gezagvoerder, vluchttype en lierbestuurder. Wordt aan het einde van de dag definitief bijgewerkt.
+- **FLARM**, live vluchtdata via [Open Glider Network](https://flightbook.glidernet.org/logbook/EHTL/), zodra een toestel met FLARM door een ontvangststation wordt opgepikt.
+- **Live kaart**, positie van toestellen op een kaart via [Glide &amp; Seek](https://glideandseek.com/), gecentreerd op Vliegveld Terlet.

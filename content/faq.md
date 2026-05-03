@@ -25,7 +25,7 @@ faqs:
   - q: "Is zweefvliegen veilig?"
     a: "Zweefvliegen is een serieuze sport met inherente risico's, maar die risico's worden actief beheerd. We werken met gecertificeerde instructeurs, geïnspecteerde vliegtuigen en verplichte veiligheidsprocedures. Elke vlucht begint met een uitgebreide pre-flight check en we vliegen nooit bij onverantwoord weer. Veiligheid is bij ons een cultuur, geen toevalligheid."
   - q: "Vanaf welke leeftijd kun je beginnen met zweefvliegen?"
-    a: "Vanaf 14 jaar mag je bij ZC Flevo beginnen met de zweefvliegopleiding. In het begin ga je altijd mee met een gecertificeerde instructeur. Zodra de instructeurs vinden dat je het zelf kunt, mag je alleen vliegen (in vakjargon: solo) – ook dat mag al vanaf 14 jaar. Dat besluit wordt nooit door één persoon genomen: het hele instructeursteam bespreekt of het volledige trainingsprogramma is doorlopen en ondertekend, en een leerling gaat pas alleen de lucht in als iedereen het er over eens is dat het veilig is. De minimumleeftijd voor het officiële vliegbrevet is 16 jaar."
+    a: "Vanaf 14 jaar mag je bij ZC Flevo beginnen met de zweefvliegopleiding. In het begin ga je altijd mee met een gecertificeerde instructeur. Zodra de instructeurs vinden dat je het zelf kunt, mag je alleen vliegen (in vakjargon: solo), ook dat mag al vanaf 14 jaar. Dat besluit wordt nooit door één persoon genomen: het hele instructeursteam bespreekt of het volledige trainingsprogramma is doorlopen en ondertekend, en een leerling gaat pas alleen de lucht in als iedereen het er over eens is dat het veilig is. De minimumleeftijd voor het officiële vliegbrevet is 16 jaar."
 ---
 
 ## Veelgestelde Vragen
@@ -90,6 +90,6 @@ Zweefvliegen is een serieuze sport met inherente risico's, maar die risico's wor
 
 ### Vanaf welke leeftijd kun je beginnen met zweefvliegen?
 
-Vanaf **14 jaar** mag je bij ZC Flevo beginnen met de zweefvliegopleiding. In het begin ga je altijd mee met een gecertificeerde instructeur. Zodra de instructeurs vinden dat je het zelf kunt, mag je **alleen vliegen** (in vakjargon: solo) – ook dat mag al vanaf 14 jaar.
+Vanaf **14 jaar** mag je bij ZC Flevo beginnen met de zweefvliegopleiding. In het begin ga je altijd mee met een gecertificeerde instructeur. Zodra de instructeurs vinden dat je het zelf kunt, mag je **alleen vliegen** (in vakjargon: solo), ook dat mag al vanaf 14 jaar.
 
 Dat besluit wordt **nooit door één persoon** genomen: het hele instructeursteam bespreekt of het volledige trainingsprogramma is doorlopen en ondertekend, en een leerling gaat pas alleen de lucht in als iedereen het er over eens is dat het veilig is. De minimumleeftijd voor het officiële vliegbrevet is **16 jaar**.

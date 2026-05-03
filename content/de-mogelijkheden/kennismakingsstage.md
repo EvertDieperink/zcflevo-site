@@ -24,9 +24,9 @@ De stage omvat **6 starts met instructeur**, meestal verdeeld over twee vliegdag
 
 ## Kosten
 
-De kennismakingsstage kost **€ 180,–**.
+De kennismakingsstage kost **€ 180**.
 
-Besluit je lid te worden? Dan wordt de **€ 180,– volledig verrekend als korting op je inschrijfgeld**. De stage kost je dan in feite niets extra.
+Besluit je lid te worden? Dan wordt de **€ 180 volledig verrekend als korting op je inschrijfgeld**. De stage kost je dan in feite niets extra.
 
 ## Aanmelden
 

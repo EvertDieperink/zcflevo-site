@@ -1,5 +1,5 @@
 ---
-title: "Vrijdag Vliegen – Steun Stichting Hoogvliegers"
+title: "Vrijdag Vliegen: Steun Stichting Hoogvliegers"
 description: "Kom vliegen op een vrijdag bij ZC Flevo en steun Stichting Hoogvliegers. €40 per vlucht gaat rechtstreeks naar deze mooie stichting."
 ---
 
@@ -13,7 +13,7 @@ Zweefvliegen is een ervaring die je niet snel vergeet. Bij **Zweefvliegclub Flev
 
 ![Ko Piloot - Stichting Hoogvliegers](/images/ko-piloot-logo.png)
 
-**Stichting Hoogvliegers** geeft gehandicapte en zieke jongeren de kans om te vliegen én voor één dag zelf piloot te zijn. Zij maken dromen waar en zorgen voor onvergetelijke ervaringen in de lucht – volledig gratis voor deze kinderen.
+**Stichting Hoogvliegers** geeft gehandicapte en zieke jongeren de kans om te vliegen én voor één dag zelf piloot te zijn. Zij maken dromen waar en zorgen voor onvergetelijke ervaringen in de lucht, volledig gratis voor deze kinderen.
 
 Meer informatie vind je op [www.stichtinghoogvliegers.nl](https://www.stichtinghoogvliegers.nl).
 
@@ -61,7 +61,7 @@ Je schrijft je in via onderstaand formulier. Wij nemen contact met je op om een 
   </div>
   <div class="contact-detail-text">
     <strong>Voor wie</strong>
-    <p>Geen vliegervaring nodig &mdash; wel zelfstandig in en uit de cockpit kunnen, en aanwijzingen kunnen opvolgen</p>
+    <p>Geen vliegervaring nodig, wel zelfstandig in en uit de cockpit kunnen, en aanwijzingen kunnen opvolgen</p>
   </div>
 </div>
 
@@ -75,11 +75,11 @@ Om mee te kunnen vliegen vragen we wel het volgende:
 - Je kunt **zelfstandig in en uit de cockpit** komen
 - Tijdens de vlucht kun je **aanwijzingen van de instructeur opvolgen** (in het toestel zit dubbele besturing waar de passagier af moet blijven)
 
-Twijfel je of vliegen iets voor jou is? Neem gerust contact met ons op &mdash; we denken graag met je mee.
+Twijfel je of vliegen iets voor jou is? Neem gerust contact met ons op, we denken graag met je mee.
 
 ## Inschrijven
 
-Vul onderstaand formulier in en klik op "Schrijf mij in". Je eigen e-mailprogramma opent met de inschrijving al ingevuld – klik op verzenden en wij nemen zo snel mogelijk contact met je op.
+Vul onderstaand formulier in en klik op "Schrijf mij in". Je eigen e-mailprogramma opent met de inschrijving al ingevuld, klik op verzenden en wij nemen zo snel mogelijk contact met je op.
 
 <form id="vrijdag-form" class="vrijdag-form" onsubmit="return verzendInschrijving(event)">
   <div class="form-group">

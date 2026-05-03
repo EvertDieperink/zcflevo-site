@@ -9,7 +9,7 @@ menu:
 
 ## Een actieve vakantie met de club
 
-Als vereniging gaan we elk jaar **tegen kostprijs op kamp** – met een gezellige groep een actieve vakantie in binnen- of buitenland. We nemen onze eigen vliegtuigen mee en maken er een of meerdere weken vakantie van.
+Als vereniging gaan we elk jaar **tegen kostprijs op kamp**, met een gezellige groep een actieve vakantie in binnen- of buitenland. We nemen onze eigen vliegtuigen mee en maken er een of meerdere weken vakantie van.
 
 ## Wat houdt het in?
 
@@ -34,7 +34,7 @@ Iedereen die lid is van ZC Flevo kan mee, ongeacht vliegervaring:
 
 ## Wat kost het?
 
-Omdat we als vereniging op kamp gaan, worden de kosten **eerlijk verdeeld over de deelnemers** – we draaien geen winst. Hoe je eet en waar je slaapt (tent op het vliegveld of eenvoudige accommodatie) bepaal je deels zelf, dus ook qua budget is een kamp toegankelijk.
+Omdat we als vereniging op kamp gaan, worden de kosten **eerlijk verdeeld over de deelnemers**, we draaien geen winst. Hoe je eet en waar je slaapt (tent op het vliegveld of eenvoudige accommodatie) bepaal je deels zelf, dus ook qua budget is een kamp toegankelijk.
 
 ## Mee?
 

@@ -18,7 +18,7 @@ Iedereen die bij ZC Flevo wil leren vliegen begint met de [kennismakingsstage](/
 ### Vereisten
 - Minimumleeftijd om te starten: **14 jaar**
 - Minimumleeftijd voor vliegbrevet: **16 jaar**
-- LAPL medical keuring (alleen vereist voordat je alleen mag vliegen, niet tijdens de instructieperiode – zie hieronder)
+- LAPL medical keuring (alleen vereist voordat je alleen mag vliegen, niet tijdens de instructieperiode, zie hieronder)
 - Rijbewijs is **niet** vereist
 
 ### Hoe verloopt de opleiding?
@@ -67,7 +67,7 @@ Zweefvliegen bestaat uit een paar vaste jaarlijkse kostenposten. Hieronder een o
 | Thermiektoeslag clubvliegtuig (per minuut na 1e kwartier) | € 0,166 |
 | Motorgebruik Duo Discus XLT (per minuut) | € 2,00 |
 
-> **Thermiektoeslag:** Maximum € 40,– per dag. Maximum per seizoen: € 250,– voor senior leden en € 150,– voor junior leden.
+> **Thermiektoeslag:** Maximum € 40 per dag. Maximum per seizoen: € 250 voor senior leden en € 150 voor junior leden.
 
 ### KNVVL Zweefvliegen Lidmaatschap
 
@@ -80,7 +80,7 @@ Het KNVVL-lidmaatschap is verplicht en regelt onder andere je verzekering.
 
 ### LAPL Medical Keuring
 
-Om alleen te mogen vliegen heb je een geldige LAPL-medical nodig (Light Aircraft Pilot Licence medical). Tijdens de instructieperiode is deze keuring nog niet vereist. Het is een eenvoudig medisch onderzoek bij een erkende vliegarts. Kosten: **± € 200 – 250**.
+Om alleen te mogen vliegen heb je een geldige LAPL-medical nodig (Light Aircraft Pilot Licence medical). Tijdens de instructieperiode is deze keuring nog niet vereist. Het is een eenvoudig medisch onderzoek bij een erkende vliegarts. Kosten: **± € 200 tot 250**.
 
 De geldigheidsduur is afhankelijk van je leeftijd:
 
@@ -99,13 +99,13 @@ De geldigheidsduur is afhankelijk van je leeftijd:
 | **Totaal per jaar** | **€ 966,16** | **€ 806,08** |
 | LAPL medical (eenmalig / per periode) | ± € 225 | ± € 225 |
 
-> **Let op leeftijdsgrenzen:** De junior clubcontributie geldt voor leden t/m 21 jaar. Het KNVVL juniortarief geldt echter alleen t/m 18 jaar – leden van 19 t/m 21 jaar betalen het volwassen KNVVL-tarief van € 201,16 (totaal dan ± € 886,16 per jaar).
+> **Let op leeftijdsgrenzen:** De junior clubcontributie geldt voor leden t/m 21 jaar. Het KNVVL juniortarief geldt echter alleen t/m 18 jaar, leden van 19 t/m 21 jaar betalen het volwassen KNVVL-tarief van € 201,16 (totaal dan ± € 886,16 per jaar).
 
 > Vluchten zijn **onbeperkt** inbegrepen in het startabonnement. Er zijn geen extra kosten per vlucht.
 
 ## Vliegkampen: een actieve vakantie met de club
 
-Als vereniging gaan we elk jaar tegen kostprijs op kamp – met een gezellige groep een actieve vakantie in binnen- of buitenland. We nemen onze eigen vliegtuigen mee en maken er een of meerdere weken vakantie van.
+Als vereniging gaan we elk jaar tegen kostprijs op kamp, met een gezellige groep een actieve vakantie in binnen- of buitenland. We nemen onze eigen vliegtuigen mee en maken er een of meerdere weken vakantie van.
 
 [Meer over vliegkampen →](/de-mogelijkheden/buitenlandkampen/)
 
