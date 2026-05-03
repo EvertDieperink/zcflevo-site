@@ -65,16 +65,6 @@ Je schrijft je in via onderstaand formulier. Wij nemen contact met je op om een 
   </div>
 </div>
 
-<div class="contact-detail">
-  <div class="contact-detail-icon">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
-  </div>
-  <div class="contact-detail-text">
-    <strong>Inclusief</strong>
-    <p>Instructie, verzekering en een onvergetelijke ervaring</p>
-  </div>
-</div>
-
 </div>
 
 ### Goed om te weten
