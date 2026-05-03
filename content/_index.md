@@ -1,5 +1,6 @@
 ---
 title: "Zweefvliegclub Flevo"
+hero_image: "/images/505220453_30040954782214979_4747615657750163486_n.jpg"
 hero_title: "Zweef mee. Voel de vrijheid."
 hero_subtitle: "ZC Flevo is een actieve zweefvliegclub vanuit Vliegveld Terlet bij Arnhem. Geen motor, puur vliegen op thermiek."
 description: "Zweefvliegclub Flevo is een actieve zweefvliegclub gevestigd bij Vliegveld Terlet, Arnhem."
