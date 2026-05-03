@@ -15,9 +15,17 @@
   <div class="container">
     {{ .Content }}
 
-    {{ if .Pages }}
+    {{/* Toon alleen child-pages die ook in het menu staan, gesorteerd op menu weight.
+         Zo verdwijnen oude pagina's die wel een URL hebben maar uit het menu zijn gehaald. */}}
+    {{ $menuPages := slice }}
+    {{ range .Pages }}
+      {{ if .Params.menu }}
+        {{ $menuPages = $menuPages | append . }}
+      {{ end }}
+    {{ end }}
+    {{ if $menuPages }}
     <div class="child-pages">
-      {{ range .Pages }}
+      {{ range sort $menuPages "Params.menu.main.weight" }}
       <a href="{{ .RelPermalink }}" class="child-page-card">
         <h3>{{ .Title }}</h3>
         {{ with .Description }}<p>{{ . }}</p>{{ end }}
