@@ -61,7 +61,7 @@ Je schrijft je in via onderstaand formulier. Wij nemen contact met je op om een 
   </div>
   <div class="contact-detail-text">
     <strong>Voor wie</strong>
-    <p>Iedereen is welkom – geen ervaring nodig</p>
+    <p>Geen vliegervaring nodig &mdash; wel zelfstandig in en uit de cockpit kunnen, en aanwijzingen kunnen opvolgen</p>
   </div>
 </div>
 
@@ -79,7 +79,13 @@ Je schrijft je in via onderstaand formulier. Wij nemen contact met je op om een 
 
 ### Goed om te weten
 
-Om mee te mogen vliegen moet je in goede gezondheid zijn. Twijfel je of vliegen iets voor jou is? Neem gerust contact met ons op.
+Om mee te kunnen vliegen vragen we wel het volgende:
+
+- Je bent in **goede gezondheid** en goed ter been
+- Je kunt **zelfstandig in en uit de cockpit** komen
+- Tijdens de vlucht kun je **aanwijzingen van de instructeur opvolgen** (in het toestel zit dubbele besturing waar de passagier af moet blijven)
+
+Twijfel je of vliegen iets voor jou is? Neem gerust contact met ons op &mdash; we denken graag met je mee.
 
 ## Inschrijven
 
