@@ -20,8 +20,15 @@
 'use strict';
 
 const DB_URL       = 'https://dsa-startplank.firebaseio.com';
-const CLUB_REG     = ['PH-1433', 'PH-974', 'PH-1382', 'PH-1006', 'PH-1273', 'PH-1210', 'PH-1571'];
+const CLUB_REG_ZC  = ['PH-1433', 'PH-974', 'PH-1382', 'PH-1006', 'PH-1273', 'PH-1210', 'PH-1571'];
+const CLUB_REG_DSA = ['PH-1357', 'PH-1364', 'PH-1268', 'PH-777', 'PH-785'];
 const POLL_MS      = 30_000;
+
+function activeClubReg() {
+  const list = CLUB_REG_ZC.slice();
+  if (window.ZCFlevo && window.ZCFlevo.showDSA) list.push(...CLUB_REG_DSA);
+  return list;
+}
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -47,7 +54,12 @@ function fmtDuration(startMs, endMs) {
 
 function isClub(reg) {
   const n = (reg || '').replace(/[\s-]/g, '').toUpperCase();
-  return CLUB_REG.some(r => r.replace(/[\s-]/g, '') === n);
+  return activeClubReg().some(r => r.replace(/[\s-]/g, '') === n);
+}
+
+function isDsa(reg) {
+  const n = (reg || '').replace(/[\s-]/g, '').toUpperCase();
+  return CLUB_REG_DSA.some(r => r.replace(/[\s-]/g, '') === n);
 }
 
 /**
@@ -177,8 +189,12 @@ function renderTable(flights, dateStr) {
       ? '<span class="flight-badge flight-badge--air">In de lucht</span>'
       : fmtTime(f.endTime);
 
+    const dsaBadge = isDsa(f.plane?.registration)
+      ? ' <span class="club-badge club-badge--dsa" title="DSA zusterclub">DSA</span>'
+      : '';
+
     return `<tr>
-      <td><strong>${callsign}</strong><br><small class="text-muted">${planeName}</small></td>
+      <td><strong>${callsign}</strong>${dsaBadge}<br><small class="text-muted">${planeName}</small></td>
       <td>${inzittendenCell(f)}</td>
       <td>${shortType(f.type)}</td>
       <td>${fmtTime(f.startTime)}</td>
@@ -361,6 +377,9 @@ function initStartplankViewer(ids = {}) {
   if (pilotSelect) pilotSelect.addEventListener('change', render);
   if (planeSelect) planeSelect.addEventListener('change', render);
 
+  // Reload als de DSA-toggle wisselt
+  document.addEventListener('zcflevo:dsa-toggle', () => load(input.value));
+
   setDate(today);
 }
 
@@ -393,7 +412,10 @@ const NET_GELAND_WINDOW_MS = 15 * 60 * 1000; // 15 minuten
 function planeCellLive(f) {
   const callsign  = f.plane?.callsign || f.plane?.registration || '?';
   const planeName = f.plane?.name || '';
-  return `<strong>${callsign}</strong>` + (planeName ? `<br><small class="text-muted">${planeName}</small>` : '');
+  const dsaBadge  = isDsa(f.plane?.registration)
+    ? ' <span class="club-badge club-badge--dsa" title="DSA zusterclub">DSA</span>'
+    : '';
+  return `<strong>${callsign}</strong>${dsaBadge}` + (planeName ? `<br><small class="text-muted">${planeName}</small>` : '');
 }
 
 function commanderCellLive(f) {
@@ -560,6 +582,9 @@ function initStartplankLiveViewer(ids = {}) {
   // Initieel laden + polling elke POLL_MS (30s)
   load();
   setInterval(() => load(true), POLL_MS);
+
+  // Reload als de DSA-toggle wisselt
+  document.addEventListener('zcflevo:dsa-toggle', () => load());
 }
 
 // Expose voor expliciete init op nieuwe gecombineerde pagina

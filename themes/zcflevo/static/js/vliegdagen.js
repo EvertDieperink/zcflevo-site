@@ -17,11 +17,20 @@
 (function () {
 'use strict';
 
-const CLUB_AIRCRAFT = [
+const CLUB_AIRCRAFT_ZC = [
   'PH-1433', 'PH-974', 'PH-1382', 'PH-1006',
   'PH-1273', 'PH-1210', 'PH-1571'
 ];
+const CLUB_AIRCRAFT_DSA = [
+  'PH-1357', 'PH-1364', 'PH-1268', 'PH-777', 'PH-785'
+];
 const ICAO = 'EHTL';
+
+function activeAircraftList() {
+  const list = CLUB_AIRCRAFT_ZC.slice();
+  if (window.ZCFlevo && window.ZCFlevo.showDSA) list.push(...CLUB_AIRCRAFT_DSA);
+  return list;
+}
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -49,7 +58,12 @@ function normaliseReg(reg) {
 
 function isClubAircraft(reg) {
   const n = normaliseReg(reg);
-  return CLUB_AIRCRAFT.some(r => normaliseReg(r) === n);
+  return activeAircraftList().some(r => normaliseReg(r) === n);
+}
+
+function isDsaAircraft(reg) {
+  const n = normaliseReg(reg);
+  return CLUB_AIRCRAFT_DSA.some(r => normaliseReg(r) === n);
 }
 
 // ── Fetch ──────────────────────────────────────────────────────────────────────
@@ -160,9 +174,12 @@ function renderTotals(flights, isToday) {
         totalCell = fmtDuration(r.totalSec);
       }
 
+      const dsaBadge = isDsaAircraft(r.registration)
+        ? ' <span class="club-badge club-badge--dsa" title="DSA zusterclub">DSA</span>'
+        : '';
       const regCell = r.hasUncertain
-        ? `<strong>${r.registration}</strong> <span class="time-approx" title="Onzekere of ontbrekende tijden in deze totalen" aria-label="onzeker">*</span>`
-        : `<strong>${r.registration}</strong>`;
+        ? `<strong>${r.registration}</strong>${dsaBadge} <span class="time-approx" title="Onzekere of ontbrekende tijden in deze totalen" aria-label="onzeker">*</span>`
+        : `<strong>${r.registration}</strong>${dsaBadge}`;
 
       return `<tr>
         <td>${regCell}</td>
@@ -241,8 +258,11 @@ function renderTable(flights, dateStr) {
 
   const rows = flights.map(f => {
     const height = f.max_height ? `${f.max_height} m` : '—';
+    const dsaBadge = isDsaAircraft(f.registration)
+      ? ' <span class="club-badge club-badge--dsa" title="DSA zusterclub">DSA</span>'
+      : '';
     return `<tr>
-      <td><strong>${f.registration}</strong></td>
+      <td><strong>${f.registration}</strong>${dsaBadge}</td>
       <td>${f.type || '—'}</td>
       <td>${f.cn || '—'}</td>
       <td>${fmtStart(f)}</td>
@@ -335,6 +355,9 @@ function initFlarmViewer(ids = {}) {
   input.addEventListener('change', () => load(input.value));
   btnPrev.addEventListener('click', () => shiftDay(-1));
   btnNext.addEventListener('click', () => shiftDay(1));
+
+  // Reload als de DSA-toggle wisselt (event vanuit vluchten.html)
+  document.addEventListener('zcflevo:dsa-toggle', () => load(input.value));
 
   load(today);
 }

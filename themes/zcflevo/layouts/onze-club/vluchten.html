@@ -22,6 +22,12 @@
     </div>
     {{ end }}
 
+    <!-- DSA zusterclub toggle (geldt voor alle tabs) -->
+    <label class="dsa-toggle" for="dsa-toggle-input">
+      <input type="checkbox" id="dsa-toggle-input">
+      Toon ook DSA-vluchten <span class="club-badge club-badge--dsa">DSA</span>
+    </label>
+
     <!-- Tab radio inputs (CSS-only switching, visually hidden but accessible) -->
     <input type="radio" name="vluchten-tab" id="vluchten-tab-live" class="vluchten-tab-input" checked>
     <input type="radio" name="vluchten-tab" id="vluchten-tab-startplank" class="vluchten-tab-input">
@@ -124,24 +130,28 @@
       </div>
 
       <!-- ── Live kaart panel (Glide & Seek met aircraft whitelist) ───── -->
-      {{/* Force https voor aircraftDataUrl en haal het host-domein dynamisch uit baseURL voor embed parameter */}}
-      {{ $aircraftDataUrl := absURL "glide-and-seek-aircraft.json" | replaceRE "^http://" "https://" }}
-      {{ $embedHost := .Site.BaseURL | replaceRE "^https?://" "" | replaceRE "/.*$" "" }}
-      {{ $gsBase := printf "https://glideandseek.com/?aircraftDataUrl=%s&viewport=52.0572,5.9244,11&embed=%s&hideSidebar=true" $aircraftDataUrl $embedHost }}
+      {{ $aircraftZc  := absURL "glide-and-seek-aircraft.json"        | replaceRE "^http://" "https://" }}
+      {{ $aircraftAll := absURL "glide-and-seek-aircraft-zc-dsa.json" | replaceRE "^http://" "https://" }}
+      {{ $embedHost   := .Site.BaseURL | replaceRE "^https?://" "" | replaceRE "/.*$" "" }}
+      {{ $gsZc  := printf "https://glideandseek.com/?aircraftDataUrl=%s&viewport=52.0572,5.9244,11&embed=%s&hideSidebar=true" $aircraftZc  $embedHost }}
+      {{ $gsAll := printf "https://glideandseek.com/?aircraftDataUrl=%s&viewport=52.0572,5.9244,11&embed=%s&hideSidebar=true" $aircraftAll $embedHost }}
       <div class="vluchten-tab-panel" id="vluchten-panel-kaart">
         <p class="vluchten-tab-source">
-          Live kaart via <a href="{{ $gsBase }}" target="_blank" rel="noopener">Glide &amp; Seek</a> &mdash; toont alleen onze ZC Flevo clubvliegtuigen (FLARM/OGN data), gecentreerd op Vliegveld Terlet.
+          Live kaart via <a href="{{ $gsZc }}" target="_blank" rel="noopener">Glide &amp; Seek</a> &mdash; toont onze ZC Flevo clubvliegtuigen (FLARM/OGN data), gecentreerd op Vliegveld Terlet. Met de toggle bovenaan kun je ook DSA-toestellen tonen.
         </p>
         <div class="kaart-iframe-wrap">
           <iframe
-            src="{{ $gsBase }}"
+            id="kaart-iframe"
+            src="{{ $gsZc }}"
+            data-url-zc="{{ $gsZc }}"
+            data-url-all="{{ $gsAll }}"
             title="Live kaart Vliegveld Terlet"
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
             allow="geolocation"></iframe>
         </div>
         <p class="kaart-fallback">
-          Werkt de kaart niet goed in dit kader? <a href="{{ $gsBase }}" target="_blank" rel="noopener">Open in een nieuw tabblad</a>.
+          Werkt de kaart niet goed in dit kader? <a id="kaart-fallback-link" href="{{ $gsZc }}" target="_blank" rel="noopener">Open in een nieuw tabblad</a>.
         </p>
       </div>
 
@@ -151,6 +161,29 @@
 </div>
 
 <script>
+  // DSA-toggle: bij wisseling worden alle viewers en de kaart-iframe geupdate.
+  document.addEventListener('DOMContentLoaded', function () {
+    window.ZCFlevo = window.ZCFlevo || {};
+    var dsaToggle = document.getElementById('dsa-toggle-input');
+    var kaartIframe = document.getElementById('kaart-iframe');
+    var kaartLink   = document.getElementById('kaart-fallback-link');
+
+    function applyDsaToggle() {
+      window.ZCFlevo.showDSA = dsaToggle && dsaToggle.checked;
+      // Wissel de kaart-iframe naar de juiste URL
+      if (kaartIframe) {
+        var newSrc = window.ZCFlevo.showDSA
+          ? kaartIframe.dataset.urlAll
+          : kaartIframe.dataset.urlZc;
+        if (kaartIframe.src !== newSrc) kaartIframe.src = newSrc;
+        if (kaartLink) kaartLink.href = newSrc;
+      }
+      // Notificeer de viewers (Startplank live/per-dag, FLARM) om opnieuw te laden
+      document.dispatchEvent(new CustomEvent('zcflevo:dsa-toggle'));
+    }
+    if (dsaToggle) dsaToggle.addEventListener('change', applyDsaToggle);
+  });
+
   // Initialiseer alle drie de viewers met hun eigen geprefixte IDs
   document.addEventListener('DOMContentLoaded', function () {
     if (window.ZCFlevo && window.ZCFlevo.initStartplankLiveViewer) {

@@ -1352,6 +1352,46 @@ body.nav-open { overflow: hidden; }
   .photo-lightbox-next  { right: 0.5rem; }
 }
 
+/* Club-badge (bv. DSA voor zusterclub-toestellen) */
+.club-badge {
+  display: inline-block;
+  padding: 0.05rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  vertical-align: middle;
+  line-height: 1.4;
+}
+.club-badge--dsa {
+  background: #fef3c7;
+  color: #92400e;
+  border: 1px solid #fcd34d;
+}
+
+/* DSA-toggle bovenaan de Vluchten-pagina */
+.dsa-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.55rem 0.95rem;
+  background: var(--bg-light);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin: 0 0 1.5rem;
+  user-select: none;
+  transition: border-color 0.15s, background 0.15s;
+}
+.dsa-toggle:hover { border-color: var(--blue); }
+.dsa-toggle input[type="checkbox"] {
+  width: 1.05rem;
+  height: 1.05rem;
+  cursor: pointer;
+  accent-color: var(--blue);
+}
+
 /* Filter bar (Startplank: per dag) */
 .flights-filter-bar {
   display: flex;
