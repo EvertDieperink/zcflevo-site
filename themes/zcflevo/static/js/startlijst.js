@@ -242,13 +242,13 @@ function initStartplankViewer(ids = {}) {
   let currentDateStr = null;
 
   function applyFilters(flights) {
-    const pilotName = pilotSelect ? pilotSelect.value : '';
-    const planeKey  = planeSelect ? planeSelect.value : '';
+    const pilotInits = pilotSelect ? pilotSelect.value : '';
+    const planeKey   = planeSelect ? planeSelect.value : '';
     return flights.filter(f => {
-      if (pilotName) {
-        const cmd = f.commander?.name || '';
-        const pas = f.passenger?.name || '';
-        if (cmd !== pilotName && pas !== pilotName) return false;
+      if (pilotInits) {
+        const cmd = f.commander?.name ? initialsOf(f.commander.name) : '';
+        const pas = f.passenger?.name ? initialsOf(f.passenger.name) : '';
+        if (cmd !== pilotInits && pas !== pilotInits) return false;
       }
       if (planeKey) {
         const key = f.plane?.callsign || f.plane?.registration || '';
@@ -265,13 +265,16 @@ function initStartplankViewer(ids = {}) {
     const prevPilot = pilotSelect.value;
     const prevPlane = planeSelect.value;
 
-    // Verzamel unieke piloten (gezagvoerder + mede-inzittende samen)
-    const pilots = new Set();
+    // Verzamel unieke piloot-initialen (gezagvoerder + mede-inzittende samen).
+    // Initialen ipv volledige namen ivm privacy. Meerdere personen kunnen
+    // dezelfde initialen delen; in dat geval matcht het filter alle namen
+    // met die initialen.
+    const pilotInitials = new Set();
     flights.forEach(f => {
-      if (f.commander?.name) pilots.add(f.commander.name);
-      if (f.passenger?.name) pilots.add(f.passenger.name);
+      if (f.commander?.name) pilotInitials.add(initialsOf(f.commander.name));
+      if (f.passenger?.name) pilotInitials.add(initialsOf(f.passenger.name));
     });
-    const sortedPilots = Array.from(pilots).sort((a, b) => a.localeCompare(b, 'nl'));
+    const sortedInitials = Array.from(pilotInitials).sort();
 
     // Verzamel unieke vliegtuigen op callsign (of registratie als fallback)
     const planes = new Map(); // key -> label
@@ -286,12 +289,12 @@ function initStartplankViewer(ids = {}) {
     const sortedPlanes = Array.from(planes.entries()).sort((a, b) => a[1].localeCompare(b[1]));
 
     pilotSelect.innerHTML = '<option value="">Alle piloten</option>' +
-      sortedPilots.map(p => `<option value="${p}">${p}</option>`).join('');
+      sortedInitials.map(i => `<option value="${i}">${i}</option>`).join('');
     planeSelect.innerHTML = '<option value="">Alle vliegtuigen</option>' +
       sortedPlanes.map(([k, l]) => `<option value="${k}">${l}</option>`).join('');
 
     // Herstel selectie als deze nog bestaat
-    if (sortedPilots.includes(prevPilot)) pilotSelect.value = prevPilot;
+    if (sortedInitials.includes(prevPilot)) pilotSelect.value = prevPilot;
     if (Array.from(planes.keys()).includes(prevPlane)) planeSelect.value = prevPlane;
   }
 
