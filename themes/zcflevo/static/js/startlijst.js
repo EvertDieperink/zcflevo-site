@@ -174,11 +174,11 @@ function renderTable(flights, dateStr) {
     const planeName  = f.plane?.name || '';
 
     const commanderCell = f.commander?.name
-      ? `<span title="${f.commander.name}">${initialsOf(f.commander.name)}</span> ${statusBadge(f.commander.status)}`
+      ? `${initialsOf(f.commander.name)} ${statusBadge(f.commander.status)}`
       : '\u2014';
 
     const passengerCell = f.passenger?.name
-      ? `<span title="${f.passenger.name}">${initialsOf(f.passenger.name)}</span> ${statusBadge(f.passenger.status)}`
+      ? `${initialsOf(f.passenger.name)} ${statusBadge(f.passenger.status)}`
       : '<span class="text-muted">enkel</span>';
 
     const landingCell = inAir
@@ -405,13 +405,13 @@ function planeCellLive(f) {
 
 function commanderCellLive(f) {
   return f.commander?.name
-    ? `<span title="${f.commander.name}">${initialsOf(f.commander.name)}</span> ${statusBadge(f.commander.status)}`
+    ? `${initialsOf(f.commander.name)} ${statusBadge(f.commander.status)}`
     : '—';
 }
 
 function passengerCellLive(f) {
   return f.passenger?.name
-    ? `<span title="${f.passenger.name}">${initialsOf(f.passenger.name)}</span> ${statusBadge(f.passenger.status)}`
+    ? `${initialsOf(f.passenger.name)} ${statusBadge(f.passenger.status)}`
     : '<span class="text-muted">enkel</span>';
 }
 
