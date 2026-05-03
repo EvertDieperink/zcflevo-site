@@ -173,22 +173,13 @@ function renderTable(flights, dateStr) {
     const callsign   = f.plane?.callsign || f.plane?.registration || '?';
     const planeName  = f.plane?.name || '';
 
-    const commanderCell = f.commander?.name
-      ? `${initialsOf(f.commander.name)} ${statusBadge(f.commander.status)}`
-      : '\u2014';
-
-    const passengerCell = f.passenger?.name
-      ? `${initialsOf(f.passenger.name)} ${statusBadge(f.passenger.status)}`
-      : '<span class="text-muted">enkel</span>';
-
     const landingCell = inAir
       ? '<span class="flight-badge flight-badge--air">In de lucht</span>'
       : fmtTime(f.endTime);
 
     return `<tr>
       <td><strong>${callsign}</strong><br><small class="text-muted">${planeName}</small></td>
-      <td>${commanderCell}</td>
-      <td>${passengerCell}</td>
+      <td>${inzittendenCell(f)}</td>
       <td>${shortType(f.type)}</td>
       <td>${fmtTime(f.startTime)}</td>
       <td>${landingCell}</td>
@@ -205,8 +196,7 @@ function renderTable(flights, dateStr) {
       <table class="flights-table">
         <thead><tr>
           <th>Vliegtuig</th>
-          <th>Gezagvoerder</th>
-          <th>Mede-inzittende</th>
+          <th>Inzittenden</th>
           <th>Type vlucht</th>
           <th>Start</th>
           <th>Landing</th>
@@ -415,6 +405,16 @@ function passengerCellLive(f) {
     : '<span class="text-muted">enkel</span>';
 }
 
+/** Gecombineerde inzittenden-cel: gezagvoerder · passagier (of leeg). */
+function inzittendenCell(f) {
+  if (!f.commander?.name) return '—';
+  let html = `${initialsOf(f.commander.name)} ${statusBadge(f.commander.status)}`;
+  if (f.passenger?.name) {
+    html += ` &middot; ${initialsOf(f.passenger.name)} ${statusBadge(f.passenger.status)}`;
+  }
+  return html;
+}
+
 function renderEmptySection(message) {
   return `<p class="flights-section-empty">${message}</p>`;
 }
@@ -423,8 +423,7 @@ function renderWachtlijst(flights) {
   if (!flights.length) return renderEmptySection('Geen vluchten op de wachtlijst.');
   const rows = flights.map(f => `<tr>
     <td>${planeCellLive(f)}</td>
-    <td>${commanderCellLive(f)}</td>
-    <td>${passengerCellLive(f)}</td>
+    <td>${inzittendenCell(f)}</td>
     <td>${shortType(f.type)}</td>
     <td><small>${f.winch?.name || '—'}</small></td>
   </tr>`).join('');
@@ -432,8 +431,7 @@ function renderWachtlijst(flights) {
     <table class="flights-table">
       <thead><tr>
         <th>Vliegtuig</th>
-        <th>Gezagvoerder</th>
-        <th>Mede-inzittende</th>
+        <th>Inzittenden</th>
         <th>Type vlucht</th>
         <th>Lier</th>
       </tr></thead>
@@ -446,8 +444,7 @@ function renderInDeLucht(flights) {
   if (!flights.length) return renderEmptySection('Geen toestellen in de lucht.');
   const rows = flights.map(f => `<tr>
     <td>${planeCellLive(f)}</td>
-    <td>${commanderCellLive(f)}</td>
-    <td>${passengerCellLive(f)}</td>
+    <td>${inzittendenCell(f)}</td>
     <td>${shortType(f.type)}</td>
     <td>${fmtTime(f.startTime)}</td>
     <td><strong>${fmtElapsedLive(f.startTime)}</strong></td>
@@ -456,8 +453,7 @@ function renderInDeLucht(flights) {
     <table class="flights-table">
       <thead><tr>
         <th>Vliegtuig</th>
-        <th>Gezagvoerder</th>
-        <th>Mede-inzittende</th>
+        <th>Inzittenden</th>
         <th>Type vlucht</th>
         <th>Start</th>
         <th>In de lucht</th>
@@ -471,8 +467,7 @@ function renderNetGeland(flights) {
   if (!flights.length) return renderEmptySection('Geen recent gelande vluchten.');
   const rows = flights.map(f => `<tr>
     <td>${planeCellLive(f)}</td>
-    <td>${commanderCellLive(f)}</td>
-    <td>${passengerCellLive(f)}</td>
+    <td>${inzittendenCell(f)}</td>
     <td>${shortType(f.type)}</td>
     <td>${fmtTime(f.startTime)}</td>
     <td>${fmtTime(f.endTime)}</td>
@@ -482,8 +477,7 @@ function renderNetGeland(flights) {
     <table class="flights-table">
       <thead><tr>
         <th>Vliegtuig</th>
-        <th>Gezagvoerder</th>
-        <th>Mede-inzittende</th>
+        <th>Inzittenden</th>
         <th>Type vlucht</th>
         <th>Start</th>
         <th>Landing</th>
