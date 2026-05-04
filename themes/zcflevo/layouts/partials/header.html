@@ -1,7 +1,7 @@
 <header class="site-header">
   <div class="container">
     <div class="header-inner">
-      <a href="{{ "/" | relURL }}" class="logo" aria-label="{{ .Site.Title }}">
+      <a href="{{ .Site.Home.RelPermalink }}" class="logo" aria-label="{{ .Site.Title }}">
         <img src="{{ "images/logo.svg" | relURL }}" alt="{{ .Site.Title }}" height="40">
       </a>
       <button class="nav-toggle" aria-label="Navigatiemenu openen of sluiten" aria-expanded="false" aria-controls="main-nav">
@@ -12,16 +12,16 @@
           {{ range .Site.Menus.main }}
             {{ if .HasChildren }}
               <li class="has-dropdown">
-                <a href="{{ .URL | relURL }}">{{ .Name }} <span class="arrow" aria-hidden="true">&#9660;</span></a>
+                <a href="{{ .URL }}">{{ .Name }} <span class="arrow" aria-hidden="true">&#9660;</span></a>
                 <ul class="dropdown">
                   {{ range .Children }}
-                    <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+                    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
                   {{ end }}
                 </ul>
               </li>
             {{ else }}
               <li{{ if eq $.RelPermalink (.URL | relURL) }} class="active"{{ end }}>
-                <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+                <a href="{{ .URL }}">{{ .Name }}</a>
               </li>
             {{ end }}
           {{ end }}

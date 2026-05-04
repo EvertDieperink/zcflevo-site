@@ -20,14 +20,14 @@
   <div class="container">
     {{ if .Parent }}
     <div class="breadcrumb">
-      <a href="{{ "/" | relURL }}">Home</a>
+      <a href="{{ .Site.Home.RelPermalink }}">Home</a>
       <span aria-hidden="true"> › </span>
       <a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a>
       <span aria-hidden="true"> › </span>
     </div>
     {{ else }}
     <div class="breadcrumb">
-      <a href="{{ "/" | relURL }}">Home</a>
+      <a href="{{ .Site.Home.RelPermalink }}">Home</a>
       <span aria-hidden="true"> › </span>
     </div>
     {{ end }}

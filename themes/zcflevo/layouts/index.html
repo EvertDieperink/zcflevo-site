@@ -25,7 +25,7 @@
       <p>{{ .Params.hero_subtitle | default .Site.Params.description }}</p>
       <div class="hero-buttons">
         {{ range .Params.hero_buttons }}
-        <a href="{{ .url | relURL }}" class="btn btn-{{ .style }}">{{ .text }}</a>
+        <a href="{{ .url | strings.TrimPrefix "/" | relURL }}" class="btn btn-{{ .style }}">{{ .text }}</a>
         {{ end }}
       </div>
     </div>
@@ -239,7 +239,7 @@
       </div>
     </div>
 
-    <a href="{{ $pricing.cta_url | relURL }}" class="btn btn-primary" style="margin-top: 1.25rem; display: inline-block;">{{ $pricing.cta_text }}</a>
+    <a href="{{ $pricing.cta_url | strings.TrimPrefix "/" | relURL }}" class="btn btn-primary" style="margin-top: 1.25rem; display: inline-block;">{{ $pricing.cta_text }}</a>
   </div>
 </section>
 
@@ -258,7 +258,7 @@
         <h2>{{ $callout.title }}</h2>
         <p>{{ $callout.text }}</p>
       </div>
-      <a href="{{ $callout.cta_url | relURL }}" class="btn btn-primary" style="flex-shrink:0;">{{ $callout.cta_text }}</a>
+      <a href="{{ $callout.cta_url | strings.TrimPrefix "/" | relURL }}" class="btn btn-primary" style="flex-shrink:0;">{{ $callout.cta_text }}</a>
     </div>
   </div>
 </section>
@@ -293,7 +293,7 @@
         </div>
         <div class="card-body">
           <p>{{ $card.text }}</p>
-          <a href="{{ $card.url | relURL }}" class="btn btn-blue">{{ $card.cta }}</a>
+          <a href="{{ $card.url | strings.TrimPrefix "/" | relURL }}" class="btn btn-blue">{{ $card.cta }}</a>
         </div>
       </div>
       {{ end }}
@@ -321,7 +321,7 @@
       {{ end }}
     </div>
     <div class="testimonials-cta">
-      <a href="{{ $testi.cta_url | relURL }}" class="btn btn-blue">{{ $testi.cta_text }}</a>
+      <a href="{{ $testi.cta_url | strings.TrimPrefix "/" | relURL }}" class="btn btn-blue">{{ $testi.cta_text }}</a>
     </div>
   </div>
 </section>

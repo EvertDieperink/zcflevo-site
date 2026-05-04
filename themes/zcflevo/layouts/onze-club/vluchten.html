@@ -3,9 +3,9 @@
 <div class="page-header">
   <div class="container">
     <div class="breadcrumb">
-      <a href="{{ "/" | relURL }}">Home</a>
+      <a href="{{ .Site.Home.RelPermalink }}">Home</a>
       <span aria-hidden="true"> &rsaquo; </span>
-      <a href="{{ "/onze-club/" | relURL }}">Onze Club</a>
+      <a href="{{ "onze-club/" | relURL }}">Onze Club</a>
       <span aria-hidden="true"> &rsaquo; </span>
     </div>
     <h1>{{ .Title }}</h1>

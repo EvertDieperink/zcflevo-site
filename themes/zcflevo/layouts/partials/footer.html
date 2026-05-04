@@ -2,7 +2,7 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <a href="{{ "/" | relURL }}" class="logo" aria-label="{{ .Site.Title }}">
+        <a href="{{ .Site.Home.RelPermalink }}" class="logo" aria-label="{{ .Site.Title }}">
           <img src="{{ "images/logo.svg" | relURL }}" alt="{{ .Site.Title }}" height="36">
         </a>
         
@@ -28,7 +28,7 @@
         <ul>
           {{ range .Site.Menus.main }}
             {{ if not .HasChildren }}
-              <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+              <li><a href="{{ .URL }}">{{ .Name }}</a></li>
             {{ end }}
           {{ end }}
         </ul>
