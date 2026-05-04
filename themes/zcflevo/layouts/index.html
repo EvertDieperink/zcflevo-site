@@ -9,7 +9,7 @@
 
 <!-- Hero Section with photo background -->
 {{ $heroImgs := resources.Match "images/hero/*.{jpg,jpeg,JPG,JPEG,png,PNG,webp,WEBP}" }}
-<section class="hero has-photo"{{ if not $heroImgs }} style="background-image: url('{{ .Params.hero_image | default "/images/banner1.jpg" }}')"{{ end }}>
+<section class="hero has-photo"{{ if not $heroImgs }} style="background-image: url('{{ .Params.hero_image | default "/images/banner1.jpg" | strings.TrimPrefix "/" | relURL }}')"{{ end }}>
   {{ if $heroImgs }}
   <div class="hero-slideshow">
     {{ range $i, $img := $heroImgs }}
@@ -311,7 +311,7 @@
       <div class="testimonial-card">
         <p class="testimonial-quote">{{ .quote }}</p>
         <div class="testimonial-author">
-          <img class="testimonial-avatar" src="{{ .avatar }}" alt="{{ .name }}">
+          <img class="testimonial-avatar" src="{{ .avatar | strings.TrimPrefix "/" | relURL }}" alt="{{ .name }}">
           <div>
             <div class="testimonial-name">{{ .name }}</div>
             <div class="testimonial-role">{{ .role }}</div>

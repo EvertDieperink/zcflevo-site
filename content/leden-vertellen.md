@@ -13,7 +13,7 @@ Zweefvliegen is een sport die mensen raakt. Onze leden vertellen graag waarom ze
 
 <div class="leden-card">
   <div class="leden-card-header">
-    <img class="leden-avatar" src="/images/annemieke.jpg" alt="Annemieke">
+    <img class="leden-avatar" src="{{< url "/images/annemieke.jpg" >}}" alt="Annemieke">
     <div class="leden-name">Annemieke</div>
   </div>
   <div class="leden-card-body">
@@ -23,7 +23,7 @@ Zweefvliegen is een sport die mensen raakt. Onze leden vertellen graag waarom ze
 
 <div class="leden-card">
   <div class="leden-card-header">
-    <img class="leden-avatar" src="/images/erwin.jpg" alt="Erwin">
+    <img class="leden-avatar" src="{{< url "/images/erwin.jpg" >}}" alt="Erwin">
     <div class="leden-name">Erwin</div>
   </div>
   <div class="leden-card-body">
@@ -33,7 +33,7 @@ Zweefvliegen is een sport die mensen raakt. Onze leden vertellen graag waarom ze
 
 <div class="leden-card">
   <div class="leden-card-header">
-    <img class="leden-avatar" src="/images/hans.jpg" alt="Hans">
+    <img class="leden-avatar" src="{{< url "/images/hans.jpg" >}}" alt="Hans">
     <div class="leden-name">Hans</div>
   </div>
   <div class="leden-card-body">
@@ -43,7 +43,7 @@ Zweefvliegen is een sport die mensen raakt. Onze leden vertellen graag waarom ze
 
 <div class="leden-card">
   <div class="leden-card-header">
-    <img class="leden-avatar" src="/images/paul.jpg" alt="Paul">
+    <img class="leden-avatar" src="{{< url "/images/paul.jpg" >}}" alt="Paul">
     <div class="leden-name">Paul</div>
   </div>
   <div class="leden-card-body">
@@ -53,7 +53,7 @@ Zweefvliegen is een sport die mensen raakt. Onze leden vertellen graag waarom ze
 
 <div class="leden-card">
   <div class="leden-card-header">
-    <img class="leden-avatar" src="/images/tristan.jpg" alt="Tristan">
+    <img class="leden-avatar" src="{{< url "/images/tristan.jpg" >}}" alt="Tristan">
     <div class="leden-name">Tristan</div>
   </div>
   <div class="leden-card-body">
@@ -65,7 +65,7 @@ Zweefvliegen is een sport die mensen raakt. Onze leden vertellen graag waarom ze
 <div class="leden-card">
   <div class="leden-card-header">
     <!-- STAP 1: Voeg de naam van het lid in en zet een foto in /static/images/ -->
-    <img class="leden-avatar" src="/images/nieuwe-naam.jpg" alt="Naam van lid">
+    <img class="leden-avatar" src="{{< url "/images/nieuwe-naam.jpg" >}}" alt="Naam van lid">
     <div class="leden-name">Naam van lid</div>
   </div>
   <div class="leden-card-body">

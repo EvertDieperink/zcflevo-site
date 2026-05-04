@@ -1,0 +1,15 @@
+{{- /*
+  Geeft een URL terug die werkt onder elk baseURL (subpad of root).
+
+  Gebruik in markdown waar je een hardcoded /pad wilt vervangen door
+  iets dat overal werkt:
+
+    <img src="{{< url "/images/foo.jpg" >}}" alt="Foo">
+    <a href="{{< url "/onze-club/" >}}">Onze Club</a>
+
+  De leading slash wordt eraf gehaald voordat relURL wordt toegepast,
+  omdat Hugo's relURL paden die met / beginnen ongemoeid laat.
+*/ -}}
+{{- $path := .Get 0 -}}
+{{- $path = strings.TrimPrefix "/" $path -}}
+{{- $path | relURL -}}

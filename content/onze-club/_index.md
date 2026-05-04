@@ -15,8 +15,8 @@ In 1981 splitste de zweefvliegafdeling zich af van de bredere Vliegclub Flevo. N
 Onze club bestaat uit leden met uiteenlopende achtergronden en beroepen, verspreid over heel Nederland. Wat ons bindt is de liefde voor het zweefvliegen.
 
 <div class="photo-row">
-  <img src="/images/EVH_3096.jpg" alt="Leden van ZC Flevo op het veld" loading="lazy">
-  <img src="/images/Naamloos-4.jpg" alt="ZC Flevo vliegdag" loading="lazy">
+  <img src="{{< url "/images/EVH_3096.jpg" >}}" alt="Leden van ZC Flevo op het veld" loading="lazy">
+  <img src="{{< url "/images/Naamloos-4.jpg" >}}" alt="ZC Flevo vliegdag" loading="lazy">
 </div>
 
 ## Vliegseizoen

@@ -53,7 +53,7 @@ Een melding bij ABL is in elk geval verplicht bij:
 - **Materiële schade** aan het toestel die de vluchtveiligheid raakt
 - **Verlies van controle** over het toestel tijdens de vlucht
 - **Brand, rook of ongecontroleerde stroom-/systeemuitval** in het toestel
-- **Schending van het luchtruim** of bijna-aanvaring met andere weggebruikers
+- **Schending van het luchtruim**
 - **Technisch falen** van een veiligheidskritisch onderdeel (zoals stuurorgaan, gordel, parachute)
 
 Twijfel je of een voorval onder de meldplicht valt? Vink dan in het formulier ook ABL aan, een melding te veel kost niets, een melding te weinig kan wel gevolgen hebben.
