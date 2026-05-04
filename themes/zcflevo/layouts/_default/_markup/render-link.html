@@ -1,0 +1,18 @@
+{{- /*
+  Hugo render hook voor markdown [tekst](url) links.
+
+  Past relURL toe op interne paden (die met / beginnen) zodat ze
+  werken zowel onder een sub-pad (https://username.github.io/zcflevo-site/)
+  als onder de root van een eigen domein (https://www.zcflevo.nl/).
+
+  Externe URLs (http://, https://, mailto:, tel:) blijven ongemoeid
+  en krijgen target="_blank" + rel="noopener" voor veiligheid.
+*/ -}}
+{{- $url := .Destination -}}
+{{- $isExternal := or (hasPrefix $url "http://") (or (hasPrefix $url "https://") (or (hasPrefix $url "mailto:") (hasPrefix $url "tel:"))) -}}
+{{- if $isExternal -}}
+<a href="{{ $url | safeURL }}" target="_blank" rel="noopener"{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
+{{- else -}}
+{{- $url = $url | strings.TrimPrefix "/" | relURL -}}
+<a href="{{ $url | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
+{{- end -}}
