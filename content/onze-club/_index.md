@@ -10,7 +10,7 @@ menu:
 
 ZC Flevo is een actieve en gezellige zweefvliegclub die in **1972** werd opgericht. Onze eerste zweefvlucht vond plaats op 2 september 1972, bestuurd door Henk Widman.
 
-In 1981 splitste de zweefvliegafdeling zich af van de bredere Vliegclub Flevo. Na jarenlang vliegen vanuit Lelystad verhuisden we in 1995 naar Biddinghuizen. Vanwege de installatie van windturbines zijn we in **2022 verhuisd naar Vliegveld Terlet** bij Arnhem.
+In 1981 splitste de zweefvliegafdeling zich af van de bredere Vliegclub Flevo. Na jarenlang vliegen vanuit Lelystad verhuisden we in 1995 naar Biddinghuizen. Vanwege de installatie van windturbines zijn we in **2023 verhuisd naar Vliegveld Terlet** bij Arnhem.
 
 Onze club bestaat uit leden met uiteenlopende achtergronden en beroepen, verspreid over heel Nederland. Wat ons bindt is de liefde voor het zweefvliegen.
 

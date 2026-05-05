@@ -46,7 +46,7 @@ De overgangstrainer voor meer zelfstandig vliegen. De Junior is eenvoudig te vli
 Een geavanceerd prestatie-toestel voor ervaren piloten. Uitstekend geschikt voor XC (cross-country) vluchten.
 
 - **Spanwijdte:** 15 m
-- **Maximale snelheid:** 280 km/h
+- **Maximale snelheid:** 270 km/h
 - **Beste glijgetal:** 40 (bij 105 km/h)
 - **Gebruik:** Geavanceerde piloten, cross-country vliegen
 
@@ -99,7 +99,7 @@ Prestatie-tweezitter voor gevorderde vliegers. Voorbehouden voor gebreveteerde l
 
 - **Spanwijdte:** 18/20 m (variabel)
 - **Maximale snelheid:** 270 km/h
-- **Beste glijgetal:** 46,6 (bij 120 km/h)
+- **Beste glijgetal:** 46,5 (bij 100 km/h)
 - **Gebruik:** Cross-country, competitie (SPL vereist)
 
 ## Startmethode: Elektrische Lier (ESW-2b)
