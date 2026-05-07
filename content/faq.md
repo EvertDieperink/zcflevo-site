@@ -7,7 +7,7 @@ menu:
     weight: 4
 faqs:
   - q: "Hoe ziet een vliegdag eruit?"
-    a: "Een vliegdag begint rond 9:00 uur met een briefing over het weer en de veiligheid. Om ongeveer 10:30 uur zijn de vliegtuigen geassembleerd en geïnspecteerd voor de eerste vluchten. Leerlingen vliegen mee met instructeurs en helpen tussendoor mee met de operatie. Gemiddeld maak je 3 à 4 vluchten per dag van elk 7 tot 30 minuten. Aan het eind van de dag ruimen we alles weer op en vullen de boeken in."
+    a: "Een vliegdag begint rond 9:00 uur met een briefing over het weer en de veiligheid. Om ongeveer 10:30 uur zijn de vliegtuigen geassembleerd en geïnspecteerd voor de eerste vluchten. Leerlingen vliegen mee met instructeurs en helpen tussendoor mee met de operatie. Gemiddeld maak je 3 à 4 vluchten per dag van elk 7 tot 30 minuten."
   - q: "Kan ik leren vliegen?"
     a: "Ja! De minimumleeftijd om te beginnen met zweefvliegen is 14 jaar. Voor het behalen van het vliegbrevet is de minimumleeftijd 16 jaar, plus het slagen voor een medische keuring, een niet-ingrijpend onderzoek zonder zware eisen. Oudere beginners zijn ook van harte welkom."
   - q: "Wanneer wordt er gevlogen?"
@@ -34,7 +34,7 @@ faqs:
 
 Een vliegdag begint rond **9:00 uur** met een briefing over het weer en de veiligheid. Om ongeveer 10:30 uur zijn de vliegtuigen geassembleerd en geïnspecteerd voor de eerste vluchten.
 
-Leerlingen vliegen mee met instructeurs en helpen tussendoor mee met de operatie. Leden staan op een startlijst en krijgen zo hun vluchten toegewezen. De dag eindigt als het weer verslechtert of het donker wordt, waarna we alles opbergen en eventueel nazorg uitvoeren.
+Leerlingen vliegen mee met instructeurs en helpen tussendoor mee met de operatie. Leden staan op een startlijst en krijgen zo hun vluchten toegewezen. De dag eindigt als het weer verslechtert of het donker wordt, waarna we alles opbergen en de boeken invullen onder het genot van een drankje.
 
 Gemiddeld maak je **3 à 4 vluchten per dag** van elk 7 tot 30 minuten.
 
