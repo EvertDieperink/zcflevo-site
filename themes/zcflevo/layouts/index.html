@@ -83,7 +83,6 @@
   <button class="photo-lightbox-nav photo-lightbox-next" type="button" aria-label="Volgende foto">&#8250;</button>
   <div class="photo-lightbox-content">
     <img id="photo-lightbox-img" src="" alt="">
-    <p class="photo-lightbox-caption" id="photo-lightbox-caption"></p>
   </div>
 </div>
 
@@ -92,7 +91,6 @@
   const lightbox = document.getElementById('photo-lightbox');
   if (!lightbox) return;
   const lightboxImg = document.getElementById('photo-lightbox-img');
-  const caption     = document.getElementById('photo-lightbox-caption');
   const closeBtn    = lightbox.querySelector('.photo-lightbox-close');
   const prevBtn     = lightbox.querySelector('.photo-lightbox-prev');
   const nextBtn     = lightbox.querySelector('.photo-lightbox-next');
@@ -107,7 +105,6 @@
     // Gebruik data-full (grotere versie via Hugo image processing) als beschikbaar
     lightboxImg.src = img.dataset.full || img.src;
     lightboxImg.alt = img.alt;
-    caption.textContent = img.alt || '';
   }
 
   function open(idx) {
