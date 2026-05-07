@@ -79,6 +79,4 @@ Zweefvliegen is een sport die mensen raakt. Onze leden vertellen graag waarom ze
 
 ---
 
-**Wil jij ook bij ZC Flevo horen?** Neem contact op voor een introductievlucht of meer informatie over het lidmaatschap.
-
-[Kom kennismaken →](/de-mogelijkheden/kennismaken/) &nbsp;|&nbsp; [Meer over lidmaatschap →](/de-mogelijkheden/lidmaatschap/)
+**Wil jij ook bij ZC Flevo horen?** [Kom een keer kennismaken](/de-mogelijkheden/kennismaken/) voor een introductievlucht, of lees meer over het [lidmaatschap](/de-mogelijkheden/lidmaatschap/).
