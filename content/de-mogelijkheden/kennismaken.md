@@ -31,7 +31,7 @@ Ben je nieuwsgierig? Dat begrijpen we. Je kunt contact opnemen met onze secretar
 - Minimum leeftijd om te starten met de opleiding: **14 jaar**
 - Voor het behalen van het vliegbrevet: **16 jaar** + medische keuring
 
-## Wil je echt starten?
+## Wil je starten?
 
 Wil je serieus aan de slag met zweefvliegen? Dan begin je bij ZC Flevo altijd met de **[kennismakingsstage](/de-mogelijkheden/kennismakingsstage/)**: twee vliegdagen waarin je 6 starts maakt en de club leert kennen. Het is de standaard eerste stap naar het lidmaatschap.
 

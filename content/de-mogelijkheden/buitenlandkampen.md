@@ -13,7 +13,7 @@ Als vereniging gaan we elk jaar **tegen kostprijs op kamp**, met een gezellige g
 
 ## Wat houdt het in?
 
-Een groep ZC Flevo-leden trekt samen naar een zweefvliegveld. Dat kan dichtbij zijn in Nederland of net over de grens, maar ook verder weg in de Alpen, Duitsland, Tsjechië, Hongarije of Spanje. We trailen onze eigen tweezitters en eenpersoonstoestellen mee, zodat we de hele week (of langer) volop kunnen vliegen.
+Een groep ZC Flevo-leden trekt samen naar een zweefvliegveld. Dat kan dichtbij zijn in Nederland of net over de grens, maar ook verder weg in de Alpen, Duitsland, Tsjechië, Hongarije of Spanje. We nemen onze eigen tweezitters en eenpersoonstoestellen mee, zodat we de hele week (of langer) volop kunnen vliegen.
 
 Het kampritme is informeel: je vliegt wanneer de condities goed zijn, en de rest van de tijd help je mee, ontdek je de omgeving, of zit je gewoon gezellig met elkaar buiten. 's Avonds koken we vaak samen op het vliegveld, of we trekken het dorp in.
 

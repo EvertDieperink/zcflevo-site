@@ -9,11 +9,11 @@ menu:
 
 ## Word lid van ZC Flevo
 
-Zweefvliegen is een betaalbare hobby. Doordat de club volledig door de leden zelf wordt gerund, zijn de kosten laag in vergelijking met gemotoriseerde luchtvaart.
+Zweefvliegen is een betaalbare hobby. Doordat de club volledig door de leden zelf wordt gerund, zijn de kosten laag in vergelijking met bijvoorbeeld gemotoriseerde luchtvaart.
 
 ## De Opleiding
 
-Iedereen die bij ZC Flevo wil leren vliegen begint met de [kennismakingsstage](/de-mogelijkheden/kennismakingsstage/): twee vliegdagen waarin je 6 starts maakt en de club leert kennen. Daarna start je als nieuw lid met de vliegopleiding onder begeleiding van onze instructeurs.
+Iedereen die bij ZC Flevo wil leren vliegen begint met de [kennismakingsstage](/de-mogelijkheden/kennismakingsstage/): twee vliegdagen waarin je 6 instructiestarts maakt en de club leert kennen. Daarna vervolg je als nieuw lid de vliegopleiding onder begeleiding van onze instructeurs.
 
 ### Vereisten
 - Minimumleeftijd om te starten: **14 jaar**
@@ -23,16 +23,16 @@ Iedereen die bij ZC Flevo wil leren vliegen begint met de [kennismakingsstage](/
 
 ### Hoe verloopt de opleiding?
 
-1. Je vliegt op weekenden (en vrije dagen) mee met een instructeur in een tweezitter
+1. Je vliegt met een instructeur op weekenden (en vrije dagen) in een tweezitter
 2. Stap voor stap leer je alle basis- en gevorderde technieken
 3. Na voldoende vluchten en beheersing van de vaardigheden vlieg je **alleen**
 4. Vervolgens werk je toe naar je officiële zweefvliegbrevet (SPL)
 
-Een gemiddeld lid maakt **3 à 4 vluchten per dag** van 7 tot 30 minuten.
+Gemiddeld maak je **3 à 4 vluchten per dag** van 7 tot 30 minuten per dag.
 
 ## Clubdagen
 
-We vliegen op **alle zater- en zondagen van 1 maart t/m 1 november**, plus veel vrijdagen. In schoolvakanties zijn er zweefvliegkampen.
+We vliegen op **alle zaterdagen en zondagen van 1 maart t/m 1 november**, plus veel vrijdagen. In schoolvakanties zijn er zweefvliegkampen.
 
 ## Winteronderhoud
 
@@ -67,7 +67,7 @@ Zweefvliegen bestaat uit een paar vaste jaarlijkse kostenposten. Hieronder een o
 | Thermiektoeslag clubvliegtuig (per minuut na 1e kwartier) | € 0,166 |
 | Motorgebruik Duo Discus XLT (per minuut) | € 2,00 |
 
-> **Thermiektoeslag:** Maximum € 40 per dag. Maximum per seizoen: € 250 voor senior leden en € 150 voor junior leden.
+> **Thermiektoeslag:** Alleen voor solisten en brevethouders. Maximum € 40 per dag. Maximum per seizoen: € 250 voor senior leden en € 150 voor junior leden. 
 
 ### KNVVL Zweefvliegen Lidmaatschap
 

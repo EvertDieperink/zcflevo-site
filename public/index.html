@@ -141,8 +141,22 @@
 
   <main id="main-content">
     
-<section class="hero has-photo"
-  style="background-image: url('/images/banner1.jpg')">
+
+<section class="hero has-photo">
+  
+  <div class="hero-slideshow">
+    
+      
+    <div class="hero-slide is-active" style="background-image: url('/images/hero/482221134_28866679956309140_3471369199155418808_n_hu_5fbde4d4e3faa37.jpg')"></div>
+    
+      
+    <div class="hero-slide" style="background-image: url('/images/hero/505220453_30040954782214979_4747615657750163486_n_hu_14ab8a5bedbb9738.jpg')"></div>
+    
+      
+    <div class="hero-slide" style="background-image: url('/images/hero/509964778_30204757425834713_2520471481972489128_n_hu_6abee730aab3e601.jpg')"></div>
+    
+  </div>
+  
   <div class="hero-overlay"></div>
   <div class="container">
     <div class="hero-content">
@@ -214,8 +228,6 @@
   
     
   
-    
-  
   
     
   
@@ -231,8 +243,8 @@
     
     
   <div class="photo-item photo-wide">
-    <img src="/images/photo-strip/wide/afbeelding-20260427-100221-a32f7474_hu_122cdda47f881a55.jpeg"
-         data-full="/images/photo-strip/wide/afbeelding-20260427-100221-a32f7474_hu_e2aaba9c6fd6c1d6.jpeg"
+    <img src="/images/photo-strip/wide/afbeelding-20260427-100221-a32f7474_hu_70239c9edd901c5.jpeg"
+         data-full="/images/photo-strip/wide/afbeelding-20260427-100221-a32f7474_hu_e904906c40ba6739.jpeg"
          alt="Afbeelding 20260427 100221 a32f7474"
          loading="lazy"
          width="1200" height="900">
@@ -361,19 +373,6 @@
     
     
   <div class="photo-item">
-    <img src="/images/photo-strip/normal/Stan3v2%20010526_hu_d70497e639bf1d77.jpg"
-         data-full="/images/photo-strip/normal/Stan3v2%20010526_hu_d3e664d48561c5cb.jpg"
-         alt="Stan3v2 010526"
-         loading="lazy"
-         width="600" height="401">
-  </div>
-  
-    
-    
-    
-    
-    
-  <div class="photo-item">
     <img src="/images/photo-strip/normal/vloot-ls4b_hu_d3324cda1ae2c9f4.jpg"
          data-full="/images/photo-strip/normal/vloot-ls4b_hu_9e9a7869010e547f.jpg"
          alt="Vloot ls4b"
@@ -464,6 +463,18 @@
     if (e.key === 'ArrowLeft')   show(currentIndex - 1);
     if (e.key === 'ArrowRight')  show(currentIndex + 1);
   });
+})();
+
+
+(function () {
+  const slides = document.querySelectorAll('.hero-slideshow .hero-slide');
+  if (slides.length < 2) return;
+  let current = 0;
+  setInterval(() => {
+    slides[current].classList.remove('is-active');
+    current = (current + 1) % slides.length;
+    slides[current].classList.add('is-active');
+  }, 10000);
 })();
 </script>
 
@@ -567,7 +578,7 @@
       <div class="stage-callout-text">
         <div class="section-label">Zo start je bij ZC Flevo</div>
         <h2>Iedereen begint met de kennismakingsstage</h2>
-        <p>Wil je leren zweefvliegen bij ZC Flevo? Dan begin je met de kennismakingsstage: 6 starts over 2 dagen, begeleid door een instructeur. Voor €180 ontdek je hoe het er bij ons aan toegaat. De stage is volledig vrijblijvend – je beslist na afloop zelf of je lid wilt worden. Word je lid, dan wordt het volledige bedrag verrekend als korting op je inschrijfgeld.</p>
+        <p>Wil je leren zweefvliegen bij ZC Flevo? Dan begin je met de kennismakingsstage: 6 starts over 2 dagen, begeleid door een instructeur. Voor €180 ontdek je hoe het er bij ons aan toegaat. De stage is volledig vrijblijvend, je beslist na afloop zelf of je lid wilt worden. Word je lid, dan wordt het volledige bedrag verrekend als korting op je inschrijfgeld.</p>
       </div>
       <a href="/de-mogelijkheden/kennismakingsstage/" class="btn btn-primary" style="flex-shrink:0;">Meer over de stage</a>
     </div>
