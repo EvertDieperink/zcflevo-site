@@ -740,6 +740,19 @@ strong { font-weight: 600; }
   font-size: 2.5rem;
   color: #fff;
   flex-shrink: 0;
+  background: var(--blue);
+  box-shadow: 0 0 0 2px var(--blue), 0 4px 16px rgba(0,0,0,0.12);
+  border: 3px solid #fff;
+}
+/* Placeholder-card: subtiel afwijkend zodat duidelijk is dat het een
+   template is (gestippelde rand, iets minder verzadigd). */
+.leden-card--placeholder {
+  border: 2px dashed var(--border);
+  background: var(--bg-light);
+}
+.leden-card--placeholder .leden-avatar-letter {
+  background: var(--text-muted);
+  box-shadow: 0 0 0 2px var(--text-muted), 0 4px 16px rgba(0,0,0,0.08);
 }
 .leden-name { font-weight: 700; font-size: 1.05rem; }
 .leden-card-body {
