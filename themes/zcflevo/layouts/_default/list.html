@@ -15,12 +15,25 @@
   <div class="container">
     {{ .Content }}
 
-    {{/* Toon alleen child-pages die ook in het menu staan, gesorteerd op menu weight.
-         Zo verdwijnen oude pagina's die wel een URL hebben maar uit het menu zijn gehaald. */}}
+    {{/* Toon alle pages die in het menu onder deze sectie staan, ongeacht hun
+         file-locatie. Zo verschijnt 'leden-vertellen' (op top-level) ook netjes
+         bij /onze-club/. Sortering op menu weight. */}}
+    {{ $sectionId := "" }}
+    {{ with .Params.menu }}{{ with .main }}{{ $sectionId = .identifier }}{{ end }}{{ end }}
     {{ $menuPages := slice }}
-    {{ range .Pages }}
-      {{ if .Params.menu }}
-        {{ $menuPages = $menuPages | append . }}
+    {{ if $sectionId }}
+      {{/* Pages op de hele site waarvan menu.main.parent == deze sectie */}}
+      {{ range $p := .Site.RegularPages }}
+        {{ with $p.Params.menu }}{{ with .main }}{{ if eq .parent $sectionId }}
+          {{ $menuPages = $menuPages | append $p }}
+        {{ end }}{{ end }}{{ end }}
+      {{ end }}
+    {{ else }}
+      {{/* Fallback: gebruik Hugo's natuurlijke .Pages voor secties zonder identifier */}}
+      {{ range .Pages }}
+        {{ if .Params.menu }}
+          {{ $menuPages = $menuPages | append . }}
+        {{ end }}
       {{ end }}
     {{ end }}
     {{ if $menuPages }}
