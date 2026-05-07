@@ -1082,7 +1082,13 @@ body.nav-open { overflow: hidden; }
   .footer-brand { grid-column: 1 / -1; }
   .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
   .photo-strip { grid-template-columns: repeat(4, 1fr); }
-  .photo-strip .photo-wide { grid-column: span 2; }
+  /* Op kleinere schermen worden wide-foto's gewoon 1 cel breed.
+     Daardoor blijven het simpel cellen die altijd opvullen, ongeacht
+     het aantal kolommen, en zijn er geen lege zwarte vakken meer. */
+  .photo-strip .photo-wide {
+    grid-column: span 1;
+    aspect-ratio: 4 / 3;
+  }
 }
 
 @media (max-width: 600px) {
@@ -1906,7 +1912,9 @@ body.nav-open { overflow: hidden; }
   .cost-item { min-width: 110px; padding: 0.75rem 1rem; }
   .cost-item-amount { font-size: 1.5rem; }
   .photo-strip { grid-template-columns: 1fr 1fr; }
-  .photo-strip .photo-wide { grid-column: span 2; }
+  /* Op extra-smalle schermen blijven wide-foto's gewoon 1 cel
+     (zelfde regel als hierboven), zodat er geen lege gaten ontstaan. */
+  .photo-strip .photo-wide { grid-column: span 1; aspect-ratio: 4 / 3; }
   .testimonials-grid { grid-template-columns: 1fr; }
   .leden-grid { grid-template-columns: 1fr; }
   .cards-grid { grid-template-columns: 1fr; }
