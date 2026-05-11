@@ -94,7 +94,7 @@
                   
                     <li><a href="/leden-vertellen/">Leden vertellen</a></li>
                   
-                    <li><a href="/onze-club/vluchten/">Vluchten op Terlet</a></li>
+                    <li><a href="/onze-club/vluchten/">Vluchtenoverzichten</a></li>
                   
                     <li><a href="/onze-club/incident-melden/">Incident melden</a></li>
                   
@@ -402,7 +402,6 @@
   <button class="photo-lightbox-nav photo-lightbox-next" type="button" aria-label="Volgende foto">&#8250;</button>
   <div class="photo-lightbox-content">
     <img id="photo-lightbox-img" src="" alt="">
-    <p class="photo-lightbox-caption" id="photo-lightbox-caption"></p>
   </div>
 </div>
 
@@ -411,7 +410,6 @@
   const lightbox = document.getElementById('photo-lightbox');
   if (!lightbox) return;
   const lightboxImg = document.getElementById('photo-lightbox-img');
-  const caption     = document.getElementById('photo-lightbox-caption');
   const closeBtn    = lightbox.querySelector('.photo-lightbox-close');
   const prevBtn     = lightbox.querySelector('.photo-lightbox-prev');
   const nextBtn     = lightbox.querySelector('.photo-lightbox-next');
@@ -426,7 +424,6 @@
     
     lightboxImg.src = img.dataset.full || img.src;
     lightboxImg.alt = img.alt;
-    caption.textContent = img.alt || '';
   }
 
   function open(idx) {
@@ -578,7 +575,7 @@
       <div class="stage-callout-text">
         <div class="section-label">Zo start je bij ZC Flevo</div>
         <h2>Iedereen begint met de kennismakingsstage</h2>
-        <p>Wil je leren zweefvliegen bij ZC Flevo? Dan begin je met de kennismakingsstage: 6 starts over 2 dagen, begeleid door een instructeur. Voor €180 ontdek je hoe het er bij ons aan toegaat. De stage is volledig vrijblijvend, je beslist na afloop zelf of je lid wilt worden. Word je lid, dan wordt het volledige bedrag verrekend als korting op je inschrijfgeld.</p>
+        <p>Wil je leren zweefvliegen bij ZC Flevo? Dan begin je met de kennismakingsstage: 6 starts in 2 dagen, begeleid door een instructeur. Voor €180 ontdek je hoe het er bij ons aan toegaat. De stage is volledig vrijblijvend, je beslist na afloop zelf of je lid wilt worden. Word je lid, dan wordt het volledige bedrag verrekend als korting op je inschrijfgeld.</p>
       </div>
       <a href="/de-mogelijkheden/kennismakingsstage/" class="btn btn-primary" style="flex-shrink:0;">Meer over de stage</a>
     </div>
@@ -622,7 +619,7 @@
           <h3>Opleiding &amp; Lidmaatschap</h3>
         </div>
         <div class="card-body">
-          <p>Word zweefvliegpiloot via onze vliegopleiding. Minimumleeftijd is 14 jaar, patent halen kan vanaf 16 jaar. Betaalbaar, alle vluchten inbegrepen.</p>
+          <p>Word zweefvliegpiloot via onze vliegopleiding. Minimumleeftijd is 14 jaar, brevet halen kan vanaf 16 jaar. Instructie, gebruik clubvliegtuigen en startmiddelen ingebrepen.</p>
           <a href="/de-mogelijkheden/lidmaatschap/" class="btn btn-blue">Meer weten</a>
         </div>
       </div>

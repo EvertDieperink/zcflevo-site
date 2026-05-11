@@ -1,5 +1,6 @@
 baseURL = '/'  # GitHub Actions injects the real URL at deploy time (see .github/workflows/hugo.yml)
 languageCode = 'nl'
+
 title = 'Zweefvliegclub Flevo'
 theme = 'zcflevo'
 
