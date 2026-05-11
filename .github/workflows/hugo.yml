@@ -1,55 +1,55 @@
-# Sample workflow for building and deploying a Hugo site to GitHub Pages
-name: Deploy Hugo site to Pages
+# Build de Hugo site en publiceer naar de gh-pages branch.
+# GitHub Pages serveert vervolgens vanuit die branch.
+name: Deploy Hugo site to GitHub Pages
 
 on:
-  # Runs on pushes targeting the default branch
+  # Trigger op elke push naar main.
   push:
     branches: ["main"]
 
-  # Allows you to run this workflow manually from the Actions tab
+  # Handmatig draaien vanuit de Actions-tab.
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+# We hebben write-toegang nodig om de gh-pages branch te kunnen
+# updaten met de gebouwde site.
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# Voorkom dat meerdere deploys gelijktijdig over elkaar heen lopen,
+# maar laat een lopende deploy wel afronden.
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
-# Default to bash
 defaults:
   run:
     shell: bash
 
 jobs:
-  # Build job
-  build:
+  build-deploy:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.128.0
+      # De URL waar de site wordt geserveerd. Bij overstap naar een
+      # custom domain (zoals https://www.zcflevo.nl/) hier aanpassen.
+      BASE_URL: https://evertdieperink.github.io/zcflevo-site/
     steps:
       - name: Install Hugo CLI
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
-      # Dart Sass install stap verwijderd: deze site gebruikt geen .scss
-      # bestanden en de snap-install faalde regelmatig op de runner
-      # ('unable to contact snap store'). Hugo Extended (hierboven) heeft
-      # zelf libsass ingebouwd voor het zeldzame geval dat het toch nodig is.
+
       - name: Checkout
         uses: actions/checkout@v4
         with:
           submodules: recursive
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v5
+          # fetch-depth 0 is nodig zodat peaceiris/actions-gh-pages
+          # de hele history kan zien voor een schone gh-pages history.
+          fetch-depth: 0
+
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
@@ -58,20 +58,18 @@ jobs:
         run: |
           hugo \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./public
+            --baseURL "${{ env.BASE_URL }}"
 
-  # Deployment job
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Deploy to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: gh-pages
+          # Lege commits worden niet gemaakt als er niets is veranderd.
+          allow_empty_commit: false
+          # Zorg dat oude assets verdwijnen na rename/delete.
+          force_orphan: true
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: ${{ github.event.head_commit.message }}
