@@ -30,9 +30,11 @@ jobs:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.128.0
-      # De URL waar de site wordt geserveerd. Bij overstap naar een
-      # custom domain (zoals https://www.zcflevo.nl/) hier aanpassen.
-      BASE_URL: https://evertdieperink.github.io/zcflevo-site/
+      # De URL waar de site wordt geserveerd. De custom domain wordt
+      # gekoppeld via static/CNAME (kopieert naar de root van gh-pages).
+      # Bij overstap naar www.zcflevo.nl: zowel deze URL als
+      # static/CNAME aanpassen.
+      BASE_URL: https://www2.zcflevo.nl/
     steps:
       - name: Install Hugo CLI
         run: |
