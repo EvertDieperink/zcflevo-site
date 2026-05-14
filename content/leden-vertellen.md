@@ -13,6 +13,16 @@ Zweefvliegen is een sport die mensen raakt. Onze leden vertellen graag waarom ze
 
 <div class="leden-card">
   <div class="leden-card-header">
+    <img class="leden-avatar" src="{{< url "/images/stan.jpg" >}}" alt="Stan">
+    <div class="leden-name">Stan</div>
+  </div>
+  <div class="leden-card-body">
+    <p>Ik vlieg nu drie jaar bij ZC Flevo. Mijn vader en broer vliegen ook, dus we zijn vaak samen op de club te vinden. Ik vlieg inmiddels solo en heb al echt vette vluchten gemaakt.</p>
+  </div>
+</div>
+
+<div class="leden-card">
+  <div class="leden-card-header">
     <img class="leden-avatar" src="{{< url "/images/annemieke.jpg" >}}" alt="Annemieke">
     <div class="leden-name">Annemieke</div>
   </div>

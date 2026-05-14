@@ -23,9 +23,20 @@ De zomercursus is bij uitstek geschikt voor wie:
 
 ## Praktische informatie
 
-De exacte data, kosten en het aantal beschikbare plekken voor de zomercursus van 2026 worden binnenkort bekendgemaakt. Wil je op de hoogte blijven of je vast aanmelden? Neem contact op met onze zomercursus-coördinator Hans van Zandvoort:
+De exacte data en het aantal beschikbare plekken voor de zomercursus van 2026 worden binnenkort bekendgemaakt.
 
-**E-mail:** [zomercursus@zcflevo.nl](mailto:zomercursus@zcflevo.nl)
+### Kosten
+
+| Variant | Prijs (all-in) |
+|---|---|
+| **5 dagen** (1 week) | € 450 |
+| **10 dagen** (2 weken) | € 850 |
+
+### Aanmelden of meer info
+
+Neem contact op met de secretaris:
+
+**E-mail:** {{< email >}}
 
 ## Liever het hele seizoen vliegen?
 

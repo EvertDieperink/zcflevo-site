@@ -15,6 +15,8 @@ Zweefvliegen is een betaalbare hobby. Doordat de club volledig door de leden zel
 
 Iedereen die bij ZC Flevo wil leren vliegen begint met de [kennismakingsstage](/de-mogelijkheden/kennismakingsstage/): twee vliegdagen waarin je 6 instructiestarts maakt en de club leert kennen. Daarna vervolg je als nieuw lid de vliegopleiding onder begeleiding van onze instructeurs.
 
+De zweefvliegopleiding bij ZC Flevo volgt het landelijke lesprogramma van de **Elementaire Vlieg Opleiding (EVO)**. Het volledige lesprogramma en achtergrondinformatie vind je op [zweefvliegopleiding.nl](https://zweefvliegopleiding.nl).
+
 ### Vereisten
 - Minimumleeftijd om te starten: **14 jaar**
 - Minimumleeftijd voor vliegbrevet: **16 jaar**
@@ -78,6 +80,8 @@ Het KNVVL-lidmaatschap is verplicht en regelt onder andere je verzekering.
 | Volwassenen | € 201,16 |
 | Junioren (t/m 18 jaar) | € 121,08 |
 
+> Dit zijn de **tarieven voor 2026**. De KNVVL stelt jaarlijks nieuwe bedragen vast; in volgende jaren kunnen deze tarieven dus wijzigen.
+
 ### LAPL Medical Keuring
 
 Om alleen te mogen vliegen heb je een geldige LAPL-medical nodig (Light Aircraft Pilot Licence medical). Tijdens de instructieperiode is deze keuring nog niet vereist. Het is een eenvoudig medisch onderzoek bij een erkende vliegarts. Kosten: **± € 200 tot 250**.
@@ -99,7 +103,7 @@ De geldigheidsduur is afhankelijk van je leeftijd:
 | **Totaal per jaar** | **€ 966,16** | **€ 806,08** |
 | LAPL medical (eenmalig / per periode) | ± € 225 | ± € 225 |
 
-> **Let op leeftijdsgrenzen:** De junior clubcontributie geldt voor leden t/m 21 jaar. Het KNVVL juniortarief geldt echter alleen t/m 18 jaar, leden van 19 t/m 21 jaar betalen het volwassen KNVVL-tarief van € 201,16 (totaal dan ± € 886,16 per jaar).
+> **Let op leeftijdsgrenzen:** De junior clubcontributie geldt voor leden t/m 21 jaar. Het KNVVL juniortarief geldt echter alleen t/m 18 jaar, leden van 19 t/m 21 jaar betalen het volwassen KNVVL-tarief (2026: € 201,16, totaal dan ± € 886,16 per jaar).
 
 > Vluchten zijn **onbeperkt** inbegrepen in het startabonnement. Er zijn geen extra kosten per vlucht.
 
@@ -111,6 +115,22 @@ Als vereniging gaan we elk jaar tegen kostprijs op kamp, met een gezellige groep
 
 ## Aanmelden
 
-Interesse om lid te worden? Neem contact op met onze secretaris:
+Interesse om lid te worden? Stuur een mail naar onze secretaris met daarin de volgende gegevens:
+
+- **Naam**
+- **Adres**
+- **Woonplaats**
+- **Telefoonnummer**
+- **Geboortedatum**
 
 **E-mail:** {{< email >}}
+
+### Betaalgegevens
+
+Bedragen worden overgemaakt op:
+
+| | |
+|---|---|
+| **IBAN** | NL58 INGB 0005 4400 94 |
+| **Ten name van** | Zweefvliegclub Flevo |
+

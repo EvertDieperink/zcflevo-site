@@ -56,7 +56,7 @@ pricing:
       total: "€806"
       total_label: "Totaal per jaar, all-in"
       installments: "± €80,60 per maand"
-      note: "Voor leden van 19 t/m 21 jaar geldt het volwassen KNVVL-tarief van €201 (totaal dan ± €886)."
+      note: "Voor leden van 19 t/m 21 jaar geldt het volwassen KNVVL-tarief (2026: €201, totaal dan ± €886). KNVVL-tarieven worden jaarlijks vastgesteld en kunnen wijzigen."
 
 stage_callout:
   label: "Zo start je bij ZC Flevo"
