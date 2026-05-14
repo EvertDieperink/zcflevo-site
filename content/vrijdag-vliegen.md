@@ -1,13 +1,13 @@
 ---
 title: "Vrijdag Vliegen: Steun Stichting Hoogvliegers"
-description: "Kom vliegen op een vrijdag bij ZC Flevo en steun Stichting Hoogvliegers. €40 per vlucht gaat rechtstreeks naar deze mooie stichting."
+description: "Kom vliegen op een vrijdag bij ZC Flevo en steun Stichting Hoogvliegers. Per start betaal je €40, waarvan de helft naar deze mooie stichting gaat."
 ---
 
 <div class="vrijdag-hero">
   <p class="vrijdag-slogan">Vlieg mee voor een glimlach ✈️</p>
 </div>
 
-Zweefvliegen is een ervaring die je niet snel vergeet. Bij **Zweefvliegclub Flevo** organiseren we **Vrijdag Vliegen**: een actie waarbij jij een introductievlucht maakt én meteen een goed doel steunt. Voor **€40** vlieg je mee in onze tweezitter. Het volledige bedrag gaat rechtstreeks naar **Stichting Hoogvliegers**.
+Zweefvliegen is een ervaring die je niet snel vergeet. Bij **Zweefvliegclub Flevo** organiseren we **Vrijdag Vliegen**: een actie waarbij jij een introductievlucht maakt én meteen een goed doel steunt. Je betaalt **€40 per start** en vliegt mee in onze tweezitter. **De helft van dat bedrag** (€20) draagt ZC Flevo af aan **Stichting Hoogvliegers**.
 
 ## Over Stichting Hoogvliegers
 
@@ -19,7 +19,7 @@ Meer informatie vind je op [www.stichtinghoogvliegers.nl](https://www.stichtingh
 
 ## Hoe werkt het?
 
-Je schrijft je in via onderstaand formulier. Wij nemen contact met je op om een geschikte vrijdag te plannen. Op de afgesproken dag kom je naar onze club, vlieg je mee in de tweezitter, en betaal je €40 ter plekke rechtstreeks aan Stichting Hoogvliegers.
+Je schrijft je in via onderstaand formulier. Wij nemen contact met je op om een geschikte vrijdag te plannen. Op de afgesproken dag kom je naar onze club, vlieg je mee in de tweezitter, en betaal je €40 ter plekke aan ZC Flevo. Wij dragen vervolgens **de helft van dat bedrag af aan Stichting Hoogvliegers** — de andere helft dekt onze eigen kosten (instructeur, lierstart, onderhoud).
 
 ### De details
 
@@ -41,7 +41,7 @@ Je schrijft je in via onderstaand formulier. Wij nemen contact met je op om een 
   </div>
   <div class="contact-detail-text">
     <strong>Kosten</strong>
-    <p>€40, rechtstreeks aan Stichting Hoogvliegers</p>
+    <p>€40 per start. De helft (€20) gaat naar Stichting Hoogvliegers</p>
   </div>
 </div>
 
