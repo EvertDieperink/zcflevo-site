@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
   </url><url>
-    <loc>/contact/</loc>
+    <loc>//localhost:1313/contact/</loc>
   </url><url>
-    <loc>/de-mogelijkheden/</loc>
+    <loc>//localhost:1313/de-mogelijkheden/</loc>
   </url><url>
-    <loc>/onze-club/incident-melden/</loc>
+    <loc>//localhost:1313/onze-club/incident-melden/</loc>
   </url><url>
-    <loc>/de-mogelijkheden/kennismakingsstage/</loc>
+    <loc>//localhost:1313/de-mogelijkheden/kennismakingsstage/</loc>
   </url><url>
-    <loc>/de-mogelijkheden/kennismaken/</loc>
+    <loc>//localhost:1313/de-mogelijkheden/kennismaken/</loc>
   </url><url>
-    <loc>/leden-vertellen/</loc>
+    <loc>//localhost:1313/leden-vertellen/</loc>
   </url><url>
-    <loc>/de-mogelijkheden/lidmaatschap/</loc>
+    <loc>//localhost:1313/de-mogelijkheden/lidmaatschap/</loc>
   </url><url>
-    <loc>/onze-club/locatie/</loc>
+    <loc>//localhost:1313/onze-club/locatie/</loc>
   </url><url>
-    <loc>/onze-club/</loc>
+    <loc>//localhost:1313/onze-club/</loc>
   </url><url>
-    <loc>/onze-club/vloot/</loc>
+    <loc>//localhost:1313/onze-club/vloot/</loc>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
   </url><url>
-    <loc>/faq/</loc>
+    <loc>//localhost:1313/faq/</loc>
   </url><url>
-    <loc>/de-mogelijkheden/buitenlandkampen/</loc>
+    <loc>//localhost:1313/de-mogelijkheden/buitenlandkampen/</loc>
   </url><url>
-    <loc>/onze-club/vluchten/</loc>
+    <loc>//localhost:1313/onze-club/vluchten/</loc>
   </url><url>
-    <loc>/vrijdag-vliegen/</loc>
+    <loc>//localhost:1313/vrijdag-vliegen/</loc>
   </url><url>
-    <loc>/de-mogelijkheden/zomercursus/</loc>
+    <loc>//localhost:1313/de-mogelijkheden/zomercursus/</loc>
   </url><url>
-    <loc>/</loc>
+    <loc>//localhost:1313/</loc>
   </url>
 </urlset>
