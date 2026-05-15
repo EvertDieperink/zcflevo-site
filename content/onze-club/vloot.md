@@ -48,7 +48,7 @@ Een geavanceerd prestatie-toestel voor ervaren piloten. Uitstekend geschikt voor
 - **Spanwijdte:** 15 m
 - **Maximale snelheid:** 270 km/h
 - **Beste glijgetal:** 40 (bij 105 km/h)
-- **Gebruik:** Geavanceerde piloten, cross-country vliegen
+- **Gebruik:** Gevorderde solisten of brevethouders, cross-country vliegen
 
 ### Rolladen-Schneider LS7-wl (PH-1273)
 **Callsign:** YZ | **Bouwjaar:** 1992
