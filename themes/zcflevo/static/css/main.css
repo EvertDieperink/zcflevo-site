@@ -1702,10 +1702,10 @@ body.nav-open { overflow: hidden; }
 }
 
 /* ============================================================
-   VRIJDAG VLIEGEN PAGE — Layout & styling
+   HOOGVLIEGERS PAGE — Layout & styling
    ============================================================ */
 /* Hero banner with photo background */
-.vrijdag-hero {
+.hoogvliegers-hero {
   position: relative;
   width: 100%;
   min-height: 280px;
@@ -1725,7 +1725,7 @@ body.nav-open { overflow: hidden; }
 }
 
 /* Slogan — hero tagline on top of photo */
-.vrijdag-slogan {
+.hoogvliegers-slogan {
   font-size: 2.4rem;
   font-weight: 700;
   color: #fff;
@@ -1738,11 +1738,11 @@ body.nav-open { overflow: hidden; }
 }
 
 @media (max-width: 600px) {
-  .vrijdag-hero {
+  .hoogvliegers-hero {
     min-height: 200px;
     padding: 2rem 1rem;
   }
-  .vrijdag-slogan {
+  .hoogvliegers-slogan {
     font-size: 1.6rem;
   }
 }
@@ -1782,25 +1782,25 @@ body.nav-open { overflow: hidden; }
   display: block;
 }
 
-/* Vrijdag Vliegen details grid - same style as contact */
-.vrijdag-details {
+/* Hoogvliegers details grid - same style as contact */
+.hoogvliegers-details {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0.5rem 1.5rem;
   margin: 1.5rem 0;
 }
 
-.vrijdag-details .contact-detail {
+.hoogvliegers-details .contact-detail {
   margin-bottom: 0.5rem;
 }
 
 @media (max-width: 600px) {
-  .vrijdag-details {
+  .hoogvliegers-details {
     grid-template-columns: 1fr;
   }
 }
 
-/* Vrijdag Vliegen details table */
+/* Hoogvliegers details table */
 .page-content table {
   width: 100%;
   border-collapse: collapse;
@@ -1845,9 +1845,9 @@ body.nav-open { overflow: hidden; }
 }
 
 /* ============================================================
-   FORM STYLES — Vrijdag Vliegen inschrijving
+   FORM STYLES — Hoogvliegers inschrijving
    ============================================================ */
-.vrijdag-form {
+.hoogvliegers-form {
   max-width: 600px;
   margin: 2.5rem 0;
   padding: 2rem;
@@ -1897,7 +1897,7 @@ body.nav-open { overflow: hidden; }
   min-height: 100px;
 }
 
-.vrijdag-form .btn-primary {
+.hoogvliegers-form .btn-primary {
   width: 100%;
   padding: 0.85rem 1.5rem;
   font-size: 1rem;
@@ -1910,12 +1910,12 @@ body.nav-open { overflow: hidden; }
   transition: background var(--transition), transform var(--transition);
 }
 
-.vrijdag-form .btn-primary:hover {
+.hoogvliegers-form .btn-primary:hover {
   background: var(--red-dark);
   transform: translateY(-2px);
 }
 
-.vrijdag-form .btn-primary:active {
+.hoogvliegers-form .btn-primary:active {
   transform: translateY(0);
 }
 

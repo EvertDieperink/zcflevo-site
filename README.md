@@ -85,7 +85,7 @@ De inhoud van de website staat in de map `content/`:
 | FAQ | `content/faq.md` |
 | Leden vertellen | `content/leden-vertellen.md` |
 | Contact | `content/contact.md` |
-| Vrijdag Vliegen | `content/vrijdag-vliegen.md` |
+| Hoogvliegers (goed doel) | `content/hoogvliegers.md` |
 | Lidmaatschap | `content/de-mogelijkheden/lidmaatschap.md` |
 | Kennismakingsstage | `content/de-mogelijkheden/kennismakingsstage.md` |
 | Zomercursus | `content/de-mogelijkheden/zomercursus.md` |
