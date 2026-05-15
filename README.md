@@ -60,7 +60,7 @@ automatisch:
 1. Je wijziging wordt opgeslagen in de geschiedenis
 2. GitHub bouwt de hele website opnieuw op
 3. Binnen 1 à 2 minuten staat jouw aanpassing live op
-   [zcflevo.nl](https://www.zcflevo.nl)
+   [zcflevo.nl](https://zcflevo.nl)
 
 Je hoeft dus niets te uploaden, niets te bouwen, en niets handmatig te
 publiceren.
@@ -119,7 +119,7 @@ venster:
 
 ### Stap 6: Wacht en controleer
 
-Wacht 1 à 2 minuten en open [zcflevo.nl](https://www.zcflevo.nl) in een
+Wacht 1 à 2 minuten en open [zcflevo.nl](https://zcflevo.nl) in een
 nieuw tabblad. Druk op **Ctrl+F5** (Windows) of **Cmd+Shift+R** (Mac) om de
 nieuwste versie te laden.
 

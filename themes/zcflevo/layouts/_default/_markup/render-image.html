@@ -2,7 +2,7 @@
   Hugo render hook voor markdown ![alt](path) afbeeldingen.
   Past relURL toe op de URL zodat het werkt zowel onder een sub-pad
   (zoals https://username.github.io/zcflevo-site/) als onder de root
-  van een eigen domein (zoals https://www.zcflevo.nl/).
+  van een eigen domein (zoals https://zcflevo.nl/).
 */ -}}
 <img src="{{ .Destination | strings.TrimPrefix "/" | relURL | safeURL }}" alt="{{ .Text }}"
   {{- with .Title }} title="{{ . }}"{{ end }} loading="lazy">

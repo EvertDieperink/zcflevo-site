@@ -32,9 +32,8 @@ jobs:
       HUGO_VERSION: 0.128.0
       # De URL waar de site wordt geserveerd. De custom domain wordt
       # gekoppeld via static/CNAME (kopieert naar de root van gh-pages).
-      # Bij overstap naar www.zcflevo.nl: zowel deze URL als
-      # static/CNAME aanpassen.
-      BASE_URL: https://www2.zcflevo.nl/
+      # Bij wisseling van domein: zowel deze URL als static/CNAME aanpassen.
+      BASE_URL: https://zcflevo.nl/
     steps:
       - name: Install Hugo CLI
         run: |
