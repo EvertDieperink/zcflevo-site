@@ -95,6 +95,7 @@ De inhoud van de website staat in de map `content/`:
 | Vloot | `content/onze-club/vloot.md` |
 | Vluchtenoverzichten | `content/onze-club/vluchten.md` |
 | Incident melden | `content/onze-club/incident-melden.md` |
+| Voor leden | `content/onze-club/voor-leden.md` |
 
 ### Stap 3: Klik op het potloodje
 
