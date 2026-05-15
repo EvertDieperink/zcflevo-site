@@ -4,12 +4,12 @@ description: "Maak een zweefvlucht bij ZC Flevo en sponsor met je start het werk
 ---
 
 <div class="hoogvliegers-hero">
-  <p class="hoogvliegers-slogan">Jij vliegt mee &mdash; een kind krijgt zijn vleugels ✈️</p>
+  <p class="hoogvliegers-slogan">Jij vliegt mee, een kind krijgt zijn vleugels ✈️</p>
 </div>
 
 ## Twee vluchten, één doel
 
-**Stichting Hoogvliegers** laat ernstig zieke en gehandicapte kinderen even los van hun ziekenhuis of beperkingen: voor één dag mogen zij zelf piloot zijn in een sportvliegtuig. Onvergetelijk, en volledig gratis voor het kind en het gezin. Dat doet de stichting met eigen vrijwilligers en motorvliegtuigen &mdash; **niet bij ons op de club**.
+**Stichting Hoogvliegers** laat ernstig zieke en gehandicapte kinderen even los van hun ziekenhuis of beperkingen: voor één dag mogen zij zelf piloot zijn in een sportvliegtuig. Onvergetelijk, en volledig gratis voor het kind en het gezin. Dat doet de stichting met eigen vrijwilligers en motorvliegtuigen, **niet bij ons op de club**.
 
 Wat doen **wij** dan? Bij **Zweefvliegclub Flevo** bieden wij **jou** een zweefvlucht aan op een vrijdag. Geen motorvliegtuig, maar stil, op de wind, vanuit Vliegveld Terlet. Je betaalt **€40 per start** en vliegt mee in onze tweezitter. **De helft van dat bedrag (€20) draagt ZC Flevo af aan Stichting Hoogvliegers**, zodat zij hun werk met kinderen kunnen blijven doen.
 
@@ -19,7 +19,7 @@ Zo wordt jouw zweefvliegervaring **de aanloop naar een glimlach** bij een kind d
 
 ![Ko Piloot - Stichting Hoogvliegers](/images/ko-piloot-logo.png)
 
-Stichting Hoogvliegers organiseert al jaren **vliegdagen voor ernstig zieke, gehandicapte en getraumatiseerde kinderen**. Tijdens zo'n dag mag het kind plaatsnemen in de copilootstoel van een sportvliegtuig en &mdash; onder begeleiding van een ervaren piloot &mdash; zelf vliegen. Voor één dag staat de ziekte op de achtergrond en is het kind de baas in de cockpit.
+Stichting Hoogvliegers organiseert al jaren **vliegdagen voor ernstig zieke, gehandicapte en getraumatiseerde kinderen**. Tijdens zo'n dag mag het kind plaatsnemen in de copilootstoel van een sportvliegtuig en, onder begeleiding van een ervaren piloot, zelf vliegen. Voor één dag staat de ziekte op de achtergrond en is het kind de baas in de cockpit.
 
 Deze vliegdagen zijn altijd **gratis** voor de gezinnen. De stichting drijft op donaties, sponsoring en acties zoals deze.
 
@@ -29,7 +29,7 @@ Meer informatie vind je op [www.stichtinghoogvliegers.nl](https://www.stichtingh
 
 Bij ZC Flevo maak je geen motorvlucht maar een **zweefvlucht**: stil, zonder motor, op thermiek en wind. Je vliegt mee met een ervaren instructeur in onze tweezitter. We starten met een lierstart en zweven daarna boven het mooie landschap rond Terlet.
 
-Deze actie is **niet voor kinderen** &mdash; die vliegen via Stichting Hoogvliegers zelf. Onze vluchten zijn voor **jou**: een geïnteresseerde volwassene of jongere die ooit eens een zweefvlucht wil maken. Je hebt geen vliegervaring nodig.
+Deze actie is **niet voor kinderen**. Die vliegen via Stichting Hoogvliegers zelf. Onze vluchten zijn voor **jou**: een geïnteresseerde volwassene of jongere die ooit eens een zweefvlucht wil maken. Je hebt geen vliegervaring nodig.
 
 ## Hoe werkt het?
 
@@ -93,7 +93,7 @@ Twijfel je of vliegen iets voor jou is? Neem gerust contact met ons op, we denke
 
 ## Inschrijven
 
-Vul onderstaand formulier in en klik op "Schrijf mij in". Je eigen e-mailprogramma opent met de inschrijving al ingevuld &mdash; klik op verzenden en wij nemen zo snel mogelijk contact met je op.
+Vul onderstaand formulier in en klik op "Schrijf mij in". Je eigen e-mailprogramma opent met de inschrijving al ingevuld. Klik op verzenden en wij nemen zo snel mogelijk contact met je op.
 
 <form id="hoogvliegers-form" class="hoogvliegers-form" onsubmit="return verzendInschrijving(event)">
   <div class="form-group">
@@ -161,4 +161,4 @@ function verzendInschrijving(event) {
 
 ## Vragen?
 
-Heb je nog vragen over de Hoogvliegers-actie? Mail gerust naar [evert.dieperink@zcflevo.nl](mailto:evert.dieperink@zcflevo.nl) &mdash; we horen graag van je!
+Heb je nog vragen over de Hoogvliegers-actie? Mail gerust naar [evert.dieperink@zcflevo.nl](mailto:evert.dieperink@zcflevo.nl). We horen graag van je!

@@ -6,7 +6,7 @@
 
 Deze handleiding legt uit hoe je als clublid eenvoudige aanpassingen aan de
 website kunt doen: een typfout corrigeren, een foto vervangen, een nieuw
-lidverhaal toevoegen. Geen technische voorkennis nodig — als je een e-mail
+lidverhaal toevoegen. Geen technische voorkennis nodig. Als je een e-mail
 kunt schrijven, kun je dit ook.
 
 > 💡 **Tip:** Niets is onherstelbaar. Alles wat je doet wordt automatisch
@@ -36,9 +36,9 @@ in deze repo.
 
 ## Wat je nodig hebt
 
-1. Een **GitHub-account** — gratis, registreer eenmalig op
+1. Een **GitHub-account**: gratis, registreer eenmalig op
    [github.com/signup](https://github.com/signup)
-2. **Toegang tot de ZC Flevo repository** — vraag Evert Dieperink om je
+2. **Toegang tot de ZC Flevo repository**: vraag Evert Dieperink om je
    GitHub-gebruikersnaam toe te voegen als medewerker
    ([evert.dieperink@zcflevo.nl](mailto:evert.dieperink@zcflevo.nl))
 3. Een **moderne browser** (Chrome, Edge, Firefox, Safari)
@@ -112,7 +112,7 @@ een Word-document, alleen in je browser.
 Klik rechtsboven op de groene knop **Commit changes...** Er verschijnt een
 venster:
 
-- **Commit message** — korte omschrijving, bijv. *"Typfout in FAQ
+- **Commit message**: korte omschrijving, bijv. *"Typfout in FAQ
   gecorrigeerd"*
 - Kies **"Commit directly to the `main` branch"**
 - Klik op de groene knop **Commit changes**
@@ -129,12 +129,12 @@ nieuwste versie te laden.
 
 Foto's staan op vier plekken:
 
-- `static/images/` — algemene foto's (lidavatars, vloot, logo)
-- `assets/images/photo-strip/normal/` — foto's voor de fotostrook op de
+- `static/images/`: algemene foto's (lidavatars, vloot, logo)
+- `assets/images/photo-strip/normal/`: foto's voor de fotostrook op de
   homepage
-- `assets/images/photo-strip/wide/` — brede foto's voor de homepage
+- `assets/images/photo-strip/wide/`: brede foto's voor de homepage
   (2× breed)
-- `assets/images/hero/` — achtergrond-foto's bovenaan de homepage
+- `assets/images/hero/`: achtergrond-foto's bovenaan de homepage
   (wisselen elke 10 sec)
 
 ### Een nieuwe foto uploaden
@@ -178,10 +178,10 @@ uitzien:
 Kopieer een bestaand blok, plak het op de plek waar je het nieuwe lid wilt
 tonen, en pas drie dingen aan:
 
-1. **De foto-naam** — bij `src="..."` zet je je eigen bestandsnaam (eerst
+1. **De foto-naam**: bij `src="..."` zet je je eigen bestandsnaam (eerst
    de foto uploaden in `static/images/`)
-2. **De naam** — tussen `<div class="leden-name">...</div>`
-3. **Het verhaal** — tussen `<p>...</p>`
+2. **De naam**: tussen `<div class="leden-name">...</div>`
+3. **Het verhaal**: tussen `<p>...</p>`
 
 ---
 
@@ -242,7 +242,7 @@ menu:
 ---
 ```
 
-Je mag de **titel** of de **description** gerust aanpassen — die zijn
+Je mag de **titel** of de **description** gerust aanpassen, die zijn
 gewoon tekst. Maar laat de rest (menu, parent, weight, layout, etc.) liever
 staan. Een verkeerde indent of letterfout in dit blok kan de pagina kapot
 maken.
@@ -278,7 +278,7 @@ zolang we niets nieuws bovenop committen.
 
 ### Mag ik nieuwe pagina's maken?
 
-Liever niet zelf. Vraag Evert — nieuwe pagina's vereisen ook
+Liever niet zelf. Vraag Evert, nieuwe pagina's vereisen ook
 menu-configuratie. Bestaande pagina's bewerken kan altijd.
 
 ---
