@@ -1,8 +1,6 @@
 ---
 title: "Hoogvliegers: zweefvliegen voor het goede doel"
 description: "Maak een zweefvlucht bij ZC Flevo en sponsor met je start het werk van Stichting Hoogvliegers, die ernstig zieke en gehandicapte kinderen onvergetelijke vliegervaringen bezorgt."
-aliases:
-  - /vrijdag-vliegen/
 ---
 
 <div class="hoogvliegers-hero">
