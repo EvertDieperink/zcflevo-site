@@ -87,6 +87,10 @@ testimonials:
   cta_text: "Lees meer verhalen →"
   cta_url: "/leden-vertellen/"
   items:
+    - quote: "Ik vlieg nu drie jaar bij ZC Flevo. Mijn vader en broer vliegen ook, dus we zijn vaak samen op de club te vinden. Ik vlieg inmiddels solo en heb al echt vette vluchten gemaakt."
+      name: "Stan"
+      role: "Lid van ZC Flevo"
+      avatar: "/images/stan.jpg"
     - quote: "Zweefvliegclub Flevo is een vereniging waar iedereen welkom is om te leren vliegen. De balans tussen serieus vliegen en clubgezelligheid maakt het uniek."
       name: "Annemieke"
       role: "Lid van ZC Flevo"
@@ -95,10 +99,6 @@ testimonials:
       name: "Erwin"
       role: "Lid van ZC Flevo"
       avatar: "/images/erwin.jpg"
-    - quote: "Ik ben in 2019 begonnen met zweefvliegen. Echt een jongensdroom die in vervulling ging. Als iets oudere nieuwkomer werd ik meteen hartelijk ontvangen."
-      name: "Paul"
-      role: "Lid van ZC Flevo"
-      avatar: "/images/paul.jpg"
 ---
 
 ## Welkom bij Zweefvliegclub Flevo
