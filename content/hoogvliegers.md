@@ -33,7 +33,7 @@ Deze actie is **niet voor kinderen** &mdash; die vliegen via Stichting Hoogvlieg
 
 ## Hoe werkt het?
 
-Je schrijft je in via onderstaand formulier. Wij nemen contact met je op om een geschikte vrijdag te plannen. Op de afgesproken dag kom je naar onze club op Vliegveld Terlet, vlieg je mee in de tweezitter, en betaal je **€40 per start** ter plekke aan ZC Flevo. Wij dragen vervolgens **€20 per start af aan Stichting Hoogvliegers**. De andere €20 dekt onze eigen kosten (instructeur, lierstart, onderhoud).
+Je schrijft je in via onderstaand formulier. Wij nemen contact met je op om een geschikte vrijdag te plannen. Op de afgesproken dag kom je naar onze club op Vliegveld Terlet, vlieg je mee in de tweezitter, en betaal je **€40 per start** ter plekke aan ZC Flevo. Wij dragen vervolgens **€20 per start af aan Stichting Hoogvliegers**. De andere €20 dekt onze eigen kosten (vliegtuig, lierstart en onderhoud).
 
 ### De details
 
