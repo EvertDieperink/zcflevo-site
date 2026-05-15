@@ -161,9 +161,4 @@ function verzendInschrijving(event) {
 
 ## Vragen?
 
-Heb je nog vragen over de Hoogvliegers-actie? Neem gerust contact op:
-
-- **E-mail**: [evert.dieperink@zcflevo.nl](mailto:evert.dieperink@zcflevo.nl)
-- **Telefoon**: {{< veldtelefoon >}}
-
-We horen graag van je!
+Heb je nog vragen over de Hoogvliegers-actie? Mail gerust naar [evert.dieperink@zcflevo.nl](mailto:evert.dieperink@zcflevo.nl) &mdash; we horen graag van je!
