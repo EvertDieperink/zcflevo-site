@@ -4,6 +4,8 @@ description: "Live overzicht, dagstartlijst en FLARM-vluchten van ZC Flevo op Vl
 layout: "vluchten"
 has_flights: true
 has_startlijst: true
+aliases:
+  - /tijden/
 menu:
   main:
     name: "Vluchtenoverzichten"
