@@ -343,6 +343,17 @@ jouw edit in main  →  GitHub Actions bouwt met Hugo
 Het hele proces duurt 1 à 2 minuten. De status van elke build is te
 zien in de repo onder het tabblad **Actions**.
 
+### Gemaakt met Claude Code
+
+Deze site, het Hugo-theme, de build-workflow en zelfs deze handleiding
+zijn opgezet met behulp van
+**[Claude Code](https://www.anthropic.com/claude-code)** &mdash; een
+AI-coding-agent van Anthropic waarmee je code schrijft (en
+sites bouwt) door simpelweg te beschrijven wat je wilt. Veel van het
+werk gebeurt in een gesprek: "voeg een pagina toe over X", "vervang
+overal Y door Z", "maak het op mobiel beter leesbaar". Dat scheelt
+enorm in tijd en helpt om de site fris en consistent te houden.
+
 ---
 
 ## Hulp nodig?
