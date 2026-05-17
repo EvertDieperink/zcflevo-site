@@ -7,8 +7,22 @@
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <link rel="canonical" href="{{ .Permalink }}">
   <link rel="icon" href="{{ "images/logo.svg" | relURL }}" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="{{ "images/logo.svg" | absURL }}">
-  <meta name="theme-color" content="#056BB3">
+
+  {{- /* App icon, manifest & theme: per-pagina overridable via front matter
+         (apple_touch_icon, manifest, theme_color, web_app_title). Default:
+         ZC Flevo logo + main manifest. Voor /rondje/ wordt dit overschreven
+         door een bierje-icoon en de rondje-manifest. */ -}}
+  {{- $appleTouchIcon := .Params.apple_touch_icon | default "/images/icons/apple-touch-icon.png" -}}
+  {{- $manifest       := .Params.manifest         | default "/manifest.webmanifest" -}}
+  {{- $themeColor     := .Params.theme_color      | default "#056BB3" -}}
+  {{- $webAppTitle    := .Params.web_app_title    | default "ZC Flevo" -}}
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ $appleTouchIcon | relURL }}">
+  <link rel="manifest" href="{{ $manifest | relURL }}">
+  <meta name="theme-color" content="{{ $themeColor }}">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="{{ $webAppTitle }}">
 
   <!-- OpenGraph -->
   <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">

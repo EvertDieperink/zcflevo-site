@@ -2,6 +2,11 @@
 title: "Rondje"
 description: "Wie heeft vandaag op het veld de langste vlucht gemaakt? Die is een rondje verschuldigd."
 robots: "noindex, nofollow"
+# Eigen 'app-icon' bij toevoegen aan startscherm: een bierje i.p.v. het clublogo
+apple_touch_icon: "/images/icons/rondje-apple-touch-icon.png"
+manifest: "/rondje-manifest.webmanifest"
+theme_color: "#e8a82e"
+web_app_title: "Rondje?"
 _build:
   list: never
   render: always
