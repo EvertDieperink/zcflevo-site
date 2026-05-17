@@ -30,7 +30,8 @@ in deze repo.
 7. [Shortcodes: stukjes die automatisch worden ingevuld](#shortcodes-stukjes-die-automatisch-worden-ingevuld)
 8. [Wat je beter NIET kunt aanpassen](#wat-je-beter-niet-kunt-aanpassen)
 9. [Veelgestelde vragen](#veelgestelde-vragen)
-10. [Hulp nodig?](#hulp-nodig)
+10. [Onder de motorkap: hoe werkt het technisch?](#onder-de-motorkap-hoe-werkt-het-technisch)
+11. [Hulp nodig?](#hulp-nodig)
 
 ---
 
@@ -281,6 +282,66 @@ zolang we niets nieuws bovenop committen.
 
 Liever niet zelf. Vraag Evert, nieuwe pagina's vereisen ook
 menu-configuratie. Bestaande pagina's bewerken kan altijd.
+
+---
+
+## Onder de motorkap: hoe werkt het technisch?
+
+Voor wie nieuwsgierig is, een korte uitleg van wat er gebeurt zodra je
+op **Commit changes** klikt.
+
+### Hugo: statische site-generator
+
+De website is gebouwd met **[Hugo](https://gohugo.io/)** (versie 0.128.0),
+een snelle generator voor statische sites. "Statisch" betekent: er draait
+geen database of server-side code, alles wordt vooraf gebouwd tot platte
+HTML/CSS/JS. Dat maakt de site snel, goedkoop te hosten en simpel te
+onderhouden.
+
+De broncode bestaat uit:
+
+- `content/`: alle pagina-inhoud (Markdown)
+- `static/`: afbeeldingen, fonts, CNAME, robots.txt
+- `assets/`: afbeeldingen die door Hugo gepipelined worden (resize/optimize)
+- `themes/zcflevo/`: ons eigen theme met layouts, CSS, JS en shortcodes
+- `hugo.toml`: site-configuratie (titel, e-mail, social links)
+
+### GitHub Actions bouwt automatisch
+
+Bij elke push naar de `main` branch start GitHub Actions de workflow in
+[`.github/workflows/hugo.yml`](./.github/workflows/hugo.yml). Die:
+
+1. Haalt Hugo op (versie 0.128.0)
+2. Bouwt de site met `hugo --minify --baseURL "https://zcflevo.nl/"`
+3. Plaatst het resultaat in de `public/` map
+
+### Deploy naar de `gh-pages` branch
+
+De gegenereerde `public/` map wordt door de workflow gepusht naar een
+aparte branch genaamd **`gh-pages`**. Die branch bevat dus geen
+broncode, maar uitsluitend het gebouwde resultaat: kant-en-klare HTML
+voor de browser. Met `force_orphan: true` schrijft elke deploy de
+branch helemaal opnieuw, zodat verwijderde of hernoemde bestanden ook
+echt verdwijnen uit de live site.
+
+### GitHub Pages serveert vanaf gh-pages
+
+**GitHub Pages** is geconfigureerd om de `gh-pages` branch te serveren
+op het custom domein **zcflevo.nl**. Dat domein wordt gekoppeld via
+[`static/CNAME`](./static/CNAME) (Hugo kopieert dit bestand naar de
+root van de gh-pages branch). De apex `zcflevo.nl` is canonical;
+GitHub stuurt `www.zcflevo.nl` automatisch door.
+
+### Samengevat
+
+```
+jouw edit in main  →  GitHub Actions bouwt met Hugo
+                   →  resultaat naar de gh-pages branch
+                   →  GitHub Pages serveert op zcflevo.nl
+```
+
+Het hele proces duurt 1 à 2 minuten. De status van elke build is te
+zien in de repo onder het tabblad **Actions**.
 
 ---
 
