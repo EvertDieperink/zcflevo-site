@@ -1,6 +1,6 @@
 ---
 title: "Voor leden"
-description: "Clubbestanden, roosters, papierwinkel, online aanmelden voor vliegdagen via de CCT-site, en uitleg over Microsoft 365 voor leden van Zweefvliegclub Flevo."
+description: "Clubbestanden, roosters, papierwinkel en online aanmelden voor vliegdagen via de CCT-site voor leden van Zweefvliegclub Flevo."
 menu:
   main:
     name: "Voor leden"
@@ -10,11 +10,11 @@ menu:
 
 ## Voor leden van ZC Flevo
 
-Op deze pagina staan de belangrijkste interne werkmiddelen van de club bij elkaar: alle clubbestanden in SharePoint, aanmelden voor vliegdagen via de CCT-site, en uitleg over je @zcflevo.nl account.
+Op deze pagina staan de belangrijkste interne werkmiddelen van de club bij elkaar: alle clubbestanden in SharePoint en aanmelden voor vliegdagen via de CCT-site.
 
 ## Clubbestanden, roosters en papierwinkel
 
-Alle clubdocumenten staan in onze gedeelde SharePoint-map: **roosters**, **papierwinkel**, statuten, instructiemateriaal, en alle andere bestanden die we als vereniging met elkaar delen. Je logt in met je `@zcflevo.nl` account.
+Alle clubdocumenten staan in onze gedeelde SharePoint-map: **roosters**, **papierwinkel**, statuten, instructiemateriaal, en alle andere bestanden die we als vereniging met elkaar delen.
 
 <div class="incident-cta">
   <a href="https://zweefvliegclubflevo.sharepoint.com/:f:/s/team_leden/IgDe2EGarg4GSovjSRhoh3BHAZqccViAEGSnKJXWblRYIZ8?e=SZ1fma" target="_blank" rel="noopener" class="btn btn-primary">
@@ -22,17 +22,6 @@ Alle clubdocumenten staan in onze gedeelde SharePoint-map: **roosters**, **papie
   </a>
   <p class="incident-cta-sub">SharePoint &middot; inloggen vereist</p>
 </div>
-
-## Microsoft 365 en je @zcflevo.nl account
-
-Bij ZC Flevo werken we met **Microsoft 365** (voorheen Office 365). Elk lid krijgt een eigen account op het domein `@zcflevo.nl`. Daarmee heb je toegang tot:
-
-- Een persoonlijk **@zcflevo.nl e-mailadres**
-- **Microsoft Teams**: waar we als club onderling communiceren en bestanden delen
-- **SharePoint**: waar bovenstaande clubbestanden staan
-- De gebruikelijke **Office-apps** (Word, Excel, PowerPoint, OneDrive)
-
-Heb je nog geen account, ben je je wachtwoord kwijt, of wil je hulp bij het instellen op je telefoon of laptop? Mail de secretaris: {{< email >}}.
 
 ## CCT-site: aanmelden voor vliegdagen
 
@@ -54,4 +43,4 @@ Op de CCT-site kun je:
 
 ## Vragen of hulp nodig?
 
-Loop je vast met inloggen op SharePoint, je e-mail, of de CCT-site? Mail dan de secretaris: {{< email >}}. We helpen je graag op weg.
+Loop je vast met inloggen op SharePoint of de CCT-site? Mail dan de secretaris: {{< email >}}. We helpen je graag op weg.
