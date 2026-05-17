@@ -66,6 +66,15 @@
   }
   </script>
   {{ partial "structured-data.html" . }}
+
+  {{- /* GoatCounter analytics — privacy-friendly, geen cookies, geen banner nodig.
+         Alleen actief in productie (HUGO_ENVIRONMENT=production, gezet door de
+         GitHub Actions workflow), zodat lokale builds de stats niet vervuilen.
+         Dashboard: https://zcflevo.goatcounter.com */ -}}
+  {{ if hugo.IsProduction }}
+  <script data-goatcounter="https://zcflevo.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+  {{ end }}
 </head>
 <body>
   {{ partial "header.html" . }}
