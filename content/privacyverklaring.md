@@ -28,7 +28,7 @@ Wij gebruiken **[GoatCounter](https://www.goatcounter.com/)** om bij te houden h
 
 Wij zien geaggregeerd hoeveel bezoekers er per pagina komen, vanaf welke verwijzende site (Google, Facebook, etc.), het globaal land van herkomst en het type apparaat. Deze gegevens zijn niet tot jou als persoon te herleiden.
 
-Meer over hoe GoatCounter omgaat met privacy: [goatcounter.com/help/privacy](https://www.goatcounter.com/help/privacy).
+Het dashboard met onze statistieken is openbaar: kijk gerust mee op [zcflevo.goatcounter.com](https://zcflevo.goatcounter.com). Meer over hoe GoatCounter omgaat met privacy: [goatcounter.com/help/privacy](https://www.goatcounter.com/help/privacy).
 
 ### 2b. Contact- en inschrijfformulieren
 

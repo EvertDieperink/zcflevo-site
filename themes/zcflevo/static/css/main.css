@@ -1082,6 +1082,11 @@ strong { font-weight: 600; }
   opacity: 0.55;
 }
 
+/* Stats-link ietsje subtieler dan de privacy-link ernaast */
+.footer-stats-link {
+  font-size: 0.85em;
+}
+
 /* ============================================================
    RESPONSIVE
    ============================================================ */
