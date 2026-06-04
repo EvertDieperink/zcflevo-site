@@ -86,6 +86,7 @@ Je schrijft je in via onderstaand formulier. Wij nemen contact met je op om een 
 Om mee te kunnen vliegen vragen we het volgende:
 
 - Je bent in **goede gezondheid** en goed ter been
+- Je weegt **maximaal 105 kg** (in verband met de toegestane belasting van de cockpit)
 - Je kunt **zelfstandig in en uit de cockpit** komen
 - Tijdens de vlucht kun je **aanwijzingen van de instructeur opvolgen** (in het toestel zit dubbele besturing waar de passagier af moet blijven)
 
