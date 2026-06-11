@@ -71,6 +71,16 @@ Zweefvliegen is een sport die mensen raakt. Onze leden vertellen graag waarom ze
   </div>
 </div>
 
+<div class="leden-card">
+  <div class="leden-card-header">
+    <img class="leden-avatar" src="{{< url "/images/marijn.jpg" >}}" alt="Marijn">
+    <div class="leden-name">Marijn</div>
+  </div>
+  <div class="leden-card-body">
+    <p>Mijn eerste vlucht in een zweefvliegtuig zal ik nooit vergeten. Het moment dat je loskomt van de grond en de wereld onder je steeds kleiner wordt is echt magisch. Het heeft me niet alleen enthousiast gemaakt voor vliegen, maar ook voor alles wat erbij komt kijken. Door deze hobby zijn zelfs mijn vader en mijn broertje ook gaan vliegen. Het is iets geworden wat we nu samen delen.</p>
+  </div>
+</div>
+
 <!-- PLACEHOLDER VOOR NIEUW VERHAAL, verwijder dit commentaar wanneer ingevuld -->
 <div class="leden-card leden-card--placeholder">
   <div class="leden-card-header">
