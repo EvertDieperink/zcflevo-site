@@ -1,6 +1,6 @@
 ---
 title: "Incident melden"
-description: "Bij ZC Flevo melden we voorvallen via vliegveiligheid.nl. Vanuit datzelfde systeem kun je ook bij ABL melden als dat wettelijk vereist is."
+description: "Bij ZC Flevo melden we voorvallen via vliegveiligheid.nl. Vanuit datzelfde systeem kun je ook bij ABL & OVV melden als dat wettelijk vereist is."
 menu:
   main:
     name: "Incident melden"
@@ -16,7 +16,7 @@ De club hanteert een **just culture**: meldingen worden gebruikt om te leren, ni
 
 ## Hoe meld je een incident?
 
-Voor zowel een melding aan de club / sector als een wettelijke melding aan ABL gebruik je hetzelfde platform: **vliegveiligheid.nl**. Eén formulier, één plek, voor alles.
+Voor zowel een melding aan de club / sector als een wettelijke melding aan ABL & OVV gebruik je hetzelfde platform: **vliegveiligheid.nl**. Eén formulier, één plek, voor alles.
 
 <div class="incident-cta">
   <a href="https://melden.zweefvliegen.vliegveiligheid.nl" target="_blank" rel="noopener" class="btn btn-primary">
@@ -25,7 +25,7 @@ Voor zowel een melding aan de club / sector als een wettelijke melding aan ABL g
   <p class="incident-cta-sub">melden.zweefvliegen.vliegveiligheid.nl</p>
 </div>
 
-Het invullen kost een paar minuten. In het formulier kun je aangeven of de melding ook **moet** worden doorgestuurd naar het Analysebureau Luchtvaartvoorvallen (ABL), zie hieronder wanneer dat geldt.
+Het invullen kost een paar minuten. In het formulier kun je aangeven of de melding ook **moet** worden doorgestuurd naar het Analysebureau Luchtvaartvoorvallen (ABL) en de Onderzoeksraad voor Veiligheid (OVV); het formulier geeft aan hoe je dit doet. Zie hieronder wanneer dat geldt.
 
 ## Wat kun je melden?
 
@@ -41,11 +41,11 @@ Bij twijfel: **wel melden**. Liever te veel dan te weinig. Denk aan:
 
 Patronen worden pas zichtbaar als veel mensen meedoen. Ook de kleine voorvallen tellen.
 
-## Wanneer ook bij ABL melden?
+## Wanneer ook bij ABL & OVV melden?
 
-Voor bepaalde voorvallen geldt naast de melding aan de zweefvliegsector ook een **wettelijke meldplicht** bij het **Analysebureau Luchtvaartvoorvallen (ABL)**, onderdeel van de Inspectie Leefomgeving en Transport. Dit volgt uit **EU-verordening 376/2014**. Je hoeft hiervoor niet naar een ander platform: je doet het via hetzelfde formulier op vliegveiligheid.nl, door bij de melding aan te geven dat hij ook naar ABL moet. De melding moet **binnen 72 uur** worden ingediend.
+Voor bepaalde voorvallen geldt naast de melding aan de zweefvliegsector ook een **wettelijke meldplicht** bij het **Analysebureau Luchtvaartvoorvallen (ABL)** en de **Onderzoeksraad voor Veiligheid (OVV)**. Het ABL is onderdeel van de Inspectie Leefomgeving en Transport. Dit volgt uit **EU-verordening 376/2014**. Je hoeft hiervoor niet naar een ander platform: je doet het via hetzelfde formulier op vliegveiligheid.nl, door bij de melding aan te geven dat hij ook naar ABL & OVV moet. Het formulier geeft aan hoe je dit doet. De melding moet **binnen 72 uur** worden ingediend.
 
-Een melding bij ABL is in elk geval verplicht bij:
+Een melding bij ABL & OVV is in elk geval verplicht bij:
 
 - **Een ongeval**: een voorval met letsel, dood, of substantiële schade aan het toestel
 - **Een ernstig incident**: een situatie die *bijna* tot een ongeval had geleid (bijvoorbeeld een bijna-aanvaring met een ander luchtvaartuig)
@@ -56,9 +56,9 @@ Een melding bij ABL is in elk geval verplicht bij:
 - **Schending van het luchtruim**
 - **Technisch falen** van een veiligheidskritisch onderdeel (zoals stuurorgaan, gordel, parachute)
 
-Twijfel je of een voorval onder de meldplicht valt? Vink dan in het formulier ook ABL aan, een melding te veel kost niets, een melding te weinig kan wel gevolgen hebben.
+Twijfel je of een voorval onder de meldplicht valt? Vink dan in het formulier ook ABL & OVV aan, een melding te veel kost niets, een melding te weinig kan wel gevolgen hebben.
 
-Bij **ernstige ongevallen** kan ook de **Onderzoeksraad voor Veiligheid (OVV)** een onafhankelijk onderzoek starten. Een melding via vliegveiligheid.nl/ABL is dan altijd het startpunt.
+Bij **ernstige ongevallen** kan de **Onderzoeksraad voor Veiligheid (OVV)** ook een onafhankelijk onderzoek starten. Een melding via vliegveiligheid.nl is dan altijd het startpunt.
 
 ## Wat gebeurt er met je melding?
 
@@ -69,6 +69,6 @@ Bij **ernstige ongevallen** kan ook de **Onderzoeksraad voor Veiligheid (OVV)** 
 
 ## Vragen of twijfels?
 
-Niet zeker of je iets moet melden, of of het ook bij ABL moet? Bespreek het met een instructeur, met de veiligheidsfunctionaris van de club, of stuur een mail naar {{< email >}}. We helpen je graag verder.
+Niet zeker of je iets moet melden, of of het ook bij ABL & OVV moet? Bespreek het met een instructeur, met de veiligheidsfunctionaris van de club, of stuur een mail naar {{< email >}}. We helpen je graag verder.
 
 > Een melding is geen aanklacht. Het is een investering in een veiligere club.
