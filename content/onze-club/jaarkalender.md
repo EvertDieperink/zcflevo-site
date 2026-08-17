@@ -7,11 +7,13 @@ _build:
   render: always
 ---
 
-Het vliegseizoen loopt van **1 maart t/m 1 november**: in die periode vliegen we elk weekend en op veel vrijdagen. Hieronder staan de bijzondere data van 2026 op een rij.
+Het vliegseizoen loopt van **1 maart t/m 1 november**. Hieronder staan de bijzondere data van 2026 op een rij.
 
 <div class="kalender">
 
-<p class="kalender-concept"><strong>Conceptversie.</strong> Deze kalender is nog een concept; data kunnen wijzigen.</p>
+<div class="kalender-vliegdagen">
+  <strong>Wanneer vliegen we?</strong> Tijdens het vliegseizoen vliegen we <strong>elk weekend</strong>, op zaterdag en zondag. Bij mooi weer wordt er vaak ook op <strong>vrijdag</strong> gevlogen. Een vrijdag is wel minder vanzelfsprekend dan een weekenddag: hij gaat alleen door bij goed weer en voldoende aanmeldingen, en er is dan niet altijd een instructeur aanwezig. DBO'ers en solisten kunnen op vrijdag dus niet altijd vliegen.
+</div>
 
 <div class="kalender-legenda">
   <span class="kchip kchip--club">Clubactiviteit</span>
