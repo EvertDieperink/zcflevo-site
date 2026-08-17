@@ -1,5 +1,5 @@
 # @claude-bot: reageert op "@claude" in issues en pull requests.
-# Werkt altijd via een pull request; kan nooit rechtstreeks naar main pushen.
+# Bij een issue-verzoek wordt de wijziging automatisch gemerged en gedeployed.
 # Vereist: Claude GitHub-app geinstalleerd op deze repo + secret CLAUDE_CODE_OAUTH_TOKEN.
 name: Claude
 
@@ -27,7 +27,7 @@ jobs:
       pull-requests: write
       issues: write
       id-token: write
-      actions: read # nodig om CI-resultaten op PR's te kunnen lezen
+      actions: write # nodig om na de merge de deploy-workflow te starten
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
@@ -35,6 +35,36 @@ jobs:
           fetch-depth: 1
 
       - name: Run Claude Code
+        id: claude
         uses: anthropics/claude-code-action@v1
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+
+      # Automatische PR + merge, alleen voor issue-verzoeken (dus niet voor
+      # reacties op bestaande pull requests). Belangrijk: een merge die de
+      # workflow zelf doet triggert GEEN nieuwe workflows (GitHub voorkomt
+      # kettingreacties), dus we starten de deploy daarna expliciet.
+      - name: PR automatisch aanmaken, mergen en deployen
+        if: |
+          steps.claude.outputs.conclusion == 'success' &&
+          steps.claude.outputs.branch_name != '' &&
+          (github.event_name == 'issues' || (github.event_name == 'issue_comment' && !github.event.issue.pull_request))
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BRANCH: ${{ steps.claude.outputs.branch_name }}
+          ISSUE_NR: ${{ github.event.issue.number }}
+          ISSUE_TITEL: ${{ github.event.issue.title }}
+        run: |
+          # Alleen mergen als de branch echt wijzigingen bevat (bij een
+          # vraag-zonder-wijziging is er niets te doen).
+          TOTAL=$(gh api "repos/${{ github.repository }}/compare/main...$BRANCH" --jq '.total_commits' 2>/dev/null || echo 0)
+          if [ "$TOTAL" = "0" ]; then
+            echo "Geen wijzigingen op $BRANCH; niets te mergen."
+            exit 0
+          fi
+          PR_URL=$(gh pr create --head "$BRANCH" --base main \
+            --title "$ISSUE_TITEL (issue #$ISSUE_NR)" \
+            --body "Automatisch aangemaakt en gemerged vanuit issue #$ISSUE_NR door de @claude-workflow.")
+          gh pr merge "$PR_URL" --squash --delete-branch
+          gh workflow run hugo.yml --ref main
+          gh issue comment "$ISSUE_NR" --body "Automatisch doorgevoerd via $PR_URL. De site wordt nu opnieuw gebouwd; na 1 a 2 minuten staat de wijziging live op zcflevo.nl."

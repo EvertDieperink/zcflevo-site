@@ -66,7 +66,8 @@ Alles gebeurt in je browser. Dit geldt voor allebei de manieren hieronder.
 Je hoeft niet zelf in bestanden te graven: je kunt elke wijziging gewoon
 **in het Nederlands aanvragen**. Claude, onze AI-assistent, leest je
 verzoek, past de website aan volgens de huisstijl en zet het resultaat
-voor je klaar. Jij controleert het en keurt het goed.
+**automatisch live**. Jij controleert daarna op de site of het is wat je
+bedoelde.
 
 ### Stap 1: open een issue
 
@@ -92,30 +93,28 @@ Voorbeelden:
 
 Klik daarna op **Create** (de groene knop).
 
-### Stap 3: wacht een paar minuten en klik "Create PR"
+### Stap 3: wacht een paar minuten
 
-Claude reageert in het issue en gaat aan de slag. Als hij klaar is staat
-er in zijn reactie een link **"Create PR ➔"**. Klik daarop en daarna op
-de groene knop **Create pull request**. Daarmee maak je het
-wijzigingsvoorstel aan; er staat dan nog **niets** live.
+Claude reageert in het issue en gaat aan de slag. Als hij klaar is wordt
+de wijziging **automatisch doorgevoerd**: er wordt een pull request
+aangemaakt, gemerged en de site wordt opnieuw gebouwd. Claude meldt dit
+in het issue. Na 3 à 4 minuten in totaal staat het live op
+[zcflevo.nl](https://zcflevo.nl).
 
-### Stap 4: controleren en goedkeuren
+### Stap 4: controleer het resultaat
 
-Open in de pull request het tabblad **Files changed**: rood is
-wat weggaat, groen is wat erbij komt.
+Bekijk de pagina op de site (druk op **Ctrl+F5** voor de nieuwste
+versie).
 
-- **Goed?** Klik op **Merge pull request** en daarna **Confirm merge**.
-  Na 1 à 2 minuten staat de wijziging live op
-  [zcflevo.nl](https://zcflevo.nl).
-- **Bijna goed?** Schrijf in de pull request een comment met je feedback,
-  weer met @claude erin, bijvoorbeeld *"@claude maak de tekst wat
-  korter"*. Claude past het voorstel dan aan.
-- **Niet goed?** Klik onderaan op **Close pull request**. Er gebeurt dan
-  niets; de site blijft zoals hij was.
+- **Goed?** Klaar. Je kunt het issue sluiten.
+- **Niet (helemaal) goed?** Schrijf in hetzelfde issue een nieuwe
+  comment met @claude en je feedback, bijvoorbeeld *"@claude maak de
+  tekst wat korter"* of *"@claude draai deze wijziging weer terug"*.
+  Claude voert dat dan weer automatisch door.
 
-> 💡 **Goed om te weten:** de AI kan nooit zelf iets op de site zetten.
-> Er gaat pas iets live nadat een mens op Merge heeft gedrukt. Je kunt
-> dus niets kapot maken door iets te vragen.
+> 💡 **Goed om te weten:** elke wijziging wordt bewaard in de
+> geschiedenis en is altijd terug te draaien. Alleen clubleden die als
+> medewerker zijn toegevoegd kunnen de AI aan het werk zetten.
 
 **Wat (nog) niet via een issue kan:** foto's meesturen. Nieuwe foto's
 upload je zelf (zie
