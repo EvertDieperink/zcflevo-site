@@ -1935,3 +1935,133 @@ body.nav-open { overflow: hidden; }
   .hero-buttons { flex-direction: column; align-items: center; }
   .hero-buttons .btn { width: 100%; max-width: 280px; text-align: center; }
 }
+
+/* Jaarkalender (verborgen pagina /jaarkalender/) */
+.kalender-concept {
+  background: #fff6d9;
+  border-left: 4px solid #e9b400;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 0.7rem 1rem;
+  font-size: 0.9rem;
+  color: #5c4a00;
+}
+.kalender-legenda {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.25rem 0 0.5rem;
+}
+.kchip {
+  display: inline-block;
+  padding: 0.14rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.5;
+  vertical-align: 0.12em;
+  white-space: nowrap;
+}
+.kchip--club      { background: #e3f0fa; color: var(--blue-dark); }
+.kchip--kamp      { background: #fdeaea; color: var(--red-dark); }
+.kchip--wedstrijd { background: #fff3cd; color: #7a5d00; }
+.kchip--feestdag  { background: #ececee; color: var(--text-muted); }
+.kchip--vakantie  { background: #eef1f4; color: var(--text-muted); border: 1px dashed #c3c9d1; }
+
+.kalender-item {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--blue);
+  border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+  padding: 0.9rem 1.15rem;
+  margin: 0.65rem 0;
+}
+.kalender-item[data-cat="kamp"]      { border-left-color: var(--red); }
+.kalender-item[data-cat="wedstrijd"] { border-left-color: #e9b400; }
+.kalender-item[data-cat="feestdag"]  { border-left-color: #9aa1ab; }
+.kalender-item--vakantie {
+  border-left-color: #c3c9d1;
+  background: var(--bg-light);
+  padding: 0.6rem 1.15rem;
+}
+.kalender-datum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex: 0 0 7.5rem;
+  padding: 0.4rem 0.5rem;
+  background: var(--bg-light);
+  border-radius: var(--radius);
+}
+.kalender-item--vakantie .kalender-datum { background: #fff; }
+.kd-dag {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+}
+.kd-d {
+  font-weight: 700;
+  color: var(--blue-dark);
+  line-height: 1.3;
+  white-space: nowrap;
+}
+.kd-tot {
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  line-height: 1.2;
+}
+.kalender-info { min-width: 0; }
+.kalender-titel { font-weight: 700; color: var(--text); }
+.kalender-titel .kchip { margin-left: 0.45rem; }
+.page-content .kalender-detail {
+  margin: 0.25rem 0 0;
+  font-size: 0.92rem;
+  color: var(--text-muted);
+}
+.kalender-winter {
+  margin-top: 1.75rem;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+}
+
+/* status via inline script: voorbij dimmen, lopend/eerstvolgend uitlichten */
+.kalender-item--voorbij { opacity: 0.55; }
+.kalender-item--nu .kalender-datum::after,
+.kalender-item--volgende .kalender-datum::after {
+  content: "eerstvolgende";
+  margin-top: 0.35rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #fff;
+  background: var(--blue);
+}
+.kalender-item--nu .kalender-datum::after { content: "nu bezig"; background: var(--red); }
+.kalender-item--volgende,
+.kalender-item--nu { box-shadow: var(--shadow); }
+
+@media (max-width: 560px) {
+  .kalender-item {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.6rem;
+  }
+  .kalender-datum {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 0.45rem;
+    flex-basis: auto;
+    padding: 0.3rem 0.6rem;
+  }
+  .kalender-datum::after { margin-top: 0 !important; margin-left: auto; }
+}

@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ if .IsHome }}{{ .Site.Title }} | Zweefvliegen bij Arnhem{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  {{- /* Verborgen pagina's (bijv. /rondje/, /jaarkalender/) zetten robots in
+         hun front matter, zodat zoekmachines ze niet indexeren. */ -}}
+  {{- with .Params.robots }}
+  <meta name="robots" content="{{ . }}">
+  {{- end }}
   <link rel="canonical" href="{{ .Permalink }}">
   <link rel="icon" href="{{ "images/logo.svg" | relURL }}" type="image/svg+xml">
 
