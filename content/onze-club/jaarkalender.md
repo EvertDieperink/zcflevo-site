@@ -3,7 +3,7 @@ title: "Jaarkalender 2026"
 description: "Alle bijzondere data van het vliegjaar 2026: clubactiviteiten, kampen, wedstrijden, feestdagen en schoolvakanties."
 menu:
   main:
-    name: "Jaarkalender"
+    name: "Jaarkalender 2026"
     parent: "onze-club"
     weight: 24
 ---
