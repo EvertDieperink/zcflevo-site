@@ -27,7 +27,13 @@ jobs:
       pull-requests: write
       issues: write
       id-token: write
+      actions: read # nodig om CI-resultaten op PR's te kunnen lezen
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+
       - name: Run Claude Code
         uses: anthropics/claude-code-action@v1
         with:
