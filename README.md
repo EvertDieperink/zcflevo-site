@@ -350,6 +350,14 @@ Ja, gebruik in de editor de tab **Preview** (naast Edit). Daar zie je de
 opmaak. Voor de exacte huisstijl moet je wachten tot de wijziging live
 staat (1–2 minuten na opslaan).
 
+### Ik krijg een e-mail bij elk issue en elke reactie van de bot. Kan dat uit?
+
+Ja. Ga naar de
+[repository-pagina](https://github.com/EvertDieperink/zcflevo-site), klik
+rechtsboven op de knop **Watch** (belletje) en kies **Ignore**. Je krijgt
+dan geen e-mails meer van deze repository. Alles blijft gewoon zichtbaar
+op GitHub zelf, en de bot doet zijn werk ook zonder dat jij de mails leest.
+
 ### Hoe weet ik wanneer de site is bijgewerkt?
 
 Klik in de repo op het tabblad **Actions**. Je ziet daar een lijst met

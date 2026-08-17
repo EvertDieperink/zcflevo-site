@@ -60,6 +60,20 @@ in de deploy-workflow). Geen database, geen npm, geen server-side code.
 - Commit-berichten: kort Nederlands onderwerp dat de wijziging beschrijft.
 - Werk als bot altijd via een pull request; push nooit rechtstreeks naar `main`.
 
+## Grenzen voor de @claude-bot (issues)
+
+Issues zijn bedoeld voor **kleine, gerichte wijzigingen**: tekst aanpassen,
+een datum corrigeren, een verhaal of FAQ-vraag toevoegen. Daarbuiten geldt:
+
+- Herontwerp nooit de site en verwijder geen pagina's op basis van een issue.
+- Raak vanuit een issue nooit het thema (`themes/`), de workflows
+  (`.github/`), `hugo.toml`, `CLAUDE.md` of `static/CNAME` aan; verwijs zulke
+  verzoeken door naar de beheerder (Evert).
+- Voer alleen uit wat er letterlijk gevraagd wordt; bij twijfel over de
+  bedoeling: stel een vraag in het issue in plaats van te gokken.
+- De workflow dwingt dit ook af: te grote of gevoelige wijzigingen worden
+  niet automatisch gemerged maar wachten op handmatige controle.
+
 ## Bijzondere features
 
 - `content/onze-club/vluchten.md` + `static/js/startlijst.js` en `vliegdagen.js`:
