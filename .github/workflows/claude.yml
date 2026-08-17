@@ -55,16 +55,32 @@ jobs:
           ISSUE_NR: ${{ github.event.issue.number }}
           ISSUE_TITEL: ${{ github.event.issue.title }}
         run: |
+          # GitHub-API's haperen soms (503); probeer elk commando daarom
+          # een paar keer met tussenpozen voordat we opgeven.
+          retry() {
+            for i in 1 2 3 4 5; do
+              "$@" && return 0
+              echo "Poging $i mislukt; opnieuw over 30s..."
+              sleep 30
+            done
+            return 1
+          }
           # Alleen mergen als de branch echt wijzigingen bevat (bij een
           # vraag-zonder-wijziging is er niets te doen).
-          TOTAL=$(gh api "repos/${{ github.repository }}/compare/main...$BRANCH" --jq '.total_commits' 2>/dev/null || echo 0)
+          TOTAL=$(retry gh api "repos/${{ github.repository }}/compare/main...$BRANCH" --jq '.total_commits' || echo 0)
           if [ "$TOTAL" = "0" ]; then
             echo "Geen wijzigingen op $BRANCH; niets te mergen."
             exit 0
           fi
-          PR_URL=$(gh pr create --head "$BRANCH" --base main \
-            --title "$ISSUE_TITEL (issue #$ISSUE_NR)" \
-            --body "Automatisch aangemaakt en gemerged vanuit issue #$ISSUE_NR door de @claude-workflow.")
-          gh pr merge "$PR_URL" --squash --delete-branch
-          gh workflow run hugo.yml --ref main
-          gh issue comment "$ISSUE_NR" --body "Automatisch doorgevoerd via $PR_URL. De site wordt nu opnieuw gebouwd; na 1 a 2 minuten staat de wijziging live op zcflevo.nl."
+          PR_URL=""
+          for i in 1 2 3 4 5; do
+            PR_URL=$(gh pr create --head "$BRANCH" --base main \
+              --title "$ISSUE_TITEL (issue #$ISSUE_NR)" \
+              --body "Automatisch aangemaakt en gemerged vanuit issue #$ISSUE_NR door de @claude-workflow.") && break
+            echo "PR aanmaken mislukt (poging $i); opnieuw over 30s..."
+            sleep 30
+          done
+          [ -z "$PR_URL" ] && { echo "PR aanmaken definitief mislukt."; exit 1; }
+          retry gh pr merge "$PR_URL" --squash --delete-branch
+          retry gh workflow run hugo.yml --ref main
+          retry gh issue comment "$ISSUE_NR" --body "Automatisch doorgevoerd via $PR_URL. De site wordt nu opnieuw gebouwd; na 1 a 2 minuten staat de wijziging live op zcflevo.nl."
