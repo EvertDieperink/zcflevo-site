@@ -1,10 +1,11 @@
 ---
 title: "Jaarkalender 2026"
 description: "Alle bijzondere data van het vliegjaar 2026: clubactiviteiten, kampen, wedstrijden, feestdagen en schoolvakanties."
-robots: "noindex, nofollow"
-_build:
-  list: never
-  render: always
+menu:
+  main:
+    name: "Jaarkalender"
+    parent: "onze-club"
+    weight: 24
 ---
 
 Het vliegseizoen loopt van **1 maart t/m 1 november**. Hieronder staan de bijzondere data van 2026 op een rij.
