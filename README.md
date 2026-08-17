@@ -4,10 +4,20 @@
 
 ---
 
-Deze handleiding legt uit hoe je als clublid eenvoudige aanpassingen aan de
-website kunt doen: een typfout corrigeren, een foto vervangen, een nieuw
-lidverhaal toevoegen. Geen technische voorkennis nodig. Als je een e-mail
-kunt schrijven, kun je dit ook.
+Deze handleiding legt uit hoe je als clublid aanpassingen aan de website
+kunt doen: een typfout corrigeren, een foto vervangen, een nieuw
+lidverhaal toevoegen. Dat kan op **twee manieren**:
+
+1. **Vraag het aan de AI (de makkelijkste manier):** je schrijft in gewoon
+   Nederlands wat er anders moet, en Claude, onze AI-assistent, voert het
+   uit. Jij hoeft alleen het resultaat te controleren en op de groene knop
+   te drukken. Zie [Manier 1](#manier-1-vraag-het-aan-de-ai).
+2. **Zelf bewerken via GitHub:** je past de tekstbestanden zelf aan in je
+   browser. Handig voor kleine typfoutjes of als je precies weet wat je
+   wilt. Zie [Manier 2](#manier-2-zelf-bewerken-via-github).
+
+Geen technische voorkennis nodig. Als je een e-mail kunt schrijven, kun
+je dit ook.
 
 > 💡 **Tip:** Niets is onherstelbaar. Alles wat je doet wordt automatisch
 > opgeslagen als "stapje" in de geschiedenis. Iets per ongeluk kapot
@@ -22,16 +32,18 @@ in deze repo.
 ## Inhoudsopgave
 
 1. [Wat je nodig hebt](#wat-je-nodig-hebt)
-2. [Hoe werkt dit eigenlijk?](#hoe-werkt-dit-eigenlijk)
-3. [Tekst aanpassen op een bestaande pagina](#tekst-aanpassen-op-een-bestaande-pagina)
-4. [Een foto vervangen of toevoegen](#een-foto-vervangen-of-toevoegen)
-5. [Een nieuw lidverhaal toevoegen](#een-nieuw-lidverhaal-toevoegen)
-6. [Markdown: korte uitleg](#markdown-korte-uitleg)
-7. [Shortcodes: stukjes die automatisch worden ingevuld](#shortcodes-stukjes-die-automatisch-worden-ingevuld)
-8. [Wat je beter NIET kunt aanpassen](#wat-je-beter-niet-kunt-aanpassen)
-9. [Veelgestelde vragen](#veelgestelde-vragen)
-10. [Onder de motorkap: hoe werkt het technisch?](#onder-de-motorkap-hoe-werkt-het-technisch)
-11. [Hulp nodig?](#hulp-nodig)
+2. [Manier 1: vraag het aan de AI](#manier-1-vraag-het-aan-de-ai)
+3. [Manier 2: zelf bewerken via GitHub](#manier-2-zelf-bewerken-via-github)
+4. [Hoe werkt dit eigenlijk?](#hoe-werkt-dit-eigenlijk)
+5. [Tekst aanpassen op een bestaande pagina](#tekst-aanpassen-op-een-bestaande-pagina)
+6. [Een foto vervangen of toevoegen](#een-foto-vervangen-of-toevoegen)
+7. [Een nieuw lidverhaal toevoegen](#een-nieuw-lidverhaal-toevoegen)
+8. [Markdown: korte uitleg](#markdown-korte-uitleg)
+9. [Shortcodes: stukjes die automatisch worden ingevuld](#shortcodes-stukjes-die-automatisch-worden-ingevuld)
+10. [Wat je beter NIET kunt aanpassen](#wat-je-beter-niet-kunt-aanpassen)
+11. [Veelgestelde vragen](#veelgestelde-vragen)
+12. [Onder de motorkap: hoe werkt het technisch?](#onder-de-motorkap-hoe-werkt-het-technisch)
+13. [Hulp nodig?](#hulp-nodig)
 
 ---
 
@@ -45,7 +57,78 @@ in deze repo.
 3. Een **moderne browser** (Chrome, Edge, Firefox, Safari)
 
 Je hoeft niets te installeren. Geen code, geen terminal, geen Git client.
-Alles gebeurt in je browser.
+Alles gebeurt in je browser. Dit geldt voor allebei de manieren hieronder.
+
+---
+
+## Manier 1: vraag het aan de AI
+
+Je hoeft niet zelf in bestanden te graven: je kunt elke wijziging gewoon
+**in het Nederlands aanvragen**. Claude, onze AI-assistent, leest je
+verzoek, past de website aan volgens de huisstijl en zet het resultaat
+voor je klaar. Jij controleert het en keurt het goed.
+
+### Stap 1: open een issue
+
+Ga naar het tabblad
+[**Issues**](https://github.com/EvertDieperink/zcflevo-site/issues) en
+klik op **New issue**.
+
+### Stap 2: schrijf wat je wilt, met @claude erin
+
+Geef een korte titel en schrijf in het grote tekstvak wat er moet
+gebeuren. **Zet er `@claude` in**, anders gebeurt er niets. Wees zo
+concreet mogelijk: noem de pagina en wat er moet veranderen.
+
+Voorbeelden:
+
+> @claude op de FAQ-pagina staat dat we op zondag rond 20:00 stoppen;
+> maak daar "rond zonsondergang" van.
+
+> @claude verplaats in de jaarkalender de ALV naar zaterdag 7 maart.
+
+> @claude voeg dit verhaal van Piet toe aan de pagina Leden vertellen:
+> (plak hier de tekst)
+
+Klik daarna op **Create** (de groene knop).
+
+### Stap 3: wacht een paar minuten
+
+Claude reageert in het issue en gaat aan de slag. Als hij klaar is heeft
+hij een **pull request** gemaakt: een wijzigingsvoorstel dat nog **niet**
+live staat. De link verschijnt in het issue.
+
+### Stap 4: controleren en goedkeuren
+
+Open de pull request en klik op het tabblad **Files changed**: rood is
+wat weggaat, groen is wat erbij komt.
+
+- **Goed?** Klik op **Merge pull request** en daarna **Confirm merge**.
+  Na 1 à 2 minuten staat de wijziging live op
+  [zcflevo.nl](https://zcflevo.nl).
+- **Bijna goed?** Schrijf in de pull request een comment met je feedback,
+  weer met @claude erin, bijvoorbeeld *"@claude maak de tekst wat
+  korter"*. Claude past het voorstel dan aan.
+- **Niet goed?** Klik onderaan op **Close pull request**. Er gebeurt dan
+  niets; de site blijft zoals hij was.
+
+> 💡 **Goed om te weten:** de AI kan nooit zelf iets op de site zetten.
+> Er gaat pas iets live nadat een mens op Merge heeft gedrukt. Je kunt
+> dus niets kapot maken door iets te vragen.
+
+**Wat (nog) niet via een issue kan:** foto's meesturen. Nieuwe foto's
+upload je zelf (zie
+[Een foto vervangen of toevoegen](#een-foto-vervangen-of-toevoegen)) of
+mail je naar Evert; daarna kan Claude ze wel voor je op de juiste plek
+in een pagina zetten.
+
+---
+
+## Manier 2: zelf bewerken via GitHub
+
+Wil je liever zelf aan de knoppen zitten, of gaat het om een piepklein
+typfoutje? De rest van deze handleiding legt uit hoe je de bestanden
+rechtstreeks in je browser bewerkt.
 
 ---
 
@@ -280,8 +363,10 @@ zolang we niets nieuws bovenop committen.
 
 ### Mag ik nieuwe pagina's maken?
 
-Liever niet zelf. Vraag Evert, nieuwe pagina's vereisen ook
-menu-configuratie. Bestaande pagina's bewerken kan altijd.
+Liever niet handmatig, want nieuwe pagina's vereisen ook
+menu-configuratie. Vraag het via een issue aan @claude (zie
+[Manier 1](#manier-1-vraag-het-aan-de-ai)) of mail Evert. Bestaande
+pagina's bewerken kan altijd.
 
 ---
 
@@ -347,12 +432,18 @@ zien in de repo onder het tabblad **Actions**.
 
 Deze site, het Hugo-theme, de build-workflow en zelfs deze handleiding
 zijn opgezet met behulp van
-**[Claude Code](https://www.anthropic.com/claude-code)** &mdash; een
+**[Claude Code](https://www.anthropic.com/claude-code)**: een
 AI-coding-agent van Anthropic waarmee je code schrijft (en
 sites bouwt) door simpelweg te beschrijven wat je wilt. Veel van het
 werk gebeurt in een gesprek: "voeg een pagina toe over X", "vervang
 overal Y door Z", "maak het op mobiel beter leesbaar". Dat scheelt
 enorm in tijd en helpt om de site fris en consistent te houden.
+
+Diezelfde AI draait ook als **@claude-bot** op deze repository: dat is
+de motor achter [Manier 1](#manier-1-vraag-het-aan-de-ai). De
+spelregels die de bot volgt staan in [`CLAUDE.md`](./CLAUDE.md), en de
+workflow die hem start in
+[`.github/workflows/claude.yml`](./.github/workflows/claude.yml).
 
 ---
 
