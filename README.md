@@ -92,15 +92,16 @@ Voorbeelden:
 
 Klik daarna op **Create** (de groene knop).
 
-### Stap 3: wacht een paar minuten
+### Stap 3: wacht een paar minuten en klik "Create PR"
 
-Claude reageert in het issue en gaat aan de slag. Als hij klaar is heeft
-hij een **pull request** gemaakt: een wijzigingsvoorstel dat nog **niet**
-live staat. De link verschijnt in het issue.
+Claude reageert in het issue en gaat aan de slag. Als hij klaar is staat
+er in zijn reactie een link **"Create PR ➔"**. Klik daarop en daarna op
+de groene knop **Create pull request**. Daarmee maak je het
+wijzigingsvoorstel aan; er staat dan nog **niets** live.
 
 ### Stap 4: controleren en goedkeuren
 
-Open de pull request en klik op het tabblad **Files changed**: rood is
+Open in de pull request het tabblad **Files changed**: rood is
 wat weggaat, groen is wat erbij komt.
 
 - **Goed?** Klik op **Merge pull request** en daarna **Confirm merge**.
