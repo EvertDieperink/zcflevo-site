@@ -378,10 +378,15 @@
         detailRij.appendChild(detailCel);
 
         var knopCel = el('td');
-        var toggle = knop('Details', 'theorie-knop-secundair theorie-mini', function () {
+        var toggle = el('button', 'theorie-detailtoggle');
+        toggle.type = 'button';
+        var pijl = el('span', 'theorie-detailpijl', '▸');
+        toggle.appendChild(pijl);
+        toggle.appendChild(document.createTextNode('details'));
+        toggle.addEventListener('click', function () {
           var open = detailRij.style.display !== 'none';
           detailRij.style.display = open ? 'none' : '';
-          toggle.textContent = open ? 'Details' : 'Sluit';
+          toggle.classList.toggle('is-open', !open);
         });
         knopCel.appendChild(toggle);
         rij.appendChild(knopCel);

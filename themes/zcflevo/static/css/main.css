@@ -2201,7 +2201,26 @@ body.nav-open { overflow: hidden; }
 .theorie-foutblok--goed { border-left-color: #2e8b57; }
 
 /* Uitklapbare vraagdetails per poging in het resultatenlog */
-.theorie-mini { padding: 0.2rem 0.65rem; font-size: 0.78rem; }
+.theorie-detailtoggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: none;
+  border: none;
+  padding: 0.15rem 0.3rem;
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--blue);
+  cursor: pointer;
+}
+.theorie-detailtoggle:hover { text-decoration: underline; }
+.theorie-detailpijl {
+  display: inline-block;
+  font-size: 0.75rem;
+  transition: transform 0.15s ease;
+}
+.theorie-detailtoggle.is-open .theorie-detailpijl { transform: rotate(90deg); }
 .page-content .theorie-detailrij > td { background: var(--bg-light); padding: 0.9rem 1rem; }
 .theorie-detailrij .theorie-foutblok { background: #fff; }
 .page-content .theorie-detailkop {
