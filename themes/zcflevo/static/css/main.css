@@ -2065,3 +2065,140 @@ body.nav-open { overflow: hidden; }
   }
   .kalender-datum::after { margin-top: 0 !important; margin-left: auto; }
 }
+
+/* Theorie-oefenquiz (verborgen pagina /theorie/) */
+.theorie-kop { margin-top: 1.5rem; }
+.theorie-vakgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.8rem;
+  margin: 1rem 0;
+}
+.theorie-vakkaart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.3rem;
+  padding: 1rem 1.1rem;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-top: 4px solid var(--blue);
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+  text-align: left;
+  font: inherit;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+.theorie-vakkaart:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
+.page-content a.theorie-vakkaart { text-decoration: none; color: var(--text); font-weight: 400; }
+.theorie-vaknr {
+  width: 1.9rem;
+  height: 1.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-light);
+  border-radius: 50%;
+  font-weight: 800;
+  font-size: 0.95rem;
+  color: var(--blue-dark);
+  margin-bottom: 0.2rem;
+}
+.theorie-vaknaam { font-weight: 700; color: var(--blue-dark); }
+.theorie-vakstats { font-size: 0.8rem; color: var(--text-muted); }
+
+.theorie-knop {
+  font: inherit;
+  font-weight: 600;
+  padding: 0.55rem 1.2rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: #fff;
+  cursor: pointer;
+}
+.theorie-knop-primair { background: var(--blue); border-color: var(--blue); color: #fff; }
+.theorie-knop-primair:hover { background: var(--blue-dark); }
+.theorie-knop-secundair:hover { background: var(--bg-light); }
+.theorie-knop-gevaar { color: var(--red-dark); border-color: var(--red-dark); }
+.theorie-knop-gevaar:hover { background: #fdeaea; }
+.theorie-voet { display: flex; gap: 0.6rem; flex-wrap: wrap; margin-top: 1.5rem; }
+
+.theorie-quizkop {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
+}
+.theorie-quizvak { font-weight: 700; color: var(--blue-dark); }
+.theorie-quizteller { font-size: 0.85rem; color: var(--text-muted); }
+.theorie-balk {
+  height: 6px;
+  background: var(--bg-light);
+  border-radius: 999px;
+  margin: 0.6rem 0 1.2rem;
+  overflow: hidden;
+}
+.theorie-balkvulling { height: 100%; background: var(--blue); border-radius: 999px; transition: width 0.3s ease; }
+.page-content .theorie-vraag { font-size: 1.1rem; font-weight: 600; }
+.theorie-antwoorden { display: flex; flex-direction: column; gap: 0.5rem; margin: 1rem 0; }
+.theorie-antwoord {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  width: 100%;
+  padding: 0.7rem 0.9rem;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.theorie-antwoord:hover:not(:disabled) { border-color: var(--blue); background: #f3f8fc; }
+.theorie-antwoord:disabled { cursor: default; opacity: 0.85; }
+.theorie-antwoord.is-juist { border-color: #2e8b57; background: #e8f5ee; opacity: 1; }
+.theorie-antwoord.is-fout { border-color: var(--red); background: #fdeaea; opacity: 1; }
+.theorie-letter {
+  flex: 0 0 1.7rem;
+  height: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-light);
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--blue-dark);
+}
+.theorie-feedback {
+  padding: 0.8rem 1rem;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  margin: 0.5rem 0 1rem;
+}
+.theorie-feedback.is-goed { background: #e8f5ee; border-left: 4px solid #2e8b57; }
+.theorie-feedback.is-mis { background: #fdeaea; border-left: 4px solid var(--red); }
+
+.theorie-uitslag {
+  text-align: center;
+  padding: 1.6rem;
+  border-radius: var(--radius-lg);
+  margin-top: 1rem;
+}
+.theorie-uitslag.is-geslaagd { background: #e8f5ee; border: 1px solid #2e8b57; }
+.theorie-uitslag.is-gezakt { background: #fdeaea; border: 1px solid var(--red); }
+.theorie-uitslagscore { font-size: 2.4rem; font-weight: 800; color: var(--blue-dark); }
+.theorie-foutblok {
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--red);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 0.7rem 1rem;
+  margin: 0.6rem 0;
+}
+.page-content .theorie-foutblok p { margin: 0.15rem 0; }
+.theorie-foutvraag { font-weight: 600; }
+.theorie-foutdetail { font-size: 0.92rem; color: var(--text-muted); }
+.theorie-foutdetail.is-juisttekst { color: #2e8b57; font-weight: 600; }
+.theorie-laden, .theorie-fout { color: var(--text-muted); }
+.theorie-fout { color: var(--red-dark); }
