@@ -151,6 +151,9 @@
       try { sessionStorage.setItem(SESSIE_KEY, JSON.stringify(sessie)); } catch (e) {}
     }
     bewaarSessie();
+    // Niet scrollen bij het laden van de pagina; alleen bij het doorklikken
+    // tussen vragen (dan staat de gebruiker onderaan bij de Volgende-knop).
+    var stilleWeergave = true;
 
     function toonVraag() {
       leeg();
@@ -224,7 +227,8 @@
         sluitVraagAf(feedback);
       });
       app.appendChild(weetKnop);
-      window.scrollTo({ top: app.offsetTop - 90, behavior: 'smooth' });
+      if (!stilleWeergave) { window.scrollTo({ top: app.offsetTop - 90, behavior: 'smooth' }); }
+      stilleWeergave = false;
     }
 
     function toonUitslag() {
