@@ -131,7 +131,7 @@
           uitleg: vr.uitleg || ''
         };
       });
-      draaiQuiz(vak, { slug: vak.slug, vragen: vragen, index: 0, goed: 0, fouten: [] });
+      draaiQuiz(vak, { slug: vak.slug, vragen: vragen, index: 0, goed: 0, fouten: [], weetniet: [] });
     };
 
     if (banken[vak.slug]) { klaar(banken[vak.slug]); return; }
@@ -146,6 +146,7 @@
   }
 
   function draaiQuiz(vak, sessie) {
+    if (!sessie.weetniet) { sessie.weetniet = []; } // oudere sessies hervatten
     function bewaarSessie() {
       try { sessionStorage.setItem(SESSIE_KEY, JSON.stringify(sessie)); } catch (e) {}
     }
@@ -170,6 +171,23 @@
 
       var lijst = el('div', 'theorie-antwoorden');
       var beantwoord = false;
+      var weetKnop;
+
+      function sluitVraagAf(feedback) {
+        lijst.querySelectorAll('.theorie-antwoord').forEach(function (kn, ki) {
+          kn.disabled = true;
+          if (ki === vr.juist) { kn.classList.add('is-juist'); }
+        });
+        weetKnop.disabled = true;
+        app.appendChild(feedback);
+        var laatste = (sessie.index + 1 >= sessie.vragen.length);
+        app.appendChild(knop(laatste ? 'Naar de uitslag' : 'Volgende vraag', 'theorie-knop-primair', function () {
+          sessie.index++;
+          bewaarSessie();
+          if (sessie.index >= sessie.vragen.length) { toonUitslag(); } else { toonVraag(); }
+        }));
+      }
+
       vr.a.forEach(function (optie, i) {
         var b = el('button', 'theorie-antwoord');
         b.type = 'button';
@@ -180,26 +198,32 @@
           beantwoord = true;
           var isGoed = (i === vr.juist);
           if (isGoed) { sessie.goed++; }
-          else { sessie.fouten.push({ v: vr.v, gekozen: optie, juist: vr.a[vr.juist] }); }
-          lijst.querySelectorAll('.theorie-antwoord').forEach(function (kn, ki) {
-            kn.disabled = true;
-            if (ki === vr.juist) { kn.classList.add('is-juist'); }
-            else if (ki === i) { kn.classList.add('is-fout'); }
-          });
+          else {
+            sessie.fouten.push({ v: vr.v, gekozen: optie, juist: vr.a[vr.juist] });
+            b.classList.add('is-fout');
+          }
           var feedback = el('div', 'theorie-feedback ' + (isGoed ? 'is-goed' : 'is-mis'));
           feedback.appendChild(el('strong', null, isGoed ? 'Goed! ' : 'Helaas. '));
           if (vr.uitleg) { feedback.appendChild(document.createTextNode(vr.uitleg)); }
-          app.appendChild(feedback);
-          var laatste = (sessie.index + 1 >= sessie.vragen.length);
-          app.appendChild(knop(laatste ? 'Naar de uitslag' : 'Volgende vraag', 'theorie-knop-primair', function () {
-            sessie.index++;
-            bewaarSessie();
-            if (sessie.index >= sessie.vragen.length) { toonUitslag(); } else { toonVraag(); }
-          }));
+          sluitVraagAf(feedback);
         });
         lijst.appendChild(b);
       });
       app.appendChild(lijst);
+
+      // Losse "weet ik niet"-optie: geen punt, geen fout, maar apart geteld.
+      weetKnop = el('button', 'theorie-weetniet', 'Ik weet het niet');
+      weetKnop.type = 'button';
+      weetKnop.addEventListener('click', function () {
+        if (beantwoord) { return; }
+        beantwoord = true;
+        sessie.weetniet.push({ v: vr.v, juist: vr.a[vr.juist] });
+        var feedback = el('div', 'theorie-feedback is-neutraal');
+        feedback.appendChild(el('strong', null, 'Geen punt, wel een leermoment. '));
+        if (vr.uitleg) { feedback.appendChild(document.createTextNode(vr.uitleg)); }
+        sluitVraagAf(feedback);
+      });
+      app.appendChild(weetKnop);
       window.scrollTo({ top: app.offsetTop - 90, behavior: 'smooth' });
     }
 
@@ -211,13 +235,16 @@
         vaknaam: vak.naam,
         score: sessie.goed,
         totaal: sessie.vragen.length,
-        fouten: sessie.fouten
+        fouten: sessie.fouten,
+        weetniet: sessie.weetniet
       });
 
       leeg();
       var geslaagd = (sessie.goed / sessie.vragen.length) >= SLAGINGSGRENS;
       var kaart = el('div', 'theorie-uitslag ' + (geslaagd ? 'is-geslaagd' : 'is-gezakt'));
       kaart.appendChild(el('div', 'theorie-uitslagscore', sessie.goed + ' / ' + sessie.vragen.length));
+      kaart.appendChild(el('div', 'theorie-uitslagdetail',
+        'Goed: ' + sessie.goed + ' · Fout: ' + sessie.fouten.length + ' · Weet niet: ' + sessie.weetniet.length));
       kaart.appendChild(el('div', 'theorie-uitslagtekst', geslaagd
         ? 'Geslaagd! Boven de examengrens van 75%.'
         : 'Nog even oefenen: het examen vraagt 75% (' + Math.ceil(sessie.vragen.length * SLAGINGSGRENS) + ' goed).'));
@@ -229,6 +256,16 @@
           var blok = el('div', 'theorie-foutblok');
           blok.appendChild(el('p', 'theorie-foutvraag', f.v));
           blok.appendChild(el('p', 'theorie-foutdetail', 'Jouw antwoord: ' + f.gekozen));
+          blok.appendChild(el('p', 'theorie-foutdetail is-juisttekst', 'Juiste antwoord: ' + f.juist));
+          app.appendChild(blok);
+        });
+      }
+
+      if (sessie.weetniet.length) {
+        app.appendChild(el('h3', 'theorie-kop', 'Wist je nog niet'));
+        sessie.weetniet.forEach(function (f) {
+          var blok = el('div', 'theorie-foutblok theorie-foutblok--weetniet');
+          blok.appendChild(el('p', 'theorie-foutvraag', f.v));
           blok.appendChild(el('p', 'theorie-foutdetail is-juisttekst', 'Juiste antwoord: ' + f.juist));
           app.appendChild(blok);
         });
@@ -274,7 +311,7 @@
       app.appendChild(el('h3', 'theorie-kop', 'Alle pogingen'));
       var lijst = el('table', 'theorie-tabel');
       var kop2 = el('tr');
-      ['Datum', 'Vak', 'Score'].forEach(function (h) { kop2.appendChild(el('th', null, h)); });
+      ['Datum', 'Vak', 'Score', 'Weet niet'].forEach(function (h) { kop2.appendChild(el('th', null, h)); });
       lijst.appendChild(kop2);
       log.pogingen.slice().reverse().forEach(function (p) {
         var rij = el('tr');
@@ -282,6 +319,7 @@
         rij.appendChild(el('td', null, d.toLocaleDateString('nl-NL') + ' ' + d.toLocaleTimeString('nl-NL', { hour: '2-digit', minute: '2-digit' })));
         rij.appendChild(el('td', null, p.vaknaam || p.vak));
         rij.appendChild(el('td', null, p.score + '/' + p.totaal));
+        rij.appendChild(el('td', null, p.weetniet ? String(p.weetniet.length) : '0'));
         lijst.appendChild(rij);
       });
       app.appendChild(lijst);
