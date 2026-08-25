@@ -1,13 +1,14 @@
 ---
 title: "Operationele procedures"
 description: "Oefenquiz Operationele procedures: 20 willekeurige vragen uit een bank van 250."
+aliases: ["/theorie/operationele-procedures/"]
 robots: "noindex, nofollow"
 _build:
   list: never
   render: always
 ---
 
-<div id="theorie-app" data-basis="{{< url "/theorie/" >}}" data-vak="operationele-procedures">
+<div id="theorie-app" data-basis="{{< url "/spl-theorie/" >}}" data-vak="operationele-procedures">
   <noscript><p>Voor deze oefenpagina is JavaScript nodig.</p></noscript>
 </div>
 

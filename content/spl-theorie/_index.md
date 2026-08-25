@@ -1,6 +1,7 @@
 ---
 title: "Theorie oefenen"
 description: "Oefen de SPL-theorie per vak met 20 vragen per ronde. Je resultaten worden lokaal bijgehouden."
+aliases: ["/theorie/"]
 layout: "single"
 robots: "noindex, nofollow"
 _build:
@@ -14,7 +15,7 @@ Je resultaten worden **alleen in je eigen browser** bewaard (er wordt niets naar
 
 > De oefenvragen volgen de vakkenlijst van [zweefvliegopleiding.nl](https://zweefvliegopleiding.nl/index.php/spl). Zie je een vraag die niet klopt? Meld het via [theorie@zcflevo.nl](mailto:theorie@zcflevo.nl).
 
-<div id="theorie-app" data-basis="{{< url "/theorie/" >}}">
+<div id="theorie-app" data-basis="{{< url "/spl-theorie/" >}}">
   <noscript><p>Voor deze oefenpagina is JavaScript nodig.</p></noscript>
 </div>
 

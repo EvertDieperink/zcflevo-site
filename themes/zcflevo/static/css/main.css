@@ -2066,7 +2066,7 @@ body.nav-open { overflow: hidden; }
   .kalender-datum::after { margin-top: 0 !important; margin-left: auto; }
 }
 
-/* Theorie-oefenquiz (verborgen pagina /theorie/) */
+/* Theorie-oefenquiz (verborgen sectie /spl-theorie/) */
 .theorie-kop { margin-top: 1.5rem; }
 .theorie-vakgrid {
   display: grid;

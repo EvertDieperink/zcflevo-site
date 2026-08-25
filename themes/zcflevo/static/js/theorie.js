@@ -1,9 +1,9 @@
-/* Theorie-oefenquiz (verborgen sectie /theorie/).
+/* Theorie-oefenquiz (verborgen sectie /spl-theorie/).
    Volledig client-side: vragenbanken zijn statische JSON-bestanden
-   (/theorie/<vak>.json). Elk vak heeft een eigen pagina
-   (/theorie/<vak>/, herkenbaar aan data-vak op de app-container);
-   /theorie/ zelf is de vakkenkiezer. Resultaten worden per gebruiker
-   bewaard in localStorage en zijn te downloaden als logbestand. Een
+   (/spl-theorie/<vak>.json). Elk vak heeft een eigen pagina
+   (/spl-theorie/<vak>/, herkenbaar aan data-vak op de app-container);
+   /spl-theorie/ zelf is de vakkenkiezer. Resultaten worden per gebruiker
+   bewaard in localStorage. Een
    lopende quiz staat in sessionStorage en overleeft zo een herlaadactie. */
 (function () {
   'use strict';
@@ -94,7 +94,7 @@
     return a;
   }
 
-  /* ---------- vakkenkiezer (/theorie/) ---------- */
+  /* ---------- vakkenkiezer (/spl-theorie/) ---------- */
 
   function toonStart() {
     wisSessie(); // terug bij de kiezer = bewust gestopt met de lopende ronde

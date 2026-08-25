@@ -1,13 +1,14 @@
 ---
 title: "Algemene kennis van het zweefvliegtuig"
 description: "Oefenquiz Algemene kennis van het zweefvliegtuig: 20 willekeurige vragen uit een bank van 250."
+aliases: ["/theorie/algemene-kennis/"]
 robots: "noindex, nofollow"
 _build:
   list: never
   render: always
 ---
 
-<div id="theorie-app" data-basis="{{< url "/theorie/" >}}" data-vak="algemene-kennis">
+<div id="theorie-app" data-basis="{{< url "/spl-theorie/" >}}" data-vak="algemene-kennis">
   <noscript><p>Voor deze oefenpagina is JavaScript nodig.</p></noscript>
 </div>
 
