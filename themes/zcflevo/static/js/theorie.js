@@ -79,6 +79,7 @@
   }
   function leeg() { app.textContent = ''; }
   function naarVakkenkiezer() { window.location.href = basis; }
+  function naarResultaten() { window.location.href = basis + 'resultaten/'; }
   function tijdFmt(sec) {
     var m = Math.floor(sec / 60);
     var s = sec % 60;
@@ -115,7 +116,7 @@
     app.appendChild(grid);
 
     var voet = el('div', 'theorie-voet');
-    voet.appendChild(knop('Mijn resultaten', 'theorie-knop-secundair', toonLog));
+    voet.appendChild(knop('Mijn resultaten', 'theorie-knop-secundair', naarResultaten));
     app.appendChild(voet);
   }
 
@@ -289,7 +290,7 @@
       var voet = el('div', 'theorie-voet');
       voet.appendChild(knop('Nog een ronde', 'theorie-knop-primair', function () { startQuiz(vak); }));
       voet.appendChild(knop('Ander vak', 'theorie-knop-secundair', naarVakkenkiezer));
-      voet.appendChild(knop('Mijn resultaten', 'theorie-knop-secundair', toonLog));
+      voet.appendChild(knop('Mijn resultaten', 'theorie-knop-secundair', naarResultaten));
       app.appendChild(voet);
       window.scrollTo({ top: app.offsetTop - 90, behavior: 'smooth' });
     }
@@ -302,7 +303,6 @@
   function toonLog() {
     leeg();
     var log = leesLog();
-    app.appendChild(el('h2', 'theorie-kop', 'Mijn resultaten'));
 
     if (!log.pogingen.length) {
       app.appendChild(el('p', 'theorie-laden', 'Nog geen pogingen gedaan. Kies een vak om te beginnen!'));
@@ -393,9 +393,7 @@
     }
 
     var voet = el('div', 'theorie-voet');
-    voet.appendChild(knop('Terug naar de vakken', 'theorie-knop-primair', function () {
-      if (huidigVak) { naarVakkenkiezer(); } else { toonStart(); }
-    }));
+    voet.appendChild(knop('Terug naar de vakken', 'theorie-knop-primair', naarVakkenkiezer));
     if (log.pogingen.length) {
       voet.appendChild(knop('Log wissen', 'theorie-knop-gevaar', function () {
         if (window.confirm('Weet je zeker dat je al je resultaten wilt wissen?')) {
@@ -409,7 +407,9 @@
 
   /* ---------- start ---------- */
 
-  if (huidigVak) {
+  if (app.getAttribute('data-weergave') === 'resultaten') {
+    toonLog(); // eigen pagina: /spl-theorie/resultaten/
+  } else if (huidigVak) {
     var sessie = leesSessie();
     if (sessie && sessie.slug === huidigVak.slug && sessie.vragen && sessie.index < sessie.vragen.length) {
       draaiQuiz(huidigVak, sessie); // lopende ronde hervatten na een herlaadactie
