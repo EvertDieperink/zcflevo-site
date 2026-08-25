@@ -79,6 +79,11 @@
   }
   function leeg() { app.textContent = ''; }
   function naarVakkenkiezer() { window.location.href = basis; }
+  function tijdFmt(sec) {
+    var m = Math.floor(sec / 60);
+    var s = sec % 60;
+    return m + ':' + (s < 10 ? '0' : '') + s;
+  }
 
   function shuffle(arr) {
     var a = arr.slice();
@@ -131,7 +136,7 @@
           uitleg: vr.uitleg || ''
         };
       });
-      draaiQuiz(vak, { slug: vak.slug, vragen: vragen, index: 0, goed: 0, fouten: [], weetniet: [] });
+      draaiQuiz(vak, { slug: vak.slug, vragen: vragen, index: 0, goed: 0, fouten: [], weetniet: [], start: Date.now() });
     };
 
     if (banken[vak.slug]) { klaar(banken[vak.slug]); return; }
@@ -147,6 +152,7 @@
 
   function draaiQuiz(vak, sessie) {
     if (!sessie.weetniet) { sessie.weetniet = []; } // oudere sessies hervatten
+    if (!sessie.start) { sessie.start = Date.now(); }
     function bewaarSessie() {
       try { sessionStorage.setItem(SESSIE_KEY, JSON.stringify(sessie)); } catch (e) {}
     }
@@ -233,12 +239,14 @@
 
     function toonUitslag() {
       wisSessie();
+      var duurSec = Math.max(0, Math.round((Date.now() - sessie.start) / 1000));
       bewaarPoging({
         t: new Date().toISOString(),
         vak: vak.slug,
         vaknaam: vak.naam,
         score: sessie.goed,
         totaal: sessie.vragen.length,
+        duur: duurSec,
         fouten: sessie.fouten,
         weetniet: sessie.weetniet
       });
@@ -248,7 +256,8 @@
       var kaart = el('div', 'theorie-uitslag ' + (geslaagd ? 'is-geslaagd' : 'is-gezakt'));
       kaart.appendChild(el('div', 'theorie-uitslagscore', sessie.goed + ' / ' + sessie.vragen.length));
       kaart.appendChild(el('div', 'theorie-uitslagdetail',
-        'Goed: ' + sessie.goed + ' · Fout: ' + sessie.fouten.length + ' · Weet niet: ' + sessie.weetniet.length));
+        'Goed: ' + sessie.goed + ' · Fout: ' + sessie.fouten.length + ' · Weet niet: ' + sessie.weetniet.length +
+        ' · Tijd: ' + tijdFmt(duurSec)));
       kaart.appendChild(el('div', 'theorie-uitslagtekst', geslaagd
         ? 'Geslaagd! Boven de examengrens van 75%.'
         : 'Nog even oefenen: het examen vraagt 75% (' + Math.ceil(sessie.vragen.length * SLAGINGSGRENS) + ' goed).'));
@@ -315,7 +324,7 @@
       app.appendChild(el('h3', 'theorie-kop', 'Alle pogingen'));
       var lijst = el('table', 'theorie-tabel');
       var kop2 = el('tr');
-      ['Datum', 'Vak', 'Score', 'Weet niet'].forEach(function (h) { kop2.appendChild(el('th', null, h)); });
+      ['Datum', 'Vak', 'Score', 'Weet niet', 'Tijd'].forEach(function (h) { kop2.appendChild(el('th', null, h)); });
       lijst.appendChild(kop2);
       log.pogingen.slice().reverse().forEach(function (p) {
         var rij = el('tr');
@@ -324,6 +333,7 @@
         rij.appendChild(el('td', null, p.vaknaam || p.vak));
         rij.appendChild(el('td', null, p.score + '/' + p.totaal));
         rij.appendChild(el('td', null, p.weetniet ? String(p.weetniet.length) : '0'));
+        rij.appendChild(el('td', null, typeof p.duur === 'number' ? tijdFmt(p.duur) : '-'));
         lijst.appendChild(rij);
       });
       app.appendChild(lijst);
@@ -334,16 +344,6 @@
       if (huidigVak) { naarVakkenkiezer(); } else { toonStart(); }
     }));
     if (log.pogingen.length) {
-      voet.appendChild(knop('Download mijn log', 'theorie-knop-secundair', function () {
-        var blob = new Blob([JSON.stringify(leesLog(), null, 2)], { type: 'application/json' });
-        var a = document.createElement('a');
-        a.href = URL.createObjectURL(blob);
-        a.download = 'theorie-log.json';
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        URL.revokeObjectURL(a.href);
-      }));
       voet.appendChild(knop('Log wissen', 'theorie-knop-gevaar', function () {
         if (window.confirm('Weet je zeker dat je al je resultaten wilt wissen?')) {
           localStorage.removeItem(LOG_KEY);
