@@ -2198,6 +2198,21 @@ body.nav-open { overflow: hidden; }
 .theorie-weetniet:disabled { cursor: default; opacity: 0.55; }
 .theorie-uitslagdetail { margin-top: 0.3rem; font-size: 0.95rem; color: var(--text-muted); }
 .theorie-foutblok--weetniet { border-left-color: #e9b400; }
+.theorie-foutblok--goed { border-left-color: #2e8b57; }
+
+/* Uitklapbare vraagdetails per poging in het resultatenlog */
+.theorie-mini { padding: 0.2rem 0.65rem; font-size: 0.78rem; }
+.page-content .theorie-detailrij > td { background: var(--bg-light); padding: 0.9rem 1rem; }
+.theorie-detailrij .theorie-foutblok { background: #fff; }
+.page-content .theorie-detailkop {
+  margin: 0.7rem 0 0.25rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+.page-content .theorie-detailkop:first-child { margin-top: 0; }
 
 .theorie-uitslag {
   text-align: center;

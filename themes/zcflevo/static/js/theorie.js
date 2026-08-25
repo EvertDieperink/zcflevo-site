@@ -136,7 +136,7 @@
           uitleg: vr.uitleg || ''
         };
       });
-      draaiQuiz(vak, { slug: vak.slug, vragen: vragen, index: 0, goed: 0, fouten: [], weetniet: [], start: Date.now() });
+      draaiQuiz(vak, { slug: vak.slug, vragen: vragen, index: 0, goed: 0, goedV: [], fouten: [], weetniet: [], start: Date.now() });
     };
 
     if (banken[vak.slug]) { klaar(banken[vak.slug]); return; }
@@ -152,6 +152,7 @@
 
   function draaiQuiz(vak, sessie) {
     if (!sessie.weetniet) { sessie.weetniet = []; } // oudere sessies hervatten
+    if (!sessie.goedV) { sessie.goedV = []; }
     if (!sessie.start) { sessie.start = Date.now(); }
     function bewaarSessie() {
       try { sessionStorage.setItem(SESSIE_KEY, JSON.stringify(sessie)); } catch (e) {}
@@ -206,7 +207,7 @@
           if (beantwoord) { return; }
           beantwoord = true;
           var isGoed = (i === vr.juist);
-          if (isGoed) { sessie.goed++; }
+          if (isGoed) { sessie.goed++; sessie.goedV.push(vr.v); }
           else {
             sessie.fouten.push({ v: vr.v, gekozen: optie, juist: vr.a[vr.juist] });
             b.classList.add('is-fout');
@@ -248,7 +249,8 @@
         totaal: sessie.vragen.length,
         duur: duurSec,
         fouten: sessie.fouten,
-        weetniet: sessie.weetniet
+        weetniet: sessie.weetniet,
+        goedVragen: sessie.goedV
       });
 
       leeg();
@@ -324,7 +326,7 @@
       app.appendChild(el('h3', 'theorie-kop', 'Alle pogingen'));
       var lijst = el('table', 'theorie-tabel');
       var kop2 = el('tr');
-      ['Datum', 'Vak', 'Score', 'Weet niet', 'Tijd'].forEach(function (h) { kop2.appendChild(el('th', null, h)); });
+      ['Datum', 'Vak', 'Score', 'Weet niet', 'Tijd', ''].forEach(function (h) { kop2.appendChild(el('th', null, h)); });
       lijst.appendChild(kop2);
       log.pogingen.slice().reverse().forEach(function (p) {
         var rij = el('tr');
@@ -334,7 +336,58 @@
         rij.appendChild(el('td', null, p.score + '/' + p.totaal));
         rij.appendChild(el('td', null, p.weetniet ? String(p.weetniet.length) : '0'));
         rij.appendChild(el('td', null, typeof p.duur === 'number' ? tijdFmt(p.duur) : '-'));
+
+        // uitklapbare detailrij: welke vragen fout, niet geweten en goed waren
+        var detailRij = el('tr', 'theorie-detailrij');
+        detailRij.style.display = 'none';
+        var detailCel = el('td');
+        detailCel.colSpan = 6;
+        var fouten = p.fouten || [];
+        var weetniet = p.weetniet || [];
+        var goedVragen = p.goedVragen || [];
+        if (fouten.length) {
+          detailCel.appendChild(el('p', 'theorie-detailkop', 'Fout (' + fouten.length + ')'));
+          fouten.forEach(function (f) {
+            var blok = el('div', 'theorie-foutblok');
+            blok.appendChild(el('p', 'theorie-foutvraag', f.v));
+            blok.appendChild(el('p', 'theorie-foutdetail', 'Jouw antwoord: ' + f.gekozen));
+            blok.appendChild(el('p', 'theorie-foutdetail is-juisttekst', 'Juiste antwoord: ' + f.juist));
+            detailCel.appendChild(blok);
+          });
+        }
+        if (weetniet.length) {
+          detailCel.appendChild(el('p', 'theorie-detailkop', 'Wist je niet (' + weetniet.length + ')'));
+          weetniet.forEach(function (f) {
+            var blok = el('div', 'theorie-foutblok theorie-foutblok--weetniet');
+            blok.appendChild(el('p', 'theorie-foutvraag', f.v));
+            blok.appendChild(el('p', 'theorie-foutdetail is-juisttekst', 'Juiste antwoord: ' + f.juist));
+            detailCel.appendChild(blok);
+          });
+        }
+        if (goedVragen.length) {
+          detailCel.appendChild(el('p', 'theorie-detailkop', 'Goed (' + goedVragen.length + ')'));
+          goedVragen.forEach(function (v) {
+            var blok = el('div', 'theorie-foutblok theorie-foutblok--goed');
+            blok.appendChild(el('p', 'theorie-foutvraag', v));
+            detailCel.appendChild(blok);
+          });
+        }
+        if (!fouten.length && !weetniet.length && !goedVragen.length) {
+          detailCel.appendChild(el('p', 'theorie-foutdetail', 'Voor deze poging zijn geen vraagdetails bewaard.'));
+        }
+        detailRij.appendChild(detailCel);
+
+        var knopCel = el('td');
+        var toggle = knop('Details', 'theorie-knop-secundair theorie-mini', function () {
+          var open = detailRij.style.display !== 'none';
+          detailRij.style.display = open ? 'none' : '';
+          toggle.textContent = open ? 'Details' : 'Sluit';
+        });
+        knopCel.appendChild(toggle);
+        rij.appendChild(knopCel);
+
         lijst.appendChild(rij);
+        lijst.appendChild(detailRij);
       });
       app.appendChild(lijst);
     }
