@@ -1,0 +1,2755 @@
+{
+ "vak": "Operationele procedures voor het zweefvliegen",
+ "vragen": [
+  {
+   "v": "Waar vind je de maximaal toegestane liersnelheid (Vw) van een zweefvliegtuig?",
+   "a": [
+    "In het vlieghandboek van het betreffende type",
+    "Op de startlijst van de dag",
+    "In het clubreglement",
+    "Bij de lierist, die bepaalt de snelheid zelf"
+   ],
+   "juist": 0,
+   "uitleg": "De maximale liersnelheid Vw staat per type in het vlieghandboek."
+  },
+  {
+   "v": "Wie geeft uiteindelijk toestemming om de lierkabel aan te koppelen?",
+   "a": [
+    "De tiploper",
+    "De vlieger (gezagvoerder), pas na het afronden van de cockpitcheck",
+    "De lierist",
+    "De lichtgever"
+   ],
+   "juist": 1,
+   "uitleg": "De vlieger is gezagvoerder en geeft pas het teken voor aankoppelen als de cockpitcheck klaar is."
+  },
+  {
+   "v": "In welke stand houd je de knuppel aan het begin van de grondrol bij een lierstart?",
+   "a": [
+    "Volledig getrokken",
+    "Volledig gedrukt",
+    "Ongeveer neutraal, iets gedrukt om te vroeg loskomen te voorkomen",
+    "Volledig naar de windzijde"
+   ],
+   "juist": 2,
+   "uitleg": "Met de knuppel rond neutraal en iets gedrukt voorkom je dat het vliegtuig te vroeg en te steil loskomt."
+  },
+  {
+   "v": "Hoe ga je na het loskomen over naar de volle klimstand?",
+   "a": [
+    "Direct na het loskomen zo steil mogelijk klimmen",
+    "Pas boven 200 m beginnen met klimmen",
+    "De lierist bepaalt de klimhoek, de vlieger doet niets",
+    "Geleidelijk, pas op veilige hoogte (enkele tientallen meters) de volle klim aannemen"
+   ],
+   "juist": 3,
+   "uitleg": "De klimhoek wordt geleidelijk opgebouwd zodat bij een kabelbreuk laag nog veilig kan worden opgevangen."
+  },
+  {
+   "v": "De trekkracht van de lier neemt bovenin de start duidelijk af. Wat doe je?",
+   "a": [
+    "De neus naar de horizon laten zakken en ontkoppelen",
+    "Doorklimmen tot de kabel vanzelf loskomt",
+    "De remkleppen openen",
+    "Sterker aan de knuppel trekken om extra hoogte te winnen"
+   ],
+   "juist": 0,
+   "uitleg": "Bovenin laat je de neus zakken en ontkoppel je actief; wachten of doortrekken is onveilig."
+  },
+  {
+   "v": "Waarom trek je aan het einde van de lierstart twee tot drie keer aan de ontkoppelknop?",
+   "a": [
+    "Om de lierist te laten weten dat je los bent",
+    "Om zeker te weten dat de kabel volledig is ontkoppeld",
+    "Om het breukstuk te testen",
+    "Omdat de haak anders beschadigt"
+   ],
+   "juist": 1,
+   "uitleg": "Meerdere keren trekken geeft zekerheid dat de kabel echt los is."
+  },
+  {
+   "v": "Welke kleur heeft de ontkoppelknop (trekgreep) in de cockpit?",
+   "a": [
+    "Rood",
+    "Blauw",
+    "Geel",
+    "Groen"
+   ],
+   "juist": 2,
+   "uitleg": "De ontkoppelknop is geel; die kleur is gestandaardiseerd."
+  },
+  {
+   "v": "De snelheid loopt tijdens de klim aan de lier te ver terug. Wat doe je?",
+   "a": [
+    "De klimhoek vergroten om de lier te ontlasten",
+    "Doorklimmen en hopen dat de lierist gas bijgeeft",
+    "Direct de remkleppen openen",
+    "De klimhoek verkleinen en ontkoppelen als de snelheid te laag blijft"
+   ],
+   "juist": 3,
+   "uitleg": "Bij te lage snelheid verlaag je de neus; blijft de snelheid te laag, dan ontkoppel je."
+  },
+  {
+   "v": "Wat doe je als de snelheid tijdens de lierstart boven de maximale liersnelheid dreigt te komen?",
+   "a": [
+    "Het afgesproken te-snel-signaal geven en ontkoppelen als Vw wordt overschreden",
+    "De neus verder omhoog trekken om af te remmen",
+    "Niets, de lier bepaalt de snelheid",
+    "De remkleppen openen om af te remmen"
+   ],
+   "juist": 0,
+   "uitleg": "Bij te hoge snelheid geef je het afgesproken signaal en ontkoppel je als Vw wordt overschreden."
+  },
+  {
+   "v": "Wat controleer je vlak voordat je het teken voor 'kabel strak' laat geven?",
+   "a": [
+    "Alleen of de kabel goed vastzit",
+    "Of het luchtruim, de eindnadering en het veld voor je vrij zijn",
+    "Of de hoogtemeter op QNH staat",
+    "Of het breukstuk al eens gebruikt is"
+   ],
+   "juist": 1,
+   "uitleg": "Voor de start controleer je dat luchtruim, eindnadering en het veld voor je vrij zijn."
+  },
+  {
+   "v": "Waarom mag de klimhoek vlak boven de grond nog niet maximaal zijn?",
+   "a": [
+    "Omdat de lier anders te zwaar belast wordt",
+    "Omdat het vliegtuig anders te hoog uitkomt",
+    "Omdat je bij een kabelbreuk dan onvoldoende hoogte en tijd hebt om op te vangen",
+    "Omdat de kabel anders van de haak glijdt"
+   ],
+   "juist": 2,
+   "uitleg": "Laag en steil klimmen laat bij een kabelbreuk te weinig ruimte om bij te duiken."
+  },
+  {
+   "v": "Hoe hoog kom je globaal met een lierstart bij weinig wind?",
+   "a": [
+    "Ongeveer even hoog als de kabellengte",
+    "Ongeveer een tiende van de kabellengte",
+    "Altijd precies 500 m",
+    "Ongeveer een derde tot de helft van de kabellengte"
+   ],
+   "juist": 3,
+   "uitleg": "Vuistregel: de uitkoppelhoogte is circa een derde tot de helft van de kabellengte."
+  },
+  {
+   "v": "Welk effect heeft stevige tegenwind op de lierstart?",
+   "a": [
+    "Een hogere uitkoppelhoogte",
+    "Een lagere uitkoppelhoogte",
+    "Een langere grondrol",
+    "Geen effect"
+   ],
+   "juist": 0,
+   "uitleg": "Tegenwind geeft een steiler klimpad en dus een hogere uitkoppelhoogte."
+  },
+  {
+   "v": "Wat doe je met de vleugels tijdens de grondrol aan de lier?",
+   "a": [
+    "Naar de windzijde laten hangen",
+    "Horizontaal houden met de rolroeren",
+    "De tiploper houdt ze vast tot 20 m hoogte",
+    "Niets, de snelheid houdt ze vanzelf recht"
+   ],
+   "juist": 1,
+   "uitleg": "Je houdt de vleugels tijdens de grondrol zelf horizontaal met de rolroeren."
+  },
+  {
+   "v": "Waarom zit er een remparachuutje aan de lierkabel?",
+   "a": [
+    "Om de kabel tijdens de klim strak te houden",
+    "Om het breukstuk te beschermen",
+    "Om de kabel na het ontkoppelen gecontroleerd en gestrekt te laten zakken",
+    "Als reserve voor de vlieger"
+   ],
+   "juist": 2,
+   "uitleg": "Het parachuutje remt de vallende kabel af zodat die gecontroleerd en gestrekt neerkomt."
+  },
+  {
+   "v": "De kap springt open tijdens de lierstart. Wat is de juiste reactie?",
+   "a": [
+    "Direct ontkoppelen en recht vooruit landen, wat de hoogte ook is",
+    "De knuppel loslaten en de kap met beide handen pakken",
+    "Meteen de remkleppen openen",
+    "Blijven vliegen; het besturen van het vliegtuig gaat altijd voor"
+   ],
+   "juist": 3,
+   "uitleg": "Eerst vliegen: een open kap is hinderlijk, maar het vliegtuig blijven besturen heeft prioriteit."
+  },
+  {
+   "v": "Wordt er bij de lierstart met rugwind gestart?",
+   "a": [
+    "In principe niet: er wordt tegen de wind in gestart",
+    "Ja, dat geeft een hogere uitkoppelhoogte",
+    "Alleen met tweezitters",
+    "Ja, mits de kabel nieuw is"
+   ],
+   "juist": 0,
+   "uitleg": "Starten gebeurt in principe altijd tegen de wind in."
+  },
+  {
+   "v": "Wat is het gevaar van een te steile klim direct na het loskomen?",
+   "a": [
+    "De kabel breekt daardoor altijd",
+    "Bij een kabelbreuk kan het vliegtuig overtrekken voordat je hebt kunnen opvangen",
+    "De lier raakt oververhit",
+    "De uitkoppelhoogte wordt te groot"
+   ],
+   "juist": 1,
+   "uitleg": "Bij een breuk in een steile, lage klim is er nauwelijks tijd om bij te duiken en dreigt overtrek."
+  },
+  {
+   "v": "Wie neemt de uiteindelijke beslissing om de start te beginnen?",
+   "a": [
+    "De startleider",
+    "De lierist",
+    "De vlieger (gezagvoerder)",
+    "De instructeur van dienst"
+   ],
+   "juist": 2,
+   "uitleg": "De gezagvoerder beslist zelf of hij de start begint."
+  },
+  {
+   "v": "Waarom stel je de trim voor de lierstart in de voorgeschreven stand?",
+   "a": [
+    "Anders werkt de ontkoppelhaak niet",
+    "Omdat de trim tijdens de start niet meer bediend mag worden",
+    "Voor een lager kabelverbruik",
+    "Voor juiste stuurkrachten, zodat het vliegtuig niet ongewild te steil wegklimt"
+   ],
+   "juist": 3,
+   "uitleg": "Een juiste trimstand geeft normale stuurkrachten tijdens de start."
+  },
+  {
+   "v": "Wat is een zelfstartend zweefvliegtuig?",
+   "a": [
+    "Een zweefvliegtuig met een (uitklapbare) motor waarmee het zelfstandig kan opstijgen",
+    "Een zweefvliegtuig dat zonder tiploper start",
+    "Een zweefvliegtuig dat automatisch ontkoppelt",
+    "Een motorvliegtuig dat ook kan zweven"
+   ],
+   "juist": 0,
+   "uitleg": "Een zelfstarter heeft een eigen motor en kan zonder lier of sleepvliegtuig opstijgen."
+  },
+  {
+   "v": "Waar houd je bij een zelfstart extra rekening mee vergeleken met een lierstart?",
+   "a": [
+    "Een veel steilere klim",
+    "Een langzame klim: bedenk vooraf waar je bij motorstoring kunt landen",
+    "Een kortere startrol",
+    "Er is geen cockpitcheck nodig"
+   ],
+   "juist": 1,
+   "uitleg": "Een zelfstarter klimt relatief langzaam; een plan voor motorstoring hoort bij de startvoorbereiding."
+  },
+  {
+   "v": "Wat doe je nadat je bij een zelfstarter de motor hebt uitgezet en ingeklapt?",
+   "a": [
+    "Direct thermieken zonder verdere controle",
+    "De motor elke vijf minuten kort opstarten",
+    "Volgens de checklist controleren dat de motor volledig geborgen is",
+    "De brandstofkraan openzetten"
+   ],
+   "juist": 2,
+   "uitleg": "Na het bergen van de motor controleer je met de checklist of alles goed geborgen is."
+  },
+  {
+   "v": "Waarom trek je voor de lierstart de gordels extra strak aan?",
+   "a": [
+    "Om sneller te kunnen uitstappen",
+    "Voor het comfort van de passagier",
+    "Omdat de gordels anders klapperen",
+    "Door de acceleratie en steile stand schuif je anders naar achteren en beweeg je de knuppel onbedoeld"
+   ],
+   "juist": 3,
+   "uitleg": "Strakke gordels voorkomen dat je door de versnelling verschuift en ongewild aan de knuppel trekt."
+  },
+  {
+   "v": "Wat betekent het gele driehoekje op de snelheidsmeter?",
+   "a": [
+    "De aanbevolen minimale aanvliegsnelheid bij maximaal gewicht",
+    "De maximale liersnelheid",
+    "De overtreksnelheid",
+    "De maximale snelheid in turbulente lucht"
+   ],
+   "juist": 0,
+   "uitleg": "Het gele driehoekje markeert de aanbevolen (minimale) aanvliegsnelheid."
+  },
+  {
+   "v": "Wat is de allereerste actie bij een kabelbreuk tijdens de klim aan de lier?",
+   "a": [
+    "Direct een bocht naar het veld inzetten",
+    "De neus onder de horizon brengen tot je weer veilige vliegsnelheid hebt",
+    "De remkleppen openen",
+    "Een radio-oproep doen"
+   ],
+   "juist": 1,
+   "uitleg": "Eerst bijduiken naar veilige vliegsnelheid; al het andere komt daarna."
+  },
+  {
+   "v": "Waarom moet je na een kabelbreuk eerst bijduiken?",
+   "a": [
+    "Om de kabelrest af te schudden",
+    "Om sneller bij het veld te komen",
+    "In de klimstand ligt de snelheid dicht bij de overtreksnelheid; zonder bijduiken dreigt overtrek",
+    "Om de lierist te waarschuwen"
+   ],
+   "juist": 2,
+   "uitleg": "In de klimstand zit je dicht bij de overtreksnelheid; bijduiken herstelt de vliegsnelheid."
+  },
+  {
+   "v": "Je hebt na een kabelbreuk bijgeduikt en weer veilige snelheid. Wat is de volgende stap?",
+   "a": [
+    "Altijd een normaal circuit vliegen",
+    "Altijd recht vooruit landen",
+    "Altijd 180 graden omkeren",
+    "Afhankelijk van hoogte en positie kiezen: recht vooruit, verkort circuit of normaal circuit"
+   ],
+   "juist": 3,
+   "uitleg": "De landingsbeslissing hangt af van de hoogte en de positie ten opzichte van het veld."
+  },
+  {
+   "v": "Kabelbreuk op circa 50 m hoogte met voldoende veld voor je. Wat doe je?",
+   "a": [
+    "Recht vooruit landen, eventueel met kleine richtingscorrecties",
+    "Een bocht van 180 graden terug naar de startplaats maken",
+    "Een verkort circuit vliegen",
+    "Doorklimmen op de resterende snelheid"
+   ],
+   "juist": 0,
+   "uitleg": "Laag met veld voor je: bijduiken en recht vooruit landen is de veilige keuze."
+  },
+  {
+   "v": "Kabelbreuk op circa 150 m; recht vooruit landen kan niet meer. Wat is dan meestal de juiste keuze?",
+   "a": [
+    "Een normaal circuit op standaardhoogte",
+    "Een verkort circuit vliegen",
+    "Een steile 180-gradenbocht en met rugwind landen",
+    "Doorvliegen naar een buitenlandingsveld"
+   ],
+   "juist": 1,
+   "uitleg": "Op die hoogte is een verkort circuit doorgaans de veilige optie."
+  },
+  {
+   "v": "Waarvan hangen de afgesproken beslishoogtes bij een kabelbreuk vooral af?",
+   "a": [
+    "Van de leeftijd van de vlieger",
+    "Van de kleur van het breukstuk",
+    "Van veldlengte, wind en vliegtuigtype; ze verschillen per veld",
+    "Ze zijn wettelijk overal gelijk"
+   ],
+   "juist": 2,
+   "uitleg": "Beslishoogtes zijn veldafhankelijke afspraken, mede bepaald door veldlengte en wind."
+  },
+  {
+   "v": "Waarom trek je na een kabelbreuk toch aan de gele ontkoppelknop?",
+   "a": [
+    "Om het breukstuk te sparen",
+    "Om de lier te laten stoppen",
+    "Dat is na een breuk niet nodig",
+    "Om een eventueel aan het vliegtuig hangend kabelrestant af te werpen"
+   ],
+   "juist": 3,
+   "uitleg": "Door te ontkoppelen werp je een mogelijk restant van de kabel af."
+  },
+  {
+   "v": "Wat is de functie van het breukstuk in de lierkabel?",
+   "a": [
+    "Het beschermt het vliegtuig tegen te hoge kabelkrachten",
+    "Het zorgt voor een soepele acceleratie",
+    "Het voorkomt dat de kabel verstrikt raakt",
+    "Het meet de liersnelheid"
+   ],
+   "juist": 0,
+   "uitleg": "Het breukstuk breekt bij een te hoge kracht en beschermt zo de constructie van het vliegtuig."
+  },
+  {
+   "v": "Hoe weet je welk breukstuk voor jouw vliegtuigtype nodig is?",
+   "a": [
+    "Dat kies je op gevoel, afhankelijk van de wind",
+    "Via de kleurcode die in het vlieghandboek is voorgeschreven",
+    "Het zwaarste breukstuk is altijd goed",
+    "De lierist bepaalt dat per dag"
+   ],
+   "juist": 1,
+   "uitleg": "Het vlieghandboek schrijft per type de sterkte (kleurcode) van het breukstuk voor."
+  },
+  {
+   "v": "Het breukstuk breekt tijdens de klim. Hoe handel je?",
+   "a": [
+    "Anders dan bij een kabelbreuk: direct doorklimmen",
+    "Wachten tot de lier opnieuw trekt",
+    "Precies zoals bij een kabelbreuk: bijduiken, ontkoppelen en een landingsbeslissing nemen",
+    "De remkleppen openen en rechtdoor blijven klimmen"
+   ],
+   "juist": 2,
+   "uitleg": "Een gebroken breukstuk behandel je exact als een kabelbreuk."
+  },
+  {
+   "v": "Wat is het risico van een te zwaar (te sterk) breukstuk?",
+   "a": [
+    "De start wordt te langzaam",
+    "De kabel wordt te strak opgerold",
+    "Het kabelparachuutje opent niet",
+    "Het vliegtuig kan tijdens de start overbelast worden"
+   ],
+   "juist": 3,
+   "uitleg": "Een te sterk breukstuk beschermt het vliegtuig niet meer tegen overbelasting."
+  },
+  {
+   "v": "Wat is het gevolg van een te licht breukstuk?",
+   "a": [
+    "Het breekt te vroeg en veroorzaakt onnodige afgebroken starts",
+    "Het vliegtuig wordt overbelast",
+    "De klim wordt steiler",
+    "De kabel rekt te ver uit"
+   ],
+   "juist": 0,
+   "uitleg": "Een te licht breukstuk breekt al bij normale kracht en geeft onnodige kabelbreuksituaties."
+  },
+  {
+   "v": "Waarom worden kabelbreukoefeningen regelmatig met een instructeur geoefend?",
+   "a": [
+    "Omdat het brevet anders vervalt",
+    "Zodat de juiste reactie een automatisme is voor het geval het echt gebeurt",
+    "Om de lierist te trainen",
+    "Omdat kabels daardoor minder vaak breken"
+   ],
+   "juist": 1,
+   "uitleg": "Regelmatig oefenen maakt de juiste reactie bij een echte breuk tot automatisme."
+  },
+  {
+   "v": "Kabelbreuk op ruime hoogte, bijvoorbeeld 250 m boven het veld. Wat kun je meestal doen?",
+   "a": [
+    "Alleen recht vooruit landen",
+    "Direct de parachute gebruiken",
+    "Een (vrijwel) normaal circuit vliegen",
+    "Met rugwind op de startplaats landen is dan verplicht"
+   ],
+   "juist": 2,
+   "uitleg": "Vanaf ruime hoogte is meestal een (vrijwel) normaal circuit mogelijk."
+  },
+  {
+   "v": "Wat is de gevaarlijkste fout direct na een lage kabelbreuk?",
+   "a": [
+    "Te lang rechtuit blijven vliegen",
+    "De ontkoppelknop tweemaal bedienen",
+    "Te veel snelheid opbouwen",
+    "Met te lage snelheid krap willen omkeren naar het veld"
+   ],
+   "juist": 3,
+   "uitleg": "Laag en langzaam krap omkeren is de klassieke aanloop naar een tolvlucht."
+  },
+  {
+   "v": "Het liervermogen valt tijdens de start langzaam weg (lierstoring). Hoe behandel je dit?",
+   "a": [
+    "Als een kabelbreuk: bijduiken, ontkoppelen en een landingsbeslissing nemen",
+    "Wachten tot het vermogen terugkomt",
+    "De klimhoek vergroten om hoogte te redden",
+    "Alleen het te-snel-signaal geven"
+   ],
+   "juist": 0,
+   "uitleg": "Elke niet-normale start behandel je als een kabelbreuk: bijduiken en ontkoppelen."
+  },
+  {
+   "v": "Waarom meld je een kabelbreuk direct aan de startleiding?",
+   "a": [
+    "Voor de verzekering van de vlieger",
+    "Zodat de kabel wordt gecontroleerd of hersteld voor de volgende start en het voorval wordt geregistreerd",
+    "Omdat de startlijst anders niet klopt",
+    "Dat is alleen nodig bij schade aan het vliegtuig"
+   ],
+   "juist": 1,
+   "uitleg": "De kabel moet eerst nagekeken of hersteld worden voordat er weer mee wordt gestart."
+  },
+  {
+   "v": "Welke snelheid wil je minimaal hebben voordat je na een kabelbreuk een bocht inzet?",
+   "a": [
+    "De overtreksnelheid",
+    "De maximale liersnelheid",
+    "Ten minste de normale aanvliegsnelheid (geel driehoekje), met toeslag bij wind",
+    "De maximaal toegestane snelheid Vne"
+   ],
+   "juist": 2,
+   "uitleg": "Pas met ten minste de normale aanvliegsnelheid draai je veilig een bocht."
+  },
+  {
+   "v": "Naar welke kant draai je bij voorkeur een verkort circuit bij dwarswind?",
+   "a": [
+    "Altijd naar links",
+    "Altijd naar rechts",
+    "Met de dwarswind mee",
+    "Bij voorkeur tegen de dwarswindcomponent in"
+   ],
+   "juist": 3,
+   "uitleg": "Door tegen de wind in te draaien drift je niet van het veld af."
+  },
+  {
+   "v": "Wat doe je vlak voor elke start om op een kabelbreuk voorbereid te zijn?",
+   "a": [
+    "De noodprocedure en beslishoogtes kort voor jezelf doornemen (eventualiteiten)",
+    "De kabel extra strak laten trekken",
+    "De trim vol achterover zetten",
+    "De remkleppen op een kier zetten"
+   ],
+   "juist": 0,
+   "uitleg": "Door de eventualiteiten door te nemen weet je vooraf wat je bij een breuk gaat doen."
+  },
+  {
+   "v": "In welke situatie ontkoppel je in het allereerste deel van de grondrol zelf direct?",
+   "a": [
+    "Als de vleugel al vroeg horizontaal ligt",
+    "Als de start niet normaal verloopt, bijvoorbeeld doordat een vleugel de grond raakt of de snelheid uitblijft",
+    "Als de acceleratie krachtig aanvoelt",
+    "Als de lichtgever seint dat de kabel strak is"
+   ],
+   "juist": 1,
+   "uitleg": "Bij een niet-normaal verlopende grondrol ontkoppel je direct, zolang dat nog veilig kan."
+  },
+  {
+   "v": "De kabel komt bovenin niet los, ook niet na meerdere keren trekken. Wat doe je?",
+   "a": [
+    "Een steile duik maken om de kabel eraf te schudden",
+    "Doorvliegen naar een groot buitenlandingsveld",
+    "Kalm blijven, boven het veld blijven en volgens de clubprocedure met kabel landen terwijl de lier de kabel viert of kapt",
+    "De parachute gebruiken"
+   ],
+   "juist": 2,
+   "uitleg": "Met een hangende kabel vlieg je een ruim, kalm circuit volgens de afgesproken procedure."
+  },
+  {
+   "v": "Waarom zet je voor de lierstart de hoogtemeter op nul (veldniveau)?",
+   "a": [
+    "Omdat dat bij elke vlucht wettelijk verplicht is",
+    "Voor de startlijstadministratie",
+    "Omdat de hoogtemeter anders defect raakt",
+    "Zodat je hoogtes, zoals beslishoogtes bij kabelbreuk, direct ten opzichte van het veld afleest"
+   ],
+   "juist": 3,
+   "uitleg": "Beslishoogtes gelden ten opzichte van het veld; met de meter op nul lees je ze direct af."
+  },
+  {
+   "v": "Hoe beïnvloedt sterke tegenwind je opties na een kabelbreuk?",
+   "a": [
+    "Recht vooruit landen kan tot een grotere hoogte, omdat je over de grond korter uitzweeft",
+    "Recht vooruit landen kan juist minder lang",
+    "De wind heeft geen invloed op de beslissing",
+    "Een verkort circuit is dan onmogelijk"
+   ],
+   "juist": 0,
+   "uitleg": "Bij tegenwind is de uitrol en uitzweefafstand korter, waardoor recht vooruit langer mogelijk blijft."
+  },
+  {
+   "v": "Op 100 m valt de trekkracht plotseling helemaal weg. Wat is de juiste volgorde van handelen?",
+   "a": [
+    "Ontkoppelen, radio-oproep, bijduiken, landen",
+    "Bijduiken, ontkoppelen, snelheid controleren en dan de landingsbeslissing nemen",
+    "Remkleppen open, bijduiken, ontkoppelen",
+    "Omkeren, bijduiken, ontkoppelen"
+   ],
+   "juist": 1,
+   "uitleg": "Eerst vliegsnelheid herstellen, dan ontkoppelen en pas daarna de landingskeuze maken."
+  },
+  {
+   "v": "Welke positie vlieg je in Nederland normaal tijdens een vliegtuigsleep?",
+   "a": [
+    "Ver onder het sleepvliegtuig",
+    "Precies in het propellerzog van het sleepvliegtuig",
+    "De hoogsleeppositie: iets boven het zog van het sleepvliegtuig",
+    "Schuin naast het sleepvliegtuig"
+   ],
+   "juist": 2,
+   "uitleg": "Standaard wordt in de hoogsleeppositie gevlogen, net boven het propellerzog."
+  },
+  {
+   "v": "Het sleepvliegtuig schommelt nadrukkelijk met de vleugels. Wat betekent dit signaal?",
+   "a": [
+    "De sleepvlieger groet je",
+    "Er komt turbulentie aan",
+    "Je vliegt te hoog",
+    "Ontkoppel onmiddellijk"
+   ],
+   "juist": 3,
+   "uitleg": "Vleugelschommelen van het sleepvliegtuig betekent: direct ontkoppelen."
+  },
+  {
+   "v": "Het sleepvliegtuig beweegt het richtingsroer snel heen en weer. Wat controleer je?",
+   "a": [
+    "Of je remkleppen onbedoeld openstaan, en je sluit ze",
+    "Of je hoogtemeter goed staat",
+    "Of de kabel nog vastzit",
+    "Of je radio op de juiste frequentie staat"
+   ],
+   "juist": 0,
+   "uitleg": "Het richtingsroersignaal betekent dat er iets mis is, meestal openstaande remkleppen."
+  },
+  {
+   "v": "Wat gebeurt er standaard direct na het ontkoppelen uit de sleep?",
+   "a": [
+    "Beide toestellen vliegen rechtdoor",
+    "Het zweefvliegtuig maakt een klimmende bocht naar rechts, het sleepvliegtuig daalt en draait naar links",
+    "Het zweefvliegtuig duikt onder het sleepvliegtuig door",
+    "Het sleepvliegtuig klimt en het zweefvliegtuig daalt"
+   ],
+   "juist": 1,
+   "uitleg": "Na het ontkoppelen wijken beide toestellen volgens vaste afspraak van elkaar af."
+  },
+  {
+   "v": "Hoe hoort het ontkoppelen uit de sleep te verlopen?",
+   "a": [
+    "In een steile bocht met slappe kabel",
+    "Zo snel mogelijk, zonder om je heen te kijken",
+    "Eerst het luchtruim controleren, dan in rechtlijnige vlucht met licht getrokken kabel ontkoppelen en de kabel zien weggaan",
+    "Altijd pas na een teken van de sleepvlieger"
+   ],
+   "juist": 2,
+   "uitleg": "Je ontkoppelt na het uitkijken, in rechtlijnige vlucht, en controleert dat de kabel echt los is."
+  },
+  {
+   "v": "Wat is het gevaar als je in de sleep ver boven de normale positie komt?",
+   "a": [
+    "De kabel gaat slap hangen",
+    "Je komt in het propellerzog terecht",
+    "Je ziet het sleepvliegtuig te goed",
+    "Je trekt de staart van het sleepvliegtuig omhoog, waardoor de sleepvlieger in ernstige problemen komt"
+   ],
+   "juist": 3,
+   "uitleg": "Te hoog uitkomen kan het sleepvliegtuig in een duik dwingen: direct corrigeren of ontkoppelen."
+  },
+  {
+   "v": "Hoe herstel je een doorhangende (slappe) sleepkabel?",
+   "a": [
+    "De kabel geleidelijk strak laten komen, bijvoorbeeld door iets te gieren, en een klap in de kabel vermijden",
+    "Vol optrekken zodat de kabel snel strak komt",
+    "Direct ontkoppelen",
+    "Niets doen, de kabel komt vanzelf goed"
+   ],
+   "juist": 0,
+   "uitleg": "Laat de kabel geleidelijk strak komen zodat er geen ruk op kabel en haak komt."
+  },
+  {
+   "v": "Je kunt tijdens de sleep niet ontkoppelen. Hoe maak je dit aan de sleepvlieger duidelijk?",
+   "a": [
+    "Door de remkleppen te openen",
+    "Door naar links naast het sleepvliegtuig te gaan vliegen en met de vleugels te schommelen",
+    "Door een lichtsignaal te geven",
+    "Door de kabel slap te laten hangen"
+   ],
+   "juist": 1,
+   "uitleg": "Links naast de sleep gaan vliegen en vleugelschommelen betekent: ik kan niet ontkoppelen."
+  },
+  {
+   "v": "Zowel het zweefvliegtuig als het sleepvliegtuig krijgt de kabel niet los. Wat gebeurt er?",
+   "a": [
+    "Het zweefvliegtuig opent de remkleppen tot de kabel breekt",
+    "Beide toestellen blijven vliegen tot de brandstof op is",
+    "Er wordt in combinatie geland, met een lange vlakke eindnadering en het zweefvliegtuig achter het sleepvliegtuig",
+    "Het zweefvliegtuig klimt tot de kabel breekt"
+   ],
+   "juist": 2,
+   "uitleg": "Als geen van beiden kan ontkoppelen, wordt er rustig in combinatie geland."
+  },
+  {
+   "v": "Het sleepvliegtuig krijgt op geringe hoogte motorstoring. Wat doet de zweefvlieger?",
+   "a": [
+    "Wachten op een radio-oproep",
+    "In de sleeppositie blijven",
+    "De sleep voorzichtig overnemen",
+    "Onmiddellijk ontkoppelen en zelfstandig een veilige landing maken"
+   ],
+   "juist": 3,
+   "uitleg": "Bij motorstoring van de sleep ontkoppel je direct, zodat beide toestellen vrij kunnen handelen."
+  },
+  {
+   "v": "Waarom komt het zweefvliegtuig tijdens de sleepstart eerder los van de grond dan het sleepvliegtuig?",
+   "a": [
+    "Het heeft een lagere minimumsnelheid; het blijft daarna vlak boven de grond tot ook de sleep vliegt",
+    "Het wordt door het zog omhoog geduwd",
+    "De sleepvlieger trekt het omhoog",
+    "Dat hoort niet te gebeuren"
+   ],
+   "juist": 0,
+   "uitleg": "Het zweefvliegtuig vliegt eerder en blijft laag tot het sleepvliegtuig ook los is."
+  },
+  {
+   "v": "Je zakt in de sleep in het propellerzog. Wat merk je en wat doe je?",
+   "a": [
+    "Rustige lucht; je blijft daar vliegen",
+    "Turbulentie en schudden; je corrigeert terug naar de normale positie boven het zog",
+    "De snelheid neemt sterk af; je ontkoppelt direct",
+    "De kabel breekt vrijwel altijd"
+   ],
+   "juist": 1,
+   "uitleg": "In het zog schudt het toestel; je stuurt rustig terug naar de positie erboven."
+  },
+  {
+   "v": "Hoe volg je het sleepvliegtuig in een bocht?",
+   "a": [
+    "Je blijft rechtdoor vliegen tot de kabel strak staat",
+    "Je stuurt naar de binnenkant van de bocht",
+    "Je neemt dezelfde hellingshoek aan en houdt het sleepvliegtuig op dezelfde plaats in je gezichtsveld",
+    "Je vergroot de hellingshoek tot het dubbele"
+   ],
+   "juist": 2,
+   "uitleg": "Met dezelfde hellingshoek volg je het sleepvliegtuig netjes in de bocht."
+  },
+  {
+   "v": "Waar vind je de maximaal toegestane sleepsnelheid (Vt)?",
+   "a": [
+    "Op de sleepkabel",
+    "Bij de sleepvlieger",
+    "Op de startlijst",
+    "In het vlieghandboek van het zweefvliegtuig"
+   ],
+   "juist": 3,
+   "uitleg": "De maximale sleepsnelheid Vt staat in het vlieghandboek."
+  },
+  {
+   "v": "Je verliest het sleepvliegtuig uit het zicht, bijvoorbeeld door zon of beslagen kap. Wat doe je?",
+   "a": [
+    "Onmiddellijk ontkoppelen",
+    "De laatste koers vasthouden en wachten",
+    "Iets klimmen om beter zicht te krijgen",
+    "De kabel strak trekken als signaal"
+   ],
+   "juist": 0,
+   "uitleg": "Zonder zicht op het sleepvliegtuig ontkoppel je direct; blind doorslepen is levensgevaarlijk."
+  },
+  {
+   "v": "Wat spreek je voor een sleepstart met de sleepvlieger af?",
+   "a": [
+    "Alleen de kleur van het breukstuk",
+    "Onder meer de ontkoppelhoogte, de sleeproute en eventuele bijzonderheden",
+    "Niets, alles ligt wettelijk vast",
+    "Alleen de sleepsnelheid"
+   ],
+   "juist": 1,
+   "uitleg": "Ontkoppelhoogte, route en bijzonderheden worden vooraf afgesproken."
+  },
+  {
+   "v": "Waarom ontkoppel je niet met een slap doorhangende kabel?",
+   "a": [
+    "Dan hoort de sleepvlieger de ontkoppeling niet",
+    "Het ontkoppelmechanisme werkt dan niet",
+    "De kabel kan terugspringen en om een deel van het vliegtuig slaan",
+    "Je verliest dan te veel hoogte"
+   ],
+   "juist": 2,
+   "uitleg": "Een slappe kabel kan bij het ontkoppelen terugslaan en het vliegtuig raken."
+  },
+  {
+   "v": "Welke haak gebruik je bij voorkeur voor een sleepstart?",
+   "a": [
+    "De zwaartepuntshaak",
+    "Dat maakt niet uit",
+    "De haak die het dichtst bij het wiel zit",
+    "De neushaak"
+   ],
+   "juist": 3,
+   "uitleg": "Voor de sleepstart gebruik je bij voorkeur de neushaak."
+  },
+  {
+   "v": "Wat is het risico van slepen aan de zwaartepuntshaak?",
+   "a": [
+    "Grotere kans op opsteigeren en instabiliteit; het mag alleen als het vlieghandboek het toestaat",
+    "De kabel breekt sneller",
+    "De sleepsnelheid wordt te laag",
+    "Er is geen risico"
+   ],
+   "juist": 0,
+   "uitleg": "Aan de zwaartepuntshaak is de sleep minder stabiel en dreigt opsteigeren."
+  },
+  {
+   "v": "Hoe heet de verstoorde lucht direct achter het sleepvliegtuig?",
+   "a": [
+    "De grenslaag",
+    "Het propellerzog (slipstream)",
+    "De zogvrije zone",
+    "De wervelstraat"
+   ],
+   "juist": 1,
+   "uitleg": "De propeller en het vliegtuig laten een turbulent zog achter: het propellerzog."
+  },
+  {
+   "v": "De sleepkabel breekt op geringe hoogte. Wat doe je?",
+   "a": [
+    "Altijd terugdraaien naar de startbaan",
+    "De parachute gereedmaken",
+    "De neus iets laten zakken, snelheid controleren en afhankelijk van hoogte en positie recht vooruit of via een verkort circuit landen",
+    "Doorklimmen op de resterende vaart"
+   ],
+   "juist": 2,
+   "uitleg": "Net als bij de lier geldt: snelheid veiligstellen en dan de landingsbeslissing nemen."
+  },
+  {
+   "v": "Wat controleer je aan de sleepkabel voor gebruik?",
+   "a": [
+    "Alleen de lengte",
+    "Alleen de kleur van het breukstuk",
+    "Of de kabel netjes is opgerold",
+    "Slijtage, de ringen en het juiste breukstuk"
+   ],
+   "juist": 3,
+   "uitleg": "Kabel, ringen en breukstuk moeten in goede staat en van de juiste sterkte zijn."
+  },
+  {
+   "v": "Wat is het gevolg als je met openstaande remkleppen wordt gesleept?",
+   "a": [
+    "Het sleepvliegtuig kan mogelijk nauwelijks klimmen; een gevaarlijke situatie voor beide toestellen",
+    "De sleep verloopt juist rustiger",
+    "Alleen een iets lagere klimsnelheid, verder geen probleem",
+    "De kabel komt strakker te staan, wat gunstig is"
+   ],
+   "juist": 0,
+   "uitleg": "Open remkleppen kosten zoveel prestatie dat de combinatie in gevaar komt."
+  },
+  {
+   "v": "Waar bevindt zich de laagsleeppositie?",
+   "a": [
+    "Boven het propellerzog",
+    "Onder het propellerzog",
+    "Precies in het propellerzog",
+    "Naast het sleepvliegtuig"
+   ],
+   "juist": 1,
+   "uitleg": "De laagsleeppositie ligt onder het propellerzog."
+  },
+  {
+   "v": "Wie is tijdens de sleep verantwoordelijk voor het eigen vliegtuig?",
+   "a": [
+    "De sleepvlieger, voor beide toestellen",
+    "De startleider",
+    "Iedere gezagvoerder voor zijn eigen vliegtuig",
+    "De instructeur van dienst"
+   ],
+   "juist": 2,
+   "uitleg": "Beide gezagvoerders blijven ieder verantwoordelijk voor hun eigen toestel."
+  },
+  {
+   "v": "Wanneer wordt de dagelijkse inspectie (DI) uitgevoerd?",
+   "a": [
+    "Na de laatste vlucht van de dag",
+    "Eén keer per week",
+    "Alleen na een buitenlanding",
+    "Voor de eerste vlucht van de dag"
+   ],
+   "juist": 3,
+   "uitleg": "De DI gebeurt elke vliegdag voordat de eerste vlucht wordt gemaakt."
+  },
+  {
+   "v": "Wie mag de dagelijkse inspectie uitvoeren en aftekenen?",
+   "a": [
+    "Een daartoe bevoegd of door de club aangewezen persoon",
+    "Iedereen die die dag vliegt",
+    "Alleen de fabrikant",
+    "Alleen de startleider"
+   ],
+   "juist": 0,
+   "uitleg": "De DI wordt gedaan en afgetekend door iemand die daartoe bevoegd is verklaard."
+  },
+  {
+   "v": "Wat hoort onder meer bij de dagelijkse inspectie?",
+   "a": [
+    "Alleen de bandenspanning controleren",
+    "Een volledige rondgang: beschadigingen, stuurvlakken, verbindingen, wiel en cockpit",
+    "Het poetsen van de vleugels",
+    "Alleen de instrumenten controleren"
+   ],
+   "juist": 1,
+   "uitleg": "De DI is een systematische rondgang langs het complete vliegtuig."
+  },
+  {
+   "v": "Wat is een positieve stuurcontrole (rijgproef) na montage?",
+   "a": [
+    "De roeren op maximale uitslag zetten en loslaten",
+    "Kijken of de roeren meebewegen met de wind",
+    "Een tweede persoon houdt het roervlak vast terwijl de vlieger stuurt, om de aansluiting van de besturing te controleren",
+    "De stuurkabels doormeten met een meetinstrument"
+   ],
+   "juist": 2,
+   "uitleg": "Met lichte tegendruk op het roervlak controleer je dat de besturing echt is aangesloten."
+  },
+  {
+   "v": "Wanneer voer je de cockpitcheck uit?",
+   "a": [
+    "Alleen bij de eerste vlucht van de dag",
+    "Alleen na het monteren",
+    "Eén keer per maand",
+    "Voor elke start"
+   ],
+   "juist": 3,
+   "uitleg": "De cockpitcheck hoort voor iedere start volledig te worden uitgevoerd."
+  },
+  {
+   "v": "Hoe voer je de cockpitcheck het beste uit?",
+   "a": [
+    "Altijd in dezelfde vaste volgorde volgens de checklist",
+    "In willekeurige volgorde, als alles maar aan bod komt",
+    "Uit het hoofd, checklists kosten te veel tijd",
+    "Samen met de tiploper, die de helft doet"
+   ],
+   "juist": 0,
+   "uitleg": "Een vaste volgorde volgens de checklist voorkomt dat je iets overslaat."
+  },
+  {
+   "v": "Waarom maak je losse gordels op een lege zitplaats vast?",
+   "a": [
+    "Voor een nette uitstraling",
+    "Losse gordels kunnen de besturing blokkeren of beschadigen",
+    "Anders waaien ze uit de cockpit",
+    "Dat is alleen nodig bij kunstvluchten"
+   ],
+   "juist": 1,
+   "uitleg": "Losse gordels kunnen tussen de stuurorganen raken en de besturing blokkeren."
+  },
+  {
+   "v": "In welke stand horen de remkleppen tijdens de cockpitcheck voor de start?",
+   "a": [
+    "Half geopend",
+    "Volledig geopend",
+    "Dicht en vergrendeld",
+    "Dat maakt niet uit"
+   ],
+   "juist": 2,
+   "uitleg": "Voor de start horen de remkleppen dicht en vergrendeld te zijn."
+  },
+  {
+   "v": "Wat controleer je aan de kap voor de start?",
+   "a": [
+    "Alleen of hij schoon is",
+    "Of hij op een kier staat voor ventilatie",
+    "Of het noodafwerpsysteem is verwijderd",
+    "Of hij gesloten en aan beide zijden vergrendeld is"
+   ],
+   "juist": 3,
+   "uitleg": "De kap moet dicht en aan beide zijden vergrendeld zijn."
+  },
+  {
+   "v": "Hoe stel je op het eigen veld gewoonlijk de hoogtemeter in voor een lokale vlucht?",
+   "a": [
+    "Op nul, zodat je de hoogte boven het veld afleest",
+    "Op 1013 hPa",
+    "Op de hoogte van het dichtstbijzijnde vliegveld met verkeersleiding",
+    "De hoogtemeter blijft staan zoals hij staat"
+   ],
+   "juist": 0,
+   "uitleg": "Lokaal wordt de hoogtemeter meestal op nul (veldniveau) gezet."
+  },
+  {
+   "v": "Wat houdt het checkpunt 'roeren vrij en correct' in?",
+   "a": [
+    "De roeren staan in de neutraalstand vastgezet",
+    "Alle roeren bewegen vrij over de volle uitslag en reageren in de juiste richting",
+    "De roeren zijn gesmeerd",
+    "De roeren zijn geborgd met de rijgpen"
+   ],
+   "juist": 1,
+   "uitleg": "Je controleert volle, vrije uitslagen en de juiste bewegingsrichting van alle roeren."
+  },
+  {
+   "v": "Waarom stel je de trim voor de start in?",
+   "a": [
+    "Om de radio te ontlasten",
+    "Omdat de trim in de lucht niet bediend kan worden",
+    "Voor normale stuurkrachten tijdens de start en de eerste klim",
+    "Om het zwaartepunt te verplaatsen"
+   ],
+   "juist": 2,
+   "uitleg": "Een juiste trimstand geeft normale stuurkrachten tijdens start en klim."
+  },
+  {
+   "v": "Je bent lichter dan het minimale cockpitgewicht. Wat doe je?",
+   "a": [
+    "Gewoon vliegen, een paar kilo maakt niet uit",
+    "Een extra dik kussen meenemen",
+    "De trim volledig voorover zetten",
+    "Ballast toevoegen volgens het vlieghandboek, bijvoorbeeld trimgewichten"
+   ],
+   "juist": 3,
+   "uitleg": "Onder het minimum cockpitgewicht vlieg je alleen met voorgeschreven ballast; een kussen is geen ballast."
+  },
+  {
+   "v": "Wat controleer je aan de parachute voor het instappen?",
+   "a": [
+    "Correct aangetrokken en gesloten, en de pakdatum of keuring nog geldig",
+    "Alleen of hij lekker zit",
+    "Alleen de kleur van het handvat",
+    "Niets, dat doet de club"
+   ],
+   "juist": 0,
+   "uitleg": "De parachute moet goed aangetrokken zijn en periodiek herpakt of gekeurd."
+  },
+  {
+   "v": "Waarom haak je de kabel pas aan na het afronden van de cockpitcheck?",
+   "a": [
+    "Omdat de kabel anders in de weg ligt",
+    "Zodat de start niet kan beginnen terwijl je nog niet startklaar bent",
+    "Omdat het breukstuk anders slijt",
+    "Omdat de lierist anders te lang moet wachten"
+   ],
+   "juist": 1,
+   "uitleg": "Pas aankoppelen als je startklaar bent voorkomt een start op een onvoorbereid moment."
+  },
+  {
+   "v": "Bij de DI wordt een beschadiging gevonden. Wat gebeurt er?",
+   "a": [
+    "Doorvliegen en het na de vliegdag melden",
+    "Alleen nog met instructeur vliegen",
+    "Het vliegtuig blijft aan de grond tot een bevoegd persoon (technicus) het heeft beoordeeld",
+    "De schade wordt afgeplakt en er wordt gevlogen"
+   ],
+   "juist": 2,
+   "uitleg": "Met een gevonden beschadiging wordt niet gevlogen tot een bevoegde die heeft beoordeeld."
+  },
+  {
+   "v": "Wat doe je bij vorst met waterballast?",
+   "a": [
+    "Gewoon vullen, water bevriest in de tanks niet",
+    "Half vullen",
+    "Alleen de staarttank vullen",
+    "Niet vullen of tijdig aftappen: bevriezend water kan schade en onbalans veroorzaken"
+   ],
+   "juist": 3,
+   "uitleg": "Bij vorst kan waterballast bevriezen en schade of onbalans veroorzaken."
+  },
+  {
+   "v": "Waarom mogen er geen losse voorwerpen in de cockpit liggen?",
+   "a": [
+    "Ze kunnen de besturing blokkeren of bij turbulentie door de cockpit vliegen",
+    "Ze maken het vliegtuig te zwaar",
+    "Ze verstoren altijd het kompas",
+    "Het staat slordig voor passagiers"
+   ],
+   "juist": 0,
+   "uitleg": "Losse voorwerpen kunnen tussen de besturing komen en zijn bij turbulentie gevaarlijk."
+  },
+  {
+   "v": "Tijdens de cockpitcheck blijkt iets niet in orde. Wat doe je?",
+   "a": [
+    "Doorgaan en het na de vlucht melden",
+    "De start niet beginnen voordat het probleem is opgelost",
+    "Alleen doorgaan als de startrij lang is",
+    "De check afbreken en na de vlucht opnieuw doen"
+   ],
+   "juist": 1,
+   "uitleg": "Je start pas als alles in orde is; een gebrek los je eerst op."
+  },
+  {
+   "v": "Waarom doe je de cockpitcheck opnieuw als je tussentijds bent uitgestapt?",
+   "a": [
+    "Omdat de startlijst dat eist",
+    "Om de gordels opnieuw af te stellen",
+    "Omdat er intussen iets veranderd kan zijn en je zeker wilt weten dat alles klopt",
+    "Dat is niet nodig als de onderbreking kort was"
+   ],
+   "juist": 2,
+   "uitleg": "Na een onderbreking begin je de check opnieuw, zodat je niets mist."
+  },
+  {
+   "v": "Wat is belangrijk na het monteren van een vliegtuig uit de aanhanger?",
+   "a": [
+    "Direct starten om de montage te testen",
+    "Alleen de vleugelpennen controleren",
+    "De DI van gisteren blijft geldig",
+    "Alle hoofdverbindingen borgen en (laten) nacontroleren, plus een positieve stuurcontrole"
+   ],
+   "juist": 3,
+   "uitleg": "Na montage horen borging, nacontrole en een positieve stuurcontrole te gebeuren."
+  },
+  {
+   "v": "Welke elektrische zaken controleer je voor de start?",
+   "a": [
+    "Accu(spanning), radio en FLARM ingeschakeld en werkend",
+    "Alleen de verlichting",
+    "Alleen de transponder",
+    "Elektronica hoort niet bij de cockpitcheck"
+   ],
+   "juist": 0,
+   "uitleg": "Accu, radio en FLARM horen ingeschakeld en gecontroleerd te zijn."
+  },
+  {
+   "v": "Wat wordt bedoeld met het doornemen van 'eventualiteiten' voor de start?",
+   "a": [
+    "Het plannen van de overlandvlucht",
+    "Kort doornemen wat je doet bij een kabelbreuk of andere afwijking tijdens de start",
+    "De weersverwachting voor morgen bekijken",
+    "Het verdelen van de taken op de startplaats"
+   ],
+   "juist": 1,
+   "uitleg": "Eventualiteiten zijn de noodscenario's van de start die je vooraf kort doorneemt."
+  },
+  {
+   "v": "Wanneer is opnieuw een inspectie nodig, ook al is de DI die ochtend al gedaan?",
+   "a": [
+    "Na elke normale landing",
+    "Elke twee uur",
+    "Na een harde landing of een mogelijke beschadiging",
+    "Alleen als het gaat regenen"
+   ],
+   "juist": 2,
+   "uitleg": "Na een harde landing of mogelijke schade wordt het vliegtuig eerst opnieuw geïnspecteerd."
+  },
+  {
+   "v": "Wat controleer je aan de pitotbuis en de statische poorten?",
+   "a": [
+    "Of ze glimmen",
+    "Of ze zijn afgeplakt tegen vocht",
+    "Of er water in zit, door ze door te blazen met perslucht",
+    "Dat afdekhoezen zijn verwijderd en de openingen vrij zijn"
+   ],
+   "juist": 3,
+   "uitleg": "Afgedekte of verstopte drukopeningen geven foute snelheids- en hoogteaanwijzingen."
+  },
+  {
+   "v": "Op welke hoogte kom je gewoonlijk aan bij het aanknopingspunt van het circuit?",
+   "a": [
+    "Ongeveer 200 m boven het veld",
+    "Ongeveer 50 m boven het veld",
+    "Ongeveer 600 m boven het veld",
+    "Precies 1000 ft QNH, waar het veld ook ligt"
+   ],
+   "juist": 0,
+   "uitleg": "Het aanknopingspunt wordt doorgaans op circa 200 m boven veldniveau aangevlogen."
+  },
+  {
+   "v": "Wat is de gebruikelijke volgorde van de circuitdelen?",
+   "a": [
+    "Eindnadering, dwarswindbeen, rugwindbeen",
+    "Aanknopingspunt, rugwindbeen, dwarswindbeen (basis), eindnadering",
+    "Rugwindbeen, eindnadering, dwarswindbeen",
+    "Aanknopingspunt, eindnadering, rugwindbeen"
+   ],
+   "juist": 1,
+   "uitleg": "Vanaf het aanknopingspunt volgen rugwindbeen, basis en eindnadering."
+  },
+  {
+   "v": "Wat stel je bij het aanknopingspunt onder meer vast?",
+   "a": [
+    "Alleen je hoogte",
+    "De naam van de lierist",
+    "Landingsplek, windrichting en -sterkte, ander verkeer en de aanvliegsnelheid",
+    "De positie van de lierkabels"
+   ],
+   "juist": 2,
+   "uitleg": "Bij het aanknopingspunt maak je het plan voor de landing compleet."
+  },
+  {
+   "v": "Hoe bepaal je de aan te houden aanvliegsnelheid?",
+   "a": [
+    "Altijd exact het gele driehoekje",
+    "De overtreksnelheid plus 5 km/u",
+    "Zo langzaam mogelijk voor een korte uitrol",
+    "Het gele driehoekje plus een toeslag voor wind en turbulentie"
+   ],
+   "juist": 3,
+   "uitleg": "Bij wind en turbulentie komt er een toeslag bovenop de minimale aanvliegsnelheid."
+  },
+  {
+   "v": "Waarvoor gebruik je de remkleppen in de eindnadering?",
+   "a": [
+    "Om de glijhoek te regelen en op het gewenste punt uit te komen",
+    "Om de snelheid zo hoog mogelijk te houden",
+    "Om de neus omhoog te houden",
+    "Alleen om na de landing af te remmen"
+   ],
+   "juist": 0,
+   "uitleg": "Met de remkleppen regel je de glijhoek naar het beoogde landingspunt."
+  },
+  {
+   "v": "Je ligt in de eindnadering duidelijk te hoog. Wat doe je?",
+   "a": [
+    "De neus optrekken om af te remmen",
+    "Meer remklep geven en zo nodig slippen",
+    "Een extra rondje draaien op 30 m",
+    "De kap openen voor extra weerstand"
+   ],
+   "juist": 1,
+   "uitleg": "Meer remklep (eventueel slippen) maakt de nadering steiler zonder gevaarlijke manoeuvres."
+  },
+  {
+   "v": "Je ligt in de eindnadering te laag. Wat doe je?",
+   "a": [
+    "De neus omhoog nemen om het veld te halen",
+    "Meer remklep geven",
+    "De remkleppen (gedeeltelijk) sluiten en de snelheid aanhouden",
+    "Direct 180 graden omkeren"
+   ],
+   "juist": 2,
+   "uitleg": "Kleppen sluiten verbetert de glijhoek; de neus optrekken kost juist snelheid en is gevaarlijk."
+  },
+  {
+   "v": "Waar kijk je en wat doe je tijdens het afronden?",
+   "a": [
+    "Naar de snelheidsmeter, knuppel neutraal",
+    "Naar de vleugeltip, knuppel getrokken",
+    "Recht omlaag naar de grond",
+    "Blik ver vooruit en het vliegtuig vlak boven de grond laten uitzweven"
+   ],
+   "juist": 3,
+   "uitleg": "Met de blik ver vooruit schat je de hoogte goed in en zweef je vlak boven de grond uit."
+  },
+  {
+   "v": "Wat is een doellanding?",
+   "a": [
+    "Een landing waarbij je nauwkeurig op of kort na een afgesproken punt neerkomt en binnen een vak tot stilstand komt",
+    "Elke landing zonder schade",
+    "Een landing met de kortst mogelijke uitrol",
+    "Een landing precies in het midden van het veld"
+   ],
+   "juist": 0,
+   "uitleg": "Bij een doellanding land en stop je nauwkeurig in een afgesproken vak."
+  },
+  {
+   "v": "Waarom zijn doellandingen belangrijk in de opleiding?",
+   "a": [
+    "Ze zijn vooral bedoeld voor wedstrijden",
+    "Ze bereiden je voor op nauwkeurig landen in een klein veld, zoals bij een buitenlanding",
+    "Ze verkorten de vliegtijd",
+    "Ze zijn alleen nodig voor het examen"
+   ],
+   "juist": 1,
+   "uitleg": "Wie nauwkeurig kan landen, kan later ook veilig in een klein buitenlandingsveld terecht."
+  },
+  {
+   "v": "Wat doe je zo snel mogelijk nadat je bent uitgerold en gestopt?",
+   "a": [
+    "In de cockpit blijven wachten",
+    "De startlijst invullen",
+    "Het vliegtuig (laten) verplaatsen zodat het landingsterrein vrij is voor volgend verkeer",
+    "De remkleppen sluiten en de kap openzetten"
+   ],
+   "juist": 2,
+   "uitleg": "Het landingsgebied moet zo snel mogelijk vrij zijn voor volgend verkeer."
+  },
+  {
+   "v": "Wat bepaalt de circuitrichting op een veld?",
+   "a": [
+    "De voorkeur van de vlieger",
+    "Circuits zijn altijd linkshandig",
+    "De stand van de zon",
+    "De veldindeling, plaatselijke afspraken en de windrichting"
+   ],
+   "juist": 3,
+   "uitleg": "De circuitrichting volgt uit veldindeling, lokale afspraken en de wind."
+  },
+  {
+   "v": "Hoe voer je een landing met dwarswind uit?",
+   "a": [
+    "Opgestuurd aanvliegen en het vliegtuig vlak voor het neerzetten recht op de baan zetten",
+    "Met de wind mee sturen in de eindnadering",
+    "Extra langzaam aanvliegen",
+    "Met volle remklep en zonder correctie"
+   ],
+   "juist": 0,
+   "uitleg": "Je vliegt opgestuurd aan en zet het toestel vlak voor het neerzetten recht."
+  },
+  {
+   "v": "Waarom is een krappe, langzame bocht van basis naar eindnadering gevaarlijk?",
+   "a": [
+    "Je verliest het veld uit zicht",
+    "Laag en langzaam krap draaien kan tot overtrek of tolvlucht leiden",
+    "De remkleppen kunnen openklappen",
+    "De wind draait daar altijd"
+   ],
+   "juist": 1,
+   "uitleg": "Laag, langzaam en krap draaien is de klassieke aanloop naar een tolvlucht."
+  },
+  {
+   "v": "Je komt te laag aan bij het begin van het circuit. Wat doe je?",
+   "a": [
+    "Het volledige standaardcircuit toch afmaken",
+    "Eerst thermiek zoeken boven het veld",
+    "Het circuit verkorten en eerder naar de eindnadering draaien",
+    "Vanaf je positie met rugwind landen"
+   ],
+   "juist": 2,
+   "uitleg": "Bij te weinig hoogte verkort je het circuit; veiligheid gaat boven het standaardpatroon."
+  },
+  {
+   "v": "Twee zweefvliegtuigen naderen om te landen. Wie heeft voorrang?",
+   "a": [
+    "Het snelste toestel",
+    "Het toestel dat het hoogst zit",
+    "Het toestel met een passagier",
+    "Het toestel dat lager zit en verder in de eindnadering is"
+   ],
+   "juist": 3,
+   "uitleg": "Het lager vliegende, verder gevorderde toestel heeft voorrang; je mag er niet voor kruipen."
+  },
+  {
+   "v": "Wat is het doel van slippen in de eindnadering?",
+   "a": [
+    "Extra hoogte kwijtraken zonder dat de snelheid sterk oploopt",
+    "De snelheid verhogen",
+    "De dwarswind opheffen zonder roeruitslag",
+    "De remkleppen ontlasten"
+   ],
+   "juist": 0,
+   "uitleg": "Slippen geeft extra weerstand en dus een steilere nadering."
+  },
+  {
+   "v": "Wat is het gevolg van landen met rugwind?",
+   "a": [
+    "Een kortere uitrol",
+    "Een hogere grondsnelheid en een aanzienlijk langere uitrol",
+    "Een lagere grondsnelheid",
+    "Geen verschil met landen tegen de wind"
+   ],
+   "juist": 1,
+   "uitleg": "Rugwind verhoogt de grondsnelheid en verlengt de uitrol aanzienlijk."
+  },
+  {
+   "v": "Op een druk veld met meerdere landende toestellen land je:",
+   "a": [
+    "Waar je maar wilt",
+    "Altijd precies bij de startplaats",
+    "In het aangewezen landingsgebied, met goed uitkijken naar ander verkeer",
+    "Zo dicht mogelijk bij de hangaar"
+   ],
+   "juist": 2,
+   "uitleg": "Je gebruikt het aangewezen landingsgebied en let goed op ander verkeer."
+  },
+  {
+   "v": "Hoe pas je het circuit aan bij sterke wind?",
+   "a": [
+    "Je vliegt het circuit ruimer en verder van het veld",
+    "Je begint het circuit lager",
+    "Je vliegt langzamer in het rugwindbeen",
+    "Je legt het circuit dichter bij het veld en houdt extra snelheid aan"
+   ],
+   "juist": 3,
+   "uitleg": "Bij sterke wind blijf je dichter bij het veld en houd je extra snelheid aan."
+  },
+  {
+   "v": "Waar ligt het rugwindbeen?",
+   "a": [
+    "Naast het veld, evenwijdig aan maar tegengesteld gericht aan de landingsrichting",
+    "Recht achter de lier",
+    "Haaks op de landingsrichting",
+    "Recht boven de landingsbaan"
+   ],
+   "juist": 0,
+   "uitleg": "Het rugwindbeen loopt evenwijdig aan de baan, tegengesteld aan de landingsrichting."
+  },
+  {
+   "v": "Een ander toestel landt onverwacht precies waar jij wilde landen. Wat doe je?",
+   "a": [
+    "Er vlak overheen landen",
+    "Uitwijken naar een ander vrij deel van het landingsterrein",
+    "Een doorstart maken op de resterende snelheid",
+    "Op 20 m hoogte blijven cirkelen tot het vrij is"
+   ],
+   "juist": 1,
+   "uitleg": "Je wijkt tijdig uit naar een vrij deel van het landingsterrein."
+  },
+  {
+   "v": "Wanneer klap je bij een vliegtuig met intrekbaar landingsgestel het wiel uit?",
+   "a": [
+    "Pas in de eindnadering onder 50 m",
+    "Direct na de start",
+    "Ruim op tijd, als vast onderdeel van de landingscheck in of voor het circuit",
+    "Alleen bij een buitenlanding"
+   ],
+   "juist": 2,
+   "uitleg": "Het wiel gaat ruim op tijd uit, als vast punt van de landingscheck."
+  },
+  {
+   "v": "Waarom vlieg je niet het hele circuit met geopende remkleppen?",
+   "a": [
+    "De remkleppen kunnen oververhit raken",
+    "Dat is slecht voor de doorstroming op het veld",
+    "De kleppen klapperen dan te veel",
+    "Je verliest onnodig veel hoogte en houdt geen reserve over"
+   ],
+   "juist": 3,
+   "uitleg": "Open kleppen kosten veel hoogte; je bewaart ze als regelmiddel voor de eindnadering."
+  },
+  {
+   "v": "Wat is het gevaar van 'onderdoor sturen' (te veel voetenstuur naar binnen) in de laatste bocht?",
+   "a": [
+    "Een slippende, ongecoördineerde bocht die laag kan overgaan in een tolvlucht",
+    "Alleen wat extra weerstand",
+    "De bocht wordt te ruim",
+    "De snelheid loopt te ver op"
+   ],
+   "juist": 0,
+   "uitleg": "Te veel binnenvoetenstuur in een lage bocht is een bekende aanloop naar een tolvlucht."
+  },
+  {
+   "v": "Op welke hoogte kies je bij een naderende buitenlanding definitief je landingsveld?",
+   "a": [
+    "Op circa 100 m",
+    "Uiterlijk op ongeveer 300 m boven de grond",
+    "Op 600 m",
+    "Pas in de eindnadering"
+   ],
+   "juist": 1,
+   "uitleg": "Rond 300 m leg je je definitief vast op een veld, zodat er tijd is voor een net circuit."
+  },
+  {
+   "v": "Welke punten beoordeel je bij de veldkeuze voor een buitenlanding?",
+   "a": [
+    "Alleen de grootte",
+    "Alleen de windrichting",
+    "Grootte, gewas, helling, obstakels, wind en bereikbaarheid",
+    "Vooral de afstand tot de snelweg"
+   ],
+   "juist": 2,
+   "uitleg": "Een goed buitenlandingsveld beoordeel je op al deze punten samen."
+  },
+  {
+   "v": "Welk gewas of oppervlak is het meest geschikt om op te landen?",
+   "a": [
+    "Hoog rijp graan",
+    "Mais",
+    "Vers geploegd land",
+    "Gemaaid grasland of een stoppelveld"
+   ],
+   "juist": 3,
+   "uitleg": "Kort gewas zoals gemaaid gras of stoppels geeft de kleinste kans op schade."
+  },
+  {
+   "v": "Wat is het gevaar van landen in hoog gewas zoals mais?",
+   "a": [
+    "Grote kans op schade en zelfs over de kop slaan",
+    "Er is geen bijzonder gevaar",
+    "Alleen vieze vleugels",
+    "De landing wordt juist zachter"
+   ],
+   "juist": 0,
+   "uitleg": "Hoog gewas remt abrupt af en kan het vliegtuig zwaar beschadigen of laten kantelen."
+  },
+  {
+   "v": "Hoe ga je om met een hellend veld?",
+   "a": [
+    "Altijd hellingafwaarts landen",
+    "Bij voorkeur een vlak veld kiezen; moet het, dan hellingopwaarts landen, vrijwel ongeacht de wind",
+    "De helling maakt niet uit",
+    "Dwars op de helling landen bij sterke wind"
+   ],
+   "juist": 1,
+   "uitleg": "Hellingopwaarts landen gaat vrijwel altijd voor; hellingafwaarts kom je niet tot stilstand."
+  },
+  {
+   "v": "Hoe herken je draden of afrasteringen vanuit de lucht?",
+   "a": [
+    "Draden zijn vanaf 300 m goed te zien",
+    "Aan de glinstering van het staal",
+    "Vooral aan de palen en de lijnen in het landschap; de draden zelf zie je meestal niet",
+    "Aan de kleur van het gras eronder"
+   ],
+   "juist": 2,
+   "uitleg": "Je zoekt naar palen en logische lijnen; de draad zelf is vrijwel onzichtbaar."
+  },
+  {
+   "v": "Waarom vlieg je bij een buitenlanding een zo volledig mogelijk circuit?",
+   "a": [
+    "Om tijd te winnen",
+    "Dat is wettelijk verplicht",
+    "Om sneller hoogte kwijt te raken",
+    "Om het veld van meerdere kanten te beoordelen en een normale, stabiele nadering te maken"
+   ],
+   "juist": 3,
+   "uitleg": "Een volledig circuit geeft de beste beoordeling van het veld en een vertrouwde nadering."
+  },
+  {
+   "v": "Hoe bepaal je onderweg de windrichting voor een buitenlanding?",
+   "a": [
+    "Aan rook, golfjes op water, scheefwaaiend gewas en je eigen drift",
+    "Alleen via de radio",
+    "Aan de stand van de zon",
+    "Die is altijd gelijk aan de wind op het thuisveld"
+   ],
+   "juist": 0,
+   "uitleg": "Rook, water, gewas en je eigen drift verraden de wind bij de grond."
+  },
+  {
+   "v": "Waarom stop je onder de afgesproken minimumhoogte met thermiek zoeken?",
+   "a": [
+    "Thermiek bestaat daar niet meer",
+    "Omdat je anders opties verliest en te weinig hoogte overhoudt voor een veilige veldkeuze en een net circuit",
+    "Omdat de vliegtijd anders te lang wordt",
+    "Vanwege de radioprocedures"
+   ],
+   "juist": 1,
+   "uitleg": "Te laag doorzoeken kost de hoogte die je nodig hebt voor een veilige buitenlanding."
+  },
+  {
+   "v": "Wat doe je kort na een geslaagde buitenlanding als eerste?",
+   "a": [
+    "Het veld verlaten",
+    "Foto's maken voor het clubblad",
+    "Het vliegtuig zekeren en je thuisfront of de club laten weten dat je veilig geland bent",
+    "De parachute in het gras leggen"
+   ],
+   "juist": 2,
+   "uitleg": "Eerst het vliegtuig zekeren en melden dat je veilig bent geland."
+  },
+  {
+   "v": "Hoe ga je om met de eigenaar van het land waarop je geland bent?",
+   "a": [
+    "Die hoef je niet te spreken",
+    "Je laat een briefje achter",
+    "Alleen contact opnemen bij schade",
+    "Je zoekt contact, vraagt toestemming voor het ophalen en meldt eventuele schade"
+   ],
+   "juist": 3,
+   "uitleg": "Netjes contact zoeken en toestemming vragen hoort bij een correcte buitenlanding."
+  },
+  {
+   "v": "Er staat vee in een verder prima veld. Wat doe je?",
+   "a": [
+    "Bij voorkeur een ander veld kiezen; vee kan gevaarlijk zijn voor jou en het vliegtuig",
+    "Gewoon landen, vee loopt wel weg",
+    "Laag overvliegen om het vee te verjagen",
+    "Landen en het vliegtuig onbeheerd achterlaten"
+   ],
+   "juist": 0,
+   "uitleg": "Vee kan jou en het vliegtuig verwonden of beschadigen; kies liever een ander veld."
+  },
+  {
+   "v": "Wat neem je op een overlandvlucht mee met het oog op een mogelijke buitenlanding?",
+   "a": [
+    "Niets extra's",
+    "Onder meer een opgeladen telefoon, drinkwater en de contactgegevens van de club",
+    "Alleen een fototoestel",
+    "Een reserveparachute"
+   ],
+   "juist": 1,
+   "uitleg": "Met telefoon, water en contactgegevens kun je na een buitenlanding goed uit de voeten."
+  },
+  {
+   "v": "Hoe land je op geploegd of bewerkt land als het niet anders kan?",
+   "a": [
+    "Dwars op de voren",
+    "Met extra hoge snelheid",
+    "Evenwijdig aan de voren",
+    "Met het wiel ingetrokken"
+   ],
+   "juist": 2,
+   "uitleg": "Evenwijdig aan de voren is de kans op schade het kleinst."
+  },
+  {
+   "v": "Hoe rond je af bij een landing in hoog gewas?",
+   "a": [
+    "Je duikt door het gewas heen naar de grond",
+    "Extra laat en hard afronden",
+    "Met extra snelheid door het gewas rollen",
+    "Je behandelt de bovenkant van het gewas als de grond en rondt daarop af"
+   ],
+   "juist": 3,
+   "uitleg": "Je rondt af op de bovenkant van het gewas, alsof dat de grond is."
+  },
+  {
+   "v": "Wat geef je na een buitenlanding door aan de ophaalploeg?",
+   "a": [
+    "Je exacte positie (bijvoorbeeld coördinaten of adres), de bereikbaarheid van het veld en bijzonderheden",
+    "Alleen dat je geland bent",
+    "De kleur van het vliegtuig",
+    "De resterende daglichttijd"
+   ],
+   "juist": 0,
+   "uitleg": "Een precieze positie en route-informatie maken het ophalen vlot en veilig."
+  },
+  {
+   "v": "Een veld loopt duidelijk omhoog en er staat een lichte rugwind hellingopwaarts. Hoe land je?",
+   "a": [
+    "Hellingafwaarts, tegen de wind in",
+    "Hellingopwaarts, ook al heb je dan iets rugwind",
+    "Dwars op de helling",
+    "Waar de meeste ruimte is, de richting maakt niet uit"
+   ],
+   "juist": 1,
+   "uitleg": "Bij een duidelijke helling weegt hellingopwaarts landen zwaarder dan een lichte rugwind."
+  },
+  {
+   "v": "Er staat een bomenrij voor de aanvliegroute van je gekozen veld. Waar houd je rekening mee?",
+   "a": [
+    "Bomen vormen geen probleem voor een zweefvliegtuig",
+    "Je vliegt er vlak overheen op overtreksnelheid",
+    "Achter een obstakel is een flink deel van het veld onbruikbaar; het veld moet dus ruim langer zijn",
+    "Je landt dan altijd met rugwind vanaf de andere kant"
+   ],
+   "juist": 2,
+   "uitleg": "Een obstakel in de nadering maakt het eerste deel van het veld onbruikbaar."
+  },
+  {
+   "v": "Hoe herken je (te) natte of zachte grond vanuit de lucht?",
+   "a": [
+    "Aan de temperatuur",
+    "Nat terrein is vanuit de lucht niet te herkennen",
+    "Aan het ontbreken van vogels",
+    "Aan donkere, glimmende plekken en plassen"
+   ],
+   "juist": 3,
+   "uitleg": "Donkere en glimmende plekken wijzen op natte, zachte grond."
+  },
+  {
+   "v": "Waarom vermijd je een eindnadering recht tegen een laagstaande zon in?",
+   "a": [
+    "Je ziet obstakels, draden en het veld zelf dan veel slechter",
+    "De lak kan verkleuren",
+    "De thermiek is daar sterker",
+    "De zon verstoort de snelheidsmeter"
+   ],
+   "juist": 0,
+   "uitleg": "Tegen de laagstaande zon in zie je obstakels en draden nauwelijks."
+  },
+  {
+   "v": "Je maakt een buitenlanding met een passagier. Wat doe je extra?",
+   "a": [
+    "Niets bijzonders",
+    "De passagier tijdig informeren, de gordels strak laten aantrekken en uitleggen wat er gaat gebeuren",
+    "De passagier laten meesturen",
+    "De passagier de veldkeuze laten doen"
+   ],
+   "juist": 1,
+   "uitleg": "Een tijdig geïnformeerde passagier met strakke gordels is veilig en blijft rustig."
+  },
+  {
+   "v": "Wat is belangrijk bij het ophalen van een buitengelande kist met de aanhanger?",
+   "a": [
+    "Zo snel mogelijk demonteren met wie er toevallig is",
+    "Het vliegtuig aan de staart over het veld slepen",
+    "Demonteren volgens het handboek, met voldoende en geïnstrueerde helpers",
+    "Wachten tot de volgende dag"
+   ],
+   "juist": 2,
+   "uitleg": "Demonteren gebeurt volgens het handboek met voldoende kundige helpers."
+  },
+  {
+   "v": "Je hebt bij een buitenlanding lichte schade opgelopen. Wat doe je?",
+   "a": [
+    "Niets, als het vliegtuig nog heel oogt",
+    "Alleen in het logboek kijken",
+    "De schade zelf snel repareren",
+    "De schade altijd melden bij de club of technicus, ook als die klein lijkt"
+   ],
+   "juist": 3,
+   "uitleg": "Ook kleine schade wordt gemeld en beoordeeld voordat er weer wordt gevlogen."
+  },
+  {
+   "v": "Je kunt kiezen tussen een groot geel veld (rijp graan) en een kleiner, gemaaid grasveld. Wat kies je?",
+   "a": [
+    "Het kleinere gemaaide grasveld, mits ruim genoeg",
+    "Altijd het grootste veld, ongeacht het gewas",
+    "Het gele veld, want geel betekent droog",
+    "Het veld dat het dichtst bij een weg ligt, ongeacht het gewas"
+   ],
+   "juist": 0,
+   "uitleg": "Kort gewas gaat boven grootte, zolang het veld ruim genoeg is."
+  },
+  {
+   "v": "Wat betekent het keuzecriterium 'bereikbaarheid' van een buitenlandingsveld?",
+   "a": [
+    "De afstand tot het thuisveld",
+    "Of de ophaalploeg het veld met auto en aanhanger goed kan bereiken",
+    "Of er telefoonbereik is",
+    "Of het veld op de kaart staat"
+   ],
+   "juist": 1,
+   "uitleg": "Bereikbaarheid gaat over het ophalen: kan de aanhanger bij het veld komen."
+  },
+  {
+   "v": "Wat is de taak van de tiploper bij de start?",
+   "a": [
+    "Het vliegtuig naar voren duwen",
+    "De kabel aanhaken",
+    "De vleugel horizontaal houden en kort meelopen tot het rolroer effectief is",
+    "De startlijst invullen"
+   ],
+   "juist": 2,
+   "uitleg": "De tiploper houdt de vleugel horizontaal tot de vlieger dat zelf kan met het rolroer."
+  },
+  {
+   "v": "Hoe laat de tiploper de vleugel los?",
+   "a": [
+    "Met een korte zet omhoog",
+    "Door de tip iets naar beneden te drukken",
+    "Door de vleugel af te remmen",
+    "Gewoon loslaten, zonder te duwen of te trekken"
+   ],
+   "juist": 3,
+   "uitleg": "De tip wordt losgelaten zonder duwen of trekken, anders verstoor je de start."
+  },
+  {
+   "v": "Wie mag er 'STOP' roepen als er tijdens de startprocedure gevaar dreigt?",
+   "a": [
+    "Iedereen die het gevaar ziet",
+    "Alleen de startleider",
+    "Alleen de vlieger",
+    "Alleen de lierist"
+   ],
+   "juist": 0,
+   "uitleg": "Iedereen die gevaar ziet, roept luid STOP; veiligheid is van iedereen."
+  },
+  {
+   "v": "Wat gebeurt er direct nadat er 'STOP' is geroepen?",
+   "a": [
+    "De start wordt na een korte controle vervolgd",
+    "De startprocedure wordt onmiddellijk afgebroken en het stopsignaal wordt aan de lier doorgegeven",
+    "Alleen de tiploper stopt",
+    "De vlieger beslist of hij doorgaat"
+   ],
+   "juist": 1,
+   "uitleg": "Na STOP wordt de start onmiddellijk afgebroken en de lier gestopt."
+  },
+  {
+   "v": "Wat is de regel rond liggende lierkabels op het veld?",
+   "a": [
+    "Je mag erop staan als de lier niet draait",
+    "Kabels mag je altijd met de auto kruisen",
+    "Nooit op een kabel staan of eroverheen stappen zolang eraan getrokken kan worden",
+    "Kabels zijn alleen gevaarlijk bij regen"
+   ],
+   "juist": 2,
+   "uitleg": "Een kabel waaraan getrokken kan worden is levensgevaarlijk; blijf eraf en eruit."
+  },
+  {
+   "v": "Waar let je op als je je over het veld verplaatst?",
+   "a": [
+    "Alleen op de zon",
+    "Vooral op de startlijst",
+    "Op niets bijzonders, het veld is veilig",
+    "Op landend en startend verkeer en op de lierkabels"
+   ],
+   "juist": 3,
+   "uitleg": "Op het veld kijk je continu uit naar verkeer en kabels."
+  },
+  {
+   "v": "Wat is de taak van de startleider?",
+   "a": [
+    "De leiding over de startplaats: volgorde, veiligheid en coördinatie van het startbedrijf",
+    "Zelf alle kisten aanhaken",
+    "De lier bedienen",
+    "Het weerbericht maken"
+   ],
+   "juist": 0,
+   "uitleg": "De startleider coördineert het startbedrijf en bewaakt de veiligheid op de startplaats."
+  },
+  {
+   "v": "Wat doet de lichtgever (seingever)?",
+   "a": [
+    "Hij bedient de veldverlichting",
+    "Hij geeft de signalen aan de lierist, zoals aantrekken, vol vermogen en stop",
+    "Hij seint naar landend verkeer",
+    "Hij controleert de breukstukken"
+   ],
+   "juist": 1,
+   "uitleg": "De lichtgever geeft de startcommando's door aan de lierist."
+  },
+  {
+   "v": "Waarvoor dient de startlijst?",
+   "a": [
+    "Alleen voor de facturatie",
+    "Voor het rooster van de tiplopers",
+    "Voor de registratie van alle starts en landingen, ook belangrijk als iemand vermist raakt",
+    "Voor de wedstrijdadministratie"
+   ],
+   "juist": 2,
+   "uitleg": "De startlijst registreert alle starts en landingen; zo is ook duidelijk wie nog in de lucht is."
+  },
+  {
+   "v": "Wat wordt op de startplaats bedoeld met 'afzwaaien'?",
+   "a": [
+    "Het uitzwaaien van vertrekkende overlandvliegers",
+    "Het groeten van de lierist",
+    "De laatste start van de dag",
+    "Het armsignaal waarmee de start wordt afgebroken (stopteken)"
+   ],
+   "juist": 3,
+   "uitleg": "Afzwaaien is het zichtbare stopsignaal waarmee de start wordt afgebroken."
+  },
+  {
+   "v": "Waar let de chauffeur van het kabelophaalvoertuig vooral op?",
+   "a": [
+    "Landend en startend verkeer en het niet overrijden van kabels",
+    "De radio-omroep",
+    "Zo snel mogelijk rijden",
+    "De kortste route, dwars over de landingsstrook"
+   ],
+   "juist": 0,
+   "uitleg": "Het kabelvoertuig wijkt altijd voor vliegverkeer en rijdt niet over kabels."
+  },
+  {
+   "v": "Hoe verplaats je een zweefvliegtuig achter een auto over het veld?",
+   "a": [
+    "Zo snel mogelijk om het startbedrijf niet op te houden",
+    "Rustig, met een helper die op de vleugeltip en obstakels let",
+    "Altijd aan de neus getrokken met een korte lijn",
+    "Met de remkleppen open als rem"
+   ],
+   "juist": 1,
+   "uitleg": "Grondtransport gaat rustig en met begeleiding bij de vleugeltip."
+  },
+  {
+   "v": "Hoe gedraag je je in de buurt van een sleepvliegtuig met draaiende motor?",
+   "a": [
+    "Je mag overal lopen als de vlieger je ziet",
+    "Vlak voor de neus langs is het kortst en prima",
+    "Ruim bij de propeller vandaan blijven en nooit vlak voor het toestel langs lopen",
+    "Alleen links passeren"
+   ],
+   "juist": 2,
+   "uitleg": "Een draaiende propeller is levensgevaarlijk; blijf er ruim bij vandaan."
+  },
+  {
+   "v": "Hoe parkeer je een zweefvliegtuig bij wind aan de startplaats?",
+   "a": [
+    "Met beide vleugels op schragen",
+    "Met de neus pal in de wind en beide vleugels vrij",
+    "Met de staart in de wind en de kap open",
+    "Met de tip aan de windzijde op de grond, zo nodig verzwaard met bijvoorbeeld een band"
+   ],
+   "juist": 3,
+   "uitleg": "De vleugeltip aan de windzijde ligt op de grond, eventueel verzwaard, zodat de wind er geen vat op krijgt."
+  },
+  {
+   "v": "Waarom houden toeschouwers afstand van de startplaats?",
+   "a": [
+    "Vanwege zwiepende kabels, bewegende vliegtuigen en landend verkeer",
+    "Omdat ze anders op de startlijst moeten",
+    "Vanwege het lawaai",
+    "Omdat de verzekering dat alleen bij regen eist"
+   ],
+   "juist": 0,
+   "uitleg": "Rond de startplaats bewegen kabels en vliegtuigen; afstand houden voorkomt ongelukken."
+  },
+  {
+   "v": "Er is een toestel in de eindnadering terwijl het kabelophaalvoertuig wil oversteken. Wat gebeurt er?",
+   "a": [
+    "Het voertuig steekt snel over",
+    "Het voertuig wacht tot de eindnadering en landing vrij zijn",
+    "De vlieger moet uitwijken voor het voertuig",
+    "De startleider laat beide tegelijk doorgaan"
+   ],
+   "juist": 1,
+   "uitleg": "Vliegverkeer gaat altijd voor; het voertuig wacht."
+  },
+  {
+   "v": "Wie mag zich vlak voor een startklaar aangekoppeld zweefvliegtuig bevinden?",
+   "a": [
+    "De tiploper",
+    "De startleider",
+    "Niemand",
+    "Maximaal twee helpers"
+   ],
+   "juist": 2,
+   "uitleg": "Voor een aangekoppeld, startklaar vliegtuig staat niemand; de start kan elk moment beginnen."
+  },
+  {
+   "v": "Waarom is er een verbinding (veldtelefoon of radio) tussen startplaats en lier?",
+   "a": [
+    "Voor het doorgeven van de weersverwachting",
+    "Om de vliegtijden door te geven",
+    "Om de startlijst voor te lezen",
+    "Voor duidelijke startcommando's en het direct kunnen doorgeven van 'stop'"
+   ],
+   "juist": 3,
+   "uitleg": "De verbinding dient voor eenduidige startcommando's en het onmiddellijke stopsignaal."
+  },
+  {
+   "v": "Waarom sta je tijdens een lierstart niet vlak naast de kabel?",
+   "a": [
+    "Een brekende kabel kan opzij zwiepen en ernstig letsel veroorzaken",
+    "Je verstoort dan het zicht van de vlieger",
+    "De kabel kan statisch geladen zijn",
+    "Het gras is daar kwetsbaar"
+   ],
+   "juist": 0,
+   "uitleg": "Bij een breuk zwiept de kabel opzij; naast de kabel staan is gevaarlijk."
+  },
+  {
+   "v": "Er wordt een beschadigde plek in de lierkabel ontdekt. Wat gebeurt er?",
+   "a": [
+    "Er wordt doorgestart tot de kabel breekt",
+    "Het wordt gemeld en de kabel wordt door een daartoe aangewezen persoon hersteld of vervangen",
+    "De vlieger repareert de kabel zelf snel met tape",
+    "Alleen bij tweezitters wordt de kabel vervangen"
+   ],
+   "juist": 1,
+   "uitleg": "Een beschadigde kabel wordt eerst vakkundig hersteld of vervangen."
+  },
+  {
+   "v": "Hoe steek je een startbaan of landingsstrook te voet over?",
+   "a": [
+    "Rustig slenterend, dan zien vliegers je beter",
+    "Alleen met een veiligheidshesje aan",
+    "Eerst goed kijken naar startend en landend verkeer en dan vlot oversteken",
+    "Oversteken is altijd verboden"
+   ],
+   "juist": 2,
+   "uitleg": "Eerst goed kijken, dan vlot oversteken zonder te blijven hangen."
+  },
+  {
+   "v": "Wat is de regel voor kinderen en honden op het zweefvliegveld?",
+   "a": [
+    "Ze mogen overal komen zolang het rustig is",
+    "Alleen honden moeten aangelijnd",
+    "Kinderen mogen helpen bij de kabels",
+    "Niet zonder toezicht op het veld en afstand houden van het startbedrijf"
+   ],
+   "juist": 3,
+   "uitleg": "Kinderen en honden horen onder toezicht en op afstand van het startbedrijf."
+  },
+  {
+   "v": "Een kist is net geland midden in het landingsgebied. Wat gebeurt er?",
+   "a": [
+    "Hij wordt zo snel mogelijk weggehaald (weggeholpen), zodat het gebied vrij is voor volgend verkeer",
+    "Hij blijft staan tot de vlieger is uitgerust",
+    "Hij wordt pas na de volgende landing verplaatst",
+    "De vlieger taxiet zelf naar de kant"
+   ],
+   "juist": 0,
+   "uitleg": "Weghelpen gebeurt direct, zodat het landingsgebied vrij is voor volgend verkeer."
+  },
+  {
+   "v": "Hoe meldt de vlieger dat hij startklaar is?",
+   "a": [
+    "Door met de vleugels te schudden",
+    "Door dit na de cockpitcheck duidelijk aan de startleider te melden met het afgesproken teken of woord",
+    "Door de kap te sluiten",
+    "Door zelf de kabel aan te haken"
+   ],
+   "juist": 1,
+   "uitleg": "De vlieger meldt zich pas startklaar bij de startleider als de check volledig af is."
+  },
+  {
+   "v": "Er nadert een onweersbui terwijl het startbedrijf draait. Wat doet de startleiding?",
+   "a": [
+    "Doorstarten tot de eerste regen valt",
+    "Alleen de tweezitters aan de grond houden",
+    "Het vliegbedrijf tijdig stilleggen en vliegtuigen en mensen in veiligheid brengen",
+    "De lierkabels uitgerold laten liggen"
+   ],
+   "juist": 2,
+   "uitleg": "Bij naderend onweer wordt het bedrijf tijdig gestaakt; kabels en open veld zijn bliksemgevaarlijk."
+  },
+  {
+   "v": "Waaraan herken je een naderende overtrek?",
+   "a": [
+    "Toenemende stuurdruk en oplopende snelheid",
+    "Een fluitend geluid van de remkleppen",
+    "Zware trillingen in het wiel",
+    "Lage en afnemende snelheid, slappe besturing en mogelijk schudden van het vliegtuig"
+   ],
+   "juist": 3,
+   "uitleg": "Lage snelheid, slappe roeren en schudden kondigen de overtrek aan."
+  },
+  {
+   "v": "Hoe herstel je een overtrek?",
+   "a": [
+    "Knuppel naar voren om snelheid op te bouwen, daarna pas de vleugels recht rollen en opvangen",
+    "Knuppel achteruit en vol tegenroer",
+    "Direct de remkleppen openen",
+    "De trim vol achterover zetten"
+   ],
+   "juist": 0,
+   "uitleg": "Eerst de invalshoek verkleinen met de knuppel naar voren; daarna rol je recht en vang je op."
+  },
+  {
+   "v": "Wat is de standaardherstelmethode uit een tolvlucht?",
+   "a": [
+    "Knuppel getrokken houden en tegenrolroer geven",
+    "Vol tegengesteld voetenstuur, knuppel centraal naar voren tot de rotatie stopt, dan rustig opvangen",
+    "Remkleppen openen en wachten",
+    "Met de draairichting mee sturen"
+   ],
+   "juist": 1,
+   "uitleg": "Tegengesteld voetenstuur en knuppel naar voren stoppen de rotatie; daarna rustig opvangen."
+  },
+  {
+   "v": "In welke vluchtfase ontstaan de meeste overtreksituaties dicht bij de grond?",
+   "a": [
+    "Tijdens de klim aan de lier",
+    "In het rugwindbeen op hoogte",
+    "In een te krap of te langzaam gevlogen laatste bocht naar de eindnadering",
+    "Tijdens het uitzweven"
+   ],
+   "juist": 2,
+   "uitleg": "De lage, langzame laatste bocht is de klassieke plek voor een overtrek of tolvlucht."
+  },
+  {
+   "v": "Wat is de juiste volgorde bij het noodverlaten van een zweefvliegtuig?",
+   "a": [
+    "Gordels los, kap af, springen, trekken",
+    "Aan de handgreep trekken en dan uitstappen",
+    "Kap af, springen, gordels los, trekken",
+    "Kap afwerpen, gordels los, het vliegtuig verlaten en vrij van het vliegtuig aan de handgreep trekken"
+   ],
+   "juist": 3,
+   "uitleg": "Kap, gordels, eruit, en pas vrij van het vliegtuig trekken."
+  },
+  {
+   "v": "Waarom moet de beslissing tot noodverlaten snel worden genomen?",
+   "a": [
+    "Elke seconde kost hoogte en de parachute heeft voldoende hoogte nodig om te openen",
+    "Omdat de kap anders klemt",
+    "Omdat de verzekering dat eist",
+    "Omdat het vliegtuig anders te ver van het veld komt"
+   ],
+   "juist": 0,
+   "uitleg": "Twijfelen kost hoogte, en de parachute heeft hoogte nodig om te openen."
+  },
+  {
+   "v": "Twee zweefvliegtuigen naderen elkaar recht van voren. Wat doen beide vliegers?",
+   "a": [
+    "Beide klimmen",
+    "Beide wijken naar rechts uit",
+    "Beide wijken naar links uit",
+    "De lichtste wijkt uit"
+   ],
+   "juist": 1,
+   "uitleg": "Bij frontale nadering wijken beide toestellen naar rechts uit."
+  },
+  {
+   "v": "Je haalt in de lucht een langzamer zweefvliegtuig in. Hoe doe je dat?",
+   "a": [
+    "Altijd rechts inhalen, net als op de weg",
+    "Er vlak overheen vliegen",
+    "Ruim uitwijken; een zweefvliegtuig mag een ander zweefvliegtuig links of rechts inhalen",
+    "Eronderdoor duiken"
+   ],
+   "juist": 2,
+   "uitleg": "Zweefvliegtuigen mogen elkaar links of rechts inhalen, met ruime afstand."
+  },
+  {
+   "v": "Je voegt in bij een thermiekbel waar al een ander toestel cirkelt. In welke richting draai je?",
+   "a": [
+    "Altijd linksom",
+    "Altijd rechtsom",
+    "Tegengesteld aan de ander, dan zie je elkaar beter",
+    "In dezelfde richting als het toestel dat er al draait"
+   ],
+   "juist": 3,
+   "uitleg": "Wie invoegt, draait in dezelfde richting als het toestel dat al in de bel zit."
+  },
+  {
+   "v": "Wat doet FLARM?",
+   "a": [
+    "Het waarschuwt voor naderend verkeer dat ook met FLARM of compatibele apparatuur is uitgerust",
+    "Het voorkomt botsingen automatisch door in te grijpen",
+    "Het vervangt het uitkijken",
+    "Het meldt je positie aan de verkeersleiding"
+   ],
+   "juist": 0,
+   "uitleg": "FLARM waarschuwt voor ander FLARM-verkeer; uitwijken en uitkijken blijft mensenwerk."
+  },
+  {
+   "v": "Wat is een belangrijke beperking van FLARM?",
+   "a": [
+    "Het werkt alleen boven 1000 m",
+    "Het ziet geen verkeer zonder FLARM of compatibele apparatuur; blijven uitkijken is essentieel",
+    "Het werkt niet in bochten",
+    "Het geeft alleen op de grond waarschuwingen"
+   ],
+   "juist": 1,
+   "uitleg": "Verkeer zonder FLARM blijft onzichtbaar voor het systeem; zien en vermijden blijft de basis."
+  },
+  {
+   "v": "Een ander vliegtuig staat schijnbaar stil op je kap en wordt langzaam groter. Wat betekent dit?",
+   "a": [
+    "Het vliegt van je weg",
+    "Het hangt in dezelfde thermiekbel",
+    "Jullie liggen op botsingskoers; wijk tijdig uit",
+    "Het is geen gevaar zolang het klein blijft"
+   ],
+   "juist": 2,
+   "uitleg": "Een toestel zonder relatieve beweging dat groter wordt, zit op botsingskoers."
+  },
+  {
+   "v": "Je klimt in sterke thermiek snel richting de wolkenbasis. Wat doe je?",
+   "a": [
+    "Doorklimmen tot in de wolk",
+    "De remkleppen openen en in de bel blijven hangen",
+    "Op de instrumenten verder vliegen",
+    "De thermiek tijdig verlaten zodat je vrij van de wolk blijft"
+   ],
+   "juist": 3,
+   "uitleg": "Je verlaat de bel op tijd; zonder klaring en training vlieg je niet in wolken."
+  },
+  {
+   "v": "De kap raakt tijdens de vlucht los of breekt af. Wat doe je?",
+   "a": [
+    "Het vliegtuig blijven besturen en een veilige landing maken; de kap is ondergeschikt",
+    "De kap proberen vast te houden",
+    "Direct noodverlaten",
+    "De ogen sluiten tegen de wind en rechtdoor vliegen"
+   ],
+   "juist": 0,
+   "uitleg": "Eerst vliegen: het toestel blijft bestuurbaar en je maakt een veilige landing."
+  },
+  {
+   "v": "Wat controleer je aan de reddingsparachute voor de vlucht?",
+   "a": [
+    "Alleen of hij past",
+    "Sluitingen, banden en of de periodieke (her)pakdatum nog geldig is",
+    "Of het handvat soepel loskomt door eraan te trekken",
+    "De kleur van het hulpparachuutje"
+   ],
+   "juist": 1,
+   "uitleg": "Sluitingen, banden en een geldige pakdatum bepalen of de parachute bruikbaar is."
+  },
+  {
+   "v": "Na een botsing in de lucht is je toestel op 600 m niet meer normaal bestuurbaar. Wat doe je?",
+   "a": [
+    "Proberen door te vliegen naar het veld",
+    "Wachten tot lagere hoogte",
+    "Het vliegtuig verlaten en de parachute gebruiken",
+    "Radiocontact zoeken voor advies"
+   ],
+   "juist": 2,
+   "uitleg": "Een onbestuurbaar toestel verlaat je onmiddellijk zolang er voldoende hoogte is."
+  },
+  {
+   "v": "Wat is de beste bescherming tegen een tolvlucht in het circuit?",
+   "a": [
+    "Een modern type dat niet kan tollen",
+    "Extra ballast",
+    "De remkleppen dichthouden",
+    "Voldoende snelheid aanhouden en gecoördineerd (zuiver) vliegen, vooral in de bochten"
+   ],
+   "juist": 3,
+   "uitleg": "Voldoende vaart en zuiver gevlogen bochten voorkomen de tolvlucht."
+  },
+  {
+   "v": "Waaraan herken je een spiraalduik (en dus geen tolvlucht)?",
+   "a": [
+    "De snelheid en de g-krachten nemen duidelijk toe",
+    "De snelheid blijft laag",
+    "Het vliegtuig schudt zoals bij een overtrek",
+    "De neus staat boven de horizon"
+   ],
+   "juist": 0,
+   "uitleg": "In een spiraalduik lopen snelheid en belasting snel op, anders dan in een tolvlucht."
+  },
+  {
+   "v": "Hoe herstel je een spiraalduik?",
+   "a": [
+    "Vol tegengesteld voetenstuur en knuppel voor",
+    "Eerst de vleugels horizontaal rollen en daarna voorzichtig opvangen",
+    "Hard aan de knuppel trekken",
+    "Remkleppen openen en doortrekken"
+   ],
+   "juist": 1,
+   "uitleg": "Eerst rollen naar horizontaal, dan pas voorzichtig opvangen om overbelasting te voorkomen."
+  },
+  {
+   "v": "FLARM geeft een dringende waarschuwing. Wat doe je?",
+   "a": [
+    "Eerst op het display kijken welk type toestel het is",
+    "Doorvliegen; FLARM lost het op",
+    "Direct in de aangegeven richting kijken en zo nodig uitwijken",
+    "Een radio-oproep doen en koers houden"
+   ],
+   "juist": 2,
+   "uitleg": "Direct kijken in de aangegeven richting en uitwijken; het display bestuderen kost kostbare tijd."
+  },
+  {
+   "v": "Welke frequentie is de internationale noodfrequentie?",
+   "a": [
+    "118,05 MHz",
+    "122,50 MHz",
+    "130,125 MHz",
+    "121,5 MHz"
+   ],
+   "juist": 3,
+   "uitleg": "121,5 MHz is de internationale nood- en interceptiefrequentie."
+  },
+  {
+   "v": "Wanneer gebruik je de noodoproep MAYDAY?",
+   "a": [
+    "Bij ernstig en direct gevaar waarbij onmiddellijke hulp nodig is",
+    "Bij elke buitenlanding",
+    "Als je de startplaats niet kunt bereiken",
+    "Alleen bij brand"
+   ],
+   "juist": 0,
+   "uitleg": "MAYDAY is voor ernstig en direct gevaar dat onmiddellijke hulp vereist."
+  },
+  {
+   "v": "Na een zeer harde landing lijkt het vliegtuig onbeschadigd. Wat doe je?",
+   "a": [
+    "Direct weer starten om te testen of alles nog werkt",
+    "Het voorval melden en het vliegtuig laten inspecteren voordat er weer mee wordt gevlogen",
+    "Alleen de bandenspanning controleren",
+    "Niets; geen zichtbare schade betekent geen schade"
+   ],
+   "juist": 1,
+   "uitleg": "Verborgen schade is mogelijk; eerst melden en laten inspecteren."
+  },
+  {
+   "v": "Je merkt dat je in een stressvolle situatie gefixeerd raakt op één instrument. Wat helpt?",
+   "a": [
+    "Nog beter op dat instrument letten",
+    "Sneller gaan vliegen",
+    "Bewust terugvallen op de getrainde basisvolgorde: eerst het vliegtuig vliegen, dan de rest",
+    "De ogen even sluiten"
+   ],
+   "juist": 2,
+   "uitleg": "Bewust teruggaan naar de basis (eerst vliegen) doorbreekt de fixatie."
+  },
+  {
+   "v": "Wat betekent de prioriteitsvolgorde 'aviate, navigate, communicate'?",
+   "a": [
+    "De radio gaat voor de navigatie",
+    "Navigatie gaat voor besturing",
+    "Alle drie zijn altijd even belangrijk",
+    "Eerst het vliegtuig besturen, dan koers en positie, en pas daarna communiceren"
+   ],
+   "juist": 3,
+   "uitleg": "Vliegen gaat altijd voor navigeren, en navigeren voor praten."
+  },
+  {
+   "v": "Wat hoort in de briefing voor een passagier voor de vlucht?",
+   "a": [
+    "Gordels, kap, in- en uitstappen, het niet aanraken van de besturing en wat te doen in noodgevallen",
+    "Alleen hoe mooi het uitzicht is",
+    "De technische specificaties van het vliegtuig",
+    "De namen van alle clubleden"
+   ],
+   "juist": 0,
+   "uitleg": "Een passagiersbriefing dekt gordels, kap, gedrag in de cockpit en de noodprocedure."
+  },
+  {
+   "v": "Je passagier wordt tijdens de vlucht angstig. Wat doe je?",
+   "a": [
+    "Extra steile bochten maken zodat het sneller voorbij is",
+    "Rustig praten, rustig en soepel vliegen en de vlucht zo nodig bekorten",
+    "De passagier de knuppel geven ter afleiding",
+    "Niets zeggen en gewoon doorvliegen"
+   ],
+   "juist": 1,
+   "uitleg": "Rust uitstralen, soepel vliegen en zo nodig eerder landen stelt een passagier gerust."
+  },
+  {
+   "v": "Mag een passagier de besturing aanraken?",
+   "a": [
+    "Ja, altijd",
+    "Nee, nooit, ook niet op veilige hoogte",
+    "Alleen als de gezagvoerder dat op veilige hoogte toestaat; bij start en landing vliegt de gezagvoerder",
+    "Alleen als de passagier zelf een brevet heeft"
+   ],
+   "juist": 2,
+   "uitleg": "Even meevoelen op hoogte kan onder toezicht; start en landing doet de gezagvoerder zelf."
+  },
+  {
+   "v": "Wie controleert of de gordels van de passagier goed vastzitten?",
+   "a": [
+    "De passagier zelf",
+    "De tiploper",
+    "De startleider",
+    "De gezagvoerder controleert dit zelf"
+   ],
+   "juist": 3,
+   "uitleg": "De gezagvoerder is verantwoordelijk en controleert de gordels van de passagier zelf."
+  },
+  {
+   "v": "Je passagier wordt onwel tijdens de vlucht. Wat doe je?",
+   "a": [
+    "De vlucht bekorten en rustig maar voortvarend terugkeren en landen",
+    "Doorvliegen, het gaat meestal vanzelf over",
+    "Steile bochten maken voor frisse lucht",
+    "De passagier vragen de kap te openen"
+   ],
+   "juist": 0,
+   "uitleg": "Met een onwel geworden passagier keer je terug en land je zo snel als veilig kan."
+  },
+  {
+   "v": "Wanneer mag een verse SPL-houder passagiers meenemen?",
+   "a": [
+    "Direct na het behalen van het brevet",
+    "Pas na ten minste 10 uur vliegtijd of 30 starts als gezagvoerder na afgifte van het brevet",
+    "Pas na een jaar",
+    "Alleen na een aparte theorie-examenmodule"
+   ],
+   "juist": 1,
+   "uitleg": "Voor passagiers geldt: eerst 10 uur of 30 starts als gezagvoerder na afgifte van het SPL."
+  },
+  {
+   "v": "Je bent in de lucht en ziet een onweersbui naderen. Wat doe je?",
+   "a": [
+    "Doorvliegen tot de eerste bliksem",
+    "Onder de bui thermieken, daar stijgt het hard",
+    "Ruim op tijd terugkeren en landen, en ver bij de bui vandaan blijven",
+    "Boven de bui klimmen"
+   ],
+   "juist": 2,
+   "uitleg": "Je blijft ver bij onweer vandaan en landt ruim voordat de bui het veld bereikt."
+  },
+  {
+   "v": "Waarom is een cumulonimbus (Cb) ook op afstand gevaarlijk?",
+   "a": [
+    "Alleen vanwege de regen",
+    "Omdat je er niets van ziet",
+    "Vanwege het hoogteverlies in de schaduw",
+    "Vanwege zware turbulentie, windstoten, hagel en bliksem die tot ver buiten de wolk reiken"
+   ],
+   "juist": 3,
+   "uitleg": "De effecten van een Cb reiken kilometers ver buiten de wolk zelf."
+  },
+  {
+   "v": "Wat is een uitstroomfront (gust front) van een bui?",
+   "a": [
+    "Een plotselinge, krachtige windstoot met winddraaiing die kilometers voor de bui uit kan lopen",
+    "De regenzone achter de bui",
+    "Een zone met rustige lucht onder de bui",
+    "De opwarming na de bui"
+   ],
+   "juist": 0,
+   "uitleg": "Koude uitstromende lucht loopt als windstotenfront ver voor de bui uit."
+  },
+  {
+   "v": "Wanneer wordt het startbedrijf gestaakt vanwege wind?",
+   "a": [
+    "Pas bij storm",
+    "Als de wind of de dwarswind de limieten van vliegtuigen, vliegers of clubregels overschrijdt",
+    "Alleen als de kabels wegwaaien",
+    "Bij elke windstoot boven 15 knopen"
+   ],
+   "juist": 1,
+   "uitleg": "Limieten van vliegtuig, vliegers en club bepalen wanneer het te hard waait."
+  },
+  {
+   "v": "De wind maakt een hoek van 30 graden met de baan. Hoe groot is ongeveer de dwarswindcomponent?",
+   "a": [
+    "Gelijk aan de volledige windsnelheid",
+    "Een kwart van de windsnelheid",
+    "Ongeveer de helft van de windsnelheid",
+    "Nul"
+   ],
+   "juist": 2,
+   "uitleg": "Bij 30 graden is de dwarscomponent ongeveer de helft van de windsnelheid."
+  },
+  {
+   "v": "Het zicht wordt tijdens de vlucht snel slechter. Wat doe je?",
+   "a": [
+    "Hoger klimmen voor beter overzicht",
+    "Op de GPS verder vliegen",
+    "Wachten tot het overtrekt",
+    "Tijdig terugkeren naar het veld of een veilige (buiten)landing maken"
+   ],
+   "juist": 3,
+   "uitleg": "Bij verslechterend zicht keer je tijdig terug of land je veilig."
+  },
+  {
+   "v": "Waar houd je rekening mee op winterse vliegdagen?",
+   "a": [
+    "Koude: warme kleding, stijve handen en korte dagen",
+    "Sterkere thermiek",
+    "Een langere daglichtperiode",
+    "Hogere temperaturen op hoogte"
+   ],
+   "juist": 0,
+   "uitleg": "Kou en korte dagen vragen om warme kleding en een strakkere dagplanning."
+  },
+  {
+   "v": "Er ligt rijp of ijs op de vleugels. Wat doe je?",
+   "a": [
+    "Opstijgen, de rijp waait er vanzelf af",
+    "Volledig verwijderen voor de vlucht: aanvriezing verstoort de omstroming en verhoogt de overtreksnelheid",
+    "Alleen de bovenkant schoonmaken",
+    "Sneller aanvliegen en verder niets"
+   ],
+   "juist": 1,
+   "uitleg": "Rijp en ijs verstoren de vleugelomstroming en moeten er volledig af."
+  },
+  {
+   "v": "Waarom is een laagstaande winterzon operationeel lastig?",
+   "a": [
+    "Hij verwarmt de cockpit te veel",
+    "Hij maakt de lucht onstabiel",
+    "Hij verblindt bij start, landing en uitkijken; extra alertheid is geboden",
+    "Hij heeft geen effect"
+   ],
+   "juist": 2,
+   "uitleg": "Een lage zon verblindt juist in de kritieke vluchtfasen."
+  },
+  {
+   "v": "Wat is het probleem van een egaal besneeuwd landschap bij de landing?",
+   "a": [
+    "De sneeuw remt het vliegtuig te hard af",
+    "Sneeuw maakt de lucht turbulent",
+    "Het wiel kan niet uitgeklapt worden",
+    "Diepte en hoogte zijn veel moeilijker in te schatten door het ontbreken van contrast"
+   ],
+   "juist": 3,
+   "uitleg": "Zonder contrast is de hoogte-inschatting bij het afronden veel lastiger."
+  },
+  {
+   "v": "Waar let je op bij lange zomerse vliegdagen?",
+   "a": [
+    "Voldoende drinken, bescherming tegen de zon en op tijd eten",
+    "Vooral op bevriezing",
+    "Extra ballast tegen de warmte",
+    "Zo min mogelijk drinken"
+   ],
+   "juist": 0,
+   "uitleg": "Hitte en zon vragen om drinken, zonbescherming en op tijd eten."
+  },
+  {
+   "v": "Waarom is extra uitkijken belangrijk op een drukke zomerdag met goede thermiek?",
+   "a": [
+    "FLARM werkt slechter bij warmte",
+    "Veel toestellen concentreren zich dan in dezelfde bellen en op dezelfde routes",
+    "Het zicht is 's zomers altijd slecht",
+    "De verkeersleiding is dan gesloten"
+   ],
+   "juist": 1,
+   "uitleg": "Goede thermiek trekt veel verkeer naar dezelfde plekken."
+  },
+  {
+   "v": "Hoe plan je de laatste start van de dag?",
+   "a": [
+    "Zo laat mogelijk voor maximale vliegtijd",
+    "Op het gevoel van de startleider",
+    "Zo dat je ruim binnen de daglichtperiode geland bent",
+    "Na zonsondergang mag ook, mits met FLARM"
+   ],
+   "juist": 2,
+   "uitleg": "Zweefvliegen gebeurt bij daglicht; de laatste landing plan je daar ruim binnen."
+  },
+  {
+   "v": "Sterke wind op hoogte: waar houd je in het circuit rekening mee?",
+   "a": [
+    "Met een kortere eindnadering",
+    "Met minder remklep in de eindnadering",
+    "Met een lagere aanvliegsnelheid",
+    "Met verwaaiing: begin het circuit dichterbij of hoger en houd extra snelheid aan"
+   ],
+   "juist": 3,
+   "uitleg": "Wind verwaait je circuit; blijf dichterbij, hoger en sneller."
+  },
+  {
+   "v": "Wat is het effect van regen op de vleugel?",
+   "a": [
+    "Slechtere prestaties en een hogere overtreksnelheid: houd extra snelheid aan",
+    "Betere prestaties door een gladder oppervlak",
+    "Alleen slechter zicht",
+    "Geen effect op moderne profielen"
+   ],
+   "juist": 0,
+   "uitleg": "Een natte vleugel presteert slechter en overtrekt eerder; extra vaart is nodig."
+  },
+  {
+   "v": "Waar let je bij vorst extra op tijdens de dagelijkse inspectie?",
+   "a": [
+    "De kleur van de lak",
+    "Vastgevroren roeren en remkleppen en water of ijs in kritieke delen",
+    "De temperatuur van de banden",
+    "Niets extra's"
+   ],
+   "juist": 1,
+   "uitleg": "Bevroren vocht kan roeren en kleppen blokkeren; dat controleer je extra."
+  },
+  {
+   "v": "Wat neem je extra mee voor een golfvlucht (wave) op grote hoogte in de winter?",
+   "a": [
+    "Waterballast en een ventilator",
+    "Alleen een dikkere jas",
+    "Zuurstof en zeer warme kleding",
+    "Extra bagage voor het zwaartepunt"
+   ],
+   "juist": 2,
+   "uitleg": "Op grote hoogte zijn zuurstof en zeer warme kleding onmisbaar."
+  },
+  {
+   "v": "Wie beslist of een vlucht wordt afgebroken bij verslechterend weer?",
+   "a": [
+    "De startleider",
+    "De instructeur van dienst, ook als die niet meevliegt",
+    "De meteodienst",
+    "De gezagvoerder; bij twijfel kies je voor landen"
+   ],
+   "juist": 3,
+   "uitleg": "De gezagvoerder beslist; bij twijfel is landen altijd de goede keuze."
+  },
+  {
+   "v": "Wat is 'get-home-itis'?",
+   "a": [
+    "De neiging om tegen beter weten in door te vliegen om thuis te komen, met slechte beslissingen als gevolg",
+    "Heimwee op vliegkamp",
+    "Een navigatiefout",
+    "De haast om het vliegtuig in de hangaar te zetten"
+   ],
+   "juist": 0,
+   "uitleg": "De drang om per se thuis te komen leidt tot onveilige beslissingen; een tijdige buitenlanding is beter."
+  },
+  {
+   "v": "Wat zijn typische symptomen van hypoxie (zuurstofgebrek)?",
+   "a": [
+    "Scherper zicht en betere concentratie",
+    "Euforie, tunnelzicht, verminderd oordeel en blauwe lippen of nagels",
+    "Alleen hoofdpijn achteraf",
+    "Direct bewusteloos raken zonder voortekenen"
+   ],
+   "juist": 1,
+   "uitleg": "Hypoxie geeft onder meer euforie, tunnelzicht en een verminderd oordeel."
+  },
+  {
+   "v": "Wat zijn de regels rond aanvullende zuurstof (Part-NCO)?",
+   "a": [
+    "Zuurstof is voor zweefvliegtuigen nooit verplicht",
+    "Alleen verplicht boven 8000 m",
+    "Boven 13.000 ft drukhoogte altijd zuurstof gebruiken, en tussen 10.000 en 13.000 ft bij langer dan 30 minuten",
+    "Verplicht vanaf 6000 ft"
+   ],
+   "juist": 2,
+   "uitleg": "Boven 13.000 ft altijd zuurstof; tussen 10.000 en 13.000 ft bij meer dan 30 minuten."
+  },
+  {
+   "v": "Waarom is hypoxie zo verraderlijk?",
+   "a": [
+    "Het doet pijn",
+    "Het treedt alleen 's nachts op",
+    "Het is direct zichtbaar voor anderen",
+    "Je merkt het bij jezelf vaak niet, doordat juist je oordeelsvermogen afneemt"
+   ],
+   "juist": 3,
+   "uitleg": "Hypoxie tast juist het vermogen aan om te merken dat er iets mis is."
+  },
+  {
+   "v": "Wat controleer je aan het zuurstofsysteem voor een hoogtevlucht?",
+   "a": [
+    "Voorraad en druk, dichtheid van slangen en aansluitingen, en de werking van masker of canule",
+    "Alleen of de fles vol is",
+    "Alleen de kleur van de fles",
+    "Niets, dat doet de technicus jaarlijks"
+   ],
+   "juist": 0,
+   "uitleg": "Voorraad, dichtheid en werking van het hele systeem worden voor de vlucht gecontroleerd."
+  },
+  {
+   "v": "Je vermoedt tijdens een hoogtevlucht hypoxie bij jezelf. Wat doe je?",
+   "a": [
+    "Doorklimmen, hoger wordt het vaak beter",
+    "Direct de zuurstoftoevoer controleren en verhogen en dalen naar lagere hoogte",
+    "Even rustig ademhalen en verder vliegen",
+    "De radio uitzetten om afleiding te beperken"
+   ],
+   "juist": 1,
+   "uitleg": "Zuurstof controleren en direct dalen is de enige veilige reactie."
+  },
+  {
+   "v": "Wat is het risico van haast op de startplaats?",
+   "a": [
+    "Alleen tijdverlies",
+    "Een langere startrij",
+    "Overgeslagen of afgeraffelde checks en dus fouten: bewust vertragen en de checklist volledig afwerken",
+    "Er is geen risico als iedereen ervaren is"
+   ],
+   "juist": 2,
+   "uitleg": "Haast leidt tot overgeslagen checks; bewust vertragen voorkomt fouten."
+  },
+  {
+   "v": "Anderen vliegen bij twijfelachtig weer en jij twijfelt. Wat doe je?",
+   "a": [
+    "Meevliegen, de meerderheid heeft gelijk",
+    "Vliegen, want anders lijk je bang",
+    "De instructeur laten beslissen",
+    "Je maakt als gezagvoerder je eigen afweging; groepsdruk is een slechte raadgever"
+   ],
+   "juist": 3,
+   "uitleg": "De gezagvoerder maakt zijn eigen afweging, los van wat de groep doet."
+  },
+  {
+   "v": "Je bent moe na een korte nacht. Wat is verstandig?",
+   "a": [
+    "Niet of beperkt vliegen; vermoeidheid vermindert reactie en oordeel",
+    "Een energiedrankje nemen en gewoon vliegen",
+    "Alleen lokale vluchten boven 500 m maken",
+    "Vliegen, want vliegen maakt wakker"
+   ],
+   "juist": 0,
+   "uitleg": "Vermoeidheid tast reactie en oordeel aan; dan vlieg je niet of beperkt."
+  },
+  {
+   "v": "Waar staat het geheugensteuntje IMSAFE voor?",
+   "a": [
+    "Een checklist voor het vliegtuig",
+    "Een persoonlijke fitheidscheck: Illness, Medication, Stress, Alcohol, Fatigue, Emotion",
+    "De volgorde van de cockpitcheck",
+    "Een noodprocedure"
+   ],
+   "juist": 1,
+   "uitleg": "IMSAFE is de persoonlijke check of je zelf fit genoeg bent om te vliegen."
+  },
+  {
+   "v": "Wat geldt er voor alcohol en vliegen?",
+   "a": [
+    "Dezelfde grens als voor autorijden",
+    "Eén glas kan geen kwaad",
+    "Een zeer lage wettelijke grens (0,2 promille); praktisch betekent dit: niet drinken voor het vliegen",
+    "Alcohol is alleen verboden voor instructeurs"
+   ],
+   "juist": 2,
+   "uitleg": "Voor vliegen geldt een veel strengere grens dan in het verkeer: praktisch nul."
+  },
+  {
+   "v": "Je wordt tijdens de cockpitcheck gestoord door een vraag van een helper. Wat doe je daarna?",
+   "a": [
+    "Verdergaan waar je denkt gebleven te zijn",
+    "De rest van de check overslaan",
+    "De helper de check laten afmaken",
+    "De check (grotendeels) opnieuw beginnen, zodat je zeker weet dat je niets mist"
+   ],
+   "juist": 3,
+   "uitleg": "Na een onderbreking begin je opnieuw; verdergaan op de gok leidt tot gemiste punten."
+  },
+  {
+   "v": "Waarom worden voorvallen en bijna-ongelukken gemeld en besproken?",
+   "a": [
+    "Zodat de hele club ervan kan leren en herhaling wordt voorkomen (just culture)",
+    "Om schuldigen aan te wijzen",
+    "Voor de statistieken van de verzekering",
+    "Alleen omdat het moet van de inspectie"
+   ],
+   "juist": 0,
+   "uitleg": "Melden zonder schuldvraag zorgt dat iedereen van voorvallen leert."
+  },
+  {
+   "v": "De startleider vraagt of je snel wilt opschieten, maar je bent nog niet klaar. Wat doe je?",
+   "a": [
+    "Snel starten, de startleider is de baas",
+    "Je start pas als je er zelf klaar voor bent; als gezagvoerder mag je altijd afzien van de start",
+    "De check in de lucht afmaken",
+    "De helft van de check doen"
+   ],
+   "juist": 1,
+   "uitleg": "Niemand kan je dwingen te starten; de gezagvoerder bepaalt wanneer hij klaar is."
+  },
+  {
+   "v": "Wat is een voorbeeld van externe druk die je beslissingen kan beïnvloeden?",
+   "a": [
+    "Een goed uitgevoerde checklist",
+    "Rustig weer",
+    "Een passagier die per se vandaag nog wil vliegen terwijl het weer marginaal is",
+    "Een volle accu"
+   ],
+   "juist": 2,
+   "uitleg": "Verwachtingen van anderen kunnen je ongemerkt tot onveilige keuzes verleiden."
+  },
+  {
+   "v": "Waarom gebruik je een checklist, ook als je veel ervaring hebt?",
+   "a": [
+    "Omdat beginners dan kunnen meekijken",
+    "Voor de startlijstadministratie",
+    "Omdat het sneller is",
+    "Omdat juist routine tot het overslaan van punten leidt; de checklist vangt dat af"
+   ],
+   "juist": 3,
+   "uitleg": "Routine is de grootste vijand van volledigheid; de checklist beschermt daartegen."
+  },
+  {
+   "v": "Wat is 'complacency' (zelfgenoegzaamheid)?",
+   "a": [
+    "Door routine en vertrouwen minder alert worden op afwijkingen en risico's",
+    "Angst om te vliegen",
+    "Overmatig checken van instrumenten",
+    "Een vorm van luchtziekte"
+   ],
+   "juist": 0,
+   "uitleg": "Wie alles al vaak deed, gaat afwijkingen missen; dat is complacency."
+  },
+  {
+   "v": "Wat is het doel van de dagelijkse briefing voor het vliegbedrijf?",
+   "a": [
+    "De vliegtijden van gisteren doornemen",
+    "Weer, taakverdeling, bijzonderheden en veiligheidspunten voor de dag doornemen",
+    "De contributie innen",
+    "Alleen de startvolgorde bepalen"
+   ],
+   "juist": 1,
+   "uitleg": "De briefing zet weer, taken en veiligheidspunten voor de dag op een rij."
+  },
+  {
+   "v": "Wat is het effect van uitdroging (dehydratie) op je vliegprestaties?",
+   "a": [
+    "Geen, dorst is alleen vervelend",
+    "Alleen fysieke klachten na de vlucht",
+    "Concentratieverlies, hoofdpijn en tragere reacties, vaak al voordat je dorst voelt",
+    "Betere focus door lichte stress"
+   ],
+   "juist": 2,
+   "uitleg": "Uitdroging tast concentratie en reactie al aan voordat je echt dorst hebt."
+  },
+  {
+   "v": "Het wordt je in het circuit even te veel (taakverzadiging). Wat doe je?",
+   "a": [
+    "Extra taken oppakken om controle te houden",
+    "De radio pakken voor hulp",
+    "Sneller handelen",
+    "Terug naar de basis: eerst vliegen (snelheid en koers), de rest in vaste volgorde"
+   ],
+   "juist": 3,
+   "uitleg": "Bij taakverzadiging laat je alles los behalve het vliegen zelf."
+  },
+  {
+   "v": "Je nadert het circuit tegelijk met een ander toestel. Wat doe je?",
+   "a": [
+    "Goed uitkijken, ruimte geven en de standaardprocedures volgen zodat je elkaar niet hindert",
+    "Voorrang afdwingen omdat jij er eerder was",
+    "Vlak achter de ander gaan hangen",
+    "Het circuit in tegengestelde richting vliegen"
+   ],
+   "juist": 0,
+   "uitleg": "Uitkijken, ruimte geven en voorspelbaar vliegen voorkomen conflicten in het circuit."
+  },
+  {
+   "v": "Je gaat voor het eerst op een ander (eenzits)type vliegen. Wat hoort daarbij?",
+   "a": [
+    "Gewoon starten, vliegen is vliegen",
+    "Het vlieghandboek bestuderen en een typebriefing of instructie volgens de clubregels krijgen",
+    "Alleen de trimstand aan een collega vragen",
+    "Een kortere cockpitcheck"
+   ],
+   "juist": 1,
+   "uitleg": "Een nieuw type vraagt om handboekstudie en een typebriefing."
+  },
+  {
+   "v": "Je hebt maanden niet gevlogen. Wat is de juiste gang van zaken?",
+   "a": [
+    "Direct solo vliegen om het gevoel terug te krijgen",
+    "Eerst een paar lierstarts van anderen bekijken",
+    "Volgens de clubregeling eerst een of meer checkstarts met een instructeur maken",
+    "Alleen bij wind onder 10 knopen solo vliegen"
+   ],
+   "juist": 2,
+   "uitleg": "Na een lange onderbreking vlieg je eerst met een instructeur."
+  },
+  {
+   "v": "Je gebruikt een nieuw medicijn. Wat doe je voordat je gaat vliegen?",
+   "a": [
+    "Gewoon vliegen als je je goed voelt",
+    "De halve dosis nemen",
+    "Het medicijn op vliegdagen overslaan",
+    "Nagaan (bijsluiter, arts) of het de alertheid beïnvloedt; bij twijfel niet vliegen"
+   ],
+   "juist": 3,
+   "uitleg": "Medicijnen kunnen alertheid en oordeel beïnvloeden; bij twijfel vlieg je niet."
+  },
+  {
+   "v": "Waarom houd je in turbulente lucht extra snelheid aan?",
+   "a": [
+    "Voor een grotere marge boven de overtreksnelheid, omdat windstoten de aanstroming verstoren",
+    "Om sneller thuis te zijn",
+    "Omdat de remkleppen anders openklappen",
+    "Om de vleugels schoon te blazen"
+   ],
+   "juist": 0,
+   "uitleg": "Extra vaart geeft marge tegen overtrek door windstoten."
+  },
+  {
+   "v": "Wat houdt het 'sterile cockpit'-principe in?",
+   "a": [
+    "De cockpit stofvrij houden",
+    "Tijdens kritieke vluchtfasen zoals start en landing geen onnodige gesprekken of afleiding",
+    "Geen eten of drinken in de cockpit",
+    "De radio altijd uitzetten"
+   ],
+   "juist": 1,
+   "uitleg": "In kritieke fasen beperk je je tot het vliegen; onnodig gepraat wacht."
+  }
+ ]
+}

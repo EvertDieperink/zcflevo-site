@@ -1,0 +1,2755 @@
+{
+ "vak": "Luchtvaartwetgeving",
+ "vragen": [
+  {
+   "v": "In welk jaar werd het Verdrag van Chicago inzake de internationale burgerluchtvaart gesloten?",
+   "a": [
+    "1919",
+    "1944",
+    "1947",
+    "1955"
+   ],
+   "juist": 1,
+   "uitleg": "Het Verdrag van Chicago uit 1944 vormt de basis van de internationale burgerluchtvaart."
+  },
+  {
+   "v": "Waar staat de afkorting ICAO voor?",
+   "a": [
+    "International Civil Aviation Organization",
+    "International Commercial Aviation Organization",
+    "Intergovernmental Civil Aeronautics Organization",
+    "International Council of Aviation Organizations"
+   ],
+   "juist": 0,
+   "uitleg": "ICAO is de International Civil Aviation Organization, een VN-organisatie."
+  },
+  {
+   "v": "Waar is het hoofdkantoor van de ICAO gevestigd?",
+   "a": [
+    "Genève",
+    "New York",
+    "Montreal",
+    "Parijs"
+   ],
+   "juist": 2,
+   "uitleg": "De ICAO zetelt in Montreal, Canada."
+  },
+  {
+   "v": "Welk onderwerp behandelt ICAO Annex 2?",
+   "a": [
+    "Personnel Licensing",
+    "Aerodromes",
+    "Aeronautical Information Services",
+    "Rules of the Air"
+   ],
+   "juist": 3,
+   "uitleg": "Annex 2 bevat de Rules of the Air: de luchtverkeersregels."
+  },
+  {
+   "v": "Welk onderwerp behandelt ICAO Annex 1?",
+   "a": [
+    "Brevettering van luchtvaartpersoneel",
+    "Luchtwaardigheid",
+    "Luchtvaartkaarten",
+    "Onderzoek van ongevallen"
+   ],
+   "juist": 0,
+   "uitleg": "Annex 1 gaat over Personnel Licensing: brevetten en bevoegdheden."
+  },
+  {
+   "v": "In welke ICAO-annex staan de nationaliteits- en registratiekenmerken van luchtvaartuigen?",
+   "a": [
+    "Annex 4",
+    "Annex 7",
+    "Annex 11",
+    "Annex 17"
+   ],
+   "juist": 1,
+   "uitleg": "Annex 7 regelt de nationaliteits- en registratiekenmerken."
+  },
+  {
+   "v": "Welk onderwerp behandelt ICAO Annex 8?",
+   "a": [
+    "Beveiliging",
+    "Milieu",
+    "Luchtwaardigheid van luchtvaartuigen",
+    "Vervoer van gevaarlijke stoffen"
+   ],
+   "juist": 2,
+   "uitleg": "Annex 8 gaat over de luchtwaardigheid (airworthiness) van luchtvaartuigen."
+  },
+  {
+   "v": "Welk onderwerp behandelt ICAO Annex 13?",
+   "a": [
+    "Luchtvaartterreinen",
+    "Luchtverkeersdiensten",
+    "Meteorologie",
+    "Onderzoek van ongevallen en incidenten"
+   ],
+   "juist": 3,
+   "uitleg": "Annex 13 regelt het onderzoek van luchtvaartongevallen en -incidenten."
+  },
+  {
+   "v": "Welk onderwerp behandelt ICAO Annex 14?",
+   "a": [
+    "Luchtvaartterreinen (aerodromes)",
+    "Radiotelefonie",
+    "Zoek- en reddingsacties",
+    "Luchtvaartkaarten"
+   ],
+   "juist": 0,
+   "uitleg": "Annex 14 bevat de eisen voor luchtvaartterreinen."
+  },
+  {
+   "v": "In welke ICAO-annex is de luchtvaartinlichtingendienst (AIS) geregeld?",
+   "a": [
+    "Annex 6",
+    "Annex 15",
+    "Annex 3",
+    "Annex 9"
+   ],
+   "juist": 1,
+   "uitleg": "Annex 15 regelt de Aeronautical Information Services, waaronder de AIP."
+  },
+  {
+   "v": "Waar staat de afkorting EASA voor?",
+   "a": [
+    "European Air Safety Administration",
+    "European Aviation Standards Agency",
+    "European Union Aviation Safety Agency",
+    "European Aeronautical Services Agency"
+   ],
+   "juist": 2,
+   "uitleg": "EASA is de European Union Aviation Safety Agency."
+  },
+  {
+   "v": "In welke stad is EASA gevestigd?",
+   "a": [
+    "Brussel",
+    "Parijs",
+    "Straatsburg",
+    "Keulen"
+   ],
+   "juist": 3,
+   "uitleg": "EASA heeft haar hoofdkantoor in Keulen, Duitsland."
+  },
+  {
+   "v": "Welke verordening is de EASA-basisverordening?",
+   "a": [
+    "Verordening (EU) 2018/1139",
+    "Verordening (EU) nr. 923/2012",
+    "Verordening (EU) 2018/1976",
+    "Verordening (EU) nr. 376/2014"
+   ],
+   "juist": 0,
+   "uitleg": "Verordening (EU) 2018/1139 is de basisverordening voor de Europese luchtvaartveiligheid."
+  },
+  {
+   "v": "In welke verordening staan de SERA-regels (Standardised European Rules of the Air)?",
+   "a": [
+    "Verordening (EU) 2018/1139",
+    "Verordening (EU) nr. 923/2012",
+    "Verordening (EG) nr. 785/2004",
+    "Verordening (EU) 2018/1976"
+   ],
+   "juist": 1,
+   "uitleg": "SERA staat in uitvoeringsverordening (EU) nr. 923/2012."
+  },
+  {
+   "v": "Waarin zijn de brevetteringseisen voor zweefvliegers (Part-SFCL) vastgelegd?",
+   "a": [
+    "Verordening (EU) nr. 923/2012",
+    "ICAO Annex 2",
+    "Verordening (EU) 2018/1976",
+    "De Wet luchtvaart"
+   ],
+   "juist": 2,
+   "uitleg": "Part-SFCL staat in verordening (EU) 2018/1976 over zweefvliegtuigoperaties en -brevetten."
+  },
+  {
+   "v": "Wie geeft het SPL (Sailplane Pilot Licence) af?",
+   "a": [
+    "EASA",
+    "ICAO",
+    "De KNVvL",
+    "De bevoegde autoriteit van de lidstaat, in Nederland de ILT"
+   ],
+   "juist": 3,
+   "uitleg": "Het SPL wordt afgegeven door de bevoegde autoriteit van de lidstaat, in Nederland de ILT."
+  },
+  {
+   "v": "Wat bepaalt het Verdrag van Chicago over soevereiniteit?",
+   "a": [
+    "Elke staat heeft volledige en uitsluitende soevereiniteit over het luchtruim boven zijn grondgebied",
+    "Het luchtruim is vrij voor iedereen",
+    "De ICAO beheert al het luchtruim",
+    "Alleen militair luchtruim is soeverein"
+   ],
+   "juist": 0,
+   "uitleg": "Artikel 1 van het verdrag geeft elke staat volledige soevereiniteit over zijn eigen luchtruim."
+  },
+  {
+   "v": "Welke luchtverkeersregels gelden boven volle zee?",
+   "a": [
+    "De regels van de dichtstbijzijnde staat",
+    "De regels van ICAO Annex 2, zonder nationale afwijkingen",
+    "Geen enkele regel",
+    "Alleen militaire regels"
+   ],
+   "juist": 1,
+   "uitleg": "Boven volle zee gelden de regels van ICAO Annex 2 zonder uitzondering."
+  },
+  {
+   "v": "Welke nationaliteit heeft een luchtvaartuig?",
+   "a": [
+    "Die van de eigenaar",
+    "Die van de gezagvoerder",
+    "Die van de staat waar het is geregistreerd",
+    "Die van de fabrikant"
+   ],
+   "juist": 2,
+   "uitleg": "Een luchtvaartuig heeft de nationaliteit van de staat van registratie."
+  },
+  {
+   "v": "Met welke letters beginnen Nederlandse registraties van luchtvaartuigen?",
+   "a": [
+    "NL-",
+    "OO-",
+    "D-",
+    "PH-"
+   ],
+   "juist": 3,
+   "uitleg": "Nederlandse luchtvaartuigen dragen het nationaliteitskenmerk PH-."
+  },
+  {
+   "v": "Wie onderzoekt in Nederland luchtvaartongevallen en ernstige incidenten?",
+   "a": [
+    "De Onderzoeksraad voor Veiligheid (OVV)",
+    "De politie",
+    "EASA",
+    "De KNVvL"
+   ],
+   "juist": 0,
+   "uitleg": "De Onderzoeksraad voor Veiligheid doet onafhankelijk onderzoek naar ongevallen en ernstige incidenten."
+  },
+  {
+   "v": "Welke landen vallen naast de EU-lidstaten ook onder het EASA-systeem?",
+   "a": [
+    "Alleen het Verenigd Koninkrijk",
+    "Noorwegen, IJsland, Zwitserland en Liechtenstein",
+    "Alle ICAO-landen",
+    "De Verenigde Staten en Canada"
+   ],
+   "juist": 1,
+   "uitleg": "Noorwegen, IJsland, Zwitserland en Liechtenstein doen als geassocieerde landen mee met EASA."
+  },
+  {
+   "v": "Wat is het verschil tussen een ICAO 'standard' en een 'recommended practice'?",
+   "a": [
+    "Er is geen verschil",
+    "Een standard geldt alleen voor grote luchtvaart",
+    "Van een standard moet een staat afwijkingen officieel melden, een recommended practice is wenselijk maar niet bindend",
+    "Een recommended practice is strenger"
+   ],
+   "juist": 2,
+   "uitleg": "Standards zijn bindend en afwijkingen moeten worden gemeld; recommended practices zijn aanbevelingen."
+  },
+  {
+   "v": "Waar publiceert een staat zijn afwijkingen van ICAO-standaarden?",
+   "a": [
+    "In een NOTAM",
+    "In het AD-deel van de AIP",
+    "In een AIC",
+    "In de AIP, deel GEN"
+   ],
+   "juist": 3,
+   "uitleg": "Nationale afwijkingen van ICAO-standaarden staan in AIP deel GEN."
+  },
+  {
+   "v": "Wat is de Wet luchtvaart?",
+   "a": [
+    "Een nationale Nederlandse wet",
+    "Een EU-verordening",
+    "Een ICAO-annex",
+    "Een KNVvL-reglement"
+   ],
+   "juist": 0,
+   "uitleg": "De Wet luchtvaart is de Nederlandse nationale luchtvaartwet."
+  },
+  {
+   "v": "Hoeveel luchtruimklassen kent de ICAO-indeling?",
+   "a": [
+    "5",
+    "7",
+    "6",
+    "4"
+   ],
+   "juist": 1,
+   "uitleg": "De ICAO kent zeven luchtruimklassen: A tot en met G."
+  },
+  {
+   "v": "Welke stelling over luchtruimklasse A is juist?",
+   "a": [
+    "VFR is er toegestaan met klaring",
+    "Alleen zweefvliegtuigen mogen er vliegen",
+    "VFR-vluchten zijn er verboden, dus zweefvliegen kan er niet",
+    "Er is geen klaring nodig"
+   ],
+   "juist": 2,
+   "uitleg": "In klasse A is alleen IFR toegestaan; VFR en dus ook zweefvliegen is er verboden."
+  },
+  {
+   "v": "Welke luchtruimklassen zijn gecontroleerd luchtruim?",
+   "a": [
+    "F en G",
+    "Alleen A",
+    "A en B",
+    "A tot en met E"
+   ],
+   "juist": 3,
+   "uitleg": "De klassen A tot en met E zijn gecontroleerd luchtruim."
+  },
+  {
+   "v": "In welke luchtruimklasse mag je in Nederland laag VFR vliegen zonder klaring en zonder radioverplichting (buiten een RMZ)?",
+   "a": [
+    "G",
+    "D",
+    "C",
+    "A"
+   ],
+   "juist": 0,
+   "uitleg": "Klasse G is ongecontroleerd: geen klaring en geen radioverplichting."
+  },
+  {
+   "v": "Wat is een CTR?",
+   "a": [
+    "Een gebied dat pas boven 1500 ft begint",
+    "Gecontroleerd luchtruim rond een luchthaven, vanaf de grond tot een aangegeven hoogte",
+    "Een gebied waar alleen militair verkeer vliegt",
+    "Een ongecontroleerd circuitgebied"
+   ],
+   "juist": 1,
+   "uitleg": "Een control zone (CTR) begint aan de grond en beschermt het verkeer rond een luchthaven."
+  },
+  {
+   "v": "Wat is een TMA?",
+   "a": [
+    "Een verboden gebied",
+    "Een zone waar alleen helikopters vliegen",
+    "Gecontroleerd luchtruim boven en rond een luchthaven dat op een aangegeven hoogte boven de grond begint",
+    "Het luchtruim boven FL195"
+   ],
+   "juist": 2,
+   "uitleg": "Een terminal control area (TMA) begint op een aangegeven hoogte boven de grond, boven en rond een luchthaven."
+  },
+  {
+   "v": "Welke dienst krijgt een VFR-vlucht in luchtruimklasse C?",
+   "a": [
+    "Geen enkele dienst",
+    "Alleen alarmering",
+    "Separatie van al het verkeer, ook VFR onderling",
+    "Separatie van IFR-verkeer en verkeersinformatie over ander VFR-verkeer"
+   ],
+   "juist": 3,
+   "uitleg": "In klasse C wordt VFR gesepareerd van IFR en krijgt het verkeersinformatie over ander VFR."
+  },
+  {
+   "v": "Welke dienst krijgt een VFR-vlucht in luchtruimklasse D?",
+   "a": [
+    "Alleen verkeersinformatie, geen separatie van ander verkeer",
+    "Separatie van al het verkeer",
+    "Separatie van IFR-verkeer",
+    "Geen klaring nodig"
+   ],
+   "juist": 0,
+   "uitleg": "In klasse D wordt VFR niet gesepareerd maar krijgt het verkeersinformatie; een klaring is wel vereist."
+  },
+  {
+   "v": "Wat geldt voor VFR-vluchten in luchtruimklasse E?",
+   "a": [
+    "VFR is er verboden",
+    "VFR mag er zonder klaring vliegen",
+    "VFR mag er alleen met transponder",
+    "VFR mag er alleen met vliegplan"
+   ],
+   "juist": 1,
+   "uitleg": "Klasse E is gecontroleerd, maar VFR-vluchten hebben er geen klaring nodig."
+  },
+  {
+   "v": "Welke luchtruimklasse geldt in Nederland boven FL195?",
+   "a": [
+    "G",
+    "E",
+    "C",
+    "D"
+   ],
+   "juist": 2,
+   "uitleg": "Boven FL195 is het luchtruim in Nederland klasse C."
+  },
+  {
+   "v": "Welke luchtruimklasse heeft de Schiphol TMA?",
+   "a": [
+    "E",
+    "C",
+    "D",
+    "A"
+   ],
+   "juist": 3,
+   "uitleg": "De Schiphol TMA is klasse A: daar is geen VFR-verkeer toegestaan."
+  },
+  {
+   "v": "Wat is vereist om een CTR binnen te vliegen?",
+   "a": [
+    "Tweezijdige radioverbinding en een klaring",
+    "Alleen een transponder",
+    "Alleen een vliegplan",
+    "Niets bijzonders"
+   ],
+   "juist": 0,
+   "uitleg": "Voor het binnenvliegen van een CTR zijn radiocontact en een klaring van de verkeersleiding vereist."
+  },
+  {
+   "v": "Wat is een ATZ?",
+   "a": [
+    "Een transpondergebied",
+    "Een zone rond een luchtvaartterrein ter bescherming van het plaatselijke verkeer",
+    "Een militair oefengebied",
+    "Een gebied waar alleen zweefvliegtuigen mogen komen"
+   ],
+   "juist": 1,
+   "uitleg": "Een aerodrome traffic zone beschermt het luchtverkeer rond een luchtvaartterrein."
+  },
+  {
+   "v": "Wie zorgt in luchtruimklasse G voor de onderlinge separatie?",
+   "a": [
+    "De luchtverkeersleiding",
+    "De vluchtinformatiedienst",
+    "De vliegers zelf, volgens het principe zien en vermijden",
+    "De transponder"
+   ],
+   "juist": 2,
+   "uitleg": "In ongecontroleerd luchtruim separeren vliegers zichzelf door goed uit te kijken."
+  },
+  {
+   "v": "Wat is een RMZ?",
+   "a": [
+    "Een gebied waar niet gevlogen mag worden",
+    "Een gebied waar alleen motorvliegtuigen mogen komen",
+    "Een militaire zone",
+    "Luchtruim waarin het gebruik van radio verplicht is"
+   ],
+   "juist": 3,
+   "uitleg": "In een radio mandatory zone is tweezijdige radioverbinding verplicht."
+  },
+  {
+   "v": "Wat is een TMZ?",
+   "a": [
+    "Luchtruim waarin een werkende transponder verplicht is",
+    "Een tijdelijk militair gebied",
+    "Een trainingszone",
+    "Een gebied met verplichte vliegplannen"
+   ],
+   "juist": 0,
+   "uitleg": "In een transponder mandatory zone is het voeren van een werkende transponder verplicht."
+  },
+  {
+   "v": "Mag een zweefvliegtuig een CTR met luchtruimklasse D binnenvliegen?",
+   "a": [
+    "Nooit",
+    "Ja, met tweezijdige radioverbinding en een klaring",
+    "Alleen IFR",
+    "Alleen in het weekend"
+   ],
+   "juist": 1,
+   "uitleg": "Met radiocontact en een klaring mag een zweefvliegtuig een klasse D CTR in."
+  },
+  {
+   "v": "Hoe heet het vluchtinformatiegebied dat het Nederlandse luchtruim omvat?",
+   "a": [
+    "Rotterdam FIR",
+    "Holland FIR",
+    "Amsterdam FIR",
+    "Schiphol FIR"
+   ],
+   "juist": 2,
+   "uitleg": "Nederland valt onder de Amsterdam FIR (Flight Information Region)."
+  },
+  {
+   "v": "In welke luchtruimklassen vinden de meeste zweefvluchten in Nederland plaats?",
+   "a": [
+    "A en B",
+    "B en C",
+    "C en D",
+    "E en G"
+   ],
+   "juist": 3,
+   "uitleg": "Zweefvliegtuigen vliegen in Nederland vooral in de klassen E en G."
+  },
+  {
+   "v": "Is luchtruimklasse E gecontroleerd luchtruim?",
+   "a": [
+    "Ja, maar VFR-vluchten hebben er geen klaring nodig",
+    "Nee, klasse E is ongecontroleerd",
+    "Alleen boven FL100",
+    "Alleen binnen een CTR"
+   ],
+   "juist": 0,
+   "uitleg": "Klasse E is gecontroleerd luchtruim, maar VFR mag er zonder klaring vliegen."
+  },
+  {
+   "v": "Wat is het belangrijkste kenmerk van gecontroleerd luchtruim?",
+   "a": [
+    "Er mag alleen commercieel verkeer vliegen",
+    "De luchtverkeersleiding verleent er klaringen en separatiediensten",
+    "Er geldt geen minimumzicht",
+    "Zweefvliegen is er altijd verboden"
+   ],
+   "juist": 1,
+   "uitleg": "In gecontroleerd luchtruim verleent de luchtverkeersleiding klaringen en (afhankelijk van de klasse) separatie."
+  },
+  {
+   "v": "Wat geldt voor speciale zweefvlieggebieden in Nederland?",
+   "a": [
+    "Ze staan nergens gepubliceerd",
+    "Ze zijn permanent en onbeperkt bruikbaar",
+    "Ze worden geactiveerd en bekendgemaakt, onder meer via NOTAM",
+    "Ze zijn alleen voor motorzwevers"
+   ],
+   "juist": 2,
+   "uitleg": "Zweefvlieggebieden zijn gepubliceerd in de AIP en worden per dag geactiveerd en bekendgemaakt."
+  },
+  {
+   "v": "Wie geeft de klaring om een CTR binnen te vliegen?",
+   "a": [
+    "De havenmeester",
+    "De vluchtinformatiedienst (FIS)",
+    "De KNVvL",
+    "De plaatselijke verkeerstoren (TWR)"
+   ],
+   "juist": 3,
+   "uitleg": "De verkeerstoren van het betreffende veld geeft de klaring voor de CTR."
+  },
+  {
+   "v": "Wat geldt voor luchtruimklasse F?",
+   "a": [
+    "Deze klasse wordt in Nederland niet gebruikt",
+    "Dit is de klasse van alle Nederlandse CTR's",
+    "Deze klasse ligt altijd boven FL195",
+    "Dit is verboden gebied"
+   ],
+   "juist": 0,
+   "uitleg": "Klasse F komt in het Nederlandse luchtruim niet voor."
+  },
+  {
+   "v": "Waar staat de afkorting CTA voor?",
+   "a": [
+    "Control Traffic Alert",
+    "Control Area: gecontroleerd luchtruim dat op een aangegeven hoogte boven de grond begint",
+    "Controlled Terminal Approach",
+    "Circuit Traffic Area"
+   ],
+   "juist": 1,
+   "uitleg": "Een CTA (control area) is gecontroleerd luchtruim dat niet aan de grond begint."
+  },
+  {
+   "v": "Waar staat de afkorting VMC voor?",
+   "a": [
+    "Verified Meteorological Charts",
+    "Visual Minimum Ceiling",
+    "Visual Meteorological Conditions",
+    "Variable Meteorological Circumstances"
+   ],
+   "juist": 2,
+   "uitleg": "VMC zijn de weersomstandigheden waarin volgens zichtvliegvoorschriften gevlogen mag worden."
+  },
+  {
+   "v": "Wat is het minimum vliegzicht voor VFR in luchtruimklasse E onder FL100?",
+   "a": [
+    "1500 m",
+    "3 km",
+    "10 km",
+    "5 km"
+   ],
+   "juist": 3,
+   "uitleg": "Onder FL100 geldt in klasse E een minimum vliegzicht van 5 km."
+  },
+  {
+   "v": "Wat is het minimum vliegzicht voor VFR op en boven FL100?",
+   "a": [
+    "8 km",
+    "5 km",
+    "1500 m",
+    "16 km"
+   ],
+   "juist": 0,
+   "uitleg": "Op en boven FL100 geldt een minimum vliegzicht van 8 km."
+  },
+  {
+   "v": "Welke minimale afstand tot wolken geldt voor VFR in luchtruimklasse E?",
+   "a": [
+    "500 m horizontaal en 500 ft verticaal",
+    "1500 m horizontaal en 1000 ft verticaal",
+    "1000 m horizontaal en 1500 ft verticaal",
+    "Vrij van wolken is voldoende"
+   ],
+   "juist": 1,
+   "uitleg": "In gecontroleerd luchtruim geldt: 1500 m horizontaal en 1000 ft verticaal van wolken blijven."
+  },
+  {
+   "v": "Welke VMC-minima gelden in luchtruimklasse G op of onder 3000 ft AMSL (of 1000 ft boven de grond)?",
+   "a": [
+    "8 km zicht en 1000 ft onder de wolken",
+    "Alleen 10 km zicht",
+    "Vrij van wolken, zicht op grond of water en minimaal 5 km zicht",
+    "1500 m horizontaal van wolken"
+   ],
+   "juist": 2,
+   "uitleg": "Laag in klasse G geldt: vrij van wolken, zicht op grond of water en in Nederland 5 km zicht."
+  },
+  {
+   "v": "Wat wordt bedoeld met vliegzicht?",
+   "a": [
+    "Het zicht dat de meteodienst op de grond meet",
+    "De afstand tot de dichtstbijzijnde wolk",
+    "Het zicht recht naar beneden",
+    "Het zicht naar voren vanuit de cockpit van een vliegend luchtvaartuig"
+   ],
+   "juist": 3,
+   "uitleg": "Vliegzicht is het zicht vooruit vanuit de cockpit tijdens de vlucht."
+  },
+  {
+   "v": "Welke VMC-minima gelden in luchtruimklasse G boven 3000 ft AMSL en boven 1000 ft AGL?",
+   "a": [
+    "Dezelfde als in gecontroleerd luchtruim: 5 km zicht, 1500 m horizontaal en 1000 ft verticaal van wolken",
+    "Alleen vrij van wolken",
+    "8 km zicht en vrij van wolken",
+    "Er gelden daar geen minima"
+   ],
+   "juist": 0,
+   "uitleg": "Boven 3000 ft AMSL gelden ook in klasse G de afstanden 1500 m en 1000 ft tot wolken."
+  },
+  {
+   "v": "In welke situatie geldt de eis 'zicht op grond of water'?",
+   "a": [
+    "Boven FL100",
+    "Bij VFR in klasse G op of onder 3000 ft AMSL of 1000 ft boven de grond",
+    "In elke CTR",
+    "In luchtruimklasse E"
+   ],
+   "juist": 1,
+   "uitleg": "De eis zicht op grond of water hoort bij laag vliegen in ongecontroleerd luchtruim."
+  },
+  {
+   "v": "Wat is Special VFR?",
+   "a": [
+    "Een standaardprocedure in klasse G",
+    "VFR-vliegen boven FL195",
+    "Een klaring om bij slechter weer dan VMC toch in een CTR te vliegen",
+    "Nachtvliegen met een zweefvliegtuig"
+   ],
+   "juist": 2,
+   "uitleg": "Special VFR is een klaring om onder VMC-minima binnen een CTR te vliegen."
+  },
+  {
+   "v": "Onder welke voorwaarde mag in luchtruimklasse G laag een vliegzicht van slechts 1500 m worden geaccepteerd?",
+   "a": [
+    "Nooit",
+    "Alleen boven zee",
+    "Alleen met vliegplan",
+    "Bij een aangewezen snelheid van 140 kt of minder en zodanig dat ander verkeer tijdig kan worden gezien"
+   ],
+   "juist": 3,
+   "uitleg": "Bij 140 kt IAS of minder mag onder voorwaarden met 1500 m vliegzicht laag in klasse G worden gevlogen."
+  },
+  {
+   "v": "Mag een zweefvliegtuig VFR boven een wolkenlaag vliegen?",
+   "a": [
+    "Ja, zolang aan de geldende VMC-minima wordt voldaan",
+    "Nee, dat is altijd verboden",
+    "Alleen met kunstvliegbevoegdheid",
+    "Alleen onder 1000 ft"
+   ],
+   "juist": 0,
+   "uitleg": "VFR boven wolken is toegestaan zolang zicht en wolkenafstanden aan de minima voldoen."
+  },
+  {
+   "v": "Wanneer mag een zweefvliegtuig in wolken vliegen?",
+   "a": [
+    "Nooit, onder geen enkele voorwaarde",
+    "Alleen met een wolkenvliegbevoegdheid (sailplane cloud flying rating) en in luchtruim waar dit is toegestaan",
+    "Altijd boven 3000 ft",
+    "Alleen tijdens wedstrijden"
+   ],
+   "juist": 1,
+   "uitleg": "Wolkenvliegen vereist een aparte bevoegdheid en luchtruim waar het is toegestaan."
+  },
+  {
+   "v": "Waar staat de afkorting IMC voor?",
+   "a": [
+    "International Meteorological Code",
+    "Intermediate Cloud Conditions",
+    "Instrument Meteorological Conditions",
+    "Initial Minimum Ceiling"
+   ],
+   "juist": 2,
+   "uitleg": "IMC zijn weersomstandigheden slechter dan de VMC-minima."
+  },
+  {
+   "v": "Waarom geldt op en boven FL100 een groter minimum vliegzicht?",
+   "a": [
+    "Omdat de lucht daar schoner is",
+    "Omdat daar geen wolken voorkomen",
+    "Omdat zweefvliegtuigen daar niet komen",
+    "Omdat verkeer daar sneller vliegt en er meer tijd nodig is om elkaar te zien en te vermijden"
+   ],
+   "juist": 3,
+   "uitleg": "Door de hogere snelheden is boven FL100 meer zicht nodig om tijdig te kunnen uitwijken."
+  },
+  {
+   "v": "Waarom moet een VFR-vlucht 1000 ft verticale afstand tot wolken houden?",
+   "a": [
+    "Omdat IFR-verkeer plotseling uit een wolk kan komen",
+    "Vanwege turbulentie onder wolken",
+    "Om ijsafzetting te voorkomen",
+    "Omdat wolken de radio storen"
+   ],
+   "juist": 0,
+   "uitleg": "IFR-verkeer kan onverwacht uit een wolk verschijnen; afstand geeft tijd om te reageren."
+  },
+  {
+   "v": "Het weer verslechtert tijdens een overlandvlucht tot onder de VMC-minima. Wat doe je?",
+   "a": [
+    "Doorvliegen en hopen op beter weer",
+    "Tijdig omkeren, uitwijken of een veilige (buiten)landing maken",
+    "Een wolk invliegen om erboven te komen",
+    "Sneller vliegen"
+   ],
+   "juist": 1,
+   "uitleg": "Bij verslechterend weer moet je tijdig omkeren, uitwijken of landen; doorvliegen in IMC is verboden."
+  },
+  {
+   "v": "Wat is het minimum grondzicht voor een Special VFR-vlucht?",
+   "a": [
+    "5 km",
+    "800 m",
+    "1500 m",
+    "3 km"
+   ],
+   "juist": 2,
+   "uitleg": "Voor Special VFR geldt een minimum zicht van 1500 m."
+  },
+  {
+   "v": "Hoe is 'nacht' gedefinieerd in de luchtvaartregelgeving?",
+   "a": [
+    "Van 22:00 tot 06:00 uur",
+    "Van zonsondergang tot zonsopgang",
+    "Zodra het donker aanvoelt",
+    "De periode tussen het einde van de burgerlijke avondschemering en het begin van de burgerlijke ochtendschemering"
+   ],
+   "juist": 3,
+   "uitleg": "Nacht loopt van het einde van de burgerlijke avondschemering tot het begin van de burgerlijke ochtendschemering."
+  },
+  {
+   "v": "Wat is de wolkenbasis (ceiling)?",
+   "a": [
+    "De hoogte boven de grond van de onderkant van de laagste wolkenlaag die meer dan de helft van de hemel bedekt",
+    "De bovenkant van de hoogste wolk",
+    "De hoogte waarop thermiek begint",
+    "De gemiddelde hoogte van alle wolken"
+   ],
+   "juist": 0,
+   "uitleg": "De ceiling is de basis van de laagste laag die meer dan 4/8 bedekt (BKN of OVC)."
+  },
+  {
+   "v": "In welke regelgeving staan de VMC-minima voor Europa?",
+   "a": [
+    "ICAO Annex 14",
+    "SERA (verordening 923/2012)",
+    "Part-SFCL",
+    "De Regeling burgerluchthavens"
+   ],
+   "juist": 1,
+   "uitleg": "De VMC-minima staan in SERA, de Europese luchtverkeersregels."
+  },
+  {
+   "v": "Welke VMC-minima gelden voor VFR in luchtruimklasse D onder FL100?",
+   "a": [
+    "Alleen vrij van wolken",
+    "8 km zicht",
+    "5 km zicht, 1500 m horizontaal en 1000 ft verticaal van wolken",
+    "1500 m zicht"
+   ],
+   "juist": 2,
+   "uitleg": "In klasse D gelden dezelfde minima als in de andere gecontroleerde klassen onder FL100."
+  },
+  {
+   "v": "Verandert de minimale afstand tot wolken boven FL100?",
+   "a": [
+    "Ja, die wordt 3000 m en 2000 ft",
+    "Ja, boven FL100 hoef je alleen vrij van wolken te blijven",
+    "Ja, die wordt gehalveerd",
+    "Nee, die blijft 1500 m horizontaal en 1000 ft verticaal; alleen het minimum zicht wordt 8 km"
+   ],
+   "juist": 3,
+   "uitleg": "Boven FL100 verandert alleen het minimum vliegzicht naar 8 km; de wolkenafstanden blijven gelijk."
+  },
+  {
+   "v": "Wie beoordeelt tijdens de vlucht of het vliegzicht nog aan de minima voldoet?",
+   "a": [
+    "De gezagvoerder",
+    "De verkeersleiding",
+    "De meteodienst",
+    "De instructeur op de grond"
+   ],
+   "juist": 0,
+   "uitleg": "De gezagvoerder is verantwoordelijk voor het beoordelen van het actuele vliegzicht."
+  },
+  {
+   "v": "Waar staat de afkorting VFR voor?",
+   "a": [
+    "Verified Flight Route",
+    "Visual Flight Rules: de zichtvliegvoorschriften",
+    "Variable Flight Rules",
+    "Visual Flight Radar"
+   ],
+   "juist": 1,
+   "uitleg": "VFR staat voor Visual Flight Rules, de zichtvliegvoorschriften."
+  },
+  {
+   "v": "Vanaf welk niveau geldt het minimum vliegzicht van 8 km?",
+   "a": [
+    "FL055",
+    "FL195",
+    "FL100",
+    "FL065"
+   ],
+   "juist": 2,
+   "uitleg": "Vanaf FL100 geldt een minimum vliegzicht van 8 km."
+  },
+  {
+   "v": "Twee luchtvaartuigen naderen elkaar recht van voren met botsingsgevaar. Wat schrijven de regels voor?",
+   "a": [
+    "De lichtste wijkt uit",
+    "De snelste wijkt uit",
+    "Beide dalen",
+    "Beide wijken naar rechts uit"
+   ],
+   "juist": 3,
+   "uitleg": "Bij frontale nadering moeten beide luchtvaartuigen naar rechts uitwijken."
+  },
+  {
+   "v": "Twee luchtvaartuigen van dezelfde categorie naderen elkaar convergerend op ongeveer gelijke hoogte. Wie wijkt uit?",
+   "a": [
+    "Het luchtvaartuig dat de ander aan zijn rechterzijde heeft",
+    "Het luchtvaartuig dat de ander aan zijn linkerzijde heeft",
+    "Het hoogste",
+    "Het laagste"
+   ],
+   "juist": 0,
+   "uitleg": "Wie de ander rechts van zich heeft moet voorrang verlenen."
+  },
+  {
+   "v": "Een motorvliegtuig en een zweefvliegtuig naderen elkaar convergerend. Wie moet uitwijken?",
+   "a": [
+    "Het zweefvliegtuig",
+    "Het motorvliegtuig",
+    "Wie de ander rechts heeft",
+    "Beide moeten dalen"
+   ],
+   "juist": 1,
+   "uitleg": "Motorvliegtuigen moeten voorrang verlenen aan zweefvliegtuigen."
+  },
+  {
+   "v": "Een zweefvliegtuig en een vrije ballon naderen elkaar convergerend. Wie heeft voorrang?",
+   "a": [
+    "Het zweefvliegtuig",
+    "Wie het hoogst vliegt",
+    "De ballon",
+    "Niemand, beide wijken uit"
+   ],
+   "juist": 2,
+   "uitleg": "Zweefvliegtuigen moeten voorrang verlenen aan ballonnen."
+  },
+  {
+   "v": "Wat geldt voor een sleepcombinatie (sleepvliegtuig met zweefvliegtuig)?",
+   "a": [
+    "Die moet voor al het verkeer wijken",
+    "Die heeft alleen voorrang op ballonnen",
+    "Die telt als gewoon motorvliegtuig",
+    "Motorvliegtuigen moeten voorrang verlenen aan de sleepcombinatie"
+   ],
+   "juist": 3,
+   "uitleg": "Motorvliegtuigen moeten wijken voor luchtvaartuigen die een ander luchtvaartuig of voorwerp slepen."
+  },
+  {
+   "v": "Aan welke kant wordt een ander luchtvaartuig in beginsel ingehaald?",
+   "a": [
+    "Rechts",
+    "Links",
+    "Onderlangs",
+    "Bovenlangs"
+   ],
+   "juist": 0,
+   "uitleg": "Inhalen gebeurt door naar rechts uit te wijken."
+  },
+  {
+   "v": "Aan welke kant mag een zweefvliegtuig een ander zweefvliegtuig inhalen?",
+   "a": [
+    "Alleen rechts",
+    "Naar links of naar rechts",
+    "Alleen links",
+    "Alleen onderlangs"
+   ],
+   "juist": 1,
+   "uitleg": "Een zweefvliegtuig dat een ander zweefvliegtuig inhaalt mag naar links of naar rechts uitwijken."
+  },
+  {
+   "v": "Twee luchtvaartuigen naderen een veld om te landen. Wie heeft in beginsel voorrang?",
+   "a": [
+    "Het snelste",
+    "Het zwaarste",
+    "Het laagst vliegende",
+    "Het hoogst vliegende"
+   ],
+   "juist": 2,
+   "uitleg": "Bij het naderen om te landen heeft het laagst vliegende luchtvaartuig voorrang."
+  },
+  {
+   "v": "Welke voorrang heeft een luchtvaartuig dat een noodlanding maakt?",
+   "a": [
+    "Geen bijzondere voorrang",
+    "Alleen voorrang op zweefvliegtuigen",
+    "Voorrang als het groter is",
+    "Voorrang op al het andere verkeer"
+   ],
+   "juist": 3,
+   "uitleg": "Een luchtvaartuig in nood heeft voorrang op al het andere verkeer."
+  },
+  {
+   "v": "Wat moet het luchtvaartuig doen dat voorrang heeft?",
+   "a": [
+    "Koers en snelheid behouden",
+    "Ook uitwijken",
+    "Klimmen",
+    "Vaart minderen"
+   ],
+   "juist": 0,
+   "uitleg": "Wie voorrang heeft, behoudt koers en snelheid zodat de situatie voorspelbaar blijft."
+  },
+  {
+   "v": "Je voegt in bij een thermiekbel waarin al zweefvliegtuigen cirkelen. In welke richting draai je?",
+   "a": [
+    "Altijd rechtsom",
+    "In dezelfde richting als de zweefvliegtuigen die er al draaien",
+    "In tegengestelde richting, dan zie je elkaar beter",
+    "De richting maakt niet uit"
+   ],
+   "juist": 1,
+   "uitleg": "Wie invoegt in een thermiek moet dezelfde draairichting aanhouden als de aanwezige zweefvliegtuigen."
+  },
+  {
+   "v": "Wie bepaalt de draairichting in een thermiekbel?",
+   "a": [
+    "Het hoogste zweefvliegtuig",
+    "Het laagste zweefvliegtuig",
+    "Het zweefvliegtuig dat als eerste in de bel draaide",
+    "De vlieger met de meeste ervaring"
+   ],
+   "juist": 2,
+   "uitleg": "Het eerste zweefvliegtuig in de thermiek bepaalt de draairichting voor iedereen die invoegt."
+  },
+  {
+   "v": "Twee zweefvliegtuigen naderen elkaar frontaal langs een berghelling. Wie heeft voorrang?",
+   "a": [
+    "Het snelste",
+    "Het laagste",
+    "Het zwaarste",
+    "Het zweefvliegtuig dat de helling aan zijn rechterzijde heeft"
+   ],
+   "juist": 3,
+   "uitleg": "Bij hellingvliegen heeft het zweefvliegtuig met de helling rechts voorrang; de ander wijkt naar de dalzijde."
+  },
+  {
+   "v": "In welke richting maak je bochten tijdens het hellingvliegen?",
+   "a": [
+    "Altijd van de helling af",
+    "Altijd naar de helling toe",
+    "Afwisselend links en rechts",
+    "Alleen rechtsom"
+   ],
+   "juist": 0,
+   "uitleg": "Bij hellingvliegen worden alle bochten van de helling af gemaakt."
+  },
+  {
+   "v": "Wat mag een uitwijkend luchtvaartuig niet doen?",
+   "a": [
+    "Naar rechts draaien",
+    "Over, onder of vlak voor het andere luchtvaartuig langs gaan, tenzij ruim vrij",
+    "Dalen",
+    "Vaart minderen"
+   ],
+   "juist": 1,
+   "uitleg": "Uitwijken mag niet over, onder of vlak voorlangs, tenzij je ruim vrij blijft."
+  },
+  {
+   "v": "Een luchtschip en een zweefvliegtuig naderen elkaar convergerend. Wie moet voorrang verlenen?",
+   "a": [
+    "Het zweefvliegtuig",
+    "Wie de ander links heeft",
+    "Het luchtschip",
+    "Beide"
+   ],
+   "juist": 2,
+   "uitleg": "Luchtschepen moeten voorrang verlenen aan zweefvliegtuigen en ballonnen."
+  },
+  {
+   "v": "Waarom vlieg je in een thermiekbel niet recht boven of onder een ander zweefvliegtuig?",
+   "a": [
+    "Vanwege de zuiging van de bel",
+    "Omdat dat de thermiek verstoort",
+    "Omdat je dan sneller stijgt",
+    "Omdat je elkaar daar niet kunt zien en hoogteverschillen snel kunnen veranderen"
+   ],
+   "juist": 3,
+   "uitleg": "Recht boven of onder een ander zit je in de dode hoek en is het hoogteverschil snel verdwenen."
+  },
+  {
+   "v": "Wat betekent een FLARM-waarschuwing voor de voorrangsregels?",
+   "a": [
+    "Niets: de voorrangsregels en het uitkijken blijven onverkort gelden",
+    "FLARM-verkeer heeft altijd voorrang",
+    "Wie FLARM heeft mag rechtdoor",
+    "De regels vervallen binnen 1 km"
+   ],
+   "juist": 0,
+   "uitleg": "FLARM is een hulpmiddel; zien en vermijden en de voorrangsregels blijven volledig van kracht."
+  },
+  {
+   "v": "Een luchtvaartuig taxiet terwijl een ander luchtvaartuig landt. Wie heeft voorrang?",
+   "a": [
+    "Het taxiënde luchtvaartuig",
+    "Het landende luchtvaartuig",
+    "Wie het eerst op de baan is",
+    "Het grootste luchtvaartuig"
+   ],
+   "juist": 1,
+   "uitleg": "Taxiënde luchtvaartuigen moeten voorrang verlenen aan landende luchtvaartuigen."
+  },
+  {
+   "v": "Mag je de voorrangsregel 'de laagste heeft voorrang bij het landen' gebruiken om vlak voor een ander in te voegen?",
+   "a": [
+    "Ja, als je maar lager zit",
+    "Ja, bij wedstrijden",
+    "Nee, je mag deze regel niet misbruiken om voor een ander te snijden dat aan het naderen is",
+    "Ja, met radiomelding"
+   ],
+   "juist": 2,
+   "uitleg": "De regel mag niet worden gebruikt om vlak voor een ander naderend luchtvaartuig in te voegen."
+  },
+  {
+   "v": "Een motorvliegtuig ziet een zweefvliegtuig van links naderen op botsingskoers. Wie wijkt uit?",
+   "a": [
+    "Het zweefvliegtuig, want dat komt van links",
+    "Beide naar links",
+    "Niemand",
+    "Het motorvliegtuig, want de categorieregel gaat voor de rechts-heeft-voorrang-regel"
+   ],
+   "juist": 3,
+   "uitleg": "De categorievoorrang (motor wijkt voor zweef) gaat voor de regel over links en rechts."
+  },
+  {
+   "v": "Wanneer is er volgens de regels sprake van inhalen?",
+   "a": [
+    "Als je een ander van achteren nadert onder een hoek van minder dan 70 graden met zijn langsas",
+    "Als je sneller vliegt dan de ander",
+    "Als je binnen 500 m van de ander komt",
+    "Als je hoger vliegt dan de ander"
+   ],
+   "juist": 0,
+   "uitleg": "Inhalen is van achteren naderen onder een hoek van minder dan 70 graden met het symmetrievlak van de ander."
+  },
+  {
+   "v": "Je nadert een zweefvliegveld waar met de lier wordt gestart. Waar houd je rekening mee?",
+   "a": [
+    "Alleen met de windrichting",
+    "Boven en nabij het veld kan een lierkabel tot grote hoogte staan: blijf uit het startgebied",
+    "De lier stopt vanzelf als je nadert",
+    "Lierkabels hangen nooit hoger dan 100 m"
+   ],
+   "juist": 1,
+   "uitleg": "Tijdens lierstarts staat de kabel tot grote hoogte; blijf uit de buurt van het lierstartgebied."
+  },
+  {
+   "v": "Wat betekent voorrang verlenen in de praktijk?",
+   "a": [
+    "Wachten tot de ander uitwijkt",
+    "De radio gebruiken",
+    "Tijdig en duidelijk zichtbaar uitwijken zodat de ander niet hoeft te twijfelen",
+    "Licht geven"
+   ],
+   "juist": 2,
+   "uitleg": "Voorrang verlenen doe je tijdig en met een duidelijk zichtbare koerswijziging."
+  },
+  {
+   "v": "Je vliegt langs een helling en een tegenligger heeft voorrang. Hoe wijk je uit?",
+   "a": [
+    "Naar de helling toe",
+    "Omhoog",
+    "Onder de ander door",
+    "Naar de dalzijde, van de helling af"
+   ],
+   "juist": 3,
+   "uitleg": "Uitwijken bij hellingvliegen gebeurt altijd naar de dalzijde, nooit richting de helling."
+  },
+  {
+   "v": "Je bent in de lucht en de verkeerstoren richt een voortdurend groen licht op je. Wat betekent dit?",
+   "a": [
+    "Je bent geklaard om te landen",
+    "Keer terug naar het veld",
+    "Geef voorrang en blijf in het circuit",
+    "Land niet, het veld is onveilig"
+   ],
+   "juist": 0,
+   "uitleg": "Voortdurend groen licht naar een luchtvaartuig in de lucht betekent: geklaard om te landen."
+  },
+  {
+   "v": "Je bent in de lucht en ziet een voortdurend rood licht vanaf de toren. Wat betekent dit?",
+   "a": [
+    "Land onmiddellijk",
+    "Geef voorrang aan ander verkeer en blijf in het circuit",
+    "Keer terug naar het startpunt",
+    "Verlaat het circuit"
+   ],
+   "juist": 1,
+   "uitleg": "Voortdurend rood licht in de lucht betekent: voorrang geven en in het circuit blijven."
+  },
+  {
+   "v": "Wat betekent een serie rode lichtflitsen gericht op een luchtvaartuig in de lucht?",
+   "a": [
+    "Geklaard om te landen",
+    "Kom terug voor een landing",
+    "Het luchtvaartterrein is onveilig, land niet",
+    "Land en taxi naar het platform"
+   ],
+   "juist": 2,
+   "uitleg": "Rode lichtflitsen naar een vliegend luchtvaartuig betekenen: veld onveilig, niet landen."
+  },
+  {
+   "v": "Wat betekent een serie groene lichtflitsen gericht op een luchtvaartuig in de lucht?",
+   "a": [
+    "Direct landen",
+    "Het veld is gesloten",
+    "Voorrang verlenen",
+    "Keer terug voor een landing; klaring om te landen volgt"
+   ],
+   "juist": 3,
+   "uitleg": "Groene flitsen betekenen: keer terug voor een landing, de landingsklaring volgt later."
+  },
+  {
+   "v": "Wat betekent een serie witte lichtflitsen gericht op een luchtvaartuig in de lucht?",
+   "a": [
+    "Land op dit luchtvaartterrein en taxi naar het platform",
+    "Vlieg door naar een ander veld",
+    "Het veld is onveilig",
+    "Geef voorrang"
+   ],
+   "juist": 0,
+   "uitleg": "Witte flitsen naar een vliegend luchtvaartuig betekenen: land hier en ga naar het platform."
+  },
+  {
+   "v": "Wat betekent een rood vuurpijlsein (rode flare), ondanks eerdere instructies?",
+   "a": [
+    "Direct landen",
+    "Voorlopig niet landen",
+    "Motor afzetten",
+    "Circuit verlaten"
+   ],
+   "juist": 1,
+   "uitleg": "Een rood pyrotechnisch sein betekent: ondanks eerdere instructies voorlopig niet landen."
+  },
+  {
+   "v": "Je staat op de grond klaar en krijgt een voortdurend groen licht. Wat betekent dit?",
+   "a": [
+    "Terugkeren naar het platform",
+    "Stoppen",
+    "Je bent geklaard om te starten",
+    "Wachten op nader bericht"
+   ],
+   "juist": 2,
+   "uitleg": "Voortdurend groen licht naar een luchtvaartuig op de grond betekent: geklaard voor de start."
+  },
+  {
+   "v": "Wat betekent een voortdurend rood licht gericht op een luchtvaartuig op de grond?",
+   "a": [
+    "Geklaard om te taxiën",
+    "Motor starten toegestaan",
+    "Terugkeren naar het beginpunt",
+    "Stop"
+   ],
+   "juist": 3,
+   "uitleg": "Voortdurend rood licht op de grond betekent: stop."
+  },
+  {
+   "v": "Wat betekenen witte lichtflitsen gericht op een luchtvaartuig op de grond?",
+   "a": [
+    "Keer terug naar je vertrekpunt op het luchtvaartterrein",
+    "Geklaard voor de start",
+    "Stop onmiddellijk",
+    "Verlaat de landingsbaan"
+   ],
+   "juist": 0,
+   "uitleg": "Witte flitsen op de grond betekenen: keer terug naar het vertrekpunt op het veld."
+  },
+  {
+   "v": "Wat betekent een rood vierkant paneel met twee gele diagonalen in het seinenvierkant?",
+   "a": [
+    "Voorzichtig landen",
+    "Landen is verboden en het verbod kan langere tijd duren",
+    "Alleen zweefvliegtuigen mogen landen",
+    "Het veld is alleen voor militair verkeer"
+   ],
+   "juist": 1,
+   "uitleg": "Een rood vierkant met twee gele diagonalen betekent: landingsverbod dat langer kan duren."
+  },
+  {
+   "v": "Wat betekent een rood vierkant paneel met een enkele gele diagonaal?",
+   "a": [
+    "Landen verboden",
+    "Alleen starten toegestaan",
+    "Bijzondere voorzichtigheid geboden bij het naderen of landen",
+    "Zweefvliegactiviteiten"
+   ],
+   "juist": 2,
+   "uitleg": "Een enkele gele diagonaal op rood betekent: extra voorzichtigheid bij nadering en landing."
+  },
+  {
+   "v": "Wat betekent een wit haltervormig teken (dumbbell) in het seinenvierkant?",
+   "a": [
+    "Het veld is gesloten",
+    "Landen op het gras verplicht",
+    "Er wordt gelierd",
+    "Uitsluitend starten, landen en taxiën op verharde banen en rijbanen"
+   ],
+   "juist": 3,
+   "uitleg": "De witte halter betekent: alleen banen en rijbanen gebruiken voor starten, landen en taxiën."
+  },
+  {
+   "v": "Wat betekent een horizontaal wit of geel kruis op een deel van het landingsterrein?",
+   "a": [
+    "Dat deel is ongeschikt voor het bewegen van luchtvaartuigen",
+    "Hier landen",
+    "Verzamelplaats voor zweefvliegtuigen",
+    "Helikopterplatform"
+   ],
+   "juist": 0,
+   "uitleg": "Een kruis markeert een deel van het terrein dat ongeschikt is voor luchtvaartuigen."
+  },
+  {
+   "v": "Hoe interpreteer je de landings-T?",
+   "a": [
+    "Landen dwars op de staander",
+    "Landen evenwijdig aan de staander van de T, in de richting van de dwarsbalk",
+    "Landen van de dwarsbalk af",
+    "De T geeft alleen de windrichting"
+   ],
+   "juist": 1,
+   "uitleg": "Je landt evenwijdig aan de staander van de T, richting de dwarsbalk."
+  },
+  {
+   "v": "Wat betekent een dubbel wit kruis in het seinenvierkant?",
+   "a": [
+    "Landingsverbod",
+    "Parachutespringen",
+    "Er vinden zweefvliegactiviteiten plaats",
+    "Het veld is onbemand"
+   ],
+   "juist": 2,
+   "uitleg": "Een dubbel wit kruis betekent dat er zweefvliegbedrijf op het veld plaatsvindt."
+  },
+  {
+   "v": "Hoe bevestigt een luchtvaartuig in de lucht overdag zonder radio dat het een lichtsein heeft begrepen?",
+   "a": [
+    "Door te knipperen met de landingslichten",
+    "Door een rondje te draaien",
+    "Door te dalen",
+    "Door met de vleugels te schommelen"
+   ],
+   "juist": 3,
+   "uitleg": "Overdag bevestig je een sein door met de vleugels te schommelen (rocking wings)."
+  },
+  {
+   "v": "Hoe luidt de gesproken noodoproep op de radio?",
+   "a": [
+    "Driemaal MAYDAY",
+    "Driemaal SOS",
+    "Driemaal HELP",
+    "Driemaal EMERGENCY"
+   ],
+   "juist": 0,
+   "uitleg": "De noodoproep is driemaal MAYDAY, gevolgd door de noodmelding."
+  },
+  {
+   "v": "Welke oproep gebruik je voor een spoedsituatie die (nog) geen direct levensgevaar oplevert?",
+   "a": [
+    "MAYDAY",
+    "PAN PAN (driemaal)",
+    "SECURITE",
+    "ALERT"
+   ],
+   "juist": 1,
+   "uitleg": "PAN PAN, driemaal uitgesproken, is de spoedoproep (urgency)."
+  },
+  {
+   "v": "Wat is de internationale noodfrequentie voor de luchtvaart?",
+   "a": [
+    "123,500 MHz",
+    "118,100 MHz",
+    "121,500 MHz",
+    "122,800 MHz"
+   ],
+   "juist": 2,
+   "uitleg": "121,500 MHz is de internationale nood- en alarmeringsfrequentie."
+  },
+  {
+   "v": "Welke transpondercode zet je bij een noodsituatie?",
+   "a": [
+    "7000",
+    "7500",
+    "7600",
+    "7700"
+   ],
+   "juist": 3,
+   "uitleg": "Code 7700 is de algemene noodcode."
+  },
+  {
+   "v": "Welke transpondercode hoort bij een radiostoring?",
+   "a": [
+    "7600",
+    "7700",
+    "7000",
+    "7500"
+   ],
+   "juist": 0,
+   "uitleg": "Code 7600 betekent verlies van radioverbinding."
+  },
+  {
+   "v": "Welke transpondercode hoort bij een kaping (unlawful interference)?",
+   "a": [
+    "7700",
+    "7500",
+    "7600",
+    "7000"
+   ],
+   "juist": 1,
+   "uitleg": "Code 7500 is de code voor wederrechtelijke daden aan boord (kaping)."
+  },
+  {
+   "v": "Welke transpondercode is de algemene VFR-code (conspicuity code)?",
+   "a": [
+    "7500",
+    "7600",
+    "7000",
+    "7777"
+   ],
+   "juist": 2,
+   "uitleg": "Code 7000 is de standaard VFR-code als geen andere code is toegewezen."
+  },
+  {
+   "v": "Een onderscheppend militair vliegtuig schommelt met de vleugels en draait langzaam weg. Wat betekent dit?",
+   "a": [
+    "Je mag doorvliegen",
+    "Land onmiddellijk",
+    "Verlaat het luchtruim",
+    "Je bent onderschept: volg mij"
+   ],
+   "juist": 3,
+   "uitleg": "Vleugelschommelen door de onderschepper betekent: je bent onderschept, volg mij."
+  },
+  {
+   "v": "Welke informatie geeft de windzak op een luchtvaartterrein?",
+   "a": [
+    "De richting en een indicatie van de sterkte van de wind aan de grond",
+    "De baan in gebruik",
+    "De luchtdruk",
+    "Het actieve circuit"
+   ],
+   "juist": 0,
+   "uitleg": "De windzak toont de actuele windrichting en geeft een indruk van de windsterkte."
+  },
+  {
+   "v": "Wat is de minimumvlieghoogte boven aaneengesloten bebouwing van steden of dorpen?",
+   "a": [
+    "500 ft boven de grond",
+    "1000 ft boven het hoogste obstakel binnen 600 m van het luchtvaartuig",
+    "1500 ft boven zeeniveau",
+    "2000 ft boven de bebouwing"
+   ],
+   "juist": 1,
+   "uitleg": "Boven aaneengesloten bebouwing geldt minimaal 1000 ft boven het hoogste obstakel binnen 600 m."
+  },
+  {
+   "v": "Wat is de algemene minimumvlieghoogte buiten bebouwing en mensenverzamelingen?",
+   "a": [
+    "1000 ft boven de grond",
+    "300 ft boven de grond",
+    "500 ft boven grond of water",
+    "150 m boven zeeniveau"
+   ],
+   "juist": 2,
+   "uitleg": "Buiten bebouwde gebieden geldt een minimum van 500 ft boven grond of water."
+  },
+  {
+   "v": "Welke eis geldt voor vliegen boven een mensenverzameling in de openlucht?",
+   "a": [
+    "Minimaal 500 ft",
+    "Alleen met radio",
+    "Verboden voor zweefvliegtuigen, toegestaan voor motorvliegtuigen",
+    "Zo hoog dat bij een noodgeval geland kan worden zonder personen op de grond in gevaar te brengen, en minimaal 1000 ft boven het hoogste obstakel binnen 600 m"
+   ],
+   "juist": 3,
+   "uitleg": "Boven mensenmenigten geldt de 1000 ft-regel en de eis dat een noodlanding niemand in gevaar brengt."
+  },
+  {
+   "v": "Wanneer mag van de minimumvlieghoogtes worden afgeweken?",
+   "a": [
+    "Voor zover nodig bij starten en landen",
+    "Als het rustig weer is",
+    "Bij overlandvluchten",
+    "Nooit"
+   ],
+   "juist": 0,
+   "uitleg": "De minimumhoogtes gelden niet voor zover starten of landen dat noodzakelijk maakt."
+  },
+  {
+   "v": "Mag een zweefvliegtuig tijdens de vlucht waterballast lozen?",
+   "a": [
+    "Nee, dat is droppen en dus verboden",
+    "Ja, mits dit geen gevaar of hinder voor personen of zaken op de grond oplevert",
+    "Alleen boven eigen veld",
+    "Alleen boven 5000 ft"
+   ],
+   "juist": 1,
+   "uitleg": "Waterballast lozen mag zolang het geen gevaar of schade op de grond veroorzaakt."
+  },
+  {
+   "v": "Waar zijn kunstvluchten in elk geval verboden?",
+   "a": [
+    "Boven zee",
+    "Boven het eigen vliegveld",
+    "Boven aaneengesloten bebouwing en mensenverzamelingen",
+    "Boven bossen"
+   ],
+   "juist": 2,
+   "uitleg": "Kunstvluchten boven bebouwing en mensenmenigten zijn verboden."
+  },
+  {
+   "v": "Wat is vereist om geavanceerde kunstvluchten met een zweefvliegtuig uit te voeren?",
+   "a": [
+    "Niets extra's, dat mag elke SPL-houder direct",
+    "Alleen toestemming van de club",
+    "Een medisch attest klasse 1",
+    "Een aanvullende opleiding en de bijbehorende kunstvliegbevoegdheid"
+   ],
+   "juist": 3,
+   "uitleg": "Voor geavanceerde kunstvluchten is een aanvullende opleiding met bevoegdheid (advanced aerobatic privileges) vereist."
+  },
+  {
+   "v": "Wat is in Nederland het maximaal toegestane alcoholpromillage voor een vlieger?",
+   "a": [
+    "0,2 promille",
+    "0,5 promille",
+    "0,8 promille",
+    "0,0 promille"
+   ],
+   "juist": 0,
+   "uitleg": "Voor de luchtvaart geldt in Nederland een grens van 0,2 promille."
+  },
+  {
+   "v": "Hoeveel uur na het laatste gebruik van alcohol mag je in Nederland in elk geval niet vliegen?",
+   "a": [
+    "4 uur",
+    "10 uur",
+    "6 uur",
+    "24 uur"
+   ],
+   "juist": 1,
+   "uitleg": "De Wet luchtvaart verbiedt vliegen binnen 10 uur na het laatste alcoholgebruik."
+  },
+  {
+   "v": "Wie is eindverantwoordelijk voor de veilige uitvoering van een vlucht?",
+   "a": [
+    "De instructeur van dienst",
+    "De verkeersleiding",
+    "De gezagvoerder (PIC)",
+    "De club"
+   ],
+   "juist": 2,
+   "uitleg": "De gezagvoerder draagt de eindverantwoordelijkheid voor de vlucht."
+  },
+  {
+   "v": "Mag een gezagvoerder in een noodsituatie afwijken van de luchtverkeersregels?",
+   "a": [
+    "Nee, nooit",
+    "Alleen met toestemming van ATC",
+    "Alleen boven eigen terrein",
+    "Ja, voor zover dat voor de veiligheid noodzakelijk is"
+   ],
+   "juist": 3,
+   "uitleg": "In het belang van de veiligheid mag de gezagvoerder in nood van de regels afwijken."
+  },
+  {
+   "v": "Wat hoort bij een goede vluchtvoorbereiding volgens de regelgeving?",
+   "a": [
+    "Kennisnemen van actuele NOTAM's, weersinformatie en beschikbare gegevens over de vlucht",
+    "Alleen de windrichting checken",
+    "Alleen het vliegtuig inspecteren",
+    "Niets, dat is vrijwillig"
+   ],
+   "juist": 0,
+   "uitleg": "De gezagvoerder moet zich vooraf vertrouwd maken met alle beschikbare relevante informatie."
+  },
+  {
+   "v": "In welke richting worden circuitbochten bij een luchtvaartterrein standaard gemaakt?",
+   "a": [
+    "Rechtsom",
+    "Linksom, tenzij anders aangegeven of geïnstrueerd",
+    "Altijd met de wind mee",
+    "Vrij te kiezen"
+   ],
+   "juist": 1,
+   "uitleg": "Bochten in het circuit gaan standaard naar links, tenzij anders is aangegeven."
+  },
+  {
+   "v": "In welke richting wordt in beginsel gestart en geland?",
+   "a": [
+    "Met de wind mee",
+    "Richting de zon",
+    "Tegen de wind in, tenzij veiligheid, baanligging of verkeer anders vereist",
+    "Altijd richting het noorden"
+   ],
+   "juist": 2,
+   "uitleg": "Starten en landen gebeurt zoveel mogelijk tegen de wind in."
+  },
+  {
+   "v": "Wanneer is voor een VFR-vlucht een vliegplan verplicht?",
+   "a": [
+    "Bij elke vlucht",
+    "Nooit voor zweefvliegtuigen",
+    "Alleen boven FL100",
+    "Onder meer bij het kruisen van een landsgrens"
+   ],
+   "juist": 3,
+   "uitleg": "Voor grensoverschrijdende vluchten moet een vliegplan worden ingediend."
+  },
+  {
+   "v": "Wanneer is formatievliegen toegestaan?",
+   "a": [
+    "Alleen na voorafgaande afspraak tussen de betrokken gezagvoerders",
+    "Altijd",
+    "Nooit",
+    "Alleen voor militairen"
+   ],
+   "juist": 0,
+   "uitleg": "Formatievliegen mag alleen na onderlinge afspraak tussen de gezagvoerders."
+  },
+  {
+   "v": "Voor wie gelden de SERA-luchtverkeersregels?",
+   "a": [
+    "Alleen voor de grote luchtvaart",
+    "Voor alle luchtruimgebruikers in het Europese luchtruim, dus ook zweefvliegers",
+    "Alleen voor IFR-verkeer",
+    "Alleen voor commercieel verkeer"
+   ],
+   "juist": 1,
+   "uitleg": "SERA geldt voor al het luchtverkeer in de deelnemende Europese staten."
+  },
+  {
+   "v": "Hoe dicht mag je een ander luchtvaartuig naderen?",
+   "a": [
+    "Tot 50 m",
+    "Tot 150 m",
+    "Niet zo dicht dat gevaar voor botsing ontstaat",
+    "Tot je zijn registratie kunt lezen"
+   ],
+   "juist": 2,
+   "uitleg": "Je mag een ander luchtvaartuig nooit zo dicht naderen dat botsingsgevaar ontstaat."
+  },
+  {
+   "v": "Onder welke voorwaarde mag een luchtvaartuig een ander luchtvaartuig of voorwerp slepen?",
+   "a": [
+    "Alleen boven zee",
+    "Alleen 's ochtends",
+    "Als het sleeptouw langer is dan 100 m",
+    "Alleen in overeenstemming met de eisen van de bevoegde autoriteit"
+   ],
+   "juist": 3,
+   "uitleg": "Slepen mag alleen volgens de daarvoor geldende eisen van de bevoegde autoriteit."
+  },
+  {
+   "v": "Wat verbiedt artikel 5.3 van de Wet luchtvaart?",
+   "a": [
+    "Deelnemen aan het luchtverkeer op zodanige wijze dat personen of zaken in gevaar (kunnen) worden gebracht",
+    "Vliegen zonder radio",
+    "Vliegen boven zee",
+    "Vliegen zonder vliegplan"
+   ],
+   "juist": 0,
+   "uitleg": "Artikel 5.3 verbiedt het in gevaar brengen van personen of zaken door deelname aan het luchtverkeer."
+  },
+  {
+   "v": "Wat geldt voor de veiligheidsgordels of het harnas van de inzittenden van een zweefvliegtuig?",
+   "a": [
+    "Alleen de gezagvoerder hoeft vast te zitten",
+    "Ze moeten in elk geval tijdens start en landing zijn vastgemaakt",
+    "Ze zijn alleen verplicht bij kunstvluchten",
+    "Ze mogen los bij rustig weer"
+   ],
+   "juist": 1,
+   "uitleg": "Gordels of harnas moeten in elk geval tijdens start en landing vast zitten; in de praktijk de hele vlucht."
+  },
+  {
+   "v": "Je voelt je voor de vlucht vermoeid of gebruikt medicijnen die de rijvaardigheid beïnvloeden. Wat geldt?",
+   "a": [
+    "Vliegen mag als de vlucht kort is",
+    "Vliegen mag met een passagier die kan helpen",
+    "Je mag niet vliegen als je niet fit genoeg bent om je taken veilig uit te voeren",
+    "Alleen overlandvluchten zijn verboden"
+   ],
+   "juist": 2,
+   "uitleg": "Wie niet fit is (vermoeidheid, medicatie, ziekte) mag geen dienst doen als bemanningslid."
+  },
+  {
+   "v": "Wanneer mag je afwijken van een verkregen ATC-klaring?",
+   "a": [
+    "Als de klaring je niet uitkomt",
+    "Als je haast hebt",
+    "Als een andere vlieger dat adviseert",
+    "Alleen in een noodsituatie; daarna meld je de afwijking zo snel mogelijk"
+   ],
+   "juist": 3,
+   "uitleg": "Van een klaring wijk je alleen af in nood en je informeert ATC zo snel mogelijk."
+  },
+  {
+   "v": "Wat geldt voor het uitwerpen van voorwerpen uit een luchtvaartuig?",
+   "a": [
+    "Verboden voor zover daardoor gevaar of hinder op de grond kan ontstaan",
+    "Altijd toegestaan boven eigen terrein",
+    "Toegestaan onder 500 ft",
+    "Alleen verboden boven water"
+   ],
+   "juist": 0,
+   "uitleg": "Voorwerpen uitwerpen mag niet als daardoor gevaar of schade kan ontstaan."
+  },
+  {
+   "v": "Mag een leerling-zweefvlieger tijdens een solovlucht een passagier meenemen?",
+   "a": [
+    "Ja, als de passagier ook lid is",
+    "Nee, solovluchten van leerlingen zijn zonder passagiers",
+    "Ja, met toestemming van de instructeur",
+    "Ja, boven het eigen veld"
+   ],
+   "juist": 1,
+   "uitleg": "Een leerling zonder brevet mag nooit passagiers meenemen."
+  },
+  {
+   "v": "Wat wijst de hoogtemeter aan als deze op QNH is ingesteld?",
+   "a": [
+    "De hoogte boven het veld",
+    "De hoogte boven het 1013,25 hPa-vlak",
+    "De hoogte boven gemiddeld zeeniveau (AMSL)",
+    "De hoogte boven het hoogste obstakel"
+   ],
+   "juist": 2,
+   "uitleg": "Met QNH ingesteld wijst de hoogtemeter de hoogte boven gemiddeld zeeniveau aan."
+  },
+  {
+   "v": "Wat is QFE?",
+   "a": [
+    "De druk op zeeniveau",
+    "De standaarddruk",
+    "De druk in het vliegtuig",
+    "De luchtdruk op de veldhoogte, zodat de meter de hoogte boven het veld aanwijst"
+   ],
+   "juist": 3,
+   "uitleg": "QFE is de druk op het niveau van het veld; de meter wijst dan hoogte boven het veld aan."
+  },
+  {
+   "v": "Wat is de standaard drukinstelling voor het vliegen op flight levels?",
+   "a": [
+    "1013,25 hPa",
+    "1000 hPa",
+    "1023,25 hPa",
+    "De actuele QNH"
+   ],
+   "juist": 0,
+   "uitleg": "Flight levels worden gevlogen met de standaardinstelling 1013,25 hPa."
+  },
+  {
+   "v": "Wat is een flight level?",
+   "a": [
+    "De hoogte boven het veld",
+    "Een vlak van gelijke luchtdruk ten opzichte van 1013,25 hPa",
+    "De hoogte boven zeeniveau volgens QNH",
+    "De maximale vlieghoogte"
+   ],
+   "juist": 1,
+   "uitleg": "Een flight level is een drukvlak ten opzichte van het standaardvlak van 1013,25 hPa."
+  },
+  {
+   "v": "Wat is de transitiehoogte (transition altitude) in Nederland?",
+   "a": [
+    "1500 ft AMSL",
+    "FL055",
+    "3000 ft AMSL",
+    "4500 ft AMSL"
+   ],
+   "juist": 2,
+   "uitleg": "In Nederland ligt de transitiehoogte op 3000 ft AMSL."
+  },
+  {
+   "v": "Welke hoogtemeterinstelling gebruik je boven de transitiehoogte?",
+   "a": [
+    "QFE",
+    "Regionale QNH",
+    "De QNH van het vertrekveld",
+    "De standaardinstelling 1013,25 hPa"
+   ],
+   "juist": 3,
+   "uitleg": "Boven de transitiehoogte vlieg je op flight levels met 1013,25 hPa."
+  },
+  {
+   "v": "Wat is het transition level?",
+   "a": [
+    "Het laagste bruikbare flight level boven de transitiehoogte",
+    "De hoogte van de wolkenbasis",
+    "Altijd FL100",
+    "De maximale hoogte voor zweefvliegtuigen"
+   ],
+   "juist": 0,
+   "uitleg": "Het transition level is het laagste flight level dat boven de transitiehoogte bruikbaar is."
+  },
+  {
+   "v": "Welk VFR-kruisniveau hoort bij een magnetische grondkoers van 090 graden (boven de transitiehoogte)?",
+   "a": [
+    "FL045",
+    "FL055",
+    "FL060",
+    "FL040"
+   ],
+   "juist": 1,
+   "uitleg": "Bij koers 000-179 vlieg je oneven flight levels plus 500 ft, zoals FL055 of FL075."
+  },
+  {
+   "v": "Welk VFR-kruisniveau hoort bij een magnetische grondkoers van 270 graden (boven de transitiehoogte)?",
+   "a": [
+    "FL055",
+    "FL075",
+    "FL065",
+    "FL095"
+   ],
+   "juist": 2,
+   "uitleg": "Bij koers 180-359 vlieg je even flight levels plus 500 ft, zoals FL045 of FL065."
+  },
+  {
+   "v": "Wanneer geldt de halfcirkelregel voor VFR-kruisniveaus?",
+   "a": [
+    "Altijd, ook in het circuit",
+    "Alleen boven FL100",
+    "Alleen boven zee",
+    "Bij horizontale kruisvlucht boven 3000 ft AMSL (boven de transitiehoogte)"
+   ],
+   "juist": 3,
+   "uitleg": "De halfcirkelregel geldt voor kruisvluchten boven 3000 ft AMSL."
+  },
+  {
+   "v": "Je vliegt van warme naar koude lucht zonder de hoogtemeter bij te stellen. Wat gebeurt er?",
+   "a": [
+    "De meter wijst te hoog aan: je vliegt werkelijk lager dan aangegeven",
+    "De meter wijst te laag aan: je vliegt werkelijk hoger",
+    "Er verandert niets",
+    "De meter valt uit"
+   ],
+   "juist": 0,
+   "uitleg": "In koude lucht liggen de drukvlakken lager: de meter wijst dan te hoog aan, wat gevaarlijk is."
+  },
+  {
+   "v": "Je vliegt van een hogedrukgebied naar een lagedrukgebied zonder de QNH bij te stellen. Wat is het gevolg?",
+   "a": [
+    "Je vliegt hoger dan aangewezen",
+    "Je vliegt werkelijk lager dan de hoogtemeter aanwijst",
+    "Geen effect",
+    "De meter wijst exact goed aan"
+   ],
+   "juist": 1,
+   "uitleg": "Van hoge naar lage druk zonder bijstellen betekent: werkelijke hoogte lager dan aangewezen."
+  },
+  {
+   "v": "Met hoeveel voet hoogteverschil komt 1 hPa drukverschil ongeveer overeen (op lage hoogte)?",
+   "a": [
+    "8 ft",
+    "100 ft",
+    "27 ft",
+    "50 ft"
+   ],
+   "juist": 2,
+   "uitleg": "Op lage hoogte komt 1 hPa overeen met ongeveer 27 tot 30 ft."
+  },
+  {
+   "v": "Wat zendt een transponder met mode C uit naast de ingestelde code?",
+   "a": [
+    "Niets extra's",
+    "De QNH-hoogte",
+    "De grondsnelheid",
+    "De drukhoogte ten opzichte van 1013,25 hPa"
+   ],
+   "juist": 3,
+   "uitleg": "Mode C voegt de drukhoogte (standaardinstelling) toe aan de uitzending."
+  },
+  {
+   "v": "Je hebt geen (werkende) transponder aan boord. Wat geldt voor een TMZ?",
+   "a": [
+    "Daar mag je dan niet in, tenzij een uitzondering of afspraak met de verkeersleiding geldt",
+    "Je mag er gewoon in",
+    "Je mag er alleen boven 3000 ft in",
+    "Een radio is voldoende"
+   ],
+   "juist": 0,
+   "uitleg": "Zonder werkende transponder is een TMZ verboden gebied, behoudens uitzonderingen."
+  },
+  {
+   "v": "Waar krijg je de actuele QNH van een luchthaven?",
+   "a": [
+    "Van andere vliegers",
+    "Via de ATIS of van de luchtverkeersleiding",
+    "Uit de AIP",
+    "Van de windzak"
+   ],
+   "juist": 1,
+   "uitleg": "De actuele QNH staat in de ATIS-uitzending of wordt door ATC gegeven."
+  },
+  {
+   "v": "Je hoogtemeter staat op QNH en je staat op een veld dat 30 ft boven zeeniveau ligt. Wat wijst de meter aan?",
+   "a": [
+    "0 ft",
+    "1013 ft",
+    "Ongeveer 30 ft",
+    "De veldhoogte boven het 1013-vlak"
+   ],
+   "juist": 2,
+   "uitleg": "Op QNH wijst de meter op de grond de veldhoogte boven zeeniveau aan."
+  },
+  {
+   "v": "Je hoogtemeter staat op QFE. Wat wijst de meter aan als je op het veld staat?",
+   "a": [
+    "De veldhoogte boven zeeniveau",
+    "De standaardhoogte",
+    "27 ft",
+    "Ongeveer 0 ft"
+   ],
+   "juist": 3,
+   "uitleg": "Op QFE wijst de hoogtemeter op het veld ongeveer nul aan."
+  },
+  {
+   "v": "Wat betekent FL065?",
+   "a": [
+    "6500 ft boven het drukvlak van 1013,25 hPa",
+    "6500 ft boven de grond",
+    "650 m boven zeeniveau",
+    "6500 ft boven het veld"
+   ],
+   "juist": 0,
+   "uitleg": "FL065 is 6500 ft ten opzichte van het standaarddrukvlak 1013,25 hPa."
+  },
+  {
+   "v": "Wat is de regionale QNH?",
+   "a": [
+    "De druk op het hoogste punt van de regio",
+    "De laagste verwachte QNH in een gebied, voor een veilige obstakelmarge",
+    "Het gemiddelde van alle veld-QNH's",
+    "De standaarddruk van de regio"
+   ],
+   "juist": 1,
+   "uitleg": "De regionale QNH is de laagst verwachte QNH, zodat je nooit lager vliegt dan aangewezen."
+  },
+  {
+   "v": "Waarom vliegt al het verkeer boven de transitiehoogte op de standaardinstelling?",
+   "a": [
+    "Omdat QNH daar niet meer werkt",
+    "Omdat de lucht daar dunner is",
+    "Zodat alle hoogtemeters dezelfde referentie hebben en verticale separatie klopt",
+    "Omdat dat minder werk is"
+   ],
+   "juist": 2,
+   "uitleg": "Een gezamenlijke referentie (1013,25 hPa) maakt onderlinge verticale separatie betrouwbaar."
+  },
+  {
+   "v": "Waar vind je de transitiehoogte van het Nederlandse luchtruim?",
+   "a": [
+    "Alleen bij de meteodienst",
+    "Op de windzak",
+    "In het vlieghandboek van het vliegtuig",
+    "In de AIP en op VFR-kaarten"
+   ],
+   "juist": 3,
+   "uitleg": "De transitiehoogte staat gepubliceerd in de AIP en op de zichtvliegkaart."
+  },
+  {
+   "v": "Wat is de transitielaag (transition layer)?",
+   "a": [
+    "De luchtlaag tussen de transitiehoogte en het transition level",
+    "De laag onder 1000 ft",
+    "De laag waar wolken ontstaan",
+    "De laag boven FL195"
+   ],
+   "juist": 0,
+   "uitleg": "De transitielaag ligt tussen de transitiehoogte en het transition level."
+  },
+  {
+   "v": "Wat wordt in de luchtvaart bedoeld met 'height'?",
+   "a": [
+    "De hoogte boven zeeniveau",
+    "De hoogte boven een aangegeven referentie zoals het veld (bijvoorbeeld met QFE)",
+    "De hoogte boven 1013,25 hPa",
+    "De dichtheidshoogte"
+   ],
+   "juist": 1,
+   "uitleg": "Height is de hoogte boven een lokale referentie, meestal het luchtvaartterrein."
+  },
+  {
+   "v": "In welke eenheid wordt een flight level uitgedrukt?",
+   "a": [
+    "Meters",
+    "Hectopascal",
+    "Honderden voeten",
+    "Kilometers"
+   ],
+   "juist": 2,
+   "uitleg": "FL is de drukhoogte in honderden voeten: FL065 is 6500 ft."
+  },
+  {
+   "v": "Wat is een verboden gebied (prohibited area)?",
+   "a": [
+    "Een gebied waar je alleen met transponder mag vliegen",
+    "Een gebied dat alleen 's nachts geldt",
+    "Een militair oefengebied",
+    "Een gebied waarin vliegen te allen tijde verboden is"
+   ],
+   "juist": 3,
+   "uitleg": "In een prohibited area is vliegen zonder meer verboden."
+  },
+  {
+   "v": "Wat is een beperkt gebied (restricted area)?",
+   "a": [
+    "Een gebied waarin vliegen alleen onder bepaalde gepubliceerde voorwaarden of buiten activeringstijden is toegestaan",
+    "Een gebied dat nooit toegankelijk is",
+    "Een gebied alleen voor zweefvliegtuigen",
+    "Een gebied zonder radiodekking"
+   ],
+   "juist": 0,
+   "uitleg": "In een restricted area gelden beperkingen; buiten de activering of onder voorwaarden mag er gevlogen worden."
+  },
+  {
+   "v": "Wat is een gevarengebied (danger area)?",
+   "a": [
+    "Een gebied waar vliegen altijd verboden is",
+    "Een gebied waar activiteiten plaatsvinden die gevaarlijk kunnen zijn voor luchtvaartuigen; vliegen is er niet verboden maar vergt oplettendheid",
+    "Een gebied met slecht weer",
+    "Een gebied zonder verkeersleiding"
+   ],
+   "juist": 1,
+   "uitleg": "In een danger area kunnen gevaarlijke activiteiten plaatsvinden; vliegen is er toegestaan maar riskant."
+  },
+  {
+   "v": "Waar staat de letterscombinatie EH in gebiedsaanduidingen zoals EHR en EHD voor?",
+   "a": [
+    "Europa Hoog",
+    "East Holland",
+    "Nederland (de ICAO-landcode)",
+    "Extra Hazard"
+   ],
+   "juist": 2,
+   "uitleg": "EH is de ICAO-landcode van Nederland."
+  },
+  {
+   "v": "Wat betekent de aanduiding EHR-gevolgd-door-een-nummer op de kaart?",
+   "a": [
+    "Een radiozone",
+    "Een zweefvlieggebied",
+    "Een vogeltrekgebied",
+    "Een Nederlands beperkt gebied (restricted area)"
+   ],
+   "juist": 3,
+   "uitleg": "EHR-gebieden zijn de restricted areas in het Nederlandse luchtruim."
+  },
+  {
+   "v": "Wat is een NOTAM?",
+   "a": [
+    "Een bericht met actuele, voor de vluchtuitvoering belangrijke informatie over bijvoorbeeld luchtruim, terreinen of gevaren",
+    "Een weerbericht",
+    "Een vergunning om te vliegen",
+    "Een verzekeringsbewijs"
+   ],
+   "juist": 0,
+   "uitleg": "Een NOTAM (Notice to Airmen) meldt actuele wijzigingen en waarschuwingen voor de vluchtvoorbereiding."
+  },
+  {
+   "v": "Wanneer raadpleeg je NOTAM's?",
+   "a": [
+    "Alleen bij overlandvluchten naar het buitenland",
+    "Bij elke vluchtvoorbereiding",
+    "Alleen bij slecht weer",
+    "Eén keer per seizoen"
+   ],
+   "juist": 1,
+   "uitleg": "NOTAM's horen bij elke vluchtvoorbereiding, ook voor lokale vluchten."
+  },
+  {
+   "v": "Uit welke drie delen bestaat de AIP?",
+   "a": [
+    "A, B en C",
+    "MET, COM en NAV",
+    "GEN, ENR en AD",
+    "VFR, IFR en MIL"
+   ],
+   "juist": 2,
+   "uitleg": "De AIP bestaat uit de delen GEN (algemeen), ENR (en route) en AD (luchtvaartterreinen)."
+  },
+  {
+   "v": "In welk deel van de AIP vind je informatie over een specifiek luchtvaartterrein?",
+   "a": [
+    "GEN",
+    "ENR",
+    "MET",
+    "AD"
+   ],
+   "juist": 3,
+   "uitleg": "Het AD-deel van de AIP bevat de gegevens per luchtvaartterrein."
+  },
+  {
+   "v": "Wat is een AIC?",
+   "a": [
+    "Een circulaire met toelichtende of administratieve luchtvaartinformatie die niet in AIP of NOTAM thuishoort",
+    "Een luchtvaartkaart",
+    "Een vliegplanformulier",
+    "Een klaring"
+   ],
+   "juist": 0,
+   "uitleg": "Een Aeronautical Information Circular geeft toelichtende informatie naast AIP en NOTAM."
+  },
+  {
+   "v": "Waarvoor dient een AIP Supplement?",
+   "a": [
+    "Voor weersverwachtingen",
+    "Voor tijdelijke, vaak langer durende wijzigingen die uitgebreide tekst of kaarten vergen",
+    "Voor het aanvragen van vliegplannen",
+    "Voor reclame"
+   ],
+   "juist": 1,
+   "uitleg": "Een AIP SUP publiceert tijdelijke wijzigingen die te uitgebreid zijn voor een NOTAM."
+  },
+  {
+   "v": "Welke schaal heeft de gangbare zichtvliegkaart (ICAO-kaart) van Nederland?",
+   "a": [
+    "1:100.000",
+    "1:1.000.000",
+    "1:500.000",
+    "1:250.000"
+   ],
+   "juist": 2,
+   "uitleg": "De ICAO-zichtvliegkaart heeft schaal 1:500.000."
+  },
+  {
+   "v": "Wat betekent het Maximum Elevation Figure (MEF) in een kaartvak?",
+   "a": [
+    "De gemiddelde terreinhoogte",
+    "De hoogte van de laagste wolkenlaag",
+    "De maximale vlieghoogte",
+    "De afgeronde hoogte boven zeeniveau van het hoogste obstakel of terreinpunt in dat vak"
+   ],
+   "juist": 3,
+   "uitleg": "Het MEF geeft per kaartvak de hoogte van het hoogste obstakel of terrein, naar boven afgerond."
+  },
+  {
+   "v": "Wat zijn isogonen op een luchtvaartkaart?",
+   "a": [
+    "Lijnen van gelijke magnetische variatie",
+    "Lijnen van gelijke luchtdruk",
+    "Lijnen van gelijke hoogte",
+    "Grenzen van luchtruimklassen"
+   ],
+   "juist": 0,
+   "uitleg": "Isogonen verbinden punten met dezelfde magnetische variatie."
+  },
+  {
+   "v": "Welk geodetisch referentiesysteem gebruikt de luchtvaart voor coördinaten?",
+   "a": [
+    "ED50",
+    "WGS-84",
+    "RD (Rijksdriehoek)",
+    "UTM-NL"
+   ],
+   "juist": 1,
+   "uitleg": "De luchtvaart gebruikt wereldwijd het WGS-84-referentiesysteem."
+  },
+  {
+   "v": "Hoe staan obstakelhoogtes op de zichtvliegkaart vermeld?",
+   "a": [
+    "Alleen de hoogte boven de grond",
+    "Alleen in meters",
+    "De tophoogte boven zeeniveau, met tussen haakjes de hoogte boven de grond",
+    "Alleen obstakels boven 1000 ft staan erop"
+   ],
+   "juist": 2,
+   "uitleg": "De kaart toont de obstakeltop in voet AMSL met de hoogte boven de grond tussen haakjes."
+  },
+  {
+   "v": "Hoe herken je een zweefvliegterrein op de zichtvliegkaart?",
+   "a": [
+    "Aan een rood vierkant",
+    "Aan een blauwe cirkel met ster",
+    "Aan de letter W",
+    "Aan het zweefvliegtuigsymbool bij het terrein"
+   ],
+   "juist": 3,
+   "uitleg": "Zweefvliegterreinen en -activiteiten staan met een zweefvliegtuigsymbool op de kaart."
+  },
+  {
+   "v": "Hoe weet je of een beperkt gebied (EHR) vandaag actief is?",
+   "a": [
+    "Via NOTAM's en de gepubliceerde luchtruimplanning",
+    "Dat zie je aan de kleur op de kaart",
+    "Beperkte gebieden zijn altijd actief",
+    "Door te bellen met de club"
+   ],
+   "juist": 0,
+   "uitleg": "De actuele activering van gebieden wordt via NOTAM en luchtruimplanning bekendgemaakt."
+  },
+  {
+   "v": "Wat betekent een militaire laagvliegroute op de kaart voor jou als zweefvlieger?",
+   "a": [
+    "Daar mag je niet vliegen",
+    "Daar kan militair verkeer op zeer lage hoogte vliegen: extra goed uitkijken",
+    "Die geldt alleen 's nachts",
+    "Die is alleen voor helikopters"
+   ],
+   "juist": 1,
+   "uitleg": "Op laagvliegroutes kan snel militair verkeer op lage hoogte vliegen; extra oplettendheid is nodig."
+  },
+  {
+   "v": "Wat betekenen de velden B) en C) in een NOTAM?",
+   "a": [
+    "De breedte en het centrum van het gebied",
+    "De bron en de categorie",
+    "Het begin en het einde van de geldigheidsperiode",
+    "De ondergrens en de frequentie"
+   ],
+   "juist": 2,
+   "uitleg": "In een NOTAM geven B) en C) het begin en einde van de geldigheid aan."
+  },
+  {
+   "v": "Wat is een VFR-meldpunt op de kaart?",
+   "a": [
+    "Een plek waar je moet landen",
+    "Een radiobaken",
+    "Een douanepost",
+    "Een gepubliceerd herkenningspunt voor het melden bij het in- of uitvliegen van bijvoorbeeld een CTR"
+   ],
+   "juist": 3,
+   "uitleg": "VFR-meldpunten zijn vaste herkenningspunten voor positiemeldingen bij gecontroleerd luchtruim."
+  },
+  {
+   "v": "Waarom moet je een actuele luchtvaartkaart gebruiken?",
+   "a": [
+    "Luchtruimindeling, gebieden en frequenties veranderen regelmatig",
+    "Oude kaarten zijn verboden te bezitten",
+    "De schaal verandert elk jaar",
+    "Alleen actuele kaarten tonen steden"
+   ],
+   "juist": 0,
+   "uitleg": "Luchtruim en gebieden wijzigen regelmatig; alleen een actuele kaart is betrouwbaar."
+  },
+  {
+   "v": "Wat is de AIRAC-cyclus?",
+   "a": [
+    "De jaarlijkse herziening van de AIP",
+    "Een vaste cyclus van 28 dagen waarin luchtvaartinformatie gecoördineerd wijzigt",
+    "De keuring van luchtvaartkaarten",
+    "De omlooptijd van NOTAM's"
+   ],
+   "juist": 1,
+   "uitleg": "Wijzigingen van luchtvaartinformatie volgen de vaste AIRAC-cyclus van 28 dagen."
+  },
+  {
+   "v": "Je leest in een NOTAM de afkorting PJE. Wat betekent dit?",
+   "a": [
+    "Een luchtshow",
+    "Een verboden gebied",
+    "Parachutespringen (parachute jumping exercise)",
+    "Een fotovlucht"
+   ],
+   "juist": 2,
+   "uitleg": "PJE staat voor parachute jumping exercise: parachutespringen in het genoemde gebied."
+  },
+  {
+   "v": "Wie verzorgt de uitgifte van NOTAM's en luchtvaartinformatie voor Nederland?",
+   "a": [
+    "De KNVvL",
+    "Elke vliegclub zelf",
+    "EASA",
+    "De luchtvaartinlichtingendienst (AIS), in Nederland ondergebracht bij LVNL"
+   ],
+   "juist": 3,
+   "uitleg": "De AIS van LVNL publiceert de Nederlandse luchtvaartinformatie en NOTAM's."
+  },
+  {
+   "v": "Wat is de minimumleeftijd voor de eerste solovlucht in een zweefvliegtuig?",
+   "a": [
+    "14 jaar",
+    "15 jaar",
+    "16 jaar",
+    "17 jaar"
+   ],
+   "juist": 0,
+   "uitleg": "Solovliegen in een zweefvliegtuig mag vanaf 14 jaar."
+  },
+  {
+   "v": "Wat is de minimumleeftijd voor de afgifte van het SPL?",
+   "a": [
+    "14 jaar",
+    "16 jaar",
+    "17 jaar",
+    "18 jaar"
+   ],
+   "juist": 1,
+   "uitleg": "Het SPL kan vanaf 16 jaar worden afgegeven."
+  },
+  {
+   "v": "Welk medisch certificaat is minimaal vereist om de bevoegdheden van het SPL uit te oefenen?",
+   "a": [
+    "Klasse 1",
+    "Klasse 2",
+    "Een LAPL-medische verklaring",
+    "Een eigen verklaring is voldoende"
+   ],
+   "juist": 2,
+   "uitleg": "Voor het SPL volstaat minimaal een LAPL medical certificate."
+  },
+  {
+   "v": "Hoe lang is een LAPL-medische verklaring geldig voor iemand jonger dan 40 jaar?",
+   "a": [
+    "12 maanden",
+    "24 maanden",
+    "36 maanden",
+    "60 maanden"
+   ],
+   "juist": 3,
+   "uitleg": "Tot de leeftijd van 40 jaar is de LAPL medical 60 maanden geldig."
+  },
+  {
+   "v": "Hoe lang is een LAPL-medische verklaring geldig voor iemand van 40 jaar of ouder?",
+   "a": [
+    "24 maanden",
+    "60 maanden",
+    "12 maanden",
+    "6 maanden"
+   ],
+   "juist": 0,
+   "uitleg": "Vanaf 40 jaar is de LAPL medical 24 maanden geldig."
+  },
+  {
+   "v": "Hoe lang is een medisch certificaat klasse 2 geldig voor iemand ouder dan 50 jaar?",
+   "a": [
+    "24 maanden",
+    "12 maanden",
+    "60 maanden",
+    "36 maanden"
+   ],
+   "juist": 1,
+   "uitleg": "Boven de 50 jaar is een klasse 2 certificaat 12 maanden geldig."
+  },
+  {
+   "v": "Hoe lang is het SPL zelf geldig?",
+   "a": [
+    "5 jaar",
+    "2 jaar",
+    "Onbeperkt, zolang je aan de recente-ervaringseisen en medische eisen voldoet",
+    "10 jaar"
+   ],
+   "juist": 2,
+   "uitleg": "Het SPL is doorlopend geldig; de recente ervaring en het medical bepalen of je mag vliegen."
+  },
+  {
+   "v": "Welke recente ervaring moet een SPL-houder in de laatste 24 maanden hebben om te mogen blijven vliegen?",
+   "a": [
+    "10 uur en 5 starts",
+    "50 starts",
+    "20 uur als PIC",
+    "Minimaal 5 uur als PIC, 15 starts en 2 trainingsvluchten met een instructeur"
+   ],
+   "juist": 3,
+   "uitleg": "De eis is 5 uur PIC, 15 starts en 2 trainingsvluchten met instructeur in de laatste 24 maanden."
+  },
+  {
+   "v": "Je voldoet niet aan de recente-ervaringseisen van het SPL. Wat kun je doen?",
+   "a": [
+    "Het ontbrekende onder toezicht van een instructeur aanvullen, of een bekwaamheidsproef met een examinator afleggen",
+    "Gewoon doorvliegen, het brevet blijft geldig",
+    "Opnieuw theorie-examen doen",
+    "Een nieuwe opleiding beginnen"
+   ],
+   "juist": 0,
+   "uitleg": "Je vult de ontbrekende ervaring aan onder toezicht of legt een proficiency check af."
+  },
+  {
+   "v": "Hoeveel ervaring als PIC moet een SPL-houder na de brevetafgifte hebben voordat passagiers mogen worden meegenomen?",
+   "a": [
+    "50 starts",
+    "Ten minste 10 uur vliegtijd of 30 starts als PIC op zweefvliegtuigen",
+    "100 uur",
+    "Geen aanvullende eis"
+   ],
+   "juist": 1,
+   "uitleg": "Na afgifte is eerst 10 uur of 30 starts als PIC vereist voordat je passagiers meeneemt."
+  },
+  {
+   "v": "Welke recente ervaring is vereist om passagiers mee te nemen in een zweefvliegtuig?",
+   "a": [
+    "5 starts in de laatste 30 dagen",
+    "10 uur in de laatste 12 maanden",
+    "Ten minste 3 starts als PIC in de laatste 90 dagen",
+    "1 start in de laatste week"
+   ],
+   "juist": 2,
+   "uitleg": "Voor passagiersvluchten geldt: minimaal 3 starts als PIC in de voorgaande 90 dagen."
+  },
+  {
+   "v": "Wat geldt voor de startmethoden (lier, sleep, zelfstart) bij het SPL?",
+   "a": [
+    "Wie mag lieren mag ook slepen",
+    "Alleen de lierstart hoort bij het brevet",
+    "Elke startmethode mag na één demonstratie",
+    "Elke startmethode vereist een aparte bevoegdheid die tijdens de opleiding of daarna wordt verkregen"
+   ],
+   "juist": 3,
+   "uitleg": "Per startmethode geldt een aparte bevoegdheid met eigen opleidings- en ervaringseisen."
+  },
+  {
+   "v": "Hoeveel starts per startmethode zijn nodig in de laatste 24 maanden om die methode te mogen blijven gebruiken?",
+   "a": [
+    "Minimaal 5 starts (voor bungeestart 2)",
+    "Minimaal 15 starts",
+    "Minimaal 1 start",
+    "Minimaal 10 starts"
+   ],
+   "juist": 0,
+   "uitleg": "Per startmethode geldt: minimaal 5 starts in 24 maanden, voor de bungeestart 2."
+  },
+  {
+   "v": "Hoe kan een SPL-houder de bevoegdheid krijgen om op een TMG (touring motor glider) te vliegen?",
+   "a": [
+    "Die zit standaard bij het SPL",
+    "Door een uitbreiding met aanvullende opleiding en vaardigheidstest",
+    "Door 10 uur mee te vliegen",
+    "Dat kan alleen met een PPL"
+   ],
+   "juist": 1,
+   "uitleg": "TMG-bevoegdheden vereisen een aparte uitbreiding met opleiding en test."
+  },
+  {
+   "v": "Hoe lang blijft een geslaagd theorie-examen geldig voor het afleggen van het praktijkexamen (skill test)?",
+   "a": [
+    "12 maanden",
+    "18 maanden",
+    "24 maanden",
+    "36 maanden"
+   ],
+   "juist": 2,
+   "uitleg": "Na het slagen voor de theorie heb je 24 maanden om het praktijkexamen te doen."
+  },
+  {
+   "v": "Binnen welke periode moet je alle theorie-examenvakken met goed gevolg afleggen?",
+   "a": [
+    "6 maanden",
+    "12 maanden",
+    "24 maanden",
+    "18 maanden vanaf het einde van de maand van de eerste examenpoging"
+   ],
+   "juist": 3,
+   "uitleg": "Alle vakken moeten binnen 18 maanden na de eerste examenpoging zijn gehaald."
+  },
+  {
+   "v": "Wie neemt het praktijkexamen (skill test) voor het SPL af?",
+   "a": [
+    "Een bevoegde examinator (FE(S))",
+    "De eigen instructeur",
+    "Een medewerker van EASA",
+    "De clubvoorzitter"
+   ],
+   "juist": 0,
+   "uitleg": "De skill test wordt afgenomen door een flight examiner voor zweefvliegtuigen."
+  },
+  {
+   "v": "Waar volg je de opleiding voor het SPL?",
+   "a": [
+    "Bij elke willekeurige vliegschool",
+    "Bij een DTO of ATO (erkende opleidingsorganisatie)",
+    "Zelfstudie is voldoende",
+    "Bij de ILT"
+   ],
+   "juist": 1,
+   "uitleg": "De SPL-opleiding vindt plaats bij een declared of approved training organisation."
+  },
+  {
+   "v": "Onder welke voorwaarde mag een leerling-zweefvlieger solo vliegen?",
+   "a": [
+    "Zodra hij 16 is",
+    "Na 50 starts",
+    "Met een autorisatie en onder toezicht van een instructeur",
+    "Na het theorie-examen"
+   ],
+   "juist": 2,
+   "uitleg": "Solovluchten van leerlingen gebeuren met toestemming en onder toezicht van een instructeur."
+  },
+  {
+   "v": "In welke landen is het SPL geldig?",
+   "a": [
+    "Alleen in Nederland",
+    "Alleen in de Benelux",
+    "Wereldwijd zonder beperkingen",
+    "In alle EASA-lidstaten"
+   ],
+   "juist": 3,
+   "uitleg": "Het SPL wordt in alle EASA-lidstaten erkend."
+  },
+  {
+   "v": "Je medische verklaring is verlopen. Wat betekent dit?",
+   "a": [
+    "Je mag niet meer als gezagvoerder vliegen tot je weer een geldige verklaring hebt",
+    "Je mag nog 3 maanden doorvliegen",
+    "Je mag alleen nog lokaal vliegen",
+    "Alleen passagiers meenemen mag niet meer"
+   ],
+   "juist": 0,
+   "uitleg": "Zonder geldige medische verklaring mag je de brevetbevoegdheden niet uitoefenen."
+  },
+  {
+   "v": "Wat geldt voor het bijhouden van een vliegerlogboek?",
+   "a": [
+    "Alleen verplicht voor instructeurs",
+    "Je moet de gegevens van al je vluchten betrouwbaar bijhouden",
+    "Alleen overlandvluchten hoeven erin",
+    "Een logboek is vrijwillig"
+   ],
+   "juist": 1,
+   "uitleg": "Alle vluchten moeten in een betrouwbaar logboek worden vastgelegd."
+  },
+  {
+   "v": "Wie mag in Nederland een LAPL-medische verklaring afgeven?",
+   "a": [
+    "Elke huisarts",
+    "De vliegclub",
+    "Een luchtvaartgeneeskundig keuringsarts (AME) of luchtvaartgeneeskundig centrum (AeMC)",
+    "De ILT zelf"
+   ],
+   "juist": 2,
+   "uitleg": "In Nederland geven alleen AME's en AeMC's LAPL-medische verklaringen af."
+  },
+  {
+   "v": "Mag een SPL-houder geld verdienen met zweefvliegen?",
+   "a": [
+    "Ja, onbeperkt",
+    "Nee, nooit",
+    "Alleen bij wedstrijden",
+    "In beginsel niet; uitzonderingen gelden onder meer voor instructie door bevoegde instructeurs"
+   ],
+   "juist": 3,
+   "uitleg": "Het SPL is niet-commercieel; onder voorwaarden mag een instructeur wel een vergoeding ontvangen."
+  },
+  {
+   "v": "Hoeveel pogingen mag je maximaal doen per theorie-examenvak?",
+   "a": [
+    "4",
+    "2",
+    "3",
+    "Onbeperkt"
+   ],
+   "juist": 0,
+   "uitleg": "Per vak zijn maximaal vier examenpogingen toegestaan."
+  },
+  {
+   "v": "Binnen welke termijn moet een meldplichtig voorval in de luchtvaart worden gemeld?",
+   "a": [
+    "Binnen 7 dagen",
+    "Binnen 72 uur nadat je ervan kennis hebt gekregen",
+    "Binnen 24 uur",
+    "Binnen een maand"
+   ],
+   "juist": 1,
+   "uitleg": "Voorvallen moeten binnen 72 uur worden gemeld volgens verordening 376/2014."
+  },
+  {
+   "v": "Bij welke instantie meld je in Nederland een luchtvaartvoorval?",
+   "a": [
+    "Bij de politie",
+    "Bij EASA",
+    "Bij het Analysebureau Luchtvaartvoorvallen (ABL)",
+    "Bij de burgemeester"
+   ],
+   "juist": 2,
+   "uitleg": "Voorvallen meld je in Nederland bij het ABL, onderdeel van de ILT."
+  },
+  {
+   "v": "Waar staat de afkorting ABL voor?",
+   "a": [
+    "Autoriteit Burgerluchtvaart",
+    "Afdeling Beheer Luchtruim",
+    "Algemeen Bureau Luchtvaart",
+    "Analysebureau Luchtvaartvoorvallen"
+   ],
+   "juist": 3,
+   "uitleg": "Het ABL is het Analysebureau Luchtvaartvoorvallen bij de ILT."
+  },
+  {
+   "v": "Wat is het doel van het melden van voorvallen volgens verordening (EU) 376/2014?",
+   "a": [
+    "De vliegveiligheid verbeteren door van voorvallen te leren, niet het aanwijzen van schuldigen",
+    "Vliegers straffen",
+    "Statistieken voor verzekeraars maken",
+    "Clubs onderling vergelijken"
+   ],
+   "juist": 0,
+   "uitleg": "Het meldsysteem is gericht op leren en preventie volgens het just culture-principe."
+  },
+  {
+   "v": "Wie moet direct worden geïnformeerd bij een ongeval of ernstig incident met een luchtvaartuig?",
+   "a": [
+    "Alleen de vliegclub",
+    "De Onderzoeksraad voor Veiligheid, naast de melding bij het ABL",
+    "Alleen de verzekeraar",
+    "De fabrikant van het vliegtuig"
+   ],
+   "juist": 1,
+   "uitleg": "Ongevallen en ernstige incidenten worden gemeld bij de Onderzoeksraad voor Veiligheid."
+  },
+  {
+   "v": "Wat is het doel van het onderzoek van de Onderzoeksraad voor Veiligheid?",
+   "a": [
+    "Schuldigen aanwijzen voor de rechter",
+    "Schadeclaims afhandelen",
+    "Lessen trekken om herhaling te voorkomen, zonder schuld of aansprakelijkheid vast te stellen",
+    "Brevetten intrekken"
+   ],
+   "juist": 2,
+   "uitleg": "Het OVV-onderzoek dient uitsluitend de veiligheid, niet de schuldvraag."
+  },
+  {
+   "v": "Je hebt in de lucht een bijna-botsing met een ander luchtvaartuig gehad. Wat doe je na de vlucht?",
+   "a": [
+    "Niets, het ging immers goed",
+    "Alleen je instructeur vertellen",
+    "Een bericht op social media plaatsen",
+    "Het voorval als airprox melden bij het ABL"
+   ],
+   "juist": 3,
+   "uitleg": "Een bijna-botsing (airprox) is een meldplichtig voorval."
+  },
+  {
+   "v": "Welke verzekering is voor een zweefvliegtuig wettelijk verplicht?",
+   "a": [
+    "Een aansprakelijkheidsverzekering (WA) voor schade aan derden, volgens verordening (EG) 785/2004",
+    "Een cascoverzekering",
+    "Een inzittendenverzekering",
+    "Geen enkele"
+   ],
+   "juist": 0,
+   "uitleg": "Verordening 785/2004 verplicht een aansprakelijkheidsverzekering voor schade aan derden."
+  },
+  {
+   "v": "Wat dekt de verplichte WA-verzekering van een zweefvliegtuig?",
+   "a": [
+    "Schade aan het eigen vliegtuig",
+    "Schade aan derden, zoals personen en zaken op de grond",
+    "Alleen schade tijdens wedstrijden",
+    "De medische kosten van de vlieger"
+   ],
+   "juist": 1,
+   "uitleg": "De verplichte verzekering dekt schade die aan derden wordt toegebracht."
+  },
+  {
+   "v": "Wat is de minimale verzekerde som voor aansprakelijkheid van een luchtvaartuig met een MTOM onder 500 kg?",
+   "a": [
+    "100.000 SDR",
+    "250.000 SDR",
+    "750.000 SDR",
+    "3.000.000 SDR"
+   ],
+   "juist": 2,
+   "uitleg": "Voor de categorie tot 500 kg MTOM geldt een minimum van 750.000 SDR."
+  },
+  {
+   "v": "Hoe is de aansprakelijkheid geregeld voor schade die een luchtvaartuig aan personen of zaken op de grond toebrengt?",
+   "a": [
+    "Er is alleen aansprakelijkheid bij opzet",
+    "De benadeelde moet schuld van de vlieger bewijzen",
+    "Alleen de club is aansprakelijk",
+    "Er geldt risicoaansprakelijkheid: schuld hoeft niet te worden aangetoond"
+   ],
+   "juist": 3,
+   "uitleg": "Voor schade aan derden op de grond geldt risicoaansprakelijkheid."
+  },
+  {
+   "v": "Welke documenten horen bij het gebruik van een zweefvliegtuig aanwezig te zijn?",
+   "a": [
+    "Onder meer het bewijs van inschrijving, het bewijs van luchtwaardigheid met ARC, het verzekeringsbewijs en het vlieghandboek",
+    "Alleen het logboek van de vlieger",
+    "Alleen een kopie van het brevet",
+    "Geen documenten, een zweefvliegtuig is vrijgesteld"
+   ],
+   "juist": 0,
+   "uitleg": "Registratie-, luchtwaardigheids- en verzekeringsdocumenten en het vlieghandboek horen bij het vliegtuig."
+  },
+  {
+   "v": "Wat is een ARC?",
+   "a": [
+    "Een radiocertificaat",
+    "Een Airworthiness Review Certificate: het periodiek te verlengen certificaat bij het bewijs van luchtwaardigheid",
+    "Een aansprakelijkheidscontract",
+    "Een start-toestemming"
+   ],
+   "juist": 1,
+   "uitleg": "Het ARC toont aan dat de luchtwaardigheid periodiek is beoordeeld en verlengd."
+  },
+  {
+   "v": "Onder welke Europese onderhoudsregelgeving valt een clubzweefvliegtuig?",
+   "a": [
+    "Part-CAT",
+    "Part-ATCO",
+    "Part-ML",
+    "Part-OPS"
+   ],
+   "juist": 2,
+   "uitleg": "Het onderhoud van lichte luchtvaartuigen zoals zweefvliegtuigen valt onder Part-ML."
+  },
+  {
+   "v": "Wat bewijst het bewijs van inschrijving van een zweefvliegtuig?",
+   "a": [
+    "Dat het vliegtuig luchtwaardig is",
+    "Dat het vliegtuig verzekerd is",
+    "Dat de vlieger bevoegd is",
+    "Dat het vliegtuig in het Nederlandse luchtvaartuigregister staat met een registratie zoals PH-123"
+   ],
+   "juist": 3,
+   "uitleg": "Het bewijs van inschrijving toont de registratie in het luchtvaartuigregister aan."
+  },
+  {
+   "v": "Welke bevoegdheid heeft een zweefvlieger nodig om in wolken te mogen vliegen?",
+   "a": [
+    "De sailplane cloud flying rating (wolkenvliegbevoegdheid)",
+    "Een IFR-brevet voor motorvliegtuigen",
+    "Alleen een kunstvliegbevoegdheid",
+    "Geen enkele, dat mag iedereen"
+   ],
+   "juist": 0,
+   "uitleg": "Voor wolkenvliegen met een zweefvliegtuig bestaat een aparte cloud flying rating."
+  },
+  {
+   "v": "Waar mag een zweefvlieger met wolkenvliegbevoegdheid daadwerkelijk in wolken vliegen?",
+   "a": [
+    "Overal",
+    "Alleen in luchtruim waar dit is toegestaan, in gecontroleerd luchtruim uitsluitend met klaring",
+    "Alleen boven zee",
+    "Alleen in klasse A"
+   ],
+   "juist": 1,
+   "uitleg": "Wolkenvliegen kan alleen waar het luchtruim en eventueel een klaring dat toelaten."
+  },
+  {
+   "v": "Wat heeft de bestuurder van een sleepvliegtuig nodig om zweefvliegtuigen te mogen slepen?",
+   "a": [
+    "Alleen een geldig PPL",
+    "Toestemming van de zweefvlieger",
+    "Een sleepbevoegdheid (sailplane towing rating)",
+    "Een instructeursbevoegdheid"
+   ],
+   "juist": 2,
+   "uitleg": "Voor het slepen van zweefvliegtuigen is een aparte sleepbevoegdheid vereist."
+  },
+  {
+   "v": "Welke formele eis geldt voor een lierist op een Nederlands zweefvliegveld?",
+   "a": [
+    "Een EASA-brevet voor lieristen",
+    "Een medisch certificaat klasse 2",
+    "Een PPL",
+    "Geen EASA-brevet: de bevoegdheid wordt via de club- en verenigingsopleiding geregeld"
+   ],
+   "juist": 3,
+   "uitleg": "Voor lieristen bestaat geen EASA-brevet; de opleiding en bevoegdheid lopen via de club."
+  },
+  {
+   "v": "Mag een club betaalde kennismakingsvluchten (introductievluchten) met zweefvliegtuigen uitvoeren?",
+   "a": [
+    "Ja, onder de voorwaarden die de regelgeving daarvoor aan verenigingen en opleidingsorganisaties stelt",
+    "Nee, elke vergoeding is verboden",
+    "Alleen met een AOC zoals een luchtvaartmaatschappij",
+    "Alleen buiten het vliegseizoen"
+   ],
+   "juist": 0,
+   "uitleg": "Introductievluchten mogen onder specifieke voorwaarden door clubs worden uitgevoerd."
+  },
+  {
+   "v": "Een clublid vliegt bewust zeer laag over een groep wandelaars. Welke regel wordt hiermee in elk geval overtreden?",
+   "a": [
+    "De regel over kunstvluchten",
+    "Het verbod om personen of zaken in gevaar te brengen en de minimumvlieghoogtes",
+    "De regels over radiogebruik",
+    "De halfcirkelregel"
+   ],
+   "juist": 1,
+   "uitleg": "Laag over mensen vliegen schendt de minimumhoogtes en het verbod op het in gevaar brengen van derden."
+  },
+  {
+   "v": "Waar staat de afkorting BvL voor?",
+   "a": [
+    "Bureau voor Luchtvaart",
+    "Besluit vluchtuitvoering Luchtvaart",
+    "Bewijs van Luchtwaardigheid",
+    "Bevoegdheid van Lierist"
+   ],
+   "juist": 2,
+   "uitleg": "Het BvL is het bewijs van luchtwaardigheid van een luchtvaartuig."
+  },
+  {
+   "v": "Wie controleert vóór de vlucht of het zweefvliegtuig in luchtwaardige staat verkeert?",
+   "a": [
+    "De technicus van de fabrikant",
+    "De ILT bij elke vlucht",
+    "De verzekeraar",
+    "De gezagvoerder, onder meer via de dagelijkse inspectie"
+   ],
+   "juist": 3,
+   "uitleg": "De gezagvoerder vergewist zich er voor de vlucht van dat het vliegtuig luchtwaardig is."
+  },
+  {
+   "v": "Is FLARM wettelijk verplicht in Nederlandse zweefvliegtuigen?",
+   "a": [
+    "Nee, maar het wordt sterk aanbevolen en is bij veel clubs en wedstrijden verplicht gesteld",
+    "Ja, volgens SERA",
+    "Ja, volgens de Wet luchtvaart",
+    "Alleen boven 3000 ft"
+   ],
+   "juist": 0,
+   "uitleg": "FLARM is geen wettelijke eis maar in de praktijk vrijwel standaard."
+  },
+  {
+   "v": "Waar staat de afkorting SDR in de verzekeringseisen voor?",
+   "a": [
+    "Standard Damage Rate",
+    "Special Drawing Rights: een internationale rekeneenheid van het IMF",
+    "Safety Damage Regulation",
+    "Standaard Dekking Risico"
+   ],
+   "juist": 1,
+   "uitleg": "Verzekerde bedragen zijn uitgedrukt in Special Drawing Rights van het IMF."
+  }
+ ]
+}
