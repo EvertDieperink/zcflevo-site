@@ -1,0 +1,2755 @@
+{
+ "vak": "Vliegprestaties en vluchtplanning",
+ "vragen": [
+  {
+   "v": "Wat is het grootste gevaar van een zwaartepunt dat achter de achterste toegestane grens ligt?",
+   "a": [
+    "Het vliegtuig wordt te zwaar op het hoogteroer om af te vangen",
+    "Het vliegtuig wordt instabiel en herstel uit een overtrek of tolvlucht kan onmogelijk worden",
+    "De overtreksnelheid neemt sterk toe",
+    "Het glijgetal neemt sterk af"
+   ],
+   "juist": 1,
+   "uitleg": "Een te achterlijk zwaartepunt maakt het vliegtuig langsinstabiel; herstel uit overtrek of tolvlucht kan dan onmogelijk zijn."
+  },
+  {
+   "v": "Welk effect heeft een zwaartepunt dat te ver naar voren ligt?",
+   "a": [
+    "Grote stuurkrachten en mogelijk onvoldoende hoogteroer om volledig af te vangen bij de landing",
+    "Het vliegtuig wordt onbestuurbaar instabiel om de dwarsas",
+    "De overtreksnelheid neemt sterk af",
+    "Het vliegtuig reageert overgevoelig op het hoogteroer"
+   ],
+   "juist": 0,
+   "uitleg": "Bij een te voorlijk zwaartepunt zijn de stuurkrachten groot en kan het hoogteroer tekortschieten bij het afvangen."
+  },
+  {
+   "v": "Waarom is er een minimale cockpitbelasting voorgeschreven?",
+   "a": [
+    "Om te voorkomen dat het vliegtuig te licht wordt voor de lierstart",
+    "Om de vleugelbelasting hoog genoeg te houden",
+    "Om te voorkomen dat het zwaartepunt achter de achterste grens komt te liggen",
+    "Om de besturing zwaarder te maken"
+   ],
+   "juist": 2,
+   "uitleg": "Een te lichte vlieger brengt het zwaartepunt te ver naar achteren; de minimale cockpitbelasting voorkomt dat."
+  },
+  {
+   "v": "Een vlieger weegt minder dan de minimale cockpitbelasting. Wat is de juiste maatregel?",
+   "a": [
+    "Langzamer vliegen dan normaal",
+    "Alleen lokaal vliegen, niet overland",
+    "Een zwaardere parachute omdoen",
+    "Loodballast aanbrengen op de daarvoor bestemde plaats volgens het vlieghandboek"
+   ],
+   "juist": 3,
+   "uitleg": "Trimballast (lood) op de voorgeschreven plaats brengt de cockpitbelasting en daarmee het zwaartepunt binnen de limieten."
+  },
+  {
+   "v": "Waar vind je de minimale en maximale cockpitbelasting van een zweefvliegtuig?",
+   "a": [
+    "Alleen in het clubreglement",
+    "Op het beladingsplaatje in de cockpit en in het vlieghandboek",
+    "Alleen op de website van de fabrikant",
+    "In het startadministratiesysteem van de club"
+   ],
+   "juist": 1,
+   "uitleg": "De cockpitbelastingsgrenzen staan op het plaatje (placard) in de cockpit en in het vlieghandboek."
+  },
+  {
+   "v": "Wat kan er gebeuren als de maximale cockpitbelasting wordt overschreden?",
+   "a": [
+    "Het zwaartepunt kan voor de voorste grens komen en zitplaats en constructie kunnen worden overbelast",
+    "Het vliegtuig wordt staartlastig",
+    "De overtreksnelheid daalt",
+    "Er gebeurt niets zolang de maximale startmassa niet wordt overschreden"
+   ],
+   "juist": 0,
+   "uitleg": "Boven de maximale cockpitbelasting komt het zwaartepunt te ver naar voren en kunnen structurele limieten worden overschreden."
+  },
+  {
+   "v": "Een zweefvliegtuig heeft een leegmassa van 285 kg en een maximale startmassa van 380 kg. De vlieger weegt inclusief parachute 92 kg. Mag er gevlogen worden?",
+   "a": [
+    "Nee, de startmassa wordt 383 kg",
+    "Nee, want de marge is kleiner dan 10 kg",
+    "Ja, de startmassa is 377 kg en blijft onder de maximale startmassa",
+    "Alleen als er loodballast wordt verwijderd"
+   ],
+   "juist": 2,
+   "uitleg": "285 + 92 = 377 kg en dat is minder dan 380 kg, dus toegestaan."
+  },
+  {
+   "v": "De leegmassa is 270 kg met zwaartepuntsarm 0,60 m achter het referentievlak; de vlieger van 90 kg zit 0,40 m voor het referentievlak. Waar ligt het zwaartepunt van het beladen vliegtuig?",
+   "a": [
+    "0,55 m achter het referentievlak",
+    "0,45 m achter het referentievlak",
+    "0,25 m achter het referentievlak",
+    "0,35 m achter het referentievlak"
+   ],
+   "juist": 3,
+   "uitleg": "Moment: 270 x 0,60 - 90 x 0,40 = 126 kgm; 126 / 360 kg = 0,35 m achter het referentievlak."
+  },
+  {
+   "v": "Telt de parachute mee bij het bepalen van de cockpitbelasting?",
+   "a": [
+    "Nee, een parachute is nooduitrusting en telt nooit mee",
+    "Ja, de massa van vlieger plus parachute samen moet binnen de cockpitbelastingsgrenzen vallen",
+    "Alleen bij overlandvluchten",
+    "Alleen als de parachute zwaarder is dan 10 kg"
+   ],
+   "juist": 1,
+   "uitleg": "De cockpitbelasting is de totale massa op de zitplaats, dus vlieger inclusief parachute en losse spullen."
+  },
+  {
+   "v": "Aan welke eis moet verwijderbare loodballast voldoen?",
+   "a": [
+    "Hij moet deugdelijk bevestigd zijn op de daarvoor bestemde plaats",
+    "Hij mag los in de cockpit liggen als hij maar zwaar genoeg is",
+    "Hij moet altijd achterin de romp liggen",
+    "Hij hoeft alleen bij kunstvluchten vast te zitten"
+   ],
+   "juist": 0,
+   "uitleg": "Ballast moet op de voorgeschreven plaats deugdelijk bevestigd zijn, anders kan hij verschuiven en het zwaartepunt verplaatsen."
+  },
+  {
+   "v": "Wat is het effect op de prestaties van een zwaartepunt dat dicht bij de achterste grens ligt, maar er nog binnen?",
+   "a": [
+    "Het glijgetal wordt aanzienlijk slechter",
+    "De overtreksnelheid neemt sterk toe",
+    "Iets betere prestaties door minder trimweerstand, maar minder stabiliteit",
+    "De prestaties veranderen niet"
+   ],
+   "juist": 2,
+   "uitleg": "Een achterlijk zwaartepunt vraagt minder neerwaartse staartkracht, wat iets betere prestaties geeft ten koste van stabiliteit."
+  },
+  {
+   "v": "Wat verstaat men onder de leegmassa van een zweefvliegtuig?",
+   "a": [
+    "De massa zonder vleugels",
+    "De massa inclusief vlieger maar zonder ballast",
+    "De massa zonder instrumenten",
+    "De massa van het vliegtuig met vaste uitrusting, zonder inzittenden, parachutes en losse ballast"
+   ],
+   "juist": 3,
+   "uitleg": "De leegmassa omvat het vliegtuig met vast ingebouwde uitrusting, zonder inzittenden en losse ballast."
+  },
+  {
+   "v": "Wanneer moet een zweefvliegtuig opnieuw gewogen worden?",
+   "a": [
+    "Voor elke vliegdag",
+    "Na inbouw van nieuwe uitrusting of een grote reparatie die massa of zwaartepuntsligging beïnvloedt",
+    "Alleen als het vliegtuig van eigenaar wisselt",
+    "Elke maand tijdens het seizoen"
+   ],
+   "juist": 1,
+   "uitleg": "Na wijzigingen die massa of zwaartepunt beïnvloeden moet opnieuw worden gewogen en het weegrapport worden bijgewerkt."
+  },
+  {
+   "v": "In welk document staan de actuele leegmassa en lege zwaartepuntsligging van een zweefvliegtuig?",
+   "a": [
+    "In het weegrapport (massa- en zwaartepuntsrapport)",
+    "In het logboek van de vlieger",
+    "In de verzekeringspolis",
+    "Op de luchtvaartkaart"
+   ],
+   "juist": 0,
+   "uitleg": "Het weegrapport bevat de bij de laatste weging vastgestelde leegmassa en zwaartepuntsligging."
+  },
+  {
+   "v": "De minimale cockpitbelasting is 70 kg. Een vlieger weegt inclusief parachute 61 kg. Hoeveel loodballast is minimaal nodig?",
+   "a": [
+    "5 kg",
+    "7 kg",
+    "9 kg",
+    "11 kg"
+   ],
+   "juist": 2,
+   "uitleg": "70 - 61 = 9 kg; er is minimaal 9 kg ballast nodig."
+  },
+  {
+   "v": "Welk effect heeft loodballast in de neus op de zwaartepuntsligging?",
+   "a": [
+    "Geen effect",
+    "Het zwaartepunt verschuift omhoog",
+    "Het zwaartepunt verschuift naar achteren",
+    "Het zwaartepunt verschuift naar voren"
+   ],
+   "juist": 3,
+   "uitleg": "Massa voor het zwaartepunt aanbrengen verplaatst het zwaartepunt naar voren."
+  },
+  {
+   "v": "Vanuit welke zitplaats moet een tweezitter solo gevlogen worden?",
+   "a": [
+    "Altijd vanaf de achterste zitplaats",
+    "Vanuit de zitplaats die het vlieghandboek voorschrijft",
+    "Dat maakt niet uit zolang de maximale startmassa niet wordt overschreden",
+    "Altijd vanaf de zitplaats met het beste zicht"
+   ],
+   "juist": 1,
+   "uitleg": "Het vlieghandboek schrijft de solozitplaats voor (meestal voorin), zodat het zwaartepunt binnen de grenzen blijft."
+  },
+  {
+   "v": "Wat is het effect van bagage in het bagageruim achter de zitplaats?",
+   "a": [
+    "Het zwaartepunt verschuift naar achteren; de maximale bagagemassa en de zwaartepuntsgrenzen moeten worden gecontroleerd",
+    "Het zwaartepunt verschuift naar voren",
+    "Bagage heeft nooit invloed op het zwaartepunt",
+    "Alleen de totale massa verandert, niet het zwaartepunt"
+   ],
+   "juist": 0,
+   "uitleg": "Massa achter het zwaartepunt verplaatst het zwaartepunt naar achteren; de limieten uit het handboek gelden."
+  },
+  {
+   "v": "Leegmassa 268 kg, vlieger 83 kg, parachute 7 kg, maximale startmassa 360 kg. Is de vlucht toegestaan?",
+   "a": [
+    "Nee, de startmassa is 362 kg",
+    "Nee, de marge moet minstens 5 kg zijn",
+    "Ja, de startmassa is 358 kg en blijft 2 kg onder de limiet",
+    "Alleen zonder parachute"
+   ],
+   "juist": 2,
+   "uitleg": "268 + 83 + 7 = 358 kg, dus 2 kg onder de maximale startmassa van 360 kg."
+  },
+  {
+   "v": "Wat gebeurt er met de overtreksnelheid als de startmassa toeneemt?",
+   "a": [
+    "Die blijft gelijk",
+    "Die neemt af",
+    "Die verdubbelt bij 10 procent extra massa",
+    "Die neemt toe, evenredig met de wortel uit de massaverhouding"
+   ],
+   "juist": 3,
+   "uitleg": "De overtreksnelheid stijgt met de wortel uit de massaverhouding: meer massa betekent een hogere overtreksnelheid."
+  },
+  {
+   "v": "De overtreksnelheid is 64 km/h bij een massa van 330 kg. Wat wordt de overtreksnelheid bij 475 kg met waterballast?",
+   "a": [
+    "Ongeveer 70 km/h",
+    "Ongeveer 77 km/h",
+    "Ongeveer 84 km/h",
+    "Ongeveer 92 km/h"
+   ],
+   "juist": 1,
+   "uitleg": "475 / 330 = 1,44; de wortel daaruit is 1,2; 64 x 1,2 = ongeveer 77 km/h."
+  },
+  {
+   "v": "Wat wordt bedoeld met de maximale massa van de niet-dragende delen?",
+   "a": [
+    "De maximale massa van romp, staartvlakken en inzittenden samen, dus alles wat geen draagkracht levert",
+    "De maximale massa van de vleugels",
+    "De maximale massa van de waterballast",
+    "De maximale massa van de instrumenten"
+   ],
+   "juist": 0,
+   "uitleg": "Niet-dragende delen zijn alle delen die geen lift leveren (romp, staart, inzittenden); hun totale massa is begrensd."
+  },
+  {
+   "v": "Hoe wordt de zwaartepuntsligging van een zweefvliegtuig meestal uitgedrukt?",
+   "a": [
+    "In kilogrammen",
+    "In graden ten opzichte van de lengteas",
+    "In millimeters achter een vastgelegd referentievlak of in procenten van de gemiddelde aerodynamische koorde",
+    "In centimeters boven de vleugel"
+   ],
+   "juist": 2,
+   "uitleg": "Het zwaartepunt wordt aangegeven als afstand achter het referentievlak (datum) of als percentage van de gemiddelde aerodynamische koorde."
+  },
+  {
+   "v": "Waarom is een te achterlijk zwaartepunt bij een lierstart extra gevaarlijk?",
+   "a": [
+    "De kabel breekt dan eerder",
+    "De lier kan het vliegtuig dan niet trekken",
+    "De startrol wordt veel langer",
+    "Het vliegtuig kan oncontroleerbaar steil komen en overtrekken tijdens de klim"
+   ],
+   "juist": 3,
+   "uitleg": "Met een achterlijk zwaartepunt kan het vliegtuig in de lierstart te steil komen en dicht bij de overtrek raken."
+  },
+  {
+   "v": "Wie is er verantwoordelijk voor dat massa en zwaartepunt voor de vlucht binnen de limieten liggen?",
+   "a": [
+    "De technicus van de club",
+    "De gezagvoerder",
+    "De lierist",
+    "De fabrikant"
+   ],
+   "juist": 1,
+   "uitleg": "De gezagvoerder is voor elke vlucht verantwoordelijk voor een juiste belading."
+  },
+  {
+   "v": "Hoe bereken je het moment van een massa ten opzichte van het referentievlak?",
+   "a": [
+    "Massa gedeeld door arm",
+    "Arm gedeeld door massa",
+    "Massa maal de valversnelling",
+    "Massa maal arm"
+   ],
+   "juist": 3,
+   "uitleg": "Moment = massa x arm (de afstand tot het referentievlak)."
+  },
+  {
+   "v": "Een zweefvliegtuig weegt beladen 357 kg, inclusief 7 kg lood dat 2,0 m voor het zwaartepunt is geplaatst. Hoeveel is het zwaartepunt daardoor verschoven?",
+   "a": [
+    "Ongeveer 2 cm naar voren",
+    "Ongeveer 14 cm naar voren",
+    "Ongeveer 4 cm naar voren",
+    "Ongeveer 8 cm naar voren"
+   ],
+   "juist": 2,
+   "uitleg": "Verschuiving = 7 x 2,0 / 357 = 0,039 m, dus ongeveer 4 cm naar voren."
+  },
+  {
+   "v": "Waarvoor dient de watertank in de staart van sommige zweefvliegtuigen?",
+   "a": [
+    "Als drinkwatervoorraad voor lange vluchten",
+    "Om het zwaartepunt naar achteren te brengen als de vleugels waterballast bevatten",
+    "Om de staart zwaarder te maken voor de lierstart",
+    "Om de landing te dempen"
+   ],
+   "juist": 1,
+   "uitleg": "De staarttank compenseert de zwaartepuntsverschuiving van vleugelballast en legt het zwaartepunt gunstiger (achterlijker)."
+  },
+  {
+   "v": "Waarom verandert waterballast in de vleugels de zwaartepuntsligging meestal weinig?",
+   "a": [
+    "Omdat de vleugeltanks dicht bij het zwaartepunt liggen",
+    "Omdat water lichter is dan lood",
+    "Omdat de ballast tijdens de vlucht verdampt",
+    "Omdat het zwaartepunt alleen door de romp wordt bepaald"
+   ],
+   "juist": 0,
+   "uitleg": "De vleugeltanks zitten dicht bij het zwaartepunt, waardoor de armen klein zijn en de verschuiving beperkt blijft."
+  },
+  {
+   "v": "Maximale startmassa 525 kg, leegmassa 385 kg, vlieger met parachute 90 kg. Hoeveel waterballast mag maximaal worden meegenomen?",
+   "a": [
+    "30 kg",
+    "40 kg",
+    "60 kg",
+    "50 kg"
+   ],
+   "juist": 3,
+   "uitleg": "525 - 385 - 90 = 50 kg waterballast."
+  },
+  {
+   "v": "Wat betekent de afkorting MTOM?",
+   "a": [
+    "De minimale massa voor de start",
+    "De massa van het lege vliegtuig",
+    "De maximale toegestane startmassa",
+    "De maximale massa van de niet-dragende delen"
+   ],
+   "juist": 2,
+   "uitleg": "MTOM staat voor maximum take-off mass: de maximale toegestane startmassa."
+  },
+  {
+   "v": "Het totale moment van een beladen zweefvliegtuig is 180 kgm en de totale massa is 400 kg. Waar ligt het zwaartepunt?",
+   "a": [
+    "0,35 m achter het referentievlak",
+    "0,45 m achter het referentievlak",
+    "0,55 m achter het referentievlak",
+    "0,65 m achter het referentievlak"
+   ],
+   "juist": 1,
+   "uitleg": "Arm = moment / massa = 180 / 400 = 0,45 m achter het referentievlak."
+  },
+  {
+   "v": "Hoe merkt een vlieger dat het zwaartepunt dicht bij de achterste grens ligt?",
+   "a": [
+    "Het vliegtuig reageert gevoeliger op het hoogteroer en is minder stabiel",
+    "Het vliegtuig wordt zwaar op de knuppel",
+    "De rolroeren worden stroever",
+    "De overtreksnelheid neemt sterk toe"
+   ],
+   "juist": 0,
+   "uitleg": "Bij een achterlijk zwaartepunt zijn de stuurkrachten klein en reageert het vliegtuig gevoelig op het hoogteroer."
+  },
+  {
+   "v": "Regenwater of vuil dat zich in de achterromp verzamelt heeft welk effect?",
+   "a": [
+    "Het maakt het vliegtuig neuslastig",
+    "Het heeft geen invloed zolang het minder dan 5 kg is",
+    "Het verlaagt de overtreksnelheid",
+    "Het verschuift het zwaartepunt ongemerkt naar achteren"
+   ],
+   "juist": 3,
+   "uitleg": "Massa ver achterin heeft een lange arm en verschuift het zwaartepunt merkbaar naar achteren, ook bij kleine hoeveelheden."
+  },
+  {
+   "v": "Een vlieger weegt met parachute 110 kg; de maximale cockpitbelasting is 103 kg en de startmassa blijft onder de MTOM. Mag hij vliegen?",
+   "a": [
+    "Ja, want de MTOM wordt niet overschreden",
+    "Ja, als hij zonder parachute vliegt en die 8 kg weegt",
+    "Nee, de maximale cockpitbelasting is een harde limiet, ook als de MTOM niet wordt overschreden",
+    "Ja, mits hij extra ballast in de staart legt"
+   ],
+   "juist": 2,
+   "uitleg": "De maximale cockpitbelasting is een zelfstandige limiet (sterkte van zitplaats en voorste zwaartepuntsgrens) en mag nooit worden overschreden."
+  },
+  {
+   "v": "Leegmassa 240 kg met arm 0,70 m achter het referentievlak; vlieger 75 kg met arm 0,30 m voor het referentievlak. Waar ligt het zwaartepunt van het beladen vliegtuig?",
+   "a": [
+    "Op ongeveer 0,52 m achter het referentievlak",
+    "Op ongeveer 0,46 m achter het referentievlak",
+    "Op ongeveer 0,40 m achter het referentievlak",
+    "Op ongeveer 0,58 m achter het referentievlak"
+   ],
+   "juist": 1,
+   "uitleg": "Moment: 240 x 0,70 - 75 x 0,30 = 145,5 kgm; 145,5 / 315 = ongeveer 0,46 m achter het referentievlak."
+  },
+  {
+   "v": "Wat is het risico van een te voorlijk zwaartepunt bij de landing?",
+   "a": [
+    "Er is mogelijk onvoldoende hoogteroer om volledig af te vangen, met een harde landing als gevolg",
+    "Het vliegtuig zweeft te ver door",
+    "De remkleppen werken niet meer",
+    "Het vliegtuig kan niet meer slippen"
+   ],
+   "juist": 0,
+   "uitleg": "Bij een voorlijk zwaartepunt kan het hoogteroer tekortschieten bij het afvangen, wat een harde landing kan geven."
+  },
+  {
+   "v": "Wat gebeurt er met de stuurkrachten op het hoogteroer naarmate het zwaartepunt verder naar achteren ligt?",
+   "a": [
+    "Ze nemen toe",
+    "Ze veranderen niet",
+    "Ze worden alleen bij hoge snelheid groter",
+    "Ze nemen af en het vliegtuig reageert gevoeliger"
+   ],
+   "juist": 3,
+   "uitleg": "Hoe achterlijker het zwaartepunt, hoe kleiner de stuurkrachten en hoe gevoeliger de besturing."
+  },
+  {
+   "v": "Wat is de invloed van een hogere vliegmassa op het beste glijgetal in rustige lucht?",
+   "a": [
+    "Het beste glijgetal halveert",
+    "Het beste glijgetal wordt veel slechter",
+    "Het beste glijgetal blijft vrijwel gelijk, maar wordt bij een hogere snelheid bereikt",
+    "Het beste glijgetal wordt aanzienlijk beter"
+   ],
+   "juist": 2,
+   "uitleg": "Meer massa verschuift de polaire naar hogere snelheden; het beste glijgetal blijft vrijwel gelijk maar hoort bij een hogere snelheid."
+  },
+  {
+   "v": "Wat is de invloed van een hogere vliegmassa op de minimale daalsnelheid?",
+   "a": [
+    "Die blijft exact gelijk",
+    "Die neemt toe",
+    "Die neemt af",
+    "Die wordt nul"
+   ],
+   "juist": 1,
+   "uitleg": "Bij hogere massa neemt de minimale daalsnelheid toe; het vliegtuig daalt overal iets sneller."
+  },
+  {
+   "v": "Minimale cockpitbelasting 75 kg. Een vlieger weegt 72 kg en de parachute 6 kg. Voldoet dit zonder extra ballast?",
+   "a": [
+    "Ja, want 72 + 6 = 78 kg en dat is meer dan 75 kg",
+    "Nee, want de vlieger zelf weegt minder dan 75 kg",
+    "Nee, een parachute telt niet mee",
+    "Alleen met minimaal 3 kg lood"
+   ],
+   "juist": 0,
+   "uitleg": "Vlieger plus parachute is 78 kg en dat ligt boven de minimale cockpitbelasting van 75 kg."
+  },
+  {
+   "v": "Een vlieger komt 9 kg tekort voor de minimale cockpitbelasting. De loodschijven wegen elk 2 kg. Hoeveel schijven zijn er minimaal nodig?",
+   "a": [
+    "3 schijven",
+    "4 schijven",
+    "6 schijven",
+    "5 schijven"
+   ],
+   "juist": 3,
+   "uitleg": "4 schijven is maar 8 kg, dus er zijn minimaal 5 schijven (10 kg) nodig om boven het minimum te komen."
+  },
+  {
+   "v": "Wat toont het beladingsschema (beladingsdiagram) van een zweefvliegtuig?",
+   "a": [
+    "De maximale liersnelheid per windsterkte",
+    "De taakverdeling bij het ophalen na een buitenlanding",
+    "De toelaatbare combinaties van massa en zwaartepuntsligging",
+    "De volgorde van de dagelijkse inspectie"
+   ],
+   "juist": 2,
+   "uitleg": "Het beladingsschema laat zien welke combinaties van belading het zwaartepunt binnen de grenzen houden."
+  },
+  {
+   "v": "In de staart van een zweefvliegtuig wordt een batterij voor de radio ingebouwd. Wat moet er gebeuren?",
+   "a": [
+    "Niets, een batterij is verwaarloosbaar",
+    "Een nieuwe massa- en zwaartepuntsberekening of herweging volgens de voorschriften",
+    "Alleen de verzekering informeren",
+    "De batterij compenseren met waterballast"
+   ],
+   "juist": 1,
+   "uitleg": "Inbouw van uitrusting, zeker ver achterin, verandert de zwaartepuntsligging en vraagt een nieuwe berekening of weging."
+  },
+  {
+   "v": "Na een reparatie met extra verf en gelcoat op het staartvlak is het vliegtuig achterin zwaarder geworden. Wat is het gevolg?",
+   "a": [
+    "Het zwaartepunt verschuift naar achteren en de minimale cockpitbelasting kan hoger worden",
+    "Het zwaartepunt verschuift naar voren",
+    "De maximale cockpitbelasting wordt lager",
+    "Er verandert niets aan de zwaartepuntsligging"
+   ],
+   "juist": 0,
+   "uitleg": "Extra massa op de staart verschuift het lege zwaartepunt naar achteren; vaak stijgt daardoor de minimale cockpitbelasting."
+  },
+  {
+   "v": "Een lichte leerling zit voorin en een zware instructeur achterin een tweezitter. Waar moet vooral op gelet worden?",
+   "a": [
+    "Op de maximale liersnelheid",
+    "Op de voorste zwaartepuntsgrens",
+    "Op de bandenspanning",
+    "Op de achterste zwaartepuntsgrens en de limieten per zitplaats"
+   ],
+   "juist": 3,
+   "uitleg": "Veel massa achterin brengt het zwaartepunt naar achteren; de achterste grens en de zitplaatslimieten zijn dan kritisch."
+  },
+  {
+   "v": "Een massa van 260 kg heeft een arm van 0,50 m. Wat is het moment?",
+   "a": [
+    "52 kgm",
+    "520 kgm",
+    "130 kgm",
+    "260 kgm"
+   ],
+   "juist": 2,
+   "uitleg": "Moment = 260 x 0,50 = 130 kgm."
+  },
+  {
+   "v": "Wat is het referentievlak (datum) bij massa- en zwaartepuntsberekeningen?",
+   "a": [
+    "Het vlak door de vleugelvoorrand op halve spanwijdte",
+    "Een door de fabrikant vastgelegd vlak van waaruit alle armen worden gemeten",
+    "Het grondvlak onder het hoofdwiel",
+    "Het vlak door het zwaartepunt"
+   ],
+   "juist": 1,
+   "uitleg": "Het referentievlak is een vast, door de fabrikant gedefinieerd vlak van waaruit alle armen worden gemeten."
+  },
+  {
+   "v": "Waarom wordt waterballast normaal gesproken voor de landing geloosd?",
+   "a": [
+    "Lagere massa geeft een lagere naderingssnelheid en een kortere uitrol",
+    "Water bevriest anders in de tanks",
+    "Het water is nodig om het stof op de baan te binden",
+    "Om de vleugels lichter te maken voor de demontage"
+   ],
+   "juist": 0,
+   "uitleg": "Zonder waterballast is de massa lager, waardoor naderingssnelheid en landingsrol korter en veiliger zijn."
+  },
+  {
+   "v": "Wat is het gevolg van starten boven de maximale startmassa?",
+   "a": [
+    "Alleen een iets langere startrol, verder geen bezwaar",
+    "Het glijgetal wordt beter, dus het is gunstig",
+    "De verzekering wordt duurder maar het mag wel",
+    "De structurele veiligheidsmarges worden aangetast en de vlucht is niet toegestaan"
+   ],
+   "juist": 3,
+   "uitleg": "Boven de MTOM zijn de sterkteberekeningen niet meer geldig; vliegen boven deze limiet is verboden."
+  },
+  {
+   "v": "Wat geeft de snelheidspolaire van een zweefvliegtuig weer?",
+   "a": [
+    "De daalsnelheid als functie van de vliegsnelheid",
+    "De klimsnelheid als functie van de thermieksterkte",
+    "De overtreksnelheid als functie van de massa",
+    "De grondsnelheid als functie van de wind"
+   ],
+   "juist": 0,
+   "uitleg": "De polaire toont voor elke vliegsnelheid de bijbehorende daalsnelheid in rustige lucht."
+  },
+  {
+   "v": "Hoe vind je in de snelheidspolaire de snelheid voor het beste glijgetal?",
+   "a": [
+    "Bij het hoogste punt van de kromme",
+    "Bij het snijpunt met de horizontale as",
+    "Bij de laagste snelheid op de kromme",
+    "Door de raaklijn vanuit de oorsprong aan de polaire te trekken"
+   ],
+   "juist": 3,
+   "uitleg": "Het raakpunt van de raaklijn uit de oorsprong geeft de snelheid met de beste verhouding tussen voorwaartse snelheid en dalen."
+  },
+  {
+   "v": "Waar op de snelheidspolaire ligt de snelheid van minimaal dalen?",
+   "a": [
+    "Bij de hoogste snelheid",
+    "Bij het hoogste punt van de kromme (de kleinste daalsnelheid)",
+    "Bij het raakpunt van de raaklijn uit de oorsprong",
+    "Bij de overtreksnelheid"
+   ],
+   "juist": 1,
+   "uitleg": "Het hoogste punt van de polaire hoort bij de kleinste daalsnelheid: de snelheid van minimaal dalen."
+  },
+  {
+   "v": "Hoe verhoudt de snelheid van minimaal dalen zich tot de snelheid van het beste glijgetal?",
+   "a": [
+    "Ze zijn altijd exact gelijk",
+    "De snelheid van minimaal dalen is hoger",
+    "De snelheid van minimaal dalen is lager",
+    "Dat hangt af van de wind"
+   ],
+   "juist": 2,
+   "uitleg": "Minimaal dalen wordt bij een lagere snelheid bereikt dan het beste glijgetal."
+  },
+  {
+   "v": "Een zweefvliegtuig vliegt 108 km/h en daalt daarbij 0,75 m/s in rustige lucht. Wat is het glijgetal?",
+   "a": [
+    "40",
+    "36",
+    "32",
+    "44"
+   ],
+   "juist": 0,
+   "uitleg": "108 km/h = 30 m/s; glijgetal = 30 / 0,75 = 40."
+  },
+  {
+   "v": "Een zweefvliegtuig heeft een glijgetal van 38 bij 95 km/h. Wat is dan ongeveer de daalsnelheid?",
+   "a": [
+    "0,95 m/s",
+    "0,55 m/s",
+    "0,80 m/s",
+    "0,69 m/s"
+   ],
+   "juist": 3,
+   "uitleg": "95 km/h = 26,4 m/s; daalsnelheid = 26,4 / 38 = ongeveer 0,69 m/s."
+  },
+  {
+   "v": "Wat gebeurt er met de daalsnelheid als je langzamer vliegt dan de snelheid van minimaal dalen?",
+   "a": [
+    "Die blijft gelijk",
+    "Die neemt weer toe",
+    "Die neemt verder af",
+    "Die wordt negatief"
+   ],
+   "juist": 1,
+   "uitleg": "Onder de snelheid van minimaal dalen neemt de daalsnelheid weer toe, tot aan de overtrek."
+  },
+  {
+   "v": "Wat betekent een glijgetal van 40?",
+   "a": [
+    "Het vliegtuig daalt 40 m per minuut",
+    "Het vliegtuig vliegt maximaal 40 km/h",
+    "Het vliegtuig legt in rustige lucht 40 km af per 1000 m hoogteverlies",
+    "Het vliegtuig kan 40 minuten zweven"
+   ],
+   "juist": 2,
+   "uitleg": "Glijgetal 40 betekent 40 m vooruit per meter hoogteverlies, dus 40 km per 1000 m."
+  },
+  {
+   "v": "Met een glijgetal van 35 verlies je 1200 m hoogte. Welke afstand leg je in rustige lucht af?",
+   "a": [
+    "42 km",
+    "35 km",
+    "48 km",
+    "29 km"
+   ],
+   "juist": 0,
+   "uitleg": "35 x 1,2 km = 42 km."
+  },
+  {
+   "v": "Met welke snelheid vlieg je in windstille, rustige lucht zo ver mogelijk?",
+   "a": [
+    "Met de overtreksnelheid plus 10 km/h",
+    "Met de snelheid van minimaal dalen",
+    "Met de maximaal toegestane snelheid",
+    "Met de snelheid van het beste glijgetal"
+   ],
+   "juist": 3,
+   "uitleg": "De grootste afstand haal je bij de snelheid van het beste glijgetal."
+  },
+  {
+   "v": "Je vliegt door een gebied met dalende lucht. Wat is de juiste reactie voor een optimale glijprestatie?",
+   "a": [
+    "Langzamer vliegen om de tijd in het dalen te verlengen",
+    "Sneller vliegen om het dalende gebied snel te verlaten",
+    "De snelheid niet veranderen",
+    "Direct beginnen met cirkelen"
+   ],
+   "juist": 1,
+   "uitleg": "In dalende lucht vlieg je sneller, zodat je er minder lang in blijft en minder hoogte verliest."
+  },
+  {
+   "v": "Je vliegt rechtdoor door een gebied met stijgende lucht dat je niet wilt uitcirkelen. Wat is optimaal?",
+   "a": [
+    "Sneller vliegen",
+    "Remkleppen gebruiken",
+    "Langzamer vliegen om langer van het stijgen te profiteren",
+    "Sterk slippen"
+   ],
+   "juist": 2,
+   "uitleg": "In stijgende lucht vlieg je langzamer, zodat je er langer in blijft en meer hoogte wint (dolfijnvliegen)."
+  },
+  {
+   "v": "Wat is het effect van insecten (mucken) op de vleugelvoorrand?",
+   "a": [
+    "De prestaties verslechteren: hogere daalsnelheid en lager glijgetal",
+    "Alleen de topsnelheid neemt af",
+    "De prestaties verbeteren iets door het ruwere oppervlak",
+    "Geen effect zolang de vleugel schoon lijkt"
+   ],
+   "juist": 0,
+   "uitleg": "Insecten verstoren de laminaire stroming, waardoor de weerstand toeneemt en de hele polaire verslechtert."
+  },
+  {
+   "v": "Wat is het effect van regen op de prestaties van een zweefvliegtuig?",
+   "a": [
+    "Regen heeft geen invloed op de prestaties",
+    "De prestaties verbeteren doordat de vleugel gladder wordt",
+    "Alleen de romp ondervindt meer weerstand",
+    "De prestaties verslechteren en de overtreksnelheid kan toenemen"
+   ],
+   "juist": 3,
+   "uitleg": "Waterdruppels verstoren de stroming over de vleugel: slechter glijgetal en een mogelijk hogere overtreksnelheid."
+  },
+  {
+   "v": "Wat doet waterballast met de snelheidspolaire?",
+   "a": [
+    "De polaire wordt in alle opzichten beter",
+    "De polaire verschuift naar hogere snelheden: zelfde beste glijgetal bij hogere snelheid, maar groter minimaal dalen",
+    "De polaire verandert niet, alleen de overtreksnelheid",
+    "Het beste glijgetal wordt aanzienlijk lager"
+   ],
+   "juist": 1,
+   "uitleg": "Met ballast hoort bij elk punt van de polaire een hogere snelheid; het beste glijgetal blijft vrijwel gelijk maar het minimale dalen neemt toe."
+  },
+  {
+   "v": "In welke omstandigheden is het meenemen van waterballast zinvol?",
+   "a": [
+    "Bij zwakke thermiek en korte vluchten",
+    "Bij veel wind op de grond",
+    "Bij sterke thermiek en hoge gemiddelde snelheden op een overlandvlucht",
+    "Bij lage wolkenbasis"
+   ],
+   "juist": 2,
+   "uitleg": "Waterballast loont als de thermiek sterk genoeg is: je steekt sneller met hetzelfde glijgetal."
+  },
+  {
+   "v": "Wat is het belangrijkste nadeel van waterballast?",
+   "a": [
+    "Slechter klimmen in zwakke thermiek door het grotere eigen dalen en de grotere massa",
+    "Het beste glijgetal wordt veel lager",
+    "De maximale snelheid neemt af",
+    "De besturing wordt onmogelijk zwaar"
+   ],
+   "juist": 0,
+   "uitleg": "Met ballast klim je slechter in zwakke thermiek; daarom wordt water geloosd als de thermiek afneemt."
+  },
+  {
+   "v": "De overtreksnelheid is 68 km/h bij 400 kg. Wat wordt die ongeveer bij 484 kg?",
+   "a": [
+    "68 km/h",
+    "82 km/h",
+    "88 km/h",
+    "75 km/h"
+   ],
+   "juist": 3,
+   "uitleg": "484 / 400 = 1,21; wortel is 1,1; 68 x 1,1 = ongeveer 75 km/h."
+  },
+  {
+   "v": "Hoe hangt de waarde van het beste glijgetal af van de vliegmassa?",
+   "a": [
+    "Het wordt evenredig slechter met de massa",
+    "Het blijft vrijwel gelijk; alleen de bijbehorende snelheid verandert",
+    "Het wordt beter naarmate het vliegtuig lichter is",
+    "Het halveert bij maximale waterballast"
+   ],
+   "juist": 1,
+   "uitleg": "Massa verschuift de polaire langs de snelheidsas; de beste glijverhouding zelf blijft vrijwel onveranderd."
+  },
+  {
+   "v": "Hoe gebruik je de welvingskleppen (flaps) van een zweefvliegtuig optimaal?",
+   "a": [
+    "Altijd in de neutrale stand laten staan",
+    "Negatieve stand bij het cirkelen, positieve stand bij snel steken",
+    "Positieve stand bij langzaam vliegen en cirkelen, negatieve stand bij snel steken",
+    "Positieve stand alleen bij de start"
+   ],
+   "juist": 2,
+   "uitleg": "Positieve klepstanden zijn gunstig bij lage snelheid (thermiek), negatieve standen verminderen de weerstand bij hoge snelheid."
+  },
+  {
+   "v": "Een zweefvliegtuig daalt gemiddeld 0,8 m/s. Hoeveel hoogte verliest het in 5 minuten?",
+   "a": [
+    "240 m",
+    "300 m",
+    "180 m",
+    "480 m"
+   ],
+   "juist": 0,
+   "uitleg": "0,8 m/s x 300 s = 240 m hoogteverlies."
+  },
+  {
+   "v": "Wat gebeurt er met het glijgetal als de remkleppen volledig worden geopend?",
+   "a": [
+    "Het verbetert iets",
+    "Het blijft gelijk, alleen de snelheid neemt toe",
+    "Het verandert alleen bij hoge snelheid",
+    "Het wordt drastisch slechter"
+   ],
+   "juist": 3,
+   "uitleg": "Remkleppen verhogen de weerstand en verstoren de lift, waardoor het glijgetal sterk afneemt."
+  },
+  {
+   "v": "Waarvoor wordt slippen tijdens de nadering gebruikt?",
+   "a": [
+    "Om de snelheid te verhogen",
+    "Om extra hoogte kwijt te raken door de grotere weerstand, zonder snelheidstoename",
+    "Om het glijgetal te verbeteren",
+    "Om de overtreksnelheid te verlagen"
+   ],
+   "juist": 1,
+   "uitleg": "Slippen vergroot de weerstand, zodat je steiler kunt naderen zonder sneller te gaan vliegen."
+  },
+  {
+   "v": "Voor welke omstandigheden geldt de gepubliceerde snelheidspolaire van een zweefvliegtuig?",
+   "a": [
+    "Voor elke willekeurige situatie",
+    "Voor vliegen in de bergen",
+    "Voor rustige lucht bij een bepaalde massa en configuratie",
+    "Alleen voor vluchten met waterballast"
+   ],
+   "juist": 2,
+   "uitleg": "De polaire geldt voor rustige lucht en een gegeven massa en configuratie; ballast, mucken en regen veranderen hem."
+  },
+  {
+   "v": "Je vliegt op grote hoogte met dezelfde aangewezen snelheid (IAS) als laag. Wat geldt voor de ware snelheid (TAS)?",
+   "a": [
+    "De TAS is hoger dan laag bij dezelfde IAS",
+    "De TAS is lager dan laag",
+    "IAS en TAS zijn op elke hoogte gelijk",
+    "De TAS is altijd precies het dubbele van de IAS"
+   ],
+   "juist": 0,
+   "uitleg": "Door de lagere luchtdichtheid hoort op hoogte bij dezelfde IAS een hogere ware snelheid."
+  },
+  {
+   "v": "Welk effect heeft tegenwind op het glijgetal ten opzichte van de grond?",
+   "a": [
+    "Geen effect",
+    "Het wordt beter",
+    "Het wordt slechter",
+    "Alleen de daalsnelheid verandert"
+   ],
+   "juist": 2,
+   "uitleg": "Tegenwind verlaagt de grondsnelheid bij gelijkblijvend dalen, dus per meter hoogte kom je minder ver."
+  },
+  {
+   "v": "Glijgetal 40 bij 100 km/h, tegenwind 20 km/h. Wat is het glijgetal ten opzichte van de grond?",
+   "a": [
+    "36",
+    "32",
+    "40",
+    "28"
+   ],
+   "juist": 1,
+   "uitleg": "Grondsnelheid 80 km/h; glijgetal over de grond = 40 x 80 / 100 = 32."
+  },
+  {
+   "v": "Welk effect heeft meewind op de afstand die je vanaf een bepaalde hoogte kunt afleggen?",
+   "a": [
+    "Je komt verder dan in stilstaande lucht",
+    "Je komt minder ver",
+    "De afstand blijft gelijk",
+    "Dat hangt alleen van de massa af"
+   ],
+   "juist": 0,
+   "uitleg": "Meewind verhoogt de grondsnelheid, waardoor je per meter hoogteverlies meer afstand aflegt."
+  },
+  {
+   "v": "Glijgetal 35 bij 90 km/h, meewind 27 km/h. Wat is ongeveer het glijgetal ten opzichte van de grond?",
+   "a": [
+    "38",
+    "35",
+    "49",
+    "45"
+   ],
+   "juist": 3,
+   "uitleg": "Grondsnelheid 117 km/h; 35 x 117 / 90 = ongeveer 45."
+  },
+  {
+   "v": "Hoe pas je je snelheid aan om bij tegenwind zo ver mogelijk te komen?",
+   "a": [
+    "Langzamer vliegen dan de snelheid van het beste glijgetal",
+    "Op de snelheid van minimaal dalen vliegen",
+    "Sneller vliegen dan de snelheid van het beste glijgetal",
+    "De snelheid maakt bij wind niet uit"
+   ],
+   "juist": 2,
+   "uitleg": "Bij tegenwind ligt de optimale glijsnelheid hoger dan de snelheid van het beste glijgetal."
+  },
+  {
+   "v": "Hoe pas je je snelheid aan om bij meewind zo ver mogelijk te komen?",
+   "a": [
+    "Veel sneller vliegen",
+    "Iets langzamer dan de snelheid van het beste glijgetal, maar niet onder de snelheid van minimaal dalen",
+    "Precies op de overtreksnelheid",
+    "Op de maximaal toegestane snelheid"
+   ],
+   "juist": 1,
+   "uitleg": "Bij meewind ligt de optimale snelheid iets lager, maar nooit onder de snelheid van minimaal dalen."
+  },
+  {
+   "v": "Welke vuistregel wordt gebruikt voor de glijsnelheid bij tegenwind?",
+   "a": [
+    "De snelheid van het beste glijgetal plus ongeveer de halve tegenwindsnelheid",
+    "De snelheid van het beste glijgetal min de tegenwindsnelheid",
+    "Altijd 20 km/h boven de overtreksnelheid",
+    "De tegenwindsnelheid maal twee"
+   ],
+   "juist": 0,
+   "uitleg": "Als vuistregel vlieg je bij tegenwind ongeveer de beste glijsnelheid plus de helft van de windsnelheid."
+  },
+  {
+   "v": "Je bent 1500 m boven het terrein en je glijgetal ten opzichte van de grond is 25. Hoe ver kom je theoretisch?",
+   "a": [
+    "30,0 km",
+    "25,0 km",
+    "42,5 km",
+    "37,5 km"
+   ],
+   "juist": 3,
+   "uitleg": "25 x 1,5 km = 37,5 km."
+  },
+  {
+   "v": "Je eigen daalsnelheid is 0,7 m/s en de luchtmassa daalt 1,0 m/s. Wat is je totale daalsnelheid ten opzichte van de grond?",
+   "a": [
+    "0,3 m/s",
+    "1,0 m/s",
+    "1,7 m/s",
+    "0,7 m/s"
+   ],
+   "juist": 2,
+   "uitleg": "De dalingen tellen op: 0,7 + 1,0 = 1,7 m/s."
+  },
+  {
+   "v": "Je vliegt 108 km/h met een totale daalsnelheid van 1,7 m/s. Wat is dan ongeveer je momentane glijgetal (bij windstilte)?",
+   "a": [
+    "25",
+    "18",
+    "40",
+    "12"
+   ],
+   "juist": 1,
+   "uitleg": "108 km/h = 30 m/s; 30 / 1,7 = ongeveer 18."
+  },
+  {
+   "v": "Wat betekent een MacCready-instelling van 0?",
+   "a": [
+    "Je vliegt de snelheid voor maximale glijafstand in de aanwezige luchtmassa",
+    "Je vliegt zo snel mogelijk",
+    "Je vliegt de overtreksnelheid",
+    "De variometer staat uit"
+   ],
+   "juist": 0,
+   "uitleg": "Met MacCready 0 geeft de ring de snelheid voor de grootste glijafstand."
+  },
+  {
+   "v": "Wat gebeurt er met de aanbevolen stekensnelheid als je een hogere MacCready-waarde instelt?",
+   "a": [
+    "Die wordt lager",
+    "Die blijft gelijk",
+    "Die wordt gelijk aan de overtreksnelheid",
+    "Die wordt hoger"
+   ],
+   "juist": 3,
+   "uitleg": "Hoe hoger de verwachte klim (MacCready-waarde), hoe hoger de optimale stekensnelheid."
+  },
+  {
+   "v": "Waarop moet je de MacCready-waarde volgens de theorie instellen?",
+   "a": [
+    "Op de windsnelheid",
+    "Op de daalsnelheid van het vliegtuig",
+    "Op de verwachte gemiddelde klimsnelheid in de eerstvolgende thermiekbel",
+    "Op de afstand tot het volgende keerpunt"
+   ],
+   "juist": 2,
+   "uitleg": "De optimale stekensnelheid volgt uit de klimsnelheid die je in de volgende thermiek verwacht."
+  },
+  {
+   "v": "Wat is het gevolg van een te hoog ingestelde MacCready-waarde?",
+   "a": [
+    "Je vliegt te langzaam en verliest tijd",
+    "Je vliegt te snel, verliest onnodig veel hoogte en riskeert laag te komen",
+    "Er verandert niets aan de vluchtuitvoering",
+    "De thermiek wordt sterker aangewezen"
+   ],
+   "juist": 1,
+   "uitleg": "Een te hoge instelling geeft een te hoge stekensnelheid met veel hoogteverlies, terwijl de klim dat niet terugverdient."
+  },
+  {
+   "v": "Waarvan hangt volgens de dorststreektheorie (MacCready-theorie) de optimale stekensnelheid af?",
+   "a": [
+    "Van de verwachte klimsnelheid in de volgende thermiek en van stijgen of dalen onderweg",
+    "Van de lengte van de dorststreek",
+    "Van de hoogte van de wolkenbasis",
+    "Van de resterende taakafstand"
+   ],
+   "juist": 0,
+   "uitleg": "De optimale snelheid hangt af van de verwachte klim en van de beweging van de luchtmassa, niet van de afstand."
+  },
+  {
+   "v": "Je legt op een overlandvlucht 60 km af in 48 minuten. Wat is je gemiddelde snelheid?",
+   "a": [
+    "60 km/h",
+    "70 km/h",
+    "80 km/h",
+    "75 km/h"
+   ],
+   "juist": 3,
+   "uitleg": "48 min = 0,8 uur; 60 / 0,8 = 75 km/h."
+  },
+  {
+   "v": "Je klimt 400 m in thermiek met een gemiddelde klimsnelheid van 2 m/s. Hoe lang duurt dat?",
+   "a": [
+    "2 minuten",
+    "5 minuten",
+    "3 minuten en 20 seconden",
+    "4 minuten en 10 seconden"
+   ],
+   "juist": 2,
+   "uitleg": "400 / 2 = 200 seconden = 3 minuten en 20 seconden."
+  },
+  {
+   "v": "Waarom is de gemiddelde reissnelheid op een overlandvlucht lager dan de stekensnelheid?",
+   "a": [
+    "Omdat de wind altijd tegenzit",
+    "Omdat de tijd die al cirkelend in thermiek wordt doorgebracht meetelt",
+    "Omdat het glijgetal overland lager is",
+    "Omdat er steeds geland moet worden"
+   ],
+   "juist": 1,
+   "uitleg": "Tijdens het cirkelen in thermiek is de voortgang vrijwel nul, wat het gemiddelde over de hele vlucht drukt."
+  },
+  {
+   "v": "Wat gebeurt er met de optimale gemiddelde reissnelheid als de thermiek sterker wordt?",
+   "a": [
+    "Die wordt hoger",
+    "Die wordt lager",
+    "Die blijft gelijk",
+    "Die hangt alleen van de wind af"
+   ],
+   "juist": 0,
+   "uitleg": "Sterkere thermiek betekent sneller klimmen en dus sneller kunnen steken: een hogere reissnelheid."
+  },
+  {
+   "v": "Wat wordt bedoeld met dolfijnvliegen?",
+   "a": [
+    "Laag over water vliegen",
+    "Steeds afwisselend links en rechts cirkelen",
+    "Vliegen met uitgeschoven remkleppen",
+    "Vertragen in stijgende lucht en versnellen in dalende lucht zonder te cirkelen"
+   ],
+   "juist": 3,
+   "uitleg": "Bij dolfijnvliegen benut je stijggebieden door te vertragen en versnel je in dalen, zonder te cirkelen."
+  },
+  {
+   "v": "Tijdens een steek van 10 km met 120 km/h grondsnelheid verlies je 600 m hoogte. Wat was je gemiddelde daalsnelheid?",
+   "a": [
+    "1,2 m/s",
+    "1,7 m/s",
+    "2,0 m/s",
+    "2,4 m/s"
+   ],
+   "juist": 2,
+   "uitleg": "10 km met 120 km/h duurt 5 minuten = 300 s; 600 / 300 = 2,0 m/s."
+  },
+  {
+   "v": "Je vliegt tijdens een steek plotseling door sterk dalende lucht. Wat doe je volgens de MacCready-theorie?",
+   "a": [
+    "Langzamer vliegen",
+    "Versnellen tot de snelheid die de ring bij dit dalen aangeeft",
+    "De snelheid houden en trimmen",
+    "Direct omkeren"
+   ],
+   "juist": 1,
+   "uitleg": "In sterker dalen hoort een hogere snelheid; de MacCready-ring geeft de bijbehorende stekensnelheid aan."
+  },
+  {
+   "v": "Wat betekent een hogere MacCready-instelling voor de benodigde hoogte van een eindaanvlucht?",
+   "a": [
+    "Er is meer hoogte nodig omdat er sneller en dus steiler gevlogen wordt",
+    "Er is minder hoogte nodig",
+    "De benodigde hoogte verandert niet",
+    "De eindaanvlucht kan dan zonder reserve worden gevlogen"
+   ],
+   "juist": 0,
+   "uitleg": "Bij een hogere MacCready-waarde vlieg je sneller met meer eigen dalen, dus de eindaanvlucht vraagt meer hoogte."
+  },
+  {
+   "v": "Je verwacht in de volgende thermiekbel gemiddeld 1,5 m/s te klimmen. Welke MacCready-waarde stel je in?",
+   "a": [
+    "0 m/s",
+    "3,0 m/s",
+    "0,5 m/s",
+    "1,5 m/s"
+   ],
+   "juist": 3,
+   "uitleg": "De MacCready-waarde is gelijk aan de verwachte gemiddelde klim: 1,5 m/s."
+  },
+  {
+   "v": "Hoe groot is het verlies als je iets sneller of langzamer steekt dan de theoretisch optimale snelheid?",
+   "a": [
+    "Zeer groot: elke afwijking kost direct veel tijd",
+    "Precies 10 procent per 10 km/h afwijking",
+    "Klein: de polaire is rond het optimum vrij vlak",
+    "Alleen langzamer vliegen kost tijd, sneller nooit"
+   ],
+   "juist": 2,
+   "uitleg": "Rond het optimum is de kromme vlak; kleine afwijkingen van de ideale stekensnelheid kosten weinig."
+  },
+  {
+   "v": "Je moet nog 24 km naar het vliegveld en je glijgetal is 30. Hoeveel hoogte heb je minimaal nodig, nog zonder reserve?",
+   "a": [
+    "800 m",
+    "720 m",
+    "1000 m",
+    "600 m"
+   ],
+   "juist": 0,
+   "uitleg": "24000 / 30 = 800 m hoogteverlies voor 24 km."
+  },
+  {
+   "v": "Waarom tel je bij een eindaanvluchtberekening altijd een reservehoogte op?",
+   "a": [
+    "Om sneller te kunnen vliegen",
+    "Voor onvoorziene omstandigheden zoals dalende lucht, toenemende tegenwind en het circuit",
+    "Omdat de hoogtemeter altijd te veel aanwijst",
+    "Omdat het glijgetal met de hoogte verbetert"
+   ],
+   "juist": 1,
+   "uitleg": "De reserve dekt onverwacht dalen, windveranderingen en de hoogte die je nodig hebt voor een veilig circuit."
+  },
+  {
+   "v": "Je moet nog 36 km afleggen met een glijgetal over de grond van 24. Hoeveel hoogte kost dat?",
+   "a": [
+    "1200 m",
+    "1350 m",
+    "1500 m",
+    "1750 m"
+   ],
+   "juist": 2,
+   "uitleg": "36000 / 24 = 1500 m."
+  },
+  {
+   "v": "Hoe bereken je de verwachte aankomsthoogte boven een doel?",
+   "a": [
+    "Afstand maal glijgetal plus huidige hoogte",
+    "Huidige hoogte maal glijgetal min afstand",
+    "Afstand gedeeld door hoogte",
+    "Huidige hoogte boven het doel min de afstand gedeeld door het glijgetal over de grond"
+   ],
+   "juist": 3,
+   "uitleg": "Aankomsthoogte = hoogte boven het doel - (afstand / glijgetal over de grond)."
+  },
+  {
+   "v": "Je bent 1400 m boven het vliegveld, de afstand is 33 km en je glijgetal over de grond is 33. Op welke hoogte kom je aan?",
+   "a": [
+    "Op 400 m boven het veld",
+    "Op 200 m boven het veld",
+    "Precies op veldhoogte",
+    "Op 600 m boven het veld"
+   ],
+   "juist": 0,
+   "uitleg": "33 km kost 33000 / 33 = 1000 m; 1400 - 1000 = 400 m boven het veld."
+  },
+  {
+   "v": "Tijdens de eindaanvlucht neemt de tegenwind onverwacht toe. Wat is het gevolg?",
+   "a": [
+    "Je komt hoger aan dan berekend",
+    "Je komt lager aan dan berekend en moet mogelijk eerder een veld kiezen",
+    "De aankomsthoogte verandert niet",
+    "Het glijgetal door de lucht wordt beter"
+   ],
+   "juist": 1,
+   "uitleg": "Meer tegenwind verlaagt het glijgetal over de grond, waardoor de eindaanvlucht meer hoogte kost dan gepland."
+  },
+  {
+   "v": "Waarom rekenen veel zweefvliegers in de praktijk met een lager glijgetal dan het handboek vermeldt?",
+   "a": [
+    "Omdat het handboek altijd fouten bevat",
+    "Omdat de hoogtemeter onnauwkeurig is",
+    "Als veiligheidsmarge voor dalende lucht, wind, mucken en een niet-optimale vliegtechniek",
+    "Omdat het glijgetal wettelijk moet worden afgerond"
+   ],
+   "juist": 2,
+   "uitleg": "Het handboekglijgetal geldt voor ideale omstandigheden; in de praktijk houd je een marge aan."
+  },
+  {
+   "v": "Je hoogtemeter staat op QNH en wijst 950 m aan. De veldhoogte van je doel is 50 m. Hoe hoog ben je boven dat veld?",
+   "a": [
+    "1000 m",
+    "950 m",
+    "850 m",
+    "900 m"
+   ],
+   "juist": 3,
+   "uitleg": "Bij QNH wijst de meter de hoogte boven zeeniveau aan: 950 - 50 = 900 m boven het veld."
+  },
+  {
+   "v": "Waarom moet je bij een eindaanvlucht de veldhoogte (elevatie) van het doel kennen?",
+   "a": [
+    "Omdat de aankomsthoogte boven het veld telt, niet de hoogte boven zeeniveau",
+    "Omdat de wind afhangt van de veldhoogte",
+    "Omdat het glijgetal verandert met de elevatie van het doel",
+    "Dat is alleen in de bergen van belang"
+   ],
+   "juist": 0,
+   "uitleg": "Je rekent naar een veilige hoogte boven het veld; daarvoor moet je de elevatie van de hoogte aftrekken."
+  },
+  {
+   "v": "Met glijgetal 40 wil je een veld op 10 km bereiken. Hoeveel hoogte kost de glijvlucht, nog zonder reserve?",
+   "a": [
+    "400 m",
+    "250 m",
+    "500 m",
+    "100 m"
+   ],
+   "juist": 1,
+   "uitleg": "10000 / 40 = 250 m."
+  },
+  {
+   "v": "Wat is verstandig tijdens een lange eindaanvlucht?",
+   "a": [
+    "De berekening niet meer wijzigen na het vertrek",
+    "Zo laag mogelijk beginnen",
+    "Regelmatig hoogte en resterende afstand opnieuw vergelijken",
+    "Steeds langzamer gaan vliegen"
+   ],
+   "juist": 2,
+   "uitleg": "Door onderweg te hercontroleren merk je tijdig of je door wind of dalen onder het glijpad zakt."
+  },
+  {
+   "v": "Je vliegt de eindaanvlucht door een gebied met overwegend dalende lucht. Wat betekent dat voor de berekening?",
+   "a": [
+    "De berekening blijft geldig",
+    "Je hebt minder hoogte nodig",
+    "Het glijgetal over de grond wordt beter",
+    "Je verliest meer hoogte dan berekend en de marge slinkt"
+   ],
+   "juist": 3,
+   "uitleg": "Dalende lucht vergroot je daalsnelheid, waardoor de werkelijke glijprestatie slechter is dan berekend."
+  },
+  {
+   "v": "Glijgetal 40 bij 100 km/h, tegenwind 25 km/h. Hoeveel hoogte kost een eindaanvlucht van 24 km, zonder reserve?",
+   "a": [
+    "800 m",
+    "600 m",
+    "960 m",
+    "1067 m"
+   ],
+   "juist": 0,
+   "uitleg": "Glijgetal over de grond: 40 x 75 / 100 = 30; 24000 / 30 = 800 m."
+  },
+  {
+   "v": "Je hebt 1000 m bruikbare hoogte boven de reserve en een glijgetal over de grond van 28. Vanaf welke afstand kun je de eindaanvlucht inzetten?",
+   "a": [
+    "22 km",
+    "28 km",
+    "32 km",
+    "36 km"
+   ],
+   "juist": 1,
+   "uitleg": "28 x 1,0 km = 28 km."
+  },
+  {
+   "v": "Welke gegevens gebruikt een eindaanvluchtberekening (bijvoorbeeld in een navigatierekenaar)?",
+   "a": [
+    "Alleen de hoogte",
+    "Alleen afstand en windrichting",
+    "Afstand, wind, MacCready-waarde, veldhoogte van het doel en de polaire",
+    "Alleen de buitentemperatuur"
+   ],
+   "juist": 2,
+   "uitleg": "De rekenaar combineert afstand, wind, polaire, MacCready-instelling en de elevatie van het doel."
+  },
+  {
+   "v": "Welke aankomsthoogte boven het veld wordt bij eindaanvluchten gewoonlijk als reserve aangehouden?",
+   "a": [
+    "0 m: precies uitkomen is het doel",
+    "Minstens 1000 m",
+    "50 m",
+    "Ongeveer 200 tot 300 m voor een veilig circuit"
+   ],
+   "juist": 3,
+   "uitleg": "Een reserve van zo'n 200 tot 300 m maakt een normaal circuit en onvoorziene tegenvallers mogelijk."
+  },
+  {
+   "v": "Je bent 2000 m boven je doel op 60 km afstand; je glijgetal over de grond is 40. Wat is je marge?",
+   "a": [
+    "500 m hoogte over bij aankomst",
+    "Je komt precies uit",
+    "Je komt 300 m tekort",
+    "Je komt 1000 m tekort"
+   ],
+   "juist": 0,
+   "uitleg": "60 km kost 60000 / 40 = 1500 m; 2000 - 1500 = 500 m over."
+  },
+  {
+   "v": "Wat is het effect van meewind op een eindaanvlucht?",
+   "a": [
+    "Je hebt meer hoogte nodig",
+    "Je hebt minder hoogte nodig voor dezelfde afstand",
+    "De benodigde hoogte verandert niet",
+    "Meewind maakt een eindaanvlucht onmogelijk"
+   ],
+   "juist": 1,
+   "uitleg": "Meewind verbetert het glijgetal over de grond, dus dezelfde afstand kost minder hoogte."
+  },
+  {
+   "v": "Je ligt tijdens de eindaanvlucht ruim boven het berekende glijpad. Wat is een goede reactie?",
+   "a": [
+    "Remkleppen half uitschuiven en zo doorvliegen",
+    "Direct beginnen met cirkelen",
+    "De snelheid verhogen en het overschot omzetten in extra grondsnelheid",
+    "Een omweg maken"
+   ],
+   "juist": 2,
+   "uitleg": "Extra hoogte zet je om in snelheid: je komt dan eerder aan zonder de marge te verspelen."
+  },
+  {
+   "v": "Je eindaanvlucht is 30 km met een verwachte grondsnelheid van 90 km/h. Hoe lang duurt hij?",
+   "a": [
+    "15 minuten",
+    "25 minuten",
+    "30 minuten",
+    "20 minuten"
+   ],
+   "juist": 3,
+   "uitleg": "30 / 90 = 1/3 uur = 20 minuten."
+  },
+  {
+   "v": "Hoeveel hoogte verlies je per kilometer bij een glijgetal van 25?",
+   "a": [
+    "40 m per km",
+    "25 m per km",
+    "50 m per km",
+    "80 m per km"
+   ],
+   "juist": 0,
+   "uitleg": "1000 m / 25 = 40 m hoogteverlies per kilometer."
+  },
+  {
+   "v": "Je verliest 40 m per kilometer. Hoeveel hoogte kost een glijvlucht van 18 km?",
+   "a": [
+    "640 m",
+    "720 m",
+    "800 m",
+    "580 m"
+   ],
+   "juist": 1,
+   "uitleg": "40 x 18 = 720 m."
+  },
+  {
+   "v": "Wat is het voordeel van waterballast tijdens een lange eindaanvlucht?",
+   "a": [
+    "Een beter glijgetal dan zonder ballast",
+    "Een lagere overtreksnelheid",
+    "Hetzelfde beste glijgetal bij een hogere snelheid, dus eerder thuis",
+    "Minder benodigde reservehoogte"
+   ],
+   "juist": 2,
+   "uitleg": "Met ballast vlieg je dezelfde glijhoek op hogere snelheid en ben je dus sneller op het doel."
+  },
+  {
+   "v": "Je twijfelt of je het vliegveld nog haalt. Wat is de juiste aanpak?",
+   "a": [
+    "Doorvliegen en hopen op thermiek",
+    "Langzamer vliegen dan minimaal dalen",
+    "De radio uitzetten om je te concentreren",
+    "Landbare velden langs de route in gedachten houden en op tijd definitief beslissen"
+   ],
+   "juist": 3,
+   "uitleg": "Houd altijd een landbare optie binnen bereik en beslis op veilige hoogte, niet pas op het laatst."
+  },
+  {
+   "v": "Je bent 500 m boven de circuithoogte van een veld op 15 km afstand. Welk glijgetal over de grond heb je minimaal nodig?",
+   "a": [
+    "30",
+    "25",
+    "35",
+    "15"
+   ],
+   "juist": 0,
+   "uitleg": "15000 / 500 = 30."
+  },
+  {
+   "v": "Welke kaart gebruik je in Nederland voor de voorbereiding van een overlandvlucht?",
+   "a": [
+    "Een topografische wandelkaart 1:25.000",
+    "Een wegenkaart van de ANWB",
+    "Een wereldkaart",
+    "De actuele luchtvaartkaart ICAO 1:500.000"
+   ],
+   "juist": 3,
+   "uitleg": "De ICAO-kaart 1:500.000 toont luchtruim, obstakels en vliegvelden en is de standaardkaart voor VFR-navigatie."
+  },
+  {
+   "v": "Waarom moet je voor navigatie altijd de nieuwste editie van de luchtvaartkaart gebruiken?",
+   "a": [
+    "Omdat luchtruimindeling, gebieden en frequenties regelmatig wijzigen",
+    "Omdat oude kaarten verkleuren",
+    "Omdat de schaal elk jaar verandert",
+    "Omdat de kaartprojectie jaarlijks wordt aangepast"
+   ],
+   "juist": 0,
+   "uitleg": "Luchtruimgrenzen en gebieden veranderen; alleen de actuele kaart geeft de geldige situatie weer."
+  },
+  {
+   "v": "Wanneer controleer je NOTAM's voor een overlandvlucht?",
+   "a": [
+    "Alleen bij wedstrijden",
+    "Eén keer per seizoen",
+    "Tijdens de vluchtvoorbereiding, voor elke overlandvlucht",
+    "Alleen als de instructeur dat vraagt"
+   ],
+   "juist": 2,
+   "uitleg": "De gezagvoerder moet voor de vlucht kennisnemen van alle beschikbare informatie, waaronder de actuele NOTAM's."
+  },
+  {
+   "v": "Welke informatie vind je in een NOTAM?",
+   "a": [
+    "De weersverwachting voor de komende week",
+    "Tijdelijke wijzigingen en waarschuwingen, zoals actieve oefengebieden of gesloten luchtruimte",
+    "De ledenlijst van luchtvaartclubs",
+    "De onderhoudsstatus van je vliegtuig"
+   ],
+   "juist": 1,
+   "uitleg": "NOTAM's melden tijdelijke, operationeel belangrijke informatie zoals actieve gebieden en beperkingen."
+  },
+  {
+   "v": "Mag een zweefvliegtuig luchtruim klasse A binnenvliegen?",
+   "a": [
+    "Ja, met een transponder",
+    "Ja, onder de 1000 ft",
+    "Alleen in het weekend",
+    "Nee, VFR-vluchten en dus ook zweefvliegtuigen zijn daar niet toegestaan"
+   ],
+   "juist": 3,
+   "uitleg": "In klasse A is alleen IFR-verkeer toegestaan; zweefvliegtuigen mogen er niet vliegen."
+  },
+  {
+   "v": "Wat is vereist om een CTR (controlezone) binnen te vliegen?",
+   "a": [
+    "Een klaring van de luchtverkeersleiding via de radio",
+    "Alleen een transponder",
+    "Niets, een CTR is vrij toegankelijk",
+    "Een schriftelijke aanvraag een week vooraf"
+   ],
+   "juist": 0,
+   "uitleg": "Een CTR is gecontroleerd luchtruim; binnenvliegen mag alleen met tweezijdig radiocontact en een klaring."
+  },
+  {
+   "v": "Wat geldt voor zweefvliegen in luchtruim klasse E?",
+   "a": [
+    "Verboden voor zweefvliegtuigen",
+    "Alleen toegestaan met transponder",
+    "VFR-vluchten mogen er zonder klaring vliegen, met de geldende zicht- en wolkeneisen",
+    "Alleen toegestaan boven FL 100"
+   ],
+   "juist": 2,
+   "uitleg": "Klasse E is gecontroleerd luchtruim waar VFR-verkeer zonder klaring mag vliegen, mits aan de VMC-minima wordt voldaan."
+  },
+  {
+   "v": "Wat betekent TMZ op de luchtvaartkaart?",
+   "a": [
+    "Een gebied waar niet gevlogen mag worden",
+    "Transponder Mandatory Zone: een werkende transponder is er verplicht",
+    "Een tijdelijk militair zweefvlieggebied",
+    "Een gebied met verplichte landing"
+   ],
+   "juist": 1,
+   "uitleg": "In een TMZ is het gebruik van een transponder met de voorgeschreven code verplicht."
+  },
+  {
+   "v": "Wat betekent RMZ op de luchtvaartkaart?",
+   "a": [
+    "Een radarzone waar zweefvliegen verboden is",
+    "Een gebied met verplichte routes",
+    "Een zone waar alleen motorvliegtuigen mogen komen",
+    "Radio Mandatory Zone: uitluisteren en melden op de radio is er verplicht"
+   ],
+   "juist": 3,
+   "uitleg": "In een RMZ is het voeren van tweezijdig radiocontact op de aangegeven frequentie verplicht."
+  },
+  {
+   "v": "Waar let je op bij het kiezen van keerpunten voor een overlandtaak?",
+   "a": [
+    "Ze moeten vanuit de lucht goed herkenbaar zijn en veilig bereikbaar",
+    "Ze moeten altijd bij een stad liggen",
+    "Ze moeten zo dicht mogelijk bij elkaar liggen",
+    "Ze moeten op de grond bewaakt worden"
+   ],
+   "juist": 0,
+   "uitleg": "Goede keerpunten zijn duidelijk herkenbaar, liggen buiten verboden gebied en zijn met landbare opties bereikbaar."
+  },
+  {
+   "v": "Waarom is een driehoekstaak populair bij overlandvluchten?",
+   "a": [
+    "Omdat een driehoek de kortste route is",
+    "Omdat de wind dan altijd meewerkt",
+    "Je komt terug op het vertrekpunt en de windinvloed verdeelt zich over verschillende benen",
+    "Omdat alleen driehoeken zijn toegestaan"
+   ],
+   "juist": 2,
+   "uitleg": "Een gesloten driehoek eindigt weer thuis en geen enkel been heeft de wind volledig tegen of mee."
+  },
+  {
+   "v": "Wat hoort bij een goede kaartvoorbereiding van een overlandvlucht?",
+   "a": [
+    "De kaart pas in de lucht openvouwen",
+    "Koerslijnen trekken, afstanden noteren en luchtruimgrenzen op de route markeren",
+    "Alleen het eindpunt aankruisen",
+    "De kaart thuislaten als er een GPS aan boord is"
+   ],
+   "juist": 1,
+   "uitleg": "Koerslijnen, afstanden en gemarkeerd luchtruim maken navigeren en beslissen onderweg veel eenvoudiger."
+  },
+  {
+   "v": "Hoe wordt tegenwoordig bewezen dat een keerpunt correct is gerond?",
+   "a": [
+    "Met een foto vanaf de grond",
+    "Met een handtekening van een waarnemer bij het keerpunt",
+    "Met een radiobericht aan de club",
+    "Met de GPS-registratie van een vluchtlogger, binnen de voorgeschreven sector of cilinder"
+   ],
+   "juist": 3,
+   "uitleg": "Een GPS-logger legt de vlucht vast; het keerpunt geldt als gerond binnen de gedefinieerde observatiezone."
+  },
+  {
+   "v": "Op je route ligt een verboden gebied (EHP). Wat doe je?",
+   "a": [
+    "Eromheen plannen; een verboden gebied mag je nooit binnenvliegen",
+    "Er snel doorheen vliegen",
+    "Erboven vliegen op minimaal 500 ft",
+    "Alleen doorvliegen als er geen ander verkeer is"
+   ],
+   "juist": 0,
+   "uitleg": "Verboden gebieden zijn permanent gesloten voor het luchtverkeer; je plant je route eromheen."
+  },
+  {
+   "v": "Welke gegevens van het luchtruim op je route noteer je bij de voorbereiding?",
+   "a": [
+    "Alleen de namen van de gebieden",
+    "Alleen de kleuren op de kaart",
+    "De onder- en bovengrenzen en eventuele tijden waarop gebieden actief zijn",
+    "Alleen de radiofrequentie van je thuisveld"
+   ],
+   "juist": 2,
+   "uitleg": "Verticale grenzen en activiteitstijden bepalen waar en hoe hoog je mag vliegen."
+  },
+  {
+   "v": "Op een kaart 1:500.000 meet je 8 cm tussen twee punten. Wat is de werkelijke afstand?",
+   "a": [
+    "80 km",
+    "40 km",
+    "16 km",
+    "8 km"
+   ],
+   "juist": 1,
+   "uitleg": "1 cm op 1:500.000 is 5 km; 8 x 5 = 40 km."
+  },
+  {
+   "v": "Met hoeveel kilometer komt 1 cm overeen op een luchtvaartkaart met schaal 1:500.000?",
+   "a": [
+    "50 km",
+    "0,5 km",
+    "10 km",
+    "5 km"
+   ],
+   "juist": 3,
+   "uitleg": "1 cm op de kaart is 500.000 cm = 5 km in werkelijkheid."
+  },
+  {
+   "v": "Welke weerselementen zijn het belangrijkst bij het plannen van een thermiekoverlandvlucht?",
+   "a": [
+    "Thermieksterkte en -duur, wolkenbasis, wind en kans op buien of spreiding",
+    "Alleen de temperatuur op de grond",
+    "De waterstand van de rivieren",
+    "Alleen het zicht"
+   ],
+   "juist": 0,
+   "uitleg": "Thermiek, basis, wind en buienkans bepalen of en hoe de taak gevlogen kan worden."
+  },
+  {
+   "v": "Waarom plan je de route van een overlandvlucht zoveel mogelijk over landbaar terrein?",
+   "a": [
+    "Omdat het daar altijd beter stijgt",
+    "Omdat de navigatie er makkelijker is",
+    "Zodat er bij het wegvallen van de thermiek altijd een veilige buitenlanding mogelijk is",
+    "Omdat dat kortere routes geeft"
+   ],
+   "juist": 2,
+   "uitleg": "Boven onlandbaar gebied (bos, water, stad) heb je geen veilige uitwijk; je plant er omheen of gaat er hoog overheen."
+  },
+  {
+   "v": "Waarmee moet je bij de planning van de terugkeer van een overlandvlucht rekening houden?",
+   "a": [
+    "Met de openingstijden van het clubhuis",
+    "Dat je ruim voor het einde van de daglichtperiode terug bent",
+    "Dat je precies bij zonsondergang landt",
+    "Met de temperatuur na zonsondergang"
+   ],
+   "juist": 1,
+   "uitleg": "Je mag alleen in de daglichtperiode vliegen en plant de taak zo dat je ruim op tijd terug bent."
+  },
+  {
+   "v": "Waarom geef je voor vertrek je taak door aan de club of achterblijvers?",
+   "a": [
+    "Dat is verplicht voor de verzekering",
+    "Om de startvolgorde te bepalen",
+    "Om de wedstrijdpunten te laten tellen",
+    "Zodat bij een buitenlanding bekend is waar je ongeveer zit en het ophalen geregeld kan worden"
+   ],
+   "juist": 3,
+   "uitleg": "Als de taak bekend is, weet de ophaalploeg waar te zoeken en kan hulp sneller worden geregeld."
+  },
+  {
+   "v": "Welke radiofrequenties noteer je bij de vluchtvoorbereiding?",
+   "a": [
+    "De frequenties van je thuisveld, van gebieden en velden op de route en van mogelijke uitwijkhavens",
+    "Alleen de noodfrequentie",
+    "Alleen de frequentie van de lier",
+    "Frequenties zijn niet nodig met een GPS"
+   ],
+   "juist": 0,
+   "uitleg": "Zo kun je onderweg tijdig luisteren en melden bij de gebieden en velden die je passeert."
+  },
+  {
+   "v": "De Schiphol TMA's zijn klasse A. Wat betekent dat voor zweefvliegers?",
+   "a": [
+    "Vrij toegankelijk onder de 3000 ft",
+    "Toegankelijk met transponder",
+    "Daar mag niet gezweefvlogen worden; je blijft eronder of eromheen",
+    "Alleen toegankelijk in het weekend"
+   ],
+   "juist": 2,
+   "uitleg": "Klasse A is verboden voor VFR; zweefvliegers moeten buiten of onder deze TMA's blijven."
+  },
+  {
+   "v": "Waar vind je of een tijdelijk gereserveerd oefengebied (TRA) op je route vandaag actief is?",
+   "a": [
+    "Op de kaart van vorig jaar",
+    "In de NOTAM's en de actuele luchtruimgebruiksinformatie",
+    "Bij de plaatselijke politie",
+    "In het vlieghandboek"
+   ],
+   "juist": 1,
+   "uitleg": "Activering van tijdelijke gebieden wordt via NOTAM en luchtruimgebruiksplannen bekendgemaakt."
+  },
+  {
+   "v": "Wie is eindverantwoordelijk voor een volledige vluchtvoorbereiding?",
+   "a": [
+    "De instructeur van dienst",
+    "De veiligheidsfunctionaris van de club",
+    "De luchtverkeersleiding",
+    "De gezagvoerder van het vliegtuig"
+   ],
+   "juist": 3,
+   "uitleg": "De gezagvoerder moet zich voor de vlucht vertrouwd maken met alle beschikbare relevante informatie."
+  },
+  {
+   "v": "Wanneer komt op een zonnige dag de thermiek meestal op gang?",
+   "a": [
+    "Direct bij zonsopgang",
+    "Pas na zonsondergang",
+    "Enkele uren na zonsopgang, als de zon de grond voldoende heeft opgewarmd",
+    "Alleen in de vroege ochtend"
+   ],
+   "juist": 2,
+   "uitleg": "De grond moet eerst opwarmen; bruikbare thermiek ontstaat meestal pas in de late ochtend."
+  },
+  {
+   "v": "Op welk deel van de dag is de thermiek gewoonlijk het sterkst?",
+   "a": [
+    "Vroeg in de ochtend",
+    "Vlak voor zonsondergang",
+    "Rond middernacht",
+    "In de vroege middag"
+   ],
+   "juist": 3,
+   "uitleg": "De opwarming is dan maximaal; in de vroege middag is de thermiek meestal het sterkst."
+  },
+  {
+   "v": "Wat gebeurt er op een goede thermiekdag gewoonlijk met de cumulusbasis in de loop van de dag?",
+   "a": [
+    "Die stijgt naarmate de onderste luchtlaag verder opwarmt en droogt",
+    "Die daalt gestaag",
+    "Die blijft de hele dag exact gelijk",
+    "Die verdwijnt altijd om 12:00"
+   ],
+   "juist": 0,
+   "uitleg": "Door de toenemende opwarming stijgt het condensatieniveau en daarmee de wolkenbasis."
+  },
+  {
+   "v": "Hoe stem je de starttijd van een grote overlandtaak af op het weer?",
+   "a": [
+    "Zo vroeg mogelijk starten, ook voor de thermiek begint",
+    "Zo starten dat de taak binnen het verwachte thermiekvenster past",
+    "Altijd pas na 15:00 starten",
+    "De starttijd maakt niet uit"
+   ],
+   "juist": 1,
+   "uitleg": "De taakduur moet passen binnen de periode met bruikbare thermiek; daar plan je de start op."
+  },
+  {
+   "v": "Onderweg zie je op je route een actieve buienlijn. Wat is verstandig?",
+   "a": [
+    "Er recht doorheen vliegen",
+    "Eronder doorvliegen op lage hoogte",
+    "Tijdig beslissen: omvliegen, wachten of veilig landen",
+    "Sneller vliegen en de ogen sluiten voor de regen"
+   ],
+   "juist": 2,
+   "uitleg": "Bij buien horen zwaar dalen, windstoten en slecht zicht; je past je plan tijdig aan."
+  },
+  {
+   "v": "Op welke hoogte boven het terrein hoor je bij een dreigende buitenlanding uiterlijk een definitief veld te kiezen?",
+   "a": [
+    "Op 100 m",
+    "Op 50 m",
+    "Pas in het circuit",
+    "Rond 500 tot 600 m, zodat er tijd blijft voor beoordeling en een net circuit"
+   ],
+   "juist": 3,
+   "uitleg": "Rond 500 a 600 m kies je een veld en blijf je binnen bereik; daaronder richt je je op de landing."
+  },
+  {
+   "v": "Welke punten beoordeel je bij de keuze van een buitenlandingsveld?",
+   "a": [
+    "Wind, lengte, obstakels, oppervlak of gewas, en helling",
+    "Alleen de kleur van het veld",
+    "Alleen de afstand tot de snelweg",
+    "Alleen of er publiek aanwezig is"
+   ],
+   "juist": 0,
+   "uitleg": "Wind, veldlengte, obstakels in de aanvliegroute, het oppervlak en de helling bepalen samen de veiligheid."
+  },
+  {
+   "v": "Welk gewas of oppervlak is het meest geschikt voor een buitenlanding?",
+   "a": [
+    "Hoog rijp graan",
+    "Gemaaid grasland of een stoppelveld",
+    "Een vers en diep geploegde akker",
+    "Een maisveld in de zomer"
+   ],
+   "juist": 1,
+   "uitleg": "Kort gras of stoppels zijn vlak en stevig; hoog gewas en losse grond zijn gevaarlijk."
+  },
+  {
+   "v": "Hoe schat je vanuit de lucht de windrichting voor een buitenlanding?",
+   "a": [
+    "Aan de stand van de zon",
+    "Aan de kleur van de velden",
+    "Aan rook, golfjes op water, drijvende wolkenschaduwen en je eigen drift",
+    "Die is zonder meetapparatuur niet te bepalen"
+   ],
+   "juist": 2,
+   "uitleg": "Rook, golfpatronen, schaduwdrift en je drift boven de grond verraden de windrichting."
+  },
+  {
+   "v": "Wat doe je direct na een veilige buitenlanding?",
+   "a": [
+    "Het vliegtuig direct demonteren",
+    "Wachten tot iemand langskomt",
+    "Zo snel mogelijk weer opstijgen",
+    "Je club of ophaalploeg informeren en contact zoeken met de grondeigenaar"
+   ],
+   "juist": 3,
+   "uitleg": "Na de landing meld je je positie aan de club en stem je met de eigenaar van het terrein af."
+  },
+  {
+   "v": "Waarom noteer je bij de taakplanning ook vliegvelden langs de route?",
+   "a": [
+    "Als veilige uitwijkmogelijkheden wanneer de vlucht niet volgens plan verloopt",
+    "Om daar verplicht te tanken",
+    "Omdat buitenlandingen verboden zijn",
+    "Voor de radiocommunicatie met de toren van elk veld"
+   ],
+   "juist": 0,
+   "uitleg": "Vliegvelden op de route zijn de prettigste alternatieven als de taak niet afgemaakt kan worden."
+  },
+  {
+   "v": "Wat betekent overontwikkeling (spreiding) van cumulusbewolking voor de thermiek?",
+   "a": [
+    "De thermiek wordt sterker",
+    "De zon wordt afgeschermd waardoor de thermiek verzwakt of wegvalt",
+    "De wolkenbasis stijgt snel",
+    "Er ontstaat altijd onweer"
+   ],
+   "juist": 1,
+   "uitleg": "Uitgespreide bewolking blokkeert de zonnestraling, waardoor de aanvoer van thermiek stokt."
+  },
+  {
+   "v": "Welk effect heeft zeewind op de thermiek in de kuststrook?",
+   "a": [
+    "De thermiek wordt er juist sterker",
+    "Zeewind heeft geen invloed op thermiek",
+    "De binnendringende koele zeelucht dooft de thermiek in de kuststrook",
+    "De wolkenbasis stijgt er sterk"
+   ],
+   "juist": 2,
+   "uitleg": "De koele, stabiele zeelucht onderdrukt de thermiek in een strook die in de loop van de dag landinwaarts trekt."
+  },
+  {
+   "v": "Taak 300 km, verwachte gemiddelde reissnelheid 60 km/h, bruikbare thermiek van 11:30 tot 18:00 uur. Is de taak haalbaar?",
+   "a": [
+    "Nee, er is te weinig tijd",
+    "Alleen zonder pauzes voor thermiek",
+    "Nee, want 300 km duurt minstens 7 uur",
+    "Ja, de taak duurt ongeveer 5 uur en het thermiekvenster is 6,5 uur"
+   ],
+   "juist": 3,
+   "uitleg": "300 / 60 = 5 uur en dat past ruim binnen de 6,5 uur bruikbare thermiek."
+  },
+  {
+   "v": "Hoe bepaal je het laatste verantwoorde startmoment voor een overlandtaak?",
+   "a": [
+    "Door de verwachte taakduur terug te rekenen vanaf het einde van de bruikbare thermiek en de daglichtperiode",
+    "Door te wachten tot iedereen gestart is",
+    "Het startmoment is niet belangrijk",
+    "Door alleen naar de wind te kijken"
+   ],
+   "juist": 0,
+   "uitleg": "Verwachte taakduur plus marge moet passen voor het einde van thermiek en daglicht."
+  },
+  {
+   "v": "Hoe verschilt de wind op thermiekhoogte gewoonlijk van de wind aan de grond?",
+   "a": [
+    "Hij is zwakker en tegengesteld",
+    "Hij is meestal sterker en rechtsom gedraaid ten opzichte van de grondwind",
+    "Hij is altijd exact gelijk",
+    "Hij waait altijd uit het noorden"
+   ],
+   "juist": 1,
+   "uitleg": "Door minder wrijving neemt de wind met de hoogte toe en draait hij (op het noordelijk halfrond) rechtsom."
+  },
+  {
+   "v": "Welke rol speelt een inversie voor de thermiek?",
+   "a": [
+    "Een inversie versterkt de thermiek",
+    "Een inversie zorgt voor buien",
+    "Een inversie begrenst de stijghoogte van de thermiek",
+    "Een inversie heeft geen invloed"
+   ],
+   "juist": 2,
+   "uitleg": "In een inversielaag stopt de stijgende lucht; de inversie vormt het plafond van de thermiek."
+  },
+  {
+   "v": "Wat wordt bedoeld met blauwe thermiek?",
+   "a": [
+    "Thermiek boven water",
+    "Zeer zwakke thermiek",
+    "Thermiek in de winter",
+    "Thermiek zonder cumuluswolken, waardoor bellen moeilijker te vinden zijn"
+   ],
+   "juist": 3,
+   "uitleg": "Bij blauwe thermiek ontbreken wolken als merktekens; de thermiek is er wel maar is lastiger te vinden."
+  },
+  {
+   "v": "Het weer verslechtert onderweg sneller dan verwacht. Wat is de juiste houding?",
+   "a": [
+    "Tijdig beslissen om te keren, uit te wijken of veilig te landen",
+    "Koste wat kost de taak afmaken",
+    "Doorvliegen tot de regen begint",
+    "Hoger klimmen boven de wolken"
+   ],
+   "juist": 0,
+   "uitleg": "Veiligheid gaat voor de taak: bij verslechtering beslis je vroeg en houd je opties open."
+  },
+  {
+   "v": "Waarom is een veld met een hoogspanningslijn in de aanvliegroute ongeschikt voor een buitenlanding?",
+   "a": [
+    "Hoogspanningslijnen trekken bliksem aan",
+    "Draden zijn vanuit de lucht slecht zichtbaar en vormen een dodelijk obstakel in de nadering",
+    "De lijnen verstoren het kompas",
+    "Landingen bij hoogspanning zijn wettelijk verboden"
+   ],
+   "juist": 1,
+   "uitleg": "Draden zie je vaak pas veel te laat; een obstakelvrije aanvliegroute is een harde eis."
+  },
+  {
+   "v": "Je taak duurt nog zeker 2 uur, het is 19:45 en de daglichtperiode eindigt om 21:15. Wat doe je?",
+   "a": [
+    "Doorvliegen, het scheelt maar een half uur",
+    "Sneller vliegen zonder verder na te denken",
+    "De taak afbreken of inkorten: je zou pas 21:45 aankomen, na het einde van de daglichtperiode",
+    "Landen in het donker met de mobiele telefoon als verlichting"
+   ],
+   "juist": 2,
+   "uitleg": "19:45 plus 2 uur is 21:45, een half uur na het einde van de daglichtperiode; doorvliegen is niet toegestaan en onveilig."
+  },
+  {
+   "v": "Waarom is een vers en diep geploegde akker riskant voor een buitenlanding?",
+   "a": [
+    "De grond is er te warm",
+    "Er staat altijd water op",
+    "Geploegde grond geeft geen thermiek",
+    "Het wiel kan zich ingraven, met een neusoverslag of schade als gevolg"
+   ],
+   "juist": 3,
+   "uitleg": "In losse, diepe grond remt het vliegtuig abrupt af en kan het over de neus slaan."
+  },
+  {
+   "v": "Waarom vermijd je een buitenlanding met meewind?",
+   "a": [
+    "De grondsnelheid en daarmee de uitrol worden veel groter, met meer kans op schade",
+    "Meewind maakt de nadering rustiger",
+    "De remkleppen werken dan niet",
+    "Meewind verandert de zwaartepuntsligging"
+   ],
+   "juist": 0,
+   "uitleg": "Bij meewind land je met hoge grondsnelheid en wordt de benodigde veldlengte veel groter."
+  },
+  {
+   "v": "Waarom is een weiland met vee ongeschikt als buitenlandingsveld?",
+   "a": [
+    "Vee betekent altijd een drassig veld",
+    "Dieren kunnen tegen het vliegtuig aanlopen of ervoor schrikken; kies bij voorkeur een veld zonder vee",
+    "Vee is een teken van slechte thermiek",
+    "Landen bij vee is alleen met toestemming van de boer verboden"
+   ],
+   "juist": 1,
+   "uitleg": "Vee kan tijdens en na de landing gevaar opleveren voor dier en vliegtuig; vermijd zulke velden."
+  },
+  {
+   "v": "Welke bron gebruik je voor een gedetailleerde thermiekverwachting?",
+   "a": [
+    "De krant van gisteren",
+    "De agenda van de club",
+    "Een gespecialiseerde zweefvliegweersverwachting of thermiekkaart voor de vluchtdag",
+    "De temperatuur op je autodashboard"
+   ],
+   "juist": 2,
+   "uitleg": "Speciale zweefvliegverwachtingen geven thermieksterkte, stijghoogte en wolkenbasis voor de planning."
+  },
+  {
+   "v": "Hoe bereken je de grondsnelheid bij recht tegen de wind in vliegen?",
+   "a": [
+    "Ware snelheid plus windsnelheid",
+    "Ware snelheid min de tegenwindcomponent",
+    "Windsnelheid min ware snelheid",
+    "Ware snelheid maal windsnelheid"
+   ],
+   "juist": 1,
+   "uitleg": "Bij tegenwind is de grondsnelheid de ware snelheid min de tegenwindcomponent."
+  },
+  {
+   "v": "Je vliegt met een ware snelheid van 95 km/h recht tegen een wind van 20 km/h in. Wat is je grondsnelheid?",
+   "a": [
+    "115 km/h",
+    "95 km/h",
+    "75 km/h",
+    "85 km/h"
+   ],
+   "juist": 2,
+   "uitleg": "95 - 20 = 75 km/h grondsnelheid."
+  },
+  {
+   "v": "Hoe lang doe je over 45 km bij een grondsnelheid van 90 km/h?",
+   "a": [
+    "45 minuten",
+    "25 minuten",
+    "35 minuten",
+    "30 minuten"
+   ],
+   "juist": 3,
+   "uitleg": "45 / 90 = 0,5 uur = 30 minuten."
+  },
+  {
+   "v": "Je legt 120 km af in 1 uur en 36 minuten. Wat is je gemiddelde grondsnelheid?",
+   "a": [
+    "75 km/h",
+    "80 km/h",
+    "72 km/h",
+    "90 km/h"
+   ],
+   "juist": 0,
+   "uitleg": "1 uur 36 min = 1,6 uur; 120 / 1,6 = 75 km/h."
+  },
+  {
+   "v": "Dwarswind 15 km/h bij een ware snelheid van 90 km/h. Wat is ongeveer de drifthoek?",
+   "a": [
+    "5 graden",
+    "10 graden",
+    "15 graden",
+    "20 graden"
+   ],
+   "juist": 1,
+   "uitleg": "Vuistregel: drift = dwarswind / snelheid x 60 = 15 / 90 x 60 = 10 graden."
+  },
+  {
+   "v": "In welke richting stuur je voor om drift te compenseren?",
+   "a": [
+    "Met de wind mee",
+    "Recht vooruit, drift corrigeer je niet",
+    "Tegen de windrichting in, dus naar de kant waar de wind vandaan komt",
+    "Altijd naar het noorden"
+   ],
+   "juist": 2,
+   "uitleg": "Je houdt de neus naar de wind toe gericht, zodat het grondspoor op de gewenste koerslijn blijft."
+  },
+  {
+   "v": "De wind is 20 km/h en maakt een hoek van 60 graden met je koers. Wat is ongeveer de tegenwindcomponent?",
+   "a": [
+    "20 km/h",
+    "17 km/h",
+    "5 km/h",
+    "10 km/h"
+   ],
+   "juist": 3,
+   "uitleg": "Tegenwindcomponent = 20 x cos 60 = 10 km/h."
+  },
+  {
+   "v": "Hoe reken je een snelheid in km/h om naar m/s?",
+   "a": [
+    "Delen door 3,6",
+    "Vermenigvuldigen met 3,6",
+    "Delen door 1,852",
+    "Vermenigvuldigen met 1,852"
+   ],
+   "juist": 0,
+   "uitleg": "1 m/s = 3,6 km/h, dus km/h gedeeld door 3,6 geeft m/s."
+  },
+  {
+   "v": "Hoeveel m/s is 108 km/h?",
+   "a": [
+    "36 m/s",
+    "30 m/s",
+    "27 m/s",
+    "38,9 m/s"
+   ],
+   "juist": 1,
+   "uitleg": "108 / 3,6 = 30 m/s."
+  },
+  {
+   "v": "Je vliegt 105 km in 1 uur en 24 minuten. Wat is je gemiddelde snelheid?",
+   "a": [
+    "70 km/h",
+    "85 km/h",
+    "75 km/h",
+    "80 km/h"
+   ],
+   "juist": 2,
+   "uitleg": "1 uur 24 min = 1,4 uur; 105 / 1,4 = 75 km/h."
+  },
+  {
+   "v": "Je vertrekt om 13:10 naar een keerpunt op 35 km met een verwachte grondsnelheid van 70 km/h. Wanneer verwacht je daar te zijn?",
+   "a": [
+    "Om 13:30",
+    "Om 14:00",
+    "Om 13:50",
+    "Om 13:40"
+   ],
+   "juist": 3,
+   "uitleg": "35 / 70 = 0,5 uur = 30 minuten; 13:10 + 0:30 = 13:40."
+  },
+  {
+   "v": "Je start om 12:00 aan een taak van 250 km en verwacht gemiddeld 70 km/h. Hoe laat kom je ongeveer aan?",
+   "a": [
+    "Rond 15:34",
+    "Rond 14:45",
+    "Rond 16:15",
+    "Rond 15:00"
+   ],
+   "juist": 0,
+   "uitleg": "250 / 70 = 3,57 uur, ongeveer 3 uur en 34 minuten; 12:00 + 3:34 = 15:34."
+  },
+  {
+   "v": "Hoeveel km/h is 1 knoop?",
+   "a": [
+    "Ongeveer 1,151 km/h",
+    "Ongeveer 1,852 km/h",
+    "Ongeveer 0,514 km/h",
+    "Ongeveer 3,6 km/h"
+   ],
+   "juist": 1,
+   "uitleg": "1 knoop = 1 zeemijl per uur = 1,852 km/h."
+  },
+  {
+   "v": "De wind wordt opgegeven als 20 knopen. Hoeveel km/h is dat ongeveer?",
+   "a": [
+    "20 km/h",
+    "31 km/h",
+    "37 km/h",
+    "42 km/h"
+   ],
+   "juist": 2,
+   "uitleg": "20 x 1,852 = ongeveer 37 km/h."
+  },
+  {
+   "v": "Op de heenweg heb je meewind, op de terugweg dezelfde wind tegen. Wat geldt voor de totale reistijd vergeleken met windstil weer?",
+   "a": [
+    "Die is gelijk, de wind middelt uit",
+    "Die is korter",
+    "Die hangt alleen van de temperatuur af",
+    "Die is langer: het tijdverlies tegen de wind is groter dan de winst met de wind mee"
+   ],
+   "juist": 3,
+   "uitleg": "Je vliegt langer in het trage been dan in het snelle; per saldo kost heen en weer met wind altijd extra tijd."
+  },
+  {
+   "v": "Wat gebeurt er met je positie als je op 25 km/h wind enkele minuten in thermiek cirkelt?",
+   "a": [
+    "Je verplaatst met de wind mee over de grond",
+    "Je blijft exact boven hetzelfde punt hangen",
+    "Je verplaatst tegen de wind in",
+    "Je positie verandert alleen bij het uitcirkelen"
+   ],
+   "juist": 0,
+   "uitleg": "Al cirkelend drijf je met de luchtmassa mee; met de wind mee verplaats je over de grond."
+  },
+  {
+   "v": "Je cirkelt 12 minuten in thermiek bij een wind van 25 km/h. Hoe ver ben je afgedreven?",
+   "a": [
+    "3 km",
+    "5 km",
+    "8 km",
+    "12 km"
+   ],
+   "juist": 1,
+   "uitleg": "12 minuten = 0,2 uur; 25 x 0,2 = 5 km verzet met de wind mee."
+  },
+  {
+   "v": "Hoe lees je onderweg het eenvoudigst je actuele grondsnelheid af?",
+   "a": [
+    "Van de snelheidsmeter",
+    "Van de variometer",
+    "Van de GPS of vluchtcomputer",
+    "Van het kompas"
+   ],
+   "juist": 2,
+   "uitleg": "De snelheidsmeter toont de snelheid door de lucht; de grondsnelheid volgt uit GPS-gegevens."
+  },
+  {
+   "v": "Wat is het verschil tussen de gestuurde koers en het werkelijke grondspoor?",
+   "a": [
+    "De variatie",
+    "De deviatie",
+    "De inclinatie",
+    "De drifthoek door de wind"
+   ],
+   "juist": 3,
+   "uitleg": "De wind zet het vliegtuig opzij; het verschil tussen koers en grondspoor is de drift."
+  },
+  {
+   "v": "Een keerpunt ligt 60 km ver. Heen vlieg je 60 km/h grondsnelheid, terug 100 km/h. Wat is je gemiddelde snelheid over het geheel?",
+   "a": [
+    "75 km/h",
+    "80 km/h",
+    "70 km/h",
+    "85 km/h"
+   ],
+   "juist": 0,
+   "uitleg": "Heen 60 min, terug 36 min: 120 km in 96 min = 1,6 uur; 120 / 1,6 = 75 km/h (niet 80!)."
+  },
+  {
+   "v": "Hoeveel km/h is een klimsnelheid van 5 m/s?",
+   "a": [
+    "13,9 km/h",
+    "18 km/h",
+    "5 km/h",
+    "50 km/h"
+   ],
+   "juist": 1,
+   "uitleg": "5 x 3,6 = 18 km/h."
+  },
+  {
+   "v": "Hoeveel kilometer per minuut leg je af bij 72 km/h grondsnelheid?",
+   "a": [
+    "0,72 km per minuut",
+    "1,5 km per minuut",
+    "1,2 km per minuut",
+    "2,0 km per minuut"
+   ],
+   "juist": 2,
+   "uitleg": "72 / 60 = 1,2 km per minuut."
+  },
+  {
+   "v": "Met 1,2 km per minuut vlieg je 25 minuten. Welke afstand heb je afgelegd?",
+   "a": [
+    "25 km",
+    "36 km",
+    "24 km",
+    "30 km"
+   ],
+   "juist": 3,
+   "uitleg": "1,2 x 25 = 30 km."
+  },
+  {
+   "v": "Wat is de variatie (miswijzing) in de navigatie?",
+   "a": [
+    "De hoek tussen het ware noorden en het magnetische noorden",
+    "De fout van de snelheidsmeter",
+    "De afwijking van het kompas door metaal in het vliegtuig",
+    "Het verschil tussen IAS en TAS"
+   ],
+   "juist": 0,
+   "uitleg": "Variatie is het plaatselijke verschil tussen ware en magnetische noordrichting."
+  },
+  {
+   "v": "De wind van 30 km/h staat precies dwars op je koers. Hoe groot is de dwarswindcomponent?",
+   "a": [
+    "0 km/h",
+    "30 km/h",
+    "15 km/h",
+    "21 km/h"
+   ],
+   "juist": 1,
+   "uitleg": "Bij wind loodrecht op de koers is de volledige windsnelheid de dwarscomponent: 30 km/h."
+  },
+  {
+   "v": "Welke informatie vind je in het vlieghandboek van een zweefvliegtuig?",
+   "a": [
+    "Limieten, procedures, prestaties en het beladingsschema van dat type",
+    "Alleen de verkoopgeschiedenis",
+    "De weersverwachting",
+    "De ledenlijst van de club"
+   ],
+   "juist": 0,
+   "uitleg": "Het vlieghandboek bevat alle limieten, normale en noodprocedures, prestaties en beladingsgegevens."
+  },
+  {
+   "v": "Wat betekent de snelheid VNE?",
+   "a": [
+    "De beste glijsnelheid",
+    "De maximale liersnelheid",
+    "De snelheid die nooit overschreden mag worden",
+    "De overtreksnelheid in de landingsconfiguratie"
+   ],
+   "juist": 2,
+   "uitleg": "VNE is de never exceed speed: overschrijden is onder geen enkele omstandigheid toegestaan."
+  },
+  {
+   "v": "Wat geldt voor de VNE op grote hoogte?",
+   "a": [
+    "Hij blijft als aangewezen snelheid altijd gelijk",
+    "De toelaatbare aangewezen snelheid wordt lager, volgens een tabel in het vlieghandboek",
+    "Hij wordt hoger",
+    "VNE geldt alleen op zeeniveau"
+   ],
+   "juist": 1,
+   "uitleg": "Wegens flutter is VNE aan de ware snelheid gebonden; de toelaatbare IAS neemt daarom met de hoogte af."
+  },
+  {
+   "v": "Wat betekent de manoeuvreersnelheid VA?",
+   "a": [
+    "De minimale snelheid in bochten",
+    "De snelheid voor het beste glijgetal",
+    "De maximale snelheid met uitgeschoven remkleppen",
+    "De maximale snelheid waarbij volledige roeruitslagen nog zijn toegestaan"
+   ],
+   "juist": 3,
+   "uitleg": "Onder VA leidt een volledige roeruitslag niet tot overbelasting van de constructie."
+  },
+  {
+   "v": "Wat is VB (of de maximale snelheid in ruwe lucht)?",
+   "a": [
+    "De maximale snelheid waarmee in turbulente lucht gevlogen mag worden",
+    "De minimale snelheid in thermiek",
+    "De snelheid waarbij de remkleppen automatisch openen",
+    "De maximale sleepsnelheid"
+   ],
+   "juist": 0,
+   "uitleg": "Boven deze snelheid kunnen sterke verticale vlagen de constructie overbelasten."
+  },
+  {
+   "v": "Welke documenten horen onder meer aan boord van een zweefvliegtuig?",
+   "a": [
+    "Alleen het logboek van de vlieger",
+    "Het clubblad en de startlijst",
+    "Bewijs van luchtwaardigheid met ARC, bewijs van inschrijving, verzekeringsbewijs en het vlieghandboek",
+    "Alleen een kopie van het brevet"
+   ],
+   "juist": 2,
+   "uitleg": "De boorddocumenten omvatten onder andere BvL/ARC, inschrijvingsbewijs, verzekeringsbewijs en het vlieghandboek."
+  },
+  {
+   "v": "In welk document vind je de geldige massa- en zwaartepuntsgegevens van een individueel vliegtuig?",
+   "a": [
+    "In de algemene typefolder",
+    "In het weegrapport dat bij het vlieghandboek hoort",
+    "In het clubreglement",
+    "Op de luchtvaartkaart"
+   ],
+   "juist": 1,
+   "uitleg": "Het weegrapport van dat specifieke vliegtuig bevat de geldige leegmassa en zwaartepuntsgegevens."
+  },
+  {
+   "v": "Wat is een ARC?",
+   "a": [
+    "Een radiocertificaat",
+    "Een lidmaatschapskaart",
+    "Een aantekening voor kunstvliegen",
+    "Het Airworthiness Review Certificate: het bewijs dat de luchtwaardigheid periodiek is beoordeeld"
+   ],
+   "juist": 3,
+   "uitleg": "Het ARC toont aan dat de luchtwaardigheid van het vliegtuig periodiek is gecontroleerd en geldig is."
+  },
+  {
+   "v": "Wat is in Nederland de uniforme daglichtperiode (UDP)?",
+   "a": [
+    "Van 15 minuten voor zonsopgang tot 15 minuten na zonsondergang",
+    "Van zonsopgang tot zonsondergang",
+    "Van 30 minuten voor zonsopgang tot 30 minuten na zonsondergang",
+    "Van 08:00 tot 20:00 uur"
+   ],
+   "juist": 0,
+   "uitleg": "De UDP loopt van 15 minuten voor zonsopgang tot 15 minuten na zonsondergang."
+  },
+  {
+   "v": "De zon gaat onder om 20:40. Tot hoe laat mag je volgens de uniforme daglichtperiode vliegen?",
+   "a": [
+    "Tot 20:40",
+    "Tot 21:10",
+    "Tot 20:55",
+    "Tot 21:40"
+   ],
+   "juist": 2,
+   "uitleg": "UDP eindigt 15 minuten na zonsondergang: 20:40 + 0:15 = 20:55."
+  },
+  {
+   "v": "Wat is VW bij een zweefvliegtuig?",
+   "a": [
+    "De maximale windsnelheid voor de start",
+    "De maximale toegestane snelheid tijdens de lierstart",
+    "De minimale snelheid in de winter",
+    "De maximale taxisnelheid"
+   ],
+   "juist": 1,
+   "uitleg": "VW is de maximale snelheid waarmee aan de lierkabel gevlogen mag worden."
+  },
+  {
+   "v": "Hoe weet je welke zwakke schakel (breukstuk) voor jouw zweefvliegtuig bij de lierstart hoort?",
+   "a": [
+    "Elke schakel is toegestaan",
+    "De lierist bepaalt dat naar eigen inzicht",
+    "De zwaarste schakel is altijd het veiligst",
+    "Het vlieghandboek schrijft de breeksterkte voor, herkenbaar aan de kleurcodering"
+   ],
+   "juist": 3,
+   "uitleg": "Het handboek geeft de voorgeschreven breeksterkte van de zwakke schakel aan, met bijbehorende kleur."
+  },
+  {
+   "v": "Welke belastingslimieten gelden volgens CS-22 voor een standaard zweefvliegtuig (categorie U)?",
+   "a": [
+    "+5,3 g en -2,65 g",
+    "+10 g en -10 g",
+    "+2 g en -1 g",
+    "+3,8 g en -1,5 g"
+   ],
+   "juist": 0,
+   "uitleg": "CS-22 schrijft voor de utility-categorie limietbelastingen van +5,3 g en -2,65 g voor."
+  },
+  {
+   "v": "Wat is het grootste gevaar van het overschrijden van de VNE?",
+   "a": [
+    "Een te hoge daalsnelheid",
+    "Het beslaan van de kap",
+    "Flutter: snel opslingerende trillingen die de constructie binnen seconden kunnen vernielen",
+    "Een tragere rolbeweging"
+   ],
+   "juist": 2,
+   "uitleg": "Boven VNE kan flutter ontstaan; dat kan roeren of vleugels vrijwel onmiddellijk vernielen."
+  },
+  {
+   "v": "Wat betekent de groene boog op de snelheidsmeter?",
+   "a": [
+    "Het bereik waarin niet gevlogen mag worden",
+    "Het normale vliegbereik, ook in turbulente lucht",
+    "Alleen het bereik voor de lierstart",
+    "Het bereik waar de remkleppen open moeten"
+   ],
+   "juist": 1,
+   "uitleg": "De groene boog markeert het normale bedieningsbereik van het vliegtuig."
+  },
+  {
+   "v": "Wat betekent de gele boog op de snelheidsmeter?",
+   "a": [
+    "Daar mag alleen met waterballast gevlogen worden",
+    "Het optimale thermiekbereik",
+    "Het bereik voor de sleepstart",
+    "Dit bereik alleen in rustige lucht en met voorzichtige stuurbewegingen gebruiken"
+   ],
+   "juist": 3,
+   "uitleg": "In de gele boog mag alleen in rustige lucht worden gevlogen; vlagen kunnen daar de constructie overbelasten."
+  },
+  {
+   "v": "Wat markeert de rode radiaalstreep op de snelheidsmeter?",
+   "a": [
+    "De VNE: de snelheid die nooit overschreden mag worden",
+    "De overtreksnelheid",
+    "De beste glijsnelheid",
+    "De maximale liersnelheid"
+   ],
+   "juist": 0,
+   "uitleg": "De rode streep staat op de VNE."
+  },
+  {
+   "v": "Wat betekent de gele driehoek op de snelheidsmeter van een zweefvliegtuig?",
+   "a": [
+    "De maximale snelheid met remkleppen",
+    "De snelheid van minimaal dalen",
+    "De aanbevolen naderingssnelheid bij maximale massa zonder waterballast",
+    "De maximale snelheid op de lier"
+   ],
+   "juist": 2,
+   "uitleg": "De gele driehoek geeft de aanbevolen minimale naderingssnelheid bij maximale massa (zonder waterballast) aan."
+  },
+  {
+   "v": "Wanneer wordt de dagelijkse inspectie van een zweefvliegtuig uitgevoerd?",
+   "a": [
+    "Na de laatste vlucht van de dag",
+    "Voor de eerste vlucht van de dag",
+    "Eén keer per week",
+    "Alleen na een buitenlanding"
+   ],
+   "juist": 1,
+   "uitleg": "De dagelijkse inspectie gebeurt voor de eerste vlucht, zodat gebreken tijdig worden ontdekt."
+  },
+  {
+   "v": "Waar noteer je een tijdens de vlucht ontdekt technisch gebrek?",
+   "a": [
+    "Op een los briefje in de cockpit",
+    "Alleen mondeling doorgeven",
+    "Nergens, als het vliegtuig nog vliegt",
+    "In het (technisch) journaal van het vliegtuig en melden bij de technicus"
+   ],
+   "juist": 3,
+   "uitleg": "Gebreken worden vastgelegd in het journaal zodat ze beoordeeld en verholpen worden voor de volgende vlucht."
+  },
+  {
+   "v": "Waarom bestaat er een limiet op de maximale massa van de niet-dragende delen?",
+   "a": [
+    "Omdat de vleugels alle massa moeten dragen en de verbindingen anders overbelast raken",
+    "Om brandstof te besparen",
+    "Om de aanhanger niet te zwaar te maken",
+    "Vanwege de geluidsnormen"
+   ],
+   "juist": 0,
+   "uitleg": "De lift grijpt aan op de vleugels; te veel massa in romp en staart overbelast de constructie en verbindingen."
+  },
+  {
+   "v": "Mag een SPL-houder zonder aanvullende bevoegdheid in wolken vliegen?",
+   "a": [
+    "Ja, als het vliegtuig een kunstmatige horizon heeft",
+    "Ja, kort door een wolk heen mag altijd",
+    "Nee, wolkenvliegen vereist een aparte bevoegdheid en toestemming, en zicht op de grond of horizon is anders vereist",
+    "Ja, boven 2000 m"
+   ],
+   "juist": 2,
+   "uitleg": "Zonder wolkenvliegbevoegdheid en de vereiste uitrusting en klaring is vliegen in wolken verboden."
+  },
+  {
+   "v": "Welke verzekering is voor een zweefvliegtuig wettelijk verplicht?",
+   "a": [
+    "Een inzittendenverzekering",
+    "Een aansprakelijkheidsverzekering (WA) voor schade aan derden",
+    "Een cascoverzekering",
+    "Een rechtsbijstandverzekering"
+   ],
+   "juist": 1,
+   "uitleg": "Een verzekering tegen wettelijke aansprakelijkheid jegens derden is verplicht; casco is vrijwillig."
+  },
+  {
+   "v": "Waar kan de vlieger de belangrijkste limieten zoals cockpitbelasting en maximumsnelheden direct aflezen?",
+   "a": [
+    "Op de website van de fabrikant",
+    "In het clubhuis",
+    "In het logboek",
+    "Op de verplichte plaatjes (placards) in de cockpit"
+   ],
+   "juist": 3,
+   "uitleg": "Placards in de cockpit tonen de belangrijkste limieten, zodat ze tijdens het vliegen zichtbaar zijn."
+  },
+  {
+   "v": "Wat is VT bij een zweefvliegtuig?",
+   "a": [
+    "De maximale toegestane snelheid tijdens de vliegtuigsleep",
+    "De maximale taxisnelheid",
+    "De snelheid voor het beste glijgetal",
+    "De maximale snelheid in thermiek"
+   ],
+   "juist": 0,
+   "uitleg": "VT is de maximale snelheid waarmee achter een sleepvliegtuig gevlogen mag worden."
+  },
+  {
+   "v": "Welk effect heeft tegenwind op de startrol?",
+   "a": [
+    "De startrol wordt langer",
+    "Tegenwind heeft geen invloed op de startrol",
+    "De startrol wordt alleen bij storm korter",
+    "De startrol wordt korter"
+   ],
+   "juist": 3,
+   "uitleg": "Bij tegenwind is er al vliegsnelheid over de vleugel; er is minder grondsnelheid en dus minder baan nodig."
+  },
+  {
+   "v": "Wat is het effect van meewind bij de start?",
+   "a": [
+    "Een kortere startrol",
+    "Een aanzienlijk langere startrol; starten met meewind wordt daarom vermeden",
+    "Geen effect",
+    "Alleen effect bij de sleepstart"
+   ],
+   "juist": 1,
+   "uitleg": "Bij meewind moet eerst de meewind als extra grondsnelheid worden opgebouwd voordat er vliegsnelheid ontstaat."
+  },
+  {
+   "v": "Wat doet een hoge buitentemperatuur met de startprestaties?",
+   "a": [
+    "De startrol wordt langer door de lagere luchtdichtheid",
+    "De startrol wordt korter",
+    "Temperatuur heeft geen invloed",
+    "Alleen de klim na de start verandert"
+   ],
+   "juist": 0,
+   "uitleg": "Warme lucht is minder dicht: minder lift en trekkracht, dus een langere startrol."
+  },
+  {
+   "v": "Wat betekent een hooggelegen vliegveld voor de start?",
+   "a": [
+    "Een kortere startrol door de dunnere lucht",
+    "Geen verschil met zeeniveau",
+    "Een langere startrol door de lagere luchtdichtheid",
+    "Alleen een lagere overtreksnelheid"
+   ],
+   "juist": 2,
+   "uitleg": "Op hoogte is de lucht dunner; de benodigde grondsnelheid en dus de startrol nemen toe."
+  },
+  {
+   "v": "Welk effect heeft lang, nat gras op de startrol?",
+   "a": [
+    "Het verkort de startrol",
+    "Het heeft geen invloed",
+    "Het is alleen van invloed bij de landing",
+    "Het verlengt de startrol door de grotere rolweerstand"
+   ],
+   "juist": 3,
+   "uitleg": "Lang of nat gras remt het vliegtuig af tijdens de aanloop en verlengt de startrol."
+  },
+  {
+   "v": "Wat betekent een oplopende baan (helling omhoog) voor de startrol?",
+   "a": [
+    "Die wordt korter",
+    "Die wordt langer",
+    "Geen invloed",
+    "Alleen bij de lierstart van belang"
+   ],
+   "juist": 1,
+   "uitleg": "Tegen een helling op versnelt het vliegtuig trager, waardoor de startrol langer wordt."
+  },
+  {
+   "v": "Wat betekenen hoge obstakels achter het baaneinde voor de benodigde startafstand?",
+   "a": [
+    "De benodigde afstand wordt groter, want er moet ook over het obstakel geklommen worden",
+    "Ze hebben geen invloed op de startafstand",
+    "De startrol wordt korter",
+    "Ze tellen alleen voor motorvliegtuigen"
+   ],
+   "juist": 0,
+   "uitleg": "Naast de startrol telt de afstand tot het bereiken van een veilige hoogte boven het obstakel."
+  },
+  {
+   "v": "Welke uitklinkhoogte is bij een lierstart zonder wind ongeveer haalbaar?",
+   "a": [
+    "Gelijk aan de kabellengte",
+    "De helft tot twee derde van de kabellengte",
+    "Ongeveer een derde van de kabellengte",
+    "Ongeveer een tiende van de kabellengte"
+   ],
+   "juist": 2,
+   "uitleg": "Zonder wind is de haalbare hoogte grofweg een derde van de kabellengte; met tegenwind meer."
+  },
+  {
+   "v": "Welk effect heeft tegenwind op de bereikte hoogte bij een lierstart?",
+   "a": [
+    "De hoogte wordt lager",
+    "Tegenwind heeft geen invloed op de lierhoogte",
+    "De kabel breekt eerder",
+    "De bereikte hoogte wordt hoger"
+   ],
+   "juist": 3,
+   "uitleg": "Tegenwind maakt een steilere klim ten opzichte van de grond mogelijk en geeft een hogere uitklinkhoogte."
+  },
+  {
+   "v": "Hoe verhoudt de benodigde baanlengte van een sleepstart zich tot die van een lierstart?",
+   "a": [
+    "Een sleepstart is altijd korter",
+    "Een sleepstart (combinatie) heeft meer baanlengte nodig dan een lierstart",
+    "Ze zijn precies gelijk",
+    "Een lierstart heeft meer baan nodig"
+   ],
+   "juist": 1,
+   "uitleg": "De sleepcombinatie versnelt trager en moet ook nog vrij klimmen; er is meer baanlengte nodig."
+  },
+  {
+   "v": "Wat is het effect van tegenwind op de uitrol bij de landing?",
+   "a": [
+    "De uitrol wordt korter",
+    "De uitrol wordt langer",
+    "Geen effect",
+    "De uitrol wordt alleen korter op verharde banen"
+   ],
+   "juist": 0,
+   "uitleg": "Bij tegenwind is de grondsnelheid bij het aanraken lager, dus de uitrol korter."
+  },
+  {
+   "v": "Wat betekent een hogere landingsmassa voor de landing?",
+   "a": [
+    "Een lagere naderingssnelheid",
+    "Niets, massa speelt bij de landing geen rol",
+    "Een hogere naderingssnelheid en een langere uitrol",
+    "Alleen een hardere landing"
+   ],
+   "juist": 2,
+   "uitleg": "Meer massa betekent een hogere naderings- en landingssnelheid en daardoor een langere uitrol."
+  },
+  {
+   "v": "Wat doe je normaal gesproken met waterballast voor de landing?",
+   "a": [
+    "Meenemen voor een stabielere landing",
+    "Alleen bij crosswind lozen",
+    "De helft lozen",
+    "Volledig lozen, tenzij het vlieghandboek anders aangeeft"
+   ],
+   "juist": 3,
+   "uitleg": "Landen doe je in principe zonder waterballast: lagere snelheid, kortere uitrol en minder belasting."
+  },
+  {
+   "v": "Waarom weegt een meewindcomponent zwaarder dan een even grote tegenwindcomponent bij start en landing?",
+   "a": [
+    "Dat is niet zo, de effecten zijn precies gelijk",
+    "De verlenging door meewind is groter dan de verkorting door dezelfde tegenwind",
+    "Meewind heeft alleen invloed op de klim",
+    "Tegenwind is altijd gevaarlijker"
+   ],
+   "juist": 1,
+   "uitleg": "De benodigde afstand groeit meer dan evenredig met de grondsnelheid; meewind werkt daardoor extra sterk door."
+  },
+  {
+   "v": "Waar vind je de maximaal aangetoonde dwarswindcomponent van je zweefvliegtuig?",
+   "a": [
+    "In het vlieghandboek",
+    "Op de luchtvaartkaart",
+    "In de NOTAM's",
+    "Bij de luchtverkeersleiding"
+   ],
+   "juist": 0,
+   "uitleg": "De maximaal aangetoonde dwarswindcomponent staat in het vlieghandboek."
+  },
+  {
+   "v": "Hoe verhoudt de startrol op een grasbaan zich tot die op een verharde baan?",
+   "a": [
+    "Op gras korter",
+    "Precies gelijk",
+    "Op gras langer door de grotere rolweerstand",
+    "Dat hangt alleen van de wind af"
+   ],
+   "juist": 2,
+   "uitleg": "Gras geeft meer rolweerstand dan verharding, dus een langere startrol."
+  },
+  {
+   "v": "Welke combinatie geeft de langste startrol?",
+   "a": [
+    "Koud, harde wind tegen, lichte kist",
+    "Koud en windstil",
+    "Zware kist met harde tegenwind",
+    "Warm weer, windstil en een zwaar beladen vliegtuig"
+   ],
+   "juist": 3,
+   "uitleg": "Hoge temperatuur (lage dichtheid), geen tegenwind en hoge massa verlengen alle drie de startrol."
+  },
+  {
+   "v": "Wat betekent een obstakel van 15 m in de naderingsroute voor de benodigde landingsafstand?",
+   "a": [
+    "Niets, obstakels tellen alleen bij de start",
+    "De totale benodigde afstand wordt groter, omdat je over het obstakel moet en verderop neerkomt",
+    "De uitrol wordt korter",
+    "Het obstakel verandert alleen de naderingssnelheid"
+   ],
+   "juist": 1,
+   "uitleg": "Door over het obstakel te moeten komen raak je de grond verder op het veld: de benodigde totale afstand groeit."
+  },
+  {
+   "v": "Hoe maak je de nadering steiler zonder de snelheid te verhogen?",
+   "a": [
+    "Door de remkleppen verder te openen of te slippen",
+    "Door de neus omhoog te trimmen",
+    "Door de kleppen in te trekken",
+    "Door langzamer te vliegen dan de gele driehoek"
+   ],
+   "juist": 0,
+   "uitleg": "Meer weerstand (remkleppen, slippen) maakt het glijpad steiler bij gelijkblijvende snelheid."
+  },
+  {
+   "v": "Hoe houd je de uitrol na de landing zo kort mogelijk?",
+   "a": [
+    "Met meewind landen",
+    "Met extra snelheid aanvliegen",
+    "Tegen de wind in landen en na het neerkomen de wielrem gebruiken",
+    "De remkleppen sluiten na het neerkomen"
+   ],
+   "juist": 2,
+   "uitleg": "Landen tegen de wind geeft de laagste grondsnelheid; de wielrem verkort de uitrol verder."
+  },
+  {
+   "v": "Wat is het gevolg van een te hoge naderingssnelheid bij het landen op een kort veld?",
+   "a": [
+    "Een kortere uitrol",
+    "Een veiliger landing",
+    "Een steilere nadering",
+    "Lang zweven boven de grond en een veel langere totale landingsafstand"
+   ],
+   "juist": 3,
+   "uitleg": "Overtollige snelheid moet eerst uitzweven; het vliegtuig komt ver in het veld pas aan de grond."
+  },
+  {
+   "v": "Wat betekent een hoge dichtheidshoogte voor de vliegtuigprestaties?",
+   "a": [
+    "Betere start- en klimprestaties",
+    "Slechtere prestaties: langere startrol en slechter klimmen",
+    "Geen invloed op de prestaties",
+    "Alleen een lagere VNE"
+   ],
+   "juist": 1,
+   "uitleg": "Hoge dichtheidshoogte betekent dunne lucht en dus slechtere start- en klimprestaties."
+  },
+  {
+   "v": "Waarom verlengt zelfs een lichte meewind van 10 km/h de startrol aanzienlijk?",
+   "a": [
+    "Het vliegtuig moet eerst die 10 km/h extra grondsnelheid opbouwen voordat er vliegsnelheid over de vleugel staat",
+    "Meewind verhoogt de temperatuur",
+    "Meewind maakt de lucht dunner",
+    "De lierkabel wordt zwaarder door meewind"
+   ],
+   "juist": 0,
+   "uitleg": "De vliegsnelheid telt ten opzichte van de lucht; met meewind is meer grondsnelheid en dus meer baan nodig."
+  },
+  {
+   "v": "Wat is bij het landen op een kort veld het belangrijkst?",
+   "a": [
+    "Extra snelheid voor de zekerheid",
+    "Zo laat mogelijk remkleppen gebruiken",
+    "De juiste, niet te hoge naderingssnelheid en een nauwkeurig gekozen aanrakingspunt",
+    "Een lange, vlakke eindnadering"
+   ],
+   "juist": 2,
+   "uitleg": "Alleen met de juiste snelheid en een goed gekozen aanrakingspunt blijft de landingsafstand kort."
+  },
+  {
+   "v": "Wat betekent een doorweekte, zachte grasbaan voor de startrol?",
+   "a": [
+    "Een kortere startrol",
+    "Geen invloed",
+    "Alleen invloed bij de sleepstart",
+    "Een langere startrol door de sterk toegenomen rolweerstand"
+   ],
+   "juist": 3,
+   "uitleg": "Zachte grond en nat gras remmen de aanloop; de startrol wordt duidelijk langer."
+  }
+ ]
+}

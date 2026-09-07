@@ -1,0 +1,2755 @@
+{
+ "vak": "Beginselen van het zweefvliegen",
+ "vragen": [
+  {
+   "v": "Wat zegt de wet van Bernoulli over een stromende luchtmassa?",
+   "a": [
+    "Waar de stroomsnelheid toeneemt, neemt de statische druk af",
+    "Waar de stroomsnelheid toeneemt, neemt de statische druk toe",
+    "De statische druk is onafhankelijk van de stroomsnelheid",
+    "De dynamische druk neemt af als de snelheid toeneemt"
+   ],
+   "juist": 0,
+   "uitleg": "Volgens Bernoulli geldt langs een stroomlijn: hogere snelheid betekent lagere statische druk."
+  },
+  {
+   "v": "Een luchtstroom passeert een vernauwing in een buis. Wat gebeurt er in de vernauwing?",
+   "a": [
+    "De snelheid neemt af en de druk neemt toe",
+    "De snelheid en de druk blijven gelijk",
+    "De snelheid neemt toe en de statische druk neemt af",
+    "De snelheid neemt toe en de statische druk neemt ook toe"
+   ],
+   "juist": 2,
+   "uitleg": "Door de continuiteitswet versnelt de lucht in de vernauwing en volgens Bernoulli daalt daar de statische druk."
+  },
+  {
+   "v": "Waar op een vleugelprofiel heerst bij normale invalshoek de grootste onderdruk?",
+   "a": [
+    "Aan de onderzijde bij de achterrand",
+    "Aan de bovenzijde, kort achter de neus",
+    "Aan de bovenzijde bij de achterrand",
+    "Precies op de neus van het profiel"
+   ],
+   "juist": 1,
+   "uitleg": "De stroming is het snelst over het voorste deel van de bovenzijde, daar is de onderdruk het grootst."
+  },
+  {
+   "v": "Wat is het stuwpunt van een vleugelprofiel?",
+   "a": [
+    "Het punt waar de stroming loslaat",
+    "Het punt met de grootste onderdruk",
+    "Het punt waar de lift aangrijpt",
+    "Het punt waar de aanstromende lucht tot stilstand komt en de druk maximaal is"
+   ],
+   "juist": 3,
+   "uitleg": "In het stuwpunt bij de neus komt de stroming tot stilstand en heerst de totale druk."
+  },
+  {
+   "v": "Hoe wordt de dynamische druk berekend?",
+   "a": [
+    "q = 0,5 x rho x v kwadraat",
+    "q = rho x v",
+    "q = 0,5 x rho x v",
+    "q = rho x g x h"
+   ],
+   "juist": 0,
+   "uitleg": "De dynamische druk is een half maal de luchtdichtheid maal het kwadraat van de snelheid."
+  },
+  {
+   "v": "Wat is de totale druk in een luchtstroom?",
+   "a": [
+    "Statische druk min dynamische druk",
+    "De som van statische en dynamische druk",
+    "Alleen de dynamische druk",
+    "Het product van statische en dynamische druk"
+   ],
+   "juist": 1,
+   "uitleg": "Totale druk = statische druk + dynamische druk, en die som is langs een stroomlijn constant."
+  },
+  {
+   "v": "Wat is de grenslaag?",
+   "a": [
+    "De laag lucht direct onder de tropopauze",
+    "De luchtlaag waarin de tipwervels ontstaan",
+    "De dunne luchtlaag langs het oppervlak waarin de snelheid oploopt van nul tot de vrije stroomsnelheid",
+    "De laag tussen boven- en onderzijde van het profiel"
+   ],
+   "juist": 2,
+   "uitleg": "In de grenslaag remt wrijving de lucht af: aan het oppervlak is de snelheid nul, aan de buitenkant gelijk aan de vrije stroming."
+  },
+  {
+   "v": "Welke eigenschap heeft een laminaire grenslaag vergeleken met een turbulente grenslaag?",
+   "a": [
+    "Hij laat minder snel los van het oppervlak",
+    "Hij is dikker",
+    "Hij veroorzaakt meer wrijvingsweerstand",
+    "Hij veroorzaakt minder wrijvingsweerstand"
+   ],
+   "juist": 3,
+   "uitleg": "Een laminaire grenslaag geeft weinig wrijvingsweerstand, maar laat wel eerder los dan een turbulente."
+  },
+  {
+   "v": "Waarom kan een turbulente grenslaag gunstig zijn?",
+   "a": [
+    "Hij geeft minder wrijvingsweerstand",
+    "Hij blijft langer aanliggen en laat later los dan een laminaire grenslaag",
+    "Hij verlaagt de geinduceerde weerstand",
+    "Hij verhoogt de statische druk boven de vleugel"
+   ],
+   "juist": 1,
+   "uitleg": "Een turbulente grenslaag bevat meer energie en volgt het oppervlak langer voordat hij loslaat."
+  },
+  {
+   "v": "Wat is het omslagpunt op een vleugelprofiel?",
+   "a": [
+    "Het punt waar de grenslaag omslaat van laminair naar turbulent",
+    "Het punt waar de stroming volledig loslaat",
+    "Het punt waar de druk maximaal is",
+    "Het punt waar de lift aangrijpt"
+   ],
+   "juist": 0,
+   "uitleg": "In het omslagpunt gaat de laminaire grenslaag over in een turbulente grenslaag."
+  },
+  {
+   "v": "Hoe verdeelt de liftbijdrage zich over een vleugel bij normale invalshoek?",
+   "a": [
+    "Uitsluitend door overdruk aan de onderzijde",
+    "Ongeveer gelijk verdeeld over boven- en onderzijde",
+    "Het grootste deel door overdruk aan de onderzijde",
+    "Het grootste deel door onderdruk aan de bovenzijde"
+   ],
+   "juist": 3,
+   "uitleg": "Ongeveer twee derde van de lift komt van de onderdruk boven de vleugel, de rest van overdruk eronder."
+  },
+  {
+   "v": "Wat gebeurt er met het loslaatpunt van de stroming als de invalshoek toeneemt?",
+   "a": [
+    "Het blijft op dezelfde plaats",
+    "Het verschuift naar de achterrand",
+    "Het verschuift naar voren, richting de neus",
+    "Het verdwijnt volledig"
+   ],
+   "juist": 2,
+   "uitleg": "Bij grotere invalshoek laat de stroming steeds eerder los; nadert het loslaatpunt de neus, dan volgt de overtrek."
+  },
+  {
+   "v": "Wat beschrijft het Reynoldsgetal?",
+   "a": [
+    "De verhouding tussen traagheidskrachten en wrijvingskrachten in de stroming",
+    "De verhouding tussen lift en weerstand",
+    "De verhouding tussen statische en dynamische druk",
+    "De verhouding tussen spanwijdte en koorde"
+   ],
+   "juist": 0,
+   "uitleg": "Het Reynoldsgetal geeft de verhouding tussen traagheids- en wrijvingskrachten en bepaalt het karakter van de grenslaag."
+  },
+  {
+   "v": "Wat gebeurt er met de luchtdichtheid bij toenemende hoogte?",
+   "a": [
+    "Zij blijft gelijk",
+    "Zij neemt af",
+    "Zij neemt toe",
+    "Zij neemt eerst toe en daarna af"
+   ],
+   "juist": 1,
+   "uitleg": "Met de hoogte dalen druk en dichtheid van de lucht."
+  },
+  {
+   "v": "Je vliegt op grote hoogte met dezelfde aangewezen snelheid (IAS) als op zeeniveau. Wat geldt voor de ware snelheid (TAS)?",
+   "a": [
+    "De TAS is gelijk aan de IAS",
+    "De TAS is lager dan de IAS",
+    "De TAS is niet te bepalen",
+    "De TAS is hoger dan de IAS"
+   ],
+   "juist": 3,
+   "uitleg": "Door de lagere dichtheid hoort bij dezelfde dynamische druk (IAS) een hogere ware snelheid."
+  },
+  {
+   "v": "Waarom daalt de statische druk in het nauwste deel van een venturibuis?",
+   "a": [
+    "Omdat de temperatuur daar stijgt",
+    "Omdat de lucht daar wordt samengeperst",
+    "Omdat de stroomsnelheid daar het hoogst is",
+    "Omdat de zwaartekracht daar sterker werkt"
+   ],
+   "juist": 2,
+   "uitleg": "In de vernauwing is de snelheid maximaal en volgens Bernoulli is de statische druk daar dus minimaal."
+  },
+  {
+   "v": "In welke richting werkt de statische druk in een luchtmassa?",
+   "a": [
+    "In alle richtingen even sterk",
+    "Alleen loodrecht naar beneden",
+    "Alleen in de stromingsrichting",
+    "Alleen tegen de stromingsrichting in"
+   ],
+   "juist": 0,
+   "uitleg": "Statische druk werkt in alle richtingen gelijk."
+  },
+  {
+   "v": "Welke druk meet de opening van de pitotbuis?",
+   "a": [
+    "Alleen de statische druk",
+    "Alleen de dynamische druk",
+    "Het verschil tussen statische en dynamische druk",
+    "De totale druk"
+   ],
+   "juist": 3,
+   "uitleg": "In de pitotopening komt de stroming tot stilstand, daar heerst de totale druk."
+  },
+  {
+   "v": "Op welk drukverschil berust de aanwijzing van de snelheidsmeter?",
+   "a": [
+    "Statische druk min totale druk",
+    "Totale druk min statische druk, dus de dynamische druk",
+    "Totale druk plus statische druk",
+    "Alleen de statische druk"
+   ],
+   "juist": 1,
+   "uitleg": "De snelheidsmeter meet totale druk min statische druk: dat is de dynamische druk, een maat voor de snelheid."
+  },
+  {
+   "v": "Stroomlijnen liggen boven de vleugel dichter bij elkaar dan eronder. Wat betekent dit?",
+   "a": [
+    "De snelheid boven de vleugel is lager",
+    "De druk boven de vleugel is hoger",
+    "De snelheid boven de vleugel is hoger",
+    "De stroming boven de vleugel is losgelaten"
+   ],
+   "juist": 2,
+   "uitleg": "Dicht opeengepakte stroomlijnen betekenen een hogere stroomsnelheid en dus een lagere statische druk."
+  },
+  {
+   "v": "Hoe kan lift ook verklaard worden vanuit de derde wet van Newton?",
+   "a": [
+    "De vleugel drukt lucht opzij, de reactie werkt naar voren",
+    "De vleugel versnelt lucht naar boven",
+    "De vleugel remt de lucht af, de reactie is lift",
+    "De vleugel buigt lucht naar beneden af (downwash), de reactiekracht werkt omhoog"
+   ],
+   "juist": 3,
+   "uitleg": "De vleugel geeft de lucht een neerwaartse impuls; de reactiekracht daarop is de lift."
+  },
+  {
+   "v": "Welk effect heeft de neerstroming (downwash) achter de vleugel op het horizontale staartvlak?",
+   "a": [
+    "De effectieve invalshoek van het staartvlak wordt kleiner",
+    "De effectieve invalshoek van het staartvlak wordt groter",
+    "Het staartvlak ondervindt geen invloed",
+    "Het staartvlak komt in een opstroming terecht"
+   ],
+   "juist": 0,
+   "uitleg": "Het stabilo staat in de neerstroming van de vleugel en wordt daardoor onder een kleinere effectieve invalshoek aangestroomd."
+  },
+  {
+   "v": "Hoe verhoudt de druk direct boven een liftgevende vleugel zich tot de omgevingsdruk?",
+   "a": [
+    "Hij is gelijk aan de omgevingsdruk",
+    "Hij is hoger dan de omgevingsdruk",
+    "Hij is lager dan de omgevingsdruk",
+    "Hij is gelijk aan de totale druk"
+   ],
+   "juist": 2,
+   "uitleg": "Boven de vleugel stroomt de lucht sneller, dus is de statische druk daar lager dan de omgevingsdruk."
+  },
+  {
+   "v": "Wat doet het drukpunt van een gewelfd profiel als de invalshoek toeneemt (tot aan de overtrek)?",
+   "a": [
+    "Het verschuift naar achteren",
+    "Het verschuift naar voren",
+    "Het blijft precies op 25% van de koorde",
+    "Het verschuift naar de vleugeltip"
+   ],
+   "juist": 1,
+   "uitleg": "Bij toenemende invalshoek wandelt het drukpunt naar voren; pas bij de overtrek schiet het weer naar achteren."
+  },
+  {
+   "v": "Waar ligt het aerodynamisch centrum van een normaal vleugelprofiel ongeveer?",
+   "a": [
+    "Op ongeveer 25% van de koorde achter de neus",
+    "Op ongeveer 50% van de koorde",
+    "Op ongeveer 75% van de koorde",
+    "Precies op de achterrand"
+   ],
+   "juist": 0,
+   "uitleg": "Het aerodynamisch centrum ligt bij ongeveer een kwart van de koorde; daaromheen is het moment vrijwel constant."
+  },
+  {
+   "v": "Welke formule geeft de liftkracht?",
+   "a": [
+    "L = Cl x rho x v x S",
+    "L = Cl x 0,5 x rho x v kwadraat x S",
+    "L = Cd x 0,5 x rho x v kwadraat x S",
+    "L = Cl x 0,5 x rho x v x S kwadraat"
+   ],
+   "juist": 1,
+   "uitleg": "Lift = liftcoefficient maal dynamische druk (een half rho v kwadraat) maal vleugeloppervlak."
+  },
+  {
+   "v": "De snelheid wordt verdubbeld bij gelijkblijvende liftcoefficient en dichtheid. Wat gebeurt er met de lift?",
+   "a": [
+    "Hij verdubbelt",
+    "Hij blijft gelijk",
+    "Hij wordt acht keer zo groot",
+    "Hij wordt vier keer zo groot"
+   ],
+   "juist": 3,
+   "uitleg": "Lift is evenredig met het kwadraat van de snelheid: twee keer zo snel geeft vier keer zoveel lift."
+  },
+  {
+   "v": "Wat is de invalshoek?",
+   "a": [
+    "De hoek tussen de koorde en de langsas",
+    "De hoek tussen de langsas en de horizon",
+    "De hoek tussen de koorde en de aanstromende lucht",
+    "De hoek tussen de vliegbaan en de horizon"
+   ],
+   "juist": 2,
+   "uitleg": "De invalshoek is de hoek tussen de profielkoorde en de richting van de aanstromende lucht."
+  },
+  {
+   "v": "Wat is de instelhoek van de vleugel?",
+   "a": [
+    "De vaste hoek tussen de vleugelkoorde en de langsas van de romp",
+    "De hoek tussen de koorde en de relatieve wind",
+    "De hoek tussen de vleugel en het stabilo",
+    "De hoek die met de trim wordt ingesteld"
+   ],
+   "juist": 0,
+   "uitleg": "De instelhoek is de vaste bouwhoek tussen koorde en langsas en verandert niet tijdens de vlucht."
+  },
+  {
+   "v": "Waarvan hangt de liftcoefficient Cl vooral af?",
+   "a": [
+    "Van luchtdichtheid en snelheid",
+    "Van de invalshoek en de profielvorm",
+    "Van het vleugeloppervlak",
+    "Van de vleugelbelasting"
+   ],
+   "juist": 1,
+   "uitleg": "Cl wordt bepaald door de invalshoek en de vorm (welving) van het profiel."
+  },
+  {
+   "v": "Hoe verloopt de liftcoefficient als functie van de invalshoek?",
+   "a": [
+    "Hij is constant",
+    "Hij neemt kwadratisch toe tot de kritieke invalshoek",
+    "Hij neemt vrijwel lineair toe tot nabij de kritieke invalshoek en zakt daarna in",
+    "Hij neemt af bij toenemende invalshoek"
+   ],
+   "juist": 2,
+   "uitleg": "Tot vlak voor de kritieke invalshoek stijgt Cl vrijwel lineair; daarboven stort hij in door loslating."
+  },
+  {
+   "v": "Bij welke invalshoek wordt de maximale liftcoefficient bereikt?",
+   "a": [
+    "Bij 0 graden",
+    "Bij de invalshoek van het beste glijgetal",
+    "Bij een kleine negatieve invalshoek",
+    "Bij de kritieke invalshoek"
+   ],
+   "juist": 3,
+   "uitleg": "Cl-max wordt precies bij de kritieke invalshoek bereikt; daarboven treedt de overtrek op."
+  },
+  {
+   "v": "Je verhoogt de snelheid in stationaire rechtlijnige vlucht. Wat moet er met de invalshoek gebeuren om de lift gelijk te houden?",
+   "a": [
+    "Hij moet kleiner worden",
+    "Hij moet groter worden",
+    "Hij blijft vanzelf gelijk",
+    "Hij moet eerst groter en dan kleiner worden"
+   ],
+   "juist": 0,
+   "uitleg": "Bij hogere snelheid is minder Cl nodig voor dezelfde lift, dus vlieg je met een kleinere invalshoek."
+  },
+  {
+   "v": "Welke formule geeft de weerstand?",
+   "a": [
+    "D = Cd x rho x v kwadraat x S",
+    "D = Cl x 0,5 x rho x v kwadraat x S",
+    "D = Cd x 0,5 x rho x v kwadraat x S",
+    "D = Cd x 0,5 x rho x v x S"
+   ],
+   "juist": 2,
+   "uitleg": "Weerstand = weerstandscoefficient maal dynamische druk maal vleugeloppervlak."
+  },
+  {
+   "v": "Bij welke verhouding vliegt een zwever met het beste glijgetal?",
+   "a": [
+    "Bij maximale Cl",
+    "Bij de maximale verhouding Cl/Cd",
+    "Bij minimale Cd",
+    "Bij de kritieke invalshoek"
+   ],
+   "juist": 1,
+   "uitleg": "Het beste glijgetal hoort bij de invalshoek waar de verhouding lift/weerstand (Cl/Cd) maximaal is."
+  },
+  {
+   "v": "Hoeveel lift levert een symmetrisch profiel bij een invalshoek van 0 graden?",
+   "a": [
+    "Geen lift",
+    "Maximale lift",
+    "Ongeveer de helft van de maximale lift",
+    "Negatieve lift"
+   ],
+   "juist": 0,
+   "uitleg": "Bij een symmetrisch profiel zijn boven- en onderzijde gelijk, dus bij 0 graden invalshoek is er geen drukverschil en geen lift."
+  },
+  {
+   "v": "Bij welke invalshoek levert een gewelfd profiel geen lift?",
+   "a": [
+    "Bij 0 graden",
+    "Bij de kritieke invalshoek",
+    "Bij een kleine positieve invalshoek",
+    "Bij een kleine negatieve invalshoek"
+   ],
+   "juist": 3,
+   "uitleg": "Door de welving levert het profiel bij 0 graden al lift; de nullift ligt bij een kleine negatieve invalshoek."
+  },
+  {
+   "v": "De luchtdichtheid halveert terwijl ware snelheid, Cl en oppervlak gelijk blijven. Wat gebeurt er met de lift?",
+   "a": [
+    "Hij verdubbelt",
+    "Hij halveert",
+    "Hij blijft gelijk",
+    "Hij wordt een kwart"
+   ],
+   "juist": 1,
+   "uitleg": "Lift is recht evenredig met de luchtdichtheid: halve dichtheid geeft halve lift."
+  },
+  {
+   "v": "Wat is het drukpunt van een vleugel?",
+   "a": [
+    "Het punt waar de statische druk het hoogst is",
+    "Het punt op 25% van de koorde",
+    "Het aangrijpingspunt van de resulterende luchtkracht",
+    "Het punt waar de grenslaag omslaat"
+   ],
+   "juist": 2,
+   "uitleg": "Het drukpunt is het punt op de koorde waar de resulterende luchtkracht aangrijpt."
+  },
+  {
+   "v": "Hoe is de lift gedefinieerd ten opzichte van de aanstromende lucht?",
+   "a": [
+    "Loodrecht op de aanstroomrichting",
+    "Evenwijdig aan de aanstroomrichting",
+    "Loodrecht op de horizon",
+    "Evenwijdig aan de langsas"
+   ],
+   "juist": 0,
+   "uitleg": "Lift is de component van de luchtkracht loodrecht op de aanstroomrichting."
+  },
+  {
+   "v": "Hoe is de weerstand gedefinieerd?",
+   "a": [
+    "Loodrecht op de vliegbaan",
+    "Loodrecht op de koorde",
+    "Altijd horizontaal naar achteren",
+    "Evenwijdig aan de aanstroomrichting, tegengesteld aan de beweging"
+   ],
+   "juist": 3,
+   "uitleg": "Weerstand is de component van de luchtkracht evenwijdig aan de aanstroming, tegen de bewegingsrichting in."
+  },
+  {
+   "v": "Welke krachten zijn in een stationaire glijvlucht met elkaar in evenwicht?",
+   "a": [
+    "Lift en gewicht zijn altijd exact even groot",
+    "De resultante van lift en weerstand is even groot en tegengesteld aan het gewicht",
+    "Weerstand en gewicht heffen elkaar op",
+    "Lift en weerstand heffen elkaar op"
+   ],
+   "juist": 1,
+   "uitleg": "In een stationaire glijvlucht houdt de resultante van lift en weerstand het gewicht precies in evenwicht."
+  },
+  {
+   "v": "Wat gebeurt er met de glijhoek als het vlieggewicht toeneemt (rustige lucht)?",
+   "a": [
+    "De glijhoek blijft gelijk, de bijbehorende snelheid wordt hoger",
+    "De glijhoek wordt steiler",
+    "De glijhoek wordt vlakker",
+    "De glijhoek wordt steiler en de snelheid lager"
+   ],
+   "juist": 0,
+   "uitleg": "De glijhoek hangt alleen af van de verhouding Cl/Cd; meer gewicht geeft dezelfde glijhoek bij een hogere snelheid."
+  },
+  {
+   "v": "Wat gebeurt er met de liftcoefficient bij gelijke invalshoek als een welvingklep (flap) naar beneden wordt uitgeslagen?",
+   "a": [
+    "Hij wordt kleiner",
+    "Hij blijft gelijk",
+    "Hij wordt groter",
+    "Hij wordt eerst kleiner en dan groter"
+   ],
+   "juist": 2,
+   "uitleg": "Een neergaande flap vergroot de welving van het profiel en daarmee de liftcoefficient bij dezelfde invalshoek."
+  },
+  {
+   "v": "Met welke liftcoefficient vlieg je vlak boven de minimumsnelheid?",
+   "a": [
+    "Met een kleine Cl",
+    "Met een negatieve Cl",
+    "Met Cl ongeveer nul",
+    "Met een grote Cl, dicht bij Cl-max"
+   ],
+   "juist": 3,
+   "uitleg": "Bij lage snelheid is een grote Cl nodig om voldoende lift te houden; vlak boven de minimumsnelheid vlieg je dicht bij Cl-max."
+  },
+  {
+   "v": "Waardoor wordt de minimumsnelheid van een zwever bepaald?",
+   "a": [
+    "Door de maximale liftcoefficient en de vleugelbelasting",
+    "Door de maximale weerstand",
+    "Door de lengte van de romp",
+    "Door de stand van de remkleppen alleen"
+   ],
+   "juist": 0,
+   "uitleg": "De minimumsnelheid volgt uit Cl-max en de vleugelbelasting (gewicht per vierkante meter vleugel)."
+  },
+  {
+   "v": "Het vlieggewicht neemt met 44% toe. Wat gebeurt er ongeveer met de overtreksnelheid?",
+   "a": [
+    "Zij neemt met 44% toe",
+    "Zij neemt met ongeveer 20% toe",
+    "Zij blijft gelijk",
+    "Zij neemt met 10% af"
+   ],
+   "juist": 1,
+   "uitleg": "De overtreksnelheid is evenredig met de wortel uit het gewicht: wortel uit 1,44 is 1,2, dus ongeveer 20% hoger."
+  },
+  {
+   "v": "Wat is het gevolg van insecten en vuil op de vleugelneus?",
+   "a": [
+    "Alleen de overtreksnelheid daalt",
+    "Er verandert vrijwel niets",
+    "Het glijgetal wordt beter door de ruwere vleugel",
+    "De maximale liftcoefficient daalt en de weerstand neemt toe"
+   ],
+   "juist": 3,
+   "uitleg": "Verontreiniging verstoort de grenslaag: Cl-max daalt, de weerstand stijgt en de prestaties verslechteren."
+  },
+  {
+   "v": "Wat is het effect van een natte vleugel (regen) op de vliegeigenschappen?",
+   "a": [
+    "Betere prestaties door een gladder oppervlak",
+    "Geen merkbaar effect",
+    "Slechtere prestaties en een hogere overtreksnelheid",
+    "Alleen een lagere maximumsnelheid"
+   ],
+   "juist": 2,
+   "uitleg": "Waterdruppels verstoren de stroming: het glijgetal verslechtert en de overtreksnelheid stijgt, dus houd extra snelheid aan."
+  },
+  {
+   "v": "Wat hoort er bij het vliegen met het beste glijgetal?",
+   "a": [
+    "De grootst mogelijke invalshoek",
+    "Een bepaalde vaste invalshoek en bijbehorende snelheid",
+    "De kleinst mogelijke invalshoek",
+    "Elke invalshoek, zolang de snelheid maar constant is"
+   ],
+   "juist": 1,
+   "uitleg": "Het beste glijgetal hoort bij precies een invalshoek, namelijk die met maximale Cl/Cd."
+  },
+  {
+   "v": "Wat is de koorde van een vleugelprofiel?",
+   "a": [
+    "De lijn midden tussen boven- en onderzijde",
+    "De grootste dikte van het profiel",
+    "De rechte lijn van de neus naar de achterrand van het profiel",
+    "De afstand tussen de vleugeltips"
+   ],
+   "juist": 2,
+   "uitleg": "De koorde is de rechte verbindingslijn tussen de voorste en achterste punt van het profiel."
+  },
+  {
+   "v": "Wat is de welving van een profiel?",
+   "a": [
+    "De kromming van de skeletlijn ten opzichte van de koorde",
+    "De dikte van het profiel",
+    "De hoek tussen koorde en langsas",
+    "De ronding van de vleugeltip"
+   ],
+   "juist": 0,
+   "uitleg": "De welving geeft aan hoe sterk de skeletlijn van het profiel gekromd is ten opzichte van de koorde."
+  },
+  {
+   "v": "Wat is de spanwijdte?",
+   "a": [
+    "De lengte van de romp",
+    "De breedte van de vleugel bij de wortel",
+    "De oppervlakte van beide vleugels samen",
+    "De afstand van vleugeltip tot vleugeltip"
+   ],
+   "juist": 3,
+   "uitleg": "De spanwijdte is de totale afstand tussen de beide vleugeltips."
+  },
+  {
+   "v": "Hoe wordt de slankheid van een vleugel berekend?",
+   "a": [
+    "Spanwijdte gedeeld door de koorde aan de wortel",
+    "Spanwijdte in het kwadraat gedeeld door het vleugeloppervlak",
+    "Vleugeloppervlak gedeeld door de spanwijdte",
+    "Gewicht gedeeld door het vleugeloppervlak"
+   ],
+   "juist": 1,
+   "uitleg": "De slankheid (aspect ratio) is spanwijdte in het kwadraat gedeeld door het vleugeloppervlak."
+  },
+  {
+   "v": "Een zwever heeft een spanwijdte van 15 m en een vleugeloppervlak van 9 vierkante meter. Wat is de slankheid?",
+   "a": [
+    "1,7",
+    "15",
+    "25",
+    "135"
+   ],
+   "juist": 2,
+   "uitleg": "Slankheid = 15 x 15 / 9 = 225 / 9 = 25."
+  },
+  {
+   "v": "Wat is het aerodynamische voordeel van een grote slankheid?",
+   "a": [
+    "Lagere wrijvingsweerstand",
+    "Hogere maximale liftcoefficient",
+    "Betere rolbesturing",
+    "Kleinere geinduceerde weerstand"
+   ],
+   "juist": 3,
+   "uitleg": "Hoe slanker de vleugel, hoe zwakker de tipwervels relatief zijn en hoe kleiner de geinduceerde weerstand."
+  },
+  {
+   "v": "Wat is de vleugelbelasting?",
+   "a": [
+    "Het vlieggewicht gedeeld door het vleugeloppervlak",
+    "De maximale belastingsfactor",
+    "De kracht op de vleugel tijdens de lierstart",
+    "Het gewicht van de vleugel zelf"
+   ],
+   "juist": 0,
+   "uitleg": "De vleugelbelasting is het vlieggewicht per vierkante meter vleugeloppervlak."
+  },
+  {
+   "v": "Wat is het gevolg van een hogere vleugelbelasting?",
+   "a": [
+    "Een lagere overtreksnelheid",
+    "Alle karakteristieke snelheden worden hoger",
+    "Beter klimmen in zwakke thermiek",
+    "Een steilere glijhoek in rustige lucht"
+   ],
+   "juist": 1,
+   "uitleg": "Bij een hogere vleugelbelasting verschuiven overtreksnelheid, snelheid van minimaal dalen en beste glijsnelheid allemaal omhoog."
+  },
+  {
+   "v": "Wat is de skeletlijn van een profiel?",
+   "a": [
+    "De rechte lijn van neus naar achterrand",
+    "De omtreklijn van het profiel",
+    "De lijn door het zwaartepunt van het profiel",
+    "De lijn die overal midden tussen boven- en onderzijde ligt"
+   ],
+   "juist": 3,
+   "uitleg": "De skeletlijn ligt overal precies midden tussen de boven- en onderzijde van het profiel."
+  },
+  {
+   "v": "Hoe wordt de profieldikte meestal aangegeven?",
+   "a": [
+    "In centimeters",
+    "Als percentage van de spanwijdte",
+    "Als percentage van de koorde",
+    "Als percentage van het vleugeloppervlak"
+   ],
+   "juist": 2,
+   "uitleg": "De dikte van een profiel wordt uitgedrukt als percentage van de koordelengte."
+  },
+  {
+   "v": "Welke liftverdeling over de spanwijdte geeft de kleinste geinduceerde weerstand?",
+   "a": [
+    "Een rechthoekige verdeling",
+    "Een elliptische verdeling",
+    "Een driehoekige verdeling",
+    "Een verdeling met het maximum bij de tips"
+   ],
+   "juist": 1,
+   "uitleg": "Een elliptische liftverdeling geeft theoretisch de kleinste geinduceerde weerstand."
+  },
+  {
+   "v": "Wat is het doel van winglets?",
+   "a": [
+    "De tipwervels verzwakken en zo de geinduceerde weerstand verkleinen",
+    "De vleugel stijver maken",
+    "De rolroeren effectiever maken",
+    "De wrijvingsweerstand verkleinen"
+   ],
+   "juist": 0,
+   "uitleg": "Winglets hinderen de omstroming van de tip, verzwakken de tipwervels en verlagen zo de geinduceerde weerstand."
+  },
+  {
+   "v": "Waarvoor dient de V-stelling van de vleugels?",
+   "a": [
+    "Voor een lagere overtreksnelheid",
+    "Voor minder geinduceerde weerstand",
+    "Voor de dwarsstabiliteit",
+    "Voor een hogere maximumsnelheid"
+   ],
+   "juist": 2,
+   "uitleg": "V-stelling zorgt dat bij het slippen naar de lage vleugel die vleugel meer lift krijgt en het toestel zichzelf opricht."
+  },
+  {
+   "v": "Wat is wrong (schranking) in een vleugel?",
+   "a": [
+    "Een beschadiging van de vleugelhuid",
+    "Een naar boven gebogen vleugeltip",
+    "De pijlvorm van de vleugel",
+    "De tip staat onder een kleinere instelhoek dan de wortel"
+   ],
+   "juist": 3,
+   "uitleg": "Bij wrong is de vleugel verdraaid gebouwd: de tip heeft een kleinere instelhoek dan de wortel."
+  },
+  {
+   "v": "Waarom is wrong in de vleugel aangebracht?",
+   "a": [
+    "Om de vleugel lichter te maken",
+    "Zodat de tip later overtrekt dan de wortel",
+    "Om de geinduceerde weerstand te vergroten",
+    "Om sneller te kunnen rollen"
+   ],
+   "juist": 1,
+   "uitleg": "Door de kleinere invalshoek aan de tip overtrekt eerst de wortel, zodat de rolroeren blijven werken."
+  },
+  {
+   "v": "Waarvoor wordt de gemiddelde aerodynamische koorde (MAC) onder andere gebruikt?",
+   "a": [
+    "Voor het aangeven van de zwaartepuntsligging",
+    "Voor het berekenen van de spanwijdte",
+    "Voor het bepalen van de kabelbreuklast",
+    "Voor het instellen van de trim"
+   ],
+   "juist": 0,
+   "uitleg": "De zwaartepuntsligging wordt vaak uitgedrukt als percentage van de gemiddelde aerodynamische koorde."
+  },
+  {
+   "v": "Twee vleugels hebben hetzelfde oppervlak; de ene heeft een grotere spanwijdte. Welke uitspraak klopt?",
+   "a": [
+    "De vleugel met de grotere spanwijdte heeft een kleinere slankheid",
+    "Beide vleugels hebben dezelfde slankheid",
+    "De vleugel met de grotere spanwijdte heeft een grotere slankheid",
+    "Slankheid hangt niet van de spanwijdte af"
+   ],
+   "juist": 2,
+   "uitleg": "Bij gelijk oppervlak neemt de slankheid toe met het kwadraat van de spanwijdte."
+  },
+  {
+   "v": "Wat is kenmerkend voor een relatief dik vleugelprofiel?",
+   "a": [
+    "Een lage maximale liftcoefficient",
+    "Een hoge maximale liftcoefficient, maar meer weerstand bij hoge snelheid",
+    "Weinig weerstand bij hoge snelheid",
+    "Alleen geschikt voor kunstvluchten"
+   ],
+   "juist": 1,
+   "uitleg": "Dikke profielen halen een hoge Cl-max, maar betalen daarvoor met meer weerstand bij hogere snelheden."
+  },
+  {
+   "v": "Wat is kenmerkend voor een laminaarprofiel?",
+   "a": [
+    "Het is ongevoelig voor regen en insecten",
+    "Het heeft altijd een scherpe neus en geen welving",
+    "Het werkt alleen bij lage snelheden",
+    "Het houdt de grenslaag over een groot deel van de koorde laminair en is gevoelig voor verontreiniging"
+   ],
+   "juist": 3,
+   "uitleg": "Laminaarprofielen houden de grenslaag lang laminair voor weinig weerstand, maar vuil of regen verstoort dat snel."
+  },
+  {
+   "v": "Wat doet waterballast met de vleugelbelasting?",
+   "a": [
+    "Die wordt groter",
+    "Die wordt kleiner",
+    "Die blijft gelijk",
+    "Die wordt eerst kleiner en daarna groter"
+   ],
+   "juist": 0,
+   "uitleg": "Waterballast verhoogt het vlieggewicht en daarmee de vleugelbelasting."
+  },
+  {
+   "v": "Waar staat de S in de liftformule voor?",
+   "a": [
+    "De spanwijdte",
+    "Het vleugeloppervlak",
+    "De slankheid",
+    "De snelheid"
+   ],
+   "juist": 1,
+   "uitleg": "S is het vleugeloppervlak in vierkante meters."
+  },
+  {
+   "v": "Onder welke hoek staat de nulliftrichting van een gewelfd profiel ten opzichte van de koorde?",
+   "a": [
+    "Precies langs de koorde",
+    "Onder een positieve hoek van ongeveer 10 graden",
+    "Onder een kleine negatieve hoek",
+    "Loodrecht op de koorde"
+   ],
+   "juist": 2,
+   "uitleg": "Een gewelfd profiel levert pas geen lift bij een kleine negatieve invalshoek; de nulliftrichting ligt dus iets onder de koorde."
+  },
+  {
+   "v": "Een zwever weegt 400 kg en heeft 10 vierkante meter vleugeloppervlak. Wat is de vleugelbelasting?",
+   "a": [
+    "40 kg per vierkante meter",
+    "4 kg per vierkante meter",
+    "400 kg per vierkante meter",
+    "25 kg per vierkante meter"
+   ],
+   "juist": 0,
+   "uitleg": "Vleugelbelasting = 400 kg / 10 vierkante meter = 40 kg per vierkante meter."
+  },
+  {
+   "v": "Waarom hebben openklasse-zwevers een zeer grote spanwijdte en slankheid?",
+   "a": [
+    "Voor een lagere landingssnelheid",
+    "Voor een betere rolbesturing",
+    "Omdat ze anders niet sterk genoeg zijn",
+    "Voor een zo goed mogelijk glijgetal"
+   ],
+   "juist": 3,
+   "uitleg": "Een grote slankheid verlaagt de geinduceerde weerstand en levert zo een hoog glijgetal op."
+  },
+  {
+   "v": "Waarom staat het stabilo vaak onder een andere instelhoek dan de vleugel?",
+   "a": [
+    "Om de rolstabiliteit te vergroten",
+    "Om de romp korter te kunnen maken",
+    "Voor het evenwicht en de stabiliteit om de dwarsas",
+    "Om de geinduceerde weerstand van de vleugel te verkleinen"
+   ],
+   "juist": 2,
+   "uitleg": "Het instelhoekverschil tussen vleugel en stabilo zorgt voor momentenevenwicht en langsstabiliteit."
+  },
+  {
+   "v": "Waaruit bestaat de totale weerstand van een zwever?",
+   "a": [
+    "Alleen uit vormweerstand",
+    "Alleen uit geinduceerde weerstand",
+    "Uit vormweerstand min geinduceerde weerstand",
+    "Uit geinduceerde weerstand plus parasitaire weerstand (vorm, wrijving, interferentie)"
+   ],
+   "juist": 3,
+   "uitleg": "De totale weerstand is de som van de geinduceerde weerstand en de parasitaire weerstand."
+  },
+  {
+   "v": "Wat is de oorzaak van de geinduceerde weerstand?",
+   "a": [
+    "Wrijving in de grenslaag",
+    "De drukvereffening om de vleugeltips en de daarbij ontstane tipwervels",
+    "De vorm van de romp",
+    "Ruwheid van het vleugeloppervlak"
+   ],
+   "juist": 1,
+   "uitleg": "Geinduceerde weerstand is het onvermijdelijke bijproduct van lift: de drukvereffening om de tips wekt wervels op die energie kosten."
+  },
+  {
+   "v": "Wat gebeurt er met de geinduceerde weerstand als de snelheid toeneemt?",
+   "a": [
+    "Hij neemt af",
+    "Hij neemt toe",
+    "Hij blijft gelijk",
+    "Hij neemt kwadratisch toe"
+   ],
+   "juist": 0,
+   "uitleg": "Bij hogere snelheid is een kleinere Cl nodig; de geinduceerde weerstand neemt af, ongeveer met het kwadraat van de snelheid."
+  },
+  {
+   "v": "Hoe verandert de vormweerstand met de snelheid?",
+   "a": [
+    "Hij blijft constant",
+    "Hij neemt af met het kwadraat van de snelheid",
+    "Hij neemt toe met het kwadraat van de snelheid",
+    "Hij neemt lineair af"
+   ],
+   "juist": 2,
+   "uitleg": "Vormweerstand groeit met de dynamische druk en dus met het kwadraat van de snelheid."
+  },
+  {
+   "v": "Bij welke conditie is de totale weerstand minimaal?",
+   "a": [
+    "Als de geinduceerde weerstand nul is",
+    "Bij de maximale snelheid",
+    "Bij de minimumsnelheid",
+    "Als geinduceerde en parasitaire weerstand ongeveer even groot zijn"
+   ],
+   "juist": 3,
+   "uitleg": "Het minimum van de totale weerstand ligt waar de dalende geinduceerde en de stijgende parasitaire weerstand elkaar snijden."
+  },
+  {
+   "v": "Hoe stroomt de lucht bij een liftgevende vleugel rond de tips?",
+   "a": [
+    "Aan de onderzijde naar buiten en aan de bovenzijde naar binnen",
+    "Aan de bovenzijde naar buiten en aan de onderzijde naar binnen",
+    "Aan beide zijden naar binnen",
+    "Aan beide zijden naar buiten"
+   ],
+   "juist": 0,
+   "uitleg": "De hogere druk onder de vleugel drijft de lucht naar buiten en om de tip naar de lagere druk boven de vleugel."
+  },
+  {
+   "v": "Waar ontstaat interferentieweerstand vooral?",
+   "a": [
+    "Aan de vleugeltips",
+    "Bij de overgang van vleugel naar romp",
+    "In de grenslaag van de vleugel",
+    "Achter het stabilo"
+   ],
+   "juist": 1,
+   "uitleg": "Waar stromingen van verschillende delen elkaar ontmoeten, zoals bij de vleugel-rompovergang, ontstaat interferentieweerstand."
+  },
+  {
+   "v": "Waar ontstaat de wrijvingsweerstand?",
+   "a": [
+    "In de tipwervels",
+    "In de vrije luchtstroom ver van het vliegtuig",
+    "In de grenslaag langs het oppervlak",
+    "Alleen op de romp"
+   ],
+   "juist": 2,
+   "uitleg": "Wrijvingsweerstand ontstaat door de schuifkrachten in de grenslaag over het hele oppervlak."
+  },
+  {
+   "v": "Welke weerstand levert bij langzaam cirkelen in thermiek het grootste aandeel?",
+   "a": [
+    "De geinduceerde weerstand",
+    "De wrijvingsweerstand",
+    "De interferentieweerstand",
+    "De vormweerstand van de romp"
+   ],
+   "juist": 0,
+   "uitleg": "Bij lage snelheid en grote Cl is de geinduceerde weerstand veruit het grootst."
+  },
+  {
+   "v": "Hoe wordt interferentieweerstand bij het ontwerp verminderd?",
+   "a": [
+    "Met winglets",
+    "Met een dunner profiel",
+    "Met wrong in de vleugel",
+    "Met vloeiende overgangen tussen romp en vleugel"
+   ],
+   "juist": 3,
+   "uitleg": "Vloeiende, afgeronde overgangen (fairings) verminderen de wederzijdse verstoring van de stromingen."
+  },
+  {
+   "v": "Welke weerstand neemt vooral toe bij het openen van de remkleppen?",
+   "a": [
+    "De geinduceerde weerstand",
+    "De wrijvingsweerstand",
+    "De vormweerstand",
+    "De interferentieweerstand"
+   ],
+   "juist": 2,
+   "uitleg": "Remkleppen steken dwars in de stroming en vergroten vooral de vormweerstand."
+  },
+  {
+   "v": "Waarvoor wordt een slipvlucht gebruikt?",
+   "a": [
+    "Om sneller te klimmen",
+    "Om extra weerstand te maken en steiler te dalen zonder snelheidstoename",
+    "Om de overtreksnelheid te verlagen",
+    "Om de geinduceerde weerstand te verkleinen"
+   ],
+   "juist": 1,
+   "uitleg": "In een slip wordt de romp schuin aangestroomd; de extra weerstand maakt een steilere nadering mogelijk."
+  },
+  {
+   "v": "De snelheid verdubbelt. Wat gebeurt er met de parasitaire weerstand?",
+   "a": [
+    "Hij blijft gelijk",
+    "Hij verdubbelt",
+    "Hij halveert",
+    "Hij wordt ongeveer vier keer zo groot"
+   ],
+   "juist": 3,
+   "uitleg": "Parasitaire weerstand is evenredig met het kwadraat van de snelheid: twee keer zo snel is vier keer zoveel weerstand."
+  },
+  {
+   "v": "Twee gelijke zwevers vliegen even snel; de een is zwaarder beladen. Welke heeft de grootste geinduceerde weerstand?",
+   "a": [
+    "De zwaardere",
+    "De lichtere",
+    "Beide evenveel",
+    "Dat hangt alleen van de rompvorm af"
+   ],
+   "juist": 0,
+   "uitleg": "De zwaardere heeft bij dezelfde snelheid een grotere Cl nodig en dus meer geinduceerde weerstand."
+  },
+  {
+   "v": "Hoe kan de ontwerper de geinduceerde weerstand het effectiefst verkleinen?",
+   "a": [
+    "Met een gladder oppervlak",
+    "Met een intrekbaar wiel",
+    "Met een grotere slankheid van de vleugel",
+    "Met een kleinere staart"
+   ],
+   "juist": 2,
+   "uitleg": "Geinduceerde weerstand neemt af naarmate de slankheid van de vleugel groter is."
+  },
+  {
+   "v": "Waarom neemt de wrijvingsweerstand toe bij een vervuilde vleugel?",
+   "a": [
+    "De vleugel wordt zwaarder",
+    "De grenslaag slaat eerder om naar turbulent",
+    "De tipwervels worden sterker",
+    "De statische druk neemt toe"
+   ],
+   "juist": 1,
+   "uitleg": "Ruwheid laat de grenslaag eerder omslaan naar turbulent, en een turbulente grenslaag geeft meer wrijvingsweerstand."
+  },
+  {
+   "v": "Wanneer zijn de tipwervels het sterkst?",
+   "a": [
+    "Bij hoge snelheid en laag gewicht",
+    "Bij hoge snelheid en veel wind",
+    "In een duikvlucht",
+    "Bij lage snelheid en hoog gewicht (grote liftcoefficient)"
+   ],
+   "juist": 3,
+   "uitleg": "Hoe groter de benodigde liftcoefficient, hoe groter het drukverschil en hoe sterker de tipwervels."
+  },
+  {
+   "v": "Hoe groot is de weerstand bij het vliegen met maximale liftcoefficient?",
+   "a": [
+    "Minimaal",
+    "Gemiddeld",
+    "Groot",
+    "Nul"
+   ],
+   "juist": 2,
+   "uitleg": "Bij Cl-max is de geinduceerde weerstand zeer groot en staat de stroming op het punt los te laten."
+  },
+  {
+   "v": "Waarom hebben veel zwevers een intrekbaar wiel?",
+   "a": [
+    "Om de vormweerstand te verkleinen",
+    "Om het zwaartepunt te verplaatsen",
+    "Om de geinduceerde weerstand te verkleinen",
+    "Om gewicht te besparen"
+   ],
+   "juist": 0,
+   "uitleg": "Een ingetrokken wiel steekt niet in de stroming en scheelt vormweerstand."
+  },
+  {
+   "v": "Hoe ontstaat de geinduceerde weerstand uit de neerstroming (downwash)?",
+   "a": [
+    "De downwash verlaagt de druk voor de vleugel",
+    "De liftvector kantelt door de downwash iets naar achteren; de achterwaartse component is de geinduceerde weerstand",
+    "De downwash remt de lucht boven de vleugel af",
+    "De downwash verhoogt de wrijving in de grenslaag"
+   ],
+   "juist": 1,
+   "uitleg": "Door de neerstroming staat de lift iets achterover gekanteld; de achterwaartse component daarvan is de geinduceerde weerstand."
+  },
+  {
+   "v": "Hoe verloopt de totale weerstand als functie van de snelheid?",
+   "a": [
+    "Hij neemt voortdurend toe met de snelheid",
+    "Hij neemt voortdurend af met de snelheid",
+    "Hij is hoog bij lage snelheid, heeft een minimum en stijgt daarna weer",
+    "Hij is constant"
+   ],
+   "juist": 2,
+   "uitleg": "Bij lage snelheid domineert de geinduceerde, bij hoge snelheid de parasitaire weerstand; daartussen ligt een minimum."
+  },
+  {
+   "v": "De snelheid verdubbelt. Wat gebeurt er ongeveer met de geinduceerde weerstand?",
+   "a": [
+    "Hij verdubbelt",
+    "Hij wordt vier keer zo groot",
+    "Hij halveert",
+    "Hij wordt ongeveer een kwart van de oorspronkelijke waarde"
+   ],
+   "juist": 3,
+   "uitleg": "Geinduceerde weerstand is omgekeerd evenredig met het kwadraat van de snelheid: twee keer zo snel geeft een kwart."
+  },
+  {
+   "v": "Waarvoor dient zigzagtape (turbulator) op sommige zwevers?",
+   "a": [
+    "Om de vleugel te beschermen tegen regen",
+    "Om de grenslaag gecontroleerd turbulent te maken en laminaire loslaatbellen te voorkomen",
+    "Om de tipwervels te verzwakken",
+    "Om ijsafzetting te voorkomen"
+   ],
+   "juist": 1,
+   "uitleg": "Een turbulator dwingt de grenslaag op de gewenste plek turbulent te worden, zodat schadelijke loslaatbellen verdwijnen."
+  },
+  {
+   "v": "Wat is een laminaire loslaatbel?",
+   "a": [
+    "Een gebied waar de laminaire grenslaag loslaat en verderop turbulent weer aanligt",
+    "Een luchtbel in de waterballast",
+    "Een wervel achter de vleugeltip",
+    "Een drukgolf voor de vleugelneus"
+   ],
+   "juist": 0,
+   "uitleg": "Bij een loslaatbel laat de laminaire grenslaag los, wordt turbulent en legt zich verderop weer tegen het profiel; dat kost extra weerstand."
+  },
+  {
+   "v": "Welke weerstand veroorzaken naden, kieren en een uitstekende antenne vooral?",
+   "a": [
+    "Geinduceerde weerstand",
+    "Alleen interferentieweerstand",
+    "Geen meetbare weerstand",
+    "Extra parasitaire weerstand"
+   ],
+   "juist": 3,
+   "uitleg": "Uitstekende delen en kieren verstoren de stroming en vergroten de parasitaire weerstand."
+  },
+  {
+   "v": "Wat geeft de snelheidspolaire van een zwever weer?",
+   "a": [
+    "De daalsnelheid als functie van de vliegsnelheid",
+    "De lift als functie van de invalshoek",
+    "De weerstand als functie van de hoogte",
+    "De klimsnelheid als functie van de thermieksterkte"
+   ],
+   "juist": 0,
+   "uitleg": "De polaire toont voor elke vliegsnelheid de bijbehorende daalsnelheid in rustige lucht."
+  },
+  {
+   "v": "Hoe vind je in de polaire de snelheid van het beste glijgetal?",
+   "a": [
+    "In het hoogste punt van de kromme",
+    "Bij de maximale snelheid",
+    "In het raakpunt van de raaklijn vanuit de oorsprong aan de polaire",
+    "In het laagste punt van de kromme"
+   ],
+   "juist": 2,
+   "uitleg": "De raaklijn vanuit de oorsprong raakt de polaire in het punt met de beste verhouding tussen voorwaartse en daalsnelheid."
+  },
+  {
+   "v": "Waar ligt in de polaire het punt van minimaal dalen?",
+   "a": [
+    "In het raakpunt van de raaklijn uit de oorsprong",
+    "In het hoogste punt van de kromme (kleinste daalsnelheid)",
+    "Bij de hoogst mogelijke snelheid",
+    "Bij de overtreksnelheid"
+   ],
+   "juist": 1,
+   "uitleg": "Het minimale dalen is het punt van de polaire met de kleinste daalsnelheid, de top van de kromme."
+  },
+  {
+   "v": "Hoe verhoudt de snelheid voor minimaal dalen zich tot de snelheid voor het beste glijgetal?",
+   "a": [
+    "Ze zijn altijd exact gelijk",
+    "Zij is hoger",
+    "Dat verschilt van dag tot dag",
+    "Zij is lager"
+   ],
+   "juist": 3,
+   "uitleg": "Minimaal dalen vlieg je bij een lagere snelheid dan het beste glijgetal."
+  },
+  {
+   "v": "Je vliegt op 1000 m hoogte met een glijgetal van 40 in stilstaande lucht. Hoe ver kun je theoretisch komen?",
+   "a": [
+    "40 km",
+    "25 km",
+    "4 km",
+    "10 km"
+   ],
+   "juist": 0,
+   "uitleg": "Glijgetal 40 betekent 40 m vooruit per meter hoogte: 1000 m x 40 = 40 km."
+  },
+  {
+   "v": "Wat betekent een glijgetal van 35?",
+   "a": [
+    "Een daalsnelheid van 35 m/s",
+    "35 m vooruit per meter hoogteverlies",
+    "35 km bereik per 100 m hoogte",
+    "1 m vooruit per 35 m hoogteverlies"
+   ],
+   "juist": 1,
+   "uitleg": "Het glijgetal is de verhouding tussen afgelegde afstand en hoogteverlies."
+  },
+  {
+   "v": "Hoe pas je je snelheid aan bij tegenwind om zo ver mogelijk te komen?",
+   "a": [
+    "Langzamer vliegen dan de snelheid van het beste glijgetal",
+    "Precies op de snelheid van het beste glijgetal blijven",
+    "Sneller vliegen dan de snelheid van het beste glijgetal",
+    "Op de snelheid van minimaal dalen vliegen"
+   ],
+   "juist": 2,
+   "uitleg": "Bij tegenwind vlieg je sneller dan de beste glijsnelheid om het gunstigste glijgetal over de grond te halen."
+  },
+  {
+   "v": "Hoe pas je je snelheid aan bij meewind om maximaal bereik te halen?",
+   "a": [
+    "Veel sneller vliegen dan het beste glijgetal",
+    "Precies op de snelheid van het beste glijgetal",
+    "Zo langzaam mogelijk, net boven de overtreksnelheid",
+    "Iets langzamer dan de snelheid van het beste glijgetal"
+   ],
+   "juist": 3,
+   "uitleg": "Bij meewind levert iets langzamer vliegen (richting minimaal dalen) het beste bereik over de grond."
+  },
+  {
+   "v": "Wat is het effect van waterballast op het beste glijgetal?",
+   "a": [
+    "Het wordt duidelijk beter",
+    "Het blijft vrijwel gelijk, maar wordt bij een hogere snelheid bereikt",
+    "Het wordt duidelijk slechter",
+    "Het wordt bij een lagere snelheid bereikt"
+   ],
+   "juist": 1,
+   "uitleg": "Extra gewicht verandert het glijgetal niet, maar verschuift de hele polaire naar hogere snelheden."
+  },
+  {
+   "v": "Wat is een nadeel van waterballast?",
+   "a": [
+    "Een hogere minimale daalsnelheid en slechter klimmen in zwakke thermiek",
+    "De maximumsnelheid neemt af",
+    "Het glijgetal bij hoge snelheid wordt slechter",
+    "De overtreksnelheid wordt lager"
+   ],
+   "juist": 0,
+   "uitleg": "Met ballast daal je sneller en moet je sneller cirkelen, wat in zwakke thermiek nadelig is."
+  },
+  {
+   "v": "Welke waarde stel je in op de MacCready-ring?",
+   "a": [
+    "De gemiddelde windsnelheid",
+    "De daalsnelheid van de zwever",
+    "De hoogte van de wolkenbasis",
+    "De verwachte klimsnelheid in de volgende thermiekbel"
+   ],
+   "juist": 3,
+   "uitleg": "De MacCready-waarde is het verwachte gemiddelde stijgen in de volgende thermiek."
+  },
+  {
+   "v": "Wat betekent een hogere MacCready-instelling voor de voorvliegsnelheid?",
+   "a": [
+    "Die wordt lager",
+    "Die blijft gelijk",
+    "Die wordt hoger",
+    "Die wordt gelijk aan de minimumsnelheid"
+   ],
+   "juist": 2,
+   "uitleg": "Hoe sterker het verwachte stijgen, hoe sneller je tussen de bellen moet vliegen."
+  },
+  {
+   "v": "Met welke snelheid vlieg je bij MacCready-instelling 0 in rustige lucht?",
+   "a": [
+    "De snelheid van het beste glijgetal",
+    "De snelheid van minimaal dalen",
+    "De maximale snelheid",
+    "De overtreksnelheid plus 10 km/h"
+   ],
+   "juist": 0,
+   "uitleg": "Bij MacCready 0 vlieg je in rustige lucht op de snelheid van het beste glijgetal."
+  },
+  {
+   "v": "Je vliegt door dalende lucht. Wat is de juiste tactiek voor de beste glijprestatie?",
+   "a": [
+    "Langzamer vliegen",
+    "Sneller vliegen om het daalgebied snel te doorkruisen",
+    "Dezelfde snelheid aanhouden",
+    "Direct omkeren"
+   ],
+   "juist": 1,
+   "uitleg": "In dalende lucht verlies je minder hoogte door het gebied met verhoogde snelheid snel te doorkruisen."
+  },
+  {
+   "v": "Je vliegt op steek door een gebied met stijgende lucht. Wat doe je volgens de MacCready-theorie?",
+   "a": [
+    "Sneller vliegen",
+    "Niets veranderen",
+    "De remkleppen openen",
+    "Langzamer vliegen (dolfijnvliegen)"
+   ],
+   "juist": 3,
+   "uitleg": "In stijgende lucht vlieg je langzamer om er langer van te profiteren; dat heet dolfijnvliegen."
+  },
+  {
+   "v": "Welke invloed heeft wind op het glijgetal?",
+   "a": [
+    "Wind verandert het glijgetal ten opzichte van de lucht",
+    "Tegenwind verbetert het glijgetal over de grond",
+    "Het glijgetal ten opzichte van de lucht verandert niet, maar over de grond wel",
+    "Wind heeft geen enkele invloed op het bereik"
+   ],
+   "juist": 2,
+   "uitleg": "Het glijgetal door de lucht blijft gelijk; alleen de afgelegde weg over de grond verandert door de wind."
+  },
+  {
+   "v": "Je vliegt 90 km/h (25 m/s) met een daalsnelheid van 0,5 m/s. Wat is het glijgetal?",
+   "a": [
+    "50",
+    "45",
+    "36",
+    "25"
+   ],
+   "juist": 0,
+   "uitleg": "Glijgetal = voorwaartse snelheid / daalsnelheid = 25 / 0,5 = 50."
+  },
+  {
+   "v": "Wat gebeurt er met je bereik over de grond bij sterke tegenwind?",
+   "a": [
+    "Het blijft gelijk",
+    "Het neemt toe",
+    "Het wordt alleen door de thermiek bepaald",
+    "Het neemt duidelijk af"
+   ],
+   "juist": 3,
+   "uitleg": "Tegenwind verkleint de grondsnelheid en daarmee de afstand die je per meter hoogte aflegt."
+  },
+  {
+   "v": "Waarom is de daalsnelheid tijdens het cirkelen in thermiek hoger dan bij rechtuit vliegen?",
+   "a": [
+    "Door de lagere luchtdichtheid in de bel",
+    "Door de verhoogde belastingsfactor en de grotere benodigde lift in de bocht",
+    "Door het openen van de kleppen",
+    "Alleen door de hogere snelheid"
+   ],
+   "juist": 1,
+   "uitleg": "In de bocht moet de vleugel meer lift leveren (n groter dan 1), waardoor de weerstand en de daalsnelheid toenemen."
+  },
+  {
+   "v": "Wanneer loos je normaal gesproken de waterballast?",
+   "a": [
+    "Direct na de start",
+    "Bij het bereiken van de wolkenbasis",
+    "Voor de landing of als de thermiek te zwak wordt",
+    "Nooit tijdens de vlucht"
+   ],
+   "juist": 2,
+   "uitleg": "Ballast loos je als hij geen voordeel meer oplevert: bij zwakke thermiek en in elk geval voor de (buiten)landing."
+  },
+  {
+   "v": "Wat is het gevolg van een te hoge MacCready-instelling?",
+   "a": [
+    "Je vliegt te langzaam en verliest tijd",
+    "Je klimt beter in de thermiek",
+    "Je komt altijd sneller aan",
+    "Je vliegt te snel, verliest extra hoogte en riskeert eerder een buitenlanding"
+   ],
+   "juist": 3,
+   "uitleg": "Een te hoge instelling geeft onnodig hoogteverlies zonder tijdwinst en vergroot het risico laag te komen."
+  },
+  {
+   "v": "Twee gelijke zwevers, een met volle waterballast, vliegen in sterke omstandigheden dezelfde opdracht. Wat is te verwachten?",
+   "a": [
+    "De zwaardere haalt een hogere gemiddelde reissnelheid",
+    "De lichtere is altijd sneller",
+    "Beide zijn exact even snel",
+    "De zwaardere kan de opdracht niet vliegen"
+   ],
+   "juist": 0,
+   "uitleg": "In sterke thermiek weegt het snellere voorvliegen van de zwaardere zwever ruimschoots op tegen het iets slechtere klimmen."
+  },
+  {
+   "v": "Je vliegt 150 km/h (ongeveer 42 m/s) met een daalsnelheid van 1,4 m/s. Wat is ongeveer het glijgetal?",
+   "a": [
+    "50",
+    "15",
+    "30",
+    "42"
+   ],
+   "juist": 2,
+   "uitleg": "Glijgetal = 42 / 1,4 = 30."
+  },
+  {
+   "v": "Wat is een realistisch beste glijgetal voor een moderne standaardklasse-zwever?",
+   "a": [
+    "Ongeveer 15",
+    "Ongeveer 40",
+    "Ongeveer 70",
+    "Ongeveer 90"
+   ],
+   "juist": 1,
+   "uitleg": "Moderne standaardklasse-zwevers halen een beste glijgetal van rond de 40."
+  },
+  {
+   "v": "Wat is het doel van de MacCready-theorie?",
+   "a": [
+    "De gemiddelde reissnelheid over de vlucht maximaliseren",
+    "De vlieghoogte maximaliseren",
+    "De belastingsfactor beperken",
+    "De thermiek beter vinden"
+   ],
+   "juist": 0,
+   "uitleg": "MacCready geeft de voorvliegsnelheid die de gemiddelde reissnelheid over klimmen en steken samen maximaliseert."
+  },
+  {
+   "v": "Wanneer treedt een overtrek (stall) op?",
+   "a": [
+    "Als de snelheid onder de 60 km/h komt",
+    "Als de kritieke invalshoek wordt overschreden",
+    "Als de remkleppen worden geopend",
+    "Alleen bij te weinig hoogteroer"
+   ],
+   "juist": 1,
+   "uitleg": "Een overtrek is altijd het gevolg van het overschrijden van de kritieke invalshoek, niet van een bepaalde snelheid."
+  },
+  {
+   "v": "Bij welke invalshoek ligt de kritieke invalshoek van een normaal profiel ongeveer?",
+   "a": [
+    "Ongeveer 4 graden",
+    "Ongeveer 30 graden",
+    "Ongeveer 45 graden",
+    "Ongeveer 16 graden"
+   ],
+   "juist": 3,
+   "uitleg": "Voor de meeste profielen ligt de kritieke invalshoek rond de 15 a 16 graden."
+  },
+  {
+   "v": "Bij welke snelheden kan een zwever overtrekken?",
+   "a": [
+    "Alleen onder de aangegeven overtreksnelheid",
+    "Alleen in langzame vlucht met de neus omhoog",
+    "Bij elke snelheid, als de kritieke invalshoek maar wordt overschreden",
+    "Alleen bij de minimumsnelheid uit het handboek"
+   ],
+   "juist": 2,
+   "uitleg": "Door hard te trekken kan de kritieke invalshoek ook bij hoge snelheid worden overschreden."
+  },
+  {
+   "v": "Wat zijn typische signalen van een naderende overtrek?",
+   "a": [
+    "Slappe, trage roeren, schudden en een relatief hoge neusstand met weinig geluid",
+    "Zware roerdruk en toenemend windgeruis",
+    "Sterk oplopende snelheid",
+    "Een dalende neus en toenemende g-krachten"
+   ],
+   "juist": 0,
+   "uitleg": "Bij lage snelheid worden de roeren slap, wordt het stil en kan het toestel gaan schudden."
+  },
+  {
+   "v": "Wat is de juiste eerste actie bij een overtrek?",
+   "a": [
+    "Vol tegengesteld rolroer geven",
+    "De knuppel naar voren om de invalshoek te verkleinen",
+    "De remkleppen openen",
+    "Hard aan de knuppel trekken"
+   ],
+   "juist": 1,
+   "uitleg": "Alleen het verkleinen van de invalshoek (knuppel naar voren) heft de overtrek op."
+  },
+  {
+   "v": "Wat gebeurt er met de overtreksnelheid als het vlieggewicht toeneemt?",
+   "a": [
+    "Zij wordt lager",
+    "Zij blijft gelijk",
+    "Zij wordt hoger",
+    "Zij wordt eerst hoger en dan lager"
+   ],
+   "juist": 2,
+   "uitleg": "Meer gewicht vraagt meer lift; de overtreksnelheid stijgt met de wortel uit het gewicht."
+  },
+  {
+   "v": "Met welke factor neemt de overtreksnelheid toe in een bocht met 60 graden dwarshelling?",
+   "a": [
+    "1,1",
+    "2,0",
+    "1,15",
+    "Ongeveer 1,41"
+   ],
+   "juist": 3,
+   "uitleg": "Bij 60 graden helling is n = 2; de overtreksnelheid stijgt met wortel 2, dus ongeveer 1,41 keer."
+  },
+  {
+   "v": "Hoe hangt de overtreksnelheid af van de belastingsfactor n?",
+   "a": [
+    "Zij neemt toe met de wortel uit n",
+    "Zij neemt toe met n in het kwadraat",
+    "Zij neemt lineair af met n",
+    "Zij is onafhankelijk van n"
+   ],
+   "juist": 0,
+   "uitleg": "De overtreksnelheid onder belasting is de normale overtreksnelheid maal de wortel uit n."
+  },
+  {
+   "v": "Wat kenmerkt een tolvlucht (vrille)?",
+   "a": [
+    "Een snelle spiraal met toenemende snelheid",
+    "Een symmetrische overtrek zonder rotatie",
+    "Autorotatie waarbij beide vleugels overtrokken zijn, de ene dieper dan de andere",
+    "Een gecontroleerde steile bocht"
+   ],
+   "juist": 2,
+   "uitleg": "In een tol draait het toestel autorotatief rond terwijl de vleugels overtrokken zijn, de binnenste het diepst."
+  },
+  {
+   "v": "Hoe ontstaat een tolvlucht?",
+   "a": [
+    "Door te snel vliegen in turbulentie",
+    "Door een overtrek in combinatie met gieren of schuiven",
+    "Door het openen van de remkleppen in de bocht",
+    "Door een te voorlijk zwaartepunt"
+   ],
+   "juist": 1,
+   "uitleg": "Een tol ontstaat als het toestel overtrekt terwijl het tegelijk giert of scheef wordt aangestroomd."
+  },
+  {
+   "v": "Wat is de standaardmethode om een tolvlucht te beeindigen?",
+   "a": [
+    "Rolroeren neutraal, vol voetenstuur tegen de draairichting, knuppel naar voren tot de rotatie stopt, dan afvangen",
+    "Vol rolroer tegen de draairichting en trekken",
+    "Remkleppen openen en trekken",
+    "Voetenstuur in de draairichting en knuppel naar achteren"
+   ],
+   "juist": 0,
+   "uitleg": "Standaardherstel: rolroer neutraal, tegengesteld voetenstuur, knuppel voor; pas na het stoppen van de rotatie voorzichtig afvangen."
+  },
+  {
+   "v": "Waaraan herken je het verschil tussen een tolvlucht en een spiraalduik?",
+   "a": [
+    "In een tolvlucht neemt de snelheid snel toe",
+    "In een spiraalduik blijft de snelheid laag",
+    "Er is geen verschil",
+    "In een spiraalduik nemen snelheid en belasting snel toe, in een tol blijft de snelheid laag"
+   ],
+   "juist": 3,
+   "uitleg": "In de tol blijft de snelheid laag en vrij constant; in een spiraalduik lopen snelheid en g-belasting snel op."
+  },
+  {
+   "v": "Hoe herstel je uit een spiraalduik?",
+   "a": [
+    "Voetenstuur tegen en knuppel voor, zoals bij een tol",
+    "Eerst met de rolroeren de dwarshelling wegnemen, dan voorzichtig afvangen",
+    "Direct hard trekken",
+    "Remkleppen dicht en trekken"
+   ],
+   "juist": 1,
+   "uitleg": "Eerst vlak rollen; direct trekken in de steile bocht zou de belasting en de bocht alleen maar verergeren."
+  },
+  {
+   "v": "Je maakt een bocht met te veel voetenstuur in de bochtrichting (schuivende bocht). Waarom is dat gevaarlijk?",
+   "a": [
+    "De snelheid loopt te hoog op",
+    "De buitenste vleugel overtrekt het eerst",
+    "De binnenste, langzamere vleugel kan overtrekken en het toestel kan in een tol raken",
+    "Het toestel gaat vanzelf slippen"
+   ],
+   "juist": 2,
+   "uitleg": "In een geschoven bocht kan de langzame binnenvleugel overtrekken, waardoor het toestel over die vleugel in een tol gaat."
+  },
+  {
+   "v": "In welke situatie is een overtrek het gevaarlijkst?",
+   "a": [
+    "In een lage, geschoven bocht naar de eindnadering",
+    "Op grote hoogte in rustige lucht",
+    "Tijdens oefeningen met een instructeur",
+    "In rechtlijnige vlucht op veilige hoogte"
+   ],
+   "juist": 0,
+   "uitleg": "Laag in het circuit is er onvoldoende hoogte om uit een overtrek of beginnende tol te herstellen."
+  },
+  {
+   "v": "Tijdens een overtrek valt een vleugel weg. Wat doe je?",
+   "a": [
+    "Vol rolroer tegen de wegvallende vleugel",
+    "Trekken en tegelijk rolroer geven",
+    "De remkleppen openen",
+    "Knuppel naar voren en het gieren stoppen met het voetenstuur, niet met rolroer corrigeren"
+   ],
+   "juist": 3,
+   "uitleg": "Eerst de invalshoek verkleinen en de rotatie met het voetenstuur stoppen; rolroer zou de overtrek verdiepen."
+  },
+  {
+   "v": "Waarom kan tegengesteld rolroer bij een wegvallende vleugel de situatie verergeren?",
+   "a": [
+    "Het rolroer werkt niet meer bij lage snelheid",
+    "Het neergaande rolroer vergroot de invalshoek van de al overtrokken vleugel nog verder",
+    "Het veroorzaakt een spiraalduik",
+    "Het verhoogt de snelheid te veel"
+   ],
+   "juist": 1,
+   "uitleg": "Het neergaande rolroer aan de wegvallende vleugel vergroot daar de invalshoek en verdiept de overtrek."
+  },
+  {
+   "v": "Waar begint de overtrek bij een goed ontworpen vleugel (met wrong)?",
+   "a": [
+    "Bij de vleugelwortel",
+    "Bij de vleugeltips",
+    "Over de hele spanwijdte tegelijk",
+    "Bij de rolroeren"
+   ],
+   "juist": 0,
+   "uitleg": "Door de wrong overtrekt de wortel eerst, zodat de rolroeren bij de tips blijven werken."
+  },
+  {
+   "v": "Wat is het effect van een achterlijk zwaartepunt op de tolvlucht?",
+   "a": [
+    "Een tol is dan onmogelijk",
+    "De tol stopt vanzelf sneller",
+    "Het toestel komt makkelijker in een tol en het herstel is moeilijker",
+    "Alleen de rotatiesnelheid neemt af"
+   ],
+   "juist": 2,
+   "uitleg": "Hoe verder het zwaartepunt naar achteren ligt, hoe eerder een tol ontstaat en hoe lastiger het herstel."
+  },
+  {
+   "v": "Waardoor ontstaat het schudden (buffeting) vlak voor de overtrek?",
+   "a": [
+    "Door resonantie van de romp",
+    "Door een te hoge snelheid",
+    "Door de tipwervels",
+    "Door losgelaten, wervelende stroming van de vleugel die het staartvlak treft"
+   ],
+   "juist": 3,
+   "uitleg": "De loslatende, turbulente stroming van de vleugel raakt het staartvlak en veroorzaakt het kenmerkende schudden."
+  },
+  {
+   "v": "Hoeveel hoogteverlies moet je per tolomwenteling ongeveer rekenen?",
+   "a": [
+    "Enkele tientallen tot ruim honderd meter",
+    "Hooguit 5 meter",
+    "Ongeveer 500 meter per omwenteling",
+    "Vrijwel geen hoogteverlies"
+   ],
+   "juist": 0,
+   "uitleg": "Per omwenteling gaat al snel 50 tot 100 m verloren, plus extra hoogte voor het herstel."
+  },
+  {
+   "v": "Na een kabelbreuk in de lierstart staat de neus hoog. Wat doe je eerst?",
+   "a": [
+    "Direct een bocht inzetten",
+    "De neus onmiddellijk onder de horizon brengen en snelheid opbouwen",
+    "De remkleppen openen",
+    "De kabel ontkoppelen en direct doortrekken"
+   ],
+   "juist": 1,
+   "uitleg": "Met hoge neusstand en afnemende snelheid dreigt een overtrek: eerst de neus laag en vliegsnelheid herstellen."
+  },
+  {
+   "v": "Hoe kan een plotselinge windstoot of windschifting een overtrek uitlokken?",
+   "a": [
+    "Door de statische druk te verlagen",
+    "Door het gewicht te vergroten",
+    "Door de grenslaag laminair te maken",
+    "Door de invalshoek plotseling te vergroten"
+   ],
+   "juist": 3,
+   "uitleg": "Een verticale of afnemende stoot kan de effectieve invalshoek plotseling over de kritieke waarde tillen."
+  },
+  {
+   "v": "Wat is een versnelde overtrek (accelerated stall)?",
+   "a": [
+    "Een overtrek die extra snel verloopt",
+    "Een overtrek met de remkleppen open",
+    "Een overtrek bij hogere snelheid door hard trekken of een hoge belastingsfactor",
+    "Een overtrek direct na de start"
+   ],
+   "juist": 2,
+   "uitleg": "Onder verhoogde belasting, zoals bij hard trekken of in een steile bocht, treedt de overtrek al bij hogere snelheid op."
+  },
+  {
+   "v": "Wat merk je bij vliegen net boven de overtreksnelheid (doorzakken)?",
+   "a": [
+    "Een kleine daalsnelheid en directe besturing",
+    "Een grote daalsnelheid en trage, slappe besturing",
+    "Een hoge snelheid en zware roeren",
+    "Niets bijzonders"
+   ],
+   "juist": 1,
+   "uitleg": "Vlak boven de overtrek is de weerstand groot en de roerwerking slecht: het toestel zakt sterk door."
+  },
+  {
+   "v": "Wat is statische stabiliteit?",
+   "a": [
+    "De eigenschap dat een verstoring steeds groter wordt",
+    "De sterkte van de constructie in stationaire vlucht",
+    "De neiging om na een verstoring direct terug te keren richting de evenwichtsstand",
+    "De eigenschap dat de besturing zwaar aanvoelt"
+   ],
+   "juist": 2,
+   "uitleg": "Statisch stabiel betekent dat er na een verstoring meteen een moment ontstaat dat terugwerkt naar de evenwichtsstand."
+  },
+  {
+   "v": "Wat beschrijft dynamische stabiliteit?",
+   "a": [
+    "Hoe de beweging na een verstoring in de tijd verloopt, bijvoorbeeld een uitdempende slingering",
+    "De grootte van de eerste reactie op een verstoring",
+    "De sterkte van de roeren",
+    "De ligging van het zwaartepunt"
+   ],
+   "juist": 0,
+   "uitleg": "Dynamische stabiliteit gaat over het verloop in de tijd: dempt de beweging uit of slingert hij juist op."
+  },
+  {
+   "v": "Kan een vliegtuig statisch stabiel maar dynamisch onstabiel zijn?",
+   "a": [
+    "Nee, dat is onmogelijk",
+    "Alleen bij een voorlijk zwaartepunt",
+    "Alleen zonder stabilo",
+    "Ja, de slingering na een verstoring kan steeds groter worden"
+   ],
+   "juist": 3,
+   "uitleg": "Een statisch stabiel toestel keert steeds terug, maar de slingering kan in amplitude toenemen: dynamisch onstabiel."
+  },
+  {
+   "v": "Welk onderdeel zorgt vooral voor de statische langsstabiliteit?",
+   "a": [
+    "Het kielvlak",
+    "Het horizontale staartvlak (stabilo)",
+    "De rolroeren",
+    "De remkleppen"
+   ],
+   "juist": 1,
+   "uitleg": "Het stabilo levert het herstellende moment om de dwarsas."
+  },
+  {
+   "v": "Wat is de voorwaarde voor statische langsstabiliteit?",
+   "a": [
+    "Het zwaartepunt ligt achter het neutrale punt",
+    "Het zwaartepunt ligt precies in het neutrale punt",
+    "Het zwaartepunt ligt voor het neutrale punt",
+    "Het zwaartepunt ligt boven de vleugel"
+   ],
+   "juist": 2,
+   "uitleg": "Alleen met het zwaartepunt voor het neutrale punt ontstaat na een verstoring een herstellend moment."
+  },
+  {
+   "v": "Wat zijn de gevolgen van een (toegestaan) achterlijk zwaartepunt?",
+   "a": [
+    "Zwaardere knuppelkrachten en grote stabiliteit",
+    "Een hogere overtreksnelheid",
+    "Een steilere glijhoek",
+    "Minder stabiliteit en een gevoeliger besturing"
+   ],
+   "juist": 3,
+   "uitleg": "Hoe verder het zwaartepunt naar achteren, hoe kleiner de stabiliteitsmarge en hoe gevoeliger het toestel reageert."
+  },
+  {
+   "v": "Wat zijn de gevolgen van een ver naar voren gelegen zwaartepunt?",
+   "a": [
+    "Grote stabiliteit, zwaardere stuurkrachten en moeilijker afvangen bij de landing",
+    "Onstabiel gedrag om de dwarsas",
+    "Lichtere stuurkrachten",
+    "Een groter risico op een tolvlucht"
+   ],
+   "juist": 0,
+   "uitleg": "Een voorlijk zwaartepunt maakt het toestel stabiel maar log; bij de landing kan het hoogteroer tekortkomen."
+  },
+  {
+   "v": "Wat is het gevaar van een zwaartepunt achter de achterste limiet?",
+   "a": [
+    "Het toestel wordt neuslastig",
+    "Het toestel wordt gevaarlijk instabiel en herstel uit een tol kan onmogelijk worden",
+    "Alleen de trim werkt niet meer",
+    "De overtreksnelheid stijgt sterk"
+   ],
+   "juist": 1,
+   "uitleg": "Achter de limiet is het toestel onvoldoende stabiel en kan een tolvlucht onherstelbaar worden."
+  },
+  {
+   "v": "Welk onderdeel levert vooral de richtingsstabiliteit?",
+   "a": [
+    "De V-stelling van de vleugels",
+    "Het stabilo",
+    "De rolroeren",
+    "Het verticale staartvlak (kielvlak)"
+   ],
+   "juist": 3,
+   "uitleg": "Het kielvlak achter het zwaartepunt draait de neus terug naar de aanstroomrichting."
+  },
+  {
+   "v": "Wat draagt vooral bij aan de dwarsstabiliteit (rolstabiliteit)?",
+   "a": [
+    "Het richtingsroer",
+    "Een intrekbaar wiel",
+    "De V-stelling van de vleugels",
+    "Het hoogteroer"
+   ],
+   "juist": 2,
+   "uitleg": "Door de V-stelling krijgt de laag hangende vleugel bij het slippen meer lift en richt het toestel zich op."
+  },
+  {
+   "v": "Wat is de Dutch roll (slingervlucht)?",
+   "a": [
+    "Een zuivere rolbeweging",
+    "Een gecombineerde gier- en rolslingering",
+    "Een langzame snelheidsvariatie",
+    "Een vorm van overtrek"
+   ],
+   "juist": 1,
+   "uitleg": "De Dutch roll is een slingerende combinatie van gieren en rollen om de top- en langsas."
+  },
+  {
+   "v": "Wat is spiraalinstabiliteit?",
+   "a": [
+    "De neiging om een eenmaal ingezette bocht langzaam steeds steiler te laten worden als je niet corrigeert",
+    "Het direct omslaan in een tolvlucht",
+    "Een snelle rolbeweging door turbulentie",
+    "Instabiliteit om de topas bij lage snelheid"
+   ],
+   "juist": 0,
+   "uitleg": "Bij spiraalinstabiliteit steilt een bocht zich zonder correctie langzaam op tot een spiraalduik."
+  },
+  {
+   "v": "Wat is de fugoide?",
+   "a": [
+    "Een snelle slingering om de topas",
+    "Een rolbeweging met constante snelheid",
+    "Een langzame langsslingering waarbij snelheid en hoogte elkaar afwisselen",
+    "Een trilling van de roeren"
+   ],
+   "juist": 2,
+   "uitleg": "De fugoide is een langzame slingering waarin het toestel afwisselend snelheid opbouwt en in hoogte omzet."
+  },
+  {
+   "v": "Een zware vlieger stapt in een eenzitter. Welk effect heeft dat doorgaans op de ligging van het zwaartepunt en de stabiliteit?",
+   "a": [
+    "Zwaartepunt naar achteren, minder stabiel",
+    "Geen effect",
+    "Zwaartepunt naar achteren, stabieler",
+    "Zwaartepunt naar voren, stabieler"
+   ],
+   "juist": 3,
+   "uitleg": "De vlieger zit voor het zwaartepunt: meer gewicht voorin schuift het zwaartepunt naar voren en vergroot de stabiliteit."
+  },
+  {
+   "v": "Waarom moet een lichte vlieger vaak trimballast in de neus meenemen?",
+   "a": [
+    "Om de vleugelbelasting te verhogen",
+    "Omdat anders het zwaartepunt te ver naar achteren ligt",
+    "Om het glijgetal te verbeteren",
+    "Om de overtreksnelheid te verlagen"
+   ],
+   "juist": 1,
+   "uitleg": "Bij een te lichte vlieger komt het zwaartepunt achter de achterste limiet; ballast in de neus corrigeert dat."
+  },
+  {
+   "v": "Wat is het neutrale punt?",
+   "a": [
+    "De zwaartepuntsligging waarbij het vliegtuig indifferent om de dwarsas wordt",
+    "Het punt waar de lift altijd aangrijpt",
+    "Het midden van de koorde",
+    "Het draaipunt van het hoogteroer"
+   ],
+   "juist": 0,
+   "uitleg": "Ligt het zwaartepunt in het neutrale punt, dan is het toestel indifferent: het heeft geen herstellend moment meer."
+  },
+  {
+   "v": "Welke kracht levert het stabilo in een normaal getrimde vlucht meestal?",
+   "a": [
+    "Een grote opwaartse kracht, ongeveer gelijk aan de vleugellift",
+    "Geen enkele kracht",
+    "Een neerwaartse of kleine kracht die het toestel om de dwarsas in evenwicht houdt",
+    "Alleen een zijwaartse kracht"
+   ],
+   "juist": 2,
+   "uitleg": "Het stabilo levert meestal een neerwaartse (of kleine) kracht om het moment van vleugel en zwaartepunt te compenseren."
+  },
+  {
+   "v": "Hoe test je in de vlucht eenvoudig de statische langsstabiliteit?",
+   "a": [
+    "Door een steile bocht te maken",
+    "Door de snelheid iets te verstoren, los te laten en te kijken of het toestel naar de getrimde snelheid terugkeert",
+    "Door de remkleppen te openen",
+    "Door een tolvlucht in te zetten"
+   ],
+   "juist": 1,
+   "uitleg": "Een stabiel toestel keert na loslaten van de knuppel vanzelf terug naar de getrimde snelheid."
+  },
+  {
+   "v": "Wat is windvaanstabiliteit?",
+   "a": [
+    "De neiging om bij zijwind de vleugel te laten hangen",
+    "De stabiliteit om de dwarsas",
+    "De werking van de trim",
+    "De neiging van het vliegtuig om de neus naar de aanstromende lucht te draaien"
+   ],
+   "juist": 3,
+   "uitleg": "Net als een windvaan draait het toestel dankzij het kielvlak met de neus in de aanstroomrichting."
+  },
+  {
+   "v": "Wat is roldemping?",
+   "a": [
+    "De vleugel werkt een rolbeweging tegen doordat de dalende vleugel een grotere invalshoek krijgt en meer lift levert",
+    "Het uitdempen van de fugoide",
+    "De demping van het voetenstuur",
+    "Het effect van de massabalans in de rolroeren"
+   ],
+   "juist": 0,
+   "uitleg": "Bij het rollen krijgt de dalende vleugel een grotere invalshoek en dus meer lift, wat de rolbeweging afremt."
+  },
+  {
+   "v": "Welke vleugelvorm draagt naast V-stelling ook bij aan de dwarsstabiliteit?",
+   "a": [
+    "Een rechte vleugel zonder wrong",
+    "Pijlstelling (naar achteren gepijlde vleugel)",
+    "Een negatieve V-stelling",
+    "Een dikkere vleugelwortel"
+   ],
+   "juist": 1,
+   "uitleg": "Bij pijlstelling krijgt de voorste (lage) vleugel in een slip effectief meer aanstroming en lift, wat oprichtend werkt."
+  },
+  {
+   "v": "Waar vind je de toegestane zwaartepuntsgrenzen van je zwever?",
+   "a": [
+    "Op het instrumentenpaneel",
+    "Op het bord bij de vereniging",
+    "In het vlieghandboek (en op de gegevensplaat) van het toestel",
+    "Die zijn voor alle zwevers gelijk"
+   ],
+   "juist": 2,
+   "uitleg": "Het vlieghandboek geeft de gewichts- en zwaartepuntslimieten van het specifieke type."
+  },
+  {
+   "v": "Waarom levert een meer achterlijke (maar toegestane) zwaartepuntsligging vaak iets betere prestaties?",
+   "a": [
+    "Het stabilo hoeft minder neerwaartse kracht te leveren, dus minder trimweerstand",
+    "De vleugelbelasting neemt af",
+    "De romp wordt beter aangestroomd",
+    "De overtreksnelheid neemt toe"
+   ],
+   "juist": 0,
+   "uitleg": "Minder neerwaartse staartkracht betekent minder benodigde extra lift en minder trimweerstand."
+  },
+  {
+   "v": "Wat doet een statisch onstabiel vliegtuig na een verstoring?",
+   "a": [
+    "Het keert direct terug naar de evenwichtsstand",
+    "Het blijft in de nieuwe stand hangen",
+    "Het slingert met constante amplitude",
+    "Het wijkt steeds verder van de oorspronkelijke stand af"
+   ],
+   "juist": 3,
+   "uitleg": "Bij statische instabiliteit versterkt het ontstane moment de afwijking in plaats van die te herstellen."
+  },
+  {
+   "v": "Er wordt een zware accu in de staart van de zwever ingebouwd. Wat is het effect?",
+   "a": [
+    "Het zwaartepunt verschuift naar voren",
+    "Het zwaartepunt verandert niet",
+    "Het zwaartepunt verschuift naar achteren; controleer of het binnen de limieten blijft",
+    "Alleen het maximale gewicht verandert"
+   ],
+   "juist": 2,
+   "uitleg": "Massa achter het zwaartepunt schuift het zwaartepunt naar achteren en vermindert de stabiliteitsmarge."
+  },
+  {
+   "v": "Om welke as werkt het hoogteroer?",
+   "a": [
+    "De langsas",
+    "De topas",
+    "Alle drie de assen",
+    "De dwarsas"
+   ],
+   "juist": 3,
+   "uitleg": "Het hoogteroer laat het toestel om de dwarsas draaien (neus omhoog of omlaag)."
+  },
+  {
+   "v": "Om welke as werken de rolroeren?",
+   "a": [
+    "De dwarsas",
+    "De langsas",
+    "De topas",
+    "Geen enkele as"
+   ],
+   "juist": 1,
+   "uitleg": "De rolroeren laten het toestel rollen om de langsas."
+  },
+  {
+   "v": "Om welke as werkt het richtingsroer?",
+   "a": [
+    "De topas (verticale as)",
+    "De langsas",
+    "De dwarsas",
+    "De horizontale as door de vleugels"
+   ],
+   "juist": 0,
+   "uitleg": "Het richtingsroer laat het toestel gieren om de topas."
+  },
+  {
+   "v": "Wat gebeurt er door het negatief rolgierend moment als je een bocht naar links inzet met alleen rolroer?",
+   "a": [
+    "De neus giert direct naar links",
+    "De snelheid neemt sterk toe",
+    "De neus giert eerst naar rechts, tegen de bochtrichting in",
+    "Het toestel rolt terug naar rechts"
+   ],
+   "juist": 2,
+   "uitleg": "De extra weerstand van de omhooggaande rechtervleugel trekt de neus eerst de verkeerde kant op."
+  },
+  {
+   "v": "Wat is de oorzaak van het negatief rolgierend moment?",
+   "a": [
+    "De wrijvingsweerstand van de romp",
+    "Het kielvlak dat de neus wegdraait",
+    "De uitslag van het hoogteroer",
+    "De extra (geinduceerde) weerstand van de omhooggaande vleugel met het neergaande rolroer"
+   ],
+   "juist": 3,
+   "uitleg": "De vleugel met het neergaande rolroer levert meer lift en dus meer weerstand, wat de neus naar buiten trekt."
+  },
+  {
+   "v": "Hoe voorkom je het negatieve gieren bij het aanzetten van een bocht?",
+   "a": [
+    "Door gelijktijdig voetenstuur in de bochtrichting te geven",
+    "Door eerst voetenstuur tegen te geven",
+    "Door meer hoogteroer te gebruiken",
+    "Door langzamer te rollen zonder voetenstuur"
+   ],
+   "juist": 0,
+   "uitleg": "Gecoordineerd meesturen met het voetenstuur compenseert het negatief rolgierend moment."
+  },
+  {
+   "v": "Wat houdt differentiele rolroeruitslag in?",
+   "a": [
+    "Beide rolroeren slaan even ver uit",
+    "Het omhooggaande rolroer slaat verder uit dan het neergaande",
+    "Het neergaande rolroer slaat verder uit dan het omhooggaande",
+    "De rolroeren bewegen alleen tegelijk omhoog"
+   ],
+   "juist": 1,
+   "uitleg": "Bij differentiele rolroeren slaat het omhooggaande roer verder uit dan het neergaande."
+  },
+  {
+   "v": "Wat is het doel van differentiele rolroeren?",
+   "a": [
+    "De rolsnelheid verhogen",
+    "De stuurkrachten verzwaren",
+    "Het negatief rolgierend moment verkleinen",
+    "De overtreksnelheid verlagen"
+   ],
+   "juist": 2,
+   "uitleg": "De grotere uitslag omhoog geeft extra weerstand aan de dalende vleugel en vermindert zo het negatieve gieren."
+  },
+  {
+   "v": "Waarvoor dient de trim?",
+   "a": [
+    "Om de stuurkracht op de knuppel bij de gekozen snelheid naar nul te brengen",
+    "Om de snelheid te vergroten zonder hoogteverlies",
+    "Om het zwaartepunt te verplaatsen",
+    "Om de roeruitslagen te begrenzen"
+   ],
+   "juist": 0,
+   "uitleg": "Met de trim neem je de stuurkracht weg, zodat het toestel de gekozen snelheid vanzelf vasthoudt."
+  },
+  {
+   "v": "Wat verandert er als je de trim verstelt?",
+   "a": [
+    "De stand van de remkleppen",
+    "De maximale roeruitslag",
+    "Het zwaartepunt",
+    "De snelheid waarbij het toestel zonder stuurkracht vliegt"
+   ],
+   "juist": 3,
+   "uitleg": "De trim bepaalt bij welke snelheid het toestel zonder druk op de knuppel in evenwicht vliegt."
+  },
+  {
+   "v": "Wat doen de remkleppen aerodynamisch?",
+   "a": [
+    "Ze vergroten alleen de lift",
+    "Ze verkleinen de weerstand",
+    "Ze vergroten de weerstand en verstoren plaatselijk de lift, zodat je steiler kunt naderen",
+    "Ze verlagen de overtreksnelheid"
+   ],
+   "juist": 2,
+   "uitleg": "Remkleppen bederven plaatselijk de lift en voegen veel weerstand toe; daarmee regel je de glijhoek."
+  },
+  {
+   "v": "Wat is het effect van geopende remkleppen op de overtreksnelheid?",
+   "a": [
+    "Die wordt lager",
+    "Die wordt iets hoger",
+    "Die verandert niet",
+    "Die halveert"
+   ],
+   "juist": 1,
+   "uitleg": "Omdat de kleppen een deel van de lift verstoren, ligt de overtreksnelheid met open kleppen iets hoger."
+  },
+  {
+   "v": "Wanneer gebruik je een positieve flapstand (klep omlaag)?",
+   "a": [
+    "Bij snel voorvliegen tussen thermiekbellen",
+    "In een duikvlucht",
+    "Nooit tijdens de vlucht",
+    "Bij langzaam vliegen, zoals cirkelen in thermiek en bij de landing"
+   ],
+   "juist": 3,
+   "uitleg": "Meer welving door positieve flaps geeft meer lift bij lage snelheid: gunstig in thermiek en bij de landing."
+  },
+  {
+   "v": "Wanneer gebruik je een negatieve flapstand (klep omhoog)?",
+   "a": [
+    "Bij hoge snelheid, bijvoorbeeld bij snel voorvliegen",
+    "Bij het cirkelen in zwakke thermiek",
+    "Vlak voor het afvangen",
+    "Tijdens de lierstart altijd"
+   ],
+   "juist": 0,
+   "uitleg": "Negatieve flaps verminderen welving en weerstand bij kleine invalshoeken en zijn gunstig bij hoge snelheid."
+  },
+  {
+   "v": "Hoe verandert de werking van de roeren bij afnemende snelheid?",
+   "a": [
+    "Ze worden effectiever",
+    "Ze veranderen niet",
+    "Ze worden minder effectief en voelen slapper aan",
+    "Alleen het voetenstuur wordt effectiever"
+   ],
+   "juist": 2,
+   "uitleg": "Roerkrachten hangen af van de dynamische druk: bij lage snelheid werken de roeren minder en voelen ze slap."
+  },
+  {
+   "v": "Hoe zet je een correcte bocht in?",
+   "a": [
+    "Alleen met rolroer",
+    "Met rolroer en voetenstuur gecoordineerd in de bochtrichting",
+    "Eerst voetenstuur, daarna pas rolroer tegen",
+    "Alleen met het hoogteroer"
+   ],
+   "juist": 1,
+   "uitleg": "Rolroer en voetenstuur samen geven een zuivere, gecoordineerde bocht zonder slippen of schuiven."
+  },
+  {
+   "v": "Waarom is in een gevestigde (steile) bocht vaak wat tegengesteld rolroer nodig?",
+   "a": [
+    "Door het negatief rolgierend moment",
+    "Omdat de trim de bocht tegenwerkt",
+    "Door de neerstroming achter de vleugel",
+    "Omdat de buitenste vleugel sneller gaat en meer lift levert, waardoor de bocht zich wil oversteilen"
+   ],
+   "juist": 3,
+   "uitleg": "De buitenvleugel legt meer weg af, gaat sneller en levert meer lift; licht tegensturen houdt de dwarshelling constant."
+  },
+  {
+   "v": "Het vrije uiteinde van het slipdraadje wijkt naar links uit. Wat is de juiste correctie?",
+   "a": [
+    "Linker voetenstuur geven",
+    "De knuppel naar links",
+    "Rechter voetenstuur geven",
+    "De trim verstellen"
+   ],
+   "juist": 2,
+   "uitleg": "Het draadje wijkt naar links: de lucht stroomt scheef van rechts aan, dus corrigeer je met rechter voetenstuur."
+  },
+  {
+   "v": "Wat regel je primair met het hoogteroer?",
+   "a": [
+    "De invalshoek en daarmee de snelheid",
+    "De hoogte",
+    "De belastingsfactor bij de landing",
+    "De richting"
+   ],
+   "juist": 0,
+   "uitleg": "Het hoogteroer stelt de invalshoek in; daarmee bepaal je bij een zwever de vliegsnelheid."
+  },
+  {
+   "v": "Hoe regel je in de eindnadering snelheid en glijpad?",
+   "a": [
+    "Snelheid met de remkleppen, glijpad met de knuppel",
+    "Snelheid met de neusstand (knuppel), glijpad met de remkleppen",
+    "Beide alleen met de remkleppen",
+    "Beide alleen met de trim"
+   ],
+   "juist": 1,
+   "uitleg": "De knuppel houdt de naderingssnelheid vast, de remkleppen sturen de steilheid van het glijpad."
+  },
+  {
+   "v": "Waarvoor dient de massabalans in roeren?",
+   "a": [
+    "Om de stuurkrachten in de bocht te verlichten",
+    "Om het zwaartepunt van het vliegtuig te corrigeren",
+    "Om flutter (roertrillingen) te voorkomen",
+    "Om de roeruitslag te begrenzen"
+   ],
+   "juist": 2,
+   "uitleg": "Massabalans legt het zwaartepunt van het roer op of voor het scharnier en voorkomt zo flutter."
+  },
+  {
+   "v": "Wat is flutter?",
+   "a": [
+    "Het schudden vlak voor de overtrek",
+    "Een langzame slingering om de topas",
+    "Trilling van de kabel tijdens de lierstart",
+    "Een gevaarlijke, snel opslingerende trilling van vleugel of roeren bij te hoge snelheid"
+   ],
+   "juist": 3,
+   "uitleg": "Flutter is een aero-elastische trilling die boven een bepaalde snelheid opslingert en de constructie kan vernielen."
+  },
+  {
+   "v": "Hoe ga je met de roeren om bij hoge snelheid?",
+   "a": [
+    "Grote, snelle uitslagen zijn juist dan nodig",
+    "Kleine, gedoseerde uitslagen; grote abrupte uitslagen kunnen de constructie overbelasten",
+    "Alleen het voetenstuur gebruiken",
+    "De roeren werken bij hoge snelheid nauwelijks"
+   ],
+   "juist": 1,
+   "uitleg": "Bij hoge snelheid zijn de roeren zeer effectief; volle uitslagen kunnen dan te hoge belastingen geven."
+  },
+  {
+   "v": "Hoe wekt een uitgeslagen roer zijn stuurkracht op?",
+   "a": [
+    "Het verandert de welving van het vlak, waardoor de luchtkracht op dat vlak verandert",
+    "Het vergroot alleen de wrijvingsweerstand",
+    "Het verplaatst het zwaartepunt",
+    "Het verandert de massa van het staartvlak"
+   ],
+   "juist": 0,
+   "uitleg": "Een roeruitslag verandert de welving en dus de lift van het vlak; die krachtverandering draait het toestel."
+  },
+  {
+   "v": "Wat is de juiste volgorde bij het instellen van een nieuwe snelheid?",
+   "a": [
+    "Eerst trimmen, dan sturen",
+    "Alleen de trim gebruiken",
+    "De snelheid komt vanzelf goed",
+    "Met de knuppel de snelheid instellen en daarna de stuurkracht wegtrimmen"
+   ],
+   "juist": 3,
+   "uitleg": "Je stuurt eerst naar de gewenste snelheid en trimt daarna de resterende knuppelkracht weg."
+  },
+  {
+   "v": "Wat is de belastingsfactor n?",
+   "a": [
+    "De verhouding tussen lift en gewicht",
+    "De verhouding tussen gewicht en vleugeloppervlak",
+    "De verhouding tussen lift en weerstand",
+    "Het maximale gewicht gedeeld door het leeggewicht"
+   ],
+   "juist": 0,
+   "uitleg": "De belastingsfactor is de lift gedeeld door het gewicht en wordt uitgedrukt in g."
+  },
+  {
+   "v": "Hoe groot is de belastingsfactor in stationaire rechtlijnige vlucht?",
+   "a": [
+    "0",
+    "2",
+    "1",
+    "Afhankelijk van de snelheid"
+   ],
+   "juist": 2,
+   "uitleg": "In stationaire rechtlijnige vlucht is de lift gelijk aan het gewicht: n = 1."
+  },
+  {
+   "v": "Hoe groot is de belastingsfactor in een gecoordineerde bocht met 60 graden dwarshelling?",
+   "a": [
+    "1,41",
+    "2",
+    "3",
+    "4"
+   ],
+   "juist": 1,
+   "uitleg": "n = 1 / cos(60 graden) = 2: de vleugel draagt twee keer het gewicht."
+  },
+  {
+   "v": "Hoe groot is de belastingsfactor ongeveer in een bocht met 45 graden dwarshelling?",
+   "a": [
+    "1,0",
+    "2,0",
+    "1,15",
+    "1,41"
+   ],
+   "juist": 3,
+   "uitleg": "n = 1 / cos(45 graden) is ongeveer 1,41."
+  },
+  {
+   "v": "De belastingsfactor is 4. Met welke factor neemt de overtreksnelheid toe?",
+   "a": [
+    "2",
+    "4",
+    "1,41",
+    "8"
+   ],
+   "juist": 0,
+   "uitleg": "De overtreksnelheid stijgt met de wortel uit n: wortel uit 4 is 2."
+  },
+  {
+   "v": "Wat is de manoeuvreersnelheid Va?",
+   "a": [
+    "De maximale snelheid in rustige lucht",
+    "De hoogste snelheid waarbij een volledige roeruitslag de constructie niet overbelast",
+    "De beste glijsnelheid",
+    "De minimale snelheid met de remkleppen open"
+   ],
+   "juist": 1,
+   "uitleg": "Tot Va kan een volle uitslag van een roer de limietbelasting niet overschrijden."
+  },
+  {
+   "v": "Wat geldt boven de manoeuvreersnelheid Va?",
+   "a": [
+    "Alle roeruitslagen zijn verboden",
+    "Alleen het voetenstuur mag worden gebruikt",
+    "Geen volledige of abrupte roeruitslagen geven",
+    "De remkleppen mogen niet meer open"
+   ],
+   "juist": 2,
+   "uitleg": "Boven Va kunnen volle of abrupte uitslagen de constructie overbelasten; stuur dus gedoseerd."
+  },
+  {
+   "v": "Hoe verandert Va met het vlieggewicht?",
+   "a": [
+    "Va is onafhankelijk van het gewicht",
+    "Va wordt lager bij een hoger gewicht",
+    "Va halveert bij dubbel gewicht",
+    "Va wordt hoger bij een hoger gewicht"
+   ],
+   "juist": 3,
+   "uitleg": "Bij hoger gewicht overtrekt het toestel bij hogere snelheid, waardoor ook Va hoger ligt."
+  },
+  {
+   "v": "Waarom beschermt vliegen op of onder Va de constructie?",
+   "a": [
+    "De roeren staan dan vast",
+    "Het toestel overtrekt dan voordat de limietbelastingsfactor wordt overschreden",
+    "De lucht is onder Va altijd rustig",
+    "De remkleppen openen automatisch"
+   ],
+   "juist": 1,
+   "uitleg": "Onder Va bereikt de vleugel de kritieke invalshoek (overtrek) voordat de limietbelasting gehaald kan worden."
+  },
+  {
+   "v": "Wat betekent Vne?",
+   "a": [
+    "De snelheid die nooit overschreden mag worden",
+    "De normale aanvliegsnelheid",
+    "De beste voorvliegsnelheid",
+    "De maximale snelheid aan de lier"
+   ],
+   "juist": 0,
+   "uitleg": "Vne (never exceed) is de absolute maximumsnelheid; daarboven dreigt onder meer flutter."
+  },
+  {
+   "v": "Wat betekent de gele boog op de snelheidsmeter?",
+   "a": [
+    "Normaal vliegbereik",
+    "Bereik alleen met flaps",
+    "Bereik alleen met remkleppen open",
+    "Voorzichtigheidsbereik: alleen in rustige lucht en met gedoseerde uitslagen"
+   ],
+   "juist": 3,
+   "uitleg": "In de gele boog mag alleen in rustige lucht en zonder grote roeruitslagen worden gevlogen."
+  },
+  {
+   "v": "Wat betekent de groene boog op de snelheidsmeter?",
+   "a": [
+    "Het bereik voor de lierstart",
+    "Verboden bereik",
+    "Het normale vliegbereik, ook in ruwe lucht",
+    "Alleen geldig zonder waterballast"
+   ],
+   "juist": 2,
+   "uitleg": "De groene boog is het normale werkgebied waarin ook turbulentie is toegestaan."
+  },
+  {
+   "v": "Welke positieve limietbelastingsfactor geldt (CS-22) voor een zwever in de utility-categorie?",
+   "a": [
+    "+5,3",
+    "+2,0",
+    "+7,0",
+    "+10,0"
+   ],
+   "juist": 0,
+   "uitleg": "Voor de utility-categorie geldt +5,3 (aerobatic: +7,0)."
+  },
+  {
+   "v": "Hoe groot is de voorgeschreven veiligheidsfactor tussen limietbelasting en breukbelasting?",
+   "a": [
+    "1,15",
+    "1,5",
+    "3,0",
+    "5,0"
+   ],
+   "juist": 1,
+   "uitleg": "De breukbelasting is minimaal 1,5 keer de limietbelasting."
+  },
+  {
+   "v": "Hoe pas je je snelheid aan bij het invliegen van sterke turbulentie?",
+   "a": [
+    "Sneller vliegen voor meer roerdruk",
+    "Niets veranderen",
+    "Zo dicht mogelijk tegen Vne vliegen",
+    "Snelheid terugnemen tot een veilige waarde, rond of onder de manoeuvreersnelheid"
+   ],
+   "juist": 3,
+   "uitleg": "Bij lagere snelheid geven windstoten kleinere extra belastingen op de constructie."
+  },
+  {
+   "v": "Waarom veroorzaakt een verticale windstoot bij hoge snelheid een grotere extra belasting dan bij lage snelheid?",
+   "a": [
+    "Dat is niet zo, de belasting is gelijk",
+    "Omdat de lucht bij hoge snelheid dichter is",
+    "Dezelfde stoot geeft bij hogere snelheid een grotere liftverandering",
+    "Omdat de roeren dan verder uitslaan"
+   ],
+   "juist": 2,
+   "uitleg": "De extra lift door een stoot groeit met de snelheid; bij hoge snelheid loopt de belastingsfactor dus sneller op."
+  },
+  {
+   "v": "Welke grootheden staan op de assen van de vliegenveloppe (V-n-diagram)?",
+   "a": [
+    "Snelheid en belastingsfactor",
+    "Hoogte en snelheid",
+    "Lift en weerstand",
+    "Invalshoek en liftcoefficient"
+   ],
+   "juist": 0,
+   "uitleg": "De vliegenveloppe zet de belastingsfactor n uit tegen de vliegsnelheid V."
+  },
+  {
+   "v": "Wanneer treedt een negatieve belastingsfactor op?",
+   "a": [
+    "In elke steile bocht",
+    "Bij het openen van de remkleppen",
+    "Alleen bij rugvlucht boven Va",
+    "Bijvoorbeeld bij abrupt doordrukken van de knuppel of een sterke neergaande stoot"
+   ],
+   "juist": 3,
+   "uitleg": "Bij doordrukken of een neergaande stoot wordt de lift negatief gericht en word je licht in de stoel."
+  },
+  {
+   "v": "Hoeveel lift moet de vleugel leveren in een horizontale bocht met 60 graden dwarshelling?",
+   "a": [
+    "Evenveel als het gewicht",
+    "Twee keer het gewicht",
+    "De helft van het gewicht",
+    "Vier keer het gewicht"
+   ],
+   "juist": 1,
+   "uitleg": "Bij 60 graden helling is n = 2, dus de lift moet twee keer het gewicht zijn."
+  },
+  {
+   "v": "Wat is het risico van hard en abrupt trekken bij hoge snelheid?",
+   "a": [
+    "Een tolvlucht",
+    "Flutter van de trim",
+    "Overschrijden van de limietbelastingsfactor en structurele schade",
+    "Het toestel reageert niet"
+   ],
+   "juist": 2,
+   "uitleg": "Boven Va kan hard trekken de limietbelasting overschrijden voordat het toestel overtrekt."
+  },
+  {
+   "v": "Wat kan een vlieger merken bij hoge positieve g-belasting?",
+   "a": [
+    "Niets, g-krachten zijn niet voelbaar",
+    "Alleen oorsuizen",
+    "Een licht gevoel in de maag",
+    "Tunnelzicht, grey-out en uiteindelijk black-out"
+   ],
+   "juist": 3,
+   "uitleg": "Bij hoge positieve g zakt het bloed weg uit het hoofd: eerst tunnelzicht en grey-out, daarna black-out."
+  },
+  {
+   "v": "Waarom mag de maximale startmassa nooit worden overschreden?",
+   "a": [
+    "De sterkte van de constructie en de bewezen vliegeigenschappen gelden alleen tot die massa",
+    "Omdat de lier het anders niet trekt",
+    "Alleen vanwege het zwaartepunt",
+    "Omdat het glijgetal anders te goed wordt"
+   ],
+   "juist": 0,
+   "uitleg": "Boven de maximale massa zijn sterkte en vliegeigenschappen niet meer gegarandeerd."
+  },
+  {
+   "v": "Wat geldt bij belasting tot de limietbelastingsfactor?",
+   "a": [
+    "De constructie mag breken",
+    "Er mag blijvende vervorming optreden",
+    "De constructie mag geen blijvende vervorming oplopen",
+    "Dit is alleen een papieren waarde zonder betekenis"
+   ],
+   "juist": 2,
+   "uitleg": "Tot de limietbelasting moet de constructie zonder blijvende vervorming blijven functioneren."
+  },
+  {
+   "v": "Hoe groot is de belastingsfactor ongeveer in een bocht met 30 graden dwarshelling?",
+   "a": [
+    "1,0",
+    "1,15",
+    "1,5",
+    "2,0"
+   ],
+   "juist": 1,
+   "uitleg": "n = 1 / cos(30 graden) is ongeveer 1,15."
+  },
+  {
+   "v": "Waarom mag je bij veel zwevers de remkleppen ook bij hoge snelheid gebruiken?",
+   "a": [
+    "Ze zijn er mede voor ontworpen om de snelheid in een (nood)duikvlucht te begrenzen",
+    "Ze verlagen de belastingsfactor",
+    "Ze verbeteren dan het glijgetal",
+    "Ze voorkomen een overtrek"
+   ],
+   "juist": 0,
+   "uitleg": "Remkleppen dienen mede om de snelheid in een steile duikvlucht onder Vne te houden; zie wel het handboek van het type."
+  },
+  {
+   "v": "Tot welke hoogte boven de grond is het grondeffect ongeveer merkbaar?",
+   "a": [
+    "Tot ongeveer 2 meter, ongeacht het type",
+    "Tot ongeveer een halve spanwijdte",
+    "Tot ongeveer twee keer de spanwijdte",
+    "Tot 100 meter"
+   ],
+   "juist": 1,
+   "uitleg": "Het grondeffect wordt merkbaar binnen ongeveer een halve spanwijdte boven de grond."
+  },
+  {
+   "v": "Wat is de oorzaak van het grondeffect?",
+   "a": [
+    "De hogere luchtdichtheid vlak boven de grond",
+    "De opwarming van de lucht door de grond",
+    "Het wegvallen van de wrijvingsweerstand",
+    "De grond hindert de neerstroming en de tipwervels, waardoor de geinduceerde weerstand afneemt"
+   ],
+   "juist": 3,
+   "uitleg": "Vlak boven de grond kunnen downwash en tipwervels zich niet vrij ontwikkelen; de geinduceerde weerstand daalt."
+  },
+  {
+   "v": "Wat merk je van het grondeffect bij de landing?",
+   "a": [
+    "Het toestel zakt sneller door",
+    "De overtreksnelheid stijgt",
+    "De zwever zweeft verder door dan verwacht",
+    "De remkleppen werken niet meer"
+   ],
+   "juist": 2,
+   "uitleg": "Door de kleinere weerstand in het grondeffect blijft de zwever langer zweven."
+  },
+  {
+   "v": "Waarom zweeft een zwever met een te hoge naderingssnelheid erg lang door?",
+   "a": [
+    "De overtollige snelheid moet worden afgebouwd terwijl het grondeffect de weerstand verlaagt",
+    "Het grondeffect vergroot de weerstand",
+    "De remkleppen werken in het grondeffect beter",
+    "De wind valt vlak boven de grond altijd weg"
+   ],
+   "juist": 0,
+   "uitleg": "De extra energie moet eruit, en juist vlak boven de grond remt het toestel door het grondeffect langzamer af."
+  },
+  {
+   "v": "Waarom is de overtreksnelheid tijdens de klim aan de lierkabel hoger dan normaal?",
+   "a": [
+    "Door de hogere luchtdichtheid beneden",
+    "De kabelkracht belast de vleugel extra, vergelijkbaar met een hogere belastingsfactor",
+    "Door het lawaai van de lier",
+    "De overtreksnelheid is aan de lier juist lager"
+   ],
+   "juist": 1,
+   "uitleg": "De vleugel draagt naast het gewicht ook een deel van de kabelkracht; die extra belasting verhoogt de overtreksnelheid."
+  },
+  {
+   "v": "Waarom klim je direct na het loskomen aan de lier eerst vlak?",
+   "a": [
+    "Om de lier te sparen",
+    "Omdat de kabel anders breekt",
+    "Bij lage snelheid en geringe hoogte is een steile klim gevaarlijk bij een kabelbreuk",
+    "Om het grondeffect te benutten"
+   ],
+   "juist": 2,
+   "uitleg": "Pas met voldoende snelheid en hoogte is er marge om na een kabelbreuk veilig de neus te laten zakken."
+  },
+  {
+   "v": "Wat doe je direct na een kabelbreuk op geringe hoogte?",
+   "a": [
+    "Direct een steile bocht terug naar het veld",
+    "Doortrekken om hoogte te winnen",
+    "De remkleppen openen",
+    "De neus direct laag brengen tot een veilige vliegsnelheid en dan pas beslissen"
+   ],
+   "juist": 3,
+   "uitleg": "Eerst vliegsnelheid herstellen door de neus laag te brengen; daarna pas kiezen: recht vooruit landen of anders."
+  },
+  {
+   "v": "Hoe verloopt de overgang naar de steile klim in de lierstart?",
+   "a": [
+    "Geleidelijk, pas nadat voldoende snelheid en hoogte zijn opgebouwd",
+    "Zo snel mogelijk na het loskomen",
+    "Pas boven 300 meter",
+    "Direct bij het loskomen van de grond"
+   ],
+   "juist": 0,
+   "uitleg": "De klim wordt geleidelijk steiler naarmate snelheid en hoogte toenemen."
+  },
+  {
+   "v": "Wat gebeurt er in het laatste deel van de lierstart?",
+   "a": [
+    "De klimhoek wordt steeds steiler",
+    "De kabelkracht wordt steeds groter",
+    "De kabel trekt steeds meer naar beneden en de klim vlakt af",
+    "De snelheid neemt sterk toe"
+   ],
+   "juist": 2,
+   "uitleg": "Boven de lier trekt de kabel steeds meer verticaal naar beneden, waardoor de klim afvlakt."
+  },
+  {
+   "v": "Hoe ontkoppel je bovenaan de lierstart correct?",
+   "a": [
+    "In volle klim met strakke kabel",
+    "De neus iets laag brengen zodat de kabelspanning afneemt, dan (meermaals) ontkoppelen",
+    "Eerst een bocht inzetten en dan ontkoppelen",
+    "De kabel altijd laten terugvallen zonder te ontkoppelen"
+   ],
+   "juist": 1,
+   "uitleg": "Met de neus iets laag neemt de kabelspanning af en komt de kabel netjes los."
+  },
+  {
+   "v": "Welke posities zijn gebruikelijk achter het sleepvliegtuig?",
+   "a": [
+    "Boven of onder het zog (de propellerwind) van het sleepvliegtuig",
+    "Precies in het zog",
+    "Ver links of rechts naast het sleepvliegtuig",
+    "Recht boven het sleepvliegtuig"
+   ],
+   "juist": 0,
+   "uitleg": "Je vliegt in de hoge of lage sleeppositie, net boven of onder het turbulente zog."
+  },
+  {
+   "v": "Waarom is te hoog komen achter het sleepvliegtuig gevaarlijk?",
+   "a": [
+    "De sleepkabel breekt dan altijd",
+    "Je komt dan in het zog terecht",
+    "De zwever overtrekt dan direct",
+    "Je trekt de staart van het sleepvliegtuig omhoog, waardoor die in problemen komt"
+   ],
+   "juist": 3,
+   "uitleg": "Een hoog hangende zwever trekt de staart van de sleepkist omhoog en kan die onbestuurbaar maken."
+  },
+  {
+   "v": "Wat merk je als je tijdens de sleep in het zog van het sleepvliegtuig komt?",
+   "a": [
+    "Niets bijzonders",
+    "Turbulentie en schudden, moeilijk positie houden",
+    "Een sterk stijgende snelheid",
+    "De kabel komt strak te staan"
+   ],
+   "juist": 1,
+   "uitleg": "Het zog van propeller en vleugels is turbulent; je wordt heen en weer geschud."
+  },
+  {
+   "v": "Wat doe je als het sleepvliegtuig een bocht inzet?",
+   "a": [
+    "Je vliegt rechtdoor tot de kabel strak staat",
+    "Je neemt een kleinere dwarshelling aan dan het sleepvliegtuig",
+    "Je neemt dezelfde dwarshelling aan en volgt het spoor van het sleepvliegtuig",
+    "Je stuurt naar de buitenkant van de bocht"
+   ],
+   "juist": 2,
+   "uitleg": "In de bocht rol je mee met het sleepvliegtuig en volg je zijn baan."
+  },
+  {
+   "v": "Waarom komt de zwever bij een vliegtuigsleep eerder los dan het sleepvliegtuig?",
+   "a": [
+    "Door zijn lagere vleugelbelasting en lagere minimumsnelheid",
+    "Door het grondeffect van het sleepvliegtuig",
+    "Omdat de kabel omhoog trekt",
+    "Door de propellerwind"
+   ],
+   "juist": 0,
+   "uitleg": "De zwever vliegt al bij lagere snelheid; na het loskomen blijf je laag tot ook de sleepkist vliegt."
+  },
+  {
+   "v": "Wat is de windgradient?",
+   "a": [
+    "Het draaien van de wind met de hoogte boven 1000 m",
+    "De toename van de temperatuur met de hoogte",
+    "Het verschil tussen ware en aangewezen snelheid",
+    "De (sterke) toename van de windsnelheid met de hoogte vlak boven de grond"
+   ],
+   "juist": 3,
+   "uitleg": "Door wrijving met de grond neemt de windsnelheid vlak boven de grond sterk toe met de hoogte."
+  },
+  {
+   "v": "Je landt met flinke tegenwind. Wat doet de windgradient met je aangewezen snelheid tijdens de laatste meters?",
+   "a": [
+    "Die neemt toe",
+    "Die neemt af, dus houd extra snelheid aan",
+    "Die blijft exact gelijk",
+    "Die schommelt alleen bij meewind"
+   ],
+   "juist": 1,
+   "uitleg": "Dalend door de gradient neemt de tegenwind en dus de aangewezen snelheid af; extra snelheid is de veiligheidsmarge."
+  },
+  {
+   "v": "Wat gebeurt er met de aangewezen snelheid tijdens de klim in de lierstart bij een sterke windgradient?",
+   "a": [
+    "Die neemt extra toe doordat je in steeds sterkere tegenwind klimt",
+    "Die neemt af",
+    "Die is niet afhankelijk van de wind",
+    "Die wordt gelijk aan de windsnelheid"
+   ],
+   "juist": 0,
+   "uitleg": "Klimmend door de gradient kom je in steeds sterkere tegenwind, waardoor de aangewezen snelheid extra oploopt."
+  },
+  {
+   "v": "Waar moet je bij de landing rekening houden met extra turbulentie en dalende lucht?",
+   "a": [
+    "Aan de loefzijde van bomen en gebouwen",
+    "Boven de baan zelf",
+    "Aan de lijzijde (benedenwindse kant) van bomen, hangars en andere obstakels",
+    "Alleen boven water"
+   ],
+   "juist": 2,
+   "uitleg": "Achter obstakels ontstaat aan de benedenwindse kant wervelende, dalende lucht."
+  },
+  {
+   "v": "Hoe hoog kom je bij windstil weer ongeveer met een lierstart?",
+   "a": [
+    "Vrijwel altijd 1000 m",
+    "Ongeveer 10% van de kabellengte",
+    "Gelijk aan de kabellengte",
+    "Ongeveer een derde van de kabellengte"
+   ],
+   "juist": 3,
+   "uitleg": "Als vuistregel haal je zonder wind ongeveer een derde van de uitgelegde kabellengte aan hoogte."
+  },
+  {
+   "v": "Wat is het effect van stevige tegenwind op de bereikbare lierhoogte?",
+   "a": [
+    "Die wordt groter (vliegereffect)",
+    "Die wordt kleiner",
+    "Die blijft gelijk",
+    "De lierstart is dan niet mogelijk"
+   ],
+   "juist": 0,
+   "uitleg": "Tegenwind laat de zwever als een vlieger steiler klimmen, waardoor de uitkoppelhoogte hoger ligt."
+  },
+  {
+   "v": "Wat gebeurt er met de daalsnelheid vlak boven de grond (in het grondeffect)?",
+   "a": [
+    "Die neemt toe",
+    "Die neemt af doordat de geinduceerde weerstand kleiner wordt",
+    "Die verandert niet",
+    "Die wordt nul"
+   ],
+   "juist": 1,
+   "uitleg": "Minder geinduceerde weerstand betekent een vlakkere glijhoek en een kleinere daalsnelheid vlak boven de grond."
+  },
+  {
+   "v": "Hoe corrigeer je tijdens de sleep voor zijwind?",
+   "a": [
+    "Door voortdurend te slippen met gekruiste roeren",
+    "Door lager te gaan vliegen",
+    "Zijwind heeft tijdens de sleep geen invloed",
+    "Door net als het sleepvliegtuig opgestuurd (met een correctiehoek) te vliegen"
+   ],
+   "juist": 3,
+   "uitleg": "Je vliegt met dezelfde opstuurhoek als het sleepvliegtuig en blijft zo netjes achter de sleepkist."
+  },
+  {
+   "v": "Waaruit bestaat het zog achter het sleepvliegtuig?",
+   "a": [
+    "Alleen uitlaatgassen",
+    "Alleen de tipwervels",
+    "De propellerwind en de (tip)wervels van het sleepvliegtuig",
+    "Opstijgende warme lucht"
+   ],
+   "juist": 2,
+   "uitleg": "Het zog is de combinatie van propellerwind en de wervels van vleugels en romp van het sleepvliegtuig."
+  },
+  {
+   "v": "Waarom bouw je aan het begin van de lierstart eerst snelheid op voordat je de klim aanzet?",
+   "a": [
+    "Omdat de lier anders te veel vermogen vraagt",
+    "Voor voldoende marge boven de overtreksnelheid voordat de invalshoek en de belasting toenemen",
+    "Om het grondeffect te verlaten",
+    "Omdat de kabel anders van de haak valt"
+   ],
+   "juist": 1,
+   "uitleg": "In de klim stijgt de overtreksnelheid door de kabelkracht; eerst snelheid opbouwen geeft de nodige marge."
+  }
+ ]
+}
