@@ -1,0 +1,2755 @@
+{
+ "vak": "Meteorologie",
+ "vragen": [
+  {
+   "v": "Uit welk gas bestaat droge lucht voor ongeveer 78%?",
+   "a": [
+    "Stikstof",
+    "Zuurstof",
+    "Argon",
+    "Kooldioxide"
+   ],
+   "juist": 0,
+   "uitleg": "Droge lucht bestaat voor ongeveer 78% uit stikstof en 21% uit zuurstof."
+  },
+  {
+   "v": "Welk percentage zuurstof bevat droge lucht ongeveer?",
+   "a": [
+    "78%",
+    "1%",
+    "21%",
+    "50%"
+   ],
+   "juist": 2,
+   "uitleg": "Zuurstof vormt ongeveer 21% van de droge lucht."
+  },
+  {
+   "v": "In welke laag van de atmosfeer speelt vrijwel al het weer zich af?",
+   "a": [
+    "Stratosfeer",
+    "Troposfeer",
+    "Mesosfeer",
+    "Thermosfeer"
+   ],
+   "juist": 1,
+   "uitleg": "De troposfeer bevat vrijwel alle waterdamp en verticale bewegingen, dus daar speelt het weer zich af."
+  },
+  {
+   "v": "Op welke hoogte ligt de tropopauze gemiddeld boven de gematigde breedten?",
+   "a": [
+    "3 km",
+    "20 km",
+    "30 km",
+    "11 km"
+   ],
+   "juist": 3,
+   "uitleg": "Boven de gematigde breedten ligt de tropopauze gemiddeld op ongeveer 11 km."
+  },
+  {
+   "v": "Welke temperatuur heerst op zeeniveau in de ISA-standaardatmosfeer?",
+   "a": [
+    "0 graden C",
+    "10 graden C",
+    "15 graden C",
+    "20 graden C"
+   ],
+   "juist": 2,
+   "uitleg": "De ISA gaat uit van 15 graden C op zeeniveau."
+  },
+  {
+   "v": "Welke luchtdruk geldt op zeeniveau in de ISA-standaardatmosfeer?",
+   "a": [
+    "1013,25 hPa",
+    "1000 hPa",
+    "1023,25 hPa",
+    "950 hPa"
+   ],
+   "juist": 0,
+   "uitleg": "De ISA-druk op zeeniveau is 1013,25 hPa."
+  },
+  {
+   "v": "Hoe groot is het temperatuurverval met de hoogte in de ISA?",
+   "a": [
+    "1 graad C per 100 m",
+    "0,5 graden C per 100 m",
+    "1 graad C per 1000 ft",
+    "0,65 graden C per 100 m"
+   ],
+   "juist": 3,
+   "uitleg": "De ISA rekent met 0,65 graden C per 100 m, ofwel ongeveer 2 graden C per 1000 ft."
+  },
+  {
+   "v": "Welke temperatuur heeft de ISA op de tropopauze (11 km)?",
+   "a": [
+    "-40 graden C",
+    "-56,5 graden C",
+    "-70 graden C",
+    "-30 graden C"
+   ],
+   "juist": 1,
+   "uitleg": "In de ISA is de temperatuur op 11 km hoogte -56,5 graden C."
+  },
+  {
+   "v": "Hoe verloopt de temperatuur direct boven de tropopauze in het onderste deel van de stratosfeer?",
+   "a": [
+    "Ze daalt sneller dan in de troposfeer",
+    "Ze blijft vrijwel constant",
+    "Ze stijgt zeer sterk",
+    "Ze daalt 1 graad C per 100 m"
+   ],
+   "juist": 1,
+   "uitleg": "In het onderste deel van de stratosfeer is de temperatuur vrijwel constant (isotherm)."
+  },
+  {
+   "v": "Wat gebeurt er met de luchtdichtheid bij toenemende hoogte?",
+   "a": [
+    "Ze neemt toe",
+    "Ze blijft gelijk",
+    "Ze verandert alleen bij een inversie",
+    "Ze neemt af"
+   ],
+   "juist": 3,
+   "uitleg": "Met de hoogte neemt de druk af en daarmee ook de dichtheid van de lucht."
+  },
+  {
+   "v": "Op ongeveer welke hoogte is de luchtdruk gehalveerd ten opzichte van zeeniveau?",
+   "a": [
+    "5,5 km",
+    "11 km",
+    "2 km",
+    "8 km"
+   ],
+   "juist": 0,
+   "uitleg": "Op ongeveer 5,5 km (18.000 ft) is de luchtdruk nog maar de helft van die op zeeniveau."
+  },
+  {
+   "v": "Hoeveel waterdamp kan lucht maximaal ongeveer bevatten (in volumeprocent)?",
+   "a": [
+    "15%",
+    "0,04%",
+    "4%",
+    "25%"
+   ],
+   "juist": 2,
+   "uitleg": "Het waterdampgehalte is variabel en bedraagt maximaal ongeveer 4%."
+  },
+  {
+   "v": "Wat geldt voor warme lucht vergeleken met koude lucht bij gelijke druk?",
+   "a": [
+    "Warme lucht is zwaarder",
+    "Er is geen verschil",
+    "Warme lucht heeft een hogere dichtheid",
+    "Warme lucht heeft een lagere dichtheid"
+   ],
+   "juist": 3,
+   "uitleg": "Warme lucht zet uit en heeft daardoor een lagere dichtheid: hij is lichter."
+  },
+  {
+   "v": "In welke laag van de atmosfeer bevindt zich de ozonlaag?",
+   "a": [
+    "Troposfeer",
+    "Stratosfeer",
+    "Mesosfeer",
+    "Exosfeer"
+   ],
+   "juist": 1,
+   "uitleg": "De ozonlaag ligt in de stratosfeer en absorbeert ultraviolette straling."
+  },
+  {
+   "v": "Met hoeveel neemt de luchtdruk nabij zeeniveau ongeveer af per 8 meter stijging?",
+   "a": [
+    "10 hPa",
+    "0,1 hPa",
+    "1 hPa",
+    "5 hPa"
+   ],
+   "juist": 2,
+   "uitleg": "Nabij zeeniveau daalt de druk ongeveer 1 hPa per 8 m (circa 27 ft)."
+  },
+  {
+   "v": "Waar ligt de tropopauze het hoogst?",
+   "a": [
+    "Boven de evenaar",
+    "Boven de polen",
+    "Boven de gematigde breedten",
+    "Overal even hoog"
+   ],
+   "juist": 0,
+   "uitleg": "Boven de warme evenaar reikt de convectie het hoogst, daar ligt de tropopauze op circa 17 km."
+  },
+  {
+   "v": "Waarvan hangt de dichtheid van de lucht af?",
+   "a": [
+    "Van druk, temperatuur en vochtigheid",
+    "Alleen van de druk",
+    "Alleen van de temperatuur",
+    "Alleen van de hoogte"
+   ],
+   "juist": 0,
+   "uitleg": "De dichtheid volgt uit druk en temperatuur en wordt ook iets verlaagd door waterdamp."
+  },
+  {
+   "v": "Wat geldt voor vochtige lucht ten opzichte van droge lucht bij gelijke temperatuur en druk?",
+   "a": [
+    "Vochtige lucht is zwaarder",
+    "Er is geen verschil in gewicht",
+    "Vochtige lucht is lichter",
+    "Vochtige lucht is altijd kouder"
+   ],
+   "juist": 2,
+   "uitleg": "Waterdampmoleculen zijn lichter dan stikstof- en zuurstofmoleculen, dus vochtige lucht heeft een lagere dichtheid."
+  },
+  {
+   "v": "Waarvoor dient de ISA-standaardatmosfeer onder andere?",
+   "a": [
+    "Voor het voorspellen van het weer",
+    "Voor het meten van de wind",
+    "Voor het bepalen van het dauwpunt",
+    "Voor het ijken van hoogtemeters en het vergelijken van vliegtuigprestaties"
+   ],
+   "juist": 3,
+   "uitleg": "De ISA is een rekenmodel als referentie voor instrumenten en prestaties, geen weersverwachting."
+  },
+  {
+   "v": "Wat is een temperatuurinversie?",
+   "a": [
+    "Een laag waarin de temperatuur sneller daalt dan normaal",
+    "Een laag waarin de temperatuur met de hoogte toeneemt",
+    "Een laag met constante druk",
+    "Een laag waarin temperatuur en dauwpunt gelijk zijn"
+   ],
+   "juist": 1,
+   "uitleg": "Bij een inversie neemt de temperatuur met de hoogte toe in plaats van af."
+  },
+  {
+   "v": "Hoeveel is 1 hectopascal (hPa)?",
+   "a": [
+    "10 millibar",
+    "0,1 millibar",
+    "1 millibar",
+    "100 millibar"
+   ],
+   "juist": 2,
+   "uitleg": "1 hPa komt exact overeen met 1 millibar."
+  },
+  {
+   "v": "Wat gebeurt er met de maximale hoeveelheid waterdamp die lucht kan bevatten als de temperatuur stijgt?",
+   "a": [
+    "Ze neemt af",
+    "Ze blijft gelijk",
+    "Ze halveert per 10 graden",
+    "Ze neemt toe"
+   ],
+   "juist": 3,
+   "uitleg": "Warme lucht kan aanzienlijk meer waterdamp bevatten dan koude lucht."
+  },
+  {
+   "v": "Wat is relatieve vochtigheid?",
+   "a": [
+    "De verhouding tussen de aanwezige waterdamp en de maximaal mogelijke hoeveelheid bij die temperatuur, in procenten",
+    "De hoeveelheid waterdamp in gram per kubieke meter",
+    "Het verschil tussen temperatuur en dauwpunt",
+    "De hoeveelheid neerslag per etmaal"
+   ],
+   "juist": 0,
+   "uitleg": "Relatieve vochtigheid vergelijkt de aanwezige waterdamp met het maximum bij die temperatuur."
+  },
+  {
+   "v": "Wat is het dauwpunt?",
+   "a": [
+    "De temperatuur waarbij water bevriest",
+    "De temperatuur waartoe lucht moet afkoelen om verzadigd te raken",
+    "De gemiddelde temperatuur op zeeniveau",
+    "Het verschil tussen temperatuur en relatieve vochtigheid"
+   ],
+   "juist": 1,
+   "uitleg": "Bij afkoeling tot het dauwpunt is de lucht verzadigd en kan condensatie beginnen."
+  },
+  {
+   "v": "Wat gebeurt er als onverzadigde lucht afkoelt tot het dauwpunt?",
+   "a": [
+    "De lucht raakt verzadigd en condensatie kan beginnen",
+    "De lucht wordt labiel",
+    "De luchtdruk stijgt sterk",
+    "De lucht zet uit"
+   ],
+   "juist": 0,
+   "uitleg": "Op het dauwpunt is de relatieve vochtigheid 100% en kan waterdamp condenseren tot druppeltjes."
+  },
+  {
+   "v": "Wat is de QNH?",
+   "a": [
+    "De luchtdruk herleid naar gemiddeld zeeniveau volgens de ISA",
+    "De luchtdruk op het vliegveld zelf",
+    "De druk in het standaardvlak van 1013,25 hPa",
+    "Het drukverschil met de vorige dag"
+   ],
+   "juist": 0,
+   "uitleg": "Met QNH ingesteld wijst de hoogtemeter op het veld de veldhoogte boven zeeniveau aan."
+  },
+  {
+   "v": "Wat wijst de hoogtemeter op het veld aan als de QFE is ingesteld?",
+   "a": [
+    "De veldhoogte boven zeeniveau",
+    "De standaardhoogte",
+    "Nul",
+    "Het flight level"
+   ],
+   "juist": 2,
+   "uitleg": "QFE is de druk op het veld zelf, dus de hoogtemeter geeft daar 0 aan."
+  },
+  {
+   "v": "Wat is de QFF?",
+   "a": [
+    "De druk op het vliegveld",
+    "De druk herleid naar zeeniveau met de werkelijke temperatuur, zoals op weerkaarten",
+    "De druk volgens de ISA op 11 km",
+    "De gemiddelde etmaaldruk"
+   ],
+   "juist": 1,
+   "uitleg": "QFF wordt met de actuele temperatuur naar zeeniveau herleid en gebruikt voor isobaren op weerkaarten."
+  },
+  {
+   "v": "Welke drukinstelling hoort bij het vliegen op flight levels?",
+   "a": [
+    "QNH",
+    "QFE",
+    "QFF",
+    "1013,25 hPa"
+   ],
+   "juist": 3,
+   "uitleg": "Flight levels zijn gebaseerd op het standaarddrukvlak van 1013,25 hPa."
+  },
+  {
+   "v": "Je vliegt zonder de hoogtemeter bij te stellen van een hogedrukgebied naar een lagedrukgebied. Wat gebeurt er?",
+   "a": [
+    "Je vliegt hoger dan de hoogtemeter aanwijst",
+    "De aanwijzing blijft kloppen",
+    "Je vliegt lager dan de hoogtemeter aanwijst",
+    "De hoogtemeter wijst te laag aan"
+   ],
+   "juist": 2,
+   "uitleg": "Van hoog naar laag: kijk uit, de hoogtemeter wijst dan te veel aan en je zit werkelijk lager."
+  },
+  {
+   "v": "De buitenlucht is veel kouder dan de ISA. Wat geldt voor je werkelijke hoogte ten opzichte van de aangewezen hoogte?",
+   "a": [
+    "De werkelijke hoogte is lager dan aangewezen",
+    "De werkelijke hoogte is hoger dan aangewezen",
+    "Ze zijn precies gelijk",
+    "Dat verschilt alleen boven zee"
+   ],
+   "juist": 0,
+   "uitleg": "In koude lucht liggen de drukvlakken dichter op elkaar: je vliegt lager dan de hoogtemeter aangeeft."
+  },
+  {
+   "v": "Wat is een isobaar?",
+   "a": [
+    "Een lijn van gelijke temperatuur",
+    "Een lijn van gelijke windsnelheid",
+    "Een lijn van gelijke vochtigheid",
+    "Een lijn die punten met gelijke luchtdruk verbindt"
+   ],
+   "juist": 3,
+   "uitleg": "Isobaren op de weerkaart verbinden punten met dezelfde (naar zeeniveau herleide) luchtdruk."
+  },
+  {
+   "v": "Wat betekenen dicht bij elkaar liggende isobaren op de weerkaart?",
+   "a": [
+    "Zwakke wind",
+    "Een sterke drukgradient en dus veel wind",
+    "Hoge temperaturen",
+    "Stabiel weer"
+   ],
+   "juist": 1,
+   "uitleg": "Hoe dichter de isobaren op elkaar, hoe groter het drukverschil en hoe harder de wind."
+  },
+  {
+   "v": "Hoe stroomt de lucht rond een hogedrukgebied op het noordelijk halfrond?",
+   "a": [
+    "Tegen de klok in en naar binnen",
+    "Met de klok mee en uitstromend",
+    "Met de klok mee en naar binnen",
+    "Tegen de klok in en uitstromend"
+   ],
+   "juist": 1,
+   "uitleg": "Rond een hogedrukgebied draait de lucht op het noordelijk halfrond met de klok mee en stroomt aan de grond naar buiten."
+  },
+  {
+   "v": "Hoe stroomt de lucht rond een lagedrukgebied (depressie) op het noordelijk halfrond?",
+   "a": [
+    "Met de klok mee en uitstromend",
+    "Met de klok mee en naar binnen",
+    "Tegen de klok in en uitstromend",
+    "Tegen de klok in en instromend"
+   ],
+   "juist": 3,
+   "uitleg": "Rond een depressie draait de lucht tegen de klok in en stroomt aan de grond naar de kern toe."
+  },
+  {
+   "v": "Waarom heerst in een hogedrukgebied vaak stabiel weer?",
+   "a": [
+    "Dalende lucht warmt adiabatisch op en er ontstaat een inversie",
+    "Stijgende lucht koelt er sterk af",
+    "De corioliskracht is er groter",
+    "De lucht is er altijd droog en labiel"
+   ],
+   "juist": 0,
+   "uitleg": "In een hogedrukgebied daalt de lucht grootschalig, warmt op en vormt zo een stabiliserende inversie."
+  },
+  {
+   "v": "Wat is een rug van hoge druk?",
+   "a": [
+    "Een gebied tussen twee depressies met lage druk",
+    "Een lijn van gelijke druk",
+    "Een uitloper van een hogedrukgebied",
+    "De kern van een depressie"
+   ],
+   "juist": 2,
+   "uitleg": "Een rug is een langgerekte uitloper van hoge druk met meestal rustig weer."
+  },
+  {
+   "v": "Wat is een trog?",
+   "a": [
+    "Een uitloper van hoge druk",
+    "Een gebied zonder wind",
+    "De kern van een hogedrukgebied",
+    "Een uitloper van lage druk"
+   ],
+   "juist": 3,
+   "uitleg": "Een trog is een langgerekte uitloper van lage druk, vaak met buien en winddraaiing."
+  },
+  {
+   "v": "Wat is een zadelgebied (col)?",
+   "a": [
+    "De kern van een depressie",
+    "Het gebied tussen twee hogedruk- en twee lagedrukgebieden met zwakke wind",
+    "Een sterk front",
+    "Een gebied met zeer sterke drukgradient"
+   ],
+   "juist": 1,
+   "uitleg": "In een zadelgebied is de drukgradient klein en de wind zwak en veranderlijk."
+  },
+  {
+   "v": "Wat gebeurt er met de dichtheidshoogte op een warme dag?",
+   "a": [
+    "Ze daalt",
+    "Ze blijft gelijk",
+    "Ze stijgt: de lucht is ijler dan de ISA aangeeft",
+    "Ze wordt negatief"
+   ],
+   "juist": 2,
+   "uitleg": "Warme lucht is ijler, waardoor de dichtheidshoogte hoger ligt en prestaties afnemen."
+  },
+  {
+   "v": "Op welk principe werken een aneroide barometer en de hoogtemeter?",
+   "a": [
+    "Vervorming van een luchtledig membraandoosje door drukverandering",
+    "Uitzetting van kwik",
+    "Verandering van elektrische weerstand",
+    "Opwarming van een meetdraad"
+   ],
+   "juist": 0,
+   "uitleg": "Een aneroide doosje vervormt bij drukverandering en drijft via een mechaniek de wijzer aan."
+  },
+  {
+   "v": "Wat betekent snel dalende luchtdruk meestal?",
+   "a": [
+    "Naderend slecht weer, bijvoorbeeld een depressie",
+    "Aanhoudend mooi weer",
+    "Opkomende mist",
+    "Afnemende wind"
+   ],
+   "juist": 0,
+   "uitleg": "Snel dalende druk wijst op een naderende depressie of front met verslechterend weer."
+  },
+  {
+   "v": "Wat doet de luchtdruk doorgaans direct na de passage van een koufront?",
+   "a": [
+    "Ze daalt verder",
+    "Ze blijft gelijk",
+    "Ze stijgt",
+    "Ze daalt eerst langzaam en dan zeer snel"
+   ],
+   "juist": 2,
+   "uitleg": "Na een koufront stroomt koude, zwaardere lucht binnen en stijgt de druk."
+  },
+  {
+   "v": "Hoe verandert de drukafname per 100 m stijging naarmate je hoger komt?",
+   "a": [
+    "Ze wordt groter",
+    "Ze blijft precies gelijk",
+    "Ze verdubbelt",
+    "Ze wordt kleiner, want de lucht is er ijler"
+   ],
+   "juist": 3,
+   "uitleg": "Op grotere hoogte is de lucht ijler, waardoor de druk per 100 m minder snel afneemt."
+  },
+  {
+   "v": "Wat is een hoogtemeter in essentie?",
+   "a": [
+    "Een thermometer",
+    "Een barometer waarvan de schaal in hoogte is uitgedrukt",
+    "Een hygrometer",
+    "Een variometer"
+   ],
+   "juist": 1,
+   "uitleg": "De hoogtemeter meet luchtdruk en vertaalt die volgens de ISA naar een hoogte."
+  },
+  {
+   "v": "Hoe ontstaat een subsidentie-inversie?",
+   "a": [
+    "Door nachtelijke uitstraling van de grond",
+    "Door een naderend warmtefront",
+    "Door grootschalig dalende lucht in een hogedrukgebied die daarbij opwarmt",
+    "Door binnenstromende zeewind"
+   ],
+   "juist": 2,
+   "uitleg": "Dalende lucht warmt adiabatisch op en vormt op enige hoogte een inversielaag."
+  },
+  {
+   "v": "Wat is absolute vochtigheid?",
+   "a": [
+    "De vochtigheid in procenten",
+    "Het dauwpunt",
+    "De druk van de waterdamp alleen",
+    "De hoeveelheid waterdamp per volume lucht, in gram per kubieke meter"
+   ],
+   "juist": 3,
+   "uitleg": "Absolute vochtigheid geeft de werkelijke massa waterdamp per kubieke meter lucht."
+  },
+  {
+   "v": "Wat gebeurt er met de relatieve vochtigheid als lucht afkoelt zonder dat er waterdamp bijkomt?",
+   "a": [
+    "Ze neemt toe",
+    "Ze neemt af",
+    "Ze blijft gelijk",
+    "Ze wordt nul"
+   ],
+   "juist": 0,
+   "uitleg": "Koudere lucht kan minder waterdamp bevatten, dus dezelfde hoeveelheid damp geeft een hogere relatieve vochtigheid."
+  },
+  {
+   "v": "Wanneer is lucht verzadigd?",
+   "a": [
+    "Als de temperatuur boven het dauwpunt ligt",
+    "Als de relatieve vochtigheid 100% is",
+    "Als de lucht stijgt",
+    "Als de druk 1013 hPa bedraagt"
+   ],
+   "juist": 1,
+   "uitleg": "Bij 100% relatieve vochtigheid bevat de lucht de maximale hoeveelheid waterdamp."
+  },
+  {
+   "v": "Wat is nodig om waterdamp in de atmosfeer te laten condenseren tot wolkendruppels?",
+   "a": [
+    "Condensatiekernen en afkoeling tot verzadiging",
+    "Alleen een hoge luchtdruk",
+    "Onweer",
+    "Een sterke wind"
+   ],
+   "juist": 0,
+   "uitleg": "Waterdamp condenseert op kleine deeltjes (condensatiekernen) zodra de lucht verzadigd raakt."
+  },
+  {
+   "v": "Wat zegt de wet van Buys Ballot voor het noordelijk halfrond?",
+   "a": [
+    "Met de wind in de rug ligt het lagedrukgebied links en iets voor je",
+    "Met de wind in de rug ligt het lagedrukgebied rechts",
+    "Het lagedrukgebied ligt altijd recht achter je",
+    "Het hogedrukgebied ligt altijd voor je"
+   ],
+   "juist": 0,
+   "uitleg": "Op het noordelijk halfrond ligt met de wind in de rug de lage druk links en iets voor je."
+  },
+  {
+   "v": "Hoe waait de geostrofische wind ten opzichte van de isobaren?",
+   "a": [
+    "Loodrecht erop, naar de lage druk",
+    "Onder een hoek van 45 graden",
+    "Evenwijdig aan de isobaren",
+    "Altijd naar het hogedrukgebied"
+   ],
+   "juist": 2,
+   "uitleg": "Boven de wrijvingslaag waait de geostrofische wind evenwijdig aan rechte isobaren."
+  },
+  {
+   "v": "Welke krachten zijn bij de geostrofische wind met elkaar in evenwicht?",
+   "a": [
+    "Wrijvingskracht en corioliskracht",
+    "Drukgradientkracht en corioliskracht",
+    "Zwaartekracht en drukkracht",
+    "Middelpuntvliedende kracht en wrijvingskracht"
+   ],
+   "juist": 1,
+   "uitleg": "De geostrofische wind is het evenwicht tussen drukgradientkracht en corioliskracht."
+  },
+  {
+   "v": "Naar welke kant buigt de corioliskracht bewegende lucht af op het noordelijk halfrond?",
+   "a": [
+    "Naar links",
+    "Naar het zuiden",
+    "Omhoog",
+    "Naar rechts"
+   ],
+   "juist": 3,
+   "uitleg": "Op het noordelijk halfrond wijkt bewegende lucht door de aardrotatie naar rechts af."
+  },
+  {
+   "v": "Waar is de corioliskracht nul?",
+   "a": [
+    "Aan de polen",
+    "Op 45 graden breedte",
+    "Aan de evenaar",
+    "Boven zee"
+   ],
+   "juist": 2,
+   "uitleg": "De corioliskracht is nul aan de evenaar en maximaal aan de polen."
+  },
+  {
+   "v": "Wat geldt voor de gradientwind rond een lagedrukgebied vergeleken met de geostrofische wind bij dezelfde isobarenafstand?",
+   "a": [
+    "Hij is zwakker",
+    "Hij is sterker",
+    "Hij is precies gelijk",
+    "Hij waait tegengesteld"
+   ],
+   "juist": 0,
+   "uitleg": "Bij gekromde isobaren rond een depressie is de gradientwind zwakker dan de geostrofische wind."
+  },
+  {
+   "v": "Wat doet de wind aan de grond ten opzichte van de gradientwind door wrijving (noordelijk halfrond)?",
+   "a": [
+    "Hij ruimt en neemt toe",
+    "Hij wordt alleen sterker",
+    "Hij verandert niet van richting",
+    "Hij krimpt en neemt af"
+   ],
+   "juist": 3,
+   "uitleg": "Wrijving remt de wind af, waardoor hij naar de lage druk draait: hij krimpt en neemt af."
+  },
+  {
+   "v": "Hoe groot is de hoek tussen de grondwind en de isobaren boven land ongeveer?",
+   "a": [
+    "Ongeveer 10 graden",
+    "Ongeveer 30 graden",
+    "Ongeveer 60 graden",
+    "0 graden"
+   ],
+   "juist": 1,
+   "uitleg": "Boven ruw land is de wrijving groot en wijkt de wind circa 30 graden naar de lage druk af; boven zee circa 10 graden."
+  },
+  {
+   "v": "Wat doet de wind gewoonlijk als je vanaf de grond stijgt door de wrijvingslaag (noordelijk halfrond)?",
+   "a": [
+    "Hij krimpt en neemt af",
+    "Hij ruimt en neemt toe",
+    "Hij neemt alleen af",
+    "De richting blijft precies gelijk"
+   ],
+   "juist": 1,
+   "uitleg": "Met de hoogte valt de wrijving weg: de wind ruimt (draait met de klok mee) en neemt toe."
+  },
+  {
+   "v": "Wanneer en waarom ontstaat zeewind?",
+   "a": [
+    "s Nachts, omdat de zee dan warmer is dan het land",
+    "Alleen in de winter, door koude zeelucht",
+    "Bij storm, door de drukgradient",
+    "Overdag, omdat het land sneller opwarmt dan de zee"
+   ],
+   "juist": 3,
+   "uitleg": "Boven het snel opwarmende land stijgt lucht op en stroomt koelere zeelucht het land binnen."
+  },
+  {
+   "v": "Wanneer waait de landwind?",
+   "a": [
+    "s Nachts, wanneer het land sterker afkoelt dan de zee",
+    "Midden op de dag",
+    "Alleen in de zomer",
+    "Alleen bij harde gradientwind"
+   ],
+   "juist": 0,
+   "uitleg": "s Nachts koelt het land sneller af dan de zee en stroomt lucht van land naar zee."
+  },
+  {
+   "v": "Wat kan een zeewindfront voor zweefvliegers betekenen?",
+   "a": [
+    "Het heeft nooit invloed",
+    "Alleen regen",
+    "Een convergentielijn met stijgwind, met daarachter gedoofde thermiek in de zeelucht",
+    "Altijd onweer"
+   ],
+   "juist": 2,
+   "uitleg": "Op het zeewindfront convergeert lucht en ontstaat stijgwind; in de binnendringende zeelucht dooft de thermiek."
+  },
+  {
+   "v": "Waarom is de wind aan de grond overdag vaak sterker dan s nachts?",
+   "a": [
+    "Door de zeewind",
+    "Omdat de drukgradient overdag groter is",
+    "Omdat de corioliskracht overdag groter is",
+    "Omdat thermische menging de sterkere hoogtewind naar beneden koppelt"
+   ],
+   "juist": 3,
+   "uitleg": "Overdag mengt convectie de snellere lucht van boven naar het aardoppervlak."
+  },
+  {
+   "v": "Wat geeft de meteorologische windrichting aan?",
+   "a": [
+    "De richting waar de wind naartoe waait",
+    "De richting waar de wind vandaan komt",
+    "Altijd de magnetische koers",
+    "De richting van de isobaren"
+   ],
+   "juist": 1,
+   "uitleg": "Windrichting wordt altijd opgegeven als de richting waaruit de wind waait."
+  },
+  {
+   "v": "Wat is anabatische wind?",
+   "a": [
+    "Dalende koude hellingwind in de nacht",
+    "Wind door een bergpas",
+    "Opstijgende wind langs een door de zon verwarmde helling",
+    "Valwind achter een gebergte"
+   ],
+   "juist": 2,
+   "uitleg": "Anabatische wind is de opstijgende hellingwind boven een zonbeschenen helling."
+  },
+  {
+   "v": "Wat is katabatische wind?",
+   "a": [
+    "Koude lucht die s nachts langs een helling naar beneden stroomt",
+    "Warme opstijgende hellingwind",
+    "Zeewind",
+    "Golfstijgwind"
+   ],
+   "juist": 0,
+   "uitleg": "s Nachts koelt de lucht op de helling af, wordt zwaarder en stroomt het dal in."
+  },
+  {
+   "v": "Wat is fohn?",
+   "a": [
+    "Een warme, droge valwind aan de lijzijde van een gebergte",
+    "Een koude noordenwind",
+    "De middagzeewind",
+    "Een nachtelijke landwind"
+   ],
+   "juist": 0,
+   "uitleg": "Bij fohn daalt lucht aan de lijzijde en warmt droogadiabatisch op: warm en droog weer."
+  },
+  {
+   "v": "Wat is windshear (windschering)?",
+   "a": [
+    "Een gelijkmatige wind boven de 20 kt",
+    "Wind die precies over de baan staat",
+    "Een plotselinge verandering van windrichting en/of windsnelheid over een korte afstand",
+    "Wind evenwijdig aan de isobaren"
+   ],
+   "juist": 2,
+   "uitleg": "Windshear is een abrupte verandering van windsnelheid of -richting, gevaarlijk vlak bij de grond."
+  },
+  {
+   "v": "Wat is convergentie?",
+   "a": [
+    "Het uiteenstromen van lucht",
+    "Grootschalig dalende lucht",
+    "De draaiing van de wind met de hoogte",
+    "Het samenstromen van lucht, waardoor lucht gedwongen wordt te stijgen"
+   ],
+   "juist": 3,
+   "uitleg": "Waar luchtstromen samenkomen moet de lucht omhoog: convergentie geeft stijgwind."
+  },
+  {
+   "v": "Wanneer is mechanische turbulentie achter gebouwen en bomenrijen het sterkst?",
+   "a": [
+    "Bij zwakke wind en stabiele lucht",
+    "Bij harde wind en labiele lucht",
+    "Alleen s nachts",
+    "Bij mist"
+   ],
+   "juist": 1,
+   "uitleg": "Hoe harder de wind en hoe labieler de lucht, hoe heftiger de wervels achter obstakels."
+  },
+  {
+   "v": "Op welke hoogte waait ongeveer de ongestoorde gradientwind?",
+   "a": [
+    "Op 50 m",
+    "Op 10 km",
+    "Boven de wrijvingslaag, op circa 500 tot 1000 m",
+    "Alleen op zeeniveau"
+   ],
+   "juist": 2,
+   "uitleg": "Boven de wrijvingslaag van enkele honderden meters waait de wind vrijwel ongestoord."
+  },
+  {
+   "v": "Hoe verandert een gevestigde zeewind aan de Nederlandse kust in de loop van de middag?",
+   "a": [
+    "Hij krimpt naar het zuidoosten",
+    "Hij valt geheel stil",
+    "Hij wordt landwind",
+    "Hij ruimt geleidelijk door de corioliskracht"
+   ],
+   "juist": 3,
+   "uitleg": "De corioliskracht doet de zeewind in de loop van de dag geleidelijk ruimen."
+  },
+  {
+   "v": "Waarom is de wind boven open zee bij gelijke drukgradient sterker dan boven land?",
+   "a": [
+    "Boven het gladde zeeoppervlak is de wrijving kleiner",
+    "Zeewater trekt wind aan",
+    "De corioliskracht is boven zee groter",
+    "De lucht boven zee is lichter"
+   ],
+   "juist": 0,
+   "uitleg": "Minder wrijving boven zee betekent minder afremming, dus meer wind."
+  },
+  {
+   "v": "Wat gebeurt er met de wind in een nauwe bergpas of tussen hoge gebouwen?",
+   "a": [
+    "Hij neemt af",
+    "Hij versnelt door het venturi-effect",
+    "Hij draait 180 graden",
+    "Hij valt stil"
+   ],
+   "juist": 1,
+   "uitleg": "In een vernauwing moet dezelfde hoeveelheid lucht door een kleinere doorsnede: de wind versnelt."
+  },
+  {
+   "v": "Waar vind je hellingstijgwind?",
+   "a": [
+    "Aan de loefzijde, waar de wind tegen de helling omhoog wordt gedwongen",
+    "Aan de lijzijde van de helling",
+    "Alleen recht boven de top",
+    "In het dal"
+   ],
+   "juist": 0,
+   "uitleg": "Wind die tegen een helling aan waait, wordt gedwongen te stijgen: daar ligt het hellingstijggebied."
+  },
+  {
+   "v": "Wat is een adiabatisch proces?",
+   "a": [
+    "Een temperatuurverandering zonder warmte-uitwisseling met de omgeving",
+    "Opwarming door zonnestraling",
+    "Afkoeling door menging met koudere lucht",
+    "Een proces bij constante temperatuur"
+   ],
+   "juist": 0,
+   "uitleg": "Bij adiabatische processen verandert de temperatuur alleen door uitzetting of samendrukking."
+  },
+  {
+   "v": "Hoe groot is de droogadiabatische temperatuurgradient?",
+   "a": [
+    "0,65 graden C per 100 m",
+    "0,6 graden C per 100 m",
+    "1,0 graad C per 100 m",
+    "2,0 graden C per 100 m"
+   ],
+   "juist": 2,
+   "uitleg": "Onverzadigd stijgende lucht koelt 1 graad C per 100 m af."
+  },
+  {
+   "v": "Hoe groot is de natadiabatische temperatuurgradient gemiddeld?",
+   "a": [
+    "1,0 graad C per 100 m",
+    "Ongeveer 0,6 graden C per 100 m",
+    "0,1 graad C per 100 m",
+    "1,5 graden C per 100 m"
+   ],
+   "juist": 1,
+   "uitleg": "Verzadigd stijgende lucht koelt gemiddeld circa 0,6 graden C per 100 m af."
+  },
+  {
+   "v": "Waarom koelt verzadigd stijgende lucht langzamer af dan onverzadigde lucht?",
+   "a": [
+    "Omdat ze zwaarder is",
+    "Door wrijving met de omgeving",
+    "Door extra zonnestraling in de wolk",
+    "Omdat bij condensatie warmte vrijkomt"
+   ],
+   "juist": 3,
+   "uitleg": "De vrijkomende condensatiewarmte compenseert een deel van de afkoeling."
+  },
+  {
+   "v": "Wanneer is de atmosfeer absoluut labiel voor onverzadigde lucht?",
+   "a": [
+    "Als de omgevingsgradient kleiner is dan 0,6 graden C per 100 m",
+    "Als de omgevingsgradient precies 0,65 graden C per 100 m is",
+    "Als de omgevingstemperatuur sneller daalt dan 1 graad C per 100 m",
+    "Bij een inversie"
+   ],
+   "juist": 2,
+   "uitleg": "Daalt de omgevingstemperatuur sneller dan de droogadiabaat, dan blijft een stijgende bel warmer en stijgt door."
+  },
+  {
+   "v": "Wanneer is de atmosfeer absoluut stabiel?",
+   "a": [
+    "Als de omgevingsgradient kleiner is dan de natadiabatische gradient van circa 0,6 graden C per 100 m",
+    "Als de omgevingsgradient groter is dan 1 graad C per 100 m",
+    "Als de gradient tussen 0,6 en 1,0 ligt",
+    "Bij een relatieve vochtigheid van 100%"
+   ],
+   "juist": 0,
+   "uitleg": "Is de omgevingsgradient kleiner dan de natadiabaat, dan wordt elke stijgende bel kouder dan de omgeving en zakt terug."
+  },
+  {
+   "v": "Wat betekent voorwaardelijk (conditioneel) labiel?",
+   "a": [
+    "De lucht is altijd labiel",
+    "De lucht is alleen s nachts labiel",
+    "De lucht is labiel boven zee",
+    "De omgevingsgradient ligt tussen de nat- en droogadiabaat: stabiel voor onverzadigde, labiel voor verzadigde lucht"
+   ],
+   "juist": 3,
+   "uitleg": "Tussen circa 0,6 en 1,0 graad C per 100 m is de lucht alleen labiel als hij verzadigd raakt."
+  },
+  {
+   "v": "Waardoor koelt een stijgende thermiekbel af?",
+   "a": [
+    "Door menging met neerslag",
+    "Door uitzetting bij afnemende luchtdruk",
+    "Door de wind",
+    "Door uitstraling naar de ruimte"
+   ],
+   "juist": 1,
+   "uitleg": "Stijgende lucht komt in lagere druk, zet uit en koelt daardoor adiabatisch af."
+  },
+  {
+   "v": "Wat gebeurt er met dalende onverzadigde lucht?",
+   "a": [
+    "Ze koelt 1 graad C per 100 m af",
+    "Ze warmt droogadiabatisch 1 graad C per 100 m op",
+    "De temperatuur blijft gelijk",
+    "Ze warmt 0,6 graden C per 100 m op"
+   ],
+   "juist": 1,
+   "uitleg": "Dalende lucht wordt samengedrukt en warmt daardoor 1 graad C per 100 m op."
+  },
+  {
+   "v": "Welk effect heeft een inversie op thermiek?",
+   "a": [
+    "Ze versterkt de thermiek",
+    "Ze heeft geen effect",
+    "Ze maakt de thermiek turbulenter",
+    "Ze werkt als een deksel: stijgende bellen komen er niet doorheen"
+   ],
+   "juist": 3,
+   "uitleg": "In een inversie wordt stijgende lucht kouder dan de omgeving en stopt de stijging."
+  },
+  {
+   "v": "Hoe ontstaat een stralingsinversie (grondinversie)?",
+   "a": [
+    "Door nachtelijke uitstraling koelen de grond en de onderste luchtlaag sterk af",
+    "Door grootschalig dalende lucht",
+    "Door binnenstromende zeewind",
+    "Door onweer"
+   ],
+   "juist": 0,
+   "uitleg": "In heldere nachten koelt de grond sterk uit en wordt de onderste luchtlaag kouder dan de lucht erboven."
+  },
+  {
+   "v": "Waardoor ontstaat thermiek?",
+   "a": [
+    "Door drukverschillen op grote schaal",
+    "Door de corioliskracht",
+    "Door ongelijkmatige opwarming van het aardoppervlak door de zon",
+    "Door vochtige lucht"
+   ],
+   "juist": 2,
+   "uitleg": "Verschillen in opwarming maken sommige luchtdelen warmer en lichter, zodat ze opstijgen."
+  },
+  {
+   "v": "Welk oppervlak is doorgaans de slechtste thermiekbron?",
+   "a": [
+    "Een droge geploegde akker",
+    "Een dorp met veel asfalt",
+    "Een zuidhelling",
+    "Een groot wateroppervlak"
+   ],
+   "juist": 3,
+   "uitleg": "Water warmt nauwelijks op aan het oppervlak en geeft vrijwel geen thermiek af."
+  },
+  {
+   "v": "Een luchtbel die na een kleine verticale verplaatsing terugkeert naar zijn oorspronkelijke niveau bevindt zich in:",
+   "a": [
+    "labiele lucht",
+    "stabiele lucht",
+    "neutrale lucht",
+    "verzadigde lucht"
+   ],
+   "juist": 1,
+   "uitleg": "In stabiele lucht werkt op een verplaatste bel een kracht terug naar het beginniveau."
+  },
+  {
+   "v": "Met welke vuistregel schat je de hoogte van de cumulusbasis uit temperatuur T en dauwpunt Td aan de grond?",
+   "a": [
+    "(T - Td) x 40 ft",
+    "(T - Td) x 1000 ft",
+    "(T - Td) x 400 ft",
+    "(T + Td) x 125 m"
+   ],
+   "juist": 2,
+   "uitleg": "Per graad verschil tussen temperatuur en dauwpunt ligt de basis circa 400 ft (125 m) hoger."
+  },
+  {
+   "v": "Wat is voor zweefvliegers het praktische belang van het condensatieniveau?",
+   "a": [
+    "Het is de hoogte waarop stijgende thermiekbellen verzadigd raken: daar ligt de cumulusbasis",
+    "Het is de hoogte van de tropopauze",
+    "Het is de hoogte waarop de wind draait",
+    "Het is de ondergrens van de thermiek"
+   ],
+   "juist": 0,
+   "uitleg": "Op het condensatieniveau begint condensatie en vormt zich de wolkenbasis."
+  },
+  {
+   "v": "Welke kenmerken horen bij labiele lucht?",
+   "a": [
+    "Cumulusbewolking, goed zicht en turbulentie",
+    "Stratus en mist",
+    "Gelijkmatige rustige lucht",
+    "Langdurige motregen"
+   ],
+   "juist": 0,
+   "uitleg": "Labiele lucht geeft verticale bewegingen: stapelwolken, buiigheid, turbulentie en goed zicht."
+  },
+  {
+   "v": "Welke kenmerken horen bij stabiele lucht?",
+   "a": [
+    "Stapelwolken en buien",
+    "Stofhozen",
+    "Gelaagde bewolking, heiigheid en rustige lucht",
+    "Altijd onweer"
+   ],
+   "juist": 2,
+   "uitleg": "Stabiele lucht onderdrukt verticale beweging: gelaagde wolken, matig zicht en eventueel motregen."
+  },
+  {
+   "v": "Wat is een superadiabatische gradient?",
+   "a": [
+    "Een gradient kleiner dan 0,6 graden C per 100 m",
+    "Een gradient van precies 1,0 graad C per 100 m",
+    "Een negatieve gradient",
+    "Een gradient groter dan 1 graad C per 100 m, vaak vlak boven sterk verwarmde grond"
+   ],
+   "juist": 3,
+   "uitleg": "Vlak boven hete grond kan de temperatuur sneller dan droogadiabatisch afnemen: zeer labiel."
+  },
+  {
+   "v": "Na een koufrontpassage stroomt polaire lucht over relatief warm land. Wat verwacht je?",
+   "a": [
+    "Stabiel en mistig weer",
+    "Labiele lucht met goede thermiek en stapelwolken",
+    "Volledige windstilte",
+    "Een warmtegolf"
+   ],
+   "juist": 1,
+   "uitleg": "Koude lucht boven een warm oppervlak wordt van onderaf verwarmd en dus labiel: klassiek goed thermiekweer."
+  },
+  {
+   "v": "Wat gebeurt er overdag met de lucht boven een groot koud meer, terwijl rondom thermiek staat?",
+   "a": [
+    "Daar staat de sterkste thermiek",
+    "Er ontstaat onweer",
+    "Daar daalt de lucht als compensatie voor de stijgende lucht boven het land",
+    "Er ontstaat golfstijgwind"
+   ],
+   "juist": 2,
+   "uitleg": "Boven koud water ontbreekt thermiek en daalt lucht die de stijgwind boven land compenseert."
+  },
+  {
+   "v": "Waar heb je op een thermiekdag de grootste kans op stijgwind?",
+   "a": [
+    "Alleen boven water",
+    "In het aambeeld van een cb",
+    "Boven een vervallende wolkenflard",
+    "Onder een groeiende cumulus met scherpe randen"
+   ],
+   "juist": 3,
+   "uitleg": "Een groeiende cumulus wordt gevoed door een actieve thermiekbel eronder."
+  },
+  {
+   "v": "Wat is blauwe thermiek?",
+   "a": [
+    "Thermiek zonder cumulusvorming, doordat de lucht te droog is of de inversie onder het condensatieniveau ligt",
+    "Thermiek boven zee",
+    "Thermiek in de nacht",
+    "Golfstijgwind bij heldere hemel"
+   ],
+   "juist": 0,
+   "uitleg": "Bij blauwe thermiek bereiken de bellen het condensatieniveau niet, zodat geen wolken ontstaan."
+  },
+  {
+   "v": "Wat gebeurt er met thermiekbellen bij veel wind?",
+   "a": [
+    "Ze worden altijd sterker",
+    "Ze verwaaien, breken af en hellen benedenwinds over",
+    "Ze blijven recht boven hun bron staan",
+    "Wind heeft geen invloed op thermiek"
+   ],
+   "juist": 1,
+   "uitleg": "Sterke wind verstoort en kantelt de bellen, waardoor de thermiek ruw en verbrokkeld wordt."
+  },
+  {
+   "v": "Waarom geeft een nat oppervlak zwakke thermiek?",
+   "a": [
+    "Het reflecteert al het zonlicht",
+    "Veel zonne-energie gaat op aan verdamping in plaats van aan opwarming",
+    "Water absorbeert geen warmte",
+    "Natte lucht is zwaarder dan droge lucht"
+   ],
+   "juist": 1,
+   "uitleg": "Verdamping verbruikt energie, zodat het oppervlak minder opwarmt en minder thermiek afgeeft."
+  },
+  {
+   "v": "Wat is het verschil tussen belthermiek en een thermiekbaard?",
+   "a": [
+    "Een bel is een losgelaten pakket warme lucht, een baard is een vrijwel continue stijgende kolom",
+    "Een bel is sterker dan een baard",
+    "Een baard komt alleen boven zee voor",
+    "Er is geen verschil"
+   ],
+   "juist": 0,
+   "uitleg": "Bij zwakke aanvoer laten losse bellen los; bij goede voeding ontstaat een doorgaande kolom (baard)."
+  },
+  {
+   "v": "Op welk moment van de dag is de thermiek gewoonlijk het sterkst?",
+   "a": [
+    "Vlak na zonsopkomst",
+    "Laat in de avond",
+    "In de vroege tot midden namiddag, circa 13 tot 16 uur",
+    "Rond middernacht"
+   ],
+   "juist": 2,
+   "uitleg": "De grondtemperatuur en daarmee de thermiek bereiken in de vroege namiddag hun maximum."
+  },
+  {
+   "v": "Waarom dooft de thermiek in de avond uit?",
+   "a": [
+    "De lucht wordt dan labieler",
+    "De zonnestraling neemt af en de grond koelt af",
+    "De luchtdruk stijgt altijd in de avond",
+    "De wind valt weg"
+   ],
+   "juist": 1,
+   "uitleg": "Zonder voldoende instraling houdt de aanvoer van warme lucht vanaf de grond op."
+  },
+  {
+   "v": "Onder welke omstandigheden ontstaan wolkenstraten?",
+   "a": [
+    "Bij windstilte",
+    "Alleen boven zee",
+    "Bij onweer",
+    "Bij vrij veel wind die weinig met de hoogte draait en een begrensde convectielaag"
+   ],
+   "juist": 3,
+   "uitleg": "Bij voldoende wind in een begrensde convectielaag ordent de convectie zich in rijen langs de windrichting."
+  },
+  {
+   "v": "Hoe groot is de afstand tussen wolkenstraten ongeveer?",
+   "a": [
+    "Gelijk aan de convectiehoogte",
+    "Tien keer de convectiehoogte",
+    "Ongeveer 2,5 tot 3 keer de hoogte van de convectielaag",
+    "Altijd precies 10 km"
+   ],
+   "juist": 2,
+   "uitleg": "De straatafstand is als vuistregel zo'n drie keer de dikte van de convectielaag."
+  },
+  {
+   "v": "Wat is overontwikkeling (spread-out)?",
+   "a": [
+    "Cumulus spreidt uit tot een dichte laag stratocumulus die de zon afschermt en de thermiek dooft",
+    "Cumulus groeit uit tot onweer",
+    "De basis stijgt tot boven de inversie",
+    "De wind neemt sterk toe"
+   ],
+   "juist": 0,
+   "uitleg": "Onder een inversie kunnen cumuli uitvloeien tot een dek dat de instraling en dus de thermiek smoort."
+  },
+  {
+   "v": "Hoe is een inversie vanuit de lucht vaak te herkennen?",
+   "a": [
+    "Aan een regenboog",
+    "Aan een wolkenstraat",
+    "Aan een halo",
+    "Aan de bovenkant van een vuilgrijze heiigheidslaag"
+   ],
+   "juist": 3,
+   "uitleg": "Stof en vocht hopen zich onder de inversie op; de bovenkant van die smoglaag markeert de inversie."
+  },
+  {
+   "v": "Welk effect heeft een subsidentie-inversie in een hogedrukgebied op het zweefvliegen?",
+   "a": [
+    "Ze verhoogt de wolkenbasis",
+    "Ze beperkt de bruikbare thermiekhoogte tot de inversie",
+    "Ze veroorzaakt zware buien",
+    "Ze heeft geen effect"
+   ],
+   "juist": 1,
+   "uitleg": "De thermiek stopt tegen de inversie, die in hogedrukgebieden vaak relatief laag ligt."
+  },
+  {
+   "v": "Welke informatie is het belangrijkst om de thermiek van morgen te voorspellen?",
+   "a": [
+    "De zeewatertemperatuur",
+    "Het verticale temperatuurprofiel (sounding) en de verwachte maximumtemperatuur",
+    "Alleen de windrichting",
+    "De luchtdruk van gisteren"
+   ],
+   "juist": 1,
+   "uitleg": "Uit de sounding en de verwachte maximumtemperatuur volgen labiliteit, thermiekhoogte en basis."
+  },
+  {
+   "v": "Wat is de trigger-temperatuur (ontkoppeltemperatuur)?",
+   "a": [
+    "De ISA-temperatuur op zeeniveau",
+    "Het dauwpunt aan de grond",
+    "De temperatuur op 500 hPa",
+    "De grondtemperatuur waarbij thermiekbellen de nachtelijke inversie doorbreken en loskomen"
+   ],
+   "juist": 3,
+   "uitleg": "Pas als de grond warm genoeg is om de grondinversie weg te werken, komt de thermiek op gang."
+  },
+  {
+   "v": "Welke gemiddelde stijgsnelheden zijn op een normale Nederlandse thermiekdag realistisch?",
+   "a": [
+    "1 tot 3 m/s",
+    "8 tot 10 m/s",
+    "15 m/s",
+    "0,1 m/s"
+   ],
+   "juist": 0,
+   "uitleg": "In Nederland zijn gemiddelde stijgwaarden van 1 tot 3 m/s gebruikelijk."
+  },
+  {
+   "v": "Hoe benut je een wolkenstraat optimaal?",
+   "a": [
+    "Door er dwars doorheen te vliegen",
+    "Door onder elke wolk apart te cirkelen",
+    "Door onder de straat rechtdoor te vliegen (dolfijnen) en zo min mogelijk te cirkelen",
+    "Door boven de wolken te vliegen"
+   ],
+   "juist": 2,
+   "uitleg": "Onder een wolkenstraat kun je in vrijwel doorgaand stijgen op koers blijven zonder te cirkelen."
+  },
+  {
+   "v": "Wat is op een tot dan toe wolkenloze ochtend vaak het eerste teken van beginnende thermiek?",
+   "a": [
+    "Cirrusbewolking",
+    "Een halo",
+    "Opkomende mist",
+    "Kleine cumulusflarden die ontstaan en snel weer oplossen"
+   ],
+   "juist": 3,
+   "uitleg": "De eerste bellen bereiken het condensatieniveau en vormen kortlevende wolkenflarden."
+  },
+  {
+   "v": "Wat doet de cumulusbasis meestal in de loop van een zonnige thermiekdag?",
+   "a": [
+    "Ze daalt gestaag",
+    "Ze stijgt, doordat de lucht opwarmt en het verschil tussen temperatuur en dauwpunt groter wordt",
+    "Ze blijft precies gelijk",
+    "Ze verdwijnt rond het middaguur"
+   ],
+   "juist": 1,
+   "uitleg": "Met de opwarming groeit de spreiding tussen temperatuur en dauwpunt en stijgt de basis."
+  },
+  {
+   "v": "Welke cumulus geeft de meeste kans op goed stijgen?",
+   "a": [
+    "Een rafelige, vervallende wolk",
+    "Een wolk met uitzakkende basis",
+    "Een jonge, groeiende wolk met scherpe randen en een donkere vlakke basis",
+    "Een uitgespreide waterige sluier"
+   ],
+   "juist": 2,
+   "uitleg": "Scherpe contouren en een donkere basis wijzen op een actieve, gevoede wolk."
+  },
+  {
+   "v": "Waaraan herken je een vervallende cumulus?",
+   "a": [
+    "Rafelige randen en zachte, oplossende contouren",
+    "Scherpe randen",
+    "Een donkerder wordende basis",
+    "Sterke groei van de top"
+   ],
+   "juist": 0,
+   "uitleg": "Een stervende cumulus lost op en krijgt rafelige, wollige randen; eronder heerst vaak dalen."
+  },
+  {
+   "v": "Welke hulpmiddelen verraden thermiek op een blauwe dag?",
+   "a": [
+    "Cirkelende vogels, andere zweefvliegtuigen en stofhozen",
+    "De isobaren op de weerkaart",
+    "Alleen de windzak",
+    "Er zijn geen aanwijzingen"
+   ],
+   "juist": 0,
+   "uitleg": "Zonder wolken zijn vogels, andere zwevers en stof of rook de beste thermiekindicatoren."
+  },
+  {
+   "v": "Waarop wijst een stofhoos (dust devil)?",
+   "a": [
+    "Een naderend front",
+    "Zeer stabiele lucht",
+    "Sterke thermiek boven een oververhitte grondlaag",
+    "Naderende regen"
+   ],
+   "juist": 2,
+   "uitleg": "Stofhozen ontstaan bij krachtige thermiekbellen boven sterk verwarmde droge grond."
+  },
+  {
+   "v": "Wanneer geven grote bosgebieden hun warmte vooral af?",
+   "a": [
+    "Nooit",
+    "In de vroege ochtend",
+    "Alleen bij regen",
+    "Later op de dag en tegen de avond"
+   ],
+   "juist": 3,
+   "uitleg": "Bos warmt traag op en geeft de opgeslagen warmte pas later op de dag als thermiek af."
+  },
+  {
+   "v": "Waar zoek je bij wind de thermiekbel die bij een bron op de grond hoort?",
+   "a": [
+    "Recht boven de bron",
+    "Benedenwinds van de bron",
+    "Bovenwinds van de bron",
+    "Altijd 10 km verderop"
+   ],
+   "juist": 1,
+   "uitleg": "De bel drijft met de wind mee en staat dus benedenwinds van zijn bron, meer naarmate je hoger komt."
+  },
+  {
+   "v": "Wat doet binnendringende zeewind met de thermiek in de kuststrook?",
+   "a": [
+    "Hij versterkt de thermiek",
+    "Hij verhoogt de wolkenbasis",
+    "Hij dooft de thermiek: de aangevoerde zeelucht is koel en stabiel",
+    "Hij verandert niets"
+   ],
+   "juist": 2,
+   "uitleg": "Achter het zeewindfront ligt koele, stabiele zeelucht waarin de thermiek instort."
+  },
+  {
+   "v": "Wat gebeurt er met de stabiliteit als koude lucht over een warm oppervlak stroomt?",
+   "a": [
+    "De lucht wordt stabieler",
+    "Er verandert niets",
+    "De lucht wordt eerst stabieler en dan neutraal",
+    "De onderste laag wordt labieler"
+   ],
+   "juist": 3,
+   "uitleg": "Verwarming van onderaf vergroot de verticale temperatuurgradient en maakt de lucht labiel."
+  },
+  {
+   "v": "Wat gebeurt er als warme lucht over een koud oppervlak stroomt?",
+   "a": [
+    "De onderste laag wordt stabiel, met kans op mist of stratus",
+    "De lucht wordt labiel",
+    "Er ontstaat onweer",
+    "Er ontstaat sterke thermiek"
+   ],
+   "juist": 0,
+   "uitleg": "Afkoeling van onderaf stabiliseert de lucht en kan tot advectiemist of stratus leiden."
+  },
+  {
+   "v": "Wat bepaalt de maximale werkhoogte op een thermiekdag zonder wolkenvorming?",
+   "a": [
+    "De windsnelheid",
+    "De dikte van de convectielaag tot aan de inversie",
+    "Het zicht",
+    "Het dauwpunt aan de grond"
+   ],
+   "juist": 1,
+   "uitleg": "Zonder wolken stijgen de bellen tot de inversie die de convectielaag afsluit."
+  },
+  {
+   "v": "Wat is het effect van binnenschuivende dichte cirrusbewolking op een thermiekdag?",
+   "a": [
+    "Geen effect",
+    "De thermiek verzwakt doordat minder zonnestraling de grond bereikt",
+    "De thermiek wordt sterker",
+    "De wolkenbasis stijgt snel"
+   ],
+   "juist": 1,
+   "uitleg": "Sluierbewolking dempt de instraling en daarmee de aanvoer van nieuwe warme lucht."
+  },
+  {
+   "v": "Hoeveel wolkengeslachten onderscheidt de meteorologie?",
+   "a": [
+    "10",
+    "4",
+    "7",
+    "12"
+   ],
+   "juist": 0,
+   "uitleg": "Er zijn tien wolkengeslachten, verdeeld over hoge, middelbare en lage wolken plus wolken met verticale opbouw."
+  },
+  {
+   "v": "Waaruit bestaan hoge wolken zoals cirrus?",
+   "a": [
+    "Waterdruppels",
+    "Stofdeeltjes",
+    "IJskristallen",
+    "Hagelstenen"
+   ],
+   "juist": 2,
+   "uitleg": "Op de hoogte van cirrus is het zo koud dat de wolken uit ijskristallen bestaan."
+  },
+  {
+   "v": "Bij welke wolk zie je vaak een halo om zon of maan?",
+   "a": [
+    "Cumulus",
+    "Cirrostratus",
+    "Stratocumulus",
+    "Nimbostratus"
+   ],
+   "juist": 1,
+   "uitleg": "De ijskristallen van cirrostratus breken het licht en veroorzaken een halo."
+  },
+  {
+   "v": "Bij welke wolk is de zon nog vaag zichtbaar, als door matglas?",
+   "a": [
+    "Cirrus",
+    "Cumulonimbus",
+    "Stratus",
+    "Altostratus"
+   ],
+   "juist": 3,
+   "uitleg": "Door altostratus schemert de zon als door matglas, zonder halo."
+  },
+  {
+   "v": "Welke wolk geeft langdurige, gelijkmatige neerslag?",
+   "a": [
+    "Cumulus",
+    "Cirrus",
+    "Nimbostratus",
+    "Altocumulus"
+   ],
+   "juist": 2,
+   "uitleg": "Nimbostratus is de dikke grijze regenlaag van bijvoorbeeld een warmtefront."
+  },
+  {
+   "v": "Welke wolk hoort bij buien, onweer en hagel?",
+   "a": [
+    "Cumulonimbus",
+    "Stratus",
+    "Cirrostratus",
+    "Altostratus"
+   ],
+   "juist": 0,
+   "uitleg": "De cumulonimbus is de buien- en onweerswolk met grote verticale opbouw."
+  },
+  {
+   "v": "Wat is het belangrijkste verschil tussen stratocumulus en cumulus?",
+   "a": [
+    "De kleur",
+    "Alleen de hoogte",
+    "De hoeveelheid neerslag",
+    "Stratocumulus vormt een aaneengesloten brokkelige laag, cumulus zijn losse stapelwolken"
+   ],
+   "juist": 3,
+   "uitleg": "Stratocumulus is een gelaagde, brokkelige wolkenlaag; cumulus staan als losse wolken."
+  },
+  {
+   "v": "Welke wolk hangt als een gelijkmatig grijs laken laag boven de grond en geeft hooguit motregen?",
+   "a": [
+    "Cumulus",
+    "Stratus",
+    "Cirrus",
+    "Cumulonimbus"
+   ],
+   "juist": 1,
+   "uitleg": "Stratus is een lage, structuurloze wolkenlaag waaruit hooguit motregen valt."
+  },
+  {
+   "v": "In welke eenheid wordt de wolkenbedekking uitgedrukt?",
+   "a": [
+    "Procenten",
+    "Okta's (achtsten van de hemel)",
+    "Tienden",
+    "Graden"
+   ],
+   "juist": 1,
+   "uitleg": "Bedekkingsgraad wordt gemeten in okta's: 0 is onbewolkt, 8 is geheel bedekt."
+  },
+  {
+   "v": "Hoeveel okta's bedekking betekent BKN (broken)?",
+   "a": [
+    "1 tot 2",
+    "3 tot 4",
+    "8",
+    "5 tot 7"
+   ],
+   "juist": 3,
+   "uitleg": "FEW is 1-2, SCT 3-4, BKN 5-7 en OVC 8 okta's."
+  },
+  {
+   "v": "Wat bepaalt de hoogte van de cumulusbasis?",
+   "a": [
+    "Het niveau waarop de stijgende lucht haar dauwpunt bereikt (condensatieniveau)",
+    "De windsnelheid",
+    "De luchtdruk op zeeniveau",
+    "De hoogte van het aambeeld"
+   ],
+   "juist": 0,
+   "uitleg": "Waar de stijgende lucht verzadigd raakt, begint condensatie: daar ligt de basis."
+  },
+  {
+   "v": "Hoe heet de platte mooiweercumulus?",
+   "a": [
+    "Cumulus congestus",
+    "Cumulonimbus",
+    "Cumulus humilis",
+    "Cumulus fractus"
+   ],
+   "juist": 2,
+   "uitleg": "Cumulus humilis is de vlakke, ondiepe mooiweerwolk."
+  },
+  {
+   "v": "Wat is een cumulus congestus (towering cumulus)?",
+   "a": [
+    "Een vervallende cumulus",
+    "Een dun wolkenflardje",
+    "Een gelaagde wolk",
+    "Een sterk gegroeide cumulus met bloemkooltop, mogelijk voorstadium van een cb"
+   ],
+   "juist": 3,
+   "uitleg": "Congestus is een hoog opgetorende cumulus die tot cumulonimbus kan uitgroeien."
+  },
+  {
+   "v": "Hoe lang leeft een gewone cumuluswolk ongeveer?",
+   "a": [
+    "Enkele uren",
+    "Ongeveer 15 tot 30 minuten",
+    "Een hele dag",
+    "Slechts 1 tot 2 minuten"
+   ],
+   "juist": 1,
+   "uitleg": "Een cumulus ontstaat, groeit en vervalt gewoonlijk binnen een half uur."
+  },
+  {
+   "v": "Hoe ontstaan wolken in het algemeen?",
+   "a": [
+    "Door opwarming van vochtige lucht",
+    "Door grootschalig dalende lucht",
+    "Doordat stijgende lucht afkoelt tot het dauwpunt en waterdamp condenseert",
+    "Door de wind"
+   ],
+   "juist": 2,
+   "uitleg": "Stijgende lucht koelt adiabatisch af; bij verzadiging condenseert de waterdamp tot een wolk."
+  },
+  {
+   "v": "Welke processen kunnen lucht doen stijgen zodat wolken ontstaan?",
+   "a": [
+    "Convectie, orografische stijging, frontale stijging en convergentie",
+    "Alleen convectie",
+    "Alleen frontale stijging",
+    "Alleen orografische stijging"
+   ],
+   "juist": 0,
+   "uitleg": "Alle vier de mechanismen dwingen lucht omhoog en kunnen bewolking veroorzaken."
+  },
+  {
+   "v": "Hoe kan stratus ontstaan?",
+   "a": [
+    "Door turbulente menging van vochtige lucht onder een inversie of door afkoeling van onderaf",
+    "Door sterke thermiek",
+    "Uit het aambeeld van een cb",
+    "Door grootschalig dalende lucht"
+   ],
+   "juist": 0,
+   "uitleg": "Stratus vormt zich in stabiele, vochtige lucht die van onderaf afkoelt of turbulent gemengd wordt."
+  },
+  {
+   "v": "Wat is het verschil tussen stratus en mist?",
+   "a": [
+    "De samenstelling van de druppels",
+    "De temperatuur",
+    "Stratus raakt de grond niet, mist wel",
+    "Er is geen verschil"
+   ],
+   "juist": 2,
+   "uitleg": "Mist is feitelijk een wolk op de grond; stratus hangt erboven."
+  },
+  {
+   "v": "Wat is virga?",
+   "a": [
+    "IJsafzetting op de vleugel",
+    "Opstijgende wolkenflarden",
+    "Een lichtkring om de zon",
+    "Neerslag die verdampt voordat hij de grond bereikt"
+   ],
+   "juist": 3,
+   "uitleg": "Virga zijn neerslagslierten onder een wolk die onderweg verdampen."
+  },
+  {
+   "v": "Waarop wijzen altocumulus castellanus (torentjeswolken) in de ochtend?",
+   "a": [
+    "Zeer stabiel weer",
+    "Labiliteit op middelbare hoogte en kans op onweer later op de dag",
+    "Opkomende mist",
+    "Golfvorming"
+   ],
+   "juist": 1,
+   "uitleg": "Torentjes op middelbaar niveau verraden labiliteit in de hoogte: een onweersindicator."
+  },
+  {
+   "v": "Wat betekent de toevoeging fractus, bijvoorbeeld bij stratus fractus?",
+   "a": [
+    "Gelaagd",
+    "Met neerslag",
+    "Rafelige, gescheurde wolkenflarden",
+    "Met aambeeld"
+   ],
+   "juist": 2,
+   "uitleg": "Fractus duidt op rafelige flarden, bijvoorbeeld onder regenwolken."
+  },
+  {
+   "v": "Wat is het aambeeld (incus) van een cumulonimbus?",
+   "a": [
+    "De donkere wolkenbasis",
+    "De rotorwolk",
+    "Het neerslaggordijn",
+    "De uitwaaierende ijstop tegen de tropopauze of een sterke inversie"
+   ],
+   "juist": 3,
+   "uitleg": "De top van de cb spreidt tegen de tropopauze uit tot een aambeeldvorm van ijskristallen."
+  },
+  {
+   "v": "Wat zijn mammatus?",
+   "a": [
+    "Buidelvormige uitstulpingen aan de onderzijde van bijvoorbeeld een cb-aambeeld, die op turbulentie wijzen",
+    "Kleine mooiweercumuli",
+    "Lensvormige golfwolken",
+    "Mistflarden"
+   ],
+   "juist": 0,
+   "uitleg": "Mammatus zijn hangende buidels onder een wolk en duiden op turbulente, onrustige lucht."
+  },
+  {
+   "v": "Welk voorvoegsel duidt op wolken van het middelbare niveau?",
+   "a": [
+    "Cirro",
+    "Alto",
+    "Strato",
+    "Nimbo"
+   ],
+   "juist": 1,
+   "uitleg": "Altocumulus en altostratus zijn de wolken van het middelbare niveau."
+  },
+  {
+   "v": "Welke twee wolkengeslachten geven de meeste neerslag?",
+   "a": [
+    "Stratus en cirrus",
+    "Nimbostratus en cumulonimbus",
+    "Altocumulus en cirrostratus",
+    "Stratocumulus en cumulus humilis"
+   ],
+   "juist": 1,
+   "uitleg": "Nimbostratus geeft langdurige regen, cumulonimbus geeft buien en onweer."
+  },
+  {
+   "v": "Wat is een front?",
+   "a": [
+    "Het grensvlak tussen twee luchtsoorten met verschillende eigenschappen",
+    "Een lijn van gelijke luchtdruk",
+    "Een buienlijn zonder luchtmassaverschil",
+    "De kern van een depressie"
+   ],
+   "juist": 0,
+   "uitleg": "Een front scheidt luchtmassa's die in temperatuur en vochtigheid verschillen."
+  },
+  {
+   "v": "Hoe steil is het grensvlak van een warmtefront ongeveer?",
+   "a": [
+    "1:50",
+    "1:10",
+    "Zeer flauw, ongeveer 1:100 tot 1:300",
+    "Vrijwel verticaal"
+   ],
+   "juist": 2,
+   "uitleg": "Het warme frontvlak helt zeer flauw, waardoor de bewolking honderden kilometers vooruitloopt."
+  },
+  {
+   "v": "In welke volgorde verschijnen de wolken bij een naderend warmtefront?",
+   "a": [
+    "Nimbostratus, altostratus, cirrostratus, cirrus",
+    "Cirrus, cirrostratus, altostratus, nimbostratus",
+    "Cumulonimbus, cumulus, stratocumulus",
+    "Alleen stratus"
+   ],
+   "juist": 1,
+   "uitleg": "De bewolking wordt van hoog naar laag steeds dikker: ci, cs, as en ten slotte ns met regen."
+  },
+  {
+   "v": "Wat is vaak het eerste zichtbare teken van een naderend warmtefront?",
+   "a": [
+    "Motregen",
+    "Snel stijgende druk",
+    "Stapelwolken",
+    "Cirrusbewolking hoog aan de hemel"
+   ],
+   "juist": 3,
+   "uitleg": "Cirrus, gevolgd door cirrostratus met halo, kondigt het warmtefront als eerste aan."
+  },
+  {
+   "v": "Welke neerslag hoort typisch bij een warmtefront?",
+   "a": [
+    "Korte hevige buien",
+    "Hagel",
+    "Langdurige gelijkmatige regen die voor het front uit valt",
+    "Alleen sneeuw"
+   ],
+   "juist": 2,
+   "uitleg": "Uit de nimbostratus voor het warmtefront valt urenlang gelijkmatige regen."
+  },
+  {
+   "v": "Wat gebeurt er bij een koufront?",
+   "a": [
+    "Koude lucht wigt zich onder de warme lucht, die krachtig wordt opgetild",
+    "Warme lucht glijdt langzaam op over koude lucht",
+    "De luchtmassa's bewegen niet",
+    "De lucht daalt grootschalig"
+   ],
+   "juist": 0,
+   "uitleg": "De binnendringende koude lucht tilt de warme lucht snel op: buien en soms onweer."
+  },
+  {
+   "v": "Wat verandert er bij de passage van een koufront op het noordelijk halfrond?",
+   "a": [
+    "De wind krimpt en de temperatuur stijgt",
+    "De druk daalt verder",
+    "Er begint motregen",
+    "De wind ruimt, de temperatuur daalt en de druk stijgt"
+   ],
+   "juist": 3,
+   "uitleg": "Na het koufront ruimt de wind (vaak naar west tot noordwest), daalt de temperatuur en stijgt de druk."
+  },
+  {
+   "v": "Wat gebeurt er bij de passage van een warmtefront?",
+   "a": [
+    "De temperatuur daalt sterk",
+    "De temperatuur stijgt, de wind ruimt en de drukdaling stopt",
+    "Er ontstaan zware buien",
+    "De druk stijgt snel"
+   ],
+   "juist": 1,
+   "uitleg": "Achter het warmtefront stroomt warme lucht binnen, ruimt de wind en houdt de gestage regen op."
+  },
+  {
+   "v": "Welk weer heerst vaak in de warme sector van een depressie in Nederland?",
+   "a": [
+    "Heldere polaire lucht met stapelwolken",
+    "Vrij gelijkmatig grijs weer met stratus, motregen of heiigheid",
+    "Altijd onweer",
+    "Strenge vorst"
+   ],
+   "juist": 1,
+   "uitleg": "De warme sector bevat vochtige, vrij stabiele lucht: grijs, zacht en soms motregen."
+  },
+  {
+   "v": "Wat is een occlusiefront?",
+   "a": [
+    "Een stationair front",
+    "Een zeewindfront",
+    "Een opgeloste depressie",
+    "Het front dat ontstaat waar het koufront het warmtefront heeft ingehaald"
+   ],
+   "juist": 3,
+   "uitleg": "Bij een occlusie heeft het snellere koufront het warmtefront ingehaald en is de warme lucht opgetild."
+  },
+  {
+   "v": "Welk front verplaatst zich het snelst?",
+   "a": [
+    "Het koufront",
+    "Het warmtefront",
+    "De occlusie",
+    "Alle fronten bewegen even snel"
+   ],
+   "juist": 0,
+   "uitleg": "Het koufront beweegt sneller dan het warmtefront en haalt dat uiteindelijk in."
+  },
+  {
+   "v": "Waar ontstaan de depressies die het weer in West-Europa bepalen meestal?",
+   "a": [
+    "Boven de Sahara",
+    "Boven Siberie",
+    "Als golfstoringen op het polaire front boven de Atlantische Oceaan",
+    "Boven de Middellandse Zee"
+   ],
+   "juist": 2,
+   "uitleg": "Op het polaire front tussen koude en warme lucht ontstaan golven die tot depressies uitgroeien."
+  },
+  {
+   "v": "Hoe draait de wind rond een depressie op het noordelijk halfrond?",
+   "a": [
+    "Met de klok mee",
+    "Recht van de kern af",
+    "De wind draait niet",
+    "Tegen de wijzers van de klok in"
+   ],
+   "juist": 3,
+   "uitleg": "Rond een lagedrukkern stroomt de lucht op het noordelijk halfrond tegen de klok in."
+  },
+  {
+   "v": "Welk weer volgt typisch na een koufrontpassage?",
+   "a": [
+    "Aanhoudende motregen",
+    "Opklaringen met stapelwolken en buien in heldere polaire lucht",
+    "Dichte mist",
+    "Een warmtegolf"
+   ],
+   "juist": 1,
+   "uitleg": "In de aangevoerde koude lucht is het zicht goed en ontstaan cumulus en buien: vaak goed thermiekweer."
+  },
+  {
+   "v": "Welk weer hoort bij een rug van hoge druk?",
+   "a": [
+    "Buienlijnen",
+    "Frontale regen",
+    "Rustig weer met dalende lucht en weinig bewolking",
+    "Storm"
+   ],
+   "juist": 2,
+   "uitleg": "In een rug daalt de lucht, lossen wolken op en is het weer rustig."
+  },
+  {
+   "v": "Wat kan een trog van lage druk brengen?",
+   "a": [
+    "Een actieve buienlijn met winddraaiing",
+    "Altijd mooi weer",
+    "Mist",
+    "Windstilte"
+   ],
+   "juist": 0,
+   "uitleg": "Bij een trogpassage horen buien, soms onweer, en een duidelijke winddraaiing."
+  },
+  {
+   "v": "Wat is een depressiefamilie?",
+   "a": [
+    "Een reeks depressies die achter elkaar langs het polaire front trekken",
+    "Twee hogedrukgebieden naast elkaar",
+    "Een dubbele occlusie",
+    "Een groep lokale onweersbuien"
+   ],
+   "juist": 0,
+   "uitleg": "Op een actief polair front volgen meerdere golvende depressies elkaar op."
+  },
+  {
+   "v": "Wat is een squall line (buienlijn)?",
+   "a": [
+    "Een warmtefront",
+    "Een mistbank",
+    "Een georganiseerde lijn van zware buien, vaak voor een koufront uit",
+    "Een band cirrus"
+   ],
+   "juist": 2,
+   "uitleg": "Een squall line is een actieve lijn buien of onweders die voor het koufront uit kan trekken."
+  },
+  {
+   "v": "Welk weer brengt een winters hogedrukgebied boven Nederland vaak?",
+   "a": [
+    "Zware buien",
+    "Storm",
+    "Tropische temperaturen",
+    "Grijs weer met mist of stratus onder een inversie"
+   ],
+   "juist": 3,
+   "uitleg": "Onder de winterse inversie blijft vocht hangen: anticyclonale somberheid met mist of stratus."
+  },
+  {
+   "v": "Wat is een stationair front?",
+   "a": [
+    "Een snel bewegend koufront",
+    "Een front dat vrijwel niet van plaats verandert",
+    "Een occlusie",
+    "Een opgelost front"
+   ],
+   "juist": 1,
+   "uitleg": "Bij een stationair front schuiven de luchtmassa's langs elkaar zonder duidelijke verplaatsing."
+  },
+  {
+   "v": "Hoe wordt een koufront op de weerkaart getekend?",
+   "a": [
+    "Een lijn met halve cirkels",
+    "Een lijn met sterretjes",
+    "Een lijn met driehoekjes die in de bewegingsrichting wijzen",
+    "Een stippellijn"
+   ],
+   "juist": 2,
+   "uitleg": "Koufronten krijgen driehoekjes, warmtefronten halve cirkels, beide aan de voorzijde."
+  },
+  {
+   "v": "Hoe herken je een occlusiefront op de weerkaart?",
+   "a": [
+    "Alleen driehoekjes",
+    "Alleen halve cirkels",
+    "Een dubbele lijn",
+    "Afwisselend driehoekjes en halve cirkels aan dezelfde kant van de lijn"
+   ],
+   "juist": 3,
+   "uitleg": "De occlusie combineert de symbolen van kou- en warmtefront aan een zijde van de lijn."
+  },
+  {
+   "v": "Uit welke richting trekken depressies meestal over Nederland?",
+   "a": [
+    "Van west naar oost, met de heersende westcirculatie",
+    "Van oost naar west",
+    "Van noord naar zuid",
+    "Ze bewegen niet"
+   ],
+   "juist": 0,
+   "uitleg": "De algemene westcirculatie voert depressies van de Atlantische Oceaan naar het oosten."
+  },
+  {
+   "v": "Wat doet de wind vaak bij het naderen van een warmtefront (noordelijk halfrond)?",
+   "a": [
+    "Hij ruimt naar noordwest en neemt af",
+    "Hij krimpt naar zuid tot zuidoost en neemt toe",
+    "Hij valt weg",
+    "Hij draait naar oost en neemt af"
+   ],
+   "juist": 1,
+   "uitleg": "Voor een warmtefront krimpt de wind doorgaans en neemt hij toe; bij de passage ruimt hij."
+  },
+  {
+   "v": "Waar ten opzichte van het warmtefront aan de grond valt de frontale regen vooral?",
+   "a": [
+    "Ver achter het front",
+    "Alleen boven de frontlijn zelf",
+    "In een brede zone voor het front uit",
+    "Aan de westzijde van de depressie"
+   ],
+   "juist": 2,
+   "uitleg": "Omdat het warme frontvlak vooroverhelt, valt de regen in een brede band voor het grondfront."
+  },
+  {
+   "v": "Welke drie ingredienten zijn nodig voor het ontstaan van onweer?",
+   "a": [
+    "Vocht, labiliteit tot grote hoogte en een aanleiding tot stijgen (trigger)",
+    "Wind, kou en zon",
+    "Hoge druk, droogte en een inversie",
+    "Mist, regen en wind"
+   ],
+   "juist": 0,
+   "uitleg": "Zonder vocht, diepe labiliteit en een stijgingsmechanisme komt geen onweersbui tot ontwikkeling."
+  },
+  {
+   "v": "In welke drie stadia verloopt een onweerscel?",
+   "a": [
+    "Begin, midden en eind zonder eigen kenmerken",
+    "Alleen groei en verval",
+    "Cumulusstadium, volwassen stadium en vervalstadium",
+    "Opbouw, regen en sneeuw"
+   ],
+   "juist": 2,
+   "uitleg": "Een cel groeit (cumulusstadium), is volwassen met neerslag en op- en neerwinden, en vervalt daarna."
+  },
+  {
+   "v": "Wat kenmerkt het volwassen stadium van een onweerscel?",
+   "a": [
+    "Alleen stijgwind",
+    "Op- en neerwaartse stromen naast elkaar en het begin van de neerslag",
+    "Alleen daalwind",
+    "Geen neerslag"
+   ],
+   "juist": 1,
+   "uitleg": "In het volwassen stadium bestaan sterke stijg- en daalwinden naast elkaar en valt neerslag."
+  },
+  {
+   "v": "Wat kenmerkt het vervalstadium van een cumulonimbus?",
+   "a": [
+    "De sterkste stijgwind",
+    "Het begin van de hagelvorming",
+    "Een dalende wolkenbasis met groei",
+    "Overwegend dalende lucht en een uitwaaierend aambeeld"
+   ],
+   "juist": 3,
+   "uitleg": "In het vervalstadium overheersen daalwinden en waaiert de top uit tot een aambeeld."
+  },
+  {
+   "v": "Hoe ontstaat hagel?",
+   "a": [
+    "Door bevriezende regen op de grond",
+    "Door samenklonterende sneeuwvlokken",
+    "Doordat ijsdeeltjes in de cb herhaald stijgen en dalen en lagen onderkoeld water aanvriezen",
+    "Door condensatie aan stofdeeltjes"
+   ],
+   "juist": 2,
+   "uitleg": "In de sterke op- en neerwinden van een cb groeien hagelstenen laag voor laag aan."
+  },
+  {
+   "v": "Wat zijn onderkoelde waterdruppels?",
+   "a": [
+    "Druppels die bij temperaturen onder 0 graden C nog vloeibaar zijn en bij aanraking aanvriezen",
+    "Bevroren druppels",
+    "Druppels kouder dan het dauwpunt",
+    "Kleine hagelstenen"
+   ],
+   "juist": 0,
+   "uitleg": "Onderkoeld water bevriest pas bij contact met een oppervlak, zoals een vleugel: ijsafzetting."
+  },
+  {
+   "v": "Wat is het gust front van een bui?",
+   "a": [
+    "Het warmtefront van de bui",
+    "De regenzone",
+    "Het aambeeld",
+    "De koude uitstroomlucht die voor de bui uit schiet met plotselinge windstoten en winddraaiing"
+   ],
+   "juist": 3,
+   "uitleg": "De koude valwind spreidt zich aan de grond uit en vormt een vlaagfront voor de bui uit."
+  },
+  {
+   "v": "Wat is een downburst (valwindstoot)?",
+   "a": [
+    "Een opwaartse stroom in de wolk",
+    "Een sterke neerwaartse luchtstroom onder een bui die aan de grond uitwaaiert",
+    "Een tornado",
+    "Een zeewindfront"
+   ],
+   "juist": 1,
+   "uitleg": "Een downburst is een gevaarlijke, geconcentreerde daalwind onder een buienwolk."
+  },
+  {
+   "v": "Waarom moet een zweefvlieger ruim uit de buurt van een cumulonimbus blijven?",
+   "a": [
+    "Alleen vanwege de regen",
+    "Vanwege extreme stijg- en daalwinden, turbulentie, hagel, ijsafzetting en blikseminslag",
+    "Alleen vanwege de bliksem",
+    "Dat hoeft niet zolang de remkleppen werken"
+   ],
+   "juist": 1,
+   "uitleg": "Een cb combineert vrijwel alle weersgevaren; ook onder en naast de wolk is het gevaarlijk."
+  },
+  {
+   "v": "Wat is een warmteonweer (luchtmassaonweer)?",
+   "a": [
+    "Onweer aan een koufront",
+    "Onweer in de winter",
+    "Onweer dat alleen s nachts boven zee ontstaat",
+    "Onweer dat op warme dagen in de namiddag door sterke convectie ontstaat"
+   ],
+   "juist": 3,
+   "uitleg": "Warmteonweer ontstaat binnen een warme, vochtige luchtmassa na sterke dagopwarming."
+  },
+  {
+   "v": "Wanneer kan frontaal onweer optreden?",
+   "a": [
+    "Op elk moment van de dag of nacht langs een actief koufront",
+    "Alleen in de middag",
+    "Alleen in de zomer",
+    "Alleen boven bergen"
+   ],
+   "juist": 0,
+   "uitleg": "Frontaal onweer hangt aan het front en is niet gebonden aan het tijdstip van de dag."
+  },
+  {
+   "v": "Waaraan merk je op afstand dat je een onweersgebied nadert?",
+   "a": [
+    "Aan stijgende druk",
+    "Aan steeds betere zichten",
+    "Aan aambeeldvormige wolkentoppen, een donker neerslaggordijn en donder of radioruis",
+    "Aan een dalende stratusbasis"
+   ],
+   "juist": 2,
+   "uitleg": "Hoge aambeelden, donkere neerslagzones en statische ruis verraden onweer op afstand."
+  },
+  {
+   "v": "Wat is het verschil tussen regen en motregen?",
+   "a": [
+    "De temperatuur van de druppels",
+    "De wolk maakt niet uit",
+    "Alleen de duur",
+    "Motregen bestaat uit veel kleinere druppels en valt uit stratus"
+   ],
+   "juist": 3,
+   "uitleg": "Motregen heeft zeer kleine druppels uit lage gelaagde bewolking; regen heeft grotere druppels."
+  },
+  {
+   "v": "Uit welk type bewolking vallen buien?",
+   "a": [
+    "Uit gelaagde bewolking zoals stratus",
+    "Uit cumulusvormige (convectieve) bewolking zoals cumulus congestus en cumulonimbus",
+    "Uit cirrus",
+    "Uit altostratus"
+   ],
+   "juist": 1,
+   "uitleg": "Buien zijn kort en hevig en vallen uit convectieve wolken met grote verticale opbouw."
+  },
+  {
+   "v": "Via welk proces ontstaat in onze streken de meeste neerslag?",
+   "a": [
+    "Alleen door samenvloeien van druppels",
+    "Door verdamping",
+    "Via het ijsproces (Bergeron): ijskristallen groeien ten koste van onderkoelde druppels",
+    "Door sublimatie aan de grond"
+   ],
+   "juist": 2,
+   "uitleg": "In gemengde wolken groeien ijskristallen snel aan en vallen als neerslag uit."
+  },
+  {
+   "v": "Hoe ver voor een zware bui uit kan het gust front al windstoten en windshear veroorzaken?",
+   "a": [
+    "Tot 15 a 25 km voor de bui uit",
+    "Hooguit 100 m",
+    "Alleen recht onder de wolk",
+    "Meer dan 200 km"
+   ],
+   "juist": 0,
+   "uitleg": "De koude uitstroom kan vele kilometers voor de bui uit schieten, ook bij schijnbaar rustig weer."
+  },
+  {
+   "v": "Welke gevaren spelen bij het landen terwijl een bui nadert?",
+   "a": [
+    "Plotselinge winddraaiing, windstoten en windshear op lage hoogte",
+    "Alleen nat gras",
+    "Er zijn geen extra gevaren",
+    "Alleen verminderd zicht"
+   ],
+   "juist": 0,
+   "uitleg": "Het gust front kan vlak voor de landing de windrichting en -snelheid abrupt veranderen."
+  },
+  {
+   "v": "Wat doet zware regen op de vleugel van een zweefvliegtuig?",
+   "a": [
+    "Niets",
+    "Hij verbetert de prestaties",
+    "Hij verstoort de stroming over het profiel, waardoor de prestaties merkbaar verslechteren",
+    "Hij verhoogt de lift"
+   ],
+   "juist": 2,
+   "uitleg": "Waterdruppels verruwen het profiel: meer weerstand, minder lift en een hogere overtreksnelheid."
+  },
+  {
+   "v": "Wat betekent de afkorting TS in luchtvaartweerberichten?",
+   "a": [
+    "Tussenstop",
+    "Turbulentie",
+    "Tegenwind",
+    "Thunderstorm (onweer)"
+   ],
+   "juist": 3,
+   "uitleg": "TS staat voor thunderstorm, bijvoorbeeld TSRA voor onweer met regen."
+  },
+  {
+   "v": "Waaraan herken je vanuit de lucht een actieve cumulonimbus?",
+   "a": [
+    "Een witte dunne sluier",
+    "Een torenhoge top met aambeeld, een zeer donkere basis en een neerslaggordijn",
+    "Een vlakke basis met scherpe randen zonder top",
+    "Kleine bloemkoolwolkjes"
+   ],
+   "juist": 1,
+   "uitleg": "De combinatie van enorme top, donkere basis en neerslag wijst op een actieve cb."
+  },
+  {
+   "v": "Hoe voelt de lucht direct na het passeren van een zware bui vaak aan?",
+   "a": [
+    "Warmer en labieler",
+    "Onveranderd",
+    "Koeler en tijdelijk stabieler door de koude uitstroomlucht",
+    "Altijd windstil"
+   ],
+   "juist": 2,
+   "uitleg": "De koude uitstroom van de bui legt tijdelijk een stabiele koude laag over het gebied."
+  },
+  {
+   "v": "Waarom ontstaat onweer in bergachtig gebied vaak eerder op de dag dan boven vlak land?",
+   "a": [
+    "De lucht is er droger",
+    "De druk is er lager",
+    "Er is meer stof in de lucht",
+    "Zonbeschenen hellingen warmen snel op en dwingen de lucht extra tot stijgen"
+   ],
+   "juist": 3,
+   "uitleg": "De orografische trigger versterkt de convectie, zodat buien er eerder tot ontwikkeling komen."
+  },
+  {
+   "v": "Onder welke omstandigheden ontstaat gevaarlijke gladde ijsafzetting (clear ice)?",
+   "a": [
+    "In wolken met grote onderkoelde druppels bij temperaturen iets onder 0 graden C",
+    "In zeer droge vrieslucht",
+    "Alleen in cirrus",
+    "Bij temperaturen boven 10 graden C"
+   ],
+   "juist": 0,
+   "uitleg": "Grote onderkoelde druppels vloeien voor het bevriezen uit tot een compacte, gladde ijslaag."
+  },
+  {
+   "v": "Wat is een windhoos (tornado)?",
+   "a": [
+    "Het aambeeld van een cb",
+    "Een hevige wervelwind onder een zware buienwolk",
+    "Een stofhoos bij mooi weer",
+    "Het gust front"
+   ],
+   "juist": 1,
+   "uitleg": "Een windhoos is een sterk roterende luchtkolom die vanuit een zware buienwolk tot de grond reikt."
+  },
+  {
+   "v": "Waarom kan de basis van een actieve cumulonimbus een zweefvliegtuig als het ware opzuigen?",
+   "a": [
+    "Door dalende lucht onder de basis",
+    "Door de hagel",
+    "Door de zeer sterke stijgwind onder en in de wolk, die een zwever de wolk in kan trekken",
+    "Door de bliksem"
+   ],
+   "juist": 2,
+   "uitleg": "Onder een actieve cb kunnen de stijgsnelheden zo groot zijn dat wegkomen nauwelijks meer lukt."
+  },
+  {
+   "v": "Vanaf welk zicht spreekt de meteorologie van mist?",
+   "a": [
+    "Bij een zicht van minder dan 1 km",
+    "Bij een zicht van minder dan 5 km",
+    "Bij een zicht van minder dan 10 km",
+    "Bij een zicht van minder dan 100 m"
+   ],
+   "juist": 0,
+   "uitleg": "Van mist is sprake als het zicht door zwevende waterdruppeltjes minder dan 1 km bedraagt."
+  },
+  {
+   "v": "Wat betekent de code BR in een METAR?",
+   "a": [
+    "Mist",
+    "Rook",
+    "Nevel, met een zicht tussen 1000 en 5000 m",
+    "Motregen"
+   ],
+   "juist": 2,
+   "uitleg": "BR (mist in het Frans: brume) staat voor nevel met zicht tussen 1 en 5 km; FG is echte mist."
+  },
+  {
+   "v": "Onder welke omstandigheden ontstaat stralingsmist?",
+   "a": [
+    "Bij harde wind en veel bewolking",
+    "In een heldere nacht met zwakke wind en vochtige lucht boven land",
+    "Boven zee midden op de dag",
+    "Direct na een koufront"
+   ],
+   "juist": 1,
+   "uitleg": "Bij heldere hemel en weinig wind koelt de grond sterk uit en condenseert het vocht in de onderste laag."
+  },
+  {
+   "v": "Hoe lost stralingsmist meestal op?",
+   "a": [
+    "Door invallende regen",
+    "Door toenemende vochtigheid",
+    "Hij lost nooit op",
+    "Door opwarming door de zon in de ochtend en/of aantrekkende wind"
+   ],
+   "juist": 3,
+   "uitleg": "Zodra de zon de grond opwarmt of de wind aantrekt, verdampt of mengt de mist weg."
+  },
+  {
+   "v": "Hoe ontstaat advectiemist?",
+   "a": [
+    "Door nachtelijke uitstraling",
+    "Door dalende lucht",
+    "Doordat warme, vochtige lucht over een koud oppervlak stroomt en afkoelt",
+    "Door onweer"
+   ],
+   "juist": 2,
+   "uitleg": "Advectiemist ontstaat door aanvoer van vochtige lucht over een koud oppervlak en kan ook bij meer wind bestaan."
+  },
+  {
+   "v": "Waar vormt zich s nachts het eerst mist in heuvelachtig terrein?",
+   "a": [
+    "In dalen en laagten waar koude lucht zich verzamelt",
+    "Op de toppen",
+    "Halverwege de hellingen",
+    "Nergens in het bijzonder"
+   ],
+   "juist": 0,
+   "uitleg": "Koude, zware lucht stroomt naar de laagste delen, waar de mistvorming het eerst begint."
+  },
+  {
+   "v": "Wat is heiigheid?",
+   "a": [
+    "Zwevende waterdruppels",
+    "Mist boven zee",
+    "Natte sneeuw",
+    "Zichtvermindering door droge deeltjes zoals stof en rook, vaak opgehoopt onder een inversie"
+   ],
+   "juist": 3,
+   "uitleg": "Heiigheid wordt veroorzaakt door droge deeltjes, niet door waterdruppels."
+  },
+  {
+   "v": "In welke luchtsoort is het zicht doorgaans het best?",
+   "a": [
+    "In warme subtropische lucht",
+    "In koude polaire lucht na een koufrontpassage",
+    "In de warme sector van een depressie",
+    "Onder een inversie"
+   ],
+   "juist": 1,
+   "uitleg": "Verse polaire lucht is schoon en labiel: uitstekende zichten buiten de buien."
+  },
+  {
+   "v": "Wanneer is het zicht in de vliegrichting het slechtst?",
+   "a": [
+    "Met de zon hoog aan de hemel",
+    "Met een laagstaande zon tegen",
+    "Met de zon in de rug",
+    "Bij volle maan"
+   ],
+   "juist": 1,
+   "uitleg": "Tegen een laagstaande zon in verstrooit het licht in heiigheid en vuil op de kap: zeer slecht zicht."
+  },
+  {
+   "v": "Hoe ontstaat verdampingsmist (zeerook)?",
+   "a": [
+    "Warme lucht stroomt over koud water",
+    "Regen valt in warme lucht",
+    "Door nachtelijke uitstraling",
+    "Zeer koude lucht stroomt over relatief warm water dat sterk verdampt"
+   ],
+   "juist": 3,
+   "uitleg": "Boven relatief warm water verdampt water in de zeer koude lucht, die meteen weer verzadigd raakt."
+  },
+  {
+   "v": "Hoe kan frontale mist bij een warmtefront ontstaan?",
+   "a": [
+    "Regen valt uit het frontvlak in de koude lucht eronder en verzadigt die",
+    "Door dalende lucht",
+    "Door onweer",
+    "Door sterke zonnestraling"
+   ],
+   "juist": 0,
+   "uitleg": "Verdampende frontale regen kan de koude lucht onder het front tot mist verzadigen."
+  },
+  {
+   "v": "Welke avondsituatie geeft de grootste kans op grondmist in de komende nacht?",
+   "a": [
+    "Zwaar bewolkt en winderig",
+    "Droog en winderig",
+    "Heldere hemel, weinig wind en een hoge relatieve vochtigheid",
+    "Een warme aanlandige wind"
+   ],
+   "juist": 2,
+   "uitleg": "Heldere hemel en weinig wind geven maximale uitstraling: klassieke stralingsmistcondities."
+  },
+  {
+   "v": "Welke voorwaarden zijn nodig voor het ontstaan van lee-golven?",
+   "a": [
+    "Zwakke veranderlijke wind",
+    "Labiele lucht",
+    "Zeewind en thermiek",
+    "Wind van minimaal circa 15 kt vrijwel loodrecht op de bergrug, toenemend met de hoogte, en een stabiele laag"
+   ],
+   "juist": 3,
+   "uitleg": "Golven vereisen voldoende wind dwars op de rug, toename met de hoogte en stabiele lucht."
+  },
+  {
+   "v": "Wat zijn lenticulariswolken?",
+   "a": [
+    "Rotorwolken",
+    "Lensvormige golfwolken die vrijwel stil hangen ten opzichte van de grond",
+    "Onweerswolken",
+    "Mistbanken"
+   ],
+   "juist": 1,
+   "uitleg": "Lenticularis ontstaan in de golftoppen; de lucht stroomt erdoorheen terwijl de wolk blijft staan."
+  },
+  {
+   "v": "Wat is de rotor in een lee-golfsysteem?",
+   "a": [
+    "De laminaire golftop",
+    "De stijgzone voor de berg",
+    "Een wals van zeer zware turbulentie onder de golfbergen",
+    "Het wolkenvrije gat achter de berg"
+   ],
+   "juist": 2,
+   "uitleg": "Onder de golfbergen draait een turbulente wals: de gevaarlijke rotorzone."
+  },
+  {
+   "v": "Waar vind je het stijggebied van een lee-golf?",
+   "a": [
+    "Aan de loefzijde van de golfberg, dus bovenwinds van de lenticularis",
+    "Recht onder de lenticularis",
+    "Achter de laatste golf",
+    "Alleen in de rotor"
+   ],
+   "juist": 0,
+   "uitleg": "Het laminaire stijgen zit aan de bovenwindse kant van elke golfberg."
+  },
+  {
+   "v": "Waarvan hangt de golflengte van lee-golven af?",
+   "a": [
+    "Van de windsnelheid en de stabiliteit van de lucht",
+    "Alleen van de hoogte van de berg",
+    "Van de temperatuur op zeeniveau",
+    "Van de zonnestand"
+   ],
+   "juist": 0,
+   "uitleg": "Meer wind en minder stabiliteit geven langere golven; de berg bepaalt vooral de aanslag."
+  },
+  {
+   "v": "Wat is het gevaarlijkste deel van een golfsysteem?",
+   "a": [
+    "De laminaire stijgzone",
+    "Het fohngat",
+    "De rotorzone met extreme turbulentie",
+    "De ruimte boven de lenticularis"
+   ],
+   "juist": 2,
+   "uitleg": "In de rotor kan de turbulentie zo zwaar zijn dat besturing en constructie in gevaar komen."
+  },
+  {
+   "v": "Wat is het fohngat (foehn gap)?",
+   "a": [
+    "Een gat in het koufront",
+    "De opening in de rotorwolk",
+    "Een gat in de inversie",
+    "Een wolkenvrije strook aan de lijzijde van het gebergte waar de lucht daalt"
+   ],
+   "juist": 3,
+   "uitleg": "In de dalende tak achter de berg lossen de wolken op: het herkenbare fohngat."
+  },
+  {
+   "v": "Hoe voelt het stijgen in de laminaire golf aan vergeleken met thermiek?",
+   "a": [
+    "Zeer turbulent",
+    "Opvallend glad en gelijkmatig",
+    "Precies hetzelfde",
+    "Altijd zwakker"
+   ],
+   "juist": 1,
+   "uitleg": "Boven de rotorzone is de golfstroming laminair: rustig en gelijkmatig stijgen."
+  },
+  {
+   "v": "Tot welke hoogten kunnen lee-golven reiken?",
+   "a": [
+    "Maximaal 1 km",
+    "Tot de bergtop",
+    "Tot ver boven de tropopauze: op grote hoogte is zuurstof nodig",
+    "Maximaal 100 m boven de rug"
+   ],
+   "juist": 2,
+   "uitleg": "Golfvluchten tot boven 10 km zijn gemaakt; zuurstofapparatuur is dan levensnoodzakelijk."
+  },
+  {
+   "v": "Op ongeveer welke hoogte bevindt zich de rotor(wolk)?",
+   "a": [
+    "Ver boven de lenticularis",
+    "Op zeeniveau",
+    "Altijd op dubbele berghoogte",
+    "Ongeveer op bergtophoogte, onder de golfberg"
+   ],
+   "juist": 3,
+   "uitleg": "De rotor draait onder de golfberg, rond de hoogte van de bergkam."
+  },
+  {
+   "v": "Aan welke zijde van een bergrug ontstaat het lee-golfsysteem?",
+   "a": [
+    "Aan de lijzijde, benedenwinds van de rug",
+    "Aan de loefzijde",
+    "Recht boven de top",
+    "Aan beide zijden evenveel"
+   ],
+   "juist": 0,
+   "uitleg": "Lee-golven ontstaan, zoals de naam zegt, benedenwinds (in de lij) van het gebergte."
+  },
+  {
+   "v": "Hoe komen zweefvliegers meestal de laminaire golf binnen?",
+   "a": [
+    "Door de lenticularis heen",
+    "Via stijgen in de rotor(thermiek) of een sleep tot in de laminaire stroming",
+    "Alleen door boven 5 km te starten",
+    "Via dalen door het fohngat"
+   ],
+   "juist": 1,
+   "uitleg": "De instap verloopt vaak via de turbulente rotor of een sleep die tot in de golf doorzet."
+  },
+  {
+   "v": "Kunnen lee-golven ook boven laag heuvelland ontstaan?",
+   "a": [
+    "Nee, nooit",
+    "Alleen achter bergen boven 3000 m",
+    "Alleen in de winter boven zee",
+    "Ja, bij stabiele lucht en voldoende wind ook achter lage heuvelruggen"
+   ],
+   "juist": 3,
+   "uitleg": "Ook lage ruggen kunnen bij de juiste wind en stabiliteit bruikbare golven opwekken."
+  },
+  {
+   "v": "Wat is een METAR?",
+   "a": [
+    "Een actueel weerrapport (waarneming) van een luchtvaartterrein",
+    "Een verwachting voor de komende 24 uur",
+    "Een stormwaarschuwing",
+    "Een klimaatoverzicht"
+   ],
+   "juist": 0,
+   "uitleg": "De METAR beschrijft het actueel waargenomen weer op een luchtvaartterrein."
+  },
+  {
+   "v": "Wat is een TAF?",
+   "a": [
+    "Een waarneming",
+    "Een waarschuwing",
+    "Een weersverwachting voor een luchtvaartterrein",
+    "Een windkaart"
+   ],
+   "juist": 2,
+   "uitleg": "De TAF (Terminal Aerodrome Forecast) is de verwachting voor een luchtvaartterrein."
+  },
+  {
+   "v": "Hoe vaak wordt een METAR gewoonlijk uitgegeven?",
+   "a": [
+    "Eens per dag",
+    "Elk half uur of elk uur",
+    "Elke 5 minuten",
+    "Alleen bij slecht weer"
+   ],
+   "juist": 1,
+   "uitleg": "METAR's verschijnen routinematig elk half uur of uur."
+  },
+  {
+   "v": "Wat betekent CAVOK?",
+   "a": [
+    "Geheel onbewolkt en windstil",
+    "Zicht minimaal 5 km",
+    "Alleen: geen neerslag",
+    "Zicht 10 km of meer, geen wolken onder 5000 ft of de hoogste minimum sectorhoogte, geen cb of tcu en geen significant weer"
+   ],
+   "juist": 3,
+   "uitleg": "CAVOK vat goede omstandigheden samen: zicht, bewolking en weer voldoen aan de genoemde criteria."
+  },
+  {
+   "v": "Wat betekent de METAR-groep 24015KT?",
+   "a": [
+    "Wind uit 150 graden met 24 kt",
+    "Baan 24 in gebruik",
+    "Wind uit 240 graden met 15 knopen",
+    "Windstoten tot 24 kt"
+   ],
+   "juist": 2,
+   "uitleg": "De eerste drie cijfers geven de richting (240), de volgende twee de snelheid (15 kt)."
+  },
+  {
+   "v": "Ten opzichte van welk noorden is de windrichting in een METAR gegeven?",
+   "a": [
+    "Het ware noorden",
+    "Het magnetische noorden",
+    "Het baannoorden",
+    "Het gridnoorden"
+   ],
+   "juist": 0,
+   "uitleg": "In geschreven berichten zoals METAR staat de wind in graden ten opzichte van het ware noorden."
+  },
+  {
+   "v": "Wat betekent 24015G25KT?",
+   "a": [
+    "Variabele wind van 15 tot 25 kt",
+    "Wind op 250 ft hoogte",
+    "25% kans op harde wind",
+    "Wind uit 240 graden, 15 knopen, met stoten tot 25 knopen"
+   ],
+   "juist": 3,
+   "uitleg": "De G staat voor gusts: windstoten tot de aangegeven waarde."
+  },
+  {
+   "v": "Wat betekent VRB in de windgroep van een METAR?",
+   "a": [
+    "Zeer sterke wind",
+    "Veranderlijke windrichting",
+    "Wind recht van boven",
+    "Meetfout"
+   ],
+   "juist": 1,
+   "uitleg": "VRB geeft aan dat de windrichting variabel is, meestal bij zwakke wind."
+  },
+  {
+   "v": "Wat betekent de zichtgroep 9999 in een METAR?",
+   "a": [
+    "Zicht 999 m",
+    "Zicht 10 km of meer",
+    "Zicht onbekend",
+    "Zicht precies 9999 km"
+   ],
+   "juist": 1,
+   "uitleg": "9999 is de code voor een zicht van 10 km of meer."
+  },
+  {
+   "v": "Waar staat de weercode FG voor?",
+   "a": [
+    "Motregen",
+    "Rook",
+    "Hagel",
+    "Mist"
+   ],
+   "juist": 3,
+   "uitleg": "FG (fog) betekent mist: zicht minder dan 1000 m."
+  },
+  {
+   "v": "Wat betekent SHRA in een METAR?",
+   "a": [
+    "Regenbuien",
+    "Lichte gestage regen",
+    "Sneeuw",
+    "Onweer met hagel"
+   ],
+   "juist": 0,
+   "uitleg": "SH staat voor showers (buien) en RA voor regen: regenbuien."
+  },
+  {
+   "v": "Wat betekent BKN025 in een METAR?",
+   "a": [
+    "Geheel bedekt op 25.000 ft",
+    "1 tot 2 okta op 2500 ft",
+    "5 tot 7 okta bewolking op 2500 ft boven het veld",
+    "Buien op 2,5 km afstand"
+   ],
+   "juist": 2,
+   "uitleg": "BKN is 5-7 okta en 025 betekent een basis op 2500 ft boven het terrein."
+  },
+  {
+   "v": "Welke wolkentypen worden in de wolkengroep van een METAR apart vermeld?",
+   "a": [
+    "Alle tien de geslachten",
+    "Stratus en cirrus",
+    "Alleen lenticularis",
+    "Cumulonimbus (CB) en towering cumulus (TCU)"
+   ],
+   "juist": 3,
+   "uitleg": "Alleen de voor de luchtvaart gevaarlijke convectieve wolken CB en TCU worden benoemd."
+  },
+  {
+   "v": "Wat betekent 15/12 in een METAR?",
+   "a": [
+    "QNH 1512",
+    "Temperatuur 15 graden C en dauwpunt 12 graden C",
+    "Wind 15 kt uit 120 graden",
+    "Zicht 15 km op 1200 ft"
+   ],
+   "juist": 1,
+   "uitleg": "De groep temperatuur/dauwpunt: hier 15 graden met een dauwpunt van 12 graden."
+  },
+  {
+   "v": "Wat betekent Q1018 in een METAR?",
+   "a": [
+    "QFE 1018",
+    "Temperatuur 101,8 graden",
+    "QNH 1018 hPa",
+    "Vliegniveau 1018"
+   ],
+   "juist": 2,
+   "uitleg": "De Q-groep geeft de QNH in hele hectopascal."
+  },
+  {
+   "v": "Wat betekent TEMPO in een TAF?",
+   "a": [
+    "Tijdelijke schommelingen die telkens korter dan een uur duren",
+    "Een permanente verandering",
+    "De temperatuurgroep",
+    "Geldigheid tussen 6 en 12 uur"
+   ],
+   "juist": 0,
+   "uitleg": "TEMPO beschrijft tijdelijke afwijkingen van korter dan een uur per keer."
+  },
+  {
+   "v": "Wat betekent BECMG in een TAF?",
+   "a": [
+    "Een geleidelijke, blijvende verandering in de aangegeven periode",
+    "Korte buien",
+    "Einde van het bericht",
+    "Mistvorming"
+   ],
+   "juist": 0,
+   "uitleg": "BECMG (becoming) kondigt een geleidelijke overgang naar nieuwe omstandigheden aan."
+  },
+  {
+   "v": "Wat betekent PROB30 in een TAF?",
+   "a": [
+    "30 minuten geldig",
+    "Windstoten tot 30 kt",
+    "Een kans van 30% op het genoemde weer",
+    "Bewolking op 3000 ft"
+   ],
+   "juist": 2,
+   "uitleg": "PROB30 geeft een waarschijnlijkheid van 30% aan."
+  },
+  {
+   "v": "Wat betekent NOSIG achter een METAR?",
+   "a": [
+    "Geen radioverbinding",
+    "Niet significant gemeten",
+    "Het bericht is ongeldig",
+    "De komende twee uur wordt geen significante verandering verwacht"
+   ],
+   "juist": 3,
+   "uitleg": "NOSIG is een trendbericht: geen significante wijziging verwacht."
+  },
+  {
+   "v": "Wat vind je in het weerbulletin voor de kleine luchtvaart van het KNMI?",
+   "a": [
+    "Alleen METAR's",
+    "Onder andere de wind op verschillende hoogten, zicht, bewolking en bijzondere verschijnselen voor Nederland",
+    "Alleen de temperatuur",
+    "Satellietfoto's"
+   ],
+   "juist": 1,
+   "uitleg": "Het bulletin geeft een verwachting voor de kleine luchtvaart met wind op hoogte, zicht en bewolking."
+  },
+  {
+   "v": "Welke gegevens meet een radiosonde (ballonoplating) rechtstreeks tijdens de opstijging?",
+   "a": [
+    "Alleen de wind",
+    "Alleen ozon",
+    "Druk, temperatuur en vochtigheid met de hoogte",
+    "De neerslaghoeveelheid"
+   ],
+   "juist": 2,
+   "uitleg": "De sonde meet druk, temperatuur en vocht; de wind volgt uit het volgen van de ballon."
+  },
+  {
+   "v": "Wat lees je af uit een aerologisch diagram (skew-T) met temperatuur- en dauwpuntscurve?",
+   "a": [
+    "Alleen de wind aan de grond",
+    "De neerslagsom",
+    "Het weer van gisteren",
+    "De stabiliteit van de atmosfeer en de te verwachten thermiekhoogte en wolkenbasis"
+   ],
+   "juist": 3,
+   "uitleg": "Uit de sounding volgen labiliteit, inversies, thermiekhoogte en condensatieniveau."
+  },
+  {
+   "v": "Wat betekent een grote afstand tussen de temperatuur- en dauwpuntslijn in een sounding op een bepaalde hoogte?",
+   "a": [
+    "Droge lucht op die hoogte",
+    "Verzadigde lucht op die hoogte",
+    "Mist op die hoogte",
+    "Neerslag op die hoogte"
+   ],
+   "juist": 0,
+   "uitleg": "Hoe verder temperatuur en dauwpunt uiteen liggen, hoe droger de lucht daar is."
+  },
+  {
+   "v": "Wat staat er op een weerkaart van de grondanalyse?",
+   "a": [
+    "Alleen temperaturen",
+    "Isobaren, fronten en druksystemen",
+    "Alleen windpijlen",
+    "Het satellietbeeld"
+   ],
+   "juist": 1,
+   "uitleg": "De grondanalyse toont het drukpatroon met isobaren, hoge- en lagedrukgebieden en fronten."
+  },
+  {
+   "v": "Wat is een SIGMET?",
+   "a": [
+    "Een routineverwachting",
+    "Een klimaatbericht",
+    "Een windkaart voor zweefvliegers",
+    "Een waarschuwing voor gevaarlijke weersverschijnselen voor de luchtvaart"
+   ],
+   "juist": 3,
+   "uitleg": "Een SIGMET waarschuwt voor significant gevaarlijk weer zoals zwaar onweer, turbulentie of ijsafzetting."
+  }
+ ]
+}

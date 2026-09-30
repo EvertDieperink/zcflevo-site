@@ -1,0 +1,2755 @@
+{
+ "vak": "Communicatie",
+ "vragen": [
+  {
+   "v": "Welk woord uit het ICAO-spellingsalfabet hoort bij de letter S?",
+   "a": [
+    "Sierra",
+    "Santiago",
+    "Sugar",
+    "Sultan"
+   ],
+   "juist": 0,
+   "uitleg": "De letter S wordt gespeld als Sierra."
+  },
+  {
+   "v": "Welk woord uit het ICAO-spellingsalfabet hoort bij de letter Q?",
+   "a": [
+    "Quintus",
+    "Quasar",
+    "Quebec",
+    "Queen"
+   ],
+   "juist": 2,
+   "uitleg": "De letter Q wordt gespeld als Quebec."
+  },
+  {
+   "v": "Welk woord uit het ICAO-spellingsalfabet hoort bij de letter J?",
+   "a": [
+    "Japan",
+    "Juliett",
+    "Jupiter",
+    "Jumbo"
+   ],
+   "juist": 1,
+   "uitleg": "De letter J wordt gespeld als Juliett."
+  },
+  {
+   "v": "Welk woord uit het ICAO-spellingsalfabet hoort bij de letter W?",
+   "a": [
+    "Washington",
+    "Winner",
+    "Wilhelm",
+    "Whiskey"
+   ],
+   "juist": 3,
+   "uitleg": "De letter W wordt gespeld als Whiskey."
+  },
+  {
+   "v": "Welk woord uit het ICAO-spellingsalfabet hoort bij de letter N?",
+   "a": [
+    "November",
+    "Nectar",
+    "Norway",
+    "Neptunus"
+   ],
+   "juist": 0,
+   "uitleg": "De letter N wordt gespeld als November."
+  },
+  {
+   "v": "Welk woord uit het ICAO-spellingsalfabet hoort bij de letter U?",
+   "a": [
+    "Union",
+    "Uniform",
+    "Utrecht",
+    "Universe"
+   ],
+   "juist": 1,
+   "uitleg": "De letter U wordt gespeld als Uniform."
+  },
+  {
+   "v": "Welk woord uit het ICAO-spellingsalfabet hoort bij de letter X?",
+   "a": [
+    "Xavier",
+    "Xenon",
+    "X-ray",
+    "Xylofoon"
+   ],
+   "juist": 2,
+   "uitleg": "De letter X wordt gespeld als X-ray."
+  },
+  {
+   "v": "Welk woord uit het ICAO-spellingsalfabet hoort bij de letter K?",
+   "a": [
+    "King",
+    "Kansas",
+    "Kappa",
+    "Kilo"
+   ],
+   "juist": 3,
+   "uitleg": "De letter K wordt gespeld als Kilo."
+  },
+  {
+   "v": "Welk woord uit het ICAO-spellingsalfabet hoort bij de letter G?",
+   "a": [
+    "Golf",
+    "Gustav",
+    "Green",
+    "Gamma"
+   ],
+   "juist": 0,
+   "uitleg": "De letter G wordt gespeld als Golf."
+  },
+  {
+   "v": "Welk woord uit het ICAO-spellingsalfabet hoort bij de letter H?",
+   "a": [
+    "Havana",
+    "Henry",
+    "Hotel",
+    "Harry"
+   ],
+   "juist": 2,
+   "uitleg": "De letter H wordt gespeld als Hotel."
+  },
+  {
+   "v": "Welk woord uit het ICAO-spellingsalfabet hoort bij de letter M?",
+   "a": [
+    "Metro",
+    "Mike",
+    "Mary",
+    "Mexico"
+   ],
+   "juist": 1,
+   "uitleg": "De letter M wordt gespeld als Mike."
+  },
+  {
+   "v": "Welk woord uit het ICAO-spellingsalfabet hoort bij de letter P?",
+   "a": [
+    "Peter",
+    "Pacific",
+    "Paris",
+    "Papa"
+   ],
+   "juist": 3,
+   "uitleg": "De letter P wordt gespeld als Papa."
+  },
+  {
+   "v": "Welk woord uit het ICAO-spellingsalfabet hoort bij de letter Y?",
+   "a": [
+    "Yellow",
+    "York",
+    "Yankee",
+    "Yoga"
+   ],
+   "juist": 2,
+   "uitleg": "De letter Y wordt gespeld als Yankee."
+  },
+  {
+   "v": "Welk woord uit het ICAO-spellingsalfabet hoort bij de letter R?",
+   "a": [
+    "Robert",
+    "Romeo",
+    "Radio",
+    "Roger"
+   ],
+   "juist": 1,
+   "uitleg": "De letter R wordt gespeld als Romeo."
+  },
+  {
+   "v": "Welk woord uit het ICAO-spellingsalfabet hoort bij de letter L?",
+   "a": [
+    "Lima",
+    "London",
+    "Luna",
+    "Lion"
+   ],
+   "juist": 0,
+   "uitleg": "De letter L wordt gespeld als Lima."
+  },
+  {
+   "v": "Welk woord uit het ICAO-spellingsalfabet hoort bij de letter F?",
+   "a": [
+    "Fox",
+    "Florida",
+    "Foxtrot",
+    "Franco"
+   ],
+   "juist": 2,
+   "uitleg": "De letter F wordt gespeld als Foxtrot."
+  },
+  {
+   "v": "Bij welke letter hoort het spellingswoord 'Tango'?",
+   "a": [
+    "G",
+    "T",
+    "D",
+    "V"
+   ],
+   "juist": 1,
+   "uitleg": "Tango is het spellingswoord voor de letter T."
+  },
+  {
+   "v": "Wat betekent de toevoeging 'Zulu' achter een tijdsaanduiding, bijvoorbeeld '1430 Zulu'?",
+   "a": [
+    "Lokale tijd",
+    "Zomertijd",
+    "Zonetijd van de vertrekplaats",
+    "UTC (gecoordineerde wereldtijd)"
+   ],
+   "juist": 3,
+   "uitleg": "Zulu-tijd is UTC, de standaardtijd in de luchtvaart."
+  },
+  {
+   "v": "Hoe spel je de registratie PH-840 correct volgens het spellingsalfabet?",
+   "a": [
+    "Peter Hendrik acht vier nul",
+    "Papa Hotel acht honderd veertig",
+    "Papa Harry acht vier nul",
+    "Papa Hotel acht vier nul"
+   ],
+   "juist": 3,
+   "uitleg": "Letters worden gespeld als Papa en Hotel, cijfers worden los uitgesproken."
+  },
+  {
+   "v": "Wat is het doel van het ICAO-spellingsalfabet?",
+   "a": [
+    "Berichten versleutelen voor onbevoegden",
+    "Letters eenduidig overbrengen, ook bij een slechte verbinding",
+    "De uitzending verkorten",
+    "Internationale tijdzones aanduiden"
+   ],
+   "juist": 1,
+   "uitleg": "Het spellingsalfabet voorkomt verwarring tussen op elkaar lijkende letters."
+  },
+  {
+   "v": "Wat is de officiele ICAO-schrijfwijze van het spellingswoord voor de letter J?",
+   "a": [
+    "Juliet",
+    "Juliette",
+    "Julliet",
+    "Juliett"
+   ],
+   "juist": 3,
+   "uitleg": "ICAO schrijft Juliett met dubbel t."
+  },
+  {
+   "v": "Wat is de officiele ICAO-schrijfwijze van het spellingswoord voor de letter A?",
+   "a": [
+    "Alfa",
+    "Alpha",
+    "Alva",
+    "Alfha"
+   ],
+   "juist": 0,
+   "uitleg": "ICAO schrijft officieel Alfa, niet Alpha."
+  },
+  {
+   "v": "Welk woord hoort NIET in het ICAO-spellingsalfabet thuis?",
+   "a": [
+    "Oscar",
+    "Victor",
+    "Item",
+    "Bravo"
+   ],
+   "juist": 2,
+   "uitleg": "Item komt niet voor in het ICAO-spellingsalfabet; de I is India."
+  },
+  {
+   "v": "Welk woord uit het ICAO-spellingsalfabet hoort bij de letter D?",
+   "a": [
+    "Delta",
+    "Denmark",
+    "David",
+    "Dexter"
+   ],
+   "juist": 0,
+   "uitleg": "De letter D wordt gespeld als Delta."
+  },
+  {
+   "v": "Bij welke letter hoort het spellingswoord 'Charlie'?",
+   "a": [
+    "K",
+    "S",
+    "G",
+    "C"
+   ],
+   "juist": 3,
+   "uitleg": "Charlie is het spellingswoord voor de letter C."
+  },
+  {
+   "v": "Hoe spreek je het cijfer 9 uit in de Engelstalige radiotelefonie?",
+   "a": [
+    "Nine",
+    "Niner",
+    "Nein",
+    "Novem"
+   ],
+   "juist": 1,
+   "uitleg": "Het cijfer 9 wordt uitgesproken als 'niner' om verwarring met andere woorden te voorkomen."
+  },
+  {
+   "v": "Hoe spreek je het cijfer 3 uit in de Engelstalige radiotelefonie?",
+   "a": [
+    "Tree",
+    "Three",
+    "Tri",
+    "Ter"
+   ],
+   "juist": 0,
+   "uitleg": "Het cijfer 3 wordt uitgesproken als 'tree'."
+  },
+  {
+   "v": "Hoe spreek je het cijfer 4 uit in de Engelstalige radiotelefonie?",
+   "a": [
+    "Four",
+    "Forty",
+    "Fower",
+    "Vier"
+   ],
+   "juist": 2,
+   "uitleg": "Het cijfer 4 wordt uitgesproken als 'fower'."
+  },
+  {
+   "v": "Hoe spreek je het cijfer 5 uit in de Engelstalige radiotelefonie?",
+   "a": [
+    "Five",
+    "Fiver",
+    "Fif",
+    "Fife"
+   ],
+   "juist": 3,
+   "uitleg": "Het cijfer 5 wordt uitgesproken als 'fife'."
+  },
+  {
+   "v": "Met welk woord geef je in de radiotelefonie het decimaalteken in een frequentie aan?",
+   "a": [
+    "Point",
+    "Decimal",
+    "Komma",
+    "Dot"
+   ],
+   "juist": 1,
+   "uitleg": "Het decimaalteken wordt uitgesproken als 'decimal'."
+  },
+  {
+   "v": "Hoe spreek je in een 8.33 kHz-omgeving het kanaal 118.000 uit?",
+   "a": [
+    "One one eight decimal zero zero zero",
+    "One eighteen",
+    "One one eight decimal zero",
+    "One one eight point zero"
+   ],
+   "juist": 2,
+   "uitleg": "Eindigt het kanaal op twee nullen, dan spreek je alleen de eerste vier cijfers uit."
+  },
+  {
+   "v": "Hoe spreek je in een 8.33 kHz-omgeving het kanaal 119.005 uit?",
+   "a": [
+    "One one nine decimal zero zero five",
+    "One one nine decimal five",
+    "One one nine decimal zero five",
+    "One nineteen decimal five"
+   ],
+   "juist": 0,
+   "uitleg": "Alle zes cijfers worden uitgesproken, omdat de laatste twee cijfers niet beide nul zijn."
+  },
+  {
+   "v": "Wat is de hoofdregel voor het uitspreken van 8.33 kHz-kanalen?",
+   "a": [
+    "Altijd alleen de eerste vier cijfers",
+    "Altijd afronden op twee decimalen",
+    "Alleen de cijfers voor het decimaalteken",
+    "Alle zes cijfers, behalve als de laatste twee cijfers nullen zijn"
+   ],
+   "juist": 3,
+   "uitleg": "Je spreekt alle zes cijfers uit; eindigen de laatste twee op nul, dan volstaan de eerste vier."
+  },
+  {
+   "v": "Welke tijd wordt in de luchtvaartradiotelefonie gebruikt?",
+   "a": [
+    "Lokale tijd",
+    "UTC",
+    "Middeleuropese tijd",
+    "Zonnetijd"
+   ],
+   "juist": 1,
+   "uitleg": "In de radiotelefonie wordt altijd UTC gebruikt."
+  },
+  {
+   "v": "Hoe geef je het tijdstip 09:15 UTC door als er geen verwarring mogelijk is?",
+   "a": [
+    "One five",
+    "Zero nine fifteen",
+    "Nine fifteen",
+    "Quarter past nine"
+   ],
+   "juist": 0,
+   "uitleg": "Normaal volstaan de twee cijfers van de minuten: 'one five'."
+  },
+  {
+   "v": "Hoe spreek je de koers 360 graden uit?",
+   "a": [
+    "Heading north",
+    "Heading three sixty",
+    "Heading tree six zero",
+    "Heading tree hundred sixty"
+   ],
+   "juist": 2,
+   "uitleg": "Koersen worden cijfer voor cijfer uitgesproken: tree six zero."
+  },
+  {
+   "v": "Hoe spreek je QNH 1013 uit?",
+   "a": [
+    "QNH ten thirteen",
+    "QNH one zero one three",
+    "QNH one thousand thirteen",
+    "QNH ten one three"
+   ],
+   "juist": 1,
+   "uitleg": "De QNH wordt cijfer voor cijfer uitgesproken."
+  },
+  {
+   "v": "Hoe spreek je de hoogte 4500 voet uit?",
+   "a": [
+    "Four five zero zero feet",
+    "Forty-five hundred feet",
+    "Four five hundred feet",
+    "Four thousand five hundred feet"
+   ],
+   "juist": 3,
+   "uitleg": "Hele duizenden en honderden worden als 'thousand' en 'hundred' uitgesproken."
+  },
+  {
+   "v": "Hoe spreek je vliegniveau 65 uit?",
+   "a": [
+    "Flight level six five",
+    "Flight level sixty-five",
+    "Flight level six fifty",
+    "Level six thousand five hundred"
+   ],
+   "juist": 0,
+   "uitleg": "Vliegniveaus worden cijfer voor cijfer uitgesproken: flight level six five."
+  },
+  {
+   "v": "Hoe spreek je de transpondercode 7000 uit?",
+   "a": [
+    "Squawk seven thousand",
+    "Squawk seventy hundred",
+    "Squawk seven zero zero zero",
+    "Squawk seven triple zero"
+   ],
+   "juist": 2,
+   "uitleg": "Transpondercodes worden altijd cijfer voor cijfer uitgesproken."
+  },
+  {
+   "v": "Hoe spreek je de hoogte 10.000 voet uit?",
+   "a": [
+    "Ten thousand feet",
+    "One zero thousand feet",
+    "One zero zero zero zero feet",
+    "Ten zero feet"
+   ],
+   "juist": 1,
+   "uitleg": "10.000 wordt uitgesproken als 'one zero thousand' om verwarring met 1000 te voorkomen."
+  },
+  {
+   "v": "Hoe geeft een station de wind 270 graden en 15 knopen door?",
+   "a": [
+    "Wind two seven zero degrees one five knots",
+    "Wind west fifteen knots",
+    "Wind two seventy at fifteen",
+    "Wind two hundred seventy degrees fifteen knots"
+   ],
+   "juist": 0,
+   "uitleg": "Windrichting en -snelheid worden cijfer voor cijfer doorgegeven."
+  },
+  {
+   "v": "Welke frequentie hoort bij de uitspraak 'one two zero decimal one zero five'?",
+   "a": [
+    "120.15 MHz",
+    "121.05 MHz",
+    "120.510 MHz",
+    "120.105 MHz"
+   ],
+   "juist": 3,
+   "uitleg": "Elk cijfer wordt los uitgesproken: 120.105 MHz."
+  },
+  {
+   "v": "Hoe spreek je het cijfer 2 uit in de Engelstalige radiotelefonie?",
+   "a": [
+    "Two",
+    "Twee",
+    "Too",
+    "Duo"
+   ],
+   "juist": 2,
+   "uitleg": "Het cijfer 2 wordt uitgesproken als 'too'."
+  },
+  {
+   "v": "Waarom worden cijfers als 5 en 9 in de radiotelefonie afwijkend uitgesproken (fife, niner)?",
+   "a": [
+    "Dat klinkt professioneler",
+    "Om verwarring met andere woorden en cijfers te voorkomen",
+    "Omdat de Engelse uitspraak te lang duurt",
+    "Vanwege oude militaire tradities die verplicht zijn gebleven"
+   ],
+   "juist": 1,
+   "uitleg": "De afwijkende uitspraak voorkomt verwarring, bijvoorbeeld tussen five en fire of nine en het Duitse nein."
+  },
+  {
+   "v": "Hoe spreek je baan 06 uit?",
+   "a": [
+    "Runway zero six",
+    "Runway six",
+    "Runway zero sixty",
+    "Runway oh six"
+   ],
+   "juist": 0,
+   "uitleg": "Baannummers worden cijfer voor cijfer uitgesproken, inclusief de nul."
+  },
+  {
+   "v": "Hoe spreek je het getal 100 uit in de radiotelefonie?",
+   "a": [
+    "Hundred",
+    "One zero zero",
+    "Ten zero",
+    "One hundred"
+   ],
+   "juist": 3,
+   "uitleg": "Hele honderden worden uitgesproken als het cijfer plus 'hundred'."
+  },
+  {
+   "v": "Hoe meld je de hoogte 2500 voet?",
+   "a": [
+    "Two five zero zero feet",
+    "Twenty-five hundred feet",
+    "Two thousand five hundred feet",
+    "Two comma five thousand feet"
+   ],
+   "juist": 2,
+   "uitleg": "2500 voet wordt uitgesproken als 'two thousand five hundred feet'."
+  },
+  {
+   "v": "Hoe spreek je in een 8.33 kHz-omgeving de noodfrequentie 121.500 uit?",
+   "a": [
+    "One two one decimal five zero zero",
+    "One two one decimal five",
+    "One twenty-one decimal five",
+    "One two one point five"
+   ],
+   "juist": 1,
+   "uitleg": "De laatste twee cijfers zijn nullen, dus alleen de eerste vier cijfers worden uitgesproken."
+  },
+  {
+   "v": "Hoe spreek je het getal 11 uit in de radiotelefonie?",
+   "a": [
+    "One one",
+    "Eleven",
+    "Double one",
+    "One ten"
+   ],
+   "juist": 0,
+   "uitleg": "Getallen worden in principe cijfer voor cijfer uitgesproken: one one."
+  },
+  {
+   "v": "Wat betekent het standaardwoord ROGER?",
+   "a": [
+    "Ja, ik ga akkoord",
+    "Ik zal uw instructie uitvoeren",
+    "Ik heb uw laatste uitzending volledig ontvangen",
+    "U heeft toestemming"
+   ],
+   "juist": 2,
+   "uitleg": "ROGER betekent alleen dat de uitzending volledig is ontvangen, niet dat je akkoord gaat."
+  },
+  {
+   "v": "Wat betekent het standaardwoord WILCO?",
+   "a": [
+    "Ik heb uw bericht begrepen en zal het uitvoeren",
+    "Ik wacht op uw volgende oproep",
+    "Ik kan niet aan uw verzoek voldoen",
+    "Herhaal uw laatste bericht"
+   ],
+   "juist": 0,
+   "uitleg": "WILCO is een samentrekking van 'will comply': begrepen en zal uitvoeren."
+  },
+  {
+   "v": "Wat betekent het standaardwoord AFFIRM?",
+   "a": [
+    "Bevestig mijn bericht",
+    "Ja",
+    "Bericht ontvangen",
+    "Toestemming aangevraagd"
+   ],
+   "juist": 1,
+   "uitleg": "AFFIRM betekent 'ja'."
+  },
+  {
+   "v": "Wat betekent het standaardwoord NEGATIVE?",
+   "a": [
+    "Zeg dat nog eens",
+    "Wacht even",
+    "Het bericht is slecht leesbaar",
+    "Nee, dat is niet juist of geen toestemming"
+   ],
+   "juist": 3,
+   "uitleg": "NEGATIVE betekent nee, niet juist of geen toestemming."
+  },
+  {
+   "v": "Wat betekent het standaardwoord STANDBY?",
+   "a": [
+    "Wacht, ik roep u op",
+    "U heeft toestemming om te wachten in het circuit",
+    "Zet uw radio op de reservefrequentie",
+    "Het verzoek is goedgekeurd"
+   ],
+   "juist": 0,
+   "uitleg": "STANDBY betekent wachten tot je wordt teruggeroepen; het is geen goedkeuring of afkeuring."
+  },
+  {
+   "v": "Wat betekent SAY AGAIN?",
+   "a": [
+    "Spreek langzamer",
+    "Bevestig uw callsign",
+    "Herhaal uw laatste uitzending of het aangegeven deel",
+    "Zeg alle woorden tweemaal"
+   ],
+   "juist": 2,
+   "uitleg": "Met SAY AGAIN vraag je om herhaling van (een deel van) de laatste uitzending."
+  },
+  {
+   "v": "Wat betekent het standaardwoord CORRECTION?",
+   "a": [
+    "Uw terugmelding was onjuist",
+    "Er is een fout gemaakt in deze uitzending, de juiste versie volgt",
+    "Corrigeer uw koers",
+    "Het weerbericht is gewijzigd"
+   ],
+   "juist": 1,
+   "uitleg": "Met CORRECTION geef je aan dat je een fout maakte en direct de juiste versie geeft."
+  },
+  {
+   "v": "Wat betekent het woord OVER aan het einde van een uitzending?",
+   "a": [
+    "Het gesprek is definitief beeindigd",
+    "De frequentie wordt overgedragen",
+    "Vlieg over het genoemde punt",
+    "Mijn uitzending is beeindigd en ik verwacht een antwoord"
+   ],
+   "juist": 3,
+   "uitleg": "OVER betekent: einde van mijn uitzending, ik verwacht uw antwoord."
+  },
+  {
+   "v": "Wat betekent het woord OUT aan het einde van een uitzending?",
+   "a": [
+    "De uitwisseling is beeindigd en er wordt geen antwoord verwacht",
+    "Ik verlaat het circuit",
+    "Ik ga van de frequentie zonder toestemming",
+    "De zender staat uit"
+   ],
+   "juist": 0,
+   "uitleg": "OUT betekent dat de uitwisseling klaar is en geen antwoord wordt verwacht."
+  },
+  {
+   "v": "Wat moet je doen als een station zegt: 'READ BACK QNH'?",
+   "a": [
+    "De QNH opzoeken en instellen zonder te antwoorden",
+    "Antwoorden met ROGER",
+    "De ontvangen QNH exact herhalen zoals ontvangen",
+    "Vragen om de QNH nogmaals uit te zenden"
+   ],
+   "juist": 2,
+   "uitleg": "READ BACK betekent: herhaal het (aangegeven deel van het) bericht exact zoals ontvangen."
+  },
+  {
+   "v": "Wat betekent het standaardwoord CONFIRM?",
+   "a": [
+    "Ik bevestig uw bericht",
+    "Ik verzoek om bevestiging van (klaring, instructie of informatie)",
+    "Uw uitzending is bevestigd ontvangen",
+    "Bevestig dat u mij kunt zien"
+   ],
+   "juist": 1,
+   "uitleg": "Met CONFIRM vraag je het andere station iets te bevestigen."
+  },
+  {
+   "v": "Wat betekent het standaardwoord DISREGARD?",
+   "a": [
+    "Let niet op ander verkeer",
+    "Uw bericht was onleesbaar",
+    "Verlaat de frequentie",
+    "Beschouw die uitzending als niet gedaan"
+   ],
+   "juist": 3,
+   "uitleg": "DISREGARD betekent dat je de betreffende uitzending moet negeren alsof die niet is gedaan."
+  },
+  {
+   "v": "Wat betekent de instructie 'MONITOR 121.5'?",
+   "a": [
+    "Luister uit op 121.5",
+    "Zend een testbericht uit op 121.5",
+    "Meld u op 121.5",
+    "Blokkeer 121.5 voor noodverkeer"
+   ],
+   "juist": 0,
+   "uitleg": "MONITOR betekent: luister uit op de genoemde frequentie (zonder je te melden)."
+  },
+  {
+   "v": "Wat betekent het standaardwoord UNABLE?",
+   "a": [
+    "De radio werkt niet",
+    "Het bericht is niet ontvangen",
+    "Ik kan niet aan uw verzoek of instructie voldoen",
+    "Ik ben de positie kwijt"
+   ],
+   "juist": 2,
+   "uitleg": "UNABLE betekent dat je een verzoek of instructie niet kunt uitvoeren."
+  },
+  {
+   "v": "Wat betekent het standaardwoord APPROVED?",
+   "a": [
+    "Uw terugmelding is correct",
+    "Toestemming verleend voor de voorgestelde handeling",
+    "Het vliegplan is goedgekeurd",
+    "De frequentiewissel is voltooid"
+   ],
+   "juist": 1,
+   "uitleg": "APPROVED betekent dat toestemming is verleend voor wat werd voorgesteld."
+  },
+  {
+   "v": "Wat betekent het standaardwoord CHECK?",
+   "a": [
+    "Bevestig ontvangst met uw callsign",
+    "Uw bericht klopt",
+    "Herhaal ter controle het hele bericht",
+    "Onderzoek een systeem of procedure; normaal wordt geen antwoord verwacht"
+   ],
+   "juist": 3,
+   "uitleg": "CHECK betekent: onderzoek een systeem of procedure, normaal zonder antwoord."
+  },
+  {
+   "v": "Wat betekent het standaardwoord VERIFY?",
+   "a": [
+    "Controleer en bevestig",
+    "Uw bericht is geverifieerd",
+    "Vlieg zichtbaar voor de toren",
+    "Zend uw positie uit"
+   ],
+   "juist": 0,
+   "uitleg": "VERIFY betekent: controleer en bevestig (bijvoorbeeld een hoogte of code)."
+  },
+  {
+   "v": "Wat vraag je met de zin 'HOW DO YOU READ'?",
+   "a": [
+    "Of het station je bericht heeft begrepen",
+    "Of het station je instructie uitvoert",
+    "Hoe leesbaar jouw uitzending bij het andere station overkomt",
+    "Welke frequentie het station uitleest"
+   ],
+   "juist": 2,
+   "uitleg": "Met HOW DO YOU READ vraag je naar de leesbaarheid van je uitzending."
+  },
+  {
+   "v": "Wat betekent leesbaarheid 5 in de leesbaarheidsschaal?",
+   "a": [
+    "Leesbaar maar met moeite",
+    "Perfect leesbaar",
+    "Vijf woorden per uitzending",
+    "Nu en dan leesbaar"
+   ],
+   "juist": 1,
+   "uitleg": "Leesbaarheid 5 betekent perfect leesbaar."
+  },
+  {
+   "v": "Wat betekent leesbaarheid 1 in de leesbaarheidsschaal?",
+   "a": [
+    "Perfect leesbaar",
+    "Leesbaar",
+    "Nu en dan leesbaar",
+    "Onleesbaar"
+   ],
+   "juist": 3,
+   "uitleg": "Leesbaarheid 1 betekent onleesbaar."
+  },
+  {
+   "v": "Wat betekent leesbaarheid 3 in de leesbaarheidsschaal?",
+   "a": [
+    "Leesbaar maar met moeite",
+    "Onleesbaar",
+    "Perfect leesbaar",
+    "Alleen het callsign leesbaar"
+   ],
+   "juist": 0,
+   "uitleg": "Leesbaarheid 3 betekent leesbaar maar met moeite."
+  },
+  {
+   "v": "Wat hoort er in een correcte testuitzending (radio check)?",
+   "a": [
+    "Alleen je callsign en het woord 'test'",
+    "Het woord 'radio check', drie keer herhaald",
+    "Opgeroepen station, eigen callsign, 'radio check' en de gebruikte frequentie",
+    "Een telling van een tot tien met je callsign"
+   ],
+   "juist": 2,
+   "uitleg": "Een radio check bevat het opgeroepen station, je callsign, de woorden 'radio check' en de frequentie."
+  },
+  {
+   "v": "Mag je een toegewezen transpondercode beantwoorden met alleen ROGER?",
+   "a": [
+    "Ja, ROGER volstaat altijd",
+    "Nee, een toegewezen code moet je volledig terugmelden",
+    "Ja, mits je de code direct instelt",
+    "Nee, je moet WILCO zeggen"
+   ],
+   "juist": 1,
+   "uitleg": "Een toegewezen SSR-code hoort bij de items die volledig moeten worden teruggelezen."
+  },
+  {
+   "v": "Wat betekent het verzoek 'WORDS TWICE'?",
+   "a": [
+    "Herhaal alleen de getallen",
+    "Spreek twee keer zo langzaam",
+    "Zend het bericht op twee frequenties uit",
+    "Zend elk woord of elke woordgroep tweemaal, wegens moeilijke verbinding"
+   ],
+   "juist": 3,
+   "uitleg": "Bij een moeilijke verbinding wordt met WORDS TWICE gevraagd elk woord tweemaal te zenden."
+  },
+  {
+   "v": "Wat betekent het woord BREAK in een uitzending?",
+   "a": [
+    "Hiermee geef ik de scheiding aan tussen delen van het bericht",
+    "De verbinding wordt verbroken",
+    "Onderbreek uw uitzending onmiddellijk",
+    "Pauzeer het vliegen en luister uit"
+   ],
+   "juist": 0,
+   "uitleg": "BREAK markeert de scheiding tussen delen van een bericht."
+  },
+  {
+   "v": "Hoe begint een noodbericht in de radiotelefonie?",
+   "a": [
+    "SOS SOS SOS",
+    "MAYDAY MAYDAY MAYDAY",
+    "PAN PAN, PAN PAN, PAN PAN",
+    "EMERGENCY EMERGENCY"
+   ],
+   "juist": 1,
+   "uitleg": "Het gesproken noodsein is MAYDAY, driemaal uitgesproken."
+  },
+  {
+   "v": "Hoe begint een spoedbericht in de radiotelefonie?",
+   "a": [
+    "MAYDAY MAYDAY MAYDAY",
+    "URGENT URGENT URGENT",
+    "PAN PAN, PAN PAN, PAN PAN",
+    "SECURITE SECURITE SECURITE"
+   ],
+   "juist": 2,
+   "uitleg": "Het gesproken spoedsein is PAN PAN, driemaal uitgesproken."
+  },
+  {
+   "v": "Wanneer gebruik je het noodsein MAYDAY?",
+   "a": [
+    "Bij ernstig en onmiddellijk gevaar waarbij directe hulp nodig is",
+    "Bij elke buitenlanding van een zweefvliegtuig",
+    "Zodra je de thermiek kwijt bent",
+    "Alleen bij brand aan boord"
+   ],
+   "juist": 0,
+   "uitleg": "MAYDAY is voor situaties met ernstig en onmiddellijk gevaar die directe hulp vereisen."
+  },
+  {
+   "v": "Wanneer gebruik je het spoedsein PAN PAN?",
+   "a": [
+    "Alleen bij motorstoring",
+    "Bij elk radiodefect",
+    "Als je onmiddellijk hulp nodig hebt",
+    "Bij een urgente situatie rond de veiligheid van het luchtvaartuig of een persoon, zonder dat onmiddellijke hulp nodig is"
+   ],
+   "juist": 3,
+   "uitleg": "PAN PAN geldt voor urgente situaties die de veiligheid betreffen maar geen onmiddellijke hulp vereisen."
+  },
+  {
+   "v": "Wat volgt in een noodbericht direct na 'MAYDAY MAYDAY MAYDAY'?",
+   "a": [
+    "De positie van het vliegtuig",
+    "De naam van het opgeroepen station en het eigen callsign",
+    "De aard van de noodsituatie",
+    "Het aantal personen aan boord"
+   ],
+   "juist": 1,
+   "uitleg": "Na het noodsein volgen het opgeroepen station en je eigen callsign, daarna aard, intenties en positie."
+  },
+  {
+   "v": "Wat is de internationale nood- en spoedfrequentie voor de luchtvaart?",
+   "a": [
+    "123.450 MHz",
+    "118.000 MHz",
+    "121.500 MHz",
+    "406.000 MHz"
+   ],
+   "juist": 2,
+   "uitleg": "121.500 MHz is de internationale VHF-noodfrequentie."
+  },
+  {
+   "v": "Op welke frequentie zend je een noodbericht in eerste instantie uit?",
+   "a": [
+    "Op de frequentie die op dat moment in gebruik is",
+    "Altijd op 121.500 MHz",
+    "Op de frequentie van het dichtstbijzijnde grote vliegveld",
+    "Op de clubfrequentie"
+   ],
+   "juist": 0,
+   "uitleg": "Je zendt eerst op de frequentie in gebruik; daar luistert men al naar je."
+  },
+  {
+   "v": "Welke voorrang heeft noodverkeer ten opzichte van ander radioverkeer?",
+   "a": [
+    "Gelijke voorrang als spoedverkeer",
+    "Voorrang boven alles behalve verkeersleidingsberichten",
+    "Alleen voorrang op meteoberichten",
+    "Absolute voorrang boven al het andere radioverkeer"
+   ],
+   "juist": 3,
+   "uitleg": "Noodverkeer heeft voorrang boven al het overige radioverkeer."
+  },
+  {
+   "v": "Met welke frase legt een station radiostilte op tijdens noodverkeer?",
+   "a": [
+    "SILENCE SILENCE",
+    "STOP TRANSMITTING, MAYDAY",
+    "BREAK BREAK, QUIET",
+    "HOLD ALL CALLS"
+   ],
+   "juist": 1,
+   "uitleg": "Radiostilte wordt opgelegd met 'STOP TRANSMITTING, MAYDAY'."
+  },
+  {
+   "v": "Met welke frase wordt het einde van noodverkeer op de frequentie bekendgemaakt?",
+   "a": [
+    "DISTRESS TRAFFIC ENDED",
+    "MAYDAY OUT",
+    "SILENCE FINISHED",
+    "EMERGENCY CLOSED"
+   ],
+   "juist": 0,
+   "uitleg": "Het einde van noodverkeer wordt gemeld met 'DISTRESS TRAFFIC ENDED'."
+  },
+  {
+   "v": "Wat doe je als de noodsituatie is opgelost terwijl je eerder MAYDAY hebt uitgezonden?",
+   "a": [
+    "Niets, de radiostilte eindigt vanzelf",
+    "Van frequentie wisselen zodat het noodverkeer stopt",
+    "Melden dat de noodsituatie is opgeheven, zodat het normale verkeer kan worden hervat",
+    "De transponder op 7000 zetten zonder verdere melding"
+   ],
+   "juist": 2,
+   "uitleg": "Je meldt de opheffing van de noodsituatie zodat het radioverkeer weer normaal kan verlopen."
+  },
+  {
+   "v": "Wat betekent 'MAYDAY RELAY'?",
+   "a": [
+    "Een geoefend noodbericht tijdens een oefening",
+    "Een herhaling van je eigen noodbericht",
+    "Een noodbericht dat via de telefoon is doorgegeven",
+    "Een station geeft het noodbericht van een ander luchtvaartuig door"
+   ],
+   "juist": 3,
+   "uitleg": "Met MAYDAY RELAY geeft een station een noodbericht van iemand anders door."
+  },
+  {
+   "v": "In welke situatie is een MAYDAY-oproep vanuit een zweefvliegtuig gerechtvaardigd?",
+   "a": [
+    "Na een botsing in de lucht waarbij het vliegtuig beschadigd is",
+    "Bij een geplande buitenlanding op een geschikt weiland",
+    "Als de eindaankomst krap wordt",
+    "Als de variometer uitvalt"
+   ],
+   "juist": 0,
+   "uitleg": "Een botsing met schade is ernstig en onmiddellijk gevaar en rechtvaardigt MAYDAY."
+  },
+  {
+   "v": "In welke situatie past het spoedsein PAN PAN bij een zweefvlieger?",
+   "a": [
+    "Bij een normale buitenlanding",
+    "Bij het missen van een thermiekbel",
+    "Als je boven onbekend gebied verdwaald bent en assistentie wilt, zonder direct gevaar",
+    "Bij een botsing met ernstige schade"
+   ],
+   "juist": 2,
+   "uitleg": "Verdwaald zijn zonder direct gevaar is een typische urgentiesituatie voor PAN PAN."
+  },
+  {
+   "v": "Hoe is een spoedbericht opgebouwd?",
+   "a": [
+    "Alleen PAN PAN gevolgd door je positie",
+    "Net als een noodbericht, maar beginnend met PAN PAN (driemaal)",
+    "Eerst je callsign, dan PAN PAN",
+    "PAN PAN eenmaal, daarna vrij formaat"
+   ],
+   "juist": 1,
+   "uitleg": "Het spoedbericht volgt dezelfde opbouw als het noodbericht, maar begint met PAN PAN."
+  },
+  {
+   "v": "Je hoort noodverkeer tussen een ander vliegtuig en een grondstation. Wat doe je?",
+   "a": [
+    "Je meldt je aan om te helpen",
+    "Je vraagt om details van de noodsituatie",
+    "Je wisselt direct van frequentie",
+    "Je bewaart radiostilte en blijft uitluisteren"
+   ],
+   "juist": 3,
+   "uitleg": "Tijdens noodverkeer van anderen zwijg je en blijf je uitluisteren, tenzij om hulp wordt gevraagd."
+  },
+  {
+   "v": "Je zendt MAYDAY uit op de frequentie in gebruik maar krijgt geen antwoord. Wat doe je?",
+   "a": [
+    "Het noodbericht herhalen op 121.500 MHz",
+    "Wachten tot iemand antwoordt",
+    "De radio uitzetten en op de transponder vertrouwen",
+    "Overschakelen naar de clubfrequentie"
+   ],
+   "juist": 0,
+   "uitleg": "Krijg je geen antwoord, herhaal het noodbericht dan op de noodfrequentie 121.500 MHz."
+  },
+  {
+   "v": "Welke transpondercode zet je bij in een noodsituatie?",
+   "a": [
+    "7000",
+    "7500",
+    "7700",
+    "7600"
+   ],
+   "juist": 2,
+   "uitleg": "Code 7700 is de algemene noodcode."
+  },
+  {
+   "v": "Heb je toestemming van de verkeersleiding nodig om een noodbericht uit te zenden?",
+   "a": [
+    "Ja, altijd eerst een klaring vragen",
+    "Nee, een noodbericht mag altijd en direct worden uitgezonden",
+    "Alleen binnen een CTR",
+    "Alleen als de frequentie vrij is"
+   ],
+   "juist": 1,
+   "uitleg": "In nood mag je altijd direct uitzenden, zonder toestemming."
+  },
+  {
+   "v": "Wat is een QDM?",
+   "a": [
+    "De magnetische koers naar het peilstation (bij windstilte)",
+    "De ware peiling vanaf het station",
+    "De afstand tot het station",
+    "De magnetische peiling vanaf het station"
+   ],
+   "juist": 0,
+   "uitleg": "QDM is de magnetische koers die je (zonder wind) naar het station brengt."
+  },
+  {
+   "v": "Wat is een QDR?",
+   "a": [
+    "De koers naar het station",
+    "De ware peiling vanaf het station",
+    "De afstand tot het dichtstbijzijnde vliegveld",
+    "De magnetische peiling vanaf het peilstation"
+   ],
+   "juist": 3,
+   "uitleg": "QDR is de magnetische peiling vanaf het station."
+  },
+  {
+   "v": "Wat is de juiste volgorde van berichtcategorieen naar afnemende voorrang?",
+   "a": [
+    "Spoed, nood, vluchtveiligheid, peiling, meteo, regelmaat",
+    "Nood, vluchtveiligheid, spoed, meteo, peiling, regelmaat",
+    "Nood, spoed, peiling, vluchtveiligheid, meteo, regelmaat",
+    "Nood, spoed, meteo, peiling, vluchtveiligheid, regelmaat"
+   ],
+   "juist": 2,
+   "uitleg": "De volgorde is: nood, spoed, peiling, vluchtveiligheid, meteorologisch, regelmaat van de vlucht."
+  },
+  {
+   "v": "Welke berichten vallen onder de categorie vluchtveiligheidsberichten?",
+   "a": [
+    "Weersverwachtingen voor de route",
+    "Positiemeldingen en berichten van en naar de verkeersleiding",
+    "Berichten over vertragingen van lijnvluchten",
+    "Peilingsverzoeken"
+   ],
+   "juist": 1,
+   "uitleg": "Vluchtveiligheidsberichten omvatten onder meer verkeersleidingsberichten en positiemeldingen."
+  },
+  {
+   "v": "Welke gegevens horen in een volledig noodbericht?",
+   "a": [
+    "Alleen callsign en frequentie",
+    "Callsign en het aantal liters brandstof",
+    "Alleen de positie",
+    "Onder meer de aard van de nood, de intenties en positie en hoogte"
+   ],
+   "juist": 3,
+   "uitleg": "Een noodbericht bevat de aard van de nood, je intenties en je positie en hoogte."
+  },
+  {
+   "v": "Welke voorrang hebben peilingsberichten?",
+   "a": [
+    "De hoogste voorrang",
+    "De laagste voorrang",
+    "Na nood- en spoedberichten, voor vluchtveiligheidsberichten",
+    "Gelijk aan meteoberichten"
+   ],
+   "juist": 2,
+   "uitleg": "Peilingsberichten komen op de derde plaats, na nood en spoed."
+  },
+  {
+   "v": "Wat betekent transpondercode 7700?",
+   "a": [
+    "Noodsituatie",
+    "Radiofalen",
+    "Kaping",
+    "VFR-vlucht"
+   ],
+   "juist": 0,
+   "uitleg": "Code 7700 is de algemene noodcode."
+  },
+  {
+   "v": "Wat betekent transpondercode 7600?",
+   "a": [
+    "Noodsituatie",
+    "Kaping",
+    "Radiofalen (verlies van radioverbinding)",
+    "Zweefvliegtuig zonder motor"
+   ],
+   "juist": 2,
+   "uitleg": "Code 7600 geeft radiofalen aan."
+  },
+  {
+   "v": "Wat betekent transpondercode 7500?",
+   "a": [
+    "Radiofalen",
+    "Onwettige inmenging (kaping)",
+    "Medische noodsituatie",
+    "Vlucht boven FL 195"
+   ],
+   "juist": 1,
+   "uitleg": "Code 7500 betekent onwettige inmenging, zoals een kaping."
+  },
+  {
+   "v": "Welke transpondercode gebruik je standaard voor een VFR-vlucht zonder toegewezen code?",
+   "a": [
+    "1200",
+    "2000",
+    "7700",
+    "7000"
+   ],
+   "juist": 3,
+   "uitleg": "In Europa is 7000 de standaard VFR-code als er geen code is toegewezen."
+  },
+  {
+   "v": "Wat voegt transpondermode C toe ten opzichte van mode A?",
+   "a": [
+    "Het callsign van het vliegtuig",
+    "Drukhoogte-informatie",
+    "De grondsnelheid",
+    "De vliegrichting"
+   ],
+   "juist": 1,
+   "uitleg": "Mode C zendt naast de code ook de drukhoogte uit."
+  },
+  {
+   "v": "Wat kenmerkt een mode S-transponder?",
+   "a": [
+    "Selectieve ondervraging en extra gegevens zoals een uniek adres van het vliegtuig",
+    "Alleen de viercijferige code",
+    "Werkt alleen boven 10.000 voet",
+    "Zendt continu de positie via satelliet"
+   ],
+   "juist": 0,
+   "uitleg": "Mode S wordt selectief ondervraagd en zendt extra gegevens uit, zoals een uniek vliegtuigadres."
+  },
+  {
+   "v": "Wat zendt een transponder in mode A uit?",
+   "a": [
+    "Code en hoogte",
+    "Code, hoogte en callsign",
+    "Alleen de ingestelde viercijferige code",
+    "De GPS-positie"
+   ],
+   "juist": 2,
+   "uitleg": "Mode A zendt alleen de ingestelde code uit, zonder hoogte."
+  },
+  {
+   "v": "Wat doe je bij de instructie 'SQUAWK IDENT'?",
+   "a": [
+    "De code herhalen op de radio",
+    "De transponder op standby zetten",
+    "Code 7000 instellen",
+    "De IDENT-knop van de transponder indrukken"
+   ],
+   "juist": 3,
+   "uitleg": "Bij SQUAWK IDENT druk je eenmaal op de IDENT-knop, zodat je oplicht op het radarscherm."
+  },
+  {
+   "v": "Wat doe je bij de instructie 'SQUAWK STANDBY'?",
+   "a": [
+    "De code 0000 instellen",
+    "De transponder op de stand standby zetten",
+    "De transponder uitzetten en weer aanzetten",
+    "De IDENT-knop ingedrukt houden"
+   ],
+   "juist": 1,
+   "uitleg": "SQUAWK STANDBY betekent de transponder op standby zetten; hij antwoordt dan niet meer."
+  },
+  {
+   "v": "Wat betekent de transponderstand ALT (mode C aan)?",
+   "a": [
+    "De transponder zendt code en drukhoogte uit",
+    "De transponder zendt alleen bij ondervraging door ATC op verzoek",
+    "De hoogtemeter wordt automatisch gecorrigeerd",
+    "De transponder staat op de noodcode"
+   ],
+   "juist": 0,
+   "uitleg": "In de stand ALT zendt de transponder de code plus drukhoogte uit."
+  },
+  {
+   "v": "Wat doe je bij radiofalen tijdens een VFR-vlucht buiten gecontroleerd luchtruim?",
+   "a": [
+    "Direct MAYDAY uitzenden op een andere radio",
+    "Code 7500 instellen en doorvliegen",
+    "Code 7600 instellen, buiten gecontroleerd luchtruim blijven en op een geschikt terrein of veld landen",
+    "Het maakt niet uit, radio is daar toch niet verplicht"
+   ],
+   "juist": 2,
+   "uitleg": "Bij radiofalen zet je 7600, blijf je buiten gecontroleerd luchtruim en land je op een geschikte plek."
+  },
+  {
+   "v": "Hoe zend je een bericht 'blind' uit bij radiofalen?",
+   "a": [
+    "Eenmaal, zonder callsign",
+    "Voorafgegaan door 'TRANSMITTING BLIND' en het bericht tweemaal zenden",
+    "Alleen op 121.500 MHz",
+    "Met de woorden 'NO REPLY EXPECTED' erachter"
+   ],
+   "juist": 1,
+   "uitleg": "Een blinde uitzending kondig je aan met 'TRANSMITTING BLIND' en je zendt het bericht tweemaal."
+  },
+  {
+   "v": "Je vermoedt dat alleen je ontvanger defect is, maar je zender werkt nog. Wat doe je?",
+   "a": [
+    "Niets uitzenden, want je hoort geen antwoord",
+    "De radio uitzetten om storing te voorkomen",
+    "Alleen de transponder gebruiken",
+    "Blind je posities en intenties blijven uitzenden op de juiste momenten"
+   ],
+   "juist": 3,
+   "uitleg": "Werkt je zender nog, zend dan blind je posities en intenties uit."
+  },
+  {
+   "v": "Waar let je op bij radiofalen binnen een CTR?",
+   "a": [
+    "Op lichtsignalen vanaf de verkeerstoren",
+    "Op de vleugelsignalen van andere vliegtuigen",
+    "Op rooksignalen bij de baan",
+    "Op de windzak"
+   ],
+   "juist": 0,
+   "uitleg": "Bij radiofalen in een CTR geeft de toren instructies met lichtsignalen."
+  },
+  {
+   "v": "Wat betekent een vast groen lichtsignaal vanaf de toren voor een vliegtuig in de lucht?",
+   "a": [
+    "Keer terug voor een landing",
+    "Geef voorrang en blijf in het circuit",
+    "U bent geklaard om te landen",
+    "Land onmiddellijk, veld onveilig"
+   ],
+   "juist": 2,
+   "uitleg": "Een vast groen licht betekent: geklaard om te landen."
+  },
+  {
+   "v": "Wat betekent een vast rood lichtsignaal vanaf de toren voor een vliegtuig in de lucht?",
+   "a": [
+    "Land onmiddellijk",
+    "Geef voorrang aan ander verkeer en blijf in het circuit",
+    "Verlaat het circuit direct",
+    "U bent geklaard om te landen"
+   ],
+   "juist": 1,
+   "uitleg": "Vast rood betekent: voorrang geven en in het circuit blijven."
+  },
+  {
+   "v": "Wat betekent een serie rode lichtflitsen (of een rood vuurpijlsignaal) voor een vliegtuig in de lucht?",
+   "a": [
+    "Geklaard om te landen",
+    "Keer terug naar het startpunt",
+    "Verhoog uw hoogte",
+    "Niet landen, het vliegveld is onveilig"
+   ],
+   "juist": 3,
+   "uitleg": "Rode flitsen betekenen: niet landen, het veld is onveilig."
+  },
+  {
+   "v": "Wat betekent een serie groene lichtflitsen vanaf de toren voor een vliegtuig in de lucht?",
+   "a": [
+    "Keer terug voor een landing; de klaring volgt later",
+    "Direct landen toegestaan",
+    "Verlaat de CTR",
+    "Volg het voorgaande vliegtuig"
+   ],
+   "juist": 0,
+   "uitleg": "Groene flitsen betekenen: keer terug voor de landing, de landingsklaring volgt."
+  },
+  {
+   "v": "Wat is je eerste actie als je vermoedt dat de radioverbinding is weggevallen?",
+   "a": [
+    "Direct 7600 instellen zonder verder te controleren",
+    "Controleren of frequentie, volume, squelch en aansluitingen in orde zijn",
+    "De zekering van de radio verwijderen",
+    "MAYDAY uitzenden"
+   ],
+   "juist": 1,
+   "uitleg": "Controleer eerst je eigen apparatuur en instellingen voordat je van radiofalen uitgaat."
+  },
+  {
+   "v": "Wanneer stel je transpondercode 7600 in?",
+   "a": [
+    "Alleen na toestemming van ATC",
+    "Alleen binnen een CTR",
+    "Zodra je hebt vastgesteld dat de radioverbinding is uitgevallen",
+    "Pas na de landing"
+   ],
+   "juist": 2,
+   "uitleg": "Code 7600 stel je in zodra het radiofalen is vastgesteld."
+  },
+  {
+   "v": "Wat betekent de instructie 'SQUAWK 7031'?",
+   "a": [
+    "Stel transpondercode 7031 in",
+    "Roep op via frequentie 70.31",
+    "Bevestig code 7031 en zet de transponder daarna uit",
+    "Druk de IDENT-knop 4 keer in"
+   ],
+   "juist": 0,
+   "uitleg": "SQUAWK gevolgd door een code betekent: stel die transpondercode in."
+  },
+  {
+   "v": "Wat geldt in een TMZ (transponder mandatory zone)?",
+   "a": [
+    "Radiocontact met ATC is verplicht",
+    "Alleen mode A is toegestaan",
+    "Zweefvliegtuigen zijn er altijd verboden",
+    "Het voeren van een werkende transponder is er verplicht (behoudens uitzonderingen of afspraken)"
+   ],
+   "juist": 3,
+   "uitleg": "In een TMZ is het gebruik van een transponder verplicht."
+  },
+  {
+   "v": "Waarom mag je bij het wisselen van transpondercode nooit per ongeluk 7500 laten zien?",
+   "a": [
+    "Die code is gereserveerd voor militair verkeer",
+    "Die code stoort de radar",
+    "ATC vat 7500 op als onwettige inmenging (kaping) en start een alarmprocedure",
+    "Die code schakelt de hoogtemelding uit"
+   ],
+   "juist": 2,
+   "uitleg": "Code 7500 betekent kaping en leidt direct tot alarmering."
+  },
+  {
+   "v": "Op welke frequentie zendt een moderne ELT (noodzender) zijn satellietsignaal uit?",
+   "a": [
+    "121.500 MHz",
+    "243 MHz",
+    "130.125 MHz",
+    "406 MHz"
+   ],
+   "juist": 3,
+   "uitleg": "Moderne ELT's zenden op 406 MHz naar satellieten, met 121.5 MHz als peilsignaal."
+  },
+  {
+   "v": "Welke transpondercode zet een zweefvlieger in Nederland op als er geen code is toegewezen?",
+   "a": [
+    "0000",
+    "1202",
+    "2000",
+    "7000"
+   ],
+   "juist": 3,
+   "uitleg": "Zonder toegewezen code geldt ook voor zweefvliegtuigen de VFR-code 7000."
+  },
+  {
+   "v": "Welk frequentiegebied gebruikt de VHF-luchtvaartcommunicatieband?",
+   "a": [
+    "108.000 tot 117.975 MHz",
+    "118.000 tot 136.975 MHz",
+    "88 tot 108 MHz",
+    "121.5 tot 243 MHz"
+   ],
+   "juist": 1,
+   "uitleg": "De VHF-comband loopt van 118.000 tot 136.975 MHz."
+  },
+  {
+   "v": "Hoe planten VHF-radiogolven zich voort?",
+   "a": [
+    "Via reflectie tegen de ionosfeer",
+    "Via de kromming van de aarde",
+    "Via grondgolven over grote afstand",
+    "Vrijwel rechtlijnig, volgens de zichtlijn (line of sight)"
+   ],
+   "juist": 3,
+   "uitleg": "VHF werkt volgens het zichtlijnprincipe: zender en ontvanger moeten elkaar vrijwel kunnen 'zien'."
+  },
+  {
+   "v": "Wat gebeurt er met je VHF-radiobereik als je hoger vliegt?",
+   "a": [
+    "Het bereik wordt groter",
+    "Het bereik wordt kleiner",
+    "Het bereik blijft gelijk",
+    "Het bereik hangt alleen af van het zendvermogen"
+   ],
+   "juist": 0,
+   "uitleg": "Hoe hoger je vliegt, hoe verder de radiohorizon en dus hoe groter het bereik."
+  },
+  {
+   "v": "Hoeveel kanalen passen er met het 8.33 kHz-raster in een oud 25 kHz-kanaal?",
+   "a": [
+    "2",
+    "4",
+    "3",
+    "8"
+   ],
+   "juist": 2,
+   "uitleg": "Elk 25 kHz-kanaal is opgedeeld in drie 8.33 kHz-kanalen."
+  },
+  {
+   "v": "Waarom is het 8.33 kHz-kanaalraster ingevoerd?",
+   "a": [
+    "Voor betere geluidskwaliteit",
+    "Om het tekort aan beschikbare frequenties op te lossen: er kwamen meer kanalen beschikbaar",
+    "Om het zendvermogen te verlagen",
+    "Voor digitale spraakoverdracht"
+   ],
+   "juist": 1,
+   "uitleg": "Door smallere kanalen ontstonden er drie keer zoveel kanalen in dezelfde band."
+  },
+  {
+   "v": "Wat is het verschil tussen een 8.33-kanaalnaam en de werkelijke zendfrequentie?",
+   "a": [
+    "De kanaalnaam kan iets afwijken van de fysieke frequentie waarop wordt gezonden",
+    "Er is geen verschil",
+    "De kanaalnaam is altijd 8.33 kHz hoger",
+    "De kanaalnaam geldt alleen voor militaire stations"
+   ],
+   "juist": 0,
+   "uitleg": "De kanaalnaam is een aanduiding; de werkelijke frequentie kan er iets van afwijken."
+  },
+  {
+   "v": "Welke modulatievorm gebruikt de VHF-luchtvaartcommunicatie?",
+   "a": [
+    "Frequentiemodulatie (FM)",
+    "Digitale modulatie",
+    "Amplitudemodulatie (AM)",
+    "Enkelzijbandmodulatie (SSB)"
+   ],
+   "juist": 2,
+   "uitleg": "Luchtvaart-VHF gebruikt amplitudemodulatie."
+  },
+  {
+   "v": "Wat betekent het dat luchtvaartradioverkeer via simplex verloopt?",
+   "a": [
+    "Er wordt op twee frequenties tegelijk gewerkt",
+    "Iedereen kan tegelijk zenden",
+    "Zenden gaat automatisch",
+    "Zenden en ontvangen gebeuren om de beurt op dezelfde frequentie"
+   ],
+   "juist": 3,
+   "uitleg": "Simplex betekent om de beurt zenden en ontvangen op een en dezelfde frequentie."
+  },
+  {
+   "v": "Wat gebeurt er als twee stations tegelijk zenden op dezelfde frequentie?",
+   "a": [
+    "De sterkste zender is altijd perfect verstaanbaar",
+    "De berichten storen elkaar, vaak hoorbaar als fluittoon, en zijn slecht of niet verstaanbaar",
+    "De radio schakelt automatisch naar een reservekanaal",
+    "Beide berichten worden na elkaar afgespeeld"
+   ],
+   "juist": 1,
+   "uitleg": "Gelijktijdige uitzendingen storen elkaar en zijn meestal onverstaanbaar."
+  },
+  {
+   "v": "Wat is de functie van de squelch op een vliegtuigradio?",
+   "a": [
+    "Het onderdrukken van ruis wanneer er geen signaal wordt ontvangen",
+    "Het versterken van zwakke zenders",
+    "Het blokkeren van andere vliegtuigen",
+    "Het automatisch afstemmen op de juiste frequentie"
+   ],
+   "juist": 0,
+   "uitleg": "De squelch onderdrukt de achtergrondruis als er geen signaal binnenkomt."
+  },
+  {
+   "v": "Wat is het gevolg van een vastzittende zendknop (stuck mic)?",
+   "a": [
+    "De accu raakt binnen enkele minuten leeg",
+    "De radio schakelt op standby",
+    "De frequentie wordt geblokkeerd: niemand anders kan er verstaanbaar zenden",
+    "Er gebeurt niets zolang je niet spreekt"
+   ],
+   "juist": 2,
+   "uitleg": "Een vastzittende zendknop blokkeert de frequentie voor alle gebruikers."
+  },
+  {
+   "v": "Wat is bij benadering het VHF-radiobereik van een vliegtuig op 3000 voet hoogte (grondstation op zeeniveau)?",
+   "a": [
+    "10 NM",
+    "250 NM",
+    "5 NM",
+    "65 NM"
+   ],
+   "juist": 3,
+   "uitleg": "Vuistregel: bereik in NM is ongeveer 1.23 maal de wortel uit de hoogte in voet, dus circa 65 NM."
+  },
+  {
+   "v": "Waarom kan een laag vliegend zweefvliegtuig achter een heuvelrug soms geen grondstation ontvangen?",
+   "a": [
+    "Het terrein schermt het VHF-signaal af",
+    "De heuvel weerkaatst het signaal terug naar de zender",
+    "VHF werkt niet boven land",
+    "De frequentie verandert door de hoogte"
+   ],
+   "juist": 0,
+   "uitleg": "VHF-signalen gaan niet door terrein heen; obstakels veroorzaken radioschaduw."
+  },
+  {
+   "v": "Hoe is een VHF-communicatieantenne op een vliegtuig gepolariseerd?",
+   "a": [
+    "Horizontaal",
+    "Verticaal",
+    "Circulair",
+    "Diagonaal"
+   ],
+   "juist": 1,
+   "uitleg": "VHF-comantennes zijn verticaal gepolariseerd."
+  },
+  {
+   "v": "Wat is een gevolg van een bijna lege accu voor je radio in een zweefvliegtuig?",
+   "a": [
+    "De frequentie verloopt langzaam",
+    "De ontvangst wordt beter maar zenden gaat harder",
+    "Het zendvermogen neemt af en je bent minder ver verstaanbaar",
+    "De squelch schakelt uit"
+   ],
+   "juist": 2,
+   "uitleg": "Bij lage spanning daalt het zendvermogen en dus je bereik."
+  },
+  {
+   "v": "Wat is een goede microfoontechniek bij het zenden?",
+   "a": [
+    "Zo hard mogelijk spreken",
+    "De microfoon ver van de mond houden",
+    "Snel spreken om zendtijd te sparen",
+    "Constante afstand tot de microfoon, normaal tempo en duidelijk articuleren"
+   ],
+   "juist": 3,
+   "uitleg": "Spreek duidelijk, in normaal tempo en met vaste afstand tot de microfoon."
+  },
+  {
+   "v": "Waarom druk je de zendknop volledig in en wacht je heel even voordat je begint te spreken?",
+   "a": [
+    "Om de zender op temperatuur te laten komen",
+    "Anders wordt het begin van je bericht afgekapt",
+    "Om de squelch te openen",
+    "Dat is alleen nodig bij oude radio's"
+   ],
+   "juist": 1,
+   "uitleg": "Spreek je te vroeg, dan valt het eerste deel van je bericht weg."
+  },
+  {
+   "v": "Door wie wordt de noodfrequentie 121.500 MHz uitgeluisterd?",
+   "a": [
+    "Door verkeersleidingsinstanties en veel vliegtuigen die een luisterwacht houden",
+    "Alleen door militaire stations",
+    "Alleen door de brandweer van vliegvelden",
+    "Door niemand; hij is alleen voor ELT's"
+   ],
+   "juist": 0,
+   "uitleg": "ATC-eenheden en veel vliegtuigen luisteren 121.5 uit."
+  },
+  {
+   "v": "Waarom kan HF-radio grotere afstanden overbruggen dan VHF?",
+   "a": [
+    "HF heeft altijd meer zendvermogen",
+    "HF-antennes zijn langer",
+    "HF-golven worden door de ionosfeer gereflecteerd en reiken zo voorbij de horizon",
+    "VHF is alleen voor gebruik boven zee"
+   ],
+   "juist": 2,
+   "uitleg": "HF-signalen kaatsen tegen de ionosfeer en reiken daardoor voorbij de radiohorizon."
+  },
+  {
+   "v": "Welke factoren bepalen vooral het bereik van een VHF-verbinding?",
+   "a": [
+    "De buitentemperatuur en luchtvochtigheid",
+    "Het tijdstip van de dag en het seizoen",
+    "De kleur en grootte van het vliegtuig",
+    "De hoogte van zender en ontvanger, obstakels en het zendvermogen"
+   ],
+   "juist": 3,
+   "uitleg": "Bij VHF bepalen hoogte, obstakels en vermogen het bereik; de ionosfeer speelt geen rol van betekenis."
+  },
+  {
+   "v": "Hoeveel kanalen zijn er in totaal beschikbaar in de VHF-luchtvaartband met het 8.33 kHz-raster?",
+   "a": [
+    "2280",
+    "760",
+    "1000",
+    "570"
+   ],
+   "juist": 0,
+   "uitleg": "Met het 8.33 kHz-raster zijn er 2280 kanalen beschikbaar."
+  },
+  {
+   "v": "Waarom kun je een hoog vliegend vliegtuig op grotere afstand horen dan een laag vliegend vliegtuig?",
+   "a": [
+    "Hoge vliegtuigen hebben sterkere zenders",
+    "De radiohorizon van een hoog vliegend vliegtuig ligt verder weg",
+    "Geluid draagt hoger beter",
+    "De frequentie neemt toe met de hoogte"
+   ],
+   "juist": 1,
+   "uitleg": "Hoe hoger het vliegtuig, hoe verder zijn radiohorizon reikt."
+  },
+  {
+   "v": "Wat is een beperking van een handheld radio ten opzichte van een ingebouwde vliegtuigradio?",
+   "a": [
+    "Een handheld kan geen 8.33-kanalen ontvangen",
+    "Een handheld werkt alleen op de grond",
+    "Het lagere zendvermogen en de kleinere antenne geven een kleiner bereik",
+    "Een handheld mag niet in de lucht worden gebruikt"
+   ],
+   "juist": 2,
+   "uitleg": "Handhelds hebben minder vermogen en een minder goede antenne, dus minder bereik."
+  },
+  {
+   "v": "Waardoor kan de radio-ontvangst in een zweefvliegtuig tijdens een bocht tijdelijk wegvallen?",
+   "a": [
+    "De snelheid verstoort het signaal",
+    "De g-krachten beinvloeden de zender",
+    "De frequentie verloopt in de bocht",
+    "Het eigen vliegtuig (romp of vleugel) schermt de antenne tijdelijk af"
+   ],
+   "juist": 3,
+   "uitleg": "In een bocht kan het vliegtuig zelf tussen antenne en station komen en het signaal afschermen."
+  },
+  {
+   "v": "Waarom is amplitudemodulatie (AM) geschikt voor luchtvaartcommunicatie?",
+   "a": [
+    "Bij AM blijven gelijktijdige uitzendingen hoorbaar als storing, zodat dubbel zenden opvalt",
+    "AM geeft de beste geluidskwaliteit",
+    "AM heeft het grootste bereik van alle modulatievormen",
+    "AM is ongevoelig voor onweer"
+   ],
+   "juist": 0,
+   "uitleg": "Bij AM merk je dat twee stations tegelijk zenden; bij FM zou de sterkste zender de ander volledig onderdrukken."
+  },
+  {
+   "v": "Hoe is de registratie van Nederlandse zweefvliegtuigen opgebouwd?",
+   "a": [
+    "PH- gevolgd door drie letters",
+    "D- gevolgd door vier cijfers",
+    "PH- gevolgd door (meestal vier) cijfers",
+    "NL- gevolgd door drie letters"
+   ],
+   "juist": 2,
+   "uitleg": "Nederlandse zweefvliegtuigen hebben PH- gevolgd door cijfers; motorvliegtuigen hebben letters."
+  },
+  {
+   "v": "Welk callsign gebruik je bij het eerste contact met een station?",
+   "a": [
+    "Altijd je volledige callsign",
+    "Een verkorte versie om tijd te sparen",
+    "Alleen het vliegtuigtype",
+    "Alleen de laatste twee tekens"
+   ],
+   "juist": 0,
+   "uitleg": "Bij het eerste contact gebruik je altijd je volledige callsign."
+  },
+  {
+   "v": "Wanneer mag je je callsign verkort gebruiken?",
+   "a": [
+    "Zodra je zelf vindt dat het duidelijk is",
+    "Pas nadat het grondstation je callsign verkort heeft gebruikt",
+    "Alleen boven eigen veld",
+    "Nooit, verkorten is verboden"
+   ],
+   "juist": 1,
+   "uitleg": "Je mag pas verkorten nadat het grondstation dat als eerste heeft gedaan."
+  },
+  {
+   "v": "Hoe wordt een callsign op basis van het registratieteken correct verkort?",
+   "a": [
+    "Alleen de eerste twee tekens",
+    "Alleen het laatste teken",
+    "De middelste tekens",
+    "Het eerste teken plus ten minste de laatste twee tekens"
+   ],
+   "juist": 3,
+   "uitleg": "De verkorting bestaat uit het eerste teken en ten minste de laatste twee tekens van de registratie."
+  },
+  {
+   "v": "Wat zegt de toevoeging 'Radio' in een stationsnaam zoals 'Terlet Radio'?",
+   "a": [
+    "Het is een grondstation zonder verkeersleiding; het geeft alleen informatie",
+    "Het is een radarstation",
+    "Het station geeft bindende klaringen",
+    "Het is een omroepzender"
+   ],
+   "juist": 0,
+   "uitleg": "'Radio' duidt op een grondstation dat informatie geeft maar geen verkeersleiding."
+  },
+  {
+   "v": "Welke dienst herken je aan de stationsnaam met 'Tower' (of 'Toren')?",
+   "a": [
+    "Vluchtinformatie",
+    "Naderingsverkeersleiding",
+    "Plaatselijke verkeersleiding op en rond het vliegveld",
+    "Weersinformatie"
+   ],
+   "juist": 2,
+   "uitleg": "'Tower' is de plaatselijke verkeersleiding van een gecontroleerd vliegveld."
+  },
+  {
+   "v": "Welke dienst herken je aan de stationsnaam met 'Approach'?",
+   "a": [
+    "Grondafhandeling",
+    "Naderingsverkeersleiding",
+    "Vluchtinformatie",
+    "Peildienst"
+   ],
+   "juist": 1,
+   "uitleg": "'Approach' is de naderingsverkeersleiding."
+  },
+  {
+   "v": "Welke dienst levert 'Amsterdam Information'?",
+   "a": [
+    "Verkeersleiding in de CTR van Schiphol",
+    "Radarvectoren voor IFR-verkeer",
+    "Toestemming voor het luchtruim boven FL 195",
+    "Vluchtinformatie (FIC) voor onder meer VFR-verkeer in de Nederlandse FIR"
+   ],
+   "juist": 3,
+   "uitleg": "Amsterdam Information is het vluchtinformatiecentrum voor VFR-verkeer in Nederland."
+  },
+  {
+   "v": "Welke dienst herken je aan de stationsnaam met 'Ground'?",
+   "a": [
+    "Verkeersleiding voor het rijdende verkeer op het vliegveld",
+    "Vluchtinformatie onderweg",
+    "De technische dienst",
+    "De brandweer van het vliegveld"
+   ],
+   "juist": 0,
+   "uitleg": "'Ground' regelt het taxiende en rijdende verkeer op een gecontroleerd veld."
+  },
+  {
+   "v": "Welke dienst herken je aan de stationsnaam met 'Radar'?",
+   "a": [
+    "Alleen militaire gevechtsleiding",
+    "De onderhoudsdienst van de radar",
+    "Verkeersleiding op basis van radarwaarneming",
+    "Automatische weersinformatie"
+   ],
+   "juist": 2,
+   "uitleg": "'Radar' duidt op een verkeersleidingsdienst die met radar werkt."
+  },
+  {
+   "v": "Waarom meld je je bij ATC als 'glider' of 'zwever' voor je callsign?",
+   "a": [
+    "Dat is verplicht voor de facturering",
+    "Zodat de verkeersleiding rekening houdt met je beperkte manoeuvreer- en snelheidsmogelijkheden",
+    "Om voorrang te krijgen op al het verkeer",
+    "Om de frequentie te reserveren"
+   ],
+   "juist": 1,
+   "uitleg": "Het voorvoegsel maakt duidelijk dat je beperkt kunt manoeuvreren en niet kunt wachten of doorstarten zoals motorverkeer."
+  },
+  {
+   "v": "Wat is de juiste volgorde bij het oproepen van een station?",
+   "a": [
+    "Eigen callsign, dan het opgeroepen station",
+    "Eerst het bericht, dan beide callsigns",
+    "Alleen het eigen callsign",
+    "Eerst de naam van het opgeroepen station, dan het eigen callsign"
+   ],
+   "juist": 3,
+   "uitleg": "Je noemt eerst wie je oproept en daarna wie je zelf bent."
+  },
+  {
+   "v": "Mag je tijdens de vlucht je callsign veranderen?",
+   "a": [
+    "Nee, behalve op instructie van de verkeersleiding",
+    "Ja, zodra je van frequentie wisselt",
+    "Ja, als je het te lang vindt",
+    "Ja, na het verlaten van de CTR"
+   ],
+   "juist": 0,
+   "uitleg": "Je callsign wijzig je tijdens de vlucht alleen als ATC dat opdraagt."
+  },
+  {
+   "v": "Wat is het belangrijkste verschil tussen een vluchtinformatiedienst (FIS) en verkeersleiding (ATC)?",
+   "a": [
+    "FIS is alleen voor IFR-verkeer",
+    "ATC geeft alleen weersinformatie",
+    "FIS geeft informatie en advies maar geen klaringen of instructies",
+    "Er is geen verschil"
+   ],
+   "juist": 2,
+   "uitleg": "FIS informeert en adviseert; alleen ATC geeft klaringen en instructies."
+  },
+  {
+   "v": "Onder welke berichtcategorie valt een positiemelding aan de verkeersleiding?",
+   "a": [
+    "Regelmaatsbericht",
+    "Vluchtveiligheidsbericht",
+    "Meteorologisch bericht",
+    "Spoedbericht"
+   ],
+   "juist": 1,
+   "uitleg": "Positiemeldingen zijn vluchtveiligheidsberichten."
+  },
+  {
+   "v": "Welke voorrang hebben meteorologische berichten ten opzichte van vluchtveiligheidsberichten?",
+   "a": [
+    "Lagere voorrang",
+    "Hogere voorrang",
+    "Gelijke voorrang",
+    "Meteoberichten hebben altijd de hoogste voorrang"
+   ],
+   "juist": 0,
+   "uitleg": "Meteoberichten komen na de vluchtveiligheidsberichten."
+  },
+  {
+   "v": "Welke berichtcategorie heeft de laagste voorrang?",
+   "a": [
+    "Peilingsberichten",
+    "Meteorologische berichten",
+    "Vluchtveiligheidsberichten",
+    "Berichten over de regelmaat van vluchten"
+   ],
+   "juist": 3,
+   "uitleg": "Regelmaatsberichten (flight regularity) hebben de laagste voorrang."
+  },
+  {
+   "v": "Wanneer mag je een lopende uitwisseling tussen twee andere stations onderbreken?",
+   "a": [
+    "Als je bericht korter is",
+    "Als je haast hebt met je verzoek",
+    "Alleen voor een nood- of spoedbericht",
+    "Nooit, onder geen enkele omstandigheid"
+   ],
+   "juist": 2,
+   "uitleg": "Alleen nood- en spoedverkeer rechtvaardigt het onderbreken van andermans uitwisseling."
+  },
+  {
+   "v": "Een station roept op, maar je weet niet zeker of de oproep voor jou bestemd is. Wat doe je?",
+   "a": [
+    "Direct antwoorden met je callsign",
+    "Niet antwoorden en wachten tot de oproep wordt herhaald",
+    "Antwoorden met ROGER",
+    "De frequentie verlaten"
+   ],
+   "juist": 1,
+   "uitleg": "Bij twijfel wacht je tot de oproep herhaald wordt en duidelijk is voor wie die is."
+  },
+  {
+   "v": "Je vangt een radiobericht op dat niet voor jou bestemd is. Wat geldt hiervoor?",
+   "a": [
+    "De inhoud is vertrouwelijk; je geeft die niet door aan derden",
+    "Je mag het delen zolang je de callsigns weglaat",
+    "Je moet het doorgeven aan je club",
+    "Je moet het bericht bevestigen"
+   ],
+   "juist": 0,
+   "uitleg": "Opgevangen berichten voor anderen zijn vertrouwelijk en verspreid je niet."
+  },
+  {
+   "v": "Hoe lang mag een testuitzending maximaal duren?",
+   "a": [
+    "30 seconden",
+    "1 minuut",
+    "10 seconden",
+    "Zo lang als nodig"
+   ],
+   "juist": 2,
+   "uitleg": "Testuitzendingen mogen niet langer duren dan 10 seconden."
+  },
+  {
+   "v": "Hoe is het callsign van een luchtvaartgrondstation doorgaans opgebouwd?",
+   "a": [
+    "Een willekeurige codenaam",
+    "Drie letters en drie cijfers",
+    "De naam van de dienstdoende functionaris",
+    "De plaatsnaam of locatie gevolgd door de dienst (bijvoorbeeld Tower of Radio)"
+   ],
+   "juist": 3,
+   "uitleg": "Grondstations heten naar hun locatie plus de geleverde dienst."
+  },
+  {
+   "v": "Wat betekent een oproep die begint met 'ALL STATIONS'?",
+   "a": [
+    "Alle stations moeten om de beurt antwoorden",
+    "Een bericht aan alle stations; antwoorden is niet nodig tenzij daarom wordt gevraagd",
+    "Alleen grondstations moeten luisteren",
+    "De frequentie gaat dicht"
+   ],
+   "juist": 1,
+   "uitleg": "'ALL STATIONS' is een algemene oproep waarop je niet hoeft te antwoorden, tenzij gevraagd."
+  },
+  {
+   "v": "Wie is er aan boord eindverantwoordelijk voor het juiste gebruik van de radio?",
+   "a": [
+    "De gezagvoerder",
+    "De verkeersleiding",
+    "De radio-eigenaar",
+    "De club"
+   ],
+   "juist": 0,
+   "uitleg": "De gezagvoerder is verantwoordelijk voor het radiogebruik aan boord."
+  },
+  {
+   "v": "Bij wie ligt het initiatief voor de eerste oproep als een vliegtuig een dienst van een grondstation wenst?",
+   "a": [
+    "Bij het grondstation",
+    "Bij het vluchtinformatiecentrum",
+    "Bij het vliegtuig dat er als eerste die dag vliegt",
+    "Bij het vliegtuig dat de dienst wenst"
+   ],
+   "juist": 3,
+   "uitleg": "Het luchtvaartuig dat een dienst wil, roept zelf het grondstation op."
+  },
+  {
+   "v": "Wat is vereist om met een zweefvliegtuig een CTR binnen te vliegen?",
+   "a": [
+    "Alleen een werkende transponder",
+    "Tweezijdige radioverbinding en een klaring van de verkeersleiding",
+    "Alleen uitluisteren op de torenfrequentie",
+    "Een vliegplan volstaat"
+   ],
+   "juist": 1,
+   "uitleg": "Voor een CTR (klasse D) heb je tweezijdig radiocontact en een klaring nodig."
+  },
+  {
+   "v": "Wat doe je met een klaring die je van de verkeersleiding ontvangt?",
+   "a": [
+    "Volledig terugmelden (readback)",
+    "Bevestigen met ROGER",
+    "Alleen opvolgen, terugmelden is niet nodig",
+    "Bevestigen met twee klikken op de zendknop"
+   ],
+   "juist": 0,
+   "uitleg": "Klaringen moet je altijd terugmelden zodat ATC fouten kan onderscheppen."
+  },
+  {
+   "v": "Welke van de volgende items moet je altijd volledig terugmelden?",
+   "a": [
+    "Windinformatie",
+    "Verkeersinformatie",
+    "QNH, toegewezen transpondercode, frequentiewissel en baan in gebruik",
+    "De ATIS-informatie"
+   ],
+   "juist": 2,
+   "uitleg": "Onder meer klaringen, QNH, SSR-codes, frequenties en de baan in gebruik moeten worden teruggelezen."
+  },
+  {
+   "v": "Hoe reageer je op verkeersinformatie van de verkeersleiding?",
+   "a": [
+    "Volledig terugmelden",
+    "Met WILCO",
+    "Niet reageren",
+    "Bevestigen, bijvoorbeeld met 'traffic in sight' of 'looking out' en je callsign"
+   ],
+   "juist": 3,
+   "uitleg": "Verkeersinformatie hoef je niet terug te lezen; bevestigen volstaat."
+  },
+  {
+   "v": "Je ontvangt een klaring die je niet helemaal hebt verstaan. Wat doe je?",
+   "a": [
+    "Om verduidelijking of herhaling vragen (say again / confirm)",
+    "Het waarschijnlijkste deel opvolgen",
+    "ROGER zeggen en verder vliegen",
+    "De frequentie verlaten en opnieuw oproepen"
+   ],
+   "juist": 0,
+   "uitleg": "Bij twijfel vraag je altijd om herhaling of bevestiging; nooit gokken."
+  },
+  {
+   "v": "Je krijgt een instructie die je met je zweefvliegtuig niet kunt uitvoeren. Wat meld je?",
+   "a": [
+    "ROGER",
+    "NEGATIVE",
+    "UNABLE, met zo mogelijk de reden",
+    "STANDBY"
+   ],
+   "juist": 2,
+   "uitleg": "Met UNABLE geef je aan dat je de instructie niet kunt uitvoeren."
+  },
+  {
+   "v": "Je leest een klaring verkeerd terug. Hoe corrigeert de verkeersleiding dit?",
+   "a": [
+    "Door de klaring in te trekken",
+    "Met 'NEGATIVE' gevolgd door de juiste versie",
+    "Door een lichtsignaal",
+    "Met 'DISREGARD' en een nieuwe frequentie"
+   ],
+   "juist": 1,
+   "uitleg": "Bij een foute readback zegt ATC 'negative' en herhaalt de juiste klaring."
+  },
+  {
+   "v": "Wat betekent de klaring 'cleared to cross the CTR via route Victor'?",
+   "a": [
+    "Je mag de CTR overal doorkruisen",
+    "Je moet buiten de CTR blijven",
+    "Je mag de CTR in en zelf een route kiezen",
+    "Je mag de CTR alleen via de genoemde route doorkruisen"
+   ],
+   "juist": 3,
+   "uitleg": "De klaring geldt uitsluitend voor de genoemde route."
+  },
+  {
+   "v": "Wat verwacht de verkeersleiding na de instructie 'report field in sight'?",
+   "a": [
+    "Dat je meldt zodra je het veld in zicht hebt",
+    "Dat je direct landt",
+    "Dat je de landingsrichting doorgeeft",
+    "Dat je een rondje boven het veld draait"
+   ],
+   "juist": 0,
+   "uitleg": "Je meldt je zodra je het veld in zicht hebt."
+  },
+  {
+   "v": "Wat betekent de instructie 'orbit left'?",
+   "a": [
+    "Naar links uitwijken en doorvliegen",
+    "Het circuit naar links verlaten",
+    "Een volledige cirkel naar links vliegen (bijvoorbeeld om te wachten)",
+    "Koers naar het westen sturen"
+   ],
+   "juist": 2,
+   "uitleg": "Orbit betekent een volledige cirkel vliegen in de aangegeven richting."
+  },
+  {
+   "v": "Wat betekent 'remain outside controlled airspace'?",
+   "a": [
+    "Wacht in de CTR op nadere instructies",
+    "Blijf buiten het gecontroleerde luchtruim",
+    "Verlaat de frequentie",
+    "Blijf onder de 500 voet"
+   ],
+   "juist": 1,
+   "uitleg": "Je moet buiten het gecontroleerde luchtruim blijven tot je een klaring krijgt."
+  },
+  {
+   "v": "Wat hoort er in de eerste oproep aan een verkeersleidingsstation als je een CTR wilt doorkruisen?",
+   "a": [
+    "Alleen je callsign",
+    "Je callsign en het woord 'inbound'",
+    "Alleen je verzoek",
+    "Callsign, type (zwever), positie, hoogte en je verzoek"
+   ],
+   "juist": 3,
+   "uitleg": "Bij het eerste contact geef je aan wie je bent, waar je bent, hoe hoog en wat je wilt."
+  },
+  {
+   "v": "Je krijgt geen antwoord van de toren terwijl je een CTR-klaring wilt. Wat doe je?",
+   "a": [
+    "Buiten de CTR blijven en het later opnieuw proberen",
+    "Op eigen initiatief de CTR invliegen en blijven roepen",
+    "De CTR invliegen met transpondercode 7600",
+    "Overschakelen op 121.5 en daar de klaring vragen"
+   ],
+   "juist": 0,
+   "uitleg": "Zonder klaring blijf je buiten de CTR."
+  },
+  {
+   "v": "De verkeersleiding geeft je een nieuwe klaring die afwijkt van de eerdere. Wat geldt?",
+   "a": [
+    "De oude klaring blijft geldig tot je landt",
+    "Je mag kiezen welke klaring je volgt",
+    "De nieuwe klaring vervangt de oude; je meldt de nieuwe terug",
+    "Beide klaringen gelden tegelijk"
+   ],
+   "juist": 2,
+   "uitleg": "Een nieuwe klaring vervangt de vorige en moet worden teruggelezen."
+  },
+  {
+   "v": "Je ontvangt 'QNH 1018'. Wat doe je?",
+   "a": [
+    "Alleen noteren",
+    "De QNH terugmelden en de hoogtemeter erop instellen",
+    "Bevestigen met AFFIRM",
+    "Niets, QNH is alleen informatie"
+   ],
+   "juist": 1,
+   "uitleg": "De QNH lees je terug en stel je in op de hoogtemeter."
+  },
+  {
+   "v": "Moet je de instructie 'squawk 7012' terugmelden?",
+   "a": [
+    "Ja, transpondercodes moeten volledig worden teruggelezen",
+    "Nee, instellen volstaat",
+    "Alleen als ATC erom vraagt",
+    "Alleen binnen een TMZ"
+   ],
+   "juist": 0,
+   "uitleg": "Een toegewezen transpondercode hoort bij de verplichte readback-items."
+  },
+  {
+   "v": "Mag je in gecontroleerd luchtruim zomaar de frequentie verlaten?",
+   "a": [
+    "Ja, zodra je bericht klaar is",
+    "Ja, als je de ATIS al hebt",
+    "Alleen bij radiofalen van het grondstation",
+    "Nee, alleen na toestemming of instructie van de verkeersleiding"
+   ],
+   "juist": 3,
+   "uitleg": "In gecontroleerd luchtruim verlaat je de frequentie alleen met toestemming."
+  },
+  {
+   "v": "Wat wordt van je verwacht zolang je in een CTR vliegt?",
+   "a": [
+    "Elke vijf minuten je positie melden",
+    "Continu uitluisteren op de toegewezen frequentie",
+    "De radio alleen aanzetten bij het in- en uitvliegen",
+    "Alleen luisteren als je iets verwacht"
+   ],
+   "juist": 1,
+   "uitleg": "In gecontroleerd luchtruim houd je continu luisterwacht op de toegewezen frequentie."
+  },
+  {
+   "v": "Wat betekent het standaardwoord EXPEDITE?",
+   "a": [
+    "Wacht op nadere instructies",
+    "Verlaat het luchtruim",
+    "Voer de instructie vlot uit",
+    "Herhaal uw bericht sneller"
+   ],
+   "juist": 2,
+   "uitleg": "EXPEDITE betekent: voer de instructie zo vlot mogelijk uit."
+  },
+  {
+   "v": "Wat is Speciaal-VFR (SVFR)?",
+   "a": [
+    "Een klaring om bij slechter weer dan VMC-minima in een CTR te vliegen",
+    "Vliegen zonder radio in een CTR",
+    "Een vrijstelling van de transponderplicht",
+    "Nachtvliegen voor zwevers"
+   ],
+   "juist": 0,
+   "uitleg": "SVFR is een bijzondere klaring om onder VFR in een CTR te vliegen bij slechter weer."
+  },
+  {
+   "v": "Wanneer meld je je bij een verplicht meldpunt (VFR-route door een CTR)?",
+   "a": [
+    "Alleen als er ander verkeer is",
+    "Nooit, meldpunten zijn vrijwillig",
+    "Alleen bij het verlaten van de CTR",
+    "Zoals geinstrueerd door de verkeersleiding, bij het passeren van het punt"
+   ],
+   "juist": 3,
+   "uitleg": "Bij verplichte meldpunten meld je je zoals de verkeersleiding heeft opgedragen."
+  },
+  {
+   "v": "Wat betekent de instructie 'REPORT'?",
+   "a": [
+    "Dien na de vlucht een rapport in",
+    "Geef de gevraagde informatie door",
+    "Meld je op een andere frequentie",
+    "Bevestig met je callsign"
+   ],
+   "juist": 1,
+   "uitleg": "REPORT betekent: geef mij de gevraagde informatie door."
+  },
+  {
+   "v": "Welke talen zijn in Nederland toegestaan voor de radiotelefonie in de luchtvaart?",
+   "a": [
+    "Alleen Engels",
+    "Alleen Nederlands",
+    "Nederlands en Engels",
+    "Elke EU-taal"
+   ],
+   "juist": 2,
+   "uitleg": "In Nederland mag de radiotelefonie in het Nederlands en het Engels."
+  },
+  {
+   "v": "Waarom houd je tijdens het zweefbedrijf luisterwacht op de gebruikte veld- of clubfrequentie?",
+   "a": [
+    "Om oproepen en verkeersinformatie direct te kunnen ontvangen",
+    "Omdat de radio anders uitschakelt",
+    "Alleen om weerberichten te horen",
+    "Dat is alleen nodig bij wedstrijden"
+   ],
+   "juist": 0,
+   "uitleg": "Door uit te luisteren blijf je bereikbaar en op de hoogte van het verkeer om je heen."
+  },
+  {
+   "v": "De verkeersleiding zegt 'PH-1234, standby'. Wat doe je?",
+   "a": [
+    "Je herhaalt je verzoek direct",
+    "Je beschouwt dit als een klaring",
+    "Je verlaat de frequentie",
+    "Je wacht tot je wordt teruggeroepen"
+   ],
+   "juist": 3,
+   "uitleg": "Na STANDBY wacht je; het is geen toestemming en je hoeft niet opnieuw te roepen."
+  },
+  {
+   "v": "Waar staat de afkorting ATIS voor?",
+   "a": [
+    "Air Traffic Information System",
+    "Automatic Terminal Information Service",
+    "Aerodrome Traffic Instruction Service",
+    "Automatic Transmission of Instrument Signals"
+   ],
+   "juist": 1,
+   "uitleg": "ATIS staat voor Automatic Terminal Information Service."
+  },
+  {
+   "v": "Welke informatie bevat een ATIS-uitzending doorgaans?",
+   "a": [
+    "Onder meer de baan in gebruik, het actuele weer en de QNH",
+    "Alleen de openingstijden van het veld",
+    "De posities van al het verkeer in de CTR",
+    "Alleen NOTAM-informatie"
+   ],
+   "juist": 0,
+   "uitleg": "De ATIS geeft onder meer baan in gebruik, weer en QNH."
+  },
+  {
+   "v": "Hoe laat je bij het eerste contact weten dat je de ATIS hebt beluisterd?",
+   "a": [
+    "Dat hoeft niet",
+    "Je meldt 'Information (letter) received'",
+    "Je herhaalt de volledige ATIS",
+    "Je vraagt om bevestiging van de ATIS"
+   ],
+   "juist": 1,
+   "uitleg": "Je meldt de ontvangen informatieletter, bijvoorbeeld 'Information Bravo received'."
+  },
+  {
+   "v": "Hoe herken je dat de ATIS-informatie is vernieuwd?",
+   "a": [
+    "Aan een geluidssignaal",
+    "Aan de gewijzigde frequentie",
+    "De uitzending stopt een minuut",
+    "De informatie krijgt de volgende letter van het alfabet"
+   ],
+   "juist": 3,
+   "uitleg": "Elke nieuwe ATIS-editie krijgt de volgende letter uit het spellingsalfabet."
+  },
+  {
+   "v": "Kun je op een ATIS-uitzending antwoorden?",
+   "a": [
+    "Nee, het is een continue eenrichtingsuitzending (broadcast)",
+    "Ja, na de pieptoon",
+    "Alleen met een mode S-transponder",
+    "Ja, maar alleen in het Engels"
+   ],
+   "juist": 0,
+   "uitleg": "ATIS is een broadcast; er luistert niemand op die frequentie naar jou."
+  },
+  {
+   "v": "Wat geldt voor de frequenties die zweefvliegers in Nederland onderling en op het veld gebruiken?",
+   "a": [
+    "Elke vrije frequentie mag worden gebruikt",
+    "De noodfrequentie mag hiervoor worden gebruikt",
+    "Er zijn specifieke frequenties voor het zweefvliegen aangewezen; alleen die mag je gebruiken",
+    "Frequentiekeuze is vrij onder de 1500 voet"
+   ],
+   "juist": 2,
+   "uitleg": "Zweefvliegers gebruiken uitsluitend de daarvoor aangewezen frequenties."
+  },
+  {
+   "v": "Hoe gedraag je je qua radio in het circuit van een onverkeersleid (zweef)veld?",
+   "a": [
+    "Je zwijgt om de frequentie vrij te houden",
+    "Je meldt je posities en intenties, zodat ander verkeer weet waar je bent",
+    "Je roept alleen de havenmeester op",
+    "Je zendt continu je GPS-positie uit"
+   ],
+   "juist": 1,
+   "uitleg": "Op onverkeersleide velden informeer je elkaar met positie- en intentiemeldingen."
+  },
+  {
+   "v": "Wat wordt aanbevolen ten aanzien van de noodfrequentie 121.5 tijdens de vlucht?",
+   "a": [
+    "Er elke tien minuten een testoproep doen",
+    "Deze frequentie nooit selecteren",
+    "Er alleen op luisteren boven de 5000 voet",
+    "Er een luisterwacht op houden als je radio dat toelaat en het je taak niet stoort"
+   ],
+   "juist": 3,
+   "uitleg": "Waar mogelijk wordt aanbevolen 121.5 uit te luisteren."
+  },
+  {
+   "v": "Wat is de kern van goede radiodiscipline?",
+   "a": [
+    "Kort, duidelijk en volgens de standaardfraseologie zenden",
+    "Zo veel mogelijk informatie in een keer zenden",
+    "Snel spreken zodat de frequentie vrij blijft",
+    "Alle berichten tweemaal zenden"
+   ],
+   "juist": 0,
+   "uitleg": "Goede radiodiscipline is kort, duidelijk en standaard."
+  },
+  {
+   "v": "Welke uitzendingen zijn op luchtvaartfrequenties verboden?",
+   "a": [
+    "Positiemeldingen van zwevers",
+    "Testuitzendingen",
+    "Niet-luchtvaartgebonden berichten zoals privegesprekken en muziek",
+    "Berichten in het Nederlands"
+   ],
+   "juist": 2,
+   "uitleg": "Luchtvaartfrequenties zijn uitsluitend voor luchtvaartgebonden berichten."
+  },
+  {
+   "v": "Wat heb je nodig om als piloot de luchtvaartradio te mogen bedienen?",
+   "a": [
+    "Niets, iedereen mag zenden",
+    "Een geldige bevoegdheid voor radiotelefonie",
+    "Alleen toestemming van de club",
+    "Een medische verklaring klasse 1"
+   ],
+   "juist": 1,
+   "uitleg": "Voor het bedienen van een luchtvaartradiostation is een radiotelefoniebevoegdheid vereist."
+  },
+  {
+   "v": "Wat is het minimale ICAO-taalvaardigheidsniveau om de radiotelefonie te mogen gebruiken?",
+   "a": [
+    "Niveau 2",
+    "Niveau 3",
+    "Niveau 6",
+    "Niveau 4"
+   ],
+   "juist": 3,
+   "uitleg": "Voor de radiotelefonie is ten minste ICAO-taalvaardigheidsniveau 4 vereist."
+  },
+  {
+   "v": "Wat geldt voor ICAO-taalvaardigheidsniveau 6?",
+   "a": [
+    "Het moet elke vier jaar verlengd worden",
+    "Het is onbeperkt geldig; herbeoordeling is niet nodig",
+    "Het geldt alleen voor het Engels",
+    "Het is alleen voor verkeersleiders"
+   ],
+   "juist": 1,
+   "uitleg": "Niveau 6 (expert) blijft onbeperkt geldig."
+  },
+  {
+   "v": "Wat geldt voor het uitzenden van een vals noodsein?",
+   "a": [
+    "Het is verboden en strafbaar",
+    "Het mag als oefening, mits kort",
+    "Het mag buiten de openingstijden van ATC",
+    "Het is toegestaan op de clubfrequentie"
+   ],
+   "juist": 0,
+   "uitleg": "Een vals noodsein uitzenden is streng verboden en strafbaar."
+  },
+  {
+   "v": "Wat doe je voordat je de zendknop indrukt?",
+   "a": [
+    "De squelch dichtdraaien",
+    "Het volume laag zetten",
+    "Uitluisteren of de frequentie vrij is, zodat je geen andere uitwisseling stoort",
+    "De frequentie kort verlaten"
+   ],
+   "juist": 2,
+   "uitleg": "Eerst uitluisteren voorkomt dat je door een lopende uitwisseling heen zendt."
+  },
+  {
+   "v": "Je twijfelt over de inhoud van een ontvangen instructie. Wat is de juiste houding?",
+   "a": [
+    "Uitvoeren wat het meest logisch lijkt",
+    "Wachten of de instructie herhaald wordt",
+    "Aan een ander vliegtuig vragen wat er gezegd is",
+    "Altijd om herhaling of bevestiging vragen, nooit aannemen"
+   ],
+   "juist": 3,
+   "uitleg": "Bij twijfel vraag je om herhaling; gokken is gevaarlijk."
+  },
+  {
+   "v": "Wat doe je voordat je een bericht uitzendt?",
+   "a": [
+    "De radio op maximaal vermogen zetten",
+    "Bedenken wat je gaat zeggen, zodat het bericht kort en volledig is",
+    "Diep ademhalen en beginnen",
+    "Eerst je positie noteren"
+   ],
+   "juist": 1,
+   "uitleg": "Denk voor je zendt: een voorbereid bericht is korter en duidelijker."
+  },
+  {
+   "v": "Welke prioriteit heeft communicatie ten opzichte van het besturen van het vliegtuig?",
+   "a": [
+    "Eerst vliegen, dan navigeren, dan pas communiceren",
+    "Radio-oproepen gaan altijd voor",
+    "Communicatie en vliegen zijn gelijkwaardig",
+    "Eerst communiceren, dan navigeren, dan vliegen"
+   ],
+   "juist": 0,
+   "uitleg": "Aviate, navigate, communicate: het vliegen gaat altijd voor."
+  },
+  {
+   "v": "Waarom laat je de zendknop direct los zodra je bericht klaar is?",
+   "a": [
+    "Om de accu te sparen",
+    "Om de squelch te resetten",
+    "Anders blokkeer je de frequentie voor andere stations",
+    "Om ruis in je eigen headset te voorkomen"
+   ],
+   "juist": 2,
+   "uitleg": "Zolang de zendknop ingedrukt is, kan niemand anders de frequentie gebruiken."
+  },
+  {
+   "v": "Mag je met een clubgenoot bijpraten op een willekeurige vrije luchtvaartfrequentie?",
+   "a": [
+    "Ja, als de frequentie niet in gebruik is",
+    "Ja, buiten gecontroleerd luchtruim",
+    "Ja, mits korter dan een minuut",
+    "Nee, je gebruikt alleen toegewezen frequenties en alleen voor luchtvaartgebonden berichten"
+   ],
+   "juist": 3,
+   "uitleg": "Je mag alleen op toegewezen frequenties en alleen operationeel noodzakelijke berichten zenden."
+  },
+  {
+   "v": "Welke Nederlandse instantie houdt toezicht op het gebruik van (luchtvaart)frequenties en radiovergunningen?",
+   "a": [
+    "De Rijksinspectie Digitale Infrastructuur (voorheen Agentschap Telecom)",
+    "De KNVvL",
+    "Het KNMI",
+    "De Luchtverkeersleiding Nederland"
+   ],
+   "juist": 0,
+   "uitleg": "De RDI (voorheen Agentschap Telecom) beheert frequenties en vergunningen."
+  },
+  {
+   "v": "Wat geldt voor de radioinstallatie (het radiostation) in een vliegtuig?",
+   "a": [
+    "Die mag iedereen vrij inbouwen en gebruiken",
+    "Daarvoor is een vergunning of registratie vereist",
+    "Die hoeft alleen bij verkoop gekeurd te worden",
+    "Die valt onder de omroepwetgeving"
+   ],
+   "juist": 1,
+   "uitleg": "Voor een luchtvaartradiostation is een vergunning of registratie vereist."
+  },
+  {
+   "v": "Waarom luister je de ATIS af voordat je de verkeersleiding oproept?",
+   "a": [
+    "Dat is sneller voor jezelf",
+    "Omdat je anders geen klaring krijgt",
+    "Zo hoeft ATC de basisinformatie niet te herhalen en blijft de frequentie beschikbaar",
+    "Omdat de ATIS je positie registreert"
+   ],
+   "juist": 2,
+   "uitleg": "Met de ATIS-informatie op zak hoeft ATC minder door te geven en blijft de frequentie vrij."
+  },
+  {
+   "v": "Wat is VOLMET?",
+   "a": [
+    "Een noodpeilsysteem",
+    "Een radio-uitzending met weersinformatie voor de luchtvaart",
+    "Een transpondermode",
+    "De militaire noodfrequentie"
+   ],
+   "juist": 1,
+   "uitleg": "VOLMET is een doorlopende uitzending van luchtvaartweersinformatie."
+  },
+  {
+   "v": "Is radiocontact met de vluchtinformatiedienst verplicht voor een VFR-vlucht buiten gecontroleerd luchtruim?",
+   "a": [
+    "Ja, altijd",
+    "Ja, boven de 1000 voet",
+    "Alleen in het weekend",
+    "Nee, het is niet verplicht maar kan wel nuttig zijn (buiten RMZ's)"
+   ],
+   "juist": 3,
+   "uitleg": "Buiten gecontroleerd luchtruim en buiten RMZ's is radiocontact niet verplicht."
+  },
+  {
+   "v": "Je hoort een MAYDAY-oproep en geen enkel station antwoordt. Wat doe je?",
+   "a": [
+    "Niets, dat is de taak van ATC",
+    "Van frequentie wisselen",
+    "De ontvangst bevestigen en het noodbericht doorgeven aan een hulpverlenende instantie",
+    "De piloot vragen om PAN PAN te gebruiken"
+   ],
+   "juist": 2,
+   "uitleg": "Antwoordt niemand, dan bevestig je zelf de ontvangst en geef je het bericht door (MAYDAY RELAY)."
+  },
+  {
+   "v": "Je bent tijdens een overlandvlucht verdwaald in de buurt van gecontroleerd luchtruim. Wat is verstandig?",
+   "a": [
+    "Contact opnemen met de vluchtinformatiedienst of verkeersleiding en zo nodig PAN PAN gebruiken",
+    "Radiostilte bewaren om niemand te storen",
+    "Direct MAYDAY uitzenden",
+    "Laag gaan vliegen om plaatsnamen te lezen"
+   ],
+   "juist": 0,
+   "uitleg": "Vraag hulp via FIS of ATC; zonder direct gevaar past het spoedsein PAN PAN."
+  },
+  {
+   "v": "Je radio valt uit nadat je een klaring hebt gekregen om een CTR te doorkruisen. Wat doe je?",
+   "a": [
+    "Direct de CTR verlaten in willekeurige richting",
+    "Code 7600 instellen, de laatst ontvangen klaring volgen en op lichtsignalen letten",
+    "Landen op het dichtstbijzijnde gecontroleerde veld",
+    "Code 7700 instellen en dalen"
+   ],
+   "juist": 1,
+   "uitleg": "Bij radiofalen zet je 7600, volg je je klaring en let je op lichtsignalen."
+  },
+  {
+   "v": "Hoe spreek je het callsign PH-975 volledig uit in het Engels?",
+   "a": [
+    "Papa Hotel nine seven five",
+    "Papa Hotel niner seventy-five",
+    "Peter Henry niner seven fife",
+    "Papa Hotel niner seven fife"
+   ],
+   "juist": 3,
+   "uitleg": "Letters volgens het spellingsalfabet en cijfers als niner, seven en fife."
+  },
+  {
+   "v": "Wat is een correcte eerste oproep aan het grondstation van je zweefveld?",
+   "a": [
+    "'Terlet Radio, PH-1234, ...' : eerst het station, dan je eigen callsign",
+    "'PH-1234 voor Terlet Radio'",
+    "'Hallo Terlet, hier de tweezitter'",
+    "'Terlet Radio, kom er in'"
+   ],
+   "juist": 0,
+   "uitleg": "De juiste volgorde is: opgeroepen station eerst, daarna je eigen callsign."
+  },
+  {
+   "v": "Wat bedoelt een grondstation met 'station calling, say again your callsign'?",
+   "a": [
+    "Het station wil dat je van frequentie wisselt",
+    "Je oproep was volledig onleesbaar",
+    "Het station heeft een oproep gehoord maar het callsign niet verstaan",
+    "Het station roept alle vliegtuigen tegelijk op"
+   ],
+   "juist": 2,
+   "uitleg": "Het station hoorde de oproep maar miste het callsign en vraagt om herhaling."
+  },
+  {
+   "v": "Op welke frequentie stemmen twee zweefvliegtuigen af die elkaar onderweg willen informeren?",
+   "a": [
+    "De noodfrequentie 121.5",
+    "Een daarvoor aangewezen zweefvlieg- of onderlinge frequentie",
+    "De ATIS-frequentie",
+    "De frequentie van de dichtstbijzijnde CTR"
+   ],
+   "juist": 1,
+   "uitleg": "Onderling verkeer hoort op de daarvoor aangewezen (zweefvlieg)frequenties."
+  },
+  {
+   "v": "Wat betekent leesbaarheid 2 in de leesbaarheidsschaal?",
+   "a": [
+    "Perfect leesbaar",
+    "Leesbaar maar met moeite",
+    "Onleesbaar",
+    "Nu en dan leesbaar"
+   ],
+   "juist": 3,
+   "uitleg": "Leesbaarheid 2 betekent nu en dan leesbaar."
+  },
+  {
+   "v": "Een deel van een ontvangen bericht is weggevallen. Hoe vraag je om het ontbrekende deel?",
+   "a": [
+    "Met 'say again' (eventueel 'say again all after ...')",
+    "Met 'confirm message'",
+    "Met 'read back'",
+    "Met 'words twice'"
+   ],
+   "juist": 0,
+   "uitleg": "Met 'say again', zo nodig aangevuld met 'all after' of 'all before', vraag je gericht om herhaling."
+  },
+  {
+   "v": "Je ontvangt: 'cleared to enter the CTR, QNH 1018, squawk 7031'. Wat lees je terug?",
+   "a": [
+    "Alleen je callsign",
+    "Alleen de squawkcode",
+    "De volledige klaring: het binnenvliegen, de QNH en de squawkcode",
+    "ROGER volstaat"
+   ],
+   "juist": 2,
+   "uitleg": "Klaring, QNH en transpondercode zijn allemaal verplichte readback-items."
+  },
+  {
+   "v": "Wat is een 'blind transmission' (blinde uitzending)?",
+   "a": [
+    "Een uitzending zonder callsign",
+    "Een uitzending zonder zekerheid dat het andere station je ontvangt, omdat tweezijdig contact niet lukt",
+    "Een uitzending in het donker",
+    "Een testuitzending zonder inhoud"
+   ],
+   "juist": 1,
+   "uitleg": "Een blinde uitzending doe je als je het andere station niet hoort maar mogelijk wel gehoord wordt."
+  },
+  {
+   "v": "Welke standaardfrase heeft de oude uitdrukking 'go ahead' vervangen?",
+   "a": [
+    "'Continue'",
+    "'Proceed'",
+    "'Ready to copy'",
+    "'Pass your message'"
+   ],
+   "juist": 3,
+   "uitleg": "ICAO gebruikt 'pass your message' in plaats van 'go ahead'."
+  },
+  {
+   "v": "Wat is het verschil tussen QNH en QFE in het radioverkeer?",
+   "a": [
+    "Met QNH wijst de hoogtemeter de hoogte boven zeeniveau aan, met QFE de hoogte boven het veld",
+    "QNH is voor IFR, QFE voor VFR",
+    "QNH geldt alleen boven de transitiehoogte",
+    "Er is geen verschil"
+   ],
+   "juist": 0,
+   "uitleg": "QNH geeft hoogte boven gemiddeld zeeniveau, QFE hoogte boven het vliegveld."
+  },
+  {
+   "v": "Met welke frase vraag je een peilstation om de magnetische koers naar het station?",
+   "a": [
+    "Request QTE",
+    "Request bearing from station",
+    "Request QDM",
+    "Request QDR"
+   ],
+   "juist": 2,
+   "uitleg": "Met 'request QDM' vraag je de magnetische koers naar het station."
+  },
+  {
+   "v": "Wie heeft de leiding over het radioverkeer tijdens een noodsituatie?",
+   "a": [
+    "Het vliegtuig met het hoogste callsign",
+    "Het station dat het noodverkeer behandelt (of het luchtvaartuig in nood zelf)",
+    "Altijd Amsterdam Information",
+    "Het station met het sterkste signaal"
+   ],
+   "juist": 1,
+   "uitleg": "Het station dat het noodverkeer behandelt, dan wel het luchtvaartuig in nood, leidt het verkeer."
+  },
+  {
+   "v": "Hoe spreek je in een 8.33 kHz-omgeving het kanaal 122.205 uit?",
+   "a": [
+    "One two two decimal two zero five",
+    "One two two decimal two",
+    "One twenty-two decimal two oh five",
+    "One two two point twenty and a half"
+   ],
+   "juist": 0,
+   "uitleg": "Alle zes cijfers worden uitgesproken: one two two decimal two zero five."
+  },
+  {
+   "v": "De ATIS meldt 'Information Hotel'. Wat betekent dit?",
+   "a": [
+    "Het weer is verslechterd",
+    "Er is een hotel op het veld",
+    "De informatie geldt alleen voor helikopters",
+    "Dit is de editie met de letter H van de doorlopende informatie-uitzending"
+   ],
+   "juist": 3,
+   "uitleg": "Elke ATIS-editie krijgt een letter; Hotel is de letter H."
+  },
+  {
+   "v": "Hoe meld je je in het Engels bij een verkeersleidingsstation als zweefvliegtuig?",
+   "a": [
+    "'Sailplane' voor het callsign is verplicht",
+    "Met 'glider' voor je callsign, bijvoorbeeld 'glider PH-1234'",
+    "Alleen met je registratie, het type mag je niet noemen",
+    "Met 'no engine PH-1234'"
+   ],
+   "juist": 1,
+   "uitleg": "In het Engels gebruik je het voorvoegsel 'glider' voor je callsign."
+  },
+  {
+   "v": "Wat bepaalt de keuze tussen MAYDAY en PAN PAN?",
+   "a": [
+    "De beschikbare frequentie",
+    "De vlieghoogte",
+    "De ernst en onmiddellijkheid van het gevaar en of directe hulp nodig is",
+    "Of je binnen of buiten gecontroleerd luchtruim vliegt"
+   ],
+   "juist": 2,
+   "uitleg": "MAYDAY bij ernstig en onmiddellijk gevaar met directe hulpbehoefte, anders PAN PAN."
+  },
+  {
+   "v": "Wat is het doel van het terugmelden (readback) van klaringen?",
+   "a": [
+    "Fouten in het overbrengen of verstaan direct ontdekken en corrigeren",
+    "De vluchtduur registreren",
+    "Aantonen dat je Engels spreekt",
+    "De frequentie bezet houden"
+   ],
+   "juist": 0,
+   "uitleg": "De readback laat ATC controleren of de klaring goed is overgekomen."
+  },
+  {
+   "v": "Waar staat de afkorting TMZ voor?",
+   "a": [
+    "Terminal Zone",
+    "Traffic Management Zone",
+    "Temporary Military Zone",
+    "Transponder Mandatory Zone"
+   ],
+   "juist": 3,
+   "uitleg": "TMZ betekent Transponder Mandatory Zone: transponder verplicht."
+  },
+  {
+   "v": "Wat is een RMZ?",
+   "a": [
+    "Een zone waar radio verboden is",
+    "Een radio mandatory zone: een zone waar tweezijdige radioverbinding en melden verplicht zijn",
+    "Een militaire oefenzone",
+    "Een zone met verplichte transponder"
+   ],
+   "juist": 1,
+   "uitleg": "In een RMZ zijn een werkende radio, uitluisteren en de voorgeschreven meldingen verplicht."
+  },
+  {
+   "v": "Wat doe je voordat je een RMZ binnenvliegt?",
+   "a": [
+    "Een klaring afwachten",
+    "De transponder op 7600 zetten",
+    "Je melden op de aangewezen frequentie met callsign, positie en intenties en blijven uitluisteren",
+    "Niets, invliegen mag altijd zonder melding"
+   ],
+   "juist": 2,
+   "uitleg": "Voor een RMZ meld je je op de frequentie met je gegevens en intenties en blijf je uitluisteren."
+  },
+  {
+   "v": "Je wordt onderschept door een militair vliegtuig. Op welke frequentie probeer je contact te krijgen?",
+   "a": [
+    "Op de noodfrequentie 121.500 MHz",
+    "Op de clubfrequentie",
+    "Op de ATIS-frequentie",
+    "Op 123.450 MHz"
+   ],
+   "juist": 0,
+   "uitleg": "Bij een onderschepping probeer je contact op 121.500 MHz."
+  },
+  {
+   "v": "Wat geldt in Nederland voor de kanaalafstand van luchtvaartradio's?",
+   "a": [
+    "25 kHz volstaat overal",
+    "8.33 kHz-radio's zijn alleen voor motorvliegtuigen",
+    "12.5 kHz is de standaard",
+    "De radio moet geschikt zijn voor het 8.33 kHz-kanaalraster"
+   ],
+   "juist": 3,
+   "uitleg": "In Europa, dus ook in Nederland, moeten luchtvaartradio's 8.33 kHz-kanalen ondersteunen."
+  }
+ ]
+}

@@ -1,0 +1,2755 @@
+{
+ "vak": "Menselijke prestaties en beperkingen",
+ "vragen": [
+  {
+   "v": "Wat is het percentage zuurstof in de atmosfeer op zeeniveau?",
+   "a": [
+    "Ongeveer 21%",
+    "Ongeveer 78%",
+    "Ongeveer 50%",
+    "Ongeveer 1%"
+   ],
+   "juist": 0,
+   "uitleg": "De atmosfeer bevat ongeveer 21% zuurstof; het grootste deel is stikstof."
+  },
+  {
+   "v": "Welk gas vormt het grootste aandeel van de atmosfeer?",
+   "a": [
+    "Zuurstof",
+    "Stikstof",
+    "Kooldioxide",
+    "Argon"
+   ],
+   "juist": 1,
+   "uitleg": "Stikstof vormt ongeveer 78% van de atmosfeer."
+  },
+  {
+   "v": "Wat gebeurt er met de samenstelling van de lucht bij toenemende hoogte?",
+   "a": [
+    "Het zuurstofpercentage neemt sterk af",
+    "Het stikstofpercentage neemt toe",
+    "De verhouding blijft gelijk, maar de partiële druk daalt",
+    "Er komt steeds meer kooldioxide bij"
+   ],
+   "juist": 2,
+   "uitleg": "De percentages blijven tot grote hoogte gelijk; alleen de totale druk en dus de partiële zuurstofdruk dalen."
+  },
+  {
+   "v": "Wat is de belangrijkste functie van hemoglobine in het bloed?",
+   "a": [
+    "Afweer tegen infecties",
+    "Bloedstolling",
+    "Transport van voedingsstoffen",
+    "Transport van zuurstof"
+   ],
+   "juist": 3,
+   "uitleg": "Hemoglobine in de rode bloedcellen bindt zuurstof en vervoert die naar de weefsels."
+  },
+  {
+   "v": "Waar vindt de gasuitwisseling tussen lucht en bloed plaats?",
+   "a": [
+    "In de longblaasjes (alveoli)",
+    "In de luchtpijp",
+    "In de bronchiën",
+    "In het strottenhoofd"
+   ],
+   "juist": 0,
+   "uitleg": "In de longblaasjes diffunderen zuurstof en kooldioxide door de dunne wand tussen lucht en bloed."
+  },
+  {
+   "v": "Wat is voor het ademcentrum normaal gesproken de belangrijkste prikkel om de ademhaling te regelen?",
+   "a": [
+    "Het zuurstofgehalte in het bloed",
+    "Het kooldioxidegehalte in het bloed",
+    "De bloeddruk",
+    "De lichaamstemperatuur"
+   ],
+   "juist": 1,
+   "uitleg": "Het ademcentrum reageert vooral op het CO2-gehalte in het bloed, niet primair op zuurstof."
+  },
+  {
+   "v": "Welke taak heeft de kleine bloedsomloop?",
+   "a": [
+    "Bloed naar de spieren voeren",
+    "Bloed naar de hersenen voeren",
+    "Bloed door de longen voeren om zuurstof op te nemen en kooldioxide af te geven",
+    "Bloed door de nieren voeren"
+   ],
+   "juist": 2,
+   "uitleg": "De kleine bloedsomloop loopt van het hart via de longen terug naar het hart."
+  },
+  {
+   "v": "Wat is een normale hartslag in rust voor een gezonde volwassene?",
+   "a": [
+    "120 tot 140 slagen per minuut",
+    "30 tot 40 slagen per minuut",
+    "100 tot 120 slagen per minuut",
+    "60 tot 80 slagen per minuut"
+   ],
+   "juist": 3,
+   "uitleg": "In rust klopt een gezond volwassen hart ongeveer 60 tot 80 keer per minuut."
+  },
+  {
+   "v": "Welke functie hebben de bloedplaatjes?",
+   "a": [
+    "Ze zorgen voor de bloedstolling",
+    "Ze vervoeren zuurstof",
+    "Ze bestrijden infecties",
+    "Ze vervoeren hormonen"
+   ],
+   "juist": 0,
+   "uitleg": "Bloedplaatjes (trombocyten) starten de stolling en dichten beschadigde vaten."
+  },
+  {
+   "v": "Via welke vaten stroomt zuurstofrijk bloed van de longen naar het hart?",
+   "a": [
+    "De longslagaders",
+    "De longaders",
+    "De holle aders",
+    "De kransslagaders"
+   ],
+   "juist": 1,
+   "uitleg": "De longaders voeren zuurstofrijk bloed van de longen naar de linkerharthelft."
+  },
+  {
+   "v": "Waarom is koolmonoxide (CO) zo gevaarlijk voor een vlieger?",
+   "a": [
+    "Het prikkelt de luchtwegen sterk zodat je gaat hoesten",
+    "Het is goed te ruiken en leidt daardoor af",
+    "Het is reuk- en kleurloos en bindt veel sterker aan hemoglobine dan zuurstof",
+    "Het verlaagt de lichaamstemperatuur"
+   ],
+   "juist": 2,
+   "uitleg": "CO is onmerkbaar en bezet het hemoglobine ongeveer 200 tot 300 keer sterker dan zuurstof."
+  },
+  {
+   "v": "Onder welke vorm van hypoxie valt een koolmonoxidevergiftiging?",
+   "a": [
+    "Hypoxische hypoxie",
+    "Stagnerende hypoxie",
+    "Histotoxische hypoxie",
+    "Anemische (hypemische) hypoxie"
+   ],
+   "juist": 3,
+   "uitleg": "Bij CO-vergiftiging kan het bloed te weinig zuurstof vervoeren: een anemische vorm van hypoxie."
+  },
+  {
+   "v": "Hoe verplaatst zuurstof zich in de longen van de lucht naar het bloed?",
+   "a": [
+    "Door diffusie van hoge naar lage partiële druk",
+    "Door actief pompen van de longblaasjes",
+    "Door osmose van water",
+    "Door samentrekken van de luchtwegen"
+   ],
+   "juist": 0,
+   "uitleg": "Zuurstof diffundeert passief van de hogere partiële druk in de longblaasjes naar de lagere in het bloed."
+  },
+  {
+   "v": "Welke functie hebben de witte bloedcellen?",
+   "a": [
+    "Zuurstoftransport",
+    "Afweer tegen ziekteverwekkers",
+    "Bloedstolling",
+    "Warmtetransport"
+   ],
+   "juist": 1,
+   "uitleg": "Witte bloedcellen vormen het afweersysteem tegen infecties."
+  },
+  {
+   "v": "Wat is een normale bloeddruk in rust voor een gezonde volwassene?",
+   "a": [
+    "180/110 mmHg",
+    "90/40 mmHg",
+    "Ongeveer 120/80 mmHg",
+    "160/100 mmHg"
+   ],
+   "juist": 2,
+   "uitleg": "Een gezonde rustbloeddruk ligt rond de 120/80 mmHg."
+  },
+  {
+   "v": "Wat gebeurt er met het middenrif tijdens de inademing?",
+   "a": [
+    "Het ontspant en beweegt omhoog",
+    "Het beweegt niet",
+    "Het trilt snel op en neer",
+    "Het spant aan en beweegt omlaag"
+   ],
+   "juist": 3,
+   "uitleg": "Bij inademing spant het middenrif aan en zakt het, waardoor de borstholte groter wordt en lucht instroomt."
+  },
+  {
+   "v": "Hoeveel lucht ademt een volwassene in rust ongeveer per ademteug in?",
+   "a": [
+    "Ongeveer 0,5 liter",
+    "Ongeveer 5 liter",
+    "Ongeveer 3 liter",
+    "Ongeveer 0,05 liter"
+   ],
+   "juist": 0,
+   "uitleg": "Het normale ademvolume in rust is ongeveer een halve liter per teug."
+  },
+  {
+   "v": "Wat gebeurt er in het lichaam bij hyperventilatie?",
+   "a": [
+    "Er wordt te veel zuurstof opgenomen waardoor een vergiftiging ontstaat",
+    "Er wordt te veel kooldioxide afgeblazen waardoor het bloed te basisch wordt",
+    "Er wordt te weinig zuurstof opgenomen",
+    "De bloeddruk stijgt sterk en blijvend"
+   ],
+   "juist": 1,
+   "uitleg": "Door te snel of te diep ademen daalt het CO2-gehalte en verschuift de zuurgraad van het bloed."
+  },
+  {
+   "v": "Welke verschijnselen passen bij hyperventilatie?",
+   "a": [
+    "Blauwe lippen en euforie",
+    "Koorts en dorst",
+    "Tintelingen in vingers en lippen, duizeligheid en spierkrampen",
+    "Pijn in de bijholten"
+   ],
+   "juist": 2,
+   "uitleg": "Het lage CO2-gehalte veroorzaakt tintelingen, duizeligheid en in ernstige gevallen krampen."
+  },
+  {
+   "v": "Wat is de juiste eerste maatregel tegen hyperventilatie?",
+   "a": [
+    "Sneller gaan ademen",
+    "Direct veel water drinken",
+    "Extra zuurstof bijzetten",
+    "Bewust rustig en minder diep ademen"
+   ],
+   "juist": 3,
+   "uitleg": "Door bewust rustig te ademen herstelt het CO2-gehalte en verdwijnen de klachten."
+  },
+  {
+   "v": "Een vlieger op grote hoogte twijfelt of hij hypoxie of hyperventilatie heeft. Wat is de veiligste handelwijze?",
+   "a": [
+    "Zuurstof gebruiken, bewust rustig ademen en dalen",
+    "Doorvliegen tot de symptomen vanzelf verdwijnen",
+    "Sneller ademen om meer zuurstof binnen te krijgen",
+    "Alleen iets eten en drinken"
+   ],
+   "juist": 0,
+   "uitleg": "De symptomen lijken op elkaar; zuurstof, rustig ademen en dalen helpt in beide gevallen."
+  },
+  {
+   "v": "Hoe hoog is de zuurstofverzadiging van het bloed van een gezond persoon op zeeniveau ongeveer?",
+   "a": [
+    "75%",
+    "97 tot 98%",
+    "85%",
+    "Precies 100%"
+   ],
+   "juist": 1,
+   "uitleg": "Op zeeniveau is het hemoglobine voor ongeveer 97 tot 98% met zuurstof verzadigd."
+  },
+  {
+   "v": "Welk orgaan is het gevoeligst voor zuurstoftekort?",
+   "a": [
+    "De lever",
+    "De huid",
+    "De hersenen",
+    "De spieren"
+   ],
+   "juist": 2,
+   "uitleg": "De hersenen kunnen slechts enkele minuten zonder zuurstof en worden als eerste aangetast."
+  },
+  {
+   "v": "Welk effect heeft roken op de zuurstofvoorziening van een vlieger?",
+   "a": [
+    "Geen enkel effect",
+    "Het verbetert de opname van zuurstof",
+    "Het verlaagt alleen de conditie van de spieren",
+    "Door koolmonoxide in het bloed vliegt een roker fysiologisch al op enkele duizenden voet hoogte"
+   ],
+   "juist": 3,
+   "uitleg": "CO uit rook bezet een deel van het hemoglobine, waardoor een roker eerder last van hypoxie krijgt."
+  },
+  {
+   "v": "Wat is het verschil tussen slagaders en aders?",
+   "a": [
+    "Slagaders voeren bloed van het hart af, aders voeren bloed naar het hart toe",
+    "Slagaders bevatten altijd zuurstofarm bloed",
+    "Aders hebben een dikkere spierwand dan slagaders",
+    "Er is geen verschil"
+   ],
+   "juist": 0,
+   "uitleg": "De richting van de stroom bepaalt de naam: slagaders van het hart af, aders ernaartoe."
+  },
+  {
+   "v": "Wat is hypoxie?",
+   "a": [
+    "Een teveel aan zuurstof in het bloed",
+    "Een tekort aan zuurstof in de weefsels",
+    "Een teveel aan kooldioxide in het bloed",
+    "Een tekort aan bloedsuiker"
+   ],
+   "juist": 1,
+   "uitleg": "Hypoxie is een zuurstoftekort in de weefsels van het lichaam."
+  },
+  {
+   "v": "Welke vier vormen van hypoxie worden onderscheiden?",
+   "a": [
+    "Acute, chronische, milde en ernstige",
+    "Centrale, perifere, hoge en lage",
+    "Hypoxische, anemische, stagnerende en histotoxische",
+    "Nachtelijke, thermische, mechanische en chemische"
+   ],
+   "juist": 2,
+   "uitleg": "De indeling volgt de oorzaak: aanbod, transport, doorbloeding of gebruik van zuurstof."
+  },
+  {
+   "v": "Wat veroorzaakt hypoxische hypoxie op grote hoogte?",
+   "a": [
+    "Een tekort aan rode bloedcellen",
+    "Een vergiftiging van de cellen",
+    "Een slechte doorbloeding",
+    "De lage partiële zuurstofdruk in de ingeademde lucht"
+   ],
+   "juist": 3,
+   "uitleg": "Op hoogte is de partiële zuurstofdruk te laag om het bloed voldoende te verzadigen."
+  },
+  {
+   "v": "Bij welke vorm van hypoxie kunnen de cellen de aangevoerde zuurstof niet goed gebruiken, bijvoorbeeld door alcohol?",
+   "a": [
+    "Histotoxische hypoxie",
+    "Anemische hypoxie",
+    "Hypoxische hypoxie",
+    "Stagnerende hypoxie"
+   ],
+   "juist": 0,
+   "uitleg": "Bij histotoxische hypoxie blokkeert een stof zoals alcohol het zuurstofgebruik in de cellen zelf."
+  },
+  {
+   "v": "Welke vorm van hypoxie treedt op wanneer de doorbloeding stokt, bijvoorbeeld onder hoge G-belasting?",
+   "a": [
+    "Anemische hypoxie",
+    "Stagnerende hypoxie",
+    "Histotoxische hypoxie",
+    "Hypoxische hypoxie"
+   ],
+   "juist": 1,
+   "uitleg": "Bij stagnerende hypoxie stroomt het bloed onvoldoende, zoals bij G-krachten of shock."
+  },
+  {
+   "v": "Welke verschijnselen passen bij beginnende hypoxie?",
+   "a": [
+    "Scherpe pijn op de borst",
+    "Koorts en rillingen",
+    "Euforie, verminderd oordeelsvermogen en blauwe lippen",
+    "Jeuk over het hele lichaam"
+   ],
+   "juist": 2,
+   "uitleg": "Hypoxie begint vaak met euforie en een verminderd oordeel, later cyanose en bewusteloosheid."
+  },
+  {
+   "v": "Waarom is hypoxie zo verraderlijk?",
+   "a": [
+    "De symptomen zijn altijd pijnlijk",
+    "Het treedt alleen bij nacht op",
+    "Het is alleen gevaarlijk boven 10 kilometer",
+    "Het ontstaat sluipend en gaat vaak gepaard met zelfoverschatting"
+   ],
+   "juist": 3,
+   "uitleg": "De vlieger merkt de achteruitgang zelf vaak niet en voelt zich juist prima."
+  },
+  {
+   "v": "Vanaf welke hoogte gaat het nachtzicht al merkbaar achteruit door zuurstofgebrek?",
+   "a": [
+    "Vanaf ongeveer 1500 meter (5000 ft)",
+    "Pas boven 6000 meter",
+    "Pas boven 8000 meter",
+    "Nachtzicht wordt niet door hoogte beïnvloed"
+   ],
+   "juist": 0,
+   "uitleg": "De staafjes zijn erg gevoelig voor zuurstoftekort; het nachtzicht lijdt al vanaf zo'n 5000 ft."
+  },
+  {
+   "v": "Hoe lang is de tijd van nuttig bewustzijn (TUC) op ongeveer 5500 meter (18.000 ft)?",
+   "a": [
+    "Enkele seconden",
+    "Ongeveer 20 tot 30 minuten",
+    "Meer dan 5 uur",
+    "Onbeperkt"
+   ],
+   "juist": 1,
+   "uitleg": "Op 18.000 ft kan een mens zonder extra zuurstof nog ongeveer 20 tot 30 minuten zinvol handelen."
+  },
+  {
+   "v": "Hoe lang is de tijd van nuttig bewustzijn op ongeveer 7600 meter (25.000 ft)?",
+   "a": [
+    "Ongeveer 1 uur",
+    "Ongeveer 30 seconden",
+    "Ongeveer 3 tot 5 minuten",
+    "Onbeperkt met warme kleding"
+   ],
+   "juist": 2,
+   "uitleg": "Op 25.000 ft resteren zonder zuurstof slechts enkele minuten nuttig bewustzijn."
+  },
+  {
+   "v": "Wat schrijven de Europese regels (NCO.OP.190) voor over het gebruik van extra zuurstof?",
+   "a": [
+    "Zuurstof is alleen bij wolkenvliegen verplicht",
+    "Zuurstof is in zweefvliegtuigen nooit verplicht",
+    "Zuurstof is pas boven 8000 meter nodig",
+    "Boven 10.000 ft langer dan 30 minuten en altijd boven 13.000 ft moet extra zuurstof worden gebruikt"
+   ],
+   "juist": 3,
+   "uitleg": "De regel: extra zuurstof boven drukhoogte 10.000 ft als je er langer dan 30 minuten blijft, en altijd boven 13.000 ft."
+  },
+  {
+   "v": "Wat is de juiste reactie wanneer je tijdens een golfvlucht hypoxieverschijnselen bij jezelf opmerkt?",
+   "a": [
+    "Zuurstoftoevoer controleren en opvoeren en direct dalen",
+    "Even afwachten of het overgaat",
+    "Sneller gaan ademen",
+    "Iets eten en doorklimmen"
+   ],
+   "juist": 0,
+   "uitleg": "Zuurstof bijzetten en dalen naar lagere hoogte is de enige veilige reactie."
+  },
+  {
+   "v": "Tot ongeveer welke hoogte kan een gezond lichaam het lagere zuurstofaanbod doorgaans zonder extra zuurstof compenseren?",
+   "a": [
+    "Tot ongeveer 1000 ft",
+    "Tot ongeveer 10.000 tot 12.000 ft",
+    "Tot ongeveer 25.000 ft",
+    "Tot elke hoogte"
+   ],
+   "juist": 1,
+   "uitleg": "Tot zo'n 10.000 a 12.000 ft compenseert het lichaam met diepere ademhaling en hogere hartslag."
+  },
+  {
+   "v": "Welke factoren verhogen de gevoeligheid voor hypoxie?",
+   "a": [
+    "Alleen hoge leeftijd",
+    "Goede conditie en veel drinken",
+    "Roken, alcohol, vermoeidheid, kou en ziekte",
+    "Warm weer op de grond"
+   ],
+   "juist": 2,
+   "uitleg": "Alles wat het zuurstoftransport of het energieverbruik belast, verlaagt de hoogtetolerantie."
+  },
+  {
+   "v": "Wat is cyanose?",
+   "a": [
+    "Sterk zweten",
+    "Verwijde pupillen",
+    "Rode vlekken op de armen",
+    "Blauwverkleuring van lippen en nagels door zuurstoftekort"
+   ],
+   "juist": 3,
+   "uitleg": "Zuurstofarm bloed is donkerder en kleurt lippen en nagelbedden blauw."
+  },
+  {
+   "v": "Waarom is het nuttig om je eigen hypoxiesymptomen te kennen?",
+   "a": [
+    "De verschijnselen verschillen per persoon maar zijn bij jezelf redelijk constant",
+    "De symptomen zijn bij iedereen identiek",
+    "Hypoxie is dan niet meer gevaarlijk",
+    "Dan mag je zonder zuurstof hoger vliegen"
+   ],
+   "juist": 0,
+   "uitleg": "Wie zijn persoonlijke eerste symptomen kent, herkent hypoxie eerder en kan tijdig ingrijpen."
+  },
+  {
+   "v": "Waarom is hypoxie voor zweefvliegers een relevant onderwerp?",
+   "a": [
+    "Zweefvliegtuigen hebben drukcabines",
+    "In bergwind (golf) zijn grote hoogten bereikbaar",
+    "Hypoxie treedt vooral op lage hoogte op",
+    "Alleen motorvliegers krijgen hypoxie"
+   ],
+   "juist": 1,
+   "uitleg": "In golfstijgwind kunnen zweefvliegtuigen hoogten bereiken waar extra zuurstof noodzakelijk is."
+  },
+  {
+   "v": "Wat is een voorbeeld van anemische (hypemische) hypoxie?",
+   "a": [
+    "Vliegen op grote hoogte zonder zuurstof",
+    "Hoge G-belasting in een steile bocht",
+    "Koolmonoxidevergiftiging of een recente bloeddonatie",
+    "Alcoholvergiftiging van de cellen"
+   ],
+   "juist": 2,
+   "uitleg": "Bij anemische hypoxie kan het bloed te weinig zuurstof vervoeren, zoals na bloedverlies of bij CO."
+  },
+  {
+   "v": "Welk effect heeft lichamelijke inspanning op de tijd van nuttig bewustzijn?",
+   "a": [
+    "Geen effect",
+    "Die wordt langer",
+    "Die wordt eerst langer en daarna korter",
+    "Die wordt korter"
+   ],
+   "juist": 3,
+   "uitleg": "Inspanning verhoogt het zuurstofverbruik en verkort de tijd van nuttig bewustzijn."
+  },
+  {
+   "v": "Op ongeveer 5500 meter hoogte is de luchtdruk ...",
+   "a": [
+    "ongeveer de helft van die op zeeniveau",
+    "ongeveer gelijk aan die op zeeniveau",
+    "ongeveer een tiende van die op zeeniveau",
+    "ongeveer driekwart van die op zeeniveau"
+   ],
+   "juist": 0,
+   "uitleg": "Op ongeveer 5500 meter is de luchtdruk gehalveerd ten opzichte van zeeniveau."
+  },
+  {
+   "v": "Hoeveel procent zuurstof bevat de lucht op 10.000 ft hoogte?",
+   "a": [
+    "Ongeveer 10%",
+    "Nog steeds ongeveer 21%",
+    "Ongeveer 15%",
+    "Ongeveer 5%"
+   ],
+   "juist": 1,
+   "uitleg": "Het percentage blijft 21%; alleen de partiële druk van de zuurstof is lager."
+  },
+  {
+   "v": "Welke functies worden door hypoxie het eerst aangetast?",
+   "a": [
+    "De spijsvertering",
+    "Het gehoor",
+    "Het oordeelsvermogen en het nachtzicht",
+    "De hartslag"
+   ],
+   "juist": 2,
+   "uitleg": "De hogere hersenfuncties en het lichtgevoelige nachtzicht lijden als eerste onder zuurstoftekort."
+  },
+  {
+   "v": "Wat gebeurt er meestal na het toedienen van zuurstof aan iemand met hypoxie?",
+   "a": [
+    "Er verandert niets",
+    "De symptomen verergeren blijvend",
+    "Het herstel duurt minimaal een dag",
+    "De verschijnselen verdwijnen doorgaans snel"
+   ],
+   "juist": 3,
+   "uitleg": "Met voldoende zuurstof herstelt de verzadiging en verdwijnen de klachten meestal binnen korte tijd."
+  },
+  {
+   "v": "Je medevlieger reageert op grote hoogte traag en verward. Wat doe je?",
+   "a": [
+    "Zuurstof laten gebruiken en direct dalen",
+    "Vragen of hij nog even volhoudt",
+    "De ventilatie dichtzetten",
+    "Hem laten slapen"
+   ],
+   "juist": 0,
+   "uitleg": "Traagheid en verwardheid op hoogte wijzen op hypoxie: zuurstof en direct dalen."
+  },
+  {
+   "v": "Wat controleer je voor een geplande golfvlucht naar grote hoogte in elk geval?",
+   "a": [
+    "Alleen het weerbericht",
+    "Werking, voorraad en aansluiting van het zuurstofsysteem",
+    "Alleen de accu van de radio",
+    "Of er voldoende waterballast in zit"
+   ],
+   "juist": 1,
+   "uitleg": "Zonder goed werkend zuurstofsysteem met voldoende voorraad is een hoogtevlucht onverantwoord."
+  },
+  {
+   "v": "Waarmee staat het middenoor in verbinding via de buis van Eustachius?",
+   "a": [
+    "Met het binnenoor",
+    "Met de gehoorgang",
+    "Met de neus-keelholte",
+    "Met de bijholten"
+   ],
+   "juist": 2,
+   "uitleg": "De buis van Eustachius verbindt het middenoor met de neus-keelholte voor drukvereffening."
+  },
+  {
+   "v": "Tijdens welke vluchtfase geeft drukvereffening in het middenoor meestal de meeste problemen?",
+   "a": [
+    "Tijdens de start",
+    "Tijdens het rechtuit vliegen",
+    "Tijdens het stijgen",
+    "Tijdens het dalen"
+   ],
+   "juist": 3,
+   "uitleg": "De buis van Eustachius laat lucht makkelijker ontsnappen dan binnenstromen; bij dalen moet je actief klaren."
+  },
+  {
+   "v": "Hoe voer je de valsalva-manoeuvre uit?",
+   "a": [
+    "Neus dichtknijpen en met gesloten mond zachtjes druk opbouwen",
+    "Diep zuchten met open mond",
+    "Hard hoesten",
+    "De adem lang inhouden"
+   ],
+   "juist": 0,
+   "uitleg": "Door met dichtgeknepen neus zachtjes te persen wordt lucht via de buis van Eustachius in het middenoor gedrukt."
+  },
+  {
+   "v": "Waarom mag je niet vliegen met een flinke verkoudheid?",
+   "a": [
+    "Je conditie is dan te laag om te sturen",
+    "Gezwollen slijmvliezen blokkeren de drukvereffening van oren en bijholten",
+    "Je kunt de radio dan niet verstaan",
+    "Verkoudheid veroorzaakt altijd luchtziekte"
+   ],
+   "juist": 1,
+   "uitleg": "Met verstopte slijmvliezen kan de druk niet vereffenen en dreigt pijnlijk barotrauma."
+  },
+  {
+   "v": "Wat kan er gebeuren bij een groot drukverschil over het trommelvlies?",
+   "a": [
+    "Niets, het trommelvlies is zeer sterk",
+    "Alleen tijdelijke doofheid zonder pijn",
+    "Hevige pijn en in ernstige gevallen een scheur in het trommelvlies",
+    "Blijvend verlies van evenwicht"
+   ],
+   "juist": 2,
+   "uitleg": "Een groot drukverschil rekt het trommelvlies pijnlijk op en kan het doen scheuren."
+  },
+  {
+   "v": "Waar voel je pijn bij drukproblemen in de bijholten (sinussen)?",
+   "a": [
+    "In de nek",
+    "Alleen in de kaakgewrichten",
+    "Achter het borstbeen",
+    "In het voorhoofd en de wangen, rond en boven de neus"
+   ],
+   "juist": 3,
+   "uitleg": "De bijholten zitten in het voorhoofd en de bovenkaak; drukverschil geeft daar stekende pijn."
+  },
+  {
+   "v": "Wat gebeurt er met gassen in maag en darmen tijdens het stijgen?",
+   "a": [
+    "Ze zetten uit door de dalende omgevingsdruk",
+    "Ze krimpen",
+    "Ze lossen op in het bloed",
+    "Er verandert niets"
+   ],
+   "juist": 0,
+   "uitleg": "Volgens de wet van Boyle zetten gassen uit als de omgevingsdruk daalt."
+  },
+  {
+   "v": "Wat is de meest waarschijnlijke oorzaak van kiespijn die tijdens het stijgen ontstaat?",
+   "a": [
+    "Een te koude cockpit",
+    "Een luchtbelletje onder een vulling of een ontsteking bij een tandwortel",
+    "Een te strak zittende zuurstofslang",
+    "Beginnende hypoxie"
+   ],
+   "juist": 1,
+   "uitleg": "Ingesloten lucht onder een vulling zet bij stijgen uit en drukt pijnlijk op de zenuw."
+  },
+  {
+   "v": "Hoe lang moet je na een duik met perslucht zonder decompressiestops minimaal wachten voordat je weer vliegt?",
+   "a": [
+    "1 uur",
+    "3 uur",
+    "Ongeveer 12 uur",
+    "Er is geen wachttijd nodig"
+   ],
+   "juist": 2,
+   "uitleg": "Na een duik zonder decompressiestops geldt een wachttijd van ongeveer 12 uur voordat je mag vliegen."
+  },
+  {
+   "v": "Hoe lang wacht je met vliegen na een duik met verplichte decompressiestops?",
+   "a": [
+    "2 uur",
+    "6 uur",
+    "12 uur",
+    "Minimaal 24 uur"
+   ],
+   "juist": 3,
+   "uitleg": "Na een decompressieduik moet minimaal 24 uur worden gewacht om decompressieziekte te voorkomen."
+  },
+  {
+   "v": "Wat helpt tijdens de daling om de druk in het middenoor te vereffenen?",
+   "a": [
+    "Slikken, gapen of kauwen",
+    "De adem inhouden",
+    "Het hoofd stilhouden",
+    "De ogen sluiten"
+   ],
+   "juist": 0,
+   "uitleg": "Slikken, gapen en kauwbewegingen openen de buis van Eustachius."
+  },
+  {
+   "v": "Je krijgt tijdens de daling hevige pijn in een oor. Wat is verstandig?",
+   "a": [
+    "Sneller dalen om snel aan de grond te zijn",
+    "De daling onderbreken of vertragen en de valsalva-manoeuvre proberen",
+    "Niets doen, dit hoort erbij",
+    "Zuurstof bijzetten"
+   ],
+   "juist": 1,
+   "uitleg": "Door de daling te onderbreken en te klaren krijgt het middenoor de kans de druk te vereffenen."
+  },
+  {
+   "v": "Wat zegt de wet van Boyle over een gasvolume wanneer de druk daalt (bij gelijke temperatuur)?",
+   "a": [
+    "Het volume daalt evenredig",
+    "Het volume blijft gelijk",
+    "Het volume neemt toe",
+    "Het gas condenseert"
+   ],
+   "juist": 2,
+   "uitleg": "Druk en volume zijn omgekeerd evenredig: minder druk betekent een groter volume."
+  },
+  {
+   "v": "Waarom is het gebruik van neusspray vlak voor een vlucht met verkoudheid riskant?",
+   "a": [
+    "Neusspray doet de kap beslaan",
+    "Neusspray veroorzaakt hypoxie",
+    "Neusspray is voor vliegers altijd verboden",
+    "De werking kan tijdens de vlucht uitwerken waardoor de drukvereffening alsnog blokkeert"
+   ],
+   "juist": 3,
+   "uitleg": "Als de spray op hoogte is uitgewerkt, zwellen de slijmvliezen weer op en kun je niet meer klaren."
+  },
+  {
+   "v": "Wat scheidt de gehoorgang van het middenoor?",
+   "a": [
+    "Het trommelvlies",
+    "Het ovale venster",
+    "De buis van Eustachius",
+    "Het slakkenhuis"
+   ],
+   "juist": 0,
+   "uitleg": "Het trommelvlies vormt de scheiding tussen de uitwendige gehoorgang en het middenoor."
+  },
+  {
+   "v": "Wat gebeurt er met stikstof in het lichaam tijdens het duiken met perslucht?",
+   "a": [
+    "Het verdwijnt uit het lichaam",
+    "Het lost onder de hogere druk extra op in bloed en weefsels",
+    "Het wordt omgezet in zuurstof",
+    "Het hoopt zich alleen op in de longen"
+   ],
+   "juist": 1,
+   "uitleg": "Onder druk lost extra stikstof op in het lichaam, die er bij drukverlaging weer uit moet."
+  },
+  {
+   "v": "Waardoor ontstaat decompressieziekte?",
+   "a": [
+    "Door zuurstoftekort",
+    "Door onderkoeling",
+    "Door stikstofbellen die bij drukverlaging in bloed en weefsels ontstaan",
+    "Door kooldioxidevergiftiging"
+   ],
+   "juist": 2,
+   "uitleg": "Bij te snelle drukverlaging komt opgeloste stikstof als belletjes vrij in het lichaam."
+  },
+  {
+   "v": "Welke verschijnselen passen bij decompressieziekte?",
+   "a": [
+    "Alleen hoofdpijn",
+    "Alleen blauwe lippen",
+    "Koorts en keelpijn",
+    "Pijn in de gewrichten, jeuk en in ernstige gevallen neurologische uitval"
+   ],
+   "juist": 3,
+   "uitleg": "De klassieke bends zijn gewrichtspijn en jeuk; ernstige vormen treffen het zenuwstelsel."
+  },
+  {
+   "v": "Wat doe je bij verschijnselen van decompressieziekte tijdens een vlucht?",
+   "a": [
+    "Zo snel als veilig mogelijk dalen, landen en medische hulp zoeken",
+    "Hoger klimmen om de bellen te laten oplossen",
+    "Rustig doorvliegen",
+    "Alleen water drinken"
+   ],
+   "juist": 0,
+   "uitleg": "Dalen verhoogt de omgevingsdruk en verkleint de bellen; daarna is medische hulp nodig."
+  },
+  {
+   "v": "Hoe vereffenen de bijholten normaal gesproken hun druk?",
+   "a": [
+    "Via het trommelvlies",
+    "Via nauwe kanalen die op de neusholte uitkomen",
+    "Via de traanbuizen",
+    "Via de huid"
+   ],
+   "juist": 1,
+   "uitleg": "De bijholten staan via smalle openingen in verbinding met de neusholte."
+  },
+  {
+   "v": "Welke gehoorbeentjes bevinden zich in het middenoor?",
+   "a": [
+    "Slakkenhuis, voorhof en boog",
+    "Trommelvlies, venster en buis",
+    "Hamer, aambeeld en stijgbeugel",
+    "Het middenoor bevat geen botjes"
+   ],
+   "juist": 2,
+   "uitleg": "Hamer, aambeeld en stijgbeugel geven de trillingen van het trommelvlies door aan het binnenoor."
+  },
+  {
+   "v": "Waarom verloopt de drukvereffening tijdens het stijgen meestal probleemloos?",
+   "a": [
+    "Omdat de druk in de cockpit constant blijft",
+    "Omdat het trommelvlies dan verstijft",
+    "Omdat de bijholten zich sluiten",
+    "Omdat overdruk in het middenoor vanzelf via de buis van Eustachius ontsnapt"
+   ],
+   "juist": 3,
+   "uitleg": "Bij stijgen ontsnapt de lucht uit het middenoor vanzelf; bij dalen moet je actief klaren."
+  },
+  {
+   "v": "Hoe voorkom je barotrauma het best?",
+   "a": [
+    "Niet vliegen met verkoudheid en tijdens de daling tijdig klaren",
+    "Altijd met open mond vliegen",
+    "Sneller dalen",
+    "Watten in de oren stoppen"
+   ],
+   "juist": 0,
+   "uitleg": "Gezonde, open luchtwegen en op tijd klaren voorkomen pijnlijke drukverschillen."
+  },
+  {
+   "v": "Wat kun je voor een lange hoogtevlucht beter vermijden om darmklachten op hoogte te beperken?",
+   "a": [
+    "Water",
+    "Koolzuurhoudende dranken en sterk gasvormend voedsel",
+    "Brood",
+    "Alle vaste voeding"
+   ],
+   "juist": 1,
+   "uitleg": "Gassen zetten op hoogte uit; koolzuur en gasvormend eten geven dan extra klachten."
+  },
+  {
+   "v": "Tijdens een daling verdwijnt hevige oorpijn plotseling en hoor je aan die kant minder goed. Waar kan dit op wijzen?",
+   "a": [
+    "Het oor heeft zich normaal geklaard",
+    "De pijn was ingebeeld",
+    "Een scheurtje (perforatie) in het trommelvlies",
+    "Beginnende hypoxie"
+   ],
+   "juist": 2,
+   "uitleg": "Bij een perforatie valt het drukverschil abrupt weg: de pijn stopt maar het gehoor is verminderd."
+  },
+  {
+   "v": "Wat gebeurt er met het bloed bij positieve G-belasting?",
+   "a": [
+    "Het stijgt naar het hoofd",
+    "Het verdeelt zich gelijkmatiger",
+    "De bloeddruk in het hoofd neemt toe",
+    "Het zakt naar het onderlichaam"
+   ],
+   "juist": 3,
+   "uitleg": "Positieve G drukt het bloed richting benen en onderlichaam, weg van de hersenen."
+  },
+  {
+   "v": "Bij ongeveer welke belasting treedt bij een gemiddelde, onvoorbereide vlieger grey-out op?",
+   "a": [
+    "Rond +3,5 tot +4,5 g",
+    "Rond +1 g",
+    "Rond +10 g",
+    "Pas boven +8 g"
+   ],
+   "juist": 0,
+   "uitleg": "Rond +3,5 tot +4,5 g daalt de bloedtoevoer naar de ogen en begint het zicht te vergrijzen."
+  },
+  {
+   "v": "In welke volgorde treden de verschijnselen op bij toenemend aantal positieve G?",
+   "a": [
+    "Bewusteloosheid, dan tunnelzicht, dan grijszien",
+    "Grijszien (grey-out), zwartzien (black-out), bewusteloosheid (G-LOC)",
+    "Roodzien, grijszien, zwartzien",
+    "Eerst bewusteloosheid, daarna roodzien"
+   ],
+   "juist": 1,
+   "uitleg": "Het zicht valt eerder uit dan het bewustzijn: eerst grey-out, dan black-out, dan G-LOC."
+  },
+  {
+   "v": "Wat kan optreden bij negatieve G-belasting?",
+   "a": [
+    "Black-out",
+    "Grey-out",
+    "Red-out: roodzien doordat bloed naar het hoofd wordt gestuwd",
+    "Tunnelzicht"
+   ],
+   "juist": 2,
+   "uitleg": "Negatieve G stuwt bloed naar het hoofd, wat als roodzien kan worden waargenomen."
+  },
+  {
+   "v": "Welke factoren verlagen de G-tolerantie?",
+   "a": [
+    "Training en aangespannen spieren",
+    "Een halfliggende zithouding",
+    "Koele, frisse lucht",
+    "Vermoeidheid, uitdroging, alcohol en hypoxie"
+   ],
+   "juist": 3,
+   "uitleg": "Alles wat de bloeddruk of de conditie verlaagt, maakt je gevoeliger voor G-krachten."
+  },
+  {
+   "v": "Hoe kan een vlieger zijn weerstand tegen positieve G tijdelijk verhogen?",
+   "a": [
+    "Buik- en beenspieren aanspannen",
+    "Sneller ademen",
+    "Het hoofd achterover leggen",
+    "De ogen sluiten"
+   ],
+   "juist": 0,
+   "uitleg": "Aangespannen buik- en beenspieren houden het bloed in het bovenlichaam."
+  },
+  {
+   "v": "Hoe groot is de belasting in een gecoördineerde bocht met 60 graden dwarshelling?",
+   "a": [
+    "1 g",
+    "2 g",
+    "3 g",
+    "4 g"
+   ],
+   "juist": 1,
+   "uitleg": "Bij 60 graden helling is de belasting 1 gedeeld door cos 60, dus 2 g."
+  },
+  {
+   "v": "Waarom zijn negatieve G-krachten belastender voor het lichaam dan positieve?",
+   "a": [
+    "Ze duren altijd langer",
+    "Ze komen vaker voor",
+    "Het lichaam verdraagt bloedstuwing naar het hoofd veel slechter dan afvoer ervan",
+    "Ze zijn niet belastender"
+   ],
+   "juist": 2,
+   "uitleg": "Al bij -2 tot -3 g ontstaan klachten, terwijl positieve G tot ruim +4 g verdragen wordt."
+  },
+  {
+   "v": "Wat is het push-pull effect?",
+   "a": [
+    "Meer G-tolerantie na negatieve G",
+    "Het gevoel van duwen op de knuppel",
+    "Verwarring tussen duwen en trekken",
+    "Verminderde tolerantie voor positieve G direct na een periode van negatieve G"
+   ],
+   "juist": 3,
+   "uitleg": "Na negatieve G is de bloedsomloop ontregeld, waardoor aansluitende positieve G eerder tot G-LOC leidt."
+  },
+  {
+   "v": "Waar bevindt zich het evenwichtsorgaan?",
+   "a": [
+    "In het binnenoor",
+    "In de nekspieren",
+    "In het middenoor",
+    "In de kleine hersenen"
+   ],
+   "juist": 0,
+   "uitleg": "Het evenwichtsorgaan ligt in het binnenoor, naast het slakkenhuis."
+  },
+  {
+   "v": "Wat registreren de drie halfcirkelvormige kanalen?",
+   "a": [
+    "Lineaire versnellingen",
+    "Hoekversnellingen (draaiingen) in drie vlakken",
+    "Alleen de zwaartekracht",
+    "Trillingen"
+   ],
+   "juist": 1,
+   "uitleg": "De drie kanalen staan loodrecht op elkaar en meten draaiversnellingen om drie assen."
+  },
+  {
+   "v": "Wat registreren de otolietorganen?",
+   "a": [
+    "De draaisnelheid",
+    "Geluid",
+    "Lineaire versnellingen en de stand ten opzichte van de zwaartekracht",
+    "Temperatuur"
+   ],
+   "juist": 2,
+   "uitleg": "De otolieten reageren op rechtlijnige versnellingen en op de richting van de zwaartekracht."
+  },
+  {
+   "v": "Wat gebeurt er met het draaigevoel tijdens een langdurige bocht met constante draaisnelheid?",
+   "a": [
+    "Het wordt steeds sterker",
+    "Het wisselt van richting",
+    "Het blijft constant aanwezig",
+    "Het verdwijnt na ongeveer 15 tot 20 seconden"
+   ],
+   "juist": 3,
+   "uitleg": "Bij constante draaisnelheid komt de vloeistof in de kanalen tot rust en verdwijnt het draaigevoel."
+  },
+  {
+   "v": "Wat voel je bij het abrupt beëindigen van een langdurige draai?",
+   "a": [
+    "Een schijnbare draai in tegengestelde richting",
+    "Niets bijzonders",
+    "Een versterkt gevoel van de oorspronkelijke draai",
+    "Een gevoel van vallen"
+   ],
+   "juist": 0,
+   "uitleg": "De vloeistof in de kanalen stroomt nog na en wekt de illusie van een draai de andere kant op."
+  },
+  {
+   "v": "Wat is de somatogravische illusie?",
+   "a": [
+    "Draaien voelt als klimmen",
+    "Een versnelling in de vluchtrichting voelt als de neus omhoog trekken",
+    "Dalen voelt als een bocht",
+    "Wolken lijken te bewegen"
+   ],
+   "juist": 1,
+   "uitleg": "De otolieten kunnen versnelling niet van kanteling onderscheiden: versnellen voelt als steiler klimmen."
+  },
+  {
+   "v": "Wat wordt bedoeld met de leans?",
+   "a": [
+    "Duizeligheid door hoofdbewegingen",
+    "Het gevoel te vallen",
+    "Een onjuist gevoel van dwarshelling na een langzame, onopgemerkte rolbeweging",
+    "Zeeziekte in de lucht"
+   ],
+   "juist": 2,
+   "uitleg": "Een rolbeweging onder de prikkeldrempel wordt gemist, waarna de correctie als scheefhangen voelt."
+  },
+  {
+   "v": "Waardoor ontstaat de coriolis-illusie?",
+   "a": [
+    "Door snel rechtuit vliegen",
+    "Door lang naar de horizon kijken",
+    "Door drukverandering in het oor",
+    "Door een plotselinge hoofdbeweging tijdens een langdurige draai"
+   ],
+   "juist": 3,
+   "uitleg": "Een hoofdbeweging tijdens een draai prikkelt meerdere kanalen tegelijk en geeft een heftig tuimelgevoel."
+  },
+  {
+   "v": "Wat is de beste bescherming tegen ruimtelijke desoriëntatie?",
+   "a": [
+    "Vertrouwen op de zichtbare horizon of de instrumenten in plaats van op je gevoel",
+    "Vertrouwen op het evenwichtsorgaan",
+    "De ogen sluiten en op gevoel vliegen",
+    "Sneller vliegen"
+   ],
+   "juist": 0,
+   "uitleg": "Het gevoel bedriegt; alleen de horizon of betrouwbare instrumenten geven de werkelijke stand."
+  },
+  {
+   "v": "Waarom worden zeer langzame stands- of snelheidsveranderingen vaak niet gevoeld?",
+   "a": [
+    "Het brein negeert alle bewegingen",
+    "Ze blijven onder de prikkeldrempel van het evenwichtsorgaan",
+    "Het oog compenseert alles",
+    "De cockpit dempt alle prikkels"
+   ],
+   "juist": 1,
+   "uitleg": "Veranderingen onder de prikkeldrempel van het evenwichtsorgaan worden niet waargenomen."
+  },
+  {
+   "v": "Waarom verdwijnt na enige tijd het draaigevoel in een lange thermiekbocht?",
+   "a": [
+    "De draaisnelheid neemt vanzelf af",
+    "Het brein raakt vermoeid",
+    "De vloeistof in de halfcirkelvormige kanalen draait mee en prikkelt de zintuigcellen niet meer",
+    "De otolieten schakelen uit"
+   ],
+   "juist": 2,
+   "uitleg": "Zodra de vloeistof met dezelfde snelheid meedraait, stopt de prikkeling van de zintuighaartjes."
+  },
+  {
+   "v": "Wat nemen de halfcirkelvormige kanalen vooral waar?",
+   "a": [
+    "Constante draaisnelheid",
+    "Temperatuurwisselingen",
+    "Rechtlijnige beweging",
+    "Veranderingen in draaisnelheid: het begin en het einde van een draai"
+   ],
+   "juist": 3,
+   "uitleg": "De kanalen meten hoekversnelling; een constante draai wordt na korte tijd niet meer gevoeld."
+  },
+  {
+   "v": "Wat is G-LOC?",
+   "a": [
+    "Bewustzijnsverlies door G-belasting, dat zonder duidelijke waarschuwing kan optreden",
+    "Een navigatiesysteem",
+    "Grijszien bij lage snelheid",
+    "Een vorm van luchtziekte"
+   ],
+   "juist": 0,
+   "uitleg": "G-LOC (G-induced loss of consciousness) kan bij snel opkomende G zelfs zonder voorafgaand grey-out optreden."
+  },
+  {
+   "v": "Waarom verhoogt de halfliggende zit in een zweefvliegtuig de G-tolerantie?",
+   "a": [
+    "De benen zijn dan beter doorbloed",
+    "De verticale afstand tussen hart en hersenen is kleiner",
+    "De vlieger kan zich beter schrap zetten",
+    "De stoel vangt de krachten op"
+   ],
+   "juist": 1,
+   "uitleg": "Hoe kleiner het hoogteverschil tussen hart en hoofd, hoe makkelijker het hart de hersenen doorbloed houdt."
+  },
+  {
+   "v": "Tijdens een lierstart voelt de sterke versnelling alsof het vliegtuig extreem steil staat. Wat is de juiste reactie?",
+   "a": [
+    "Direct ontkoppelen",
+    "Op gevoel de neus flink omlaag duwen",
+    "De werkelijke stand en snelheid bewust controleren en niet blind op het gevoel vertrouwen",
+    "De ogen sluiten tot de start voorbij is"
+   ],
+   "juist": 2,
+   "uitleg": "De versnelling wekt een somatogravische illusie; alleen zicht en instrumenten geven de echte stand."
+  },
+  {
+   "v": "Na het uitrollen uit een lange draai voel je een draai de andere kant op, terwijl je rechtuit vliegt. Wat doe je?",
+   "a": [
+    "Tegensturen op gevoel",
+    "De draai opnieuw inzetten",
+    "Sneller vliegen",
+    "De horizon of de instrumenten controleren en het valse gevoel negeren"
+   ],
+   "juist": 3,
+   "uitleg": "Het nadraaieffect van het evenwichtsorgaan is een illusie; de buitenwereld geeft de werkelijkheid."
+  },
+  {
+   "v": "Welke functie hebben de staafjes in het netvlies?",
+   "a": [
+    "Zien bij weinig licht en in het perifere gezichtsveld",
+    "Kleuren zien",
+    "Scherp zien in het centrum",
+    "Diepte zien"
+   ],
+   "juist": 0,
+   "uitleg": "Staafjes zijn zeer lichtgevoelig maar zien geen kleur; ze verzorgen het nacht- en randzicht."
+  },
+  {
+   "v": "Welke functie hebben de kegeltjes in het netvlies?",
+   "a": [
+    "Zien in het donker",
+    "Scherp zien en kleuren zien, vooral in het centrum van het netvlies",
+    "Beweging in de ooghoeken zien",
+    "Drukverschillen waarnemen"
+   ],
+   "juist": 1,
+   "uitleg": "Kegeltjes zitten vooral in de fovea en verzorgen kleurzien en detailzicht bij voldoende licht."
+  },
+  {
+   "v": "Hoe lang duurt het ongeveer voordat de ogen volledig aan het donker zijn aangepast?",
+   "a": [
+    "Ongeveer 1 minuut",
+    "Ongeveer 5 minuten",
+    "Ongeveer 30 minuten",
+    "Meer dan 2 uur"
+   ],
+   "juist": 2,
+   "uitleg": "De staafjes hebben zo'n 30 minuten nodig om hun maximale gevoeligheid te bereiken."
+  },
+  {
+   "v": "Wat is de blinde vlek?",
+   "a": [
+    "Een beschadigd deel van het hoornvlies",
+    "Het punt waar je het scherpst ziet",
+    "Een vuiltje op de ooglens",
+    "De plaats waar de oogzenuw het oog verlaat en geen lichtgevoelige cellen zitten"
+   ],
+   "juist": 3,
+   "uitleg": "Op de uittredeplaats van de oogzenuw zitten geen receptoren, dus daar zie je niets."
+  },
+  {
+   "v": "Waarom merk je de blinde vlek in het dagelijks leven meestal niet op?",
+   "a": [
+    "Het andere oog compenseert en de hersenen vullen het beeld aan",
+    "De blinde vlek werkt alleen bij nacht",
+    "De vlek is kleiner dan een lichtstraal",
+    "De oogspieren verplaatsen de vlek voortdurend"
+   ],
+   "juist": 0,
+   "uitleg": "Met twee ogen overlappen de gezichtsvelden en de hersenen vullen het ontbrekende deel in."
+  },
+  {
+   "v": "Een ander vliegtuig bevindt zich op botsingskoers. Hoe ziet dat eruit vanuit jouw cockpit?",
+   "a": [
+    "Het beweegt snel door je gezichtsveld",
+    "Het staat vrijwel stil op dezelfde plek in je gezichtsveld en groeit langzaam",
+    "Het knippert",
+    "Het beweegt altijd van je af"
+   ],
+   "juist": 1,
+   "uitleg": "Bij constante peiling is er geen relatieve beweging, waardoor het oog het nauwelijks opmerkt."
+  },
+  {
+   "v": "Hoe kijk je effectief uit naar ander verkeer?",
+   "a": [
+    "Met een langzame, vloeiende blik langs de horizon",
+    "Alleen recht vooruit staren",
+    "De lucht sectorsgewijs afzoeken met korte stops van de ogen",
+    "Alleen op geluid vertrouwen"
+   ],
+   "juist": 2,
+   "uitleg": "Het oog ziet alleen scherp als het stilstaat: scan in stappen van zo'n 10 graden met korte fixaties."
+  },
+  {
+   "v": "Waarom is een vloeiend bewegend oog ongeschikt om verkeer te ontdekken?",
+   "a": [
+    "Het oog droogt dan uit",
+    "De pupil sluit zich",
+    "Bewegen kost te veel energie",
+    "Tijdens de oogbeweging zelf wordt vrijwel geen scherp beeld waargenomen"
+   ],
+   "juist": 3,
+   "uitleg": "Tijdens snelle oogbewegingen (saccades) onderdrukken de hersenen het beeld grotendeels."
+  },
+  {
+   "v": "Wat is lege-veld-bijziendheid (empty field myopia)?",
+   "a": [
+    "Bij een lege, egale lucht stelt het oog automatisch scherp op korte afstand",
+    "Het onvermogen om kleuren te zien",
+    "Bijziendheid door ouderdom",
+    "Wazig zien door uitdroging"
+   ],
+   "juist": 0,
+   "uitleg": "Zonder aanknopingspunt accommodeert het oog op een paar meter, zodat verre objecten worden gemist."
+  },
+  {
+   "v": "Hoe groot is het gebied waarin het oog echt scherp ziet (de fovea)?",
+   "a": [
+    "Het volledige gezichtsveld",
+    "Slechts enkele graden rond het fixatiepunt",
+    "Ongeveer 90 graden",
+    "De hele bovenste helft van het beeld"
+   ],
+   "juist": 1,
+   "uitleg": "Alleen in een kegel van enkele graden rond het fixatiepunt is het zicht werkelijk scherp."
+  },
+  {
+   "v": "Waar is het perifere gezichtsveld vooral goed in?",
+   "a": [
+    "Kleuren onderscheiden",
+    "Kleine details lezen",
+    "Beweging opmerken",
+    "Afstanden schatten"
+   ],
+   "juist": 2,
+   "uitleg": "Het randzicht is grof maar zeer gevoelig voor beweging."
+  },
+  {
+   "v": "Hoe neem je bij nacht een zwak lichtpunt het best waar?",
+   "a": [
+    "Door er lang strak naar te staren",
+    "Door snel met de ogen te knipperen",
+    "Door een zonnebril op te zetten",
+    "Door er iets naast te kijken, zodat het beeld op de staafjes valt"
+   ],
+   "juist": 3,
+   "uitleg": "Het centrum van het netvlies bevat weinig staafjes; excentrisch kijken werkt in het donker beter."
+  },
+  {
+   "v": "Waarom worden polariserende zonnebrillen voor vliegers afgeraden?",
+   "a": [
+    "Ze kunnen spanningspatronen in de kap zichtbaar maken en instrumenten of schermen onleesbaar maken",
+    "Ze houden geen UV tegen",
+    "Ze zijn te donker voor de cockpit",
+    "Ze beslaan sneller"
+   ],
+   "juist": 0,
+   "uitleg": "Polarisatie geeft storende patronen in plexiglas en kan lcd-schermen doven."
+  },
+  {
+   "v": "Wat gebeurt er bij accommodatie van het oog?",
+   "a": [
+    "De pupil wordt groter",
+    "De ooglens verandert van vorm om op verschillende afstanden scherp te stellen",
+    "Het netvlies verschuift",
+    "Het hoornvlies wordt dikker"
+   ],
+   "juist": 1,
+   "uitleg": "De lens wordt boller of platter zodat het beeld scherp op het netvlies valt."
+  },
+  {
+   "v": "Wat is presbyopie (ouderdomsverziendheid)?",
+   "a": [
+    "Nachtblindheid",
+    "Kleurenblindheid op latere leeftijd",
+    "Afnemend vermogen om dichtbij scherp te stellen doordat de lens stijver wordt, meestal vanaf ongeveer 45 jaar",
+    "Staar"
+   ],
+   "juist": 2,
+   "uitleg": "Met de leeftijd verliest de lens elasticiteit, waardoor lezen zonder bril moeilijk wordt."
+  },
+  {
+   "v": "Hoe schat je op grotere afstand vooral diepte en afstand in?",
+   "a": [
+    "Met het verschil tussen beide ogen (stereozien)",
+    "Door de oogspieren te voelen",
+    "Met het evenwichtsorgaan",
+    "Met eenogige aanwijzingen zoals relatieve grootte, overlapping en heiigheid"
+   ],
+   "juist": 3,
+   "uitleg": "Stereozien werkt alleen dichtbij; op afstand gebruiken de hersenen monoculaire aanwijzingen."
+  },
+  {
+   "v": "Waarom is een vliegtuig dat zich tussen jou en de zon bevindt zo gevaarlijk?",
+   "a": [
+    "Het is door verblinding en tegenlicht zeer moeilijk te zien",
+    "De zon versnelt dat vliegtuig",
+    "Het vliegt altijd hoger dan jij",
+    "Het radiocontact valt dan weg"
+   ],
+   "juist": 0,
+   "uitleg": "Tegen de felle zon in is een klein silhouet nauwelijks te ontdekken."
+  },
+  {
+   "v": "Welke visuele functie lijdt het eerst onder zuurstoftekort?",
+   "a": [
+    "Het kleurzien overdag",
+    "Het nachtzicht",
+    "Het lezen van kaarten",
+    "Het perifere zicht overdag"
+   ],
+   "juist": 1,
+   "uitleg": "De lichtgevoelige staafjes zijn het gevoeligst voor hypoxie, dus het nachtzicht gaat het eerst achteruit."
+  },
+  {
+   "v": "Waarom is een schone cockpitkap belangrijk voor het uitkijken?",
+   "a": [
+    "Krassen maken de kap zwaarder",
+    "Vuil hindert alleen bij regen",
+    "Vlekken en krassen kunnen ander verkeer maskeren of juist op verkeer lijken",
+    "Een vuile kap breekt sneller"
+   ],
+   "juist": 2,
+   "uitleg": "Een vlekje op de kap kan een naderend vliegtuig verbergen of voor een vliegtuig worden aangezien."
+  },
+  {
+   "v": "Hoeveel van de tijd hoor je bij zichtvliegen ongeveer buiten te kijken?",
+   "a": [
+    "Ongeveer 10%",
+    "Ongeveer een kwart",
+    "Ongeveer de helft",
+    "Het grootste deel van de tijd, als vuistregel driekwart of meer"
+   ],
+   "juist": 3,
+   "uitleg": "Bij VFR geldt: zien en gezien worden; de blik hoort vooral buiten te zijn."
+  },
+  {
+   "v": "Waarom is een naderend vliegtuig op botsingskoers zo lang moeilijk te zien?",
+   "a": [
+    "Het blijft lang een klein, stilstaand puntje en groeit pas op het laatste moment snel",
+    "Het vliegt altijd in de wolken",
+    "Het is altijd sneller dan het oog",
+    "De kleuren vallen op afstand weg"
+   ],
+   "juist": 0,
+   "uitleg": "De schijnbare grootte neemt pas vlak voor een botsing explosief toe (blossom effect)."
+  },
+  {
+   "v": "Wat geldt voor een vlieger die volgens zijn medische verklaring een bril moet dragen?",
+   "a": [
+    "Een bril is in de lucht verboden",
+    "Hij moet de bril tijdens het vliegen dragen en een reservebril binnen handbereik hebben",
+    "Hij mag alleen met contactlenzen vliegen",
+    "Hij hoeft de bril alleen bij wedstrijden te dragen"
+   ],
+   "juist": 1,
+   "uitleg": "De beperking op de medische verklaring is bindend en een reservebril hoort binnen bereik te zijn."
+  },
+  {
+   "v": "Waarom vervagen kleuren in de schemering?",
+   "a": [
+    "De lens wordt troebel",
+    "De pupil wordt te klein",
+    "Het zien schakelt over op de staafjes, die geen kleur waarnemen",
+    "Het hoornvlies weerkaatst meer licht"
+   ],
+   "juist": 2,
+   "uitleg": "Bij weinig licht nemen de kleurenblinde staafjes het zien over van de kegeltjes."
+  },
+  {
+   "v": "Tegen welke achtergrond is ander verkeer het moeilijkst te ontdekken?",
+   "a": [
+    "Tegen een egaal blauwe lucht",
+    "Tegen een witte wolk",
+    "Ruim boven de horizon",
+    "Tegen een drukke achtergrond zoals bebouwing of bos onder de horizon"
+   ],
+   "juist": 3,
+   "uitleg": "Tegen een onrustige achtergrond vallen contrast en beweging van een vliegtuig nauwelijks op."
+  },
+  {
+   "v": "Wat is de beste bescherming van de ogen tijdens lange vluchten op grote hoogte?",
+   "a": [
+    "Een goede zonnebril die UV-licht filtert",
+    "Geen bescherming, de kap houdt alles tegen",
+    "Regelmatig in de zon kijken om te wennen",
+    "Oogdruppels tegen hoogte"
+   ],
+   "juist": 0,
+   "uitleg": "Op hoogte is de UV-belasting hoog; een kwaliteitszonnebril beschermt de ogen."
+  },
+  {
+   "v": "Wat is ruimtelijke desoriëntatie?",
+   "a": [
+    "Het kwijtraken van de kaartpositie",
+    "Het onvermogen om de stand en beweging van het vliegtuig ten opzichte van de aarde juist waar te nemen",
+    "Vergeten waar het vliegveld ligt",
+    "Een defect aan de gyroscopische instrumenten"
+   ],
+   "juist": 1,
+   "uitleg": "Bij ruimtelijke desoriëntatie klopt het gevoel van stand en beweging niet met de werkelijkheid."
+  },
+  {
+   "v": "In welke situatie is de kans op ruimtelijke desoriëntatie voor een zweefvlieger het grootst?",
+   "a": [
+    "Bij rustig weer in het circuit",
+    "Tijdens de lierstart bij goed zicht",
+    "Bij het onbedoeld binnenvliegen van een wolk, zonder zicht op de horizon",
+    "Op de grond tijdens het uitrollen"
+   ],
+   "juist": 2,
+   "uitleg": "Zonder buitenzicht neemt het bedrieglijke evenwichtsorgaan het over en raak je snel gedesoriënteerd."
+  },
+  {
+   "v": "Wat is een valse horizon?",
+   "a": [
+    "De horizon bij zonsondergang",
+    "Een horizon op de kaart",
+    "De rand van de vleugel",
+    "Een hellend wolkendek of een lijn in het landschap die ten onrechte als horizon wordt gebruikt"
+   ],
+   "juist": 3,
+   "uitleg": "Wie onbewust een hellend wolkendek als horizon neemt, vliegt scheef zonder het te merken."
+  },
+  {
+   "v": "Wat is autokinese?",
+   "a": [
+    "Een stilstaand lichtpunt lijkt in het donker te bewegen wanneer je er lang naar staart",
+    "Het vanzelf rechttrekken van het vliegtuig",
+    "Een draaiend gevoel na een bocht",
+    "Het automatisch scannen van de lucht"
+   ],
+   "juist": 0,
+   "uitleg": "Door kleine onbewuste oogbewegingen lijkt een enkel stilstaand licht te gaan zwerven."
+  },
+  {
+   "v": "Je nadert een landingsveld dat in de landingsrichting oploopt. Welke illusie ligt op de loer?",
+   "a": [
+    "Je lijkt te laag te zitten en vliegt te hoog aan",
+    "Je lijkt te hoog te zitten en vliegt daardoor een te lage nadering",
+    "Het veld lijkt korter dan het is",
+    "De snelheid lijkt te hoog"
+   ],
+   "juist": 1,
+   "uitleg": "Een oplopend veld wekt de indruk dat je te hoog zit, met een gevaarlijk lage nadering als gevolg."
+  },
+  {
+   "v": "Welke illusie kan een veld veroorzaken dat veel smaller is dan je gewend bent?",
+   "a": [
+    "Je denkt te snel te vliegen",
+    "Het veld lijkt dichterbij",
+    "Je waant je hoger dan je werkelijk zit en nadert daardoor te laag",
+    "Je ziet het veld dubbel"
+   ],
+   "juist": 2,
+   "uitleg": "Een smal veld lijkt verder weg en dieper, waardoor je onbewust te laag aanvliegt."
+  },
+  {
+   "v": "Wat is vection?",
+   "a": [
+    "Een draaifout van het kompas",
+    "Trillingen in de stuurorganen",
+    "Angst voor hoogte",
+    "De beweging van iets anders, zoals een wolk of ander vliegtuig, wordt als eigen beweging gevoeld"
+   ],
+   "juist": 3,
+   "uitleg": "Beweging in het gezichtsveld kan als eigen beweging worden ervaren, zoals bij een optrekkende trein ernaast."
+  },
+  {
+   "v": "Wat is flicker vertigo?",
+   "a": [
+    "Onbehagen of desoriëntatie door flikkerend licht met een frequentie van ongeveer 4 tot 20 hertz",
+    "Duizeligheid door honger",
+    "Draaierigheid na de landing",
+    "Trillende instrumentnaalden"
+   ],
+   "juist": 0,
+   "uitleg": "Laagfrequent flikkerend licht kan misselijkheid, desoriëntatie en zelfs toevallen uitlokken."
+  },
+  {
+   "v": "Boven welk geluidsniveau kan langdurige blootstelling gehoorschade veroorzaken?",
+   "a": [
+    "Boven ongeveer 40 dB",
+    "Boven ongeveer 85 dB",
+    "Pas boven 140 dB",
+    "Geluid veroorzaakt geen blijvende schade"
+   ],
+   "juist": 1,
+   "uitleg": "Langdurige blootstelling boven ongeveer 85 dB beschadigt het gehoor geleidelijk."
+  },
+  {
+   "v": "Waarom is lawaaidoofheid zo ernstig?",
+   "a": [
+    "Ze is besmettelijk",
+    "Ze veroorzaakt ook blindheid",
+    "De beschadigde haarcellen in het binnenoor herstellen niet: de schade is blijvend",
+    "Ze gaat altijd gepaard met pijn"
+   ],
+   "juist": 2,
+   "uitleg": "Kapotte haarcellen in het slakkenhuis groeien niet terug, dus het verlies is definitief."
+  },
+  {
+   "v": "Wat is tinnitus?",
+   "a": [
+    "Een ontsteking van het trommelvlies",
+    "Overgevoeligheid voor lage tonen",
+    "Doofheid aan één oor",
+    "Het waarnemen van een piep, ruis of suis zonder externe geluidsbron"
+   ],
+   "juist": 3,
+   "uitleg": "Tinnitus (oorsuizen) is vaak een gevolg van lawaaischade aan het binnenoor."
+  },
+  {
+   "v": "Wat is de belangrijkste oorzaak van luchtziekte?",
+   "a": [
+    "Een conflict tussen wat de ogen zien en wat het evenwichtsorgaan voelt",
+    "Te veel eten",
+    "Alleen vliegangst",
+    "Te weinig zuurstof"
+   ],
+   "juist": 0,
+   "uitleg": "Tegenstrijdige signalen van ogen en evenwichtsorgaan maken misselijk (sensorisch conflict)."
+  },
+  {
+   "v": "Wat geldt voor luchtziekte bij zweefvliegleerlingen?",
+   "a": [
+    "Wie eenmaal luchtziek is, blijft dat altijd",
+    "Het komt in het begin regelmatig voor en verdwijnt meestal met ervaring en gewenning",
+    "Het komt alleen bij ouderen voor",
+    "Het is een teken van ongeschiktheid voor het vliegen"
+   ],
+   "juist": 1,
+   "uitleg": "Het lichaam went aan de bewegingen; bij de meeste leerlingen verdwijnen de klachten vanzelf."
+  },
+  {
+   "v": "Wat helpt tegen opkomende luchtziekte tijdens de vlucht?",
+   "a": [
+    "Naar beneden kijken in de cockpit",
+    "Warm aankleden en de ogen sluiten",
+    "Frisse lucht, naar de horizon kijken en rustig vliegen of zelf sturen",
+    "Snel iets eten"
+   ],
+   "juist": 2,
+   "uitleg": "Buiten kijken naar de horizon en zelf sturen verkleinen het conflict tussen de zintuigen."
+  },
+  {
+   "v": "Waarom zijn klassieke middelen tegen reisziekte voor vliegers riskant?",
+   "a": [
+    "Ze zijn te duur",
+    "Ze werken pas na een week",
+    "Ze verergeren de misselijkheid",
+    "Veel van deze middelen maken suf en verminderen reactie- en beoordelingsvermogen"
+   ],
+   "juist": 3,
+   "uitleg": "De versuffende bijwerking maakt deze middelen voor een piloot gevaarlijk."
+  },
+  {
+   "v": "Je passagier wordt tijdens een thermiekvlucht misselijk. Wat doe je?",
+   "a": [
+    "Rustig en recht vliegen, frisse lucht geven, naar de horizon laten kijken en zo nodig landen",
+    "Strakker draaien om sneller hoogte te winnen",
+    "De passagier naar beneden laten kijken",
+    "Doorvliegen, het gaat vanzelf over"
+   ],
+   "juist": 0,
+   "uitleg": "Rustige, rechte vlucht met frisse lucht en blik op de horizon geeft de beste kans op herstel."
+  },
+  {
+   "v": "Welke factoren vergroten de kans op luchtziekte?",
+   "a": [
+    "Ruime ervaring en een goede nachtrust",
+    "Angst, vermoeidheid, warmte en een lege of juist overvolle maag",
+    "Rustig weer",
+    "Een goede lichamelijke conditie"
+   ],
+   "juist": 1,
+   "uitleg": "Spanning, vermoeidheid, warmte en een verkeerde maagvulling verlagen de drempel voor luchtziekte."
+  },
+  {
+   "v": "Wat is presbyacusis?",
+   "a": [
+    "Doofheid door een ongeval",
+    "Gehoorverlies door medicijnen",
+    "Ouderdomsgehoorverlies, vooral voor de hoge tonen",
+    "Gehoorverlies door verkoudheid"
+   ],
+   "juist": 2,
+   "uitleg": "Met de leeftijd neemt vooral het horen van hoge tonen af."
+  },
+  {
+   "v": "In welke eenheid wordt geluidsniveau uitgedrukt?",
+   "a": [
+    "Hertz",
+    "Watt",
+    "Lumen",
+    "Decibel"
+   ],
+   "juist": 3,
+   "uitleg": "Geluidssterkte wordt in decibel (dB) uitgedrukt; hertz beschrijft de toonhoogte."
+  },
+  {
+   "v": "Welk effect kan regen op de cockpitkap tijdens de nadering hebben?",
+   "a": [
+    "Door lichtbreking kan de hoogte of de naderingshoek verkeerd worden ingeschat",
+    "Regen heeft geen invloed op de waarneming",
+    "Het veld lijkt altijd dichterbij",
+    "De snelheid lijkt altijd lager"
+   ],
+   "juist": 0,
+   "uitleg": "Een waterfilm breekt het licht en vertekent het beeld van veld en naderingshoek."
+  },
+  {
+   "v": "Welke illusie veroorzaakt heiigheid (dampige lucht)?",
+   "a": [
+    "Objecten lijken dichterbij",
+    "Objecten lijken verder weg dan ze werkelijk zijn",
+    "Objecten lijken groter",
+    "Kleuren lijken feller"
+   ],
+   "juist": 1,
+   "uitleg": "Door het lage contrast lijken objecten in heiige lucht verder weg."
+  },
+  {
+   "v": "Waarom is gehoorbescherming verstandig voor wie vaak bij de lier of het startbedrijf werkt?",
+   "a": [
+    "Het staat professioneel",
+    "Het houdt de oren warm",
+    "Langdurig motorlawaai kan blijvende gehoorschade veroorzaken",
+    "Het verbetert de radio-ontvangst"
+   ],
+   "juist": 2,
+   "uitleg": "Herhaalde blootstelling aan motorlawaai telt op en beschadigt het gehoor blijvend."
+  },
+  {
+   "v": "Je raakt onbedoeld in een wolk en verliest elk zicht op de horizon. Wat is het grootste gevaar?",
+   "a": [
+    "Bevriezing van de stuurorganen",
+    "Zuurstoftekort",
+    "Botsing met vogels",
+    "Ruimtelijke desoriëntatie: je gevoel geeft binnen korte tijd een verkeerde stand aan"
+   ],
+   "juist": 3,
+   "uitleg": "Zonder horizon is het evenwichtsorgaan binnen tientallen seconden onbetrouwbaar."
+  },
+  {
+   "v": "Hoe voorkom je autokinese bij het kijken naar een enkel lichtpunt?",
+   "a": [
+    "De blik regelmatig verplaatsen en niet langdurig op het punt staren",
+    "Een oog dichtknijpen",
+    "Dichter naar het licht toe vliegen",
+    "Het licht door de vingers bekijken"
+   ],
+   "juist": 0,
+   "uitleg": "Door te blijven scannen krijgt de illusie van een zwervend lichtpunt geen kans."
+  },
+  {
+   "v": "Wat is een goede aanpak voor een leerling die vaak luchtziek wordt?",
+   "a": [
+    "Direct stoppen met de opleiding",
+    "De blootstelling rustig opbouwen: korte vluchten, rustige bewegingen en zelf laten meesturen",
+    "Voor elke vlucht een zware, vette maaltijd eten",
+    "Alleen nog in de winter vliegen"
+   ],
+   "juist": 1,
+   "uitleg": "Geleidelijke gewenning en zelf sturen zijn de effectiefste remedie tegen luchtziekte."
+  },
+  {
+   "v": "Waar staan de letters van de checklist I'M SAFE voor?",
+   "a": [
+    "Instruments, Maps, Safety, Airfield, Fuel, Emergency",
+    "Illness, Maps, Sleep, Attitude, Flight, Energy",
+    "Illness, Medication, Stress, Alcohol, Fatigue, Emotion",
+    "Inspection, Motor, Steering, Airbrakes, Flaps, Elevator"
+   ],
+   "juist": 2,
+   "uitleg": "I'M SAFE staat voor Illness, Medication, Stress, Alcohol, Fatigue en Emotion (of Eating)."
+  },
+  {
+   "v": "Waarvoor gebruik je de checklist I'M SAFE?",
+   "a": [
+    "Voor de dagelijkse inspectie van het vliegtuig",
+    "Voor de beoordeling van het weer",
+    "Voor het indelen van het startveld",
+    "Om voor de vlucht je eigen lichamelijke en geestelijke geschiktheid te beoordelen"
+   ],
+   "juist": 3,
+   "uitleg": "I'M SAFE is een zelfcheck op fitheid van de vlieger, niet van het vliegtuig."
+  },
+  {
+   "v": "Welke regel geldt in de Nederlandse zweefvliegwereld voor alcohol voor het vliegen?",
+   "a": [
+    "Minimaal 10 uur tussen het laatste glas en de vlucht, en geen restalcohol in het bloed",
+    "Alleen geen alcohol op de vliegdag zelf",
+    "Maximaal twee glazen vlak voor de vlucht",
+    "Alcohol is alleen voor instructeurs verboden"
+   ],
+   "juist": 0,
+   "uitleg": "De 10-uursregel: minimaal 10 uur tussen de laatste alcoholconsumptie en het vliegen."
+  },
+  {
+   "v": "Wat is het wettelijke maximale alcoholpromillage voor vliegers in Nederland?",
+   "a": [
+    "0,8 promille",
+    "0,2 promille",
+    "0,5 promille",
+    "1,0 promille"
+   ],
+   "juist": 1,
+   "uitleg": "Voor de luchtvaart geldt in Nederland een limiet van 0,2 promille, strenger dan op de weg."
+  },
+  {
+   "v": "Hoe snel breekt het lichaam alcohol af?",
+   "a": [
+    "Ongeveer 1 promille per uur",
+    "Direct na het stoppen met drinken",
+    "Gemiddeld ongeveer 0,1 tot 0,15 promille per uur",
+    "Dat hangt vooral van koffie af"
+   ],
+   "juist": 2,
+   "uitleg": "De lever breekt alcohol in een vast, laag tempo af; dat is niet te versnellen."
+  },
+  {
+   "v": "Mag je vliegen met een kater terwijl het alcoholpromillage weer nul is?",
+   "a": [
+    "Ja, zonder alcohol in het bloed is er geen probleem",
+    "Ja, mits je veel water drinkt",
+    "Ja, als de vlucht kort is",
+    "Nee, ook een kater vermindert concentratie, reactievermogen en oordeel"
+   ],
+   "juist": 3,
+   "uitleg": "De nawerking van alcohol (kater, slechte slaap, uitdroging) maakt je ongeschikt om te vliegen."
+  },
+  {
+   "v": "Welke effecten van alcohol zijn voor vliegers extra gevaarlijk?",
+   "a": [
+    "Zelfoverschatting, tragere reacties en een verstoord evenwichtsorgaan",
+    "Alleen een droge mond",
+    "Een betere nachtadaptatie",
+    "Een verhoogde G-tolerantie"
+   ],
+   "juist": 0,
+   "uitleg": "Alcohol vermindert het oordeel en verstoort het binnenoor, wat desoriëntatie verergert."
+  },
+  {
+   "v": "Versnellen koffie, frisse lucht of een koude douche de afbraak van alcohol?",
+   "a": [
+    "Ja, aanzienlijk",
+    "Nee, alleen de tijd helpt: de lever bepaalt het tempo",
+    "Ja, maar alleen in combinatie met eten",
+    "Alleen bij jonge mensen"
+   ],
+   "juist": 1,
+   "uitleg": "Niets versnelt de leverafbraak; je voelt je hooguit wakkerder terwijl het promillage gelijk blijft."
+  },
+  {
+   "v": "Je gebruikt een nieuw medicijn op recept. Wat is de juiste handelwijze voor het vliegen?",
+   "a": [
+    "Gewoon vliegen, een arts heeft het immers voorgeschreven",
+    "Alleen de bijsluiter lezen is altijd voldoende",
+    "Nagaan of het middel met vliegen verenigbaar is en bij twijfel een (luchtvaart)arts raadplegen en niet vliegen",
+    "De dosis op vliegdagen halveren"
+   ],
+   "juist": 2,
+   "uitleg": "Een gewone arts kijkt niet naar vliegen; controleer geschiktheid en raadpleeg bij twijfel een AME."
+  },
+  {
+   "v": "Waarom zijn slaapmiddelen en vliegen een slechte combinatie?",
+   "a": [
+    "Slaapmiddelen verbeteren de slaap en dus het vliegen",
+    "Ze werken alleen bij nacht",
+    "Ze zijn onbeperkt houdbaar",
+    "De versuffende werking kan de volgende dag nog aanhouden"
+   ],
+   "juist": 3,
+   "uitleg": "Restwerking van slaapmiddelen vermindert reactie en concentratie, vaak langer dan gedacht."
+  },
+  {
+   "v": "Wat geldt voor vrij verkrijgbare middelen van de drogist?",
+   "a": [
+    "Ook deze kunnen suf maken of het reactievermogen verminderen en dus ongeschikt zijn om mee te vliegen",
+    "Ze zijn altijd veilig omdat er geen recept nodig is",
+    "Ze werken niet op hoogte",
+    "Alleen de prijs verschilt van receptmiddelen"
+   ],
+   "juist": 0,
+   "uitleg": "Ook zelfzorgmiddelen, zoals sommige hoest- en hooikoortsmiddelen, hebben bijwerkingen."
+  },
+  {
+   "v": "Waarom kan een ziekte zelf al reden zijn om niet te vliegen, los van de medicijnen?",
+   "a": [
+    "Ziekte is alleen een probleem bij koorts boven 40 graden",
+    "Koorts, pijn en algehele malaise verminderen concentratie en prestaties",
+    "Ziekte beïnvloedt alleen de spieren",
+    "Alleen besmettelijke ziektes zijn een probleem"
+   ],
+   "juist": 1,
+   "uitleg": "De aandoening zelf tast je prestaties aan, ook als het medicijn onschuldig is."
+  },
+  {
+   "v": "Hoe lang wordt na een bloeddonatie minimaal afgeraden om te vliegen?",
+   "a": [
+    "Een week",
+    "Er is geen wachttijd",
+    "Ongeveer 24 uur",
+    "Twee uur"
+   ],
+   "juist": 2,
+   "uitleg": "Na bloeddonatie is het zuurstoftransport tijdelijk verminderd; wacht minimaal 24 uur."
+  },
+  {
+   "v": "Wat geldt voor cannabis en vliegen?",
+   "a": [
+    "Na een nacht slapen is het veilig",
+    "Kleine hoeveelheden zijn toegestaan",
+    "Het is alleen tijdens wedstrijden verboden",
+    "Het is verboden: de werking kan waarneming en reactievermogen nog dagen beïnvloeden"
+   ],
+   "juist": 3,
+   "uitleg": "THC werkt lang na en drugsgebruik is voor vliegers onder alle omstandigheden verboden."
+  },
+  {
+   "v": "Waarom mag je niet vliegen met een stevige verkoudheid of griep?",
+   "a": [
+    "Verstopte slijmvliezen verhinderen de drukvereffening en de ziekte vermindert je prestaties",
+    "Je stem klinkt dan slecht op de radio",
+    "Verkoudheid trekt op hoogte vanzelf weg",
+    "Alleen vanwege besmettingsgevaar voor de instructeur"
+   ],
+   "juist": 0,
+   "uitleg": "Naast het barotraumarisico maken koorts en malaise je tot een slechtere vlieger."
+  },
+  {
+   "v": "Welke medische verklaring is minimaal vereist voor het SPL (zweefvliegbewijs)?",
+   "a": [
+    "Geen enkele",
+    "Een LAPL-medische verklaring of een klasse 2 keuring",
+    "Een klasse 1 keuring zoals verkeersvliegers",
+    "Alleen een eigen verklaring per e-mail"
+   ],
+   "juist": 1,
+   "uitleg": "Voor het SPL is minimaal een LAPL-medical nodig, afgegeven door een bevoegde arts."
+  },
+  {
+   "v": "Wie is er uiteindelijk verantwoordelijk voor dat een vlieger fit genoeg is voor een vlucht?",
+   "a": [
+    "De instructeur",
+    "De club",
+    "De vlieger (gezagvoerder) zelf",
+    "De keuringsarts"
+   ],
+   "juist": 2,
+   "uitleg": "De gezagvoerder beoordeelt voor elke vlucht zijn eigen geschiktheid."
+  },
+  {
+   "v": "Je bent bij de tandarts plaatselijk verdoofd. Wat is verstandig?",
+   "a": [
+    "Direct daarna vliegen kan zonder bezwaar",
+    "Alleen niet vliegen bij kiespijn",
+    "Een uur wachten is altijd genoeg",
+    "Die dag niet meer vliegen, zeker zolang de verdoving of napijn aanhoudt"
+   ],
+   "juist": 3,
+   "uitleg": "Verdoving en de behandeling zelf kunnen je reactie en welbevinden die dag nog beïnvloeden."
+  },
+  {
+   "v": "Waarom is vliegen met een lege maag onverstandig?",
+   "a": [
+    "Een laag bloedsuikergehalte vermindert concentratie en prestaties",
+    "Honger veroorzaakt hypoxie",
+    "Een lege maag verhoogt de G-tolerantie te veel",
+    "Je wordt er te licht van"
+   ],
+   "juist": 0,
+   "uitleg": "Zonder brandstof daalt het bloedsuikergehalte en daarmee je denk- en reactievermogen."
+  },
+  {
+   "v": "Welke verschijnselen passen bij een te laag bloedsuikergehalte (hypoglykemie)?",
+   "a": [
+    "Blauwe lippen en oorpijn",
+    "Trillen, zweten, hongergevoel en concentratieverlies",
+    "Koorts en hoesten",
+    "Jeukende ogen"
+   ],
+   "juist": 1,
+   "uitleg": "Een laag bloedsuikergehalte geeft trillerigheid, zweten en verminderde concentratie."
+  },
+  {
+   "v": "Waar staat de E in I'M SAFE onder andere voor?",
+   "a": [
+    "Engine",
+    "Exercise",
+    "Emotion, en vaak ook Eating",
+    "Emergency"
+   ],
+   "juist": 2,
+   "uitleg": "De E staat voor Emotion (emoties) en in veel versies ook voor Eating (voeding)."
+  },
+  {
+   "v": "Wanneer mag je na een operatie weer vliegen?",
+   "a": [
+    "Zodra de wond dicht is",
+    "Na precies een week",
+    "Direct na ontslag uit het ziekenhuis",
+    "Pas na volledig herstel en zo nodig na overleg met een (luchtvaart)arts"
+   ],
+   "juist": 3,
+   "uitleg": "Na een ingreep bepaalt het herstel, eventueel met medisch advies, wanneer vliegen weer kan."
+  },
+  {
+   "v": "Wat is een verstandige omgang met hoofdpijn voor een vlucht?",
+   "a": [
+    "Nagaan wat de oorzaak is: hoofdpijn kan wijzen op uitdroging, vermoeidheid of ziekte en is dan reden om niet te vliegen",
+    "Altijd gewoon vliegen na een pijnstiller",
+    "Hoofdpijn verdwijnt vanzelf op hoogte",
+    "Twee pijnstillers nemen en direct starten"
+   ],
+   "juist": 0,
+   "uitleg": "Niet de pijnstiller maar de onderliggende oorzaak bepaalt of je geschikt bent om te vliegen."
+  },
+  {
+   "v": "Wat is het verschil tussen oudere en moderne antihistaminica (hooikoortsmiddelen)?",
+   "a": [
+    "Moderne middelen werken niet",
+    "Oudere middelen maken vaak suf; ook bij moderne middelen moet je op bijwerkingen letten",
+    "Oudere middelen zijn veiliger voor vliegers",
+    "Er is geen verschil"
+   ],
+   "juist": 1,
+   "uitleg": "Klassieke antihistaminica zijn sterk versuffend; test ook moderne middelen eerst op de grond."
+  },
+  {
+   "v": "Wat doe je als je twijfelt of een gezondheidsklacht vliegen toelaat?",
+   "a": [
+    "Gewoon vliegen en het aanzien",
+    "De klacht verzwijgen voor de instructeur",
+    "Niet vliegen en zo nodig een (luchtvaart)arts raadplegen",
+    "Alleen korte starts maken"
+   ],
+   "juist": 2,
+   "uitleg": "Bij twijfel over de eigen gezondheid geldt: niet vliegen en eerst advies inwinnen."
+  },
+  {
+   "v": "Welke twee hoofdvormen van vermoeidheid worden onderscheiden?",
+   "a": [
+    "Fysieke en sociale",
+    "Warme en koude",
+    "Snelle en langzame",
+    "Acute en chronische vermoeidheid"
+   ],
+   "juist": 3,
+   "uitleg": "Acute vermoeidheid ontstaat op een dag, chronische bouwt zich over langere tijd op."
+  },
+  {
+   "v": "Wat is het enige echte middel tegen vermoeidheid?",
+   "a": [
+    "Slaap",
+    "Koffie",
+    "Frisse lucht",
+    "Suiker"
+   ],
+   "juist": 0,
+   "uitleg": "Alleen slaap herstelt vermoeidheid; koffie en suiker maskeren haar hooguit kort."
+  },
+  {
+   "v": "Hoeveel slaap heeft een volwassene gemiddeld per nacht nodig?",
+   "a": [
+    "4 tot 5 uur",
+    "Ongeveer 7 tot 9 uur",
+    "Minstens 11 uur",
+    "Dat maakt niet uit, als het weektotaal maar klopt"
+   ],
+   "juist": 1,
+   "uitleg": "De meeste volwassenen hebben 7 tot 9 uur slaap per nacht nodig."
+  },
+  {
+   "v": "Op welke momenten van het etmaal is de menselijke prestatie van nature het laagst?",
+   "a": [
+    "Rond het middaguur en middernacht",
+    "In de vroege avond",
+    "In de vroege ochtenduren en tijdens de middagdip",
+    "Alleen direct na het ontwaken"
+   ],
+   "juist": 2,
+   "uitleg": "Het biologische ritme kent dieptepunten in de vroege ochtend en in het begin van de middag."
+  },
+  {
+   "v": "Welke verschijnselen passen bij vermoeidheid?",
+   "a": [
+    "Verhoogde waakzaamheid",
+    "Snellere reacties",
+    "Betere concentratie",
+    "Tragere reacties, concentratieverlies en het accepteren van lagere normen"
+   ],
+   "juist": 3,
+   "uitleg": "Een vermoeide vlieger reageert trager en neemt genoegen met slordiger vliegen."
+  },
+  {
+   "v": "Wat kenmerkt chronische vermoeidheid?",
+   "a": [
+    "Ze bouwt zich op door langdurig slaaptekort en verdwijnt niet na één nacht slapen",
+    "Ze ontstaat alleen door sporten",
+    "Ze duurt maximaal een dag",
+    "Ze treft alleen beroepsvliegers"
+   ],
+   "juist": 0,
+   "uitleg": "Opgebouwd slaaptekort vraagt meerdere nachten goede slaap om te herstellen."
+  },
+  {
+   "v": "Wat beschrijft de wet van Yerkes en Dodson (de omgekeerde U)?",
+   "a": [
+    "Hoe hoger de stress, hoe beter de prestatie",
+    "De prestatie is optimaal bij een gemiddeld spanningsniveau en neemt af bij te weinig of te veel spanning",
+    "Stress heeft geen invloed op prestaties",
+    "Alleen volledige ontspanning geeft topprestaties"
+   ],
+   "juist": 1,
+   "uitleg": "Zowel verveling als paniek verslechtert de prestatie; een matige spanning is optimaal."
+  },
+  {
+   "v": "Wat gebeurt er bij extreem hoge stress met de aandacht?",
+   "a": [
+    "De aandacht wordt breder",
+    "Er verandert niets",
+    "De aandacht vernauwt zich (tunnelvisie) en men valt terug op ingesleten gedrag",
+    "Men neemt juist meer details waar"
+   ],
+   "juist": 2,
+   "uitleg": "Onder hoge stress ontstaat tunnelvisie en grijpt men terug op oude automatismen."
+  },
+  {
+   "v": "Wat zijn voorbeelden van omgevingsstressoren in de cockpit?",
+   "a": [
+    "Alleen slecht nieuws van thuis",
+    "Alleen een verkeerde stoelafstelling",
+    "Hoogtevrees",
+    "Lawaai, hitte, kou en trillingen"
+   ],
+   "juist": 3,
+   "uitleg": "Fysieke omgevingsfactoren zoals lawaai, temperatuur en trillingen belasten de vlieger ongemerkt."
+  },
+  {
+   "v": "Wat is probleemgerichte coping?",
+   "a": [
+    "De oorzaak van de stress zelf aanpakken",
+    "De gevoelens wegstoppen",
+    "Het probleem ontkennen",
+    "Afleiding zoeken"
+   ],
+   "juist": 0,
+   "uitleg": "Probleemgerichte coping pakt de bron van de stress aan in plaats van alleen het gevoel."
+  },
+  {
+   "v": "Vanaf hoeveel vochtverlies neemt de mentale prestatie al merkbaar af?",
+   "a": [
+    "Pas bij 10% van het lichaamsgewicht",
+    "Al bij ongeveer 1 tot 2% van het lichaamsgewicht",
+    "Pas bij zichtbare uitputting",
+    "Vochtverlies heeft geen invloed op het denken"
+   ],
+   "juist": 1,
+   "uitleg": "Al bij 1 tot 2% vochtverlies dalen concentratie en beoordelingsvermogen merkbaar."
+  },
+  {
+   "v": "Welke verschijnselen wijzen op uitdroging tijdens een lange vlucht?",
+   "a": [
+    "Koude rillingen en niezen",
+    "Verhoogde eetlust",
+    "Hoofdpijn, vermoeidheid, concentratieverlies en donkere urine",
+    "Jeukende handen"
+   ],
+   "juist": 2,
+   "uitleg": "Hoofdpijn, sloomheid en donkere urine zijn klassieke tekenen van vochttekort."
+  },
+  {
+   "v": "Wat is een goed drinkschema tijdens een lange overlandvlucht?",
+   "a": [
+    "Alleen drinken voor de start",
+    "Pas drinken bij dorst",
+    "Zo min mogelijk drinken om plassen te voorkomen",
+    "Regelmatig kleine hoeveelheden water drinken, ook zonder dorstgevoel"
+   ],
+   "juist": 3,
+   "uitleg": "Regelmatig kleine slokken houden het vochtgehalte en de prestaties op peil."
+  },
+  {
+   "v": "Waarom is dorst een slechte graadmeter voor het vochttekort?",
+   "a": [
+    "Dorst treedt pas op als er al een aanzienlijk vochttekort is",
+    "Dorst zegt alleen iets over zout",
+    "Dorst treedt te vroeg op",
+    "Dorst voel je op hoogte juist sterker"
+   ],
+   "juist": 0,
+   "uitleg": "Wanneer je dorst voelt, ben je al uitgedroogd; drink daarom voor het dorstgevoel uit."
+  },
+  {
+   "v": "Welke dranken werken vochtafdrijvend en zijn dus minder geschikt tegen uitdroging?",
+   "a": [
+    "Water en bouillon",
+    "Koffie en alcoholhoudende dranken",
+    "Melk",
+    "Isotone sportdrank"
+   ],
+   "juist": 1,
+   "uitleg": "Cafeïne en alcohol stimuleren de urineproductie en verergeren vochtverlies."
+  },
+  {
+   "v": "Welke verschijnselen passen bij een zonnesteek of hitteberoerte?",
+   "a": [
+    "Een bleke, koude huid en rillen",
+    "Een trage hartslag en honger",
+    "Hoofdpijn, misselijkheid, een rode hete huid en verwardheid",
+    "Alleen spierpijn"
+   ],
+   "juist": 2,
+   "uitleg": "Bij een zonnesteek raakt de warmteregulatie overbelast: heet, rood, misselijk en verward."
+  },
+  {
+   "v": "Hoe bescherm je jezelf op een warme vliegdag op het startveld?",
+   "a": [
+    "Extra koffie drinken",
+    "Donkere kleding dragen",
+    "In de auto wachten met de ramen dicht",
+    "Schaduw opzoeken, een hoofddeksel dragen en regelmatig water drinken"
+   ],
+   "juist": 3,
+   "uitleg": "Schaduw, hoofdbedekking en drinken voorkomen oververhitting en uitdroging."
+  },
+  {
+   "v": "Welke verschijnselen passen bij onderkoeling?",
+   "a": [
+    "Rillen, apathie, onhandigheid en verminderd beoordelingsvermogen",
+    "Zweten en dorst",
+    "Een rode, hete huid",
+    "Verhoogde spierkracht"
+   ],
+   "juist": 0,
+   "uitleg": "Onderkoeling begint met rillen en eindigt met apathie en slecht oordelen."
+  },
+  {
+   "v": "Waarom neem je op een hoogtevlucht warme kleding mee, ook op een zomerdag?",
+   "a": [
+    "Voor het gewicht als ballast",
+    "De temperatuur daalt gemiddeld ongeveer 2 graden per 300 meter, dus op hoogte kan het streng vriezen",
+    "Warme kleding beschermt tegen G-krachten",
+    "Dat staat professioneler"
+   ],
+   "juist": 1,
+   "uitleg": "Met circa 0,65 graden per 100 meter daling is het op 5000 meter zomers al ver onder nul."
+  },
+  {
+   "v": "Wat gebeurt er met de UV-straling naarmate je hoger vliegt?",
+   "a": [
+    "Die neemt af",
+    "Die blijft gelijk",
+    "Die neemt duidelijk toe, waardoor huid en ogen extra bescherming nodig hebben",
+    "Die is boven de wolken afwezig"
+   ],
+   "juist": 2,
+   "uitleg": "De dunnere atmosfeer filtert minder UV; per 1000 meter neemt de belasting ongeveer 10% toe."
+  },
+  {
+   "v": "Wat neem je mee op een lange overlandvlucht om je prestaties op peil te houden?",
+   "a": [
+    "Alleen kauwgom",
+    "Niets, eten leidt af",
+    "Energiedrank in plaats van water",
+    "Voldoende water en licht verteerbaar eten"
+   ],
+   "juist": 3,
+   "uitleg": "Vocht en lichte voeding voorkomen uitdroging en een dip in het bloedsuikergehalte."
+  },
+  {
+   "v": "Waarom verdient de middagdip extra aandacht op een vliegdag?",
+   "a": [
+    "De natuurlijke alertheid is dan lager, waardoor fouten eerder optreden",
+    "Het is dan altijd te warm om te vliegen",
+    "De thermiek stopt dan",
+    "Instructeurs zijn dan niet beschikbaar"
+   ],
+   "juist": 0,
+   "uitleg": "In het begin van de middag zakt de alertheid door het biologische ritme."
+  },
+  {
+   "v": "Wat is het effect van alcohol op de nachtrust?",
+   "a": [
+    "Alcohol geeft een diepere, betere slaap",
+    "Alcohol verslechtert de slaapkwaliteit, ook al val je er sneller door in slaap",
+    "Alcohol heeft geen effect op slaap",
+    "Alcohol vervangt slaap"
+   ],
+   "juist": 1,
+   "uitleg": "Na alcohol is de slaap oppervlakkiger en minder herstellend."
+  },
+  {
+   "v": "Wat gebeurt er in het lichaam bij een acute stressreactie?",
+   "a": [
+    "De spijsvertering versnelt",
+    "De hartslag daalt",
+    "Adrenaline komt vrij: hartslag, bloeddruk en spierspanning nemen toe (vecht-of-vluchtreactie)",
+    "Het lichaam koelt af"
+   ],
+   "juist": 2,
+   "uitleg": "De vecht-of-vluchtreactie maakt het lichaam klaar voor actie via adrenaline."
+  },
+  {
+   "v": "Welk risico hoort bij een lange, eentonige steek met weinig gebeurtenissen?",
+   "a": [
+    "Hyperventilatie",
+    "Overbelasting van het werkgeheugen",
+    "Roodzien",
+    "Verveling en afnemende waakzaamheid, waardoor signalen worden gemist"
+   ],
+   "juist": 3,
+   "uitleg": "Bij onderbelasting zakt de waakzaamheid en worden veranderingen later opgemerkt."
+  },
+  {
+   "v": "Uit welke stappen bestaat de menselijke informatieverwerking in grote lijnen?",
+   "a": [
+    "Waarnemen, verwerken en beslissen, handelen en terugkoppelen",
+    "Kijken, roepen, trekken",
+    "Plannen, eten, slapen",
+    "Starten, vliegen, landen"
+   ],
+   "juist": 0,
+   "uitleg": "Informatie wordt waargenomen, verwerkt tot een besluit, omgezet in actie en teruggekoppeld."
+  },
+  {
+   "v": "Hoeveel items kan het werkgeheugen gemiddeld tegelijk vasthouden?",
+   "a": [
+    "1 tot 2",
+    "Ongeveer 7, plus of min 2",
+    "Ongeveer 20",
+    "Onbeperkt veel"
+   ],
+   "juist": 1,
+   "uitleg": "Het werkgeheugen kan ongeveer 5 tot 9 losse items tegelijk bevatten."
+  },
+  {
+   "v": "Hoe lang blijft informatie in het werkgeheugen bewaard zonder herhaling?",
+   "a": [
+    "Enkele uren",
+    "Ongeveer 5 minuten",
+    "In de orde van 10 tot 20 seconden",
+    "Voor altijd"
+   ],
+   "juist": 2,
+   "uitleg": "Zonder actieve herhaling vervaagt informatie in het werkgeheugen binnen tientallen seconden."
+  },
+  {
+   "v": "Wat kenmerkt het langetermijngeheugen?",
+   "a": [
+    "Het wist zichzelf elke nacht",
+    "Het bevat maximaal 7 items",
+    "Het werkt alleen onder stress",
+    "Het heeft een vrijwel onbeperkte capaciteit en bewaart informatie langdurig"
+   ],
+   "juist": 3,
+   "uitleg": "Het langetermijngeheugen is vrijwel onbegrensd; het probleem zit vooral in het terugvinden."
+  },
+  {
+   "v": "Wat is chunking?",
+   "a": [
+    "Informatie groeperen in betekenisvolle eenheden zodat het werkgeheugen meer aankan",
+    "Het opdelen van de vlucht in etappes",
+    "Een ademtechniek",
+    "Het wissen van overbodige informatie"
+   ],
+   "juist": 0,
+   "uitleg": "Door items te bundelen, zoals cijfergroepen in een frequentie, onthoud je effectief meer."
+  },
+  {
+   "v": "Wat is een belangrijke beperking van de menselijke aandacht?",
+   "a": [
+    "Aandacht is onbeperkt trainbaar",
+    "De capaciteit is beperkt: bewust kun je maar weinig dingen tegelijk doen",
+    "Aandacht werkt alleen bij daglicht",
+    "Aandacht is bij iedereen precies gelijk"
+   ],
+   "juist": 1,
+   "uitleg": "Bewuste aandacht is een schaarse bron die over taken verdeeld moet worden."
+  },
+  {
+   "v": "Wanneer lukt het uitvoeren van twee taken tegelijk het best?",
+   "a": [
+    "Als beide taken nieuw zijn",
+    "Als beide taken veel denkwerk vragen",
+    "Als minstens één van de taken sterk geautomatiseerd is",
+    "Twee taken tegelijk lukt nooit"
+   ],
+   "juist": 2,
+   "uitleg": "Een geautomatiseerde taak vraagt weinig aandacht, zodat er capaciteit overblijft voor de andere."
+  },
+  {
+   "v": "Wat is het gevaar van verwachtingspatronen bij bijvoorbeeld radiocommunicatie?",
+   "a": [
+    "Je spreekt te langzaam",
+    "Je onthoudt te veel",
+    "De radio valt uit",
+    "Je hoort wat je verwacht te horen in plaats van wat er werkelijk wordt gezegd"
+   ],
+   "juist": 3,
+   "uitleg": "De waarneming wordt gekleurd door verwachting; terugleesprocedures vangen dit af."
+  },
+  {
+   "v": "Hoe ontstaan geautomatiseerde (motorische) vaardigheden?",
+   "a": [
+    "Door veelvuldig oefenen, waarna de uitvoering weinig bewuste aandacht meer vraagt",
+    "Door er veel over te lezen",
+    "Door een eenmalige demonstratie",
+    "Door aanleg alleen"
+   ],
+   "juist": 0,
+   "uitleg": "Herhaald oefenen maakt handelingen automatisch en maakt aandacht vrij voor andere taken."
+  },
+  {
+   "v": "Wat is een slip (uitvoeringsfout)?",
+   "a": [
+    "Een bewuste overtreding van de regels",
+    "Een goede bedoeling die verkeerd wordt uitgevoerd, bijvoorbeeld de verkeerde hendel pakken",
+    "Een verkeerd plan dat goed wordt uitgevoerd",
+    "Het vergeten van een afspraak"
+   ],
+   "juist": 1,
+   "uitleg": "Bij een slip is het plan goed maar gaat de uitvoering onbedoeld mis."
+  },
+  {
+   "v": "Wat is een mistake (denk- of planfout)?",
+   "a": [
+    "Een verspreking",
+    "Een toevallige beweging",
+    "Een verkeerd plan of een verkeerde beslissing, die vervolgens correct wordt uitgevoerd",
+    "Hetzelfde als een overtreding"
+   ],
+   "juist": 2,
+   "uitleg": "Bij een mistake zit de fout in het plan of de beoordeling, niet in de uitvoering."
+  },
+  {
+   "v": "Wat is een violation?",
+   "a": [
+    "Een geheugenfout",
+    "Een waarnemingsfout",
+    "Een onvermijdelijke fout",
+    "Een bewuste afwijking van regels of procedures"
+   ],
+   "juist": 3,
+   "uitleg": "Een violation is geen vergissing maar een bewuste keuze om regels te negeren."
+  },
+  {
+   "v": "Hoe lang duurt een eenvoudige reactie op een verwacht signaal ongeveer?",
+   "a": [
+    "Ongeveer 0,2 seconden",
+    "Ongeveer 2 seconden",
+    "Ongeveer 5 seconden",
+    "Minder dan 0,01 seconden"
+   ],
+   "juist": 0,
+   "uitleg": "Een simpele reactie kost ongeveer een vijfde seconde; complexe keuzes duren langer."
+  },
+  {
+   "v": "Wat gebeurt er met de reactietijd als er uit meerdere mogelijke reacties gekozen moet worden?",
+   "a": [
+    "Die blijft gelijk",
+    "Die wordt langer",
+    "Die wordt korter",
+    "Die wordt onmeetbaar klein"
+   ],
+   "juist": 1,
+   "uitleg": "Hoe meer keuzemogelijkheden, hoe langer het beslissen en dus de reactie duurt."
+  },
+  {
+   "v": "Waar staat het beslismodel FOR-DEC voor?",
+   "a": [
+    "Een checklist voor het weer",
+    "Een sterkteberekening",
+    "Facts, Options, Risks - Decision, Execution, Check",
+    "Een radioprocedure"
+   ],
+   "juist": 2,
+   "uitleg": "FOR-DEC structureert besluitvorming: feiten, opties en risico's, dan beslissen, uitvoeren en controleren."
+  },
+  {
+   "v": "Wat is confirmation bias?",
+   "a": [
+    "De neiging om alles dubbel te controleren",
+    "De neiging om risico's te overschatten",
+    "De neiging om beslissingen uit te stellen",
+    "De neiging om vooral informatie te zoeken die de eigen overtuiging bevestigt"
+   ],
+   "juist": 3,
+   "uitleg": "Wie al overtuigd is, ziet vooral bevestigende signalen en mist tegenbewijs."
+  },
+  {
+   "v": "Wat is plan continuation bias (get-there-itis)?",
+   "a": [
+    "De neiging om aan een plan vast te houden terwijl de omstandigheden allang om aanpassing vragen",
+    "Het steeds opnieuw plannen van een vlucht",
+    "Angst om te vertrekken",
+    "Het uitstellen van beslissingen tot na de landing"
+   ],
+   "juist": 0,
+   "uitleg": "Hoe dichter bij het doel, hoe moeilijker het wordt om een plan los te laten."
+  },
+  {
+   "v": "Een clubgenoot start ondanks twijfelachtig weer en anderen volgen hem. Welk verschijnsel speelt hier?",
+   "a": [
+    "Autokinese",
+    "Groepsdruk: het gedrag van anderen weegt zwaarder dan de eigen afweging",
+    "De somatogravische illusie",
+    "Chunking"
+   ],
+   "juist": 1,
+   "uitleg": "Groepsdruk verleidt vliegers tot beslissingen die ze alleen nooit zouden nemen."
+  },
+  {
+   "v": "Welke vijf gevaarlijke attitudes worden in de luchtvaart onderscheiden?",
+   "a": [
+    "Moed, angst, trots, haast en twijfel",
+    "Honger, dorst, kou, hitte en pijn",
+    "Anti-autoriteit, impulsiviteit, onkwetsbaarheid, macho en gelatenheid",
+    "Blijdschap, boosheid, verdriet, verbazing en walging"
+   ],
+   "juist": 2,
+   "uitleg": "Deze vijf houdingen ondermijnen veilige besluitvorming en hebben elk een eigen tegengif."
+  },
+  {
+   "v": "Wat is het tegengif (antidote) voor de gevaarlijke attitude onkwetsbaarheid (het overkomt mij niet)?",
+   "a": [
+    "Regels zijn er voor anderen",
+    "Ik doe het snel even",
+    "Ik kan er toch niets aan doen",
+    "Het kan ook mij overkomen"
+   ],
+   "juist": 3,
+   "uitleg": "Het bewust uitspreken dat het jou ook kan overkomen corrigeert het gevoel van onkwetsbaarheid."
+  },
+  {
+   "v": "Uit welke drie niveaus bestaat situational awareness (omgevingsbewustzijn)?",
+   "a": [
+    "Waarnemen, begrijpen en vooruitzien",
+    "Kijken, luisteren en voelen",
+    "Starten, klimmen en landen",
+    "Plannen, uitvoeren en evalueren"
+   ],
+   "juist": 0,
+   "uitleg": "Volgens Endsley: de situatie waarnemen, de betekenis begrijpen en de ontwikkeling voorspellen."
+  },
+  {
+   "v": "Welke signalen wijzen op verlies van situational awareness?",
+   "a": [
+    "Een opgeruimde cockpit",
+    "Verrassingen, tegenstrijdige informatie en achter de feiten aanlopen",
+    "Een stabiele nadering",
+    "Rustige radiocommunicatie"
+   ],
+   "juist": 1,
+   "uitleg": "Wie verrast wordt of tegenstrijdigheden negeert, is het overzicht aan het verliezen."
+  },
+  {
+   "v": "Wat is de juiste prioriteitsvolgorde bij problemen in de lucht?",
+   "a": [
+    "Communiceren, navigeren, vliegen",
+    "Navigeren, communiceren, vliegen",
+    "Eerst vliegen, dan navigeren, dan communiceren (aviate, navigate, communicate)",
+    "Eerst de radio, dan de kaart"
+   ],
+   "juist": 2,
+   "uitleg": "De besturing van het vliegtuig gaat altijd voor navigatie en communicatie."
+  },
+  {
+   "v": "Wat is complacency?",
+   "a": [
+    "Angst voor nieuwe situaties",
+    "Overdreven voorzichtigheid",
+    "Gebrek aan ervaring",
+    "Zelfgenoegzaamheid door routine, waardoor aandacht en controle verslappen"
+   ],
+   "juist": 3,
+   "uitleg": "Routine kan leiden tot minder alert controleren, juist bij ervaren vliegers."
+  },
+  {
+   "v": "Wat is negatieve transfer bij het omscholen naar een ander vliegtuigtype?",
+   "a": [
+    "Ingesleten handelingen van het oude type worden onbedoeld op het nieuwe type toegepast",
+    "Het nieuwe type vliegt slechter",
+    "De leerling wil niet leren",
+    "Kennis van het oude type gaat verloren"
+   ],
+   "juist": 0,
+   "uitleg": "Oude automatismen, zoals de plaats van een hendel, kunnen op een nieuw type tot fouten leiden."
+  },
+  {
+   "v": "Wat beschrijft het gatenkaasmodel (Swiss cheese model) van Reason?",
+   "a": [
+    "Dat fouten alleen door beginners worden gemaakt",
+    "Een ongeval ontstaat als de gaten in meerdere verdedigingslagen toevallig op één lijn liggen",
+    "Dat techniek de meeste ongevallen veroorzaakt",
+    "Dat elke fout direct tot een ongeval leidt"
+   ],
+   "juist": 1,
+   "uitleg": "Meerdere barrières hebben elk zwakke plekken; pas als die samenvallen, gebeurt een ongeval."
+  },
+  {
+   "v": "Wat wordt bedoeld met een foutenketen?",
+   "a": [
+    "Een rij administratieve fouten",
+    "Fouten die alleen instructeurs maken",
+    "Een ongeval is meestal het gevolg van een reeks kleinere fouten en omstandigheden, niet van één oorzaak",
+    "Een ketting van checklists"
+   ],
+   "juist": 2,
+   "uitleg": "Ongevallen ontstaan vrijwel altijd uit een opeenstapeling van kleine schakels."
+  },
+  {
+   "v": "Wat is het verschil tussen threats en errors in threat and error management (TEM)?",
+   "a": [
+    "Threats zijn ernstiger dan errors",
+    "Errors komen altijd van buiten",
+    "Het zijn synoniemen",
+    "Threats komen van buiten de vlieger, errors ontstaan door het eigen handelen"
+   ],
+   "juist": 3,
+   "uitleg": "Een threat is een externe bedreiging, een error een fout van de vlieger zelf."
+  },
+  {
+   "v": "Wat is een voorbeeld van een threat bij een zweefvliegvlucht?",
+   "a": [
+    "Snel verslechterend weer of drukte in het circuit",
+    "Het vergeten van een checklistpunt",
+    "Een verkeerd ingeschatte hoogte",
+    "Het kiezen van een verkeerde snelheid"
+   ],
+   "juist": 0,
+   "uitleg": "Weer, verkeer en terrein zijn externe bedreigingen; de andere opties zijn eigen fouten."
+  },
+  {
+   "v": "Wat is een undesired aircraft state?",
+   "a": [
+    "Een vliegtuig zonder geldig bewijs van luchtwaardigheid",
+    "Een ongewenste toestand van het vliegtuig, zoals een te lage naderingssnelheid",
+    "Een geparkeerd vliegtuig",
+    "Een vliegtuig in onderhoud"
+   ],
+   "juist": 1,
+   "uitleg": "Slecht beheerste threats of errors kunnen uitmonden in een ongewenste vliegtoestand."
+  },
+  {
+   "v": "Wanneer kan een foutenketen het gemakkelijkst worden doorbroken?",
+   "a": [
+    "Pas na de landing",
+    "Alleen door de instructeur",
+    "Zo vroeg mogelijk, zodra de eerste afwijking wordt opgemerkt",
+    "Vlak voor het ongeval"
+   ],
+   "juist": 2,
+   "uitleg": "Hoe eerder een schakel wordt herkend en gecorrigeerd, hoe kleiner de gevolgen."
+  },
+  {
+   "v": "Welk mentaal risico speelt bij een dreigende buitenlanding?",
+   "a": [
+    "Te vroeg een veld kiezen",
+    "Te veel drinken",
+    "Overmatig communiceren",
+    "Tunnelvisie: zo lang naar thermiek blijven zoeken dat er geen tijd meer is voor een goede veldkeuze"
+   ],
+   "juist": 3,
+   "uitleg": "De focus op thuiskomen verdringt de veldkeuze; kies daarom op tijd voor de buitenlanding."
+  },
+  {
+   "v": "Wat is een gezonde aanpak bij afnemende hoogte boven onbekend terrein?",
+   "a": [
+    "Ruim op tijd landbare velden zoeken en op een vooraf bepaalde hoogte definitief voor de buitenlanding kiezen",
+    "Doorzoeken naar thermiek tot vlak boven de grond",
+    "De radio uitzetten om je te concentreren",
+    "Het besluit overlaten aan de mensen op de grond"
+   ],
+   "juist": 0,
+   "uitleg": "Een vaste beslishoogte laat genoeg tijd en hoogte over voor een veilig buitenlandingscircuit."
+  },
+  {
+   "v": "Waarom nemen fouten juist aan het einde van een lange overlandvlucht toe?",
+   "a": [
+    "De thermiek is dan sterker",
+    "Vermoeidheid, uitdroging, kou en concentratieverlies stapelen zich dan op",
+    "Het vliegtuig wordt zwaarder",
+    "De zon staat dan hoger"
+   ],
+   "juist": 1,
+   "uitleg": "Na uren vliegen zijn de reserves op, terwijl de landing juist volle aandacht vraagt."
+  },
+  {
+   "v": "Welk effect heeft langdurige kou in de cockpit op de vlieger?",
+   "a": [
+    "Alleen een oncomfortabel gevoel",
+    "Betere alertheid",
+    "Verminderde concentratie en verlies van fijne motoriek in handen en voeten",
+    "Snellere reacties"
+   ],
+   "juist": 2,
+   "uitleg": "Kou vermindert denken en fijne motoriek, wat het bedienen van het vliegtuig bemoeilijkt."
+  },
+  {
+   "v": "Sommige vliegers drinken voor lange vluchten bewust weinig om niet te hoeven plassen. Wat is daarvan te zeggen?",
+   "a": [
+    "Verstandig, plassen leidt af",
+    "Goed idee, dorst houdt je scherp",
+    "Het maakt niet uit",
+    "Onverstandig: uitdroging vermindert de prestaties; regel liever een plasoplossing en blijf drinken"
+   ],
+   "juist": 3,
+   "uitleg": "Bewust uitdrogen ruilt een praktisch ongemak in voor een echt veiligheidsrisico."
+  },
+  {
+   "v": "Waarom worden checklists gebruikt?",
+   "a": [
+    "Ze ontlasten het geheugen en zorgen dat kritieke punten altijd en in vaste volgorde worden gecontroleerd",
+    "Omdat de verzekering het eist",
+    "Om de start te vertragen",
+    "Alleen voor beginners"
+   ],
+   "juist": 0,
+   "uitleg": "Het geheugen is feilbaar; een checklist maakt de controle volledig en consistent."
+  },
+  {
+   "v": "Je wordt halverwege de startcheck gestoord door een vraag. Wat is de veiligste aanpak?",
+   "a": [
+    "Gewoon verdergaan waar je denkt dat je was",
+    "De checklist opnieuw beginnen of teruggaan naar een duidelijk herkenbaar punt",
+    "De rest van de check overslaan",
+    "De check na de start afmaken"
+   ],
+   "juist": 1,
+   "uitleg": "Na een onderbreking weet je niet zeker waar je was; opnieuw beginnen voorkomt overgeslagen punten."
+  },
+  {
+   "v": "Na lang wachten in de startrij mag je plotseling direct starten. Wat is het risico?",
+   "a": [
+    "De lier is dan te heet",
+    "Het vliegtuig is te koud geworden",
+    "Haast: door de tijdsdruk worden checks afgeraffeld of overgeslagen",
+    "De thermiek is dan voorbij"
+   ],
+   "juist": 2,
+   "uitleg": "Plotselinge tijdsdruk verleidt tot afraffelen; neem bewust de tijd voor de volledige check."
+  },
+  {
+   "v": "Wat zijn persoonlijke minima?",
+   "a": [
+    "De minimale duur van een vlucht",
+    "De minimumleeftijd voor solovliegen",
+    "Het laagste cijfer op het theorie-examen",
+    "Zelf vooraf vastgestelde grenzen, bijvoorbeeld voor wind en zicht, die je ook onder druk aanhoudt"
+   ],
+   "juist": 3,
+   "uitleg": "Vooraf bepaalde eigen grenzen beschermen tegen beslissen onder druk van het moment."
+  },
+  {
+   "v": "Waarom is het melden van voorvallen en bijna-ongevallen belangrijk?",
+   "a": [
+    "Anderen kunnen ervan leren en dezelfde fout wordt eerder voorkomen",
+    "Om schuldigen aan te wijzen",
+    "Voor de statistieken van de verzekering",
+    "Het is alleen belangrijk bij schade"
+   ],
+   "juist": 0,
+   "uitleg": "Gemelde voorvallen maken zwakke plekken zichtbaar voordat er een ongeval gebeurt."
+  },
+  {
+   "v": "Wat houdt just culture in?",
+   "a": [
+    "Niemand is ooit verantwoordelijk",
+    "Eerlijke fouten kunnen veilig gemeld worden zonder straf; alleen opzet en grove nalatigheid worden aangerekend",
+    "Elke fout wordt bestraft",
+    "Alleen de gezagvoerder mag melden"
+   ],
+   "juist": 1,
+   "uitleg": "Een veilige meldcultuur bevordert leren; straf op eerlijke fouten smoort meldingen."
+  },
+  {
+   "v": "Hoe pas je threat and error management toe vóór de start?",
+   "a": [
+    "Door harder te vliegen",
+    "Door alleen op ervaring te vertrouwen",
+    "Door vooraf te benoemen welke bedreigingen (weer, drukte, terrein) je verwacht en hoe je erop reageert",
+    "Door de vlucht uit te stellen tot er geen threats meer zijn"
+   ],
+   "juist": 2,
+   "uitleg": "Verwachte threats vooraf benoemen maakt dat je er in de lucht sneller en beter op reageert."
+  },
+  {
+   "v": "Welke groep vliegers is extra gevoelig voor zelfoverschatting?",
+   "a": [
+    "Leerlingen voor hun eerste solo",
+    "Instructeurs met duizenden starts",
+    "Passagiers",
+    "Vliegers die net hun brevet hebben gehaald en zelfstandig gaan vliegen"
+   ],
+   "juist": 3,
+   "uitleg": "Vers gebrevetteerde vliegers missen nog ervaring maar voelen zich al bekwaam: een risicovolle fase."
+  },
+  {
+   "v": "Waarom is een duidelijke overdracht van de besturing (ik heb hem - jij hebt hem) belangrijk?",
+   "a": [
+    "Zo is altijd ondubbelzinnig wie er stuurt en wordt voorkomen dat niemand of juist beiden sturen",
+    "Het is slechts een beleefdheidsvorm",
+    "Alleen voor de radioprocedure",
+    "Om de vluchttijd eerlijk te verdelen"
+   ],
+   "juist": 0,
+   "uitleg": "Een vaste, bevestigde overdracht voorkomt gevaarlijke misverstanden over wie stuurt."
+  },
+  {
+   "v": "Je twijfelt of je met de resterende hoogte het veld nog haalt. Wat is de juiste houding?",
+   "a": [
+    "Doorgaan, twijfel is voor bange vliegers",
+    "Kies de veilige optie: een tijdige buitenlanding is beter dan een te lage aankomst",
+    "Wachten tot de twijfel verdwijnt",
+    "Sneller vliegen om eerder thuis te zijn"
+   ],
+   "juist": 1,
+   "uitleg": "Bij twijfel kies je de optie met de grootste marge; een buitenlanding is geen mislukking."
+  },
+  {
+   "v": "Je merkt tijdens een hoogtevlucht dat je koud, traag en onverschillig wordt. Wat doe je?",
+   "a": [
+    "Doorklimmen, het went vanzelf",
+    "Alleen de handen warm wrijven",
+    "Dit serieus nemen als waarschuwing en tijdig dalen naar warmere lucht",
+    "Even kort slapen"
+   ],
+   "juist": 2,
+   "uitleg": "Traagheid en onverschilligheid wijzen op onderkoeling of hypoxie: tijdig dalen is de remedie."
+  },
+  {
+   "v": "Tijdens een wedstrijd vliegt de hele groep door onder verslechterend weer. Wat is de juiste opstelling?",
+   "a": [
+    "De groep volgen, samen sta je sterk",
+    "De wedstrijdleiding beslist wel",
+    "Doorvliegen maar dan sneller",
+    "Zelf blijven beoordelen en zo nodig als enige omkeren of landen"
+   ],
+   "juist": 3,
+   "uitleg": "De gezagvoerder beslist zelf; groepsgedrag is geen maatstaf voor veiligheid."
+  },
+  {
+   "v": "Hoe voorkom je het verwisselen van hendels, bijvoorbeeld de wielhendel en de kleppenhendel?",
+   "a": [
+    "Kijken en bewust identificeren voordat je een hendel bedient, zeker in een onbekend type",
+    "Alle hendels dezelfde kleur geven",
+    "Sneller bewegen zodat je niet nadenkt",
+    "Hendels alleen op gevoel bedienen"
+   ],
+   "juist": 0,
+   "uitleg": "Bewust kijken en benoemen doorbreekt het automatisme dat naar de verkeerde hendel grijpt."
+  },
+  {
+   "v": "Wat is de meest effectieve strategie tegen menselijke fouten?",
+   "a": [
+    "Meer wilskracht en beter je best doen",
+    "Goede voorbereiding, procedures, checklists en ruime marges, omdat fouten nooit volledig te voorkomen zijn",
+    "Alleen bij perfect weer vliegen",
+    "Fouten verzwijgen om het vertrouwen te bewaren"
+   ],
+   "juist": 1,
+   "uitleg": "Fouten horen bij mensen; procedures en marges vangen ze op voordat ze gevaarlijk worden."
+  }
+ ]
+}
