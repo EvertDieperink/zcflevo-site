@@ -1,6 +1,8 @@
 ---
 title: "Jaarkalender 2026"
 description: "Alle bijzondere data van het vliegjaar 2026: clubactiviteiten, kampen, wedstrijden, feestdagen en schoolvakanties."
+header_image: "/images/kop-jaarkalender.jpg"
+header_position: "50% 40%"
 menu:
   main:
     name: "Jaarkalender"

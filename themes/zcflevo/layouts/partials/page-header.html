@@ -1,9 +1,14 @@
 {{- /* Paginakop voor binnenpagina's: kruimelpad (met de huidige pagina als
        laatste item), titel en beschrijving. Een pagina met header_image in de
-       front matter krijgt een fotokop. */ -}}
+       front matter krijgt een fotokop. Met header_position (bijv. "50% 40%")
+       kies je welke strook van de foto op een breed scherm zichtbaar is; op
+       een telefoon staat de hele foto als strook onder de tekst. */ -}}
 {{- $photo := "" -}}
 {{- with .Params.header_image }}{{ $photo = . | strings.TrimPrefix "/" | relURL }}{{ end -}}
-<div class="page-header{{ if $photo }} has-photo{{ end }}"{{ with $photo }} style="{{ printf "background-image:url('%s')" . | safeCSS }}"{{ end }}>
+{{- $style := "" -}}
+{{- with $photo }}{{ $style = printf "background-image:url('%s')" . }}{{ end -}}
+{{- with .Params.header_position }}{{ $style = printf "%s;--hdr-pos:%s" $style . }}{{ end -}}
+<div class="page-header{{ if $photo }} has-photo{{ end }}"{{ with $photo }} style="{{ $style | safeCSS }}"{{ end }}>
   <div class="container">
     <nav class="breadcrumb" aria-label="Kruimelpad">
       <ol>

@@ -9,7 +9,7 @@ _build:
 
 De **Schleicher ASK-21** is al tientallen jaren dé standaard tweezitter voor de zweefvliegopleiding, en ook bij ZC Flevo het toestel waarin de meeste leden hun eerste vluchten maken. Dit is de club-ASK **PH-1382** met callsign **YW**, bouwjaar 1994.
 
-<img src="{{< url "/images/vloot-ask21.jpg" >}}" alt="Schleicher ASK-21 (YW) van ZC Flevo op Terlet" loading="lazy">
+<img src="{{< url "/images/vloot-ask21-yw.jpg" >}}" alt="Schleicher ASK-21 (YW) van ZC Flevo op Terlet" loading="lazy">
 
 ## Over het toestel
 

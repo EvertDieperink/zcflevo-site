@@ -1,6 +1,8 @@
 ---
 title: "Leden vertellen"
 description: "Lees waarom onze leden zo enthousiast zijn over zweefvliegen bij ZC Flevo."
+header_image: "/images/kop-leden-vertellen.jpg"
+header_position: "50% 47%"
 menu:
   main:
     parent: "onze-club"
@@ -13,7 +15,7 @@ Zweefvliegen is een sport die mensen raakt. Onze leden vertellen graag waarom ze
 
 <div class="leden-card">
   <div class="leden-card-header">
-    <img class="leden-avatar" src="{{< url "/images/stan.jpg" >}}" alt="Stan">
+    <img class="leden-avatar" src="{{< url "/images/portret-stan.jpg" >}}" alt="Stan">
     <div class="leden-name">Stan</div>
   </div>
   <div class="leden-card-body">
@@ -33,7 +35,7 @@ Zweefvliegen is een sport die mensen raakt. Onze leden vertellen graag waarom ze
 
 <div class="leden-card">
   <div class="leden-card-header">
-    <img class="leden-avatar" src="{{< url "/images/erwin.jpg" >}}" alt="Erwin">
+    <img class="leden-avatar" src="{{< url "/images/portret-erwin.jpg" >}}" alt="Erwin">
     <div class="leden-name">Erwin</div>
   </div>
   <div class="leden-card-body">
@@ -73,7 +75,7 @@ Zweefvliegen is een sport die mensen raakt. Onze leden vertellen graag waarom ze
 
 <div class="leden-card">
   <div class="leden-card-header">
-    <img class="leden-avatar" src="{{< url "/images/marijn.jpg" >}}" alt="Marijn">
+    <img class="leden-avatar" src="{{< url "/images/portret-marijn.jpg" >}}" alt="Marijn">
     <div class="leden-name">Marijn</div>
   </div>
   <div class="leden-card-body">

@@ -1,6 +1,8 @@
 ---
 title: "Zomercursus"
 description: "ZC Flevo organiseert in 2026 weer een zweefvlieg zomercursus: een intensieve manier om in korte tijd veel vliegervaring op te doen."
+header_image: "/images/kop-zomercursus.jpg"
+header_position: "50% 50%"
 menu:
   main:
     parent: "de-mogelijkheden"
@@ -20,6 +22,8 @@ De zomercursus is bij uitstek geschikt voor wie:
 - Snel wil ontdekken of zweefvliegen iets voor hem of haar is
 - In korte tijd veel vliegervaring wil opdoen
 - Liever in één compacte periode start dan verspreid over weekenden
+
+![Een lid van ZC Flevo in de cockpit van de Junior op het grasveld](/images/vloot-junior.jpg)
 
 ## Praktische informatie
 

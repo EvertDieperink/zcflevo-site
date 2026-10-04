@@ -39,7 +39,7 @@
       {{- range $i, $s := .Params.hero_images }}
         {{- $img := partial "hp-image.html" (dict "src" $s.src "max" 2000) }}
       <div class="hp-hero-slide{{ if eq $i 0 }} is-active{{ end }}"{{ with $s.shade }} data-shade="{{ . }}"{{ end }} style="--pos:{{ $s.position | default "50% 50%" }};--pos-m:{{ $s.position_mobile | default $s.position | default "50% 50%" }}"{{ if ne $i 0 }} aria-hidden="true"{{ end }}>
-        <img class="hp-hero-img" src="{{ $img.RelPermalink }}" srcset="{{ partial "hp-srcset.html" (dict "src" $s.src "max" 2000) }}" sizes="100vw" alt="{{ $s.alt }}" width="{{ $img.Width }}" height="{{ $img.Height }}"{{ if eq $i 0 }} fetchpriority="high"{{ else }} decoding="async"{{ end }}>
+        <img class="hp-hero-img" src="{{ $img.RelPermalink }}" srcset="{{ partial "hp-srcset.html" (dict "src" $s.src "max" 2000) }}" sizes="max(100vw, {{ int (math.Ceil (mul 470 (div (float $img.Width) $img.Height))) }}px)" alt="{{ $s.alt }}" width="{{ $img.Width }}" height="{{ $img.Height }}"{{ if eq $i 0 }} fetchpriority="high"{{ else }} decoding="async"{{ end }}>
         <div class="hp-hero-shade" aria-hidden="true"></div>
       </div>
       {{- end }}
@@ -110,7 +110,7 @@
       {{- $img := partial "hp-image.html" (dict "src" $callout.image "max" 2000) }}
       <article class="hp-wp hp-right" id="hp-stap-1" aria-labelledby="hp-s1-title">
         <div class="hp-band">
-          <figure class="hp-photo" style="--pos:{{ $callout.image_position | default "50% 50%" }};--pos-m:{{ $callout.image_position_mobile | default $callout.image_position | default "50% 50%" }}"><img src="{{ $img.RelPermalink }}" srcset="{{ partial "hp-srcset.html" (dict "src" $callout.image "max" 2000) }}" sizes="(max-width: 900px) 100vw, 90vw" loading="lazy" decoding="async" alt="{{ $callout.image_alt }}" width="{{ $img.Width }}" height="{{ $img.Height }}"></figure>
+          <figure class="hp-photo" style="--pos:{{ $callout.image_position | default "50% 50%" }};--pos-m:{{ $callout.image_position_mobile | default $callout.image_position | default "50% 50%" }}"><img src="{{ $img.RelPermalink }}" srcset="{{ partial "hp-srcset.html" (dict "src" $callout.image "max" 2000) }}" sizes="(max-width: 900px) max(100vw, {{ int (math.Ceil (mul 230 (div (float $img.Width) $img.Height))) }}px), max(90vw, {{ int (math.Ceil (mul 420 (div (float $img.Width) $img.Height))) }}px)" loading="lazy" decoding="async" alt="{{ $callout.image_alt }}" width="{{ $img.Width }}" height="{{ $img.Height }}"></figure>
           <div class="hp-marker"><span class="hp-dot"><span class="hp-sr-only">Waypoint </span>1</span><span class="hp-tag" aria-hidden="true">Waypoint 1</span></div>
           <div class="hp-card hp-w-lg">
             <div class="hp-card-head"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5L2 9z"/><path d="M6 11v5c0 1.5 2.7 3 6 3s6-1.5 6-3v-5"/></svg>{{ $callout.label }}</div>
@@ -137,7 +137,7 @@
       {{- $tabIds := slice "senior" "junior" }}
       <article class="hp-wp hp-left" id="hp-stap-2" aria-labelledby="hp-s2-title">
         <div class="hp-band">
-          <figure class="hp-photo" style="--pos:{{ $pricing.image_position | default "50% 50%" }};--pos-m:{{ $pricing.image_position_mobile | default $pricing.image_position | default "50% 50%" }}"><img src="{{ $img.RelPermalink }}" srcset="{{ partial "hp-srcset.html" (dict "src" $pricing.image "max" 2000) }}" sizes="(max-width: 900px) 100vw, 90vw" loading="lazy" decoding="async" alt="{{ $pricing.image_alt }}" width="{{ $img.Width }}" height="{{ $img.Height }}"></figure>
+          <figure class="hp-photo" style="--pos:{{ $pricing.image_position | default "50% 50%" }};--pos-m:{{ $pricing.image_position_mobile | default $pricing.image_position | default "50% 50%" }}"><img src="{{ $img.RelPermalink }}" srcset="{{ partial "hp-srcset.html" (dict "src" $pricing.image "max" 2000) }}" sizes="(max-width: 900px) max(100vw, {{ int (math.Ceil (mul 230 (div (float $img.Width) $img.Height))) }}px), max(90vw, {{ int (math.Ceil (mul 420 (div (float $img.Width) $img.Height))) }}px)" loading="lazy" decoding="async" alt="{{ $pricing.image_alt }}" width="{{ $img.Width }}" height="{{ $img.Height }}"></figure>
           <div class="hp-marker"><span class="hp-dot"><span class="hp-sr-only">Waypoint </span>2</span><span class="hp-tag" aria-hidden="true">Waypoint 2</span></div>
           <div class="hp-card hp-w-xl">
             <div class="hp-card-head"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="11" r="2.2"/><path d="M5.8 16c.6-1.5 1.8-2.3 3.2-2.3s2.6.8 3.2 2.3M15 10h3M15 13.5h3"/></svg>{{ $pricing.head }}</div>
@@ -182,7 +182,7 @@
       {{- $img = partial "hp-image.html" (dict "src" $training.image "max" 2000) }}
       <article class="hp-wp hp-right" id="hp-stap-3" aria-labelledby="hp-s3-title">
         <div class="hp-band">
-          <figure class="hp-photo" style="--pos:{{ $training.image_position | default "50% 50%" }};--pos-m:{{ $training.image_position_mobile | default $training.image_position | default "50% 50%" }}"><img src="{{ $img.RelPermalink }}" srcset="{{ partial "hp-srcset.html" (dict "src" $training.image "max" 2000) }}" sizes="(max-width: 900px) 100vw, 90vw" loading="lazy" decoding="async" alt="{{ $training.image_alt }}" width="{{ $img.Width }}" height="{{ $img.Height }}"></figure>
+          <figure class="hp-photo" style="--pos:{{ $training.image_position | default "50% 50%" }};--pos-m:{{ $training.image_position_mobile | default $training.image_position | default "50% 50%" }}"><img src="{{ $img.RelPermalink }}" srcset="{{ partial "hp-srcset.html" (dict "src" $training.image "max" 2000) }}" sizes="(max-width: 900px) max(100vw, {{ int (math.Ceil (mul 230 (div (float $img.Width) $img.Height))) }}px), max(90vw, {{ int (math.Ceil (mul 420 (div (float $img.Width) $img.Height))) }}px)" loading="lazy" decoding="async" alt="{{ $training.image_alt }}" width="{{ $img.Width }}" height="{{ $img.Height }}"></figure>
           <div class="hp-marker"><span class="hp-dot"><span class="hp-sr-only">Waypoint </span>3</span><span class="hp-tag" aria-hidden="true">Waypoint 3</span></div>
           <div class="hp-card">
             <div class="hp-card-head"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="M8.5 13.8L7 22l5-3 5 3-1.5-8.2"/></svg>{{ $training.head }}</div>
@@ -254,7 +254,7 @@
   <!-- SLOT -->
   {{- $img = partial "hp-image.html" (dict "src" $closing.image "max" 2000) }}
   <section class="hp-final" aria-labelledby="hp-final-title" style="--pos:{{ $closing.image_position | default "50% 50%" }};--pos-m:{{ $closing.image_position_mobile | default $closing.image_position | default "50% 50%" }}">
-    <img class="hp-final-img" src="{{ $img.RelPermalink }}" srcset="{{ partial "hp-srcset.html" (dict "src" $closing.image "max" 2000) }}" sizes="100vw" loading="lazy" decoding="async" alt="" width="{{ $img.Width }}" height="{{ $img.Height }}">
+    <img class="hp-final-img" src="{{ $img.RelPermalink }}" srcset="{{ partial "hp-srcset.html" (dict "src" $closing.image "max" 2000) }}" sizes="max(100vw, {{ int (math.Ceil (mul 340 (div (float $img.Width) $img.Height))) }}px)" loading="lazy" decoding="async" alt="" width="{{ $img.Width }}" height="{{ $img.Height }}">
     <div class="container hp-reveal">
       <p class="section-label">{{ $closing.label }}</p>
       <h2 id="hp-final-title">{{ $closing.title }}</h2>

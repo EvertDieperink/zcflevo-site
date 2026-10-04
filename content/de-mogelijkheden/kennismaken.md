@@ -1,6 +1,8 @@
 ---
 title: "Kom een keer kijken"
 description: "Benieuwd naar zweefvliegen? Maak een afspraak voor een introductievlucht met ZC Flevo."
+header_image: "/images/kop-kennismaken.jpg"
+header_position: "50% 41%"
 menu:
   main:
     parent: "de-mogelijkheden"

@@ -1,6 +1,8 @@
 ---
 title: "Locatie"
 description: "ZC Flevo vliegt vanuit Vliegveld Terlet bij Arnhem."
+header_image: "/images/kop-locatie.jpg"
+header_position: "50% 45%"
 menu:
   main:
     parent: "onze-club"

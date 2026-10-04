@@ -1,6 +1,8 @@
 ---
 title: "Vliegkampen"
 description: "Als lid van ZC Flevo ga je mee op kamp: een actieve vakantie met een gezellige groep clubleden, in binnen- of buitenland."
+header_image: "/images/kop-vliegkampen.jpg"
+header_position: "50% 55%"
 menu:
   main:
     parent: "de-mogelijkheden"

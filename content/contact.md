@@ -1,6 +1,8 @@
 ---
 title: "Contact"
 description: "Neem contact op met Zweefvliegclub Flevo."
+header_image: "/images/kop-contact.jpg"
+header_position: "50% 40%"
 has_map: true
 menu:
   main:

@@ -662,15 +662,22 @@ strong { font-weight: 600; }
 .page-header.has-photo {
   background-color: var(--blue-dark);
   background-size: cover;
-  background-position: center;
+  background-position: var(--hdr-pos, center);
   padding: 4rem 0 3.4rem;
 }
+/* Verloop: donker achter de tekst (links), rechts grotendeels transparant
+   zodat de mensen op de foto zichtbaar blijven. Het donkere deel loopt tot
+   net voorbij de tekstkolom (max. 60ch), ongeacht de schermbreedte. */
 .page-header.has-photo::before {
   content: '';
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: linear-gradient(135deg, rgba(35, 86, 150, 0.93) 0%, rgba(5, 107, 179, 0.84) 100%);
+  background: linear-gradient(90deg,
+    rgba(27, 64, 112, 0.92) 0%,
+    rgba(27, 64, 112, 0.86) max(calc(50% - 60px), 580px),
+    rgba(27, 64, 112, 0.35) max(calc(50% + 90px), 730px),
+    rgba(27, 64, 112, 0.08) max(calc(50% + 240px), 880px));
 }
 
 /* ============================================================
@@ -1192,6 +1199,21 @@ body.nav-open { overflow: hidden; }
   .footer-bottom { flex-direction: column; }
   .page-content p, .page-content li { hyphens: auto; }
   .page-content h2 { font-size: 1.45rem; margin-top: 2.25rem; }
+
+  /* Fotokop op telefoon: tekst op effen blauw, de hele foto (2,4:1) als
+     strook eronder, zodat de mensen niet achter de titel vallen. */
+  .page-header.has-photo {
+    padding-bottom: calc(41.667vw + 1.25rem);
+    background-size: 100% auto;
+    background-position: center bottom;
+  }
+  .page-header.has-photo::before {
+    background: linear-gradient(180deg,
+      rgba(27, 64, 112, 0.92) 0%,
+      rgba(27, 64, 112, 0.9) calc(100% - 41.667vw),
+      rgba(27, 64, 112, 0.08) calc(100% - 41.667vw + 2.5rem),
+      rgba(27, 64, 112, 0) 100%);
+  }
 
   /* Tabellen blijven tabellen, maar compacter */
   .page-content table { font-size: 0.875rem; }

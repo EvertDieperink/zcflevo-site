@@ -41,14 +41,14 @@ hero_images:
     position_mobile: "46% 50%"
     shade: "warm"
     alt: "Silhouet van een zweefvliegtuig voor een gouden zonsondergang"
-  - src: "landing-heide.jpg"
+  - src: "landing-heide-8k.jpg"
     position: "50% 29%"
     position_mobile: "52% 50%"
     alt: "Een wit zweefvliegtuig vliegt laag over het gras van de heide tegen een strakblauwe lucht"
-  - src: "start-heide.jpg"
-    position: "50% 12%"
-    position_mobile: "64% 40%"
-    alt: "Een zweefvliegtuig is net los van de grond en stijgt boven de heide"
+  - src: "lierstart-ls7wl.jpg"
+    position: "50% 62%"
+    position_mobile: "42% 50%"
+    alt: "Een lid van ZC Flevo in de cockpit van de LS7-wl tijdens een lierstart"
 
 # Knoppen in de hero. Deze knoppen staan ook onderaan de pagina (slotsectie).
 # style: "primary" = rode knop met pijl, "outline" = witte omlijnde knop.
@@ -126,10 +126,10 @@ pricing:
   description: "Inclusief vlieglessen en opleiding tot brevet, onbeperkt starten en gebruik van alle clubvliegtuigen."
   cta_text: "Bekijk alle kosten"
   cta_url: "/de-mogelijkheden/lidmaatschap/"
-  image: "veld-toestellen.jpg"
-  image_position: "50% 55%"
-  image_position_mobile: "55% 55%"
-  image_alt: "Clubtoestellen van ZC Flevo staan klaar op het grasveld van Terlet"
+  image: "lach-dg1000.jpg"
+  image_position: "50% 50%"
+  image_position_mobile: "80% 50%"
+  image_alt: "Een lid van ZC Flevo zit lachend in de cockpit van de DG-1000 van de club"
   # Eerste tab = Senior, tweede tab = Junior. "label_small" staat klein achter het label.
   tabs:
     - label: "Senior"
@@ -166,10 +166,10 @@ training:
   text: "Word zweefvliegpiloot via onze vliegopleiding. Minimumleeftijd is 14 jaar, brevet halen kan vanaf 16 jaar. Instructie, gebruik clubvliegtuigen en startmiddelen inbegrepen."
   cta_text: "Meer weten"
   cta_url: "/de-mogelijkheden/lidmaatschap/"
-  image: "polder-luchtfoto.jpg"
-  image_position: "50% 46%"
-  image_position_mobile: "50% 46%"
-  image_alt: "Een wit zweefvliegtuig vliegt boven de groene polder met windmolens, van bovenaf gezien"
+  image: "duim-discus.jpg"
+  image_position: "50% 50%"
+  image_position_mobile: "12% 50%"
+  image_alt: "Een lid van ZC Flevo steekt zijn duim op vanuit de cockpit van de Discus-2b"
 
 # --------------------------------------------------------------------------
 # ONZE CLUB: foto met kaart ernaast
@@ -180,10 +180,10 @@ club:
   text: "ZC Flevo is een actieve en gezellige club met meer dan 50 jaar ervaring. Leer meer over onze geschiedenis, vloot en locatie bij Arnhem."
   cta_text: "Meer weten"
   cta_url: "/onze-club/"
-  image: "veld-terlet.jpg"
-  image_position: "56% 60%"
-  image_position_mobile: "70% 60%"
-  image_alt: "Een ZC Flevo zweefvliegtuig vliegt laag over het grasveld van Terlet, met bos op de achtergrond"
+  image: "vliegdag-terlet.jpg"
+  image_position: "50% 50%"
+  image_position_mobile: "40% 50%"
+  image_alt: "Een lid van ZC Flevo in de cockpit van de LS4-b op het grasveld van Terlet, met andere clubtoestellen en de bosrand op de achtergrond"
 
 # --------------------------------------------------------------------------
 # LEDEN VERTELLEN: drie citaten. Avatars staan in static/images/.
@@ -198,7 +198,7 @@ testimonials:
     - quote: "Ik vlieg nu drie jaar bij ZC Flevo. Mijn vader en broer vliegen ook, dus we zijn vaak samen op de club te vinden. Ik vlieg inmiddels solo en heb al echt vette vluchten gemaakt."
       name: "Stan"
       role: "Lid van ZC Flevo"
-      avatar: "/images/stan.jpg"
+      avatar: "/images/portret-stan.jpg"
     - quote: "Zweefvliegclub Flevo is een vereniging waar iedereen welkom is om te leren vliegen. De balans tussen serieus vliegen en clubgezelligheid maakt het uniek."
       name: "Annemieke"
       role: "Lid van ZC Flevo"
@@ -206,7 +206,7 @@ testimonials:
     - quote: "Zweefvliegen is voor mij meer dan een hobby… het is een lifestyle. ZC Flevo is uiterst gezellig en gepassioneerd: ontspanning, uitdaging en plezier in één."
       name: "Erwin"
       role: "Lid van ZC Flevo"
-      avatar: "/images/erwin.jpg"
+      avatar: "/images/portret-erwin.jpg"
 
 # --------------------------------------------------------------------------
 # SLOTSECTIE onderaan de pagina. De knoppen zijn dezelfde als in de hero
@@ -218,9 +218,9 @@ closing:
   title: "Klaar voor waypoint 1?"
   text_before: "Neem contact op via"
   text_after: "of lees meer op deze site."
-  image: "boven-meer.jpg"
-  image_position: "50% 68%"
-  image_position_mobile: "60% 50%"
+  image: "leden-startplaats.jpg"
+  image_position: "50% 55%"
+  image_position_mobile: "62% 50%"
 ---
 
 ZC Flevo is een **actieve en gezellige zweefvliegclub** die al meer dan 50 jaar bestaat. Onze leden komen uit allerlei beroepen en delen één passie: de zweefvliegsport.

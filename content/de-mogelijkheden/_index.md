@@ -1,6 +1,8 @@
 ---
 title: "De Mogelijkheden"
 description: "Van kennismaken tot lidmaatschap: ontdek wat ZC Flevo voor jou te bieden heeft."
+header_image: "/images/kop-mogelijkheden.jpg"
+header_position: "50% 41%"
 menu:
   main:
     identifier: "de-mogelijkheden"

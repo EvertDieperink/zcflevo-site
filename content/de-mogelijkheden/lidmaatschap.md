@@ -1,6 +1,8 @@
 ---
 title: "Lidmaatschap"
 description: "Word lid van ZC Flevo en leer zweefvliegen. Informatie over de opleiding en kosten."
+header_image: "/images/kop-lidmaatschap.jpg"
+header_position: "50% 25%"
 menu:
   main:
     parent: "de-mogelijkheden"

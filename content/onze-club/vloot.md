@@ -1,6 +1,8 @@
 ---
 title: "Onze Vloot"
 description: "ZC Flevo beschikt over zeven zweefvliegtuigen voor training en prestaties."
+header_image: "/images/kop-vloot.jpg"
+header_position: "50% 40%"
 menu:
   main:
     name: "Vloot"
@@ -15,7 +17,7 @@ ZC Flevo beschikt over **zeven zweefvliegtuigen**, gestationeerd op Vliegveld Te
 ### Schleicher ASK-21 (PH-1382)
 **Callsign:** YW | **Bouwjaar:** 1994
 
-<img src="{{< url "/images/vloot-ask21.jpg" >}}" alt="Schleicher ASK-21 (YW), het primaire trainingstoestel van ZC Flevo" loading="lazy">
+<img src="{{< url "/images/vloot-ask21-yw.jpg" >}}" alt="Schleicher ASK-21 (YW), het primaire trainingstoestel van ZC Flevo" loading="lazy">
 
 Het primaire trainingstoestel van de club. De ASK-21 staat bekend om zijn prettige vliegeigenschappen en wordt gebruikt voor de basisopleiding.
 
@@ -41,7 +43,7 @@ De overgangstrainer voor meer zelfstandig vliegen. De Junior is eenvoudig te vli
 ### Rolladen-Schneider LS4-b (PH-974)
 **Callsign:** YS | **Bouwjaar:** 1992
 
-<img src="{{< url "/images/vloot-ls4b.jpg" >}}" alt="Rolladen-Schneider LS4-b (YS) van ZC Flevo" loading="lazy">
+<img src="{{< url "/images/vloot-ls4b-landing.jpg" >}}" alt="Rolladen-Schneider LS4-b (YS) van ZC Flevo" loading="lazy">
 
 Een geavanceerd prestatie-toestel voor ervaren piloten. Uitstekend geschikt voor XC (cross-country) vluchten.
 
@@ -53,7 +55,7 @@ Een geavanceerd prestatie-toestel voor ervaren piloten. Uitstekend geschikt voor
 ### Rolladen-Schneider LS7-wl (PH-1273)
 **Callsign:** YZ | **Bouwjaar:** 1992
 
-<img src="{{< url "/images/vloot-ls7wl.jpg" >}}" alt="Rolladen-Schneider LS7-wl (YZ) van ZC Flevo" loading="lazy">
+<img src="{{< url "/images/vloot-ls7wl-heide.jpg" >}}" alt="Rolladen-Schneider LS7-wl (YZ) van ZC Flevo" loading="lazy">
 
 Veelzijdig prestatie-toestel dat zowel voor lokaal vliegen als voor competitie en lange afstandsvluchten geschikt is.
 
@@ -65,7 +67,7 @@ Veelzijdig prestatie-toestel dat zowel voor lokaal vliegen als voor competitie e
 ### Discus 2b (PH-1210)
 **Callsign:** YF | **Bouwjaar:** 2000
 
-<img src="{{< url "/images/vloot-discus2b.jpg" >}}" alt="Discus 2b (YF) van ZC Flevo" loading="lazy">
+<img src="{{< url "/images/vloot-discus2b-cockpit.jpg" >}}" alt="Discus 2b (YF) van ZC Flevo" loading="lazy">
 
 Een wedstrijdtoestel met waterballast voor extra prestaties. Voorbehouden voor brevetteerde (SPL) piloten.
 
