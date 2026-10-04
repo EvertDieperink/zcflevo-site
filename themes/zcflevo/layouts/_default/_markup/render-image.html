@@ -5,4 +5,4 @@
   van een eigen domein (zoals https://zcflevo.nl/).
 */ -}}
 <img src="{{ .Destination | strings.TrimPrefix "/" | relURL | safeURL }}" alt="{{ .Text }}"
-  {{- with .Title }} title="{{ . }}"{{ end }} loading="lazy">
+  {{- with .Title }} title="{{ . }}"{{ end }} loading="lazy" decoding="async">

@@ -1,326 +1,305 @@
 {{ define "main" }}
+{{- /* Homepage. Alle teksten en foto's komen uit content/_index.md.
+       Stijl: sectie "HOMEPAGE" onderaan static/css/main.css (hergebruikt de
+       bestaande knoppen, labels en testimonial-kaarten); gedrag in
+       static/js/home.js. Eigen klassen en ids beginnen met hp-. */ -}}
 
-{{- $pricing := .Params.pricing -}}
-{{- $senior  := index $pricing.tabs 0 -}}
-{{- $junior  := index $pricing.tabs 1 -}}
-{{- $callout := .Params.stage_callout -}}
-{{- $feat    := .Params.features -}}
-{{- $testi   := .Params.testimonials -}}
+{{- $pricing  := .Params.pricing -}}
+{{- $callout  := .Params.stage_callout -}}
+{{- $training := .Params.training -}}
+{{- $club     := .Params.club -}}
+{{- $route    := .Params.route -}}
+{{- $testi    := .Params.testimonials -}}
+{{- $closing  := .Params.closing -}}
+{{- $email    := .Site.Params.email -}}
+{{- /* Welkom: eerste alinea van de body links, de rest rechts */ -}}
+{{- $leadRE := `(?s)^\s*<p>.*?</p>` -}}
+{{- $welcomeLead := "" -}}
+{{- with findRE $leadRE (string .Content) 1 }}{{ $welcomeLead = index . 0 }}{{ end -}}
+{{- $welcomeRest := replaceRE $leadRE "" (string .Content) 1 -}}
 
-<!-- Hero Section with photo background -->
-{{ $heroImgs := resources.Match "images/hero/*.{jpg,jpeg,JPG,JPEG,png,PNG,webp,WEBP}" }}
-<section class="hero has-photo"{{ if not $heroImgs }} style="background-image: url('{{ .Params.hero_image | default "/images/banner1.jpg" | strings.TrimPrefix "/" | relURL }}')"{{ end }}>
-  {{ if $heroImgs }}
-  <div class="hero-slideshow">
-    {{ range $i, $img := $heroImgs }}
-      {{ $resized := $img.Resize "1920x q85" }}
-    <div class="hero-slide{{ if eq $i 0 }} is-active{{ end }}" style="background-image: url('{{ $resized.RelPermalink }}')"></div>
-    {{ end }}
-  </div>
-  {{ end }}
-  <div class="hero-overlay"></div>
-  <div class="container">
-    <div class="hero-content">
-      <h1>{{ .Params.hero_title | default .Site.Title }}</h1>
-      <p>{{ .Params.hero_subtitle | default .Site.Params.description }}</p>
+{{- /* Pijltje achter rode knoppen */ -}}
+{{- $arrow := `<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10h12M11 5l5 5-5 5"/></svg>` | safeHTML -}}
+
+{{- /* Iconen voor de kerncijfers (sleutel = "icon" in de front matter) */ -}}
+{{- $statIcons := dict
+  "kalender"       `<rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/>`
+  "zweefvliegtuig" `<path d="M2 13l20-4M12 11v7M9 18h6"/>`
+  "route"          `<circle cx="5" cy="18" r="2"/><circle cx="19" cy="6" r="2"/><path d="M7 18h6a3 3 0 0 0 0-6h-2a3 3 0 0 1 0-6h6" stroke-dasharray="2 2.6"/>`
+  "blad"           `<path d="M5 19c0-8 5-13 15-14-1 10-6 15-14 15"/><path d="M5 19c3-4 6-7 10-9"/>`
+-}}
+
+<div class="hp-home">
+
+  <!-- HERO -->
+  {{- $heroTitle := .Params.hero_title | default .Site.Title -}}
+  {{- $titleParts := split $heroTitle ". " }}
+  <section class="hero hp-hero" id="hp-hero" aria-labelledby="hp-hero-title">
+    <div class="hp-hero-slides">
+      {{- range $i, $s := .Params.hero_images }}
+        {{- $img := partial "hp-image.html" (dict "src" $s.src "max" 2000) }}
+      <div class="hp-hero-slide{{ if eq $i 0 }} is-active{{ end }}"{{ with $s.shade }} data-shade="{{ . }}"{{ end }} style="--pos:{{ $s.position | default "50% 50%" }};--pos-m:{{ $s.position_mobile | default $s.position | default "50% 50%" }}"{{ if ne $i 0 }} aria-hidden="true"{{ end }}>
+        <img class="hp-hero-img" src="{{ $img.RelPermalink }}" srcset="{{ partial "hp-srcset.html" (dict "src" $s.src "max" 2000) }}" sizes="100vw" alt="{{ $s.alt }}" width="{{ $img.Width }}" height="{{ $img.Height }}"{{ if eq $i 0 }} fetchpriority="high"{{ else }} decoding="async"{{ end }}>
+        <div class="hp-hero-shade" aria-hidden="true"></div>
+      </div>
+      {{- end }}
+    </div>
+    <div class="container hero-content hp-hero-content">
+      {{ with .Params.hero_tag }}<div class="hp-hero-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>{{ . }}</div>{{ end }}
+      <h1 id="hp-hero-title">{{ if gt (len $titleParts) 1 }}{{ index $titleParts 0 }}.<span>{{ delimit (after 1 $titleParts) ". " }}</span>{{ else }}{{ $heroTitle }}{{ end }}</h1>
+      <p class="hp-hero-sub">{{ .Params.hero_subtitle | default .Site.Params.description }}</p>
       <div class="hero-buttons">
-        {{ range .Params.hero_buttons }}
-        <a href="{{ .url | strings.TrimPrefix "/" | relURL }}" class="btn btn-{{ .style }}">{{ .text }}</a>
-        {{ end }}
+        {{- partial "hp-buttons.html" (dict "buttons" .Params.hero_buttons "arrow" $arrow) }}
       </div>
     </div>
-  </div>
-</section>
-
-<!-- Stats Strip -->
-<div class="stats-strip">
-  <div class="container">
-    <div class="stats-grid">
-      {{ range .Params.stats }}
-      <div>
-        <div class="stat-number">{{ .value }}</div>
-        <div class="stat-label">{{ .label }}</div>
-      </div>
-      {{ end }}
+    {{- if gt (len .Params.hero_images) 1 }}
+    <div class="hp-hero-dots" role="group" aria-label="Foto's bovenaan de pagina">
+      {{- range $i, $s := .Params.hero_images }}
+      <button type="button" class="hp-hero-dot" aria-label="Toon foto {{ add $i 1 }}"{{ if eq $i 0 }} aria-current="true"{{ end }}></button>
+      {{- end }}
     </div>
-  </div>
+    {{- end }}
+  </section>
+
+  <!-- KERNCIJFERS -->
+  <section class="stats-strip hp-stats" aria-label="ZC Flevo in cijfers">
+    <div class="container">
+      <dl class="stats-grid hp-stats-list">
+        {{- range .Params.stats }}
+        <div class="hp-stat"><dt class="stat-label">{{ .label }}</dt><dd class="stat-number">{{ .value }}</dd>{{ with index $statIcons (.icon | default "") }}<span class="hp-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">{{ . | safeHTML }}</svg></span>{{ end }}</div>
+        {{- end }}
+      </dl>
+    </div>
+  </section>
+
+  <!-- WELKOM: tekst uit de body van content/_index.md -->
+  <section class="hp-welcome" aria-labelledby="hp-welkom-title">
+    <div class="container hp-welcome-grid">
+      <div class="hp-reveal">
+        <p class="section-label">{{ .Params.welcome_label }}</p>
+        <h2 id="hp-welkom-title" class="hp-section-title">{{ .Params.welcome_title }}</h2>
+        <span class="hp-title-bar" aria-hidden="true"></span>
+        {{ with $welcomeLead }}<div class="hp-welcome-lead">{{ . | safeHTML }}</div>{{ end }}
+      </div>
+      <div class="hp-reveal hp-welcome-body">
+        {{ $welcomeRest | safeHTML }}
+      </div>
+    </div>
+  </section>
+
+  <!-- VLIEGROUTE: fotoverhaal met drie waypoints -->
+  <section class="hp-route-section" id="hp-route" aria-labelledby="hp-route-title">
+    <div class="container">
+      <header class="hp-route-head hp-center hp-reveal">
+        <p class="section-label">{{ $route.label }}</p>
+        <h2 id="hp-route-title" class="hp-section-title">{{ $route.title }}</h2>
+        <span class="hp-title-bar" aria-hidden="true"></span>
+      </header>
+    </div>
+
+    <div class="hp-track" id="hp-track">
+      <svg class="hp-route-svg" id="hp-route-svg" aria-hidden="true">
+        <defs><mask id="hp-flown-mask" maskUnits="userSpaceOnUse"><path id="hp-p-mask" fill="none" stroke="#fff" stroke-width="16" stroke-linecap="round"/></mask></defs>
+        <path class="hp-dots" id="hp-p-dots"/>
+        <path class="hp-flown" id="hp-p-flown" mask="url(#hp-flown-mask)"/>
+      </svg>
+
+      <div class="hp-start" id="hp-start"><span class="hp-ring" aria-hidden="true"></span><span>{{ $route.start_label }}</span></div>
+
+      <!-- Waypoint 1: kennismakingsstage -->
+      {{- $img := partial "hp-image.html" (dict "src" $callout.image "max" 2000) }}
+      <article class="hp-wp hp-right" id="hp-stap-1" aria-labelledby="hp-s1-title">
+        <div class="hp-band">
+          <figure class="hp-photo" style="--pos:{{ $callout.image_position | default "50% 50%" }};--pos-m:{{ $callout.image_position_mobile | default $callout.image_position | default "50% 50%" }}"><img src="{{ $img.RelPermalink }}" srcset="{{ partial "hp-srcset.html" (dict "src" $callout.image "max" 2000) }}" sizes="(max-width: 900px) 100vw, 90vw" loading="lazy" decoding="async" alt="{{ $callout.image_alt }}" width="{{ $img.Width }}" height="{{ $img.Height }}"></figure>
+          <div class="hp-marker"><span class="hp-dot"><span class="hp-sr-only">Waypoint </span>1</span><span class="hp-tag" aria-hidden="true">Waypoint 1</span></div>
+          <div class="hp-card hp-w-lg">
+            <div class="hp-card-head"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5L2 9z"/><path d="M6 11v5c0 1.5 2.7 3 6 3s6-1.5 6-3v-5"/></svg>{{ $callout.label }}</div>
+            <div class="hp-card-body">
+              <h3 id="hp-s1-title">{{ $callout.title }}</h3>
+              {{- with $callout.facts }}
+              <div class="hp-facts" role="group" aria-label="Kennismakingsstage in het kort">
+                {{- range . }}
+                <div><b>{{ .value }}</b><span>{{ .label }}</span></div>
+                {{- end }}
+              </div>
+              {{- end }}
+              <p>{{ $callout.text }}</p>
+              <div class="hp-card-actions">
+                <a class="btn btn-primary" href="{{ $callout.cta_url | strings.TrimPrefix "/" | relURL }}">{{ $callout.cta_text }} {{ $arrow }}</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Waypoint 2: lid worden -->
+      {{- $img = partial "hp-image.html" (dict "src" $pricing.image "max" 2000) }}
+      {{- $tabIds := slice "senior" "junior" }}
+      <article class="hp-wp hp-left" id="hp-stap-2" aria-labelledby="hp-s2-title">
+        <div class="hp-band">
+          <figure class="hp-photo" style="--pos:{{ $pricing.image_position | default "50% 50%" }};--pos-m:{{ $pricing.image_position_mobile | default $pricing.image_position | default "50% 50%" }}"><img src="{{ $img.RelPermalink }}" srcset="{{ partial "hp-srcset.html" (dict "src" $pricing.image "max" 2000) }}" sizes="(max-width: 900px) 100vw, 90vw" loading="lazy" decoding="async" alt="{{ $pricing.image_alt }}" width="{{ $img.Width }}" height="{{ $img.Height }}"></figure>
+          <div class="hp-marker"><span class="hp-dot"><span class="hp-sr-only">Waypoint </span>2</span><span class="hp-tag" aria-hidden="true">Waypoint 2</span></div>
+          <div class="hp-card hp-w-xl">
+            <div class="hp-card-head"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="11" r="2.2"/><path d="M5.8 16c.6-1.5 1.8-2.3 3.2-2.3s2.6.8 3.2 2.3M15 10h3M15 13.5h3"/></svg>{{ $pricing.head }}</div>
+            <div class="hp-card-body">
+              <h3 id="hp-s2-title">{{ $pricing.title }}</h3>
+              <p>{{ $pricing.description }}</p>
+              <div class="hp-cost">
+                {{- range $i, $tab := first 2 $pricing.tabs }}
+                <input type="radio" name="hp-tier" id="hp-t-{{ index $tabIds $i }}" value="{{ index $tabIds $i }}"{{ if eq $i 0 }} checked{{ end }} class="hp-sr-only">
+                {{- end }}
+                <div class="hp-cost-head">
+                  <span class="hp-cost-tag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18.2 9a6 6 0 1 0 0 6M4 10.5h9M4 13.5h9"/></svg>{{ $pricing.label }}</span>
+                  <div class="hp-seg" role="group" aria-label="Kies tarief">
+                    {{- range $i, $tab := first 2 $pricing.tabs }}
+                    <label for="hp-t-{{ index $tabIds $i }}">{{ $tab.label }}{{ with $tab.label_small }} <small>{{ . }}</small>{{ end }}</label>
+                    {{- end }}
+                  </div>
+                </div>
+                <div class="hp-cost-panels" aria-live="polite">
+                  {{- range $i, $tab := first 2 $pricing.tabs }}
+                  <div class="hp-cost-panel" data-for="{{ index $tabIds $i }}">
+                    <div class="hp-sum">
+                      <div class="hp-tile"><b>{{ $tab.contribution }}</b><span>{{ $tab.contribution_label }}</span></div>
+                      <span class="hp-op" aria-hidden="true">+</span>
+                      <div class="hp-tile"><b>{{ $tab.knvvl }}</b><span>{{ $tab.knvvl_label }}</span></div>
+                      <span class="hp-op hp-op-eq" aria-hidden="true">=</span>
+                      <div class="hp-tile hp-total"><b>{{ $tab.total }}</b><span>{{ $tab.total_label }}</span></div>
+                    </div>
+                    {{ with $tab.installments }}<p class="hp-cost-month">Indicatief: {{ . }}</p>{{ end }}
+                    {{ with $tab.note }}<p class="hp-cost-note">{{ . }}</p>{{ end }}
+                  </div>
+                  {{- end }}
+                </div>
+              </div>
+              <a class="hp-link-more" href="{{ $pricing.cta_url | strings.TrimPrefix "/" | relURL }}">{{ $pricing.cta_text }} <span aria-hidden="true">→</span></a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Waypoint 3: opleiding tot brevet -->
+      {{- $img = partial "hp-image.html" (dict "src" $training.image "max" 2000) }}
+      <article class="hp-wp hp-right" id="hp-stap-3" aria-labelledby="hp-s3-title">
+        <div class="hp-band">
+          <figure class="hp-photo" style="--pos:{{ $training.image_position | default "50% 50%" }};--pos-m:{{ $training.image_position_mobile | default $training.image_position | default "50% 50%" }}"><img src="{{ $img.RelPermalink }}" srcset="{{ partial "hp-srcset.html" (dict "src" $training.image "max" 2000) }}" sizes="(max-width: 900px) 100vw, 90vw" loading="lazy" decoding="async" alt="{{ $training.image_alt }}" width="{{ $img.Width }}" height="{{ $img.Height }}"></figure>
+          <div class="hp-marker"><span class="hp-dot"><span class="hp-sr-only">Waypoint </span>3</span><span class="hp-tag" aria-hidden="true">Waypoint 3</span></div>
+          <div class="hp-card">
+            <div class="hp-card-head"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="M8.5 13.8L7 22l5-3 5 3-1.5-8.2"/></svg>{{ $training.head }}</div>
+            <div class="hp-card-body">
+              <h3 id="hp-s3-title">{{ $training.title }}</h3>
+              {{- with $training.ages }}
+              <div class="hp-ages">
+                {{- range . }}
+                <div class="hp-age"><b>{{ .value }}</b><span><strong>{{ .unit }}</strong>{{ .label }}</span></div>
+                {{- end }}
+              </div>
+              {{- end }}
+              <p>{{ $training.text }}</p>
+              <div class="hp-card-actions">
+                <a class="btn btn-blue" href="{{ $training.cta_url | strings.TrimPrefix "/" | relURL }}">{{ $training.cta_text }}</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <div class="hp-finish hp-reveal" id="hp-finish">
+        <span class="hp-flag" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21V4M5 4h11l-2 4 2 4H5"/></svg></span>
+        <strong>{{ $route.finish_label }}</strong>
+        <h2>{{ $route.finish_title }}</h2>
+      </div>
+    </div>
+  </section>
+
+  <!-- ONZE CLUB -->
+  {{- $img = partial "hp-image.html" (dict "src" $club.image "max" 1400) }}
+  <section class="hp-club" id="hp-club" aria-labelledby="hp-club-title">
+    <div class="container hp-club-grid">
+      <figure class="hp-club-photo hp-reveal" style="--pos:{{ $club.image_position | default "50% 50%" }};--pos-m:{{ $club.image_position_mobile | default $club.image_position | default "50% 50%" }}"><img src="{{ $img.RelPermalink }}" srcset="{{ partial "hp-srcset.html" (dict "src" $club.image "max" 1400) }}" sizes="(max-width: 900px) 100vw, 680px" loading="lazy" decoding="async" alt="{{ $club.image_alt }}" width="{{ $img.Width }}" height="{{ $img.Height }}"></figure>
+      <div class="hp-card hp-reveal">
+        <div class="hp-card-head"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>{{ $club.head }}</div>
+        <div class="hp-card-body">
+          <h2 id="hp-club-title">{{ $club.title }}</h2>
+          <p>{{ $club.text }}</p>
+          <a class="btn btn-blue" href="{{ $club.cta_url | strings.TrimPrefix "/" | relURL }}">{{ $club.cta_text }}</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LEDEN VERTELLEN -->
+  <section class="testimonials hp-voices" id="hp-leden" aria-labelledby="hp-leden-title">
+    <div class="container">
+      <div class="hp-voices-head hp-reveal">
+        <div>
+          <p class="section-label">{{ $testi.label }}</p>
+          <h2 id="hp-leden-title" class="hp-section-title">{{ $testi.title }}</h2>
+          <span class="hp-title-bar" aria-hidden="true"></span>
+          {{ with $testi.subtitle }}<p class="hp-sub-t">{{ . }}</p>{{ end }}
+        </div>
+        <a class="hp-link-more" href="{{ $testi.cta_url | strings.TrimPrefix "/" | relURL }}">{{ $testi.cta_text }} <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="testimonials-grid">
+        {{- range $testi.items }}
+        <figure class="testimonial-card hp-reveal">
+          <blockquote class="testimonial-quote">{{ .quote }}</blockquote>
+          <figcaption class="testimonial-author"><img class="testimonial-avatar" loading="lazy" decoding="async" src="{{ .avatar | strings.TrimPrefix "/" | relURL }}" alt="Portret van {{ .name }}" width="64" height="64"><div><div class="testimonial-name">{{ .name }}</div><div class="testimonial-role">{{ .role }}</div></div></figcaption>
+        </figure>
+        {{- end }}
+      </div>
+    </div>
+  </section>
+
+  <!-- SLOT -->
+  {{- $img = partial "hp-image.html" (dict "src" $closing.image "max" 2000) }}
+  <section class="hp-final" aria-labelledby="hp-final-title" style="--pos:{{ $closing.image_position | default "50% 50%" }};--pos-m:{{ $closing.image_position_mobile | default $closing.image_position | default "50% 50%" }}">
+    <img class="hp-final-img" src="{{ $img.RelPermalink }}" srcset="{{ partial "hp-srcset.html" (dict "src" $closing.image "max" 2000) }}" sizes="100vw" loading="lazy" decoding="async" alt="" width="{{ $img.Width }}" height="{{ $img.Height }}">
+    <div class="container hp-reveal">
+      <p class="section-label">{{ $closing.label }}</p>
+      <h2 id="hp-final-title">{{ $closing.title }}</h2>
+      <p>{{ $closing.text_before }} <a href="mailto:{{ $email }}">{{ $email }}</a> {{ $closing.text_after }}</p>
+      <div class="hp-final-actions">
+        {{- partial "hp-buttons.html" (dict "buttons" .Params.hero_buttons "arrow" $arrow) }}
+      </div>
+    </div>
+  </section>
+
 </div>
-
-<!-- Photo strip: automatisch uit assets/images/photo-strip/normal en wide -->
-<!-- Foto's worden door Hugo verkleind tot snelle thumbnails. -->
-<div class="photo-strip">
-  {{ $normalImgs := resources.Match "images/photo-strip/normal/*.{jpg,jpeg,JPG,JPEG,png,PNG,webp,WEBP}" }}
-  {{ $wideImgs   := resources.Match "images/photo-strip/wide/*.{jpg,jpeg,JPG,JPEG,png,PNG,webp,WEBP}" }}
-
-  {{ $items := slice }}
-  {{ range $normalImgs }}
-    {{ $items = $items | append (dict "img" . "wide" false "name" (path.Base .Name)) }}
-  {{ end }}
-  {{ range $wideImgs }}
-    {{ $items = $items | append (dict "img" . "wide" true "name" (path.Base .Name)) }}
-  {{ end }}
-
-  {{ range (sort $items "name") }}
-    {{ $base := strings.TrimSuffix (path.Ext .name) .name }}
-    {{ $alt := replace (replace $base "-" " ") "_" " " | humanize }}
-    {{ $thumbWidth := cond .wide 1200 600 }}
-    {{ $thumb := .img.Resize (printf "%dx q80" $thumbWidth) }}
-    {{ $full  := .img.Resize "1600x q85" }}
-  <div class="photo-item{{ if .wide }} photo-wide{{ end }}">
-    <img src="{{ $thumb.RelPermalink }}"
-         data-full="{{ $full.RelPermalink }}"
-         alt="{{ $alt }}"
-         loading="lazy"
-         width="{{ $thumb.Width }}" height="{{ $thumb.Height }}">
-  </div>
-  {{ end }}
-</div>
-
-<!-- Photo lightbox -->
-<div class="photo-lightbox" id="photo-lightbox" aria-hidden="true" role="dialog" aria-label="Foto vergroot bekijken">
-  <button class="photo-lightbox-close" type="button" aria-label="Sluiten">&times;</button>
-  <button class="photo-lightbox-nav photo-lightbox-prev" type="button" aria-label="Vorige foto">&#8249;</button>
-  <button class="photo-lightbox-nav photo-lightbox-next" type="button" aria-label="Volgende foto">&#8250;</button>
-  <div class="photo-lightbox-content">
-    <img id="photo-lightbox-img" src="" alt="">
-  </div>
-</div>
-
-<script>
-(function () {
-  const lightbox = document.getElementById('photo-lightbox');
-  if (!lightbox) return;
-  const lightboxImg = document.getElementById('photo-lightbox-img');
-  const closeBtn    = lightbox.querySelector('.photo-lightbox-close');
-  const prevBtn     = lightbox.querySelector('.photo-lightbox-prev');
-  const nextBtn     = lightbox.querySelector('.photo-lightbox-next');
-  const photos      = Array.from(document.querySelectorAll('.photo-strip .photo-item img'));
-  if (!photos.length) return;
-
-  let currentIndex = 0;
-
-  function show(idx) {
-    currentIndex = (idx + photos.length) % photos.length;
-    const img = photos[currentIndex];
-    // Gebruik data-full (grotere versie via Hugo image processing) als beschikbaar
-    lightboxImg.src = img.dataset.full || img.src;
-    lightboxImg.alt = img.alt;
-  }
-
-  function open(idx) {
-    show(idx);
-    lightbox.classList.add('is-open');
-    lightbox.setAttribute('aria-hidden', 'false');
-    document.body.style.overflow = 'hidden';
-  }
-
-  function close() {
-    lightbox.classList.remove('is-open');
-    lightbox.setAttribute('aria-hidden', 'true');
-    document.body.style.overflow = '';
-    lightboxImg.src = '';
-  }
-
-  photos.forEach((img, idx) => {
-    img.style.cursor = 'zoom-in';
-    img.addEventListener('click', () => open(idx));
-  });
-
-  closeBtn.addEventListener('click', close);
-  prevBtn.addEventListener('click', (e) => { e.stopPropagation(); show(currentIndex - 1); });
-  nextBtn.addEventListener('click', (e) => { e.stopPropagation(); show(currentIndex + 1); });
-
-  // Klik op de donkere achtergrond (niet op de afbeelding zelf) sluit
-  lightbox.addEventListener('click', (e) => {
-    if (e.target === lightbox || e.target === lightboxImg.parentElement) close();
-  });
-
-  document.addEventListener('keydown', (e) => {
-    if (!lightbox.classList.contains('is-open')) return;
-    if (e.key === 'Escape')      close();
-    if (e.key === 'ArrowLeft')   show(currentIndex - 1);
-    if (e.key === 'ArrowRight')  show(currentIndex + 1);
-  });
-})();
-
-// Hero slideshow: wissel achtergrond elke 10 seconden met fade.
-(function () {
-  const slides = document.querySelectorAll('.hero-slideshow .hero-slide');
-  if (slides.length < 2) return;
-  let current = 0;
-  setInterval(() => {
-    slides[current].classList.remove('is-active');
-    current = (current + 1) % slides.length;
-    slides[current].classList.add('is-active');
-  }, 10000);
-})();
-</script>
-
-<!-- Intro content from _index.md body -->
-{{ if .Content }}
-<section class="intro-section">
-  <div class="container intro-container">
-    {{ .Content }}
-  </div>
-</section>
 {{ end }}
 
-<!-- Kosten Banner -->
-<section class="cost-banner">
-  <div class="container">
-    <div class="cost-banner-text">
-      <div class="cost-banner-label">{{ $pricing.label }}</div>
-      <h2>{{ $pricing.title }}</h2>
-      <p>{{ $pricing.description }}</p>
-    </div>
+{{- /* Knoppen uit hero_buttons (ook gebruikt in de slotsectie) */ -}}
+{{- define "partials/hp-buttons.html" -}}
+  {{- range .buttons -}}
+    {{- if eq .style "primary" }}
+        <a class="btn btn-primary" href="{{ .url | strings.TrimPrefix "/" | relURL }}">{{ .text }} {{ $.arrow }}</a>
+    {{- else }}
+        <a class="btn btn-outline" href="{{ .url | strings.TrimPrefix "/" | relURL }}">{{ .text }}</a>
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
 
-    <!-- Tab toggle via hidden radio buttons (no JS) -->
-    <div class="cost-tabs">
-      <input type="radio" name="cost-tab" id="tab-senior" checked>
-      <input type="radio" name="cost-tab" id="tab-junior">
-      <div class="cost-tab-labels">
-        <label for="tab-senior">{{ $senior.label }}</label>
-        <label for="tab-junior">{{ $junior.label }}</label>
-      </div>
+{{- /* Foto uit assets/images/home/ verkleinen (nooit vergroten) */ -}}
+{{- define "partials/hp-image.html" -}}
+  {{- $img := resources.Get (printf "images/home/%s" .src) -}}
+  {{- if not $img }}{{ errorf "Homepage-foto niet gevonden: assets/images/home/%s" .src }}{{ end -}}
+  {{- $w := math.Min $img.Width .max | int -}}
+  {{- return $img.Resize (printf "%dx q80" $w) -}}
+{{- end -}}
 
-      <div class="cost-tab-panel" id="panel-senior">
-        <div class="cost-banner-items">
-          <div class="cost-item">
-            <div class="cost-item-amount">{{ $senior.contribution }}</div>
-            <div class="cost-item-label">{{ $senior.contribution_label }}</div>
-          </div>
-          <div class="cost-item-plus">+</div>
-          <div class="cost-item">
-            <div class="cost-item-amount">{{ $senior.knvvl }}</div>
-            <div class="cost-item-label">{{ $senior.knvvl_label }}</div>
-          </div>
-          <div class="cost-item-plus">=</div>
-          <div class="cost-item cost-item-total">
-            <div class="cost-item-amount">{{ $senior.total }}</div>
-            <div class="cost-item-label">{{ $senior.total_label }}</div>
-          </div>
-        </div>
-        <div class="cost-installment">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><rect x="1" y="4" width="22" height="16" rx="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
-          <span>Indicatief: <strong>{{ $senior.installments }}</strong></span>
-        </div>
-        {{ with $senior.note }}
-        <p class="cost-note">{{ . }}</p>
-        {{ end }}
-      </div>
-
-      <div class="cost-tab-panel" id="panel-junior">
-        <div class="cost-banner-items">
-          <div class="cost-item">
-            <div class="cost-item-amount">{{ $junior.contribution }}</div>
-            <div class="cost-item-label">{{ $junior.contribution_label }}</div>
-          </div>
-          <div class="cost-item-plus">+</div>
-          <div class="cost-item">
-            <div class="cost-item-amount">{{ $junior.knvvl }}</div>
-            <div class="cost-item-label">{{ $junior.knvvl_label }}</div>
-          </div>
-          <div class="cost-item-plus">=</div>
-          <div class="cost-item cost-item-total">
-            <div class="cost-item-amount">{{ $junior.total }}</div>
-            <div class="cost-item-label">{{ $junior.total_label }}</div>
-          </div>
-        </div>
-        <div class="cost-installment">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><rect x="1" y="4" width="22" height="16" rx="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
-          <span>Indicatief: <strong>{{ $junior.installments }}</strong></span>
-        </div>
-        {{ with $junior.note }}
-        <p class="cost-note">{{ . }}</p>
-        {{ end }}
-      </div>
-    </div>
-
-    <a href="{{ $pricing.cta_url | strings.TrimPrefix "/" | relURL }}" class="btn btn-primary" style="margin-top: 1.25rem; display: inline-block;">{{ $pricing.cta_text }}</a>
-  </div>
-</section>
-
-<!-- Kennismakingsstage callout -->
-<section class="stage-callout">
-  <div class="container">
-    <div class="stage-callout-inner">
-      <div class="stage-callout-icon">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="56" height="56">
-          <path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
-          <path d="M12 8v4l3 3"/>
-        </svg>
-      </div>
-      <div class="stage-callout-text">
-        <div class="section-label">{{ $callout.label }}</div>
-        <h2>{{ $callout.title }}</h2>
-        <p>{{ $callout.text }}</p>
-      </div>
-      <a href="{{ $callout.cta_url | strings.TrimPrefix "/" | relURL }}" class="btn btn-primary" style="flex-shrink:0;">{{ $callout.cta_text }}</a>
-    </div>
-  </div>
-</section>
-
-<!-- Feature Cards -->
-<section class="features">
-  <div class="container">
-    <h2>{{ $feat.title }}</h2>
-    <div class="cards-grid">
-      {{ range $i, $card := $feat.cards }}
-      <div class="card">
-        <div class="card-header">
-          <div class="card-icon">
-            {{ if eq $i 0 }}
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="36" height="36">
-              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
-              <path d="M14.05 2a9 9 0 018 7.94M14.05 6A5 5 0 0119 11"/>
-            </svg>
-            {{ else if eq $i 1 }}
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="36" height="36">
-              <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
-              <path d="M6 12v5c3 3 9 3 12 0v-5"/>
-            </svg>
-            {{ else }}
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="36" height="36">
-              <circle cx="12" cy="8" r="6"/>
-              <path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/>
-            </svg>
-            {{ end }}
-          </div>
-          <h3>{{ $card.title }}</h3>
-        </div>
-        <div class="card-body">
-          <p>{{ $card.text }}</p>
-          <a href="{{ $card.url | strings.TrimPrefix "/" | relURL }}" class="btn btn-blue">{{ $card.cta }}</a>
-        </div>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-
-<!-- Testimonials / Leden vertellen -->
-<section class="testimonials">
-  <div class="container">
-    <h2>{{ $testi.title }}</h2>
-    <p class="section-subtitle">{{ $testi.subtitle }}</p>
-    <div class="testimonials-grid">
-      {{ range $testi.items }}
-      <div class="testimonial-card">
-        <p class="testimonial-quote">{{ .quote }}</p>
-        <div class="testimonial-author">
-          <img class="testimonial-avatar" src="{{ .avatar | strings.TrimPrefix "/" | relURL }}" alt="{{ .name }}">
-          <div>
-            <div class="testimonial-name">{{ .name }}</div>
-            <div class="testimonial-role">{{ .role }}</div>
-          </div>
-        </div>
-      </div>
-      {{ end }}
-    </div>
-    <div class="testimonials-cta">
-      <a href="{{ $testi.cta_url | strings.TrimPrefix "/" | relURL }}" class="btn btn-blue">{{ $testi.cta_text }}</a>
-    </div>
-  </div>
-</section>
-
-{{ end }}
+{{- /* srcset voor dezelfde foto in een paar breedtes (nooit groter dan het
+       origineel of dan .max), zodat telefoons geen 2000px-foto's laden. */ -}}
+{{- define "partials/hp-srcset.html" -}}
+  {{- $img := resources.Get (printf "images/home/%s" .src) -}}
+  {{- $max := math.Min $img.Width .max | int -}}
+  {{- $set := slice -}}
+  {{- range slice 640 960 1280 1600 -}}
+    {{- if lt . $max -}}
+      {{- $r := $img.Resize (printf "%dx q80" .) -}}
+      {{- $set = $set | append (printf "%s %dw" $r.RelPermalink $r.Width) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $r := $img.Resize (printf "%dx q80" $max) -}}
+  {{- $set = $set | append (printf "%s %dw" $r.RelPermalink $r.Width) -}}
+  {{- return delimit $set ", " -}}
+{{- end -}}

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ if .IsHome }}{{ .Site.Title }} | Zweefvliegen bij Arnhem{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+  <title>{{ if .IsHome }}{{ .Site.Title }} | Zweefvliegen bij Arnhem{{ else if eq .Kind "404" }}Pagina niet gevonden | {{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   {{- /* Verborgen pagina's (bijv. /rondje/, /jaarkalender/) zetten robots in
          hun front matter, zodat zoekmachines ze niet indexeren. */ -}}
@@ -45,6 +45,11 @@
   <meta name="twitter:image" content="{{ "/images/banner1.jpg" | absURL }}">
 
   <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+  {{- /* Homepage: eigen script (homepage-klassen beginnen met hp-, CSS staat
+         onderaan main.css). De hp-js-klasse zet de fade-in-animaties alleen
+         aan als JS werkt. */}}
+  {{ if .IsHome }}<script>document.documentElement.classList.add('hp-js')</script>
+  <script src="{{ "js/home.js" | relURL }}" defer></script>{{ end }}
 
   {{ if .Params.has_map }}{{ partial "mapbox-head.html" . }}{{ end }}
   {{ if .Params.has_flights }}<script src="{{ "js/vliegdagen.js" | relURL }}" defer></script>{{ end }}
@@ -86,7 +91,7 @@
   </script>
   {{ partial "structured-data.html" . }}
 
-  {{- /* GoatCounter analytics — privacy-friendly, geen cookies, geen banner nodig.
+  {{- /* GoatCounter analytics - privacy-friendly, geen cookies, geen banner nodig.
          Alleen actief in productie (HUGO_ENVIRONMENT=production, gezet door de
          GitHub Actions workflow), zodat lokale builds de stats niet vervuilen.
          Dashboard: https://zcflevo.goatcounter.com */ -}}
@@ -95,23 +100,55 @@
           async src="//gc.zgo.at/count.js"></script>
   {{ end }}
 </head>
-<body>
+{{- /* Body-klassen als haakjes voor paginaspecifieke CSS (bijv. page-vloot,
+       page-contact, page-faq), zonder iets aan de content te veranderen. */}}
+<body class="kind-{{ .Kind }} section-{{ .Section | default "root" }}{{ with .File }} page-{{ .ContentBaseName | urlize }}{{ end }}">
+  <a class="skip-link" href="#main-content">Naar de inhoud</a>
   {{ partial "header.html" . }}
   <main id="main-content">
     {{ block "main" . }}{{ end }}
   </main>
   {{ partial "footer.html" . }}
   <script>
-    const toggle = document.querySelector('.nav-toggle');
-    const nav = document.getElementById('main-nav');
-    if (toggle && nav) {
-      toggle.addEventListener('click', function() {
-        const expanded = this.getAttribute('aria-expanded') === 'true';
-        this.setAttribute('aria-expanded', String(!expanded));
-        nav.classList.toggle('open');
-        document.body.classList.toggle('nav-open');
+    (function () {
+      var toggle = document.querySelector('.nav-toggle');
+      var nav = document.getElementById('main-nav');
+      if (!toggle || !nav) return;
+      nav.classList.add('has-js');
+
+      function setOpen(open) {
+        toggle.setAttribute('aria-expanded', String(open));
+        nav.classList.toggle('open', open);
+        document.body.classList.toggle('nav-open', open);
+      }
+      toggle.addEventListener('click', function () {
+        setOpen(this.getAttribute('aria-expanded') !== 'true');
       });
-    }
+      // Escape sluit het mobiele menu en zet de focus terug op de knop
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && nav.classList.contains('open')) {
+          setOpen(false);
+          toggle.focus();
+        }
+      });
+      // Klik op een link in het mobiele menu sluit het menu
+      nav.addEventListener('click', function (e) {
+        if (e.target.closest('a') && nav.classList.contains('open')) setOpen(false);
+      });
+      // Submenu's in het mobiele menu in- en uitklappen
+      nav.querySelectorAll('.submenu-toggle').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var li = btn.closest('.has-dropdown');
+          var open = !li.classList.contains('sub-open');
+          li.classList.toggle('sub-open', open);
+          btn.setAttribute('aria-expanded', String(open));
+        });
+      });
+      // Terug naar desktopbreedte: menu-status opruimen
+      window.matchMedia('(min-width: 769px)').addEventListener('change', function (m) {
+        if (m.matches) setOpen(false);
+      });
+    })();
   </script>
 </body>
 </html>

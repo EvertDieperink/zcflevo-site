@@ -212,15 +212,13 @@ nieuwste versie te laden.
 
 ## Een foto vervangen of toevoegen
 
-Foto's staan op vier plekken:
+Foto's staan op twee plekken:
 
 - `static/images/`: algemene foto's (lidavatars, vloot, logo)
-- `assets/images/photo-strip/normal/`: foto's voor de fotostrook op de
-  homepage
-- `assets/images/photo-strip/wide/`: brede foto's voor de homepage
-  (2× breed)
-- `assets/images/hero/`: achtergrond-foto's bovenaan de homepage
-  (wisselen elke 10 sec)
+- `assets/images/home/`: foto's voor de homepage. Welke foto waar staat
+  (de wisselende foto's bovenaan, de waypoints, Onze Club en de slotsectie)
+  regel je in `content/_index.md`; daar staat ook hoe je een foto aan de
+  wisselende foto's bovenaan (`hero_images`) toevoegt of eruit haalt
 
 ### Een nieuwe foto uploaden
 

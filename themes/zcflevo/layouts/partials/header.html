@@ -2,26 +2,32 @@
   <div class="container">
     <div class="header-inner">
       <a href="{{ .Site.Home.RelPermalink }}" class="logo" aria-label="{{ .Site.Title }}">
-        <img src="{{ "images/logo.svg" | relURL }}" alt="{{ .Site.Title }}" height="40">
+        <img src="{{ "images/logo.svg" | relURL }}" alt="{{ .Site.Title }}" width="176" height="44">
       </a>
       <button class="nav-toggle" aria-label="Navigatiemenu openen of sluiten" aria-expanded="false" aria-controls="main-nav">
         <span></span><span></span><span></span>
       </button>
       <nav class="main-nav" id="main-nav" aria-label="Hoofdnavigatie">
         <ul>
+          {{- $chevron := `<svg class="chevron" viewBox="0 0 12 12" width="10" height="10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2.5 4.5L6 8l3.5-3.5"/></svg>` | safeHTML }}
           {{ range .Site.Menus.main }}
+            {{- $current := $.IsMenuCurrent "main" . }}
+            {{- $inSection := or $current ($.HasMenuCurrent "main" .) }}
             {{ if .HasChildren }}
-              <li class="has-dropdown">
-                <a href="{{ .URL }}">{{ .Name }} <span class="arrow" aria-hidden="true">&#9660;</span></a>
-                <ul class="dropdown">
+              {{- $subId := printf "submenu-%s" (.Identifier | default .Name | urlize) }}
+              <li class="has-dropdown{{ if $inSection }} active sub-open{{ end }}">
+                <a href="{{ .URL }}"{{ if $current }} aria-current="page"{{ end }}>{{ .Name }} {{ $chevron }}</a>
+                <button type="button" class="submenu-toggle" aria-expanded="{{ if $inSection }}true{{ else }}false{{ end }}" aria-controls="{{ $subId }}"><span class="sr-only">Submenu {{ .Name }}</span>{{ $chevron }}</button>
+                <ul class="dropdown" id="{{ $subId }}">
                   {{ range .Children }}
-                    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                    {{- $childCurrent := $.IsMenuCurrent "main" . }}
+                    <li{{ if $childCurrent }} class="active"{{ end }}><a href="{{ .URL }}"{{ if $childCurrent }} aria-current="page"{{ end }}>{{ .Name }}</a></li>
                   {{ end }}
                 </ul>
               </li>
             {{ else }}
-              <li{{ if eq $.RelPermalink (.URL | relURL) }} class="active"{{ end }}>
-                <a href="{{ .URL }}">{{ .Name }}</a>
+              <li{{ if $current }} class="active"{{ end }}>
+                <a href="{{ .URL }}"{{ if $current }} aria-current="page"{{ end }}>{{ .Name }}</a>
               </li>
             {{ end }}
           {{ end }}

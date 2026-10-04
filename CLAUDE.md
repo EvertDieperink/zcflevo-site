@@ -27,7 +27,8 @@ in de deploy-workflow). Geen database, geen npm, geen server-side code.
 - `static/`: bestanden die letterlijk worden gekopieerd (o.a. `images/` voor
   contentfoto's, `CNAME`, manifests).
 - `assets/images/`: afbeeldingen die Hugo verkleint/optimaliseert
-  (`hero/` en `photo-strip/` voor de homepage).
+  (`home/` voor de homepage; welke foto waar staat regel je in
+  `content/_index.md`).
 - `hugo.toml`: siteconfig. `[params]` bevat de contactgegevens; onderaan staat
   uitleg over het menu.
 

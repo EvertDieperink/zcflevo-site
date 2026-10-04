@@ -16,27 +16,10 @@
 }
 </script>
 
-<div class="page-header">
-  <div class="container">
-    {{ if and .Parent (not .Parent.IsHome) }}
-    <div class="breadcrumb">
-      <a href="{{ .Site.Home.RelPermalink }}">Home</a>
-      <span aria-hidden="true"> › </span>
-      <a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a>
-      <span aria-hidden="true"> › </span>
-    </div>
-    {{ else }}
-    <div class="breadcrumb">
-      <a href="{{ .Site.Home.RelPermalink }}">Home</a>
-      <span aria-hidden="true"> › </span>
-    </div>
-    {{ end }}
-    <h1>{{ .Title }}</h1>
-    {{ with .Description }}<p class="page-description">{{ . }}</p>{{ end }}
-  </div>
-</div>
+{{ partial "page-header.html" . }}
 
 <div class="page-content">
+  {{ partial "page-toc.html" . }}
   <div class="container">
     {{ .Content }}
   </div>

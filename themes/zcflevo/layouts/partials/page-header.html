@@ -1,0 +1,20 @@
+{{- /* Paginakop voor binnenpagina's: kruimelpad (met de huidige pagina als
+       laatste item), titel en beschrijving. Een pagina met header_image in de
+       front matter krijgt een fotokop. */ -}}
+{{- $photo := "" -}}
+{{- with .Params.header_image }}{{ $photo = . | strings.TrimPrefix "/" | relURL }}{{ end -}}
+<div class="page-header{{ if $photo }} has-photo{{ end }}"{{ with $photo }} style="{{ printf "background-image:url('%s')" . | safeCSS }}"{{ end }}>
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Kruimelpad">
+      <ol>
+        <li><a href="{{ .Site.Home.RelPermalink }}">Home</a></li>
+        {{- with .Parent }}{{ if not .IsHome }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{- end }}{{ end }}
+        <li aria-current="page">{{ .Title }}</li>
+      </ol>
+    </nav>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="page-description">{{ . }}</p>{{ end }}
+  </div>
+</div>

@@ -1,17 +1,6 @@
 {{ define "main" }}
 
-<div class="page-header">
-  <div class="container">
-    <div class="breadcrumb">
-      <a href="{{ .Site.Home.RelPermalink }}">Home</a>
-      <span aria-hidden="true"> &rsaquo; </span>
-      <a href="{{ "onze-club/" | relURL }}">Onze Club</a>
-      <span aria-hidden="true"> &rsaquo; </span>
-    </div>
-    <h1>{{ .Title }}</h1>
-    {{ with .Description }}<p class="page-description">{{ . }}</p>{{ end }}
-  </div>
-</div>
+{{ partial "page-header.html" . }}
 
 <div class="flights-page">
   <div class="flights-container">

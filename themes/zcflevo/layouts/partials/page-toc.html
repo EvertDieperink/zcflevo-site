@@ -1,0 +1,39 @@
+{{- /* "Op deze pagina": automatisch overzicht uit de koppen van lange pagina's.
+       Alleen op brede schermen zichtbaar, in de marge naast de tekst (CSS).
+       Niet op de FAQ (heeft eigen structured data) en niet bij de theorie-quiz. */ -}}
+{{- $h2 := findRE `<h2[ >]` .Content -}}
+{{- $all := findRE `<h[23][ >]` .Content -}}
+{{- if and (not .Params.faqs) (ne .Section "spl-theorie") (or (ge (len $h2) 6) (ge (len $all) 10)) }}
+<aside class="page-toc" aria-label="Op deze pagina">
+  <div class="page-toc-inner">
+    <p class="page-toc-title">Op deze pagina</p>
+    {{ .TableOfContents }}
+  </div>
+  <script>
+    // Licht de kop op waar je nu bent (alleen zichtbaar op brede schermen)
+    document.addEventListener('DOMContentLoaded', function () {
+      var links = [].slice.call(document.querySelectorAll('.page-toc a[href^="#"]'));
+      var items = links.map(function (a) {
+        return { a: a, h: document.getElementById(decodeURIComponent(a.getAttribute('href').slice(1))) };
+      }).filter(function (x) { return x.h; });
+      if (!items.length) return;
+      var current = null, ticking = false;
+      function update() {
+        ticking = false;
+        var pick = null;
+        items.forEach(function (x) { if (x.h.getBoundingClientRect().top < 140) pick = x; });
+        var a = pick ? pick.a : null;
+        if (a === current) return;
+        if (current) current.classList.remove('is-active');
+        if (a) a.classList.add('is-active');
+        current = a;
+      }
+      window.addEventListener('scroll', function () {
+        if (!ticking) { ticking = true; requestAnimationFrame(update); }
+      }, { passive: true });
+      update();
+    });
+  </script>
+</aside>
+
+{{- end }}
