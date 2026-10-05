@@ -1,0 +1,2755 @@
+{
+ "vak": "Algemene kennis van het zweefvliegtuig",
+ "vragen": [
+  {
+   "v": "Tijdens een lierstart met een hoge positieve belastingsfactor wordt de vleugel zwaar op buiging belast. Welke combinatie van spanningen treedt dan op in de hoofdligger?",
+   "a": [
+    "Bovenste gordel op trek, onderste gordel op druk, lijf vooral op afschuiving",
+    "Beide gordels op trek, lijf vooral op druk door de doorbuiging",
+    "Beide gordels op afschuiving, lijf vooral op buiging en torsie",
+    "Bovenste gordel op druk, onderste gordel op trek, lijf vooral op afschuiving"
+   ],
+   "juist": 3,
+   "uitleg": "Bij positieve g buigt de vleugel omhoog: de bovenkant wordt samengedrukt en de onderkant uitgerekt. Het lijf tussen de gordels draagt de dwarskracht (afschuiving)."
+  },
+  {
+   "v": "Waarom worden de liggergordels van een vleugel naar de tip toe steeds dunner uitgevoerd?",
+   "a": [
+    "Het buigmoment neemt van wortel naar tip af, dus naar buiten is minder materiaal nodig",
+    "De torsie neemt naar de tip toe, dus moet daar juist het lijf dikker worden",
+    "Een dunnere tip verlaagt de overtreksnelheid van het buitenste vleugeldeel",
+    "Dunne gordels bij de tip zijn nodig om flutter van de rolroeren bij hoge snelheid te voorkomen"
+   ],
+   "juist": 0,
+   "uitleg": "Het buigmoment is maximaal bij de wortel en wordt nul aan de tip. De gordeldoorsnede volgt dat verloop, wat massa bespaart."
+  },
+  {
+   "v": "Hetzelfde zweefvliegtuig vliegt eenmaal met 100 kg water in de vleugeltanks en eenmaal met 100 kg extra lood in de romp, bij gelijke totale massa en gelijke belastingsfactor. Wat geldt voor het buigmoment bij de vleugelwortel?",
+   "a": [
+    "Het is in beide gevallen gelijk, want de totale massa en de belastingsfactor bepalen het wortelmoment",
+    "Met water in de vleugels is het groter, omdat de massa verder van de romp zit",
+    "Met lood in de romp is het kleiner, omdat de romp het lood rechtstreeks draagt",
+    "Met water in de vleugels is het kleiner, omdat die massa aangrijpt waar ook de lift ontstaat"
+   ],
+   "juist": 3,
+   "uitleg": "Massa in de vleugel wordt plaatselijk door de lift gedragen en hoeft niet via de wortel naar de romp. Massa in de romp moet volledig via de wortel worden gedragen en vergroot dus het wortelmoment."
+  },
+  {
+   "v": "Wat wordt beperkt door de 'maximale massa van de niet-dragende delen' in het vlieghandboek?",
+   "a": [
+    "De massa van beide vleugels inclusief waterballast, die bepalend is voor het wortelmoment",
+    "De massa van romp, staart, inzittenden en rompballast, die via de vleugelwortel hangt",
+    "De massa van de staartvlakken, omdat die het zwaartepunt het sterkst verschuift",
+    "De massa die tijdens een vliegtuigsleep via de neushaak mag worden getrokken"
+   ],
+   "juist": 1,
+   "uitleg": "De vleugelaansluiting moet alles dragen wat niet in de vleugels zit. Daarom is de massa van de niet-dragende delen begrensd, los van de maximale startmassa."
+  },
+  {
+   "v": "Welk deel van een moderne kunststof vleugel neemt vooral het torsiemoment op?",
+   "a": [
+    "De boven- en ondergordel van de ligger, die daarvoor het stijfst zijn",
+    "De achterste vleugelpennen, zonder bijdrage van de huid",
+    "De gesloten koker van vleugelhuid en liggerlijf, met de neus als torsiedoos",
+    "De rolroeren en welvingskleppen, die de vleugel tegen verdraaien schoren"
+   ],
+   "juist": 2,
+   "uitleg": "Torsie wordt het efficiëntst opgenomen door een gesloten koker. De huid voor de ligger vormt samen met het liggerlijf zo'n torsiedoos (D-box)."
+  },
+  {
+   "v": "Waarom wordt in kunststof zweefvliegtuigen veel sandwichconstructie (laminaat, lichte kern, laminaat) toegepast?",
+   "a": [
+    "De kern neemt de trekkrachten op, zodat de huiden vooral een beschermende functie hebben",
+    "De kern dempt trillingen volledig, zodat massabalans van de roeren overbodig wordt",
+    "De kern beschermt het laminaat tegen UV-straling, zodat geen gelcoat nodig is",
+    "De lichte kern houdt de huiden op afstand: veel meer buigstijfheid bij weinig extra massa"
+   ],
+   "juist": 3,
+   "uitleg": "Stijfheid neemt sterk toe met de afstand tussen de dragende huiden. Een lichte schuim- of honingraatkern levert die afstand vrijwel zonder massa."
+  },
+  {
+   "v": "Een vleugel is ontworpen voor een limietbelasting van +5,3 g. Welke belasting moet de constructie volgens de gebruikelijke veiligheidsfactor minimaal kunnen dragen zonder te bezwijken?",
+   "a": [
+    "Precies +5,3 g",
+    "Ongeveer +8,0 g",
+    "Ongeveer +6,6 g",
+    "Ongeveer +10,6 g"
+   ],
+   "juist": 1,
+   "uitleg": "De breukbelasting is de limietbelasting maal de veiligheidsfactor 1,5: 5,3 x 1,5 = 7,95, dus ongeveer 8 g. Die marge is voor materiaalspreiding en onzekerheden, niet om te gebruiken."
+  },
+  {
+   "v": "Wat mag er volgens de bouwvoorschriften met de constructie gebeuren als de limietbelasting precies wordt bereikt?",
+   "a": [
+    "Geen blijvende vervorming die de werking of veiligheid aantast",
+    "Blijvende vervorming is toegestaan, zolang er geen breuk optreedt",
+    "Breuk is toegestaan na drie seconden, mits de vlieger kan uitstappen",
+    "De roeren en kleppen mogen blijvend vervormen, de rest niet"
+   ],
+   "juist": 0,
+   "uitleg": "Tot de limietbelasting moet de constructie zonder schadelijke blijvende vervorming functioneren. Pas tussen limiet- en breukbelasting mag vervorming optreden, maar geen breuk."
+  },
+  {
+   "v": "Na een vlucht in zware turbulentie vermoed je dat de limietbelasting is overschreden, maar uitwendig zie je niets. Wat is juist?",
+   "a": [
+    "Zonder zichtbare schade is het toestel luchtwaardig en kun je na een korte controle gewoon doorvliegen",
+    "Een korte testvlucht met lage belasting maken om te voelen of alles in orde is",
+    "Het toestel niet meer gebruiken tot een bevoegde technicus het heeft geïnspecteerd",
+    "Het voorval noteren en bij de volgende jaarlijkse inspectie laten bekijken"
+   ],
+   "juist": 2,
+   "uitleg": "Inwendige schade aan ligger, lijmverbindingen of aansluitingen is vaak van buiten onzichtbaar. Een vermoedelijke overbelasting moet eerst door een bevoegde technicus worden beoordeeld."
+  },
+  {
+   "v": "Waarom zijn kunststof zweefvliegtuigen bijna altijd wit gespoten?",
+   "a": [
+    "Wit weerkaatst de UV-straling, zodat de gelcoat niet veroudert of scheurt",
+    "Witte lak is wettelijk verplicht voor de zichtbaarheid van zweefvliegtuigen",
+    "Een donkere huid wordt in de zon zo heet dat de hars verweekt en sterkte verliest",
+    "Wit pigment is lichter dan gekleurd pigment en verlaagt zo de lege massa"
+   ],
+   "juist": 2,
+   "uitleg": "Epoxyhars verliest boven zijn glasovergangstemperatuur snel sterkte. Een donkere huid kan in de zon veel heter worden dan een witte; daarom schrijven fabrikanten wit voor, met hooguit kleine gekleurde delen."
+  },
+  {
+   "v": "Waarom leg je bij een zweefvliegtuig dat in de zon staat een (lichte) hoes over de kap?",
+   "a": [
+    "Tegen oververhitting van cockpit en instrumenten en het brandglaseffect van de kap",
+    "Om te voorkomen dat de kap door regenwater en zonlicht geel verkleurt en ondoorzichtig wordt",
+    "Statische elektriciteit op de kap kan anders de radio storen",
+    "Om te voorkomen dat er condens in de pitot- en statische leidingen ontstaat"
+   ],
+   "juist": 0,
+   "uitleg": "Een gebogen kap kan zonlicht bundelen en zo instrumenten of bekleding verschroeien, en de cockpit wordt zeer heet. Een lichte hoes voorkomt beide."
+  },
+  {
+   "v": "Wat is de belangrijkste functie van de gelcoat op een kunststof vleugel?",
+   "a": [
+    "Het opnemen van een deel van de torsie, zodat de huid dunner kan blijven",
+    "Bescherming tegen UV en vocht en een glad oppervlak; niet dragend",
+    "Het verhogen van de buigsterkte van de liggergordels aan de buitenzijde",
+    "Bliksemstroom afvoeren via een geleidende buitenlaag"
+   ],
+   "juist": 1,
+   "uitleg": "De gelcoat is een beschermlaag. Scheuren in de gelcoat laten vocht en UV bij het laminaat, maar de gelcoat zelf draagt niet."
+  },
+  {
+   "v": "Je ziet op de vleugel een stervormig patroon van haarscheurtjes in de gelcoat rond een punt. Wat is de juiste interpretatie?",
+   "a": [
+    "Dit is normale veroudering van de gelcoat en vooral een cosmetisch probleem",
+    "Dit wijst op een te hoge temperatuur in de aanhanger en verdwijnt na afkoelen",
+    "Dit is een teken van overtollige hars en kan met polijsten worden verwijderd",
+    "Waarschijnlijk een stoot; het laminaat eronder kan beschadigd zijn en moet worden beoordeeld"
+   ],
+   "juist": 3,
+   "uitleg": "Stervormige scheurtjes rond een punt zijn typisch voor slagschade. Onder de gelcoat kan het laminaat of de kern beschadigd of gedelamineerd zijn."
+  },
+  {
+   "v": "Waarom is slagschade in koolstofvezel (CFK) verraderlijker dan in glasvezel (GFK)?",
+   "a": [
+    "CFK is veel zwakker dan GFK, zodat elke kleine stoot direct tot breuk leidt",
+    "CFK roest bij vocht, zodat schade zich onzichtbaar onder de gelcoat en het laminaat uitbreidt",
+    "CFK neemt veel water op, waardoor beschadigde plekken na regen zacht worden",
+    "CFK verkleurt niet wit bij inwendige schade, kan van buiten intact lijken en bezwijkt bros"
+   ],
+   "juist": 3,
+   "uitleg": "Beschadigd glasvezellaminaat wordt vaak wit of mat (zichtbaar). Koolstof blijft zwart, dus delaminatie of vezelbreuk blijft onopgemerkt, en CFK geeft weinig waarschuwing voor bezwijken."
+  },
+  {
+   "v": "Witte, matte plekken in glasvezellaminaat na een harde landing duiden meestal op:",
+   "a": [
+    "Haarscheuren in de hars en loslating tussen vezels en hars",
+    "Overtollige hars die bij de fabricage niet is uitgehard",
+    "UV-veroudering van de gelcoat zonder gevolgen voor het laminaat",
+    "Condens tussen gelcoat en laminaat dat vanzelf verdampt"
+   ],
+   "juist": 0,
+   "uitleg": "Bij overbelasting van glasvezellaminaat ontstaan microscheurtjes en loslating van vezel en hars, wat er wit uitziet. Het laminaat is dan beschadigd."
+  },
+  {
+   "v": "Hoe kun je als vlieger op eenvoudige wijze een vermoeden van delaminatie in een sandwichhuid nader onderzoeken?",
+   "a": [
+    "Zacht kloppen met een munt: een doffe klank ten opzichte van de omgeving wijst op loslating",
+    "Met de duim hard op de huid drukken tot je een krakend geluid hoort",
+    "Aan de vleugeltip schudden en luisteren of er iets rammelt of kraakt in de vleugel bij de ligger",
+    "De huid verwarmen met een föhn en kijken of er blaasjes ontstaan"
+   ],
+   "juist": 0,
+   "uitleg": "De kloptest (tap test) laat een verschil in klank horen: een gedelamineerde plek klinkt dof. Bij een vermoeden laat je een technicus het verder beoordelen."
+  },
+  {
+   "v": "Welke combinatie van eigenschappen past bij aramidevezel (bijvoorbeeld Kevlar)?",
+   "a": [
+    "Zeer hoge stijfheid en druksterkte, maar bros bij stootbelasting",
+    "Goedkoop en zwaar, maar volkomen ongevoelig voor UV en vocht",
+    "Elektrisch geleidend en daardoor gevoelig voor corrosie bij metalen delen",
+    "Zeer taai en slagvast, maar slechte druksterkte en gevoelig voor UV en vocht"
+   ],
+   "juist": 3,
+   "uitleg": "Aramide absorbeert veel energie en scheurt moeilijk, maar is zwak op druk en neemt vocht op en degradeert door UV. Daarom wordt het afgeschermd en gecombineerd met andere vezels."
+  },
+  {
+   "v": "Waarom wordt aramide vaak in de cockpitsectie van de romp verwerkt?",
+   "a": [
+    "Het is het stijfste vezelmateriaal en voorkomt zo doorbuiging van de romp",
+    "Het is ongevoelig voor warmte, zodat de cockpit in de zon koel blijft",
+    "Het absorbeert bij een crash veel energie en blijft bijeen",
+    "Het is het goedkoopste vezelmateriaal en verlaagt zo de bouwkosten"
+   ],
+   "juist": 2,
+   "uitleg": "De taaiheid van aramide houdt de cockpitkuip bij een klap bijeen. Stijfheid komt vooral van koolstof, niet van aramide."
+  },
+  {
+   "v": "In een koolstof romp wordt de radio- of FLARM-antenne bij voorkeur in een glasvezel deel (bijvoorbeeld de kielvin) geplaatst. Waarom?",
+   "a": [
+    "Koolstofvezel wordt door het zendvermogen te heet en kan delamineren",
+    "Glasvezel versterkt het radiosignaal doordat het als lens werkt",
+    "Een antenne in koolstof veroorzaakt grote deviatie van het kompas",
+    "Koolstofvezel is elektrisch geleidend en schermt radiogolven af"
+   ],
+   "juist": 3,
+   "uitleg": "Een geleidende koolstofhuid werkt als een kooi van Faraday. Glasvezel en aramide laten radiogolven wel door."
+  },
+  {
+   "v": "Waarom gebruiken ontwerpers bij vleugels met grote spanwijdte koolstofvezel in de liggergordels in plaats van glasvezel?",
+   "a": [
+    "Veel hogere stijfheid per massa, zodat de vleugel lichter is en minder doorbuigt",
+    "Koolstof is taaier en slagvaster dan glasvezel en dus schadebestendiger",
+    "Het is goedkoper en eenvoudiger te verwerken dan glasvezel",
+    "Koolstof is UV-bestendig, zodat de gordels geen bescherming nodig hebben"
+   ],
+   "juist": 0,
+   "uitleg": "De elasticiteitsmodulus van koolstofvezel is enkele malen hoger dan die van glasvezel. Voor lange, slanke vleugels is stijfheid per kilogram doorslaggevend."
+  },
+  {
+   "v": "Welke bewering over glasvezel en koolstofvezel is NIET juist?",
+   "a": [
+    "Glasvezel is stijver dan koolstofvezel bij gelijke massa",
+    "Koolstofvezel geleidt elektriciteit, glasvezel niet",
+    "Beschadigd glasvezellaminaat verkleurt vaak wit",
+    "Een glasvezel vleugel buigt bij gelijke belasting meer door"
+   ],
+   "juist": 0,
+   "uitleg": "Het is precies andersom: koolstof is veel stijver per massa dan glasvezel. De andere beweringen kloppen."
+  },
+  {
+   "v": "Welk hout werd klassiek voor de liggers van houten zweefvliegtuigen gebruikt, en waarom?",
+   "a": [
+    "Eikenhout, omdat het het hardst en dus het meest slagvast is",
+    "Balsahout, omdat het het lichtst is en de ligger daardoor zo licht mogelijk maakt bij grote spanwijdte",
+    "Vurenhout (sparrenhout) met rechte nerf, vanwege de hoge sterkte en stijfheid per massa",
+    "Massief berkenmultiplex, omdat dat de hoogste druksterkte heeft"
+   ],
+   "juist": 2,
+   "uitleg": "Vurenhout (bijvoorbeeld sitkaspar) combineert lage dichtheid met goede sterkte en een regelmatige nerf. Berkenmultiplex werd vooral voor de huid gebruikt."
+  },
+  {
+   "v": "Wat is het grootste gevaar voor een houten zweefvliegtuig dat langdurig vochtig wordt gestald?",
+   "a": [
+    "Roest van het hout, waardoor het bros wordt en splijt",
+    "Krimp van het hout, waardoor de bespanning te strak komt te staan",
+    "Houtrot en aantasting van lijmverbindingen, ook inwendig en onzichtbaar",
+    "Verkleuring van de lak, waardoor het hout eronder uitdroogt"
+   ],
+   "juist": 2,
+   "uitleg": "Vocht leidt tot schimmel, houtrot en verzwakte lijmnaden, vaak binnenin de vleugel. Daarom is droge, geventileerde stalling essentieel."
+  },
+  {
+   "v": "Bij inspectie van een houten ligger zie je op de bovenzijde een dwarse rimpeling in de houtnerf. Wat betekent dat?",
+   "a": [
+    "Normale krimp van het hout door droogte en temperatuurwisselingen, zonder gevolgen voor de sterkte",
+    "Waarschijnlijk drukbreuk van de houtvezels door overbelasting: ernstige constructieve schade",
+    "Een oude lijmnaad die bij de bouw zo is aangebracht",
+    "Vocht onder de lak, dat met drogen weer verdwijnt"
+   ],
+   "juist": 1,
+   "uitleg": "De bovenzijde van de ligger staat op druk. Een dwarse rimpellijn in de nerf wijst op stuiking van de vezels door overbelasting; de ligger is dan verzwakt."
+  },
+  {
+   "v": "Waar moet je bij een stalen vakwerkromp met doekbespanning vooral op letten?",
+   "a": [
+    "Corrosie van de buizen, vooral op lage punten waar vocht blijft staan",
+    "Delaminatie van de buizen door UV-straling door de bespanning heen",
+    "Vermoeiing van de spanlak, die de buizen bij elkaar houdt",
+    "Verweking van de lasnaden bij hoge temperatuur in de aanhanger"
+   ],
+   "juist": 0,
+   "uitleg": "Stalen buizen roesten van binnen en van buiten, vooral waar water zich verzamelt. Onder de bespanning blijft dat lang onopgemerkt."
+  },
+  {
+   "v": "Wat kenmerkt een monocoque romp?",
+   "a": [
+    "De belastingen worden door een stalen buizenvakwerk opgenomen",
+    "De huid zelf neemt de belastingen op, zonder inwendig vakwerk",
+    "Houten spanten met doekbespanning dragen alle krachten",
+    "Een aluminium vakwerk met een niet-dragende kunststof kuip"
+   ],
+   "juist": 1,
+   "uitleg": "Bij een monocoque (of semi-monocoque) constructie is de huid dragend. Moderne kunststof rompen zijn zo opgebouwd, eventueel met enkele spanten."
+  },
+  {
+   "v": "Wat veroorzaakt in de vlucht vooral torsie (verdraaiing) van de staartboom?",
+   "a": [
+    "De neerwaartse kracht van het stabilo, die ver achter het zwaartepunt en de vleugel aangrijpt",
+    "Het torsiemoment van de vleugels, dat via de hoofdpennen wordt doorgegeven",
+    "Het gewicht van staartwiel of staartsloffen tijdens de vlucht",
+    "Een zijdelingse kracht op kielvlak en richtingsroer, die boven de rompas aangrijpt"
+   ],
+   "juist": 3,
+   "uitleg": "De zijkracht op het verticale staartvlak werkt boven de hartlijn van de romp en geeft zo een torsiemoment op de staartboom, naast buiging."
+  },
+  {
+   "v": "Hoe worden bij de meeste tweedelige zweefvliegtuigvleugels de buigmomenten van linker- en rechtervleugel aan elkaar overgedragen?",
+   "a": [
+    "De liggertongen overlappen in de romp en de hoofdpen verbindt ze; de momenten heffen elkaar op",
+    "Via de rompspanten, waarbij de romp het volle buigmoment van elke vleugel opneemt",
+    "Via de rolroerkoppelingen in de romp, die ook de buigkracht doorgeven",
+    "Via de achterste pennen, die daarvoor het zwaarst zijn uitgevoerd"
+   ],
+   "juist": 0,
+   "uitleg": "De liggers van beide vleugels grijpen in elkaar en worden met de hoofdpen verbonden. Het grote buigmoment gaat zo van vleugel naar vleugel, de romp draagt vooral de dwarskracht."
+  },
+  {
+   "v": "Welke functie hebben de wortelpennen aan voor- en achterzijde van de wortelrib (naast de hoofdpen)?",
+   "a": [
+    "Ze nemen het grootste deel van het buigmoment op, terwijl de hoofdpen de dwarskracht naar de romp draagt",
+    "Ze borgen de hoofdpen tegen eruit lopen en hebben verder geen dragende functie",
+    "Ze dragen dwarskracht en torsiemoment over naar de romp en leggen de invalshoek van de vleugel vast",
+    "Ze dienen als geleiding bij montage en dragen in de vlucht niets"
+   ],
+   "juist": 2,
+   "uitleg": "De pennen bij de wortelrib vormen een koppel dat het torsiemoment van de vleugel naar de romp overbrengt en de vleugelstand vastlegt. Het buigmoment loopt via de ligger en de hoofdpen."
+  },
+  {
+   "v": "Bij montage merk je dat de hoofdpen ongewoon veel speling heeft in de bussen. Wat doe je?",
+   "a": [
+    "Extra vet aanbrengen, want dat vult de speling op en dempt eventuele trillingen",
+    "Vliegen, maar rustig en met een lagere snelheid dan VNE",
+    "Niet vliegen: speling in de hoofdaansluiting moet eerst worden beoordeeld",
+    "Een iets dikkere pen uit een ander toestel van hetzelfde type gebruiken"
+   ],
+   "juist": 2,
+   "uitleg": "Speling in de hoofdaansluiting kan op slijtage of schade wijzen en geeft wisselende belastingen. Alleen een bevoegde technicus mag dat beoordelen en herstellen."
+  },
+  {
+   "v": "Wat kan gebeuren als een vleugel bij hoge snelheid onvoldoende torsiestijf is?",
+   "a": [
+    "De overtreksnelheid neemt sterk af, waardoor het toestel moeilijk te landen is",
+    "Rolroeromkering: de vleugel verdraait door de roerkracht zodat het rolroer minder of zelfs omgekeerd werkt",
+    "Het buigmoment aan de wortel verdwijnt, zodat de ligger wordt ontlast",
+    "De vleugel gaat bij hoge snelheid vanzelf in een hogere invalshoek staan, wat het glijgetal juist verbetert"
+   ],
+   "juist": 1,
+   "uitleg": "Een neerwaarts rolroer geeft een neus-omlaag-moment op het profiel en verdraait de vleugel naar een kleinere invalshoek. Bij te weinig torsiestijfheid wordt het roereffect daardoor kleiner of zelfs omgekeerd; ook het flutterrisico neemt toe."
+  },
+  {
+   "v": "Waarom worden reparaties aan kunststof constructies vaak getemperd (na het uitharden verwarmd)?",
+   "a": [
+    "Om luchtbellen uit het laminaat te verwijderen die bij het lamineren zijn ontstaan",
+    "Om de kleur van de reparatie gelijk te maken aan de rest van het toestel",
+    "Om de hars zachter te maken, zodat het laminaat beter kan doorbuigen",
+    "Om de hars volledig te laten uitharden, voor een hogere warmtebestendigheid en sterkte"
+   ],
+   "juist": 3,
+   "uitleg": "Na een warmtebehandeling is de vernetting van de hars vollediger. Daardoor stijgt de glasovergangstemperatuur en de sterkte, conform de eisen van de fabrikant."
+  },
+  {
+   "v": "Na een harde landing op het hoofdwiel wordt het toestel geïnspecteerd. Welke gebieden horen daar zeker bij?",
+   "a": [
+    "De band en de bandenspanning; de rest is ruim overgedimensioneerd",
+    "De staartsteun en de kap; wielkast en vleugels worden niet zwaar belast",
+    "Wielkast en gestelbevestiging, nabijgelegen rompspanten en de vleugelaansluitingen",
+    "De kapvergrendeling; de vleugelaansluiting merkt niets van een landing"
+   ],
+   "juist": 2,
+   "uitleg": "De klap gaat via gestel en romp naar de vleugelaansluiting; de traagheid van de vleugels belast pennen en liggerwortel. Schade kan daar zitten zonder dat de band iets mankeert."
+  },
+  {
+   "v": "Hoe maak je een acrylaat (plexiglas) kap het best schoon?",
+   "a": [
+    "Met veel water en een zachte doek of een speciaal kunststofmiddel, zonder alcohol of oplosmiddelen",
+    "Met huishoudelijke glasreiniger op basis van ammoniak of alcohol, omdat die vet oplost en streeploos droogt",
+    "Droog afnemen met een papieren doek, zodat er geen water op de kap komt",
+    "Met aceton of spiritus, omdat dat vet en insecten het snelst oplost"
+   ],
+   "juist": 0,
+   "uitleg": "Oplosmiddelen, alcohol en ammoniak kunnen haarscheurtjes (crazing) veroorzaken. Droog wrijven of papier krast de kap; veel water en een zachte doek zijn veilig."
+  },
+  {
+   "v": "Waarom hebben kunststof zweefvliegtuigen een levensduurgrens in vlieguren die alleen via een speciaal inspectieprogramma mag worden verlengd?",
+   "a": [
+    "Gelcoat wordt na een bepaald aantal uren doorlatend voor vocht en moet dan volledig worden vervangen en opnieuw gespoten",
+    "Vermoeiing en veroudering van laminaat en verbindingen moeten bij hogere uren aantoonbaar gecontroleerd worden",
+    "Na het verlopen van de uren vervalt automatisch het typecertificaat van de fabrikant",
+    "Kunststof vleugels verliezen na een vast aantal uren hun aerodynamische vorm"
+   ],
+   "juist": 1,
+   "uitleg": "De oorspronkelijke levensduur is gebaseerd op vermoeiingsonderzoek. Verlenging mag alleen na een voorgeschreven inspectie die de toestand van constructie en verbindingen bevestigt."
+  },
+  {
+   "v": "Wat kan een blikseminslag in een kunststof zweefvliegtuig veroorzaken?",
+   "a": [
+    "Een klein inslaggaatje in de gelcoat, maar verder niets omdat kunststof geen stroom geleidt",
+    "Delaminatie en verbranding van laminaat en schade aan metalen delen, soms zonder zichtbare sporen",
+    "Schade aan de radio, maar niet aan de constructie, omdat de stroom via de antenne wegloopt",
+    "Geen schade, omdat de vleugeltips de stroom ongehinderd naar de lucht afvoeren"
+   ],
+   "juist": 1,
+   "uitleg": "De stroom zoekt een weg via geleidende delen (koolstof, kabels, stangen) en verhit het materiaal explosief. Na een (vermoede) inslag is een grondige inspectie nodig."
+  },
+  {
+   "v": "Je hebt het hoogteroer laten overspuiten. Waarom moet daarna de massabalans van het roer worden gecontroleerd?",
+   "a": [
+    "De lak maakt het roer stijver, zodat de maximale roeruitslagen kleiner worden",
+    "De lak verhoogt het gewicht van het toestel tot boven de maximale startmassa",
+    "Extra lak achter de scharnierlijn verschuift het roerzwaartepunt naar achteren: flutterrisico",
+    "De lak verandert de ligging van de scharnierlijn, zodat het roer tegen de vleugel of het stabilo gaat aanlopen"
+   ],
+   "juist": 2,
+   "uitleg": "Fabrikanten geven grenzen voor roermassa en statisch moment. Extra massa achter het scharnier kan die overschrijden en flutter mogelijk maken."
+  },
+  {
+   "v": "Waarom mag je een beschadigde doekbespanning op een roer niet zelf met een dikke laag lak of tape herstellen?",
+   "a": [
+    "Tape en lak worden in de vlucht zo warm dat het doek gaat smelten",
+    "Een zelf gerepareerd roer brengt het toestel boven de maximale startmassa",
+    "Het verandert de massaverdeling van het roer, met kans op flutter",
+    "Lak op doek maakt het roer elektrisch geleidend en stoort het kompas"
+   ],
+   "juist": 2,
+   "uitleg": "Elke extra massa op een roer, vooral achter de scharnierlijn, beïnvloedt de massabalans. Reparaties aan roeren zijn onderhoud en vallen onder de voorschriften."
+  },
+  {
+   "v": "Bij een kunststof zweefvliegtuig zie je fijne haarscheurtjes in de gelcoat langs de naad van de wortelrib. Wat is de beste handelwijze?",
+   "a": [
+    "Laten beoordelen: op een hoog belaste plek kunnen ze op schade in de aansluiting wijzen",
+    "Negeren, want de gelcoat draagt niet en scheurtjes zeggen dus niets over het laminaat",
+    "Zelf dichtplamuren met gelcoat, zodat er geen vocht meer in het laminaat en de schuimkern kan dringen",
+    "Afplakken met tape en het bij de volgende jaarlijkse inspectie melden"
+   ],
+   "juist": 0,
+   "uitleg": "Gelcoat zelf draagt niet, maar scheurtjes op een plek met grote krachten kunnen het gevolg zijn van vervorming of schade eronder. Een technicus moet dat beoordelen."
+  },
+  {
+   "v": "Wat is in het algemeen het verschil in bezwijkgedrag tussen een metalen en een koolstof constructiedeel?",
+   "a": [
+    "Metaal vervormt vaak eerst zichtbaar, koolstof bezwijkt meestal plotseling",
+    "Koolstof vervormt eerst blijvend, metaal breekt plotseling en bros",
+    "Beide vervormen eerst zichtbaar, zodat schade vooraf te zien is",
+    "Beide bezwijken plotseling, er is geen verschil in gedrag"
+   ],
+   "juist": 0,
+   "uitleg": "Metalen zijn meestal taai en kunnen plastisch vervormen. Koolstofcomposiet is tot breuk vrijwel lineair elastisch en geeft weinig waarschuwing."
+  },
+  {
+   "v": "Waarom moet kunststof laminaat na een reparatie meestal opnieuw met gelcoat of lak worden afgewerkt?",
+   "a": [
+    "Om de sterkte van de reparatie op het voorgeschreven niveau te brengen",
+    "Omdat onafgewerkt laminaat elektrisch geleidend is",
+    "Om het laminaat te beschermen tegen UV en vocht, die de hars aantasten",
+    "Omdat de reparatie anders niet in het logboek mag worden ingeschreven"
+   ],
+   "juist": 2,
+   "uitleg": "Onbeschermde epoxyhars degradeert onder UV-licht en neemt vocht op. De afwerklaag beschermt; de sterkte komt van het laminaat zelf."
+  },
+  {
+   "v": "Wat is de belangrijkste reden dat schuim- of honingraatkernen in een sandwich gevoelig zijn voor puntbelastingen (bijv. leunen op de vleugel met een knie)?",
+   "a": [
+    "De dunne huid kan indrukken en van de kern loslaten, wat de draagkracht vermindert",
+    "De kern smelt bij druk door wrijvingswarmte en verliest zo zijn vorm",
+    "De kern is elektrisch geleidend en verliest bij druk zijn isolerende werking",
+    "Er is geen gevoeligheid: sandwich is juist ongevoelig voor puntbelastingen"
+   ],
+   "juist": 0,
+   "uitleg": "Sandwichhuiden zijn dun; een puntbelasting kan de kern indrukken en de huid laten loslaten. Dan valt de stabiliserende werking weg en kan de huid bij belasting knikken."
+  },
+  {
+   "v": "Wat is het doel van de torsieneus (de huid vóór de hoofdligger) naast torsieopname?",
+   "a": [
+    "Het opnemen van het grootste deel van het buigmoment van de vleugel",
+    "Het vasthouden van de exacte neusvorm, die voor een laminair profiel cruciaal is",
+    "Het opvangen van de landingsklap van het hoofdwiel via de vleugel",
+    "Het verplaatsen van het zwaartepunt naar voren voor betere stabiliteit"
+   ],
+   "juist": 1,
+   "uitleg": "Moderne laminaire profielen zijn gevoelig voor vormafwijkingen in het neusgebied. Een stijve torsieneus houdt die vorm nauwkeurig vast."
+  },
+  {
+   "v": "Een vleugel buigt in de vlucht zichtbaar door. Wat is juist?",
+   "a": [
+    "Dat wijst op een gebroken ligger en je moet direct landen",
+    "Normaal voor een slanke vleugel; het zegt niets over overbelasting",
+    "Dat betekent dat de limietbelasting is overschreden",
+    "Dat komt door asymmetrische waterballast"
+   ],
+   "juist": 1,
+   "uitleg": "Slanke kunststof vleugels zijn flexibel ontworpen. Doorbuiging in de vlucht is normaal; de constructie is daarop berekend."
+  },
+  {
+   "v": "Welke bewering over houten en kunststof zweefvliegtuigen is juist?",
+   "a": [
+    "Hout is vooral gevoelig voor UV en warmte, kunststof juist vooral voor vocht, schimmel en rot",
+    "Beide zijn ongevoelig voor vocht zolang ze gelakt zijn",
+    "Beide verliezen sterkte door mechanische overbelasting en niet door het milieu",
+    "Hout is gevoelig voor vocht en rot, kunststof vooral voor UV en hoge temperaturen"
+   ],
+   "juist": 3,
+   "uitleg": "Bij hout zijn vocht, schimmel en lijmnaden het grootste risico. Kunststof hars verliest sterkte bij hoge temperaturen en degradeert onder UV zonder bescherming."
+  },
+  {
+   "v": "Welk voordeel heeft een besturing met stoterstangen ten opzichte van een kabelbesturing?",
+   "a": [
+    "Eén stang brengt krachten in beide richtingen over, met nauwelijks rek en dus weinig speling",
+    "Stoterstangen zijn over lange afstanden lichter en hebben minder wrijving dan kabels over katrollen",
+    "Stoterstangen hoeven niet geïnspecteerd te worden, omdat ze niet kunnen slijten",
+    "Met stoterstangen is massabalans van de roeren niet meer nodig"
+   ],
+   "juist": 0,
+   "uitleg": "Een stang kan trekken en duwen, dus één verbinding volstaat en de besturing is direct en spelingsarm. Kabels kunnen alleen trekken en rekken iets."
+  },
+  {
+   "v": "Waarom bestaat een kabelbesturing van het richtingsroer altijd uit twee kabels die samen een gesloten circuit vormen?",
+   "a": [
+    "De tweede kabel is een reserve die het overneemt als de eerste breekt",
+    "Een kabel kan trekken maar niet duwen, dus voor elke richting is een eigen kabel nodig",
+    "Twee kabels zijn nodig om het gewicht van de pedalen en het richtingsroer in balans te houden tegen flutter",
+    "Het is een wettelijke eis zodat de besturing dubbel is uitgevoerd"
+   ],
+   "juist": 1,
+   "uitleg": "Een kabel onder druk knikt. Daarom trekt de ene kabel het roer naar links en de andere naar rechts."
+  },
+  {
+   "v": "Hoe spoor je bij inspectie gebroken draadjes in een stuurkabel het best op?",
+   "a": [
+    "De kabel strak trekken en luisteren of er een knappend geluid klinkt",
+    "Kijken of de kabel van kleur is veranderd, want gebroken draadjes oxideren en worden daardoor zwart",
+    "De kabel invetten, zodat gebroken draadjes vanzelf glanzend opvallen",
+    "Een doek langs de kabel halen, vooral bij katrollen en geleiders; losse draadjes blijven haken"
+   ],
+   "juist": 3,
+   "uitleg": "Kabels slijten vooral waar ze over katrollen en door geleiders lopen. Een doek blijft haken achter gebroken draadjes, zonder dat je je hand openhaalt."
+  },
+  {
+   "v": "Hoe werkt een L'Hotellier-snelkoppeling in de besturing?",
+   "a": [
+    "Een kogel klikt in een kom met veervergrendeling; daarna apart borgen",
+    "Twee stangen worden met schroefdraad en een contramoer verbonden",
+    "Een bout met kroonmoer verbindt de stangen, zonder verdere borging",
+    "Een magneet houdt de stangen bij elkaar zolang er stroom is"
+   ],
+   "juist": 0,
+   "uitleg": "De L'Hotellier is een kogelkoppeling met een vergrendelingsklep. Omdat die klep kan openen, wordt de koppeling geborgd met een veiligheidspen, veerclip of Wedekind-huls."
+  },
+  {
+   "v": "Wat is de functie van een Wedekind-huls bij een L'Hotellier-koppeling?",
+   "a": [
+    "Een schuifhuls die over de vergrendeling schuift en voorkomt dat de koppeling onbedoeld opent",
+    "Een rubberen huls die trillingen in de stang dempt en zo flutter van het aangesloten roer voorkomt",
+    "Een stelbus waarmee de speling in de koppeling kan worden afgesteld",
+    "Een gekleurde huls die aangeeft bij welk roer de koppeling hoort"
+   ],
+   "juist": 0,
+   "uitleg": "De Wedekind-huls is een borging: geschoven over de koppeling houdt hij de vergrendelingsklep dicht. Je ziet direct of de borging is aangebracht."
+  },
+  {
+   "v": "Waarom is het horen van een 'klik' bij het verbinden van een L'Hotellier-koppeling geen bewijs dat hij goed vastzit?",
+   "a": [
+    "De kogel kan schuin klemmen met de vergrendeling half dicht; pas kijken en trekken geeft zekerheid",
+    "De klik komt van de veer van de borgpen en zegt dus niets over de koppeling zelf",
+    "Een klik betekent juist dat de kogel versleten is en dat er te veel speling in de kom is",
+    "Een klik hoor je juist als de koppeling met de verkeerde stang is verbonden"
+   ],
+   "juist": 0,
+   "uitleg": "Er zijn ongevallen gebeurd met koppelingen die leken vast te zitten. Controleer visueel dat de vergrendeling volledig gesloten is, trek eraan en breng de borging aan."
+  },
+  {
+   "v": "Wat onderscheidt een positieve besturingscontrole na montage van een gewone controle op vrije beweging?",
+   "a": [
+    "Bij een positieve controle kijk je naar de roeren, zonder de stuurknuppel te bewegen",
+    "Een helper houdt het roer vast terwijl jij kracht zet op de besturing",
+    "Bij een positieve controle beweeg je de roeren met de hand en let je op de stuurknuppel",
+    "Een positieve controle doe je pas in de lucht, direct na het ontkoppelen"
+   ],
+   "juist": 1,
+   "uitleg": "Een niet verbonden roer kan door wind of wrijving toch lijken mee te bewegen. Door het roer tegen te houden en kracht te zetten, merk je of de verbinding werkelijk kracht overbrengt."
+  },
+  {
+   "v": "Wat is een van de belangrijkste oorzaken van ongevallen kort na de start met een net gemonteerd zweefvliegtuig?",
+   "a": [
+    "Een te lage bandenspanning van het hoofdwiel bij de start",
+    "Een verkeerd ingestelde hoogtemeter of een verkeerde QNH",
+    "Niet of onjuist aangesloten besturing, vaak het hoogteroer",
+    "Een te zwak breukstuk in de sleep- of lierkabel"
+   ],
+   "juist": 2,
+   "uitleg": "Vergeten of half aangesloten hoogteroer- of rolroerverbindingen hebben tot veel ernstige ongevallen geleid. Daarom zijn montagecontrole door een tweede persoon en een positieve besturingscontrole essentieel."
+  },
+  {
+   "v": "Je vliegt een type met automatische roeraansluitingen bij de vleugelmontage. Wat geldt voor de controle na montage?",
+   "a": [
+    "Ook dan is een positieve besturingscontrole nodig, want een automatische aansluiting kan mislukken",
+    "Een controle is niet nodig, want automatische aansluitingen kunnen niet fout gaan",
+    "De rolroeren controleren volstaat, want het hoogteroer sluit bij deze typen vanzelf goed aan",
+    "Het volstaat te kijken of de hoofdpen geborgd is, dan zijn de roeren ook goed"
+   ],
+   "juist": 0,
+   "uitleg": "Een automatische koppeling werkt alleen als de onderdelen correct in de geleiding vallen. Vuil, schade of een scheef ingeschoven vleugel kan dat verhinderen."
+  },
+  {
+   "v": "Waarom mag je een zelfborgende moer met kunststof ring niet onbeperkt opnieuw gebruiken?",
+   "a": [
+    "De kunststof ring verliest klemkracht, zodat de moer kan losdraaien",
+    "De moer wordt bij elk gebruik harder en breekt daardoor uiteindelijk",
+    "De kunststof ring gaat stroom geleiden en veroorzaakt zo corrosie",
+    "De moer krimpt bij lage temperaturen en past dan niet meer op de bout"
+   ],
+   "juist": 0,
+   "uitleg": "De borgende werking komt van de kunststof ring die op de draad klemt. Die slijt bij elk gebruik; daarom schrijven onderhoudsvoorschriften vaak vervanging voor."
+  },
+  {
+   "v": "Wat doe je met een splitpen die je bij demontage hebt verwijderd?",
+   "a": [
+    "Rechtbuigen en opnieuw gebruiken, zolang hij niet zichtbaar beschadigd is",
+    "Opnieuw gebruiken, maar dan de pootjes in de andere richting ombuigen",
+    "Weggooien en een nieuwe gebruiken, want buigen verzwakt het materiaal",
+    "Vervangen door een stukje ijzerdraad, dat makkelijker te buigen is"
+   ],
+   "juist": 2,
+   "uitleg": "Een splitpen is voor eenmalig gebruik. Herhaald buigen veroorzaakt scheurtjes, waardoor de borging kan falen."
+  },
+  {
+   "v": "Waarom zijn roeren vaak voorzien van een massabalans (een gewicht vóór de scharnierlijn)?",
+   "a": [
+    "Om het roerzwaartepunt op of voor de scharnierlijn te leggen, wat flutter voorkomt",
+    "Om de stuurkrachten bij hoge snelheid te verlagen, net als een trimvlak",
+    "Om het zwaartepunt van het hele toestel naar voren te verplaatsen",
+    "Om het roer bij losgelaten stuurknuppel automatisch in de neutraalstand te trekken"
+   ],
+   "juist": 0,
+   "uitleg": "Ligt het zwaartepunt van een roer achter de scharnierlijn, dan kunnen vleugel- of staartbewegingen het roer laten meeslingeren en een zichzelf versterkende trilling (flutter) veroorzaken."
+  },
+  {
+   "v": "Wat is het verschil tussen aerodynamische balans en massabalans van een roer?",
+   "a": [
+    "Aerodynamische balans verlaagt de stuurkrachten, massabalans voorkomt flutter",
+    "Aerodynamische balans voorkomt flutter, massabalans verlaagt de stuurkrachten",
+    "Beide verlagen de stuurkrachten en hebben verder geen functie",
+    "Beide zijn pas nodig bij snelheden boven VNE"
+   ],
+   "juist": 0,
+   "uitleg": "Bij aerodynamische balans ligt een deel van het roeroppervlak voor de scharnierlijn, wat het scharniermoment verkleint. Massabalans legt het roerzwaartepunt goed, tegen flutter."
+  },
+  {
+   "v": "Waarom is speling in roerscharnieren en roeraansluitingen gevaarlijk bij hoge snelheid?",
+   "a": [
+    "Het verhoogt de stuurkrachten zo sterk dat je de roeren bij hoge snelheid niet meer volledig kunt uitslaan",
+    "Het verhoogt de kans op flutter, die binnen enkele seconden tot constructiebreuk kan leiden",
+    "Het verlaagt de overtreksnelheid, zodat het toestel onverwacht overtrekt",
+    "Het veroorzaakt een te hoge aanwijzing van de snelheidsmeter"
+   ],
+   "juist": 1,
+   "uitleg": "Speling verlaagt in feite de stijfheid van de roerverbinding en maakt flutter bij lagere snelheid mogelijk. Daarom zijn er strenge spelingstoleranties."
+  },
+  {
+   "v": "Bij een type is de rolroeruitslag omhoog 25° en omlaag 10°. Wat bereikt de constructeur hiermee?",
+   "a": [
+    "Een hogere rolsnelheid naar links dan naar rechts door de ongelijke uitslag",
+    "Minder negatief gieren, omdat het neergaande rolroer minder extra weerstand geeft",
+    "Een lagere overtreksnelheid tijdens het inzetten en uitleiden van een bocht",
+    "Minder belasting op de roerscharnieren bij hoge snelheid en in turbulentie"
+   ],
+   "juist": 1,
+   "uitleg": "Het neergaande rolroer verhoogt lift en geïnduceerde weerstand op die vleugel, waardoor het toestel de verkeerde kant op giert. Met differentiatie wordt dat effect kleiner."
+  },
+  {
+   "v": "Hoe werkt de veertrim die in veel zweefvliegtuigen zit?",
+   "a": [
+    "Een klein trimvlak op het hoogteroer wordt via een kabel of stang versteld",
+    "Een instelbare veer op de besturing maakt de stuurkracht bij een gekozen snelheid nul",
+    "Het hele stabilo wordt versteld, zodat de invalshoek van de staart verandert",
+    "Een verschuifbaar gewicht in de romp verplaatst het zwaartepunt naar voren of achteren"
+   ],
+   "juist": 1,
+   "uitleg": "Bij een veertrim is er geen trimvlak: de veer compenseert de stuurkracht op de knuppel. Het resultaat is dat je zonder kracht een bepaalde snelheid vliegt."
+  },
+  {
+   "v": "Welke combinatie over de kabelspanning in een kabelbesturing is juist?",
+   "a": [
+    "Te slap geeft speling en flutterrisico; te strak geeft een zware besturing en extra slijtage",
+    "Te slap geeft een zware, stroeve besturing; te strak geeft speling, rek en een verhoogd flutterrisico",
+    "Te slap en te strak veranderen allebei vooral de trimsnelheid",
+    "Kabelspanning heeft geen invloed, zolang de roeren volledig uitslaan"
+   ],
+   "juist": 0,
+   "uitleg": "Slappe kabels geven speling en een vertraagde reactie; strakke kabels geven veel wrijving op katrollen en lagers. De voorgeschreven spanning staat in het onderhoudshandboek."
+  },
+  {
+   "v": "Waarom zijn losse voorwerpen in de cockpit gevaarlijk voor de besturing?",
+   "a": [
+    "Ze veroorzaken kompasdeviatie, zodat je de koers kwijtraakt",
+    "Ze verplaatsen het zwaartepunt bij manoeuvres zo ver naar achteren dat het toestel onbestuurbaar wordt",
+    "Ze maken de stuurknuppel zwaarder doordat ze op de stangen drukken",
+    "Ze kunnen bij negatieve g of in een tolvlucht onder of achter de stoel in de besturing klemmen"
+   ],
+   "juist": 3,
+   "uitleg": "Een telefoon, fles of camera kan bij manoeuvres wegschuiven en in stangen of hefbomen vastlopen. Alles moet vastgezet zijn."
+  },
+  {
+   "v": "Wat zijn flaperons?",
+   "a": [
+    "Remkleppen die tegelijk als rolroer werken bij lage snelheid",
+    "Hulpvlakken op het hoogteroer die de trim verzorgen",
+    "Roeren die als rolroer (tegengesteld) en als welvingsklep (samen) werken",
+    "Klepjes op de vleugeltip die de randwervel verkleinen"
+   ],
+   "juist": 2,
+   "uitleg": "Bij flaperons is het rolroer gemengd met de welvingsklepfunctie: ze bewegen samen omhoog of omlaag voor welving en tegengesteld voor rolbesturing."
+  },
+  {
+   "v": "Waarom zijn de spleten tussen vleugel en roer vaak afgedicht met tape of kunststof lippen?",
+   "a": [
+    "Het voorkomt dat er lucht door de spleet stroomt, wat weerstand vermindert en het roer effectiever maakt",
+    "Het voorkomt dat regenwater de vleugel in loopt en daar de massabalans verstoort",
+    "Het verhoogt de massabalans van het roer, zodat flutter bij hoge snelheid en in turbulentie wordt voorkomen",
+    "Het zorgt ervoor dat het roer zonder stuurkracht vanzelf in de neutraalstand blijft staan"
+   ],
+   "juist": 0,
+   "uitleg": "Door de spleet lekt lucht van de overdrukzijde naar de onderdrukzijde. Afdichten verlaagt weerstand en verhoogt de roerwerking; losgeraakte tape moet wel hersteld worden."
+  },
+  {
+   "v": "Waarom moeten de roeruitslagen (en dus de aanslagen) binnen de toleranties van het onderhoudshandboek liggen?",
+   "a": [
+    "De uitslagen bepalen de trimsnelheid; daarom moeten ze precies kloppen",
+    "Te kleine uitslagen veroorzaken flutter door de grotere roerkrachten; te grote uitslagen zijn juist gunstig",
+    "Te grote uitslagen kunnen de constructie overbelasten; te kleine geven onvoldoende stuurautoriteit",
+    "De uitslagen bepalen de massabalans van het roer"
+   ],
+   "juist": 2,
+   "uitleg": "De sterkte- en vliegeigenschappen zijn bepaald met de voorgeschreven uitslagen. Afwijkingen kunnen tot overbelasting of te weinig controle (bijv. bij tolvluchtherstel) leiden."
+  },
+  {
+   "v": "Bij veel typen is de wielrem gekoppeld aan het einde van de slag van de remkleppenhendel. Wat is daarvan een gevolg?",
+   "a": [
+    "De wielrem werkt ook in de vlucht en vertraagt het toestel in de nadering extra, net als een remschermpje",
+    "De remkleppen gaan automatisch open zodra je op de grond remt",
+    "De wielrem schakelt de remkleppen uit zodra het wiel de grond raakt",
+    "De remkleppen kun je met één hand volledig openen en daarna remmen, zonder je hand te verplaatsen"
+   ],
+   "juist": 3,
+   "uitleg": "Aan het eind van de remklepslag wordt de wielrem bediend. Zo blijft je hand tijdens de uitloop op dezelfde hendel."
+  },
+  {
+   "v": "Waarom moet een intrekbaar landingsgestel bij het uitklappen over een dood punt vergrendelen?",
+   "a": [
+    "Dan klapt het gestel bij een te harde landing gecontroleerd in, zodat de romp en de vlieger worden gespaard",
+    "Dan blijft de wielrem vergrendeld tot je de hendel weer naar voren zet",
+    "Dan kan het wiel in de vlucht niet meer worden ingetrokken",
+    "Dan drukt de landingskracht het mechanisme juist verder vast en kan het gestel niet inklappen"
+   ],
+   "juist": 3,
+   "uitleg": "Bij een over-center-vergrendeling werkt de belasting in de richting van vergrendeling. Een niet volledig vergrendeld gestel kan bij de landing inklappen."
+  },
+  {
+   "v": "Waarom is een landing met ingetrokken wiel ook voor de vlieger gevaarlijk?",
+   "a": [
+    "Het toestel overtrekt bij een buiklanding voordat het de grond raakt",
+    "De vering van wiel en band ontbreekt, dus de klap gaat direct naar je wervelkolom",
+    "De remkleppen werken met ingetrokken wiel niet, zodat de nadering veel te lang en te vlak wordt",
+    "De kap springt bij een buiklanding open"
+   ],
+   "juist": 1,
+   "uitleg": "Wiel en ophanging vangen een deel van de landingsenergie op. Zonder wiel is de kans op rugletsel bij een harde landing groter, naast schade aan de rompbodem."
+  },
+  {
+   "v": "Sommige typen geven een akoestische waarschuwing als je de remkleppen opent terwijl het wiel is ingetrokken. Wat is de gedachte daarachter?",
+   "a": [
+    "Met ingetrokken wiel mogen de remkleppen vanwege de sterkte niet open",
+    "De remkleppen en het wiel gebruiken dezelfde bedieningskabel",
+    "Remkleppen openen hoort bij de nadering, en dan hoort het wiel uit te zijn",
+    "De waarschuwing herinnert je eraan de waterballast te lozen"
+   ],
+   "juist": 2,
+   "uitleg": "Het vergeten van het wiel is een bekende fout. De koppeling met de remkleppen vangt dat op het juiste moment af, maar vervangt de checklist niet."
+  },
+  {
+   "v": "Wat is een typisch gevolg van een te lage bandenspanning van het hoofdwiel?",
+   "a": [
+    "De wielrem werkt niet meer, omdat de remtrommel niet meer wordt geraakt",
+    "Het landingsgestel kan niet meer worden ingetrokken door de grotere band",
+    "De snelheidsmeter wijst bij de start te laag aan door de hogere rolweerstand",
+    "De band kan op de velg verdraaien en het ventiel afscheuren"
+   ],
+   "juist": 3,
+   "uitleg": "Een zachte band kan op de velg kruipen en het ventiel lostrekken. Ook wordt de demping slechter en neemt de rolweerstand toe."
+  },
+  {
+   "v": "Waarom is een neuswiel bij lestoestellen zoals de ASK-21 een voordeel?",
+   "a": [
+    "Het maakt een wielrem overbodig, omdat het neuswiel zelf voldoende afremt",
+    "Het verlaagt de overtreksnelheid tijdens de grondrol en het loskomen",
+    "Het maakt een zwaartepunthaak overbodig, ook bij de lierstart",
+    "Het vangt de neus op bij een harde landing of hard remmen, wat schade voorkomt"
+   ],
+   "juist": 3,
+   "uitleg": "Een neuswiel vangt de neus op als het toestel naar voren kantelt, bijvoorbeeld bij hard remmen of een landing op het neusgebied."
+  },
+  {
+   "v": "Waar let je bij de dagelijkse inspectie van een hydraulische schijfrem op?",
+   "a": [
+    "Of de remschijf glanzend gepolijst is, anders werkt de rem niet",
+    "Of de remvloeistof dezelfde kleur heeft als de motorolie",
+    "Of de rem bij losgelaten hendel blijft aanliggen",
+    "Of er lekkage is, het vloeistofniveau klopt en de rem goed werkt"
+   ],
+   "juist": 3,
+   "uitleg": "Lekkage of te weinig vloeistof leidt tot slechte of geen remwerking. Een rem die blijft aanliggen is juist een defect."
+  },
+  {
+   "v": "Waarom zit de zwaartepunthaak net voor het hoofdwiel en dicht bij het zwaartepunt?",
+   "a": [
+    "Zodat de kabel tijdens de grondrol niet tegen het hoofdwiel of de wielkast slaat",
+    "Om tijdens een vliegtuigsleep de richtingsstabiliteit van het toestel bij zijwind en in turbulentie te vergroten",
+    "De kabel geeft dan weinig moment om de dwarsas, zodat je met normale stuurkrachten kunt klimmen",
+    "Zodat de haak bij een kabelbreuk automatisch en zonder vertraging ontkoppelt"
+   ],
+   "juist": 2,
+   "uitleg": "Grijpt de kabelkracht dicht bij het zwaartepunt aan, dan geeft hij weinig moment om de dwarsas. Een haak ver voor het zwaartepunt zou de neus omlaag trekken."
+  },
+  {
+   "v": "Wat doet de achterwaartse (automatische) ontkoppeling van een zwaartepunthaak?",
+   "a": [
+    "Hij ontkoppelt vanzelf als het breukstuk breekt, zodat de kabelrest vrijkomt",
+    "Hij ontkoppelt vanzelf als de kabelkracht hoger wordt dan de breukstuksterkte",
+    "Hij ontkoppelt vanzelf als de snelheid onder de minimumsnelheid daalt",
+    "Hij ontkoppelt vanzelf als de kabel ver naar achteren trekt, bijv. boven de lier"
+   ],
+   "juist": 3,
+   "uitleg": "Bij een grote hoek naar achteren opent het mechanisme vanzelf. Dat is een noodvoorziening voor als de vlieger niet tijdig ontkoppelt."
+  },
+  {
+   "v": "Mag je op de achterwaartse ontkoppeling van de zwaartepunthaak vertrouwen als je vergeet te ontkoppelen aan het eind van de lierstart?",
+   "a": [
+    "Nee, het is een noodvoorziening die niet in alle situaties tijdig werkt; je ontkoppelt zelf",
+    "Ja, de haak ontkoppelt betrouwbaar zodra de kabel onder een hoek van meer dan 90° naar achteren trekt",
+    "Ja, mits je de snelheid tijdens het overvliegen van de lier laag houdt",
+    "Nee, want de achterwaartse ontkoppeling is bedoeld voor de vliegtuigsleep"
+   ],
+   "juist": 0,
+   "uitleg": "Of de automatische ontkoppeling werkt, hangt af van kabelhoek, kracht en toestand van de haak. Je ontkoppelt altijd zelf, eventueel meermaals."
+  },
+  {
+   "v": "Waarom start je niet met de lier aan de neushaak?",
+   "a": [
+    "De neushaak is te zwak voor de kabelkracht van een lier en breekt dan af",
+    "Het breukstuk past niet in een neushaak, zodat je zonder breukstuk zou starten en de constructie overbelast",
+    "De kabel trekt de neus omlaag, steil klimmen lukt niet en er is geen achterwaartse ontkoppeling",
+    "De neushaak ontkoppelt bij een lierstart direct na het loskomen al vanzelf"
+   ],
+   "juist": 2,
+   "uitleg": "Een kabelkracht ver voor het zwaartepunt geeft een sterk neus-neer moment. Daarnaast hebben neushaken meestal geen achterwaartse ontkoppeling."
+  },
+  {
+   "v": "Waarom heeft een vliegtuigsleep aan de neushaak de voorkeur boven de zwaartepunthaak?",
+   "a": [
+    "De trekkracht ver voor het zwaartepunt stabiliseert de richting, dus minder uitbreken",
+    "De neushaak heeft een achterwaartse ontkoppeling, de zwaartepunthaak niet",
+    "Aan de neushaak is een zwakker breukstuk toegestaan, wat de constructie van beide toestellen spaart",
+    "De neushaak geeft een sterker neus-op moment, waardoor je eerder loskomt"
+   ],
+   "juist": 0,
+   "uitleg": "Net als bij een pijl stabiliseert een trekpunt ver voor het zwaartepunt. Aan de zwaartepunthaak reageert het toestel gevoeliger op zijwind en koersafwijkingen."
+  },
+  {
+   "v": "Een gastvlieger komt met een ouder toestel met een Ottfur-haak, terwijl de club Tost-ringen gebruikt. Wat is juist?",
+   "a": [
+    "Alle ringen passen in alle haken, zolang het breukstuk maar de juiste sterkte heeft",
+    "Ottfur-haken hebben geen breukstuk nodig, omdat ze zelf bij overbelasting openen",
+    "Controleer of deze ringen voor die haak zijn goedgekeurd; verkeerde ringen kunnen klemmen",
+    "Ze passen wel als je de haak ruim invet, zodat de ringen soepel vrijkomen"
+   ],
+   "juist": 2,
+   "uitleg": "Haak en ringen zijn op elkaar afgestemd. Een ring die niet bij de haak hoort, kan blijven haken of te makkelijk vrijkomen; gebruik alleen ringen die de haakfabrikant voor die haak toestaat. Vet verzamelt juist vuil."
+  },
+  {
+   "v": "Wat is de functie van het breukstuk in de sleep- of lierkabel?",
+   "a": [
+    "Het zorgt dat de vlieger in een noodgeval de kabel zelf kan losmaken",
+    "Het dempt de schokken bij het strak trekken van de kabel, zodat de kabel minder snel slijt",
+    "Het breekt bij een te hoge kabelkracht eerst, zodat de constructie heel blijft",
+    "Het markeert het einde van de kabel, zodat de lierist het goed ziet"
+   ],
+   "juist": 2,
+   "uitleg": "Het breukstuk is de zwakste schakel. Zijn sterkte is afgestemd op de toegestane belasting van het zweefvliegtuig (en bij sleep ook het sleepvliegtuig)."
+  },
+  {
+   "v": "Waarom is zowel een te sterk als een te zwak breukstuk ongewenst?",
+   "a": [
+    "Te sterk beschermt de constructie niet; te zwak breekt vaak, ook vlak boven de grond",
+    "Te sterk geeft te veel kabelbreuken; te zwak overbelast de constructie",
+    "Te sterk en te zwak beïnvloeden vooral de slijtage van de lierkabel",
+    "Te sterk is ongewenst bij een vliegtuigsleep, te zwak bij de lierstart met een zware lier; elders maakt het niet uit"
+   ],
+   "juist": 0,
+   "uitleg": "De voorgeschreven breukstuksterkte staat in het vlieghandboek en op het plakkaat. Een te zwak breukstuk geeft onnodige kabelbreuken tijdens rotatie en beginklim."
+  },
+  {
+   "v": "Wat hoort bij de controle van de ontkoppelhaak tijdens de dagelijkse inspectie?",
+   "a": [
+    "Kijken of de haak schoon is; testen onder belasting is voorbehouden aan de bevoegde technicus",
+    "De haak ruim invetten met dik vet, zodat hij soepel blijft bewegen en niet roest",
+    "Controleren of de ontkoppelknop geel is; de haak zelf test je niet",
+    "Met een ring koppelen, onder trek (ook schuin) ontkoppelen en de achterwaartse ontkoppeling testen"
+   ],
+   "juist": 3,
+   "uitleg": "De haak moet onder belasting en in verschillende richtingen betrouwbaar openen. Vuil en schade worden zo ontdekt. Dik vet verzamelt juist vuil."
+  },
+  {
+   "v": "Waarom moet vooral de zwaartepunthaak vrij van gras, zand en modder worden gehouden?",
+   "a": [
+    "Vuil dat hij bij het wiel opvangt, kan het ontkoppelen blokkeren",
+    "Vuil maakt de haak zwaarder, waardoor het zwaartepunt verschuift",
+    "Vuil verhoogt de sterkte van het breukstuk doordat het tussen de ringen klemt",
+    "Vuil is een cosmetisch probleem en heeft geen gevolgen voor de werking"
+   ],
+   "juist": 0,
+   "uitleg": "Een haak die niet ontkoppelt is een ernstig noodgeval. De positie bij het hoofdwiel maakt de zwaartepunthaak extra gevoelig voor vervuiling."
+  },
+  {
+   "v": "Tost-haken moeten na een vastgesteld aantal starts of jaren worden gereviseerd. Hoe weet de eigenaar wanneer?",
+   "a": [
+    "Er is geen interval: een haak wordt pas gereviseerd als hij niet meer goed ontkoppelt",
+    "Uit de kleur van de ontkoppelknop, die na het verstrijken van het interval verkleurt",
+    "Uit de voorschriften van de haakfabrikant en het onderhoudsprogramma, op basis van starts en tijd",
+    "Uit het aantal vlieguren in het logboek; het aantal starts en de kalendertijd zijn daarvoor niet van belang"
+   ],
+   "juist": 2,
+   "uitleg": "Haken hebben een levensduur in starts en jaren. Daarom moeten het aantal starts en de datum van de laatste revisie worden bijgehouden."
+  },
+  {
+   "v": "Welke kleurcodering van bedieningsgrepen in de cockpit schrijft CS-22 (CS 22.780) voor zweefvliegtuigen voor?",
+   "a": [
+    "Ontkoppeling rood, remkleppen geel, trim groen, kap afwerpen blauw",
+    "Ontkoppeling geel, remkleppen groen, trim blauw, kap afwerpen rood",
+    "Ontkoppeling geel, remkleppen blauw, trim groen, kap afwerpen rood",
+    "Ontkoppeling blauw, remkleppen rood, trim geel, kap afwerpen groen"
+   ],
+   "juist": 2,
+   "uitleg": "CS 22.780 schrijft voor: ontkoppeling geel, remkleppen blauw, trim groen en kap afwerpen rood. Zo verwissel je de grepen niet, ook niet in een onbekend type (oudere, niet volgens CS-22 gecertificeerde typen kunnen afwijken)."
+  },
+  {
+   "v": "Waarom is een niet vergrendelde kap tijdens de start gevaarlijk?",
+   "a": [
+    "Een open kap verhoogt de weerstand iets, wat de klim nauwelijks beïnvloedt",
+    "Een open kap zorgt ervoor dat de snelheidsmeter niet meer werkt",
+    "De kap kan openwaaien, je afleiden en tegen romp of staart slaan",
+    "Een open kap zorgt dat de ontkoppelhaak niet meer kan worden bediend"
+   ],
+   "juist": 2,
+   "uitleg": "Een opengaande kap in de start leidt vaak tot schrikreacties en kan schade aan het toestel veroorzaken. Kapvergrendeling hoort in de checklist en moet zichtbaar gecontroleerd worden."
+  },
+  {
+   "v": "Waarom hebben veel zweefvliegtuigen een vijfpuntsgordel met kruisband?",
+   "a": [
+    "De kruisband houdt de parachute op zijn plaats zodat die niet kan openen",
+    "De kruisband voorkomt dat je bij een klap of negatieve g onder de heupgordel doorschuift",
+    "De kruisband legt de zithouding en het zwaartepunt van de vlieger vast",
+    "De kruisband vervangt de schoudergordels bij een lierstart"
+   ],
+   "juist": 1,
+   "uitleg": "Zonder kruisband kan het lichaam bij een frontale klap onder de heupgordel doorglijden (submarining), met ernstig letsel als gevolg."
+  },
+  {
+   "v": "Een g-meter met sleepwijzers toont na de vlucht een maximum van +6,2 g bij een toestel in categorie Utility (limiet +5,3 g). Wat is juist?",
+   "a": [
+    "Geen probleem, want de breukbelasting ligt rond +8 g en is niet bereikt",
+    "De sleepwijzer resetten en bij de volgende jaarlijkse inspectie melden",
+    "Limietbelasting overschreden: eerst inspectie voordat het toestel weer vliegt",
+    "De vleugels bekijken volstaat, de romp niet"
+   ],
+   "juist": 2,
+   "uitleg": "Boven de limietbelasting kan blijvende vervorming of inwendige schade zijn ontstaan. De marge tot de breukbelasting is geen gebruiksmarge."
+  },
+  {
+   "v": "Waarom hebben Schempp-Hirth-remkleppen in ingetrokken stand een vergrendeling over een dood punt?",
+   "a": [
+    "De vergrendeling voorkomt dat de kleppen tijdens transport in de aanhanger door trillingen beschadigd raken",
+    "Zonder vergrendeling zou de wielrem tijdens de vlucht via de hendel blijven aanliggen",
+    "De vergrendeling is nodig om de kleppen bij lage snelheid sneller te laten openen",
+    "Bij hogere snelheid zuigt de onderdruk de kleppen naar buiten; zonder vergrendeling openen ze vanzelf"
+   ],
+   "juist": 3,
+   "uitleg": "De kleppen liggen in het onderdrukgebied op de vleugel. De vergrendeling houdt ze dicht; daarom controleer je voor de start dat ze ingetrokken en vergrendeld zijn."
+  },
+  {
+   "v": "Wat is het effect van ongemerkt gedeeltelijk geopende remkleppen tijdens de lierstart?",
+   "a": [
+    "Een iets lagere klimsnelheid aan de kabel, maar geen invloed op de veiligheid van de start",
+    "Hogere overtreksnelheid en slechtere klim; na een kabelbreuk loopt de snelheid snel terug",
+    "Een lagere overtreksnelheid, zodat je juist steiler en langzamer kunt klimmen",
+    "De achterwaartse ontkoppeling van de haak treedt dan eerder en ongewild in werking"
+   ],
+   "juist": 1,
+   "uitleg": "Open remkleppen verhogen de overtreksnelheid en de weerstand. Zolang de kabel trekt valt het minder op, maar na ontkoppelen of kabelbreuk neemt de snelheid snel af."
+  },
+  {
+   "v": "Wat gebeurt er met de overtreksnelheid als je de remkleppen uitschuift?",
+   "a": [
+    "Die neemt af, omdat de remkleppen extra welving geven",
+    "Die blijft gelijk, omdat remkleppen weerstand toevoegen en geen lift kosten",
+    "Die neemt iets toe, omdat de kleppen de lift op een deel van de vleugel verstoren",
+    "Die neemt sterk af, omdat de kleppen de stroming vertragen, waardoor je met open kleppen langzamer kunt landen"
+   ],
+   "juist": 2,
+   "uitleg": "Achter de geopende kleppen is de stroming verstoord en draagt dat deel minder. De rest van de vleugel moet meer lift leveren, dus de overtreksnelheid stijgt iets."
+  },
+  {
+   "v": "In veel vlieghandboeken is de toegestane positieve belastingsfactor met uitgeschoven remkleppen lager dan met ingetrokken kleppen. Wat volgt hieruit voor de praktijk?",
+   "a": [
+    "Vermijd hard optrekken met open remkleppen, bijv. bij het afvangen van een duikvlucht",
+    "Open de remkleppen juist bij hard optrekken, omdat ze de vleugel ontlasten",
+    "Open de remkleppen boven VNE, omdat ze dan het meest remmen en de vleugel ontlasten",
+    "De belastingsfactor met remkleppen is vooral van belang bij waterballast"
+   ],
+   "juist": 0,
+   "uitleg": "Met open remkleppen verandert de liftverdeling; CS 22.345 eist daarvoor een lagere ontwerpbelasting (+3,5 tot -1,5 g, tegen +5,3 g zonder kleppen in categorie U). Een duikvlucht met open remkleppen hard afvangen kan zo de grens overschrijden."
+  },
+  {
+   "v": "Je moet bij hoge snelheid de remkleppen openen. Waar moet je rekening mee houden?",
+   "a": [
+    "De kleppen gaan bij hoge snelheid nauwelijks open, je moet extra hard duwen",
+    "Ze worden krachtig naar buiten gezogen; houd de hendel stevig vast",
+    "Bij hoge snelheid werken remkleppen niet, dus je moet eerst de welvingskleppen gebruiken",
+    "De wielrem wordt bij hoge snelheid automatisch losgekoppeld van de remklephendel"
+   ],
+   "juist": 1,
+   "uitleg": "Bij hoge snelheid is de zuigkracht op de kleppen groot. Abrupt openklappen geeft een flinke vertraging en grote belastingen; open ze beheerst."
+  },
+  {
+   "v": "Na het vliegen door een regenbui klim je in een golf naar grote hoogte waar het -15 °C is. Wat is een reëel risico?",
+   "a": [
+    "Smelten van de gelcoat door de condensatiewarmte van het water",
+    "Vastvriezen van remkleppen en roeren door ingesloten water",
+    "Een te hoge aanwijzing van de hoogtemeter door bevroren water op de vleugel",
+    "Verlies van de massabalans doordat het water uit de roeren verdampt"
+   ],
+   "juist": 1,
+   "uitleg": "Water in de remklepkasten of roerscharnieren kan bevriezen. Probeer remkleppen tijdig (op lagere hoogte) te bewegen en houd rekening met vastzittende kleppen."
+  },
+  {
+   "v": "Waarom zet je bij thermiekvliegen de welvingskleppen in een positieve stand?",
+   "a": [
+    "Positieve kleppen verlagen de weerstand bij hoge snelheid, zodat je sneller tussen bellen vliegt",
+    "Positieve kleppen vergroten het glijgetal bij alle snelheden",
+    "Ze verplaatsen het zwaartepunt naar voren, wat het toestel stabieler maakt",
+    "Lagere minimumsnelheid, kleinere cirkel en lagere minimale daalsnelheid"
+   ],
+   "juist": 3,
+   "uitleg": "Positieve welving verhoogt de maximale liftcoëfficiënt. Je kunt dan langzamer en krapper cirkelen met minder dalen."
+  },
+  {
+   "v": "Waarom gebruik je bij hoge snelheid een negatieve welvingsklepstand?",
+   "a": [
+    "Negatieve kleppen verlagen de overtreksnelheid en vergroten zo de marge, wat bij hoge snelheid veiliger is",
+    "Negatieve kleppen verhogen de lift, zodat je met minder invalshoek sneller vliegt",
+    "Bij lage liftcoëfficiënt geeft het profiel minder weerstand en ligt de romp beter in de stroming",
+    "Ze verhogen de toegestane VNE, zodat je sneller mag vliegen"
+   ],
+   "juist": 2,
+   "uitleg": "Bij hoge snelheid is weinig lift nodig. Met minder welving werkt het profiel in het gebied met lage weerstand en staat de romp minder schuin in de stroming."
+  },
+  {
+   "v": "Waarom heeft elke welvingsklepstand een eigen maximumsnelheid (VFE)?",
+   "a": [
+    "Bij hogere snelheid werkt de klep niet meer, zodat de maximumsnelheid een advies is",
+    "Bij snelheden boven VFE gaat de snelheidsmeter verkeerd aanwijzen",
+    "Boven VFE wordt het toestel staartzwaar en kun je het niet meer trimmen",
+    "Meer welving geeft bij hoge snelheid te grote luchtkrachten op klep en vleugel"
+   ],
+   "juist": 3,
+   "uitleg": "Positieve kleppen verhogen de lift en het torsiemoment op de vleugel en belasten de klepbevestiging. Daarom gelden per stand snelheidslimieten."
+  },
+  {
+   "v": "Waarom verander je laag bij de grond de welvingsklepstand niet van positief naar negatief?",
+   "a": [
+    "Omdat de remkleppen dan via de klepbediening automatisch mee openen",
+    "Omdat de wielrem dan van de remklephendel wordt losgekoppeld",
+    "De snelheidsmeter wijst dan door de drukverandering rond de vleugel tijdelijk nul aan",
+    "Liftverlies en hogere overtreksnelheid kunnen tot hoogteverlies of overtrek leiden"
+   ],
+   "juist": 3,
+   "uitleg": "Minder welving vermindert direct de lift bij dezelfde snelheid. Dicht bij de grond is er geen ruimte om het hoogteverlies op te vangen."
+  },
+  {
+   "v": "Waarom neem je bij sterke thermiek waterballast mee?",
+   "a": [
+    "Het beste glijgetal blijft vrijwel gelijk, maar ligt bij een hogere snelheid",
+    "Waterballast verhoogt het beste glijgetal aanzienlijk bij alle snelheden",
+    "Waterballast verlaagt de minimale daalsnelheid, zodat je beter stijgt",
+    "Het zwaartepunt komt met water naar achteren, wat de trimweerstand en dus de totale weerstand verlaagt"
+   ],
+   "juist": 0,
+   "uitleg": "Met meer massa vlieg je bij elke invalshoek sneller met hetzelfde glijgetal. In sterke thermiek weegt de hogere snelheid op tegen het iets slechtere stijgen."
+  },
+  {
+   "v": "Een zweefvliegtuig overtrekt bij 400 kg bij 70 km/h. Bij welke snelheid overtrekt het ongeveer met waterballast op 500 kg (zelfde configuratie)?",
+   "a": [
+    "Ongeveer 75 km/h",
+    "Ongeveer 78 km/h",
+    "Ongeveer 88 km/h",
+    "Ongeveer 70 km/h"
+   ],
+   "juist": 1,
+   "uitleg": "De overtreksnelheid schaalt met de wortel van de massa: 70 x wortel(500/400) = 70 x 1,118 = 78 km/h."
+  },
+  {
+   "v": "Een toestel heeft bij 360 kg zijn beste glijgetal bij 95 km/h. Wat geldt bij 450 kg?",
+   "a": [
+    "Beste glijgetal hoger, bij ongeveer 119 km/h",
+    "Beste glijgetal hoger, bij onveranderd 95 km/h",
+    "Beste glijgetal ongeveer gelijk, bij ongeveer 106 km/h",
+    "Beste glijgetal lager, bij ongeveer 106 km/h"
+   ],
+   "juist": 2,
+   "uitleg": "Snelheden schalen met wortel(450/360) = wortel(1,25) = 1,118: 95 x 1,118 = 106 km/h. Het glijgetal zelf hangt niet van de massa af."
+  },
+  {
+   "v": "Waarom loos je de waterballast voor een buitenlanding?",
+   "a": [
+    "Het water stroomt anders bij het afvangen naar voren en legt het zwaartepunt te ver naar voren",
+    "Omdat de wielrem met waterballast aan boord niet voldoende werkt",
+    "Lagere landingssnelheid, kortere uitloop en minder belasting bij een harde klap",
+    "Omdat het water anders de snelheidsmeter tijdens de nadering laat haperen"
+   ],
+   "juist": 2,
+   "uitleg": "Een zwaarder toestel landt sneller en heeft meer bewegingsenergie. Een vleugelpunt die blijft haken geeft met volle tanks ook een grotere kans op een zware grondzwaai."
+  },
+  {
+   "v": "Tijdens het lozen blijkt dat één vleugeltank niet leegloopt. Wat merk je en wat doe je?",
+   "a": [
+    "Je merkt niets, want het water verdeelt zich via de verbinding in de romp vanzelf weer over beide vleugels",
+    "Het toestel wordt staartzwaar; trim volledig voorlijk en land zo langzaam mogelijk",
+    "Het toestel is vleugelzwaar; vlieg sneller, land met extra snelheid en houd de zware vleugel vrij",
+    "Je stelt de landing uit tot de tank via de ontluchting vanzelf is leeggelopen"
+   ],
+   "juist": 2,
+   "uitleg": "Asymmetrische ballast vraagt constant rolroer en geeft bij lage snelheid minder rolcontrole. Bij de uitloop raakt de zware vleugel eerder de grond, met kans op een grondzwaai."
+  },
+  {
+   "v": "Waarom loos je de waterballast als je onder het vriespunt gaat vliegen, tenzij het handboek iets anders toestaat?",
+   "a": [
+    "Koud water is zwaarder, zodat de maximale startmassa wordt overschreden",
+    "Koud water maakt de hars van de vleugel bros, ook als het niet bevriest",
+    "Bij lage temperaturen loopt het water naar de vleugeltip en verstoort de massabalans",
+    "IJs zet uit en kan tanks en vleugel beschadigen, en loskleppen kunnen vastvriezen"
+   ],
+   "juist": 3,
+   "uitleg": "IJs neemt meer volume in dan water en kan constructieschade geven. Bevroren loskleppen maken lozen voor de landing onmogelijk."
+  },
+  {
+   "v": "Je hebt water in de vleugels en in de kieltank. Waarom moet de kieltank uiterlijk tegelijk met de vleugeltanks leeglopen?",
+   "a": [
+    "Anders wordt het toestel neuszwaar en kun je niet meer afvangen",
+    "Anders overschrijd je de maximale massa van de niet-dragende delen, omdat de kieltank in de romp zit",
+    "Anders komt het zwaartepunt te ver naar achteren, mogelijk voorbij de achterste grens",
+    "Anders bevriest het water in de kieltank sneller dan in de vleugels"
+   ],
+   "juist": 2,
+   "uitleg": "De kieltank compenseert de zwaartepuntsverschuiving van het vleugelwater. Blijft alleen de kieltank vol, dan ligt het zwaartepunt te ver achter."
+  },
+  {
+   "v": "Twee vleugeltanks bevatten elk 90 liter. Elke losklep laat 0,6 liter per seconde door. Hoe lang duurt het lozen ongeveer?",
+   "a": [
+    "Ongeveer 5 minuten",
+    "Ongeveer 1,25 minuut",
+    "Ongeveer 2,5 minuut",
+    "Ongeveer 3,5 minuut"
+   ],
+   "juist": 2,
+   "uitleg": "Beide tanks lopen tegelijk leeg: 90 / 0,6 = 150 seconden = 2,5 minuut. Houd daar bij een buitenlanding ruim rekening mee."
+  },
+  {
+   "v": "Wat merk je in de vlucht met volle vleugeltanks?",
+   "a": [
+    "Trager rolgedrag, en hogere snelheden en grotere cirkels bij gelijke helling",
+    "Sneller rolgedrag, omdat de vleugels zwaarder zijn en sneller zakken",
+    "Lagere overtreksnelheid, omdat het water de vleugel stijver maakt",
+    "Geen enkel verschil in vlieggedrag, behalve een iets hogere aanwijzing van de hoogtemeter door de massa"
+   ],
+   "juist": 0,
+   "uitleg": "Massa ver van de langsas vergroot het traagheidsmoment, dus het toestel rolt trager in en uit bochten. Alle snelheden schuiven omhoog met de vleugelbelasting."
+  },
+  {
+   "v": "Maximale startmassa 525 kg, lege massa 280 kg, vlieger met parachute 95 kg. De vleugeltanks kunnen samen 180 liter bevatten. Hoeveel water mag je maximaal meenemen?",
+   "a": [
+    "180 liter",
+    "245 liter",
+    "95 liter",
+    "150 liter"
+   ],
+   "juist": 3,
+   "uitleg": "525 - 280 - 95 = 150 kg, dus 150 liter. De tankinhoud van 180 liter mag je niet volledig benutten; ook andere limieten uit het handboek blijven gelden."
+  },
+  {
+   "v": "Tijdens een daling raakt de statische drukopening volledig verstopt; de pitotopening blijft vrij. Wat wijst de snelheidsmeter aan?",
+   "a": [
+    "Te laag, en de afwijking wordt groter naarmate je verder daalt",
+    "Correct, omdat de snelheidsmeter de pitotdruk gebruikt",
+    "Te hoog, en de afwijking wordt groter naarmate je verder daalt",
+    "Nul, omdat er bij een verstopte statische opening geen drukverschil meer kan ontstaan"
+   ],
+   "juist": 2,
+   "uitleg": "In het instrument blijft de lagere statische druk van de grotere hoogte staan. De pitotdruk neemt bij dalen toe, dus het gemeten verschil en de aanwijzing worden te groot."
+  },
+  {
+   "v": "Tijdens het klimmen in thermiek raakt de statische opening verstopt. Wat geldt voor de snelheidsmeter?",
+   "a": [
+    "Hij wijst te hoog aan, waardoor je het risico loopt te langzaam te vliegen en te overtrekken",
+    "Hij wijst correct aan, maar de hoogtemeter wijst te veel aan",
+    "Hij valt direct naar nul en blijft daar staan",
+    "Hij wijst te laag aan, waardoor je geneigd bent sneller te vliegen dan nodig"
+   ],
+   "juist": 3,
+   "uitleg": "De ingesloten statische druk is hoger dan de werkelijke buitendruk op grotere hoogte. Het gemeten verschil wordt kleiner, dus de aanwijzing te laag."
+  },
+  {
+   "v": "Welke combinatie van aanwijzingen hoort bij een volledig verstopte statische opening?",
+   "a": [
+    "Hoogtemeter wijst te veel aan, variometer wijst stijgen, snelheidsmeter wijst nul",
+    "Hoogtemeter blijft staan, vario wijst nul, snelheidsmeter fout bij hoogteverandering",
+    "Hoogtemeter en variometer werken normaal, de snelheidsmeter wijst nul",
+    "Hoogtemeter blijft staan, variometer werkt normaal, snelheidsmeter wijst correct aan"
+   ],
+   "juist": 1,
+   "uitleg": "Hoogtemeter en variometer gebruiken alleen de statische druk; die verandert niet meer. De snelheidsmeter vergelijkt pitotdruk met een vaste, verkeerde statische druk."
+  },
+  {
+   "v": "Een snelheidsmeter reageert niet meer op snelheidsveranderingen, maar de aanwijzing loopt op tijdens het klimmen in thermiek en terug tijdens het dalen. Wat is de waarschijnlijkste oorzaak?",
+   "a": [
+    "De statische opening is volledig verstopt",
+    "De pitotopening is volledig verstopt",
+    "De TE-sonde is op de snelheidsmeter aangesloten",
+    "De capaciteitsfles van de variometer lekt"
+   ],
+   "juist": 1,
+   "uitleg": "Met een afgesloten pitotleiding blijft de druk daarin constant. Bij stijgen daalt de statische druk, dus het verschil en de aanwijzing nemen toe: het instrument gedraagt zich als hoogtemeter."
+  },
+  {
+   "v": "Wat meet de snelheidsmeter in feite?",
+   "a": [
+    "De statische druk, omgerekend naar snelheid met de standaardatmosfeer",
+    "De totale druk in de pitotbuis, zonder vergelijking met de statische druk in de romp",
+    "De stuwdruk ½ρv²: het verschil tussen totale druk (pitot) en statische druk",
+    "De luchtstroom door de capaciteitsfles van de variometer"
+   ],
+   "juist": 2,
+   "uitleg": "De snelheidsmeter is een drukverschilmeter. Omdat de stuwdruk ook van de luchtdichtheid afhangt, wijst hij de aangewezen snelheid (IAS) aan, niet de ware snelheid."
+  },
+  {
+   "v": "Bij 80 km/h is de stuwdruk q. Hoe groot is de stuwdruk bij 160 km/h op dezelfde hoogte?",
+   "a": [
+    "2q",
+    "8q",
+    "4q",
+    "1,4q"
+   ],
+   "juist": 2,
+   "uitleg": "Stuwdruk is evenredig met het kwadraat van de snelheid: dubbele snelheid geeft 2 x 2 = 4 keer de stuwdruk. Ook de luchtkrachten op de constructie worden vier keer zo groot."
+  },
+  {
+   "v": "Je vliegt op een hoogte waar de relatieve luchtdichtheid 0,74 is (ten opzichte van zeeniveau ISA) met een aangewezen snelheid van 100 km/h. Wat is ongeveer je ware snelheid?",
+   "a": [
+    "Ongeveer 135 km/h",
+    "Ongeveer 116 km/h",
+    "Ongeveer 106 km/h",
+    "Ongeveer 86 km/h"
+   ],
+   "juist": 1,
+   "uitleg": "TAS = IAS / wortel(relatieve dichtheid) = 100 / wortel(0,74) = 100 / 0,86 = 116 km/h. Zonder fouten van het instrument zelf geldt hier IAS = CAS."
+  },
+  {
+   "v": "In het vlieghandboek neemt de toegestane aangewezen VNE af boven een bepaalde hoogte. Waarom?",
+   "a": [
+    "Flutter hangt af van de ware snelheid, en op grotere hoogte hoort bij dezelfde IAS een hogere TAS",
+    "De snelheidsmeter wijst op grote hoogte steeds te hoog aan, zodat de limiet daarvoor moet worden gecorrigeerd",
+    "Op grotere hoogte is er minder lift, zodat de vleugel sneller overbelast raakt",
+    "Op grotere hoogte is het kouder, waardoor de hars bros wordt"
+   ],
+   "juist": 0,
+   "uitleg": "Aerodynamische krachten volgen de IAS, maar flutter is afhankelijk van de ware snelheid. Daarom geeft het handboek een tabel met lagere aangewezen VNE op grotere hoogte."
+  },
+  {
+   "v": "Op 3000 m overtrekt je toestel bij ongeveer dezelfde aangewezen snelheid als laag bij de grond. Hoe kan dat?",
+   "a": [
+    "De snelheidsmeter corrigeert automatisch voor de luchtdichtheid",
+    "Lift en aanwijzing hangen allebei af van de stuwdruk; de ware overtreksnelheid is wel hoger",
+    "De ware overtreksnelheid is op hoogte lager door de kou, maar de snelheidsmeter wijst juist te hoog aan",
+    "Op grotere hoogte verandert de overtreksnelheid niet, omdat de massa gelijk blijft"
+   ],
+   "juist": 1,
+   "uitleg": "Bij lagere dichtheid is een hogere ware snelheid nodig voor dezelfde stuwdruk. De snelheidsmeter meet die stuwdruk, dus de aangewezen overtreksnelheid blijft vrijwel gelijk."
+  },
+  {
+   "v": "Wat is de juiste volgorde van omrekening van de snelheidsmeteraanwijzing?",
+   "a": [
+    "IAS, gecorrigeerd voor instrument- en plaatsingsfout, geeft CAS; CAS gecorrigeerd voor luchtdichtheid geeft TAS",
+    "IAS, gecorrigeerd voor luchtdichtheid en temperatuur, geeft CAS; CAS gecorrigeerd voor plaatsingsfout geeft TAS",
+    "IAS, gecorrigeerd voor wind, geeft TAS; TAS gecorrigeerd voor dichtheid geeft CAS",
+    "CAS, gecorrigeerd voor plaatsingsfout, geeft IAS; IAS gecorrigeerd voor wind geeft TAS"
+   ],
+   "juist": 0,
+   "uitleg": "De plaatsings- en instrumentfout zitten in de meting zelf (IAS naar CAS). De dichtheidscorrectie geeft de ware snelheid ten opzichte van de lucht (TAS). Wind komt pas bij grondsnelheid kijken."
+  },
+  {
+   "v": "Waardoor ontstaat de plaatsingsfout van de snelheidsmeter, en wanneer is die meestal het grootst?",
+   "a": [
+    "De pitotbuis is te kort; de fout is het grootst bij hoge snelheid in rustige lucht",
+    "De slangen zijn te lang en te dun; de fout is het grootst bij lage buitentemperaturen",
+    "De capaciteitsfles beïnvloedt de snelheidsmeter; de fout is het grootst in thermiek",
+    "De stroming rond de romp verstoort de statische druk; vooral bij grote invalshoek en slippen"
+   ],
+   "juist": 3,
+   "uitleg": "De drukverdeling rond de romp verandert met invalshoek en zijwaartse aanstroming. Daardoor wijkt de gemeten statische druk af, vooral bij lage snelheid (grote invalshoek) en in een slip."
+  },
+  {
+   "v": "Waarom zitten statische openingen vaak aan beide zijden van de romp en zijn ze met elkaar verbonden?",
+   "a": [
+    "Zodat regenwater via de ene opening kan weglopen terwijl de andere de druk meet",
+    "Bij slippen of zijwaartse aanstroming middelen de drukverschillen tussen beide zijden uit",
+    "Zodat hoogtemeter en snelheidsmeter elk een eigen opening hebben",
+    "Omdat één opening te weinig lucht levert voor de variometer"
+   ],
+   "juist": 1,
+   "uitleg": "Bij een slip ontstaat aan de ene kant overdruk en aan de andere onderdruk. Door beide te verbinden wordt de fout grotendeels opgeheven."
+  },
+  {
+   "v": "Wat geeft de bovengrens van de groene boog op de snelheidsmeter van een zweefvliegtuig aan?",
+   "a": [
+    "VNE: de maximale snelheid die niet mag worden overschreden",
+    "VA: de snelheid waarboven geen volle roeruitslagen meer zijn toegestaan",
+    "VW: de maximale snelheid tijdens de lierstart",
+    "VRA: daarboven alleen in rustige lucht vliegen"
+   ],
+   "juist": 3,
+   "uitleg": "Bij zweefvliegtuigen loopt de groene boog tot VRA (rough air). Het gele gebied van VRA tot VNE is alleen voor rustige lucht."
+  },
+  {
+   "v": "Je vliegt in de gele boog van de snelheidsmeter en komt onverwacht in sterke turbulentie. Wat doe je?",
+   "a": [
+    "Snelheid aanhouden, want de gele boog is juist bedoeld voor turbulentie",
+    "Remkleppen volledig openen en hard optrekken om snel vaart te minderen",
+    "Versnellen tot VNE, zodat je sneller door het turbulente gebied heen bent",
+    "Direct en beheerst de snelheid verminderen tot in de groene boog, onder VRA"
+   ],
+   "juist": 3,
+   "uitleg": "Boven VRA kunnen windstoten de constructie overbelasten. Beheerst afremmen voorkomt dat je met abrupte manoeuvres zelf extra belasting veroorzaakt."
+  },
+  {
+   "v": "Wat geeft de gele driehoek op de snelheidsmeter van een zweefvliegtuig aan?",
+   "a": [
+    "De manoeuvreersnelheid VA bij maximale massa",
+    "De maximale snelheid tijdens de vliegtuigsleep (VT)",
+    "De aanbevolen naderingssnelheid bij maximale massa zonder water",
+    "De snelheid voor minimaal dalen bij maximale massa"
+   ],
+   "juist": 2,
+   "uitleg": "De gele driehoek is een referentie voor de nadering. Bij turbulentie, wind of waterballast tel je daar volgens het handboek snelheid bij op."
+  },
+  {
+   "v": "Boven welke snelheid mag je de roeren niet meer volledig uitslaan, en is die snelheid op de snelheidsmeter gemarkeerd?",
+   "a": [
+    "VA; die is meestal niet gemarkeerd, maar staat op het plakkaat",
+    "VRA; die is gemarkeerd als de overgang van groen naar geel",
+    "VNE; die is gemarkeerd met de gele driehoek op de schaal",
+    "VS1; die is gemarkeerd als het begin van de groene boog"
+   ],
+   "juist": 0,
+   "uitleg": "Boven de manoeuvreersnelheid VA kunnen volle uitslagen de constructie overbelasten. VA staat op het plakkaat, niet als markering op de meter."
+  },
+  {
+   "v": "Wat geldt volgens vrijwel alle zweefvlieghandboeken voor de roeruitslagen bij VNE?",
+   "a": [
+    "Maximaal een derde van de volle uitslag",
+    "Maximaal de helft van de volle uitslag",
+    "Volle uitslag is toegestaan, mits in rustige lucht",
+    "Het richtingsroer mag nog worden gebruikt, de andere roeren niet"
+   ],
+   "juist": 0,
+   "uitleg": "Bij VNE zijn de luchtkrachten zo groot dat kleine uitslagen al de grens van de constructie bereiken. Daarom is maximaal een derde van de uitslag toegestaan."
+  },
+  {
+   "v": "Waarom mag je nooit met de mond in de pitotbuis blazen om de snelheidsmeter te testen?",
+   "a": [
+    "Het vocht uit je adem bevriest direct in de leiding",
+    "Het verwijdert de kalibratie van de hoogtemeter",
+    "Het is ongevaarlijk voor de instrumenten, maar levert door het vocht geen betrouwbare aanwijzing op",
+    "Het kan door de drukpiek de snelheidsmeter en andere aangesloten instrumenten beschadigen"
+   ],
+   "juist": 3,
+   "uitleg": "Je longen kunnen een druk maken die ver boven het meetbereik van de instrumenten ligt. Testen gebeurt met een geschikte testset of heel voorzichtig volgens voorschrift."
+  },
+  {
+   "v": "Een slang van de pitotleiding is achter het instrumentenpaneel losgeschoten. Wat is het gevolg voor de snelheidsmeter?",
+   "a": [
+    "Hij wijst te hoog aan, omdat de cockpitdruk bij de pitotdruk wordt opgeteld",
+    "Hij wijst correct aan, omdat de statische druk niet verandert",
+    "Hij gedraagt zich als een hoogtemeter",
+    "Hij wijst te laag aan, omdat de totale druk weglekt naar de cockpit"
+   ],
+   "juist": 3,
+   "uitleg": "De cockpitdruk ligt ongeveer op statische druk. Het drukverschil tussen pitot- en statische zijde wordt kleiner, dus de aanwijzing te laag of nul."
+  },
+  {
+   "v": "In het vlieghandboek staat VNE 250 km/h, maar je snelheidsmeter is in knopen. Welke aanwijzing komt ongeveer overeen met VNE?",
+   "a": [
+    "155 kt",
+    "125 kt",
+    "135 kt",
+    "463 kt"
+   ],
+   "juist": 2,
+   "uitleg": "1 kt = 1,852 km/h, dus 250 / 1,852 = 135 kt."
+  },
+  {
+   "v": "Tijdens de grondrol van een lierstart wijst de snelheidsmeter niets aan, terwijl je duidelijk versnelt. Wat is de meest waarschijnlijke oorzaak en wat doe je?",
+   "a": [
+    "Een verstopte statische opening; doorstarten, want de aanwijzing komt na het loskomen",
+    "Een afgedekte of verstopte pitotopening; start direct afbreken",
+    "Een lekke capaciteitsfles; doorstarten, want de snelheidsmeter is niet nodig",
+    "Een lege accu; doorstarten en na de landing de accu laden"
+   ],
+   "juist": 1,
+   "uitleg": "Zonder pitotdruk is er geen drukverschil en wijst de snelheidsmeter nul. Een lierstart zonder snelheidsaanwijzing is onveilig; afbreken zolang het kan."
+  },
+  {
+   "v": "Waarom wordt de snelheidsmeter in zweefvliegtuigen bij voorkeur niet op de TE-sonde aangesloten?",
+   "a": [
+    "De TE-sonde levert de totale druk in plaats van de statische druk, zodat de snelheidsmeter juist te laag aanwijst",
+    "De sonde levert statische druk min stuwdruk; de snelheidsmeter zou fors te hoog aanwijzen",
+    "De TE-sonde levert dezelfde druk als de statische opening, dus aansluiten heeft geen meerwaarde",
+    "De TE-sonde zit in de kielvin, waar de snelheid lager is dan bij de neus"
+   ],
+   "juist": 1,
+   "uitleg": "De TE-sonde geeft een druk die ongeveer een stuwdruk lager is dan de statische druk. De snelheidsmeter zou dan ongeveer twee keer de stuwdruk meten en flink te hoog aanwijzen."
+  },
+  {
+   "v": "Wat meet een hoogtemeter in feite?",
+   "a": [
+    "De luchtdichtheid, die rechtstreeks evenredig is met de hoogte",
+    "Het verschil tussen pitotdruk en statische druk",
+    "De statische druk, omgerekend naar hoogte via de standaardatmosfeer",
+    "De buitentemperatuur, die met 6,5 °C per 1000 m afneemt"
+   ],
+   "juist": 2,
+   "uitleg": "De hoogtemeter is een drukmeter met aneroïde dozen. De schaal gaat uit van de standaardatmosfeer; wijkt de werkelijke atmosfeer af, dan wijkt ook de aanwijzing af."
+  },
+  {
+   "v": "Je zet bij vertrek de hoogtemeter op 0 (QFE) op een veld van 5 m boven zeeniveau. Je landt buiten op een akker van 25 m boven zeeniveau; de luchtdruk is niet veranderd. Wat wijst de hoogtemeter na de landing aan?",
+   "a": [
+    "Ongeveer +25 m",
+    "Ongeveer +20 m",
+    "Ongeveer -20 m",
+    "Ongeveer 0 m"
+   ],
+   "juist": 1,
+   "uitleg": "Met QFE wijst de hoogtemeter de hoogte boven het vertrekveld aan. De akker ligt 25 - 5 = 20 m hoger dan het vertrekveld."
+  },
+  {
+   "v": "Je vliegt over land met QNH 1020 hPa ingesteld naar een gebied waar de QNH 1005 hPa is, zonder bij te stellen. Wat is je ware hoogte ten opzichte van de aanwijzing? (1 hPa is ongeveer 8 m)",
+   "a": [
+    "Ongeveer 120 m hoger dan aangewezen",
+    "Ongeveer 120 m lager dan aangewezen",
+    "Ongeveer 15 m lager dan aangewezen",
+    "Gelijk aan de aanwijzing"
+   ],
+   "juist": 1,
+   "uitleg": "De ingestelde waarde is 15 hPa te hoog, dus de hoogtemeter wijst 15 x 8 = 120 m te veel aan. 'Van hoog naar laag, kijk uit beneden'."
+  },
+  {
+   "v": "Je hoogtemeter staat op 1013 hPa en wijst 1200 m aan. De QNH is 998 hPa. Wat is ongeveer je hoogte boven zeeniveau? (1 hPa is ongeveer 8 m)",
+   "a": [
+    "Ongeveer 1320 m",
+    "Ongeveer 1200 m",
+    "Ongeveer 1185 m",
+    "Ongeveer 1080 m"
+   ],
+   "juist": 3,
+   "uitleg": "Met 1013 ingesteld wijst de meter 15 hPa x 8 m = 120 m te hoog aan ten opzichte van QNH 998. 1200 - 120 = 1080 m."
+  },
+  {
+   "v": "Bij welke situatie is je ware hoogte boven zeeniveau HOGER dan de aanwijzing, met de juiste QNH ingesteld?",
+   "a": [
+    "De lucht is warmer dan de standaardatmosfeer",
+    "De lucht is kouder dan de standaardatmosfeer",
+    "Je bent naar een gebied met lagere luchtdruk gevlogen zonder bij te stellen",
+    "De subschaal staat hoger dan de werkelijke QNH"
+   ],
+   "juist": 0,
+   "uitleg": "Warme lucht is minder dicht, dus de druk neemt langzamer af met de hoogte en je moet hoger zijn voor dezelfde drukval. In de andere situaties ben je juist lager dan aangewezen."
+  },
+  {
+   "v": "Wat gebeurt er met de aanwijzing van de hoogtemeter als je de subschaal van 1013 naar 1023 hPa draait?",
+   "a": [
+    "Die neemt ongeveer 80 m toe",
+    "Die neemt ongeveer 80 m af",
+    "Die neemt ongeveer 10 m toe",
+    "Die verandert niet; de referentie verschuift"
+   ],
+   "juist": 0,
+   "uitleg": "Een hogere subschaalwaarde verhoogt de aanwijzing: 10 hPa x ongeveer 8 m per hPa = ongeveer 80 m."
+  },
+  {
+   "v": "Een hoogtemeter met drie wijzers (in voet): de kleine wijzer (10 000 ft) staat net vóór de 1, de middelste wijzer tussen 8 en 9, de grote wijzer op 5. Wat wijst hij aan?",
+   "a": [
+    "8 500 ft",
+    "850 ft",
+    "18 500 ft",
+    "5 800 ft"
+   ],
+   "juist": 0,
+   "uitleg": "De kleine wijzer (tienduizendtallen) staat nog net vóór de 1, dus onder 10 000 ft. De middelste geeft 8000 en de grote 500: 8 500 ft."
+  },
+  {
+   "v": "Je zet 's ochtends de hoogtemeter op 0 (QFE). Bij terugkomst op hetzelfde veld wijst hij 's middags +40 m aan. Wat is er gebeurd?",
+   "a": [
+    "De luchtdruk is ongeveer 5 hPa gedaald",
+    "De luchtdruk is ongeveer 5 hPa gestegen",
+    "De luchtdruk is ongeveer 40 hPa gedaald",
+    "De hoogtemeter is defect, want de druk verandert op een dag niet zoveel"
+   ],
+   "juist": 0,
+   "uitleg": "Een lagere druk wordt door de hoogtemeter als grotere hoogte aangewezen. 40 m / 8 m per hPa = 5 hPa drukdaling."
+  },
+  {
+   "v": "Waarom is bij overlandvliegen een hoogtemeterinstelling op QNH handiger dan op QFE?",
+   "a": [
+    "QNH corrigeert ook voor temperatuurafwijkingen, QFE niet",
+    "Met QNH wijst de hoogtemeter de hoogte boven het terrein onder je aan",
+    "Luchtruimgrenzen en terreinhoogten op de kaart zijn ten opzichte van zeeniveau gegeven",
+    "QFE is wettelijk beperkt tot lokale vluchten binnen de verkeerszone rond het eigen vliegveld"
+   ],
+   "juist": 2,
+   "uitleg": "Met QNH lees je de hoogte boven zeeniveau af en kun je die direct vergelijken met kaarthoogten en luchtruimgrenzen. QNH corrigeert niet voor temperatuur."
+  },
+  {
+   "v": "Waarom kan de drukhoogte in je IGC-loggerbestand afwijken van wat je hoogtemeter aanwees?",
+   "a": [
+    "De logger meet hoogte met GPS en negeert de luchtdruk",
+    "De logger registreert drukhoogte ten opzichte van 1013,25 hPa, ongeacht je subschaalinstelling",
+    "De logger corrigeert de drukhoogte automatisch voor de actuele QNH van de dichtstbijzijnde luchthaven",
+    "De logger meet de hoogte boven het terrein met een radar"
+   ],
+   "juist": 1,
+   "uitleg": "Loggers registreren drukhoogte op standaarddruk (en daarnaast GNSS-hoogte). Bij een QNH anders dan 1013 wijkt die af van je hoogtemeter."
+  },
+  {
+   "v": "Hoe werkt een mechanische (vaan- of membraan-) variometer?",
+   "a": [
+    "Hij meet het verschil tussen pitotdruk en statische druk en differentieert dat",
+    "Hij meet de verandering van de buitentemperatuur, die met de hoogte afneemt",
+    "Hij meet de luchtstroom tussen een geïsoleerd vat en de statische druk",
+    "Hij gebruikt een slinger die bij verticale versnelling uitslaat"
+   ],
+   "juist": 2,
+   "uitleg": "Bij stijgen daalt de buitendruk; de lucht in het vat stroomt via het instrument naar buiten tot de druk gelijk is. Die stroom is een maat voor de stijgsnelheid."
+  },
+  {
+   "v": "Je zweefvliegtuig heeft in de zon gestaan; de capaciteitsfles van de variometer is slecht geïsoleerd. Na de start in koelere lucht koelt de fles af. Wat wijst de variometer daardoor aan?",
+   "a": [
+    "Een schijnbaar stijgen",
+    "Niets, temperatuur heeft geen invloed op de variometer",
+    "Een schijnbaar dalen",
+    "Een vaste afwijking naar nul toe, ongeacht stijgen of dalen"
+   ],
+   "juist": 2,
+   "uitleg": "Afkoelende lucht in de fles krijgt een lagere druk; buitenlucht stroomt de fles in, net als bij dalen. Daarom moet het vat thermisch geïsoleerd zijn."
+  },
+  {
+   "v": "Er zit een lek in de capaciteitsfles of in de slang tussen fles en variometer (naar de cockpit). Wat is het gevolg?",
+   "a": [
+    "De vario wijst te veel stijgen en dalen aan, omdat de cockpitdruk meetelt",
+    "De vario wijst door het lek stijgen aan, ook in dalende lucht",
+    "Geen gevolg, want de druk in de cockpit is precies gelijk aan de statische druk",
+    "De vario wijst te weinig aan, omdat een deel van de lucht via het lek stroomt"
+   ],
+   "juist": 3,
+   "uitleg": "De lucht die via het instrument moet stromen, kiest deels de weg door het lek. Het meetelement ziet minder luchtstroom en de aanwijzing is te klein."
+  },
+  {
+   "v": "Hoe werkt een elektrische variometer met thermistoren?",
+   "a": [
+    "Een thermistor meet de buitentemperatuur en berekent daaruit de hoogte",
+    "De luchtstroom naar of uit het vat koelt verwarmde thermistoren ongelijk af",
+    "De thermistoren meten de luchtdichtheid in de pitotleiding en de statische leiding",
+    "Een thermistor meet de accuspanning en zet die om in stijgen of dalen"
+   ],
+   "juist": 1,
+   "uitleg": "Twee verwarmde weerstanden liggen in de luchtstroom naar het vat. De stromingsrichting bepaalt welke het meest afkoelt; elektronica zet dat om in een aanwijzing."
+  },
+  {
+   "v": "Tijdens de vlucht valt de stroomvoorziening volledig uit. Welke instrumenten blijven werken?",
+   "a": [
+    "Snelheidsmeter, elektrische variometer, FLARM en kompas",
+    "De snelheidsmeter, want die heeft een eigen batterij",
+    "Hoogtemeter, transponder en radio, want die hebben een noodvoeding",
+    "Snelheidsmeter, hoogtemeter, mechanische variometer en magnetisch kompas"
+   ],
+   "juist": 3,
+   "uitleg": "De pneumatische instrumenten en het kompas werken zonder stroom. Daarom heeft een zweefvliegtuig naast een elektrische vario vaak ook een mechanische."
+  },
+  {
+   "v": "Je vliegt met een niet-gecompenseerde variometer met 150 km/h in rustige lucht en trekt op tot 90 km/h. Wat wijst de variometer aan?",
+   "a": [
+    "Tijdelijk flink dalen, omdat je snelheid verliest",
+    "Tijdelijk flink stijgen, hoewel de lucht niet stijgt",
+    "Nul, want de lucht stijgt of daalt niet",
+    "Hetzelfde dalen als daarvoor, omdat de variometer snelheid niet meet"
+   ],
+   "juist": 1,
+   "uitleg": "Bij optrekken zet je snelheid om in hoogte; een ongecompenseerde vario meet alleen hoogteverandering en toont 'knuppelthermiek'."
+  },
+  {
+   "v": "Wat meet een totale-energievariometer (TE-vario)?",
+   "a": [
+    "De verandering van de ware snelheid, gecorrigeerd voor luchtdichtheid en temperatuur",
+    "De verandering van totale energie, zodat ruilen van snelheid en hoogte niet meetelt",
+    "De verticale beweging van de lucht, gecorrigeerd voor het eigen dalen van het toestel",
+    "De gemiddelde stijgsnelheid over de laatste 30 seconden, zoals een integrator"
+   ],
+   "juist": 1,
+   "uitleg": "Een TE-vario toont de verandering van totale energie. Optrekken of duiken in rustige lucht verandert die niet, dus de vario reageert alleen op de luchtbeweging en het eigen dalen."
+  },
+  {
+   "v": "Hoe wordt een TE-sonde (bijvoorbeeld een Braunschweig- of Nicks-buis) aangesloten?",
+   "a": [
+    "Op de pitotaansluiting van de snelheidsmeter, in plaats van de pitotbuis",
+    "Op de hoogtemeter, zodat ook de hoogteaanwijzing gecompenseerd wordt",
+    "Tussen capaciteitsfles en instrument, als extra vat dat de vertraging dempt",
+    "Op de statische aansluiting van de vario, in plaats van de statische druk"
+   ],
+   "juist": 3,
+   "uitleg": "De sonde levert een druk die met de stuwdruk afneemt. Die vervangt de statische aansluiting van de vario, waardoor snelheidsveranderingen worden gecompenseerd."
+  },
+  {
+   "v": "Je trekt in rustige lucht op van 160 km/h naar 100 km/h. Hoeveel hoogte win je theoretisch, zonder verliezen? (g = 9,81 m/s²)",
+   "a": [
+    "Ongeveer 14 m",
+    "Ongeveer 61 m",
+    "Ongeveer 31 m",
+    "Ongeveer 122 m"
+   ],
+   "juist": 1,
+   "uitleg": "44,4 m/s en 27,8 m/s: Δh = (44,4² - 27,8²) / (2 x 9,81) = (1975 - 772) / 19,62 = ongeveer 61 m. Juist dit hoogteverschil moet een TE-vario niet als stijgen tonen."
+  },
+  {
+   "v": "Na aanpassing van de TE-sonde toont de vario bij een snelle optrekmanoeuvre in rustige lucht duidelijk dalen. Wat betekent dat?",
+   "a": [
+    "De vario is ondergecompenseerd",
+    "De compensatie is precies goed",
+    "De vario is overgecompenseerd",
+    "De statische opening is verstopt"
+   ],
+   "juist": 2,
+   "uitleg": "Ondercompensatie laat bij optrekken nog stijgen zien, overcompensatie juist dalen. Bij goede compensatie verandert de aanwijzing nauwelijks."
+  },
+  {
+   "v": "Welke drukken heeft een elektronische variometer nodig om de totale-energiecompensatie zelf te berekenen?",
+   "a": [
+    "De statische druk en de cockpitdruk",
+    "De druk van de TE-sonde en de buitentemperatuur",
+    "Statische druk en totale druk (pitot)",
+    "De cockpitdruk en de buitentemperatuur"
+   ],
+   "juist": 2,
+   "uitleg": "Uit pitot- en statische druk kan de elektronica de snelheid en de verandering daarvan berekenen en zo de knuppelthermiek compenseren."
+  },
+  {
+   "v": "Je TE-vario wijst -2,0 m/s aan. Volgens de polaire daalt je toestel bij deze snelheid in rustige lucht 1,2 m/s. Wat wijst een netto-variometer aan?",
+   "a": [
+    "-0,8 m/s",
+    "-3,2 m/s",
+    "+0,8 m/s",
+    "-1,2 m/s"
+   ],
+   "juist": 0,
+   "uitleg": "Netto = TE-aanwijzing + eigen daalsnelheid: -2,0 + 1,2 = -0,8 m/s. De lucht zelf daalt dus 0,8 m/s."
+  },
+  {
+   "v": "Wat wijst een netto-variometer aan tijdens een rechtlijnige glijvlucht in volkomen rustige lucht?",
+   "a": [
+    "Het eigen dalen van het toestel volgens de polaire",
+    "Het beste glijgetal",
+    "De minimale daalsnelheid",
+    "Nul"
+   ],
+   "juist": 3,
+   "uitleg": "De netto-vario trekt het eigen dalen van het toestel af en toont alleen de verticale beweging van de lucht. In rustige lucht is dat nul."
+  },
+  {
+   "v": "Wat is het verschil tussen een netto- en een relatieve (super-netto) aanwijzing?",
+   "a": [
+    "Relatief trekt ook het eigen dalen in de cirkel af: wat je hier cirkelend zou stijgen",
+    "Relatief toont het stijgen ten opzichte van het sleepvliegtuig of een ander toestel",
+    "De relatieve vario is niet gecompenseerd voor knuppelthermiek, de netto-vario wel",
+    "De relatieve vario toont de gemiddelde stijging van de laatst gevlogen thermiekbel"
+   ],
+   "juist": 0,
+   "uitleg": "Netto toont de luchtbeweging. Relatief corrigeert daar ook nog voor het dalen in de cirkelvlucht, zodat je direct ziet wat cirkelen hier zou opleveren."
+  },
+  {
+   "v": "Een speed-to-fly-aanwijzing geeft in sterk dalende lucht aan dat je:",
+   "a": [
+    "Sneller moet vliegen om snel door het dalende gebied te komen",
+    "Langzamer moet vliegen om zo min mogelijk te dalen",
+    "De snelheid voor minimaal dalen moet aanhouden",
+    "Moet gaan cirkelen om hoogte te behouden"
+   ],
+   "juist": 0,
+   "uitleg": "In dalende lucht beperk je de tijd in die lucht door sneller te vliegen. De extra eigen daalsnelheid weegt op tegen de kortere verblijftijd."
+  },
+  {
+   "v": "Je verhoogt de MacCready-instelling van 1 naar 3 m/s. Wat gebeurt er met de aanbevolen snelheid tussen thermiekbellen?",
+   "a": [
+    "Die wordt lager",
+    "Die blijft gelijk; wel verandert de cirkelsnelheid",
+    "Die wordt gelijk aan de snelheid voor minimaal dalen",
+    "Die wordt hoger"
+   ],
+   "juist": 3,
+   "uitleg": "Een hogere MacCready-waarde staat voor sterker verwachte thermiek; dan loont het om tussen de bellen sneller te vliegen."
+  },
+  {
+   "v": "Waarom loopt de aanwijzing van een variometer altijd wat achter op de werkelijkheid?",
+   "a": [
+    "De druk in het vat moet via een vernauwing gelijk worden, wat enkele seconden kost",
+    "De wijzer heeft een grote massa en kan daardoor niet snel genoeg bewegen",
+    "De statische opening zit ver achter in de romp, dus de druk komt later aan",
+    "De variometer toont standaard de gemiddelde stijgsnelheid van de afgelopen minuut"
+   ],
+   "juist": 0,
+   "uitleg": "Elke vario heeft een vertraging door de pneumatiek en de demping. In thermiek reageer je daarom ook op het 'zitvlak' en de geluidssignalen."
+  },
+  {
+   "v": "Je vliegt op het noordelijk halfrond een linkerbocht van oost naar noord en gebruikt alleen het magnetisch kompas. Wanneer zet je de bocht uit?",
+   "a": [
+    "Duidelijk voordat het kompas noord aanwijst, omdat het kompas bij noordelijke koersen achterloopt",
+    "Duidelijk nadat het kompas noord aanwijst, omdat het kompas bij noordelijke koersen voorloopt",
+    "Precies als het kompas noord aanwijst, omdat er bij noord geen draaifout is",
+    "Pas als het kompas tot rust is gekomen na een rechte vlucht van een minuut"
+   ],
+   "juist": 0,
+   "uitleg": "Bij draaien naar noord loopt het kompas achter; je zet de bocht dus eerder uit (te vroeg op de schaal). Bij zuid loopt het voor en zet je later uit."
+  },
+  {
+   "v": "Je vliegt op het noordelijk halfrond een rechterbocht van oost naar zuid met alleen het kompas. Wanneer zet je de bocht uit?",
+   "a": [
+    "Nadat het kompas zuid gepasseerd is, omdat het kompas bij zuidelijke koersen voorloopt",
+    "Voordat het kompas zuid aanwijst, omdat het kompas bij zuidelijke koersen achterloopt",
+    "Precies als het kompas zuid aanwijst, omdat er bij zuid geen draaifout is",
+    "Voordat het kompas zuid aanwijst, omdat het kompas bij zuidelijke koersen tegengesteld aan de bocht draait"
+   ],
+   "juist": 0,
+   "uitleg": "Bij zuidelijke koersen loopt het kompas voor de werkelijke koers uit. Je laat de aanwijzing dus voorbij 180° lopen voordat je uitzet."
+  },
+  {
+   "v": "Je vliegt koers noord en begint een rechterbocht. Wat doet het magnetisch kompas aanvankelijk (noordelijk halfrond)?",
+   "a": [
+    "Het blijft achter of draait zelfs eerst even de verkeerde kant op",
+    "Het loopt voor en wijst direct een grotere koersverandering aan",
+    "Het volgt de bocht precies, want bij noord is er geen fout",
+    "Het draait direct naar zuid en blijft daar staan"
+   ],
+   "juist": 0,
+   "uitleg": "Door de inclinatie trekt het veld de schuin hangende magneet in de bocht naar het noorden. Bij een start vanuit noord loopt de aanwijzing daardoor achter of draait eerst tegengesteld."
+  },
+  {
+   "v": "Je vliegt op het noordelijk halfrond koers oost en versnelt door de neus te laten zakken. Wat wijst het kompas?",
+   "a": [
+    "Een schijnbare draai naar het noorden",
+    "Een schijnbare draai naar het zuiden",
+    "Geen verandering, want versnellen geeft vooral een fout op noord en zuid",
+    "Een draai van precies 180°"
+   ],
+   "juist": 0,
+   "uitleg": "Acceleratiefout op het noordelijk halfrond bij oost- en westkoersen: versnellen geeft een schijnbare draai naar noord, vertragen naar zuid."
+  },
+  {
+   "v": "Bij welke koersen geeft versnellen of vertragen geen acceleratiefout van het magnetisch kompas?",
+   "a": [
+    "Oost en west",
+    "Noordoost en zuidwest",
+    "Noord en zuid",
+    "Bij alle koersen is de fout even groot"
+   ],
+   "juist": 2,
+   "uitleg": "Bij noord- en zuidkoersen ligt de versnelling in het vlak van het magnetisch veld en ontstaat geen draaiend moment. De fout is het grootst op oost en west."
+  },
+  {
+   "v": "Bij welke koersen zijn de draaifouten van het magnetisch kompas het grootst?",
+   "a": [
+    "Bij het draaien door oost en west",
+    "Bij alle koersen even groot",
+    "Bij het draaien door zuidwest en noordoost",
+    "Bij het draaien door noord en zuid"
+   ],
+   "juist": 3,
+   "uitleg": "Draaifouten zijn het grootst bij noord en zuid en nemen af naar nul rond oost en west. Bij acceleratiefouten is het precies omgekeerd."
+  },
+  {
+   "v": "Wat is de oorzaak van draai- en acceleratiefouten van het magnetisch kompas?",
+   "a": [
+    "De variatie tussen ware en magnetische noord, die per gebied verschilt",
+    "Magnetische velden van elektrische apparatuur, stroomdraden en metalen delen in het toestel zelf",
+    "De inclinatie van het aardmagnetisch veld, samen met de slingerende ophanging van de magneet",
+    "De wrijving van het magneetsysteem in de kompasvloeistof tijdens de bocht"
+   ],
+   "juist": 2,
+   "uitleg": "Het magneetsysteem hangt met het zwaartepunt onder het draaipunt om de inclinatie te compenseren. Bij versnellingen en scheve stand trekt de verticale veldcomponent het systeem uit de juiste stand."
+  },
+  {
+   "v": "Waarom zijn kompasfouten in Noorwegen groter dan in Nederland?",
+   "a": [
+    "De variatie is daar groter, waardoor ook draaifouten toenemen",
+    "Het is daar kouder, waardoor de kompasvloeistof stroperiger wordt",
+    "De inclinatie is daar groter, dus de verticale veldcomponent is sterker",
+    "De aarde draait daar langzamer, wat het kompas beïnvloedt"
+   ],
+   "juist": 2,
+   "uitleg": "Hoe dichter bij de magnetische pool, hoe steiler de veldlijnen. Daardoor worden de draai- en acceleratiefouten groter."
+  },
+  {
+   "v": "Je kompas wijst 095° terwijl de magnetische koers 090° is. Welke fout is dit en waar vind je de correctie?",
+   "a": [
+    "Deviatie, door magnetische invloeden in het toestel; de correctie staat op de deviatiekaart",
+    "Variatie, door het verschil tussen ware en magnetische noord; de correctie staat op de luchtvaartkaart",
+    "Inclinatie, door de schuine veldlijnen; de correctie staat in het vlieghandboek",
+    "Draaifout, door de bocht die je maakte; de correctie is niet nodig in rechte vlucht"
+   ],
+   "juist": 0,
+   "uitleg": "Deviatie wordt veroorzaakt door ijzer, magneten en stroomvoerende draden in het toestel. Het is per koers verschillend en wordt op de deviatiekaart bij het kompas vermeld."
+  },
+  {
+   "v": "Je legt je telefoon in een magnetische houder vlak naast het kompas. Wat is het gevolg?",
+   "a": [
+    "Geen gevolg, want telefoons zenden geen magnetisch veld uit",
+    "Een vaste variatie die je kunt corrigeren met de kaart",
+    "Het kompas wijst voortaan ware noord in plaats van magnetisch noord, zonder verdere afwijking",
+    "Grote, onvoorspelbare deviatie, zodat het kompas onbetrouwbaar wordt"
+   ],
+   "juist": 3,
+   "uitleg": "Een magneet en elektronica dicht bij het kompas veroorzaken grote deviatie die niet op de deviatiekaart staat. Houd zulke voorwerpen uit de buurt van het kompas."
+  },
+  {
+   "v": "De ware koers is 270° en de variatie 2° oost. Welke magnetische koers vlieg je?",
+   "a": [
+    "272°",
+    "270°",
+    "268°",
+    "090°"
+   ],
+   "juist": 2,
+   "uitleg": "Bij oostelijke variatie trek je af: 270 - 2 = 268°. 'East is least, west is best'."
+  },
+  {
+   "v": "Je GPS toont een track van 250° terwijl je kompas in rechte vlucht 240° aanwijst. Welke verklaring is het meest volledig?",
+   "a": [
+    "Het kompas is defect, want in een rechte vlucht horen track en kompaskoers precies gelijk te zijn",
+    "Track is de grondbaan ten opzichte van ware noord; het kompas geeft magnetische koers met deviatie",
+    "De GPS toont de magnetische koers, dus het hele verschil van 10° is deviatie van het kompas",
+    "Het verschil is de variatie, want de wind heeft geen invloed op de track over de grond"
+   ],
+   "juist": 1,
+   "uitleg": "De track bevat de windafdrift; het kompas toont waar de neus heen wijst ten opzichte van magnetisch noord, inclusief deviatie. Variatie, deviatie en drift samen verklaren het verschil."
+  },
+  {
+   "v": "Waarvoor dient de vloeistof in een magnetisch kompas?",
+   "a": [
+    "Om het kompas te verwarmen zodat het bij kou niet bevriest",
+    "Om slingerbewegingen van het magneetsysteem te dempen en het lager te ontlasten",
+    "Om de deviatie van het toestel te compenseren",
+    "Om de inclinatie op te heffen, zodat er bij bochten en versnellingen geen draaifouten zijn"
+   ],
+   "juist": 1,
+   "uitleg": "De vloeistof dempt de bewegingen van de roos en laat het systeem gedeeltelijk drijven. Een grote luchtbel wijst op lekkage en maakt het kompas onbetrouwbaar."
+  },
+  {
+   "v": "Op het draadje (yaw string) op de kap waait het achtereinde naar links. Welk voetenstuur geef je om de vlucht te coördineren?",
+   "a": [
+    "Rechtervoet",
+    "Linkervoet",
+    "Geen voetenstuur, maar rolroer naar links",
+    "Geen voetenstuur, maar hoogteroer trekken"
+   ],
+   "juist": 0,
+   "uitleg": "Het draadje wijst de luchtstroom aan; je geeft voetenstuur aan de kant tegengesteld aan de staart van het draadje. Bij een slipkogel is het juist andersom: je trapt de kogel in."
+  },
+  {
+   "v": "Waarom is het controleren van de nulstand van de variometer op de grond zinvol, maar een kleine uitslag bij harde wind geen reden tot zorg?",
+   "a": [
+    "Een variometer wijst op de grond het stijgen van de lucht aan",
+    "Harde wind laat de capaciteitsfles in de romp opwarmen",
+    "Windvlagen veranderen de druk bij statische opening of TE-sonde",
+    "De variometer meet op de grond de snelheid van de wind"
+   ],
+   "juist": 2,
+   "uitleg": "Op de grond hoort een vario in rust nul aan te wijzen. Windstoten veranderen de druk bij sondes en openingen en geven kleine uitslagen zonder dat er een defect is."
+  },
+  {
+   "v": "Tussen de accu en de hoofdzekering zit 1,5 meter kabel. Waarom is dat ongewenst?",
+   "a": [
+    "Een lange kabel verhoogt de spanning bij de apparatuur, zodat de zekering te vroeg en onnodig doorslaat",
+    "De zekering hoort direct naast het instrumentenpaneel te zitten",
+    "Een lange kabel veroorzaakt kompasdeviatie, de zekering niet",
+    "Een kortsluiting in dat stuk kabel wordt niet door de zekering beveiligd, met brandgevaar"
+   ],
+   "juist": 3,
+   "uitleg": "Een zekering beschermt alleen de bedrading na de zekering. Daarom hoort hij zo dicht mogelijk bij de pluspool van de accu."
+  },
+  {
+   "v": "Een accu heeft een capaciteit van 9 Ah, waarvan je 80% bruikbaar acht. Het gemiddelde stroomverbruik van je apparatuur is 0,9 A. Hoe lang kun je ongeveer vliegen?",
+   "a": [
+    "Ongeveer 10 uur",
+    "Ongeveer 8 uur",
+    "Ongeveer 6,5 uur",
+    "Ongeveer 12 uur"
+   ],
+   "juist": 1,
+   "uitleg": "Bruikbaar is 9 x 0,8 = 7,2 Ah. 7,2 Ah / 0,9 A = 8 uur. Zenden en een transponder verhogen het verbruik flink."
+  },
+  {
+   "v": "Waarom kan een bijna lege accu nog goede radio-ontvangst geven terwijl de radio bij zenden uitvalt?",
+   "a": [
+    "Bij zenden schakelt de radio automatisch over op een tweede, lege accu",
+    "Zenden vraagt veel meer stroom, waardoor de spanning onder de werkspanning zakt",
+    "Ontvangen gaat via de antenne en de luidspreker, terwijl zenden rechtstreeks de accu belast",
+    "Bij zenden wordt de zekering warm, waardoor die de stroom begrenst"
+   ],
+   "juist": 1,
+   "uitleg": "Een zwakke accu houdt bij een kleine stroom de spanning nog vast, maar bij de grote zendstroom zakt die in. De radio schakelt dan uit of zendt slecht."
+  },
+  {
+   "v": "Een 12V-loodaccu (AGM) heeft na een nacht rust een spanning van 12,0 V. Wat betekent dat?",
+   "a": [
+    "De accu is grotendeels ontladen en moet worden geladen",
+    "De accu is vol, want 12 V is de nominale spanning",
+    "De accu is overladen en moet een tijd rusten",
+    "De accu is half vol en voldoende voor een lange overlandvlucht"
+   ],
+   "juist": 0,
+   "uitleg": "Een volle 12V-AGM-accu heeft in rust ongeveer 12,8 V of iets meer. Bij 12,0 V is er nog maar een klein deel van de capaciteit over."
+  },
+  {
+   "v": "Waarom zegt de rustspanning van een LiFePO4-accu weinig over de resterende lading?",
+   "a": [
+    "De spanningscurve is over het grootste deel van de capaciteit zeer vlak",
+    "De spanning van een LiFePO4-accu stijgt juist naarmate hij leger raakt",
+    "LiFePO4-accu's hebben geen vaste spanning, die hangt van de temperatuur af",
+    "De rustspanning van een LiFePO4-accu is precies 12,0 V"
+   ],
+   "juist": 0,
+   "uitleg": "Lithium-ijzerfosfaat houdt lang een nagenoeg constante spanning vast en zakt pas aan het eind snel in. Spanning is daardoor een slechte maat voor de lading."
+  },
+  {
+   "v": "Wat gebeurt er met een loodaccu die lange tijd ontladen blijft staan?",
+   "a": [
+    "De accu laadt zichzelf langzaam weer op",
+    "Niets, een moderne loodaccu kan zonder bezwaar onbeperkt ontladen worden bewaard",
+    "Sulfatering van de platen, met blijvend capaciteitsverlies",
+    "Het zuur verdampt volledig, zodat de accu lichter wordt"
+   ],
+   "juist": 2,
+   "uitleg": "Bij een ontladen loodaccu ontstaan loodsulfaatkristallen die niet meer volledig omzetten. Bewaar loodaccu's daarom geladen en laad ze periodiek bij."
+  },
+  {
+   "v": "Waarom moet je bij het vervangen van een accu in de kielvin door een zwaarder of lichter exemplaar aan massa en zwaartepunt denken?",
+   "a": [
+    "Een zwaardere accu verhoogt de spanning en daarmee het stroomverbruik",
+    "Een lichtere accu in de kielvin veroorzaakt meer deviatie van het kompas door de kortere afstand",
+    "Het zwaartepunt wordt door de vlieger bepaald, niet door de accu",
+    "Door de grote arm verschuift een klein massaverschil het zwaartepunt merkbaar"
+   ],
+   "juist": 3,
+   "uitleg": "Moment is massa maal arm. Een accu in de staart heeft een grote arm en verschuift het zwaartepunt merkbaar; de wegingsgegevens en cockpitbelasting kunnen veranderen."
+  },
+  {
+   "v": "Welke bewering over het laden van een LiFePO4-accu is juist?",
+   "a": [
+    "Elke 12V-lader is geschikt, omdat de spanning gelijk is aan die van een loodaccu",
+    "Een LiFePO4-accu moet je eerst volledig ontladen voordat je hem laadt",
+    "Een LiFePO4-accu laad je het best met de hoogst mogelijke laadspanning",
+    "Gebruik een lader voor dit accutype; een loodlader kan accu of BMS beschadigen"
+   ],
+   "juist": 3,
+   "uitleg": "Lithiumaccu's hebben een eigen laadprofiel en een beveiligingsschakeling (BMS). Sommige loodladers geven desulfatiepulsen of te hoge spanningen."
+  },
+  {
+   "v": "Tijdens de vlucht zakt de boordspanning van 12,6 naar 11,4 V. Wat is verstandig?",
+   "a": [
+    "Niets doen, want de spanning herstelt zich vanzelf zodra de accu warmer wordt",
+    "Alle apparatuur kort uit- en weer aanzetten, zodat de accuspanning herstelt",
+    "De hoofdzekering vervangen door een zwaardere, zodat er meer stroom naar de apparatuur kan lopen",
+    "Verbruik beperken, radio sparen en rekening houden met uitval van FLARM en transponder"
+   ],
+   "juist": 3,
+   "uitleg": "Een dalende spanning wijst op een bijna lege accu. Door verbruik te beperken houd je de belangrijkste apparatuur langer werkend."
+  },
+  {
+   "v": "Welke bewering over FLARM is juist?",
+   "a": [
+    "FLARM vervangt een transponder in een TMZ, omdat ATC de signalen ontvangt",
+    "FLARM zendt positie en verwachte baan naar andere FLARM's; de ATC-radar ziet FLARM niet",
+    "FLARM waarschuwt voor al het verkeer, ook voor toestellen zonder elektronica",
+    "FLARM werkt met een radarsignaal vanaf de grond dat op andere toestellen terugkaatst en wordt gemeten"
+   ],
+   "juist": 1,
+   "uitleg": "FLARM is een botsingswaarschuwingssysteem tussen deelnemende toestellen. De radar van de verkeersleiding ziet het niet, het vervangt dus geen transponder, en toestellen zonder elektronica ziet FLARM niet."
+  },
+  {
+   "v": "Een PowerFLARM ontvangt een Mode C-transponder van een motorvliegtuig zonder ADS-B. Wat kan het apparaat tonen?",
+   "a": [
+    "De exacte positie en koers van het motorvliegtuig",
+    "Niets, omdat FLARM geen transpondersignalen kan ontvangen",
+    "De registratie van het toestel, zonder afstand of hoogte",
+    "Een geschatte afstand en het hoogteverschil, maar geen richting"
+   ],
+   "juist": 3,
+   "uitleg": "Een Mode C- of Mode S-antwoord zonder ADS-B bevat geen positie. De afstand wordt geschat uit de signaalsterkte; de richting is onbekend."
+  },
+  {
+   "v": "Waarom moet de FLARM-firmware regelmatig worden bijgewerkt?",
+   "a": [
+    "Zonder update wijst de FLARM ware in plaats van magnetische koers aan",
+    "Firmware verloopt na een vaste datum en daarna werkt de FLARM niet meer",
+    "De update is bedoeld voor het gebruik als IGC-logger, niet voor de waarschuwingen",
+    "Zonder update gaat de FLARM ook als transponder antwoorden op radar"
+   ],
+   "juist": 1,
+   "uitleg": "FLARM-firmware verloopt periodiek om te voorkomen dat verouderde apparaten incompatibel worden. Een verlopen FLARM geeft geen waarschuwingen meer."
+  },
+  {
+   "v": "Welke hoogte zendt een Mode S-transponder uit?",
+   "a": [
+    "De hoogte boven zeeniveau op basis van de QNH die je zelf op de subschaal van de hoogtemeter instelt",
+    "De hoogte boven het vertrekveld (QFE)",
+    "De GPS-hoogte boven de ellipsoïde",
+    "De drukhoogte ten opzichte van 1013,25 hPa, onafhankelijk van je hoogtemeterinstelling"
+   ],
+   "juist": 3,
+   "uitleg": "De hoogtecodeerder werkt altijd op standaarddruk. De verkeersleiding rekent dat met de actuele QNH om naar hoogte als dat nodig is."
+  },
+  {
+   "v": "Welke combinatie van transpondercodes is juist?",
+   "a": [
+    "7000 noodgeval, 7600 kaping, 7700 radio-uitval",
+    "7000 algemene VFR-code, 7600 radio-uitval, 7700 noodgeval",
+    "7000 radio-uitval, 7600 algemene VFR-code, 7700 noodgeval",
+    "7000 algemene VFR-code, 7600 noodgeval, 7700 radio-uitval"
+   ],
+   "juist": 1,
+   "uitleg": "7000 is de conspicuity-code voor VFR, 7500 wederrechtelijke handeling, 7600 radio-uitval en 7700 noodgeval."
+  },
+  {
+   "v": "Wat doet de IDENT-knop van een transponder, en wanneer gebruik je hem?",
+   "a": [
+    "Hij zendt je registratie op de radiofrequentie uit; je gebruikt hem bij elke oproep",
+    "Hij schakelt over op code 7700; je gebruikt hem bij een noodgeval",
+    "Hij zet de hoogtemeter op 1013 hPa; je gebruikt hem bij het passeren van de transitiehoogte naar vliegniveaus",
+    "Hij laat je label bij de verkeersleider opvallen; je drukt hem in op verzoek van de verkeersleider"
+   ],
+   "juist": 3,
+   "uitleg": "IDENT laat je doel op het radarscherm enkele seconden extra zichtbaar worden. Ongevraagd gebruik stoort de verkeersleiding."
+  },
+  {
+   "v": "Op welke frequentie zendt een moderne ELT of PLB zijn noodsignaal naar de satellieten?",
+   "a": [
+    "121,5 MHz, met daarnaast een zoeksignaal op 406 MHz voor de reddingshelikopter",
+    "406 MHz, met daarnaast meestal een zoeksignaal op 121,5 MHz",
+    "123,5 MHz, de algemene zweefvliegfrequentie",
+    "868 MHz, dezelfde band als FLARM"
+   ],
+   "juist": 1,
+   "uitleg": "Het COSPAS-SARSAT-systeem verwerkt 406 MHz-signalen met identificatie en positie. Het 121,5 MHz-signaal dient voor het uitpeilen in de laatste fase."
+  },
+  {
+   "v": "Waarom moet een boordradio in het Europese luchtruim 8,33 kHz-kanaalafstand ondersteunen?",
+   "a": [
+    "Een 8,33 kHz-radio heeft door een hoger zendvermogen een groter bereik dan een oudere 25 kHz-radio",
+    "Een 8,33 kHz-radio is nodig om gegevens uit te wisselen met FLARM en de transponder",
+    "8,33 kHz is de frequentie waarop de transponder antwoordt op een radarvraag",
+    "De band is in smallere kanalen verdeeld; een 25 kHz-radio kan veel frequenties niet instellen"
+   ],
+   "juist": 3,
+   "uitleg": "Door kanalen van 8,33 kHz zijn er in dezelfde band drie keer zoveel kanalen als bij 25 kHz. Veel toegewezen frequenties liggen op 8,33 kHz-kanalen."
+  },
+  {
+   "v": "Op 1500 m hoogte kon je een verafgelegen grondstation goed bereiken, maar laag boven de grond niet meer. Wat is de verklaring?",
+   "a": [
+    "De radio zendt laag boven de grond automatisch met minder vermogen om storing te voorkomen",
+    "Dicht bij de grond is de luchtdruk hoger, wat VHF-signalen dempt",
+    "VHF werkt in zichtlijn; laag valt het station achter de horizon",
+    "De accu levert laag boven de grond minder spanning door de hogere temperatuur"
+   ],
+   "juist": 2,
+   "uitleg": "VHF-golven buigen nauwelijks om de aarde heen. Het bereik hangt daardoor sterk af van de hoogte van zender en ontvanger."
+  },
+  {
+   "v": "Je zendt slecht (anderen horen je zwak) terwijl je anderen goed ontvangt. Wat is een waarschijnlijke oorzaak?",
+   "a": [
+    "Een verkeerd ingestelde squelch, die vooral het zenden en niet het ontvangen beïnvloedt",
+    "Een te hoog ingesteld volume van de luidspreker",
+    "Een beschadigde antennekabel of connector, of een accu die bij zenden inzakt",
+    "Een verkeerd ingestelde transpondercode"
+   ],
+   "juist": 2,
+   "uitleg": "Bij zenden gaat er veel vermogen naar de antenne; een slechte verbinding of inzakkende spanning laat zich dan het eerst merken. Squelch en volume beïnvloeden alleen de ontvangst."
+  },
+  {
+   "v": "Waarom mogen olie, vet of vette handcrème niet in contact komen met zuurstofaansluitingen?",
+   "a": [
+    "Vet maakt de rubberen afdichtingen zacht, waardoor de fles langzaam en ongemerkt leegloopt",
+    "Het vet bevriest op grote hoogte en blokkeert de zuurstoftoevoer",
+    "Vet vervuilt de zuurstof, wat een onaangename geur geeft",
+    "Zuivere zuurstof onder hoge druk kan met olie of vet spontaan ontbranden of exploderen"
+   ],
+   "juist": 3,
+   "uitleg": "Koolwaterstoffen reageren heftig met zuivere zuurstof onder druk. Gebruik alleen zuurstofgeschikte smeermiddelen en houd aansluitingen schoon."
+  },
+  {
+   "v": "Een zuurstoffles met een waterinhoud van 2 liter is gevuld tot 150 bar. Je verbruik is 1,5 liter per minuut, omgerekend naar 1 bar. Hoe lang kun je ongeveer zuurstof gebruiken? (Verwaarloos de restdruk.)",
+   "a": [
+    "Ongeveer 133 minuten",
+    "Ongeveer 300 minuten",
+    "Ongeveer 20 minuten",
+    "Ongeveer 200 minuten"
+   ],
+   "juist": 3,
+   "uitleg": "Beschikbaar is ongeveer 2 x 150 = 300 liter zuurstof. 300 / 1,5 = 200 minuten. In de praktijk houd je een reserve aan."
+  },
+  {
+   "v": "Wat is het voordeel van een elektronisch pulssysteem (EDS) ten opzichte van een constant-flowsysteem?",
+   "a": [
+    "Het werkt zonder stroom, zodat een lege accu geen gevolgen heeft",
+    "Het maakt een zware zuurstoffles overbodig, omdat het de zuurstof uit de buitenlucht haalt en concentreert",
+    "Het geeft zuurstof bij het begin van de inademing en niet daarna, en is daardoor veel zuiniger",
+    "Het geeft continu een hogere zuurstofstroom, wat veiliger is bij hypoxie"
+   ],
+   "juist": 2,
+   "uitleg": "Een pulssysteem doseert kleine pulsen precies op het moment dat ze worden ingeademd. Het vraagt wel stroom; bij uitval moet je een alternatief hebben."
+  },
+  {
+   "v": "Waarom open je de kraan van een zuurstoffles langzaam?",
+   "a": [
+    "Snel openen laat de fles bevriezen, waardoor hij scheurt",
+    "Snelle drukopbouw verhit het gas in de reduceer, wat brand kan veroorzaken",
+    "Snel openen verbruikt in één keer de helft van de inhoud",
+    "Snel openen beschadigt de manometer door de drukstoot, maar is verder volkomen ongevaarlijk"
+   ],
+   "juist": 1,
+   "uitleg": "Bij plotselinge drukstoot wordt het gas aan het eind van leidingen sterk samengeperst en verhit. In zuivere zuurstof kan dat materialen doen ontbranden."
+  },
+  {
+   "v": "Tijdens een golfvlucht daalt de druk van je zuurstoffles veel sneller dan je had berekend. Wat doe je?",
+   "a": [
+    "Doorvliegen tot de fles leeg is, want de manometer wijst bij kou te laag aan",
+    "De kraan verder opendraaien, zodat de flesdruk weer oploopt",
+    "Het masker afzetten om zuurstof te sparen tot de manometer stabiliseert",
+    "Uitgaan van een lek en tijdig dalen naar een hoogte waar geen zuurstof nodig is"
+   ],
+   "juist": 3,
+   "uitleg": "Een onverwacht snelle drukdaling wijst op lekkage of te hoog verbruik. Zonder zuurstof dreigt hypoxie, die je zelf slecht opmerkt; tijdig dalen is de veilige keuze."
+  },
+  {
+   "v": "Wat controleer je voordat je een zuurstofsysteem gebruikt?",
+   "a": [
+    "Of de fles vol is; de rest wordt bij de jaarlijkse inspectie gecontroleerd",
+    "Of de fles met olie is ingesmeerd, zodat de kraan soepel draait",
+    "Of het masker past; de stroom controleer je pas op hoogte",
+    "Flesdruk, keuringsdatum, schone aansluitingen en de stroom bij masker of canule"
+   ],
+   "juist": 3,
+   "uitleg": "Een volledige controle voor de vlucht voorkomt dat je op hoogte ontdekt dat er geen of te weinig zuurstof komt. Hypoxie geeft geen duidelijke waarschuwing."
+  },
+  {
+   "v": "Waaraan zie je wanneer je reddingsparachute voor het laatst is gepakt en wanneer hij opnieuw moet?",
+   "a": [
+    "Aan de kleur van de trekgreep, die na het pakinterval verkleurt",
+    "Aan de pakkaart in de parachute, ingevuld en getekend door een bevoegde pakker",
+    "Aan het logboek van het zweefvliegtuig waarin de parachute is gebruikt en bewaard",
+    "Aan de datum van aanschaf op het etiket van het harnas"
+   ],
+   "juist": 1,
+   "uitleg": "De pakkaart vermeldt datum, pakker en eventueel het volgende pakmoment. Het interval volgt uit de voorschriften van fabrikant en de geldende regels."
+  },
+  {
+   "v": "Je parachute is nat geworden door regen in de cockpit. Wat doe je?",
+   "a": [
+    "Hem in de zon leggen tot de buitenkant droog is en daarna gewoon gebruiken",
+    "Hem laten openen, drogen en opnieuw pakken door een bevoegde pakker",
+    "Hem op de verwarming leggen, zodat hij snel droog is",
+    "Niets, want een parachute is waterdicht verpakt"
+   ],
+   "juist": 1,
+   "uitleg": "Vocht in een gepakte parachute kan schimmel, krimp en een vertraagde opening veroorzaken. Zon en hitte beschadigen nylon; drogen en pakken hoort bij een bevoegde pakker."
+  },
+  {
+   "v": "Welke opslag van een reddingsparachute is het slechtst?",
+   "a": [
+    "In de zon in de kofferbak, naast een accu of jerrycan",
+    "In een droge, koele kast in de parachutetas",
+    "Op een plank in een geventileerde, donkere ruimte",
+    "In de draagtas op een droge plek uit de zon"
+   ],
+   "juist": 0,
+   "uitleg": "Hitte, UV-licht, vocht en chemicaliën (zoals accuzuur en brandstof) tasten het nylon aan. Bewaar een parachute droog, koel en donker."
+  },
+  {
+   "v": "Waarom heeft een reddingsparachute naast een pakinterval ook een maximale levensduur?",
+   "a": [
+    "Na een aantal jaren is het modelnummer niet meer toegestaan",
+    "Textiel veroudert door UV, vocht en tijd, waardoor de sterkte afneemt",
+    "De metalen onderdelen gaan na enkele jaren roesten, terwijl het textiel niet veroudert",
+    "De levensduur gaat pas lopen als de parachute een keer is gebruikt"
+   ],
+   "juist": 1,
+   "uitleg": "Nylon en andere materialen verliezen ook ongebruikt geleidelijk sterkte. De fabrikant bepaalt daarom een maximale levensduur."
+  },
+  {
+   "v": "Wat controleer je aan je parachute voor de vlucht?",
+   "a": [
+    "Het gewicht, want dat is een goede maat voor de inhoud en de staat van de verpakking",
+    "Pakkaartdatum, trekgreep in de houder, pinnen recht in de lussen, harnas onbeschadigd",
+    "Even openen om te kijken of het doek goed ligt en daarna weer dichtdoen",
+    "Of de borstband vastzit; de beenbanden zijn eigenlijk optioneel"
+   ],
+   "juist": 1,
+   "uitleg": "Een verbogen pin of een losse trekgreep kan opening verhinderen of onbedoeld veroorzaken. Zelf openen mag je niet; dat is voor de pakker."
+  },
+  {
+   "v": "Waarom moeten de beenbanden van je parachuteharnas strak zitten?",
+   "a": [
+    "Strakke banden verbeteren je zithouding en daarmee je gevoel voor het toestel in thermiek",
+    "Losse banden kunnen de ontkoppelknop of de remklephendel per ongeluk bedienen",
+    "Strakke beenbanden zijn nodig bij een lierstart vanwege de versnelling",
+    "De openingsschok is groot; met losse banden raak je gewond of glijd je uit het harnas"
+   ],
+   "juist": 3,
+   "uitleg": "De openingsschok wordt via het harnas op het lichaam overgebracht. Een los harnas verschuift en kan ernstig letsel veroorzaken."
+  },
+  {
+   "v": "Wat is de juiste volgorde bij het noodverlaten van een zweefvliegtuig?",
+   "a": [
+    "Gordels los, trekgreep trekken, kap afwerpen, uitstappen",
+    "Kap afwerpen, gordels los, uitstappen, daarna trekgreep trekken",
+    "Trekgreep trekken, kap afwerpen, gordels los en daarna uitstappen",
+    "Kap afwerpen, trekgreep trekken, gordels los, uitstappen"
+   ],
+   "juist": 1,
+   "uitleg": "Eerst moet de weg vrij zijn, dan pas de gordels los. De parachute open je pas als je vrij bent van het toestel, anders kan hij erin verstrikt raken."
+  },
+  {
+   "v": "In welke sectie van een zweefvlieghandboek volgens het gangbare EASA-format vind je de maximale snelheden en belastingsfactoren?",
+   "a": [
+    "Sectie 4, Normale procedures",
+    "Sectie 5, Prestaties",
+    "Sectie 2, Beperkingen",
+    "Sectie 7, Beschrijving van systemen"
+   ],
+   "juist": 2,
+   "uitleg": "Het gangbare format is: 1 Algemeen, 2 Beperkingen, 3 Noodprocedures, 4 Normale procedures, 5 Prestaties, 6 Massa en zwaartepunt, 7 Systemen, 8 Verzorging en onderhoud, 9 Aanvullingen."
+  },
+  {
+   "v": "Je zoekt in het vlieghandboek de procedure voor het afwerpen van de kap en het noodverlaten. In welke sectie staat die?",
+   "a": [
+    "Sectie 2, Beperkingen",
+    "Sectie 3, Noodprocedures",
+    "Sectie 4, Normale procedures",
+    "Sectie 9, Aanvullingen"
+   ],
+   "juist": 1,
+   "uitleg": "Noodprocedures zoals kap afwerpen, uitstappen en herstel uit abnormale vliegtoestanden staan in sectie 3."
+  },
+  {
+   "v": "Je toestel heeft een extra installatie gekregen waarvoor eigen beperkingen en procedures gelden. Waar horen die in het vlieghandboek?",
+   "a": [
+    "Sectie 1, Algemeen",
+    "Sectie 5, Prestaties",
+    "Sectie 8, Verzorging en onderhoud",
+    "Sectie 9, Aanvullingen (supplementen)"
+   ],
+   "juist": 3,
+   "uitleg": "Supplementen in sectie 9 bevatten de afwijkende of aanvullende informatie voor optionele uitrusting of wijzigingen."
+  },
+  {
+   "v": "Je wilt weten hoe je het toestel op de grond moet verslepen, vastzetten en reinigen. In welke sectie van het vlieghandboek kijk je?",
+   "a": [
+    "Sectie 4, Normale procedures",
+    "Sectie 8, Verzorging en onderhoud",
+    "Sectie 6, Massa en zwaartepunt",
+    "Sectie 7, Beschrijving van de systemen"
+   ],
+   "juist": 1,
+   "uitleg": "Grondafhandeling, verankeren, reinigen en verzorging staan in sectie 8."
+  },
+  {
+   "v": "Het cockpitplakkaat noemt een minimale cockpitbelasting van 70 kg. Je weegt met parachute 62 kg. Wat doe je?",
+   "a": [
+    "Gewoon vliegen, want 8 kg onder het minimum valt binnen de normale tolerantie van de weging",
+    "Een zwaardere parachute lenen en verder niets aanpassen",
+    "Het hoogteroer trimmen naar staartzwaar om het verschil te compenseren",
+    "Trimlood toevoegen tot minimaal 70 kg, op de voorgeschreven manier bevestigd"
+   ],
+   "juist": 3,
+   "uitleg": "Onder de minimale cockpitbelasting ligt het zwaartepunt te ver naar achteren. Ballast moet volgens het handboek veilig worden bevestigd."
+  },
+  {
+   "v": "Waarom bestaat er een minimale cockpitbelasting?",
+   "a": [
+    "Bij een te lichte vlieger wordt de vleugelbelasting te laag om bij sterke wind en thermiek nog goed te kunnen vliegen",
+    "Bij een te lichte vlieger kan de kabelkracht van de lier het toestel overbelasten",
+    "Bij een te lichte vlieger ligt het zwaartepunt te ver achter, met slechter overtrek- en tolvluchtgedrag",
+    "Bij een te lichte vlieger wijst de snelheidsmeter door de andere invalshoek te laag aan"
+   ],
+   "juist": 2,
+   "uitleg": "De vlieger zit ver voor het zwaartepunt. Minder massa voorin schuift het zwaartepunt naar achteren, wat de stabiliteit en het tolvluchtherstel verslechtert."
+  },
+  {
+   "v": "Wat is een gevolg van een zwaartepunt dat voor de voorste grens ligt?",
+   "a": [
+    "Het toestel wordt instabiel om de dwarsas en gaat daardoor makkelijker in een tolvlucht",
+    "De overtreksnelheid wordt merkbaar lager",
+    "De stuurkrachten op het hoogteroer worden extreem licht",
+    "Het hoogteroer kan te weinig autoriteit hebben om goed af te vangen bij de landing"
+   ],
+   "juist": 3,
+   "uitleg": "Bij een zeer voorlijk zwaartepunt is veel hoogteroer nodig om de neus op te trekken. Bij lage snelheid kan de uitslag dan onvoldoende zijn om af te vangen."
+  },
+  {
+   "v": "Op het cockpitplakkaat staat VW = 150 km/h en VT = 180 km/h. Wat betekenen deze?",
+   "a": [
+    "De maximale snelheid met welvingskleppen en met waterballast",
+    "De maximale snelheid in turbulentie en met open remkleppen",
+    "De maximale snelheid tijdens de lierstart en tijdens de vliegtuigsleep",
+    "De minimale snelheid voor de lierstart en voor de vliegtuigsleep, gemeten bij het loskomen"
+   ],
+   "juist": 2,
+   "uitleg": "VW (winch) en VT (tow) zijn de maximale snelheden tijdens de start. Daarboven kan de kabelkracht de constructie overbelasten."
+  },
+  {
+   "v": "Een zweefvliegtuig in categorie Utility (U) heeft bij VA als belastingsgrenzen:",
+   "a": [
+    "+7,0 g en -5,0 g",
+    "+3,8 g en -1,5 g",
+    "+4,4 g en -1,76 g",
+    "+5,3 g en -2,65 g"
+   ],
+   "juist": 3,
+   "uitleg": "Volgens CS-22 geldt voor categorie U bij VA +5,3 en -2,65 g. Categorie A (aerobatic) heeft +7,0 en -5,0 g."
+  },
+  {
+   "v": "Een clubregel staat een hogere lierstartsnelheid toe dan het vlieghandboek. Wat geldt?",
+   "a": [
+    "De clubregel gaat voor, omdat de club verantwoordelijk is voor de veilige uitvoering van de operatie",
+    "De hoogste waarde mag, zolang de instructeur toestemming geeft",
+    "Het handboek is bindend; een clubregel mag strenger zijn, maar niet ruimer",
+    "Het gemiddelde van beide waarden is de geldende limiet"
+   ],
+   "juist": 2,
+   "uitleg": "De beperkingen in sectie 2 van het goedgekeurde handboek zijn onderdeel van de luchtwaardigheid. Lokale regels kunnen extra marge opleggen, maar geen limiet verruimen."
+  },
+  {
+   "v": "Hoe weet je of het vlieghandboek dat in het toestel ligt actueel is?",
+   "a": [
+    "Via de wijzigingslijst voorin, vergeleken met de actuele uitgave van de fabrikant",
+    "Aan de datum op de kaft, die bij elke jaarlijkse inspectie door de technicus wordt vernieuwd",
+    "Als het handboek in het Nederlands is vertaald, is het actueel",
+    "Een vlieghandboek verandert na de certificering van het type niet meer"
+   ],
+   "juist": 0,
+   "uitleg": "Fabrikanten geven revisies uit, bijvoorbeeld na een AD of technische mededeling. De wijzigingslijst laat zien welke revisies zijn verwerkt."
+  },
+  {
+   "v": "Wat is de relatie tussen het Bewijs van Luchtwaardigheid (CofA) en het Airworthiness Review Certificate (ARC)?",
+   "a": [
+    "Het ARC vervangt het CofA, dat na de eerste luchtwaardigheidsbeoordeling definitief vervalt",
+    "Het CofA verloopt niet, maar is zonder geldig ARC ongeldig (ARC telkens een jaar)",
+    "Het CofA is telkens een jaar geldig en het ARC daarna steeds drie jaar",
+    "Het ARC is bedoeld voor zweefvliegtuigen die commercieel worden gebruikt"
+   ],
+   "juist": 1,
+   "uitleg": "Na een luchtwaardigheidsbeoordeling wordt een ARC afgegeven. Zonder geldig ARC is het CofA niet geldig en mag er niet worden gevlogen."
+  },
+  {
+   "v": "Het ARC van het clubtoestel is gisteren verlopen. Mag je vandaag vliegen?",
+   "a": [
+    "Nee, tenzij de technicus mondeling toestemming geeft",
+    "Ja, mits je lokale vluchten maakt boven het eigen veld",
+    "Ja, als de dagelijkse inspectie zonder bijzonderheden is uitgevoerd en vastgelegd",
+    "Nee, zonder geldig ARC is het Bewijs van Luchtwaardigheid niet geldig"
+   ],
+   "juist": 3,
+   "uitleg": "Het toestel is formeel niet luchtwaardig zonder geldig ARC. Een dagelijkse inspectie verandert daar niets aan."
+  },
+  {
+   "v": "Wie is onder Part-ML in beginsel verantwoordelijk voor de permanente luchtwaardigheid van een zweefvliegtuig, als dat niet contractueel aan een CAMO of CAO is overgedragen?",
+   "a": [
+    "De vlieger die het toestel het laatst heeft gevlogen",
+    "De Inspectie Leefomgeving en Transport (ILT)",
+    "De fabrikant van het toestel",
+    "De eigenaar"
+   ],
+   "juist": 3,
+   "uitleg": "Part-ML legt de verantwoordelijkheid bij de eigenaar, die dat via een contract aan een CAMO of CAO kan overdragen."
+  },
+  {
+   "v": "Wat kan een CAO (Combined Airworthiness Organisation) voor niet-complexe luchtvaartuigen zoals zweefvliegtuigen doen?",
+   "a": [
+    "ARC's afgeven, maar geen onderhoud uitvoeren",
+    "Onderhoud uitvoeren, maar geen luchtwaardigheidsbeheer of ARC's verzorgen",
+    "Zowel onderhoud uitvoeren als het luchtwaardigheidsbeheer verzorgen, binnen haar goedkeuring",
+    "Vliegbewijzen voor zweefvliegers afgeven"
+   ],
+   "juist": 2,
+   "uitleg": "Een Part-CAO-organisatie combineert onderhoud en beheer van de permanente luchtwaardigheid, zoals luchtwaardigheidsbeoordelingen, voor niet-complexe luchtvaartuigen."
+  },
+  {
+   "v": "Is de voorvluchtinspectie (bijvoorbeeld de dagelijkse inspectie) onderhoud in de zin van Part-ML?",
+   "a": [
+    "Ja, en daarom moet een Part-66-technicus haar uitvoeren en vrijgeven",
+    "Nee, het is een taak van de vlieger en vereist geen vrijgave",
+    "Ja, maar de eigenaar mag haar wel zelf vrijgeven",
+    "Nee, maar ze moet wel door een CAMO worden goedgekeurd"
+   ],
+   "juist": 1,
+   "uitleg": "De voorvluchtinspectie geldt niet als onderhoud. De gezagvoerder moet zich ervan vergewissen dat het toestel luchtwaardig is."
+  },
+  {
+   "v": "Wat is een Airworthiness Directive (AD)?",
+   "a": [
+    "Een verplicht voorschrift tegen een onveilige toestand; zonder uitvoering is het toestel niet luchtwaardig",
+    "Een vrijblijvend advies van de fabrikant om het toestel op onderdelen te verbeteren of zijn prestaties te verhogen",
+    "Het rapport van de jaarlijkse luchtwaardigheidsbeoordeling door een CAMO of CAO",
+    "Een instructie van de club over de uitvoering van de dagelijkse inspectie"
+   ],
+   "juist": 0,
+   "uitleg": "AD's worden uitgevaardigd door EASA (of de ontwerpstaat). Ze zijn verplicht en de uitvoering wordt vastgelegd in de toestelregistratie."
+  },
+  {
+   "v": "Een fabrikant geeft een technische mededeling (service bulletin) uit die niet door een AD verplicht is gesteld. Wat geldt?",
+   "a": [
+    "Niet wettelijk verplicht, tenzij een AD of het onderhoudsprogramma het voorschrijft",
+    "Verplicht, met precies dezelfde juridische status als een AD van EASA of de ontwerpstaat",
+    "Verplicht voor toestellen die jonger zijn dan tien jaar",
+    "Verboden om uit te voeren zonder voorafgaande toestemming van de ILT"
+   ],
+   "juist": 0,
+   "uitleg": "Een service bulletin is een advies van de fabrikant. Pas als EASA er een AD van maakt, of het onderhoudsprogramma het voorschrijft, wordt het verplicht."
+  },
+  {
+   "v": "Waarop is het onderhoudsprogramma (AMP) van een zweefvliegtuig onder Part-ML gebaseerd?",
+   "a": [
+    "Op de ervaring van de clubtechnicus",
+    "Op het aantal starts van het afgelopen seizoen, zonder verdere documentatie of instructies van de fabrikant",
+    "Op de keuze van de vlieger die het toestel het meest gebruikt",
+    "Op de onderhoudsinstructies van de fabrikant, of op het minimale inspectieprogramma van Part-ML"
+   ],
+   "juist": 3,
+   "uitleg": "Part-ML staat toe het AMP te baseren op de instructies van de ontwerphouder of op het minimale inspectieprogramma, aangevuld met verplichte eisen zoals AD's."
+  },
+  {
+   "v": "Waarom moeten starts en vlieguren nauwkeurig in het logboek worden bijgehouden?",
+   "a": [
+    "Voor de statistiek en de begroting van de club; voor het onderhoud zijn ze niet van belang",
+    "Omdat de verzekering anders niet uitkeert",
+    "Levensduurgrenzen en inspectie-intervallen zijn gebaseerd op uren, starts en kalendertijd",
+    "Omdat de ILT jaarlijks een minimum aantal vlieguren per toestel voorschrijft"
+   ],
+   "juist": 2,
+   "uitleg": "Zonder juiste registratie kun je niet aantonen dat levensduurgrenzen en intervallen worden nageleefd, en is de luchtwaardigheid niet te bewaken."
+  },
+  {
+   "v": "Je ontdekt bij de dagelijkse inspectie een scheurtje bij de bevestiging van een rolroerscharnier. Iedereen staat te wachten om te vliegen. Wat doe je?",
+   "a": [
+    "Afplakken met tape, vliegen en het defect na de vlucht melden",
+    "Vliegen met lagere snelheden, want roerscharnieren zijn ruim gedimensioneerd en kunnen dit hebben",
+    "Niet vrijgeven, het defect vastleggen en laten beoordelen door een technicus",
+    "Het andere rolroer controleren; als dat in orde is, kun je vliegen"
+   ],
+   "juist": 2,
+   "uitleg": "Een scheur bij een roerscharnier kan tot losraken van het roer of flutter leiden. Twijfel betekent: niet vliegen tot een bevoegd persoon het heeft beoordeeld."
+  },
+  {
+   "v": "Na een grote reparatie aan het staartstuk, inclusief nieuwe lak, moet het toestel opnieuw worden gewogen. Waarom?",
+   "a": [
+    "Omdat de nieuwe lak de aerodynamica en daarmee het glijgetal verandert",
+    "Massa en zwaartepunt van het lege toestel veranderen, en daarmee de cockpitbelasting",
+    "Een nieuw ARC mag pas na een nieuwe weging worden afgegeven",
+    "Omdat de toegestane breukstuksterkte rechtstreeks afhangt van de actuele lege massa van het toestel"
+   ],
+   "juist": 1,
+   "uitleg": "Extra massa ver achter in de staart verschuift het zwaartepunt naar achteren. De nieuwe wegingsgegevens bepalen de minimale en maximale cockpitbelasting."
+  },
+  {
+   "v": "Wie geeft na uitgevoerd onderhoud het toestel vrij voor gebruik (certificate of release to service)?",
+   "a": [
+    "Wie het onderhoud uitvoerde en daartoe bevoegd is, bijvoorbeeld een Part-66-technicus",
+    "De eerste vlieger die het toestel na het onderhoud vliegt en daarbij alle functies controleert",
+    "De voorzitter of technisch commissaris van de club, na een proefvlucht",
+    "De ILT, na een inspectie van het toestel op het vliegveld"
+   ],
+   "juist": 0,
+   "uitleg": "Vrijgave gebeurt door wie het onderhoud heeft uitgevoerd en daartoe bevoegd is. Part-ML kent ook beperkt eigenaar-vlieger-onderhoud met eigen vrijgave."
+  },
+  {
+   "v": "Mag je zelf een extra instrument, zoals een nieuwe variometer, in het instrumentenpaneel inbouwen?",
+   "a": [
+    "Ja, elke vlieger mag instrumenten inbouwen, zolang ze op de bestaande accu en zekering worden aangesloten",
+    "Ja, mits als vastgelegde wijziging (bijv. standaardwijziging), vrijgegeven door een bevoegd persoon, met bijgewerkte massagegevens",
+    "Ja, mits het instrument lichter is dan 1 kg en het paneel niet hoeft te worden aangepast",
+    "Nee, het instrumentenpaneel mag na de certificering van het type niet meer worden gewijzigd"
+   ],
+   "juist": 1,
+   "uitleg": "Een inbouw is een wijziging aan het toestel. Er zijn eenvoudige routes zoals standaardwijzigingen (CS-STAN), maar die vereisen documentatie, vrijgave door een daartoe bevoegd persoon en bijgewerkte massa- en zwaartepuntgegevens."
+  },
+  {
+   "v": "Wat hoort NIET bij een dagelijkse inspectie door de vlieger?",
+   "a": [
+    "Controleren van band, wielrem en ontkoppelhaak",
+    "Visuele controle van huid, roeren, scharnieren en kap op schade of scheuren",
+    "Controleren of pitot- en statische openingen vrij zijn",
+    "Inspectieluiken met gereedschap openen en kabelspanning afstellen"
+   ],
+   "juist": 3,
+   "uitleg": "Afstellen van de besturing is onderhoud en hoort bij een bevoegde technicus. De dagelijkse inspectie is een visuele en functionele controle."
+  },
+  {
+   "v": "Waarom maak je hoofdpennen en bussen voor de montage schoon en vet je ze licht in?",
+   "a": [
+    "Vuil veroorzaakt slijtage en speling; dun vet voorkomt corrosie en vastlopen",
+    "Vet verhoogt de sterkte van de pennen en maakt een borging overbodig",
+    "Vet zorgt voor elektrische verbinding tussen de vleugels voor de radio",
+    "Schoonmaken is cosmetisch en heeft geen invloed op de constructie of de speling"
+   ],
+   "juist": 0,
+   "uitleg": "Vuil werkt als schuurpasta en vergroot de speling in de hoofdaansluiting. Een dun laagje vet beschermt; borgen blijft altijd nodig."
+  },
+  {
+   "v": "Welke bewering over eigenaar-vlieger-onderhoud (pilot-owner maintenance) onder Part-ML is juist?",
+   "a": [
+    "Elke vlieger met een SPL mag al het onderhoud aan ieder zweefvliegtuig uitvoeren en vrijgeven",
+    "De eigenaar-vlieger mag ook de jaarlijkse luchtwaardigheidsbeoordeling doen en het ARC afgeven",
+    "De eigenaar-vlieger mag eenvoudige taken die het onderhoudsprogramma aanwijst doen en zelf vrijgeven",
+    "Een Part-66-technicus moet elke taak van de eigenaar-vlieger vooraf schriftelijk goedkeuren"
+   ],
+   "juist": 2,
+   "uitleg": "Part-ML staat een eigenaar met een geldig vliegbewijs voor het toestel toe beperkte, niet-complexe taken uit het onderhoudsprogramma zelf uit te voeren en vrij te geven. Complexe taken en de luchtwaardigheidsbeoordeling vallen daar niet onder."
+  },
+  {
+   "v": "Na de eerste montage van het seizoen vind je bij de dagelijkse inspectie een nestje van een vogel of muizen in de romp nabij de besturingsstangen. Wat is het grootste risico?",
+   "a": [
+    "Een verhoogde lege massa van enkele grammen",
+    "Blokkering van de besturing en verstopte pitot- of statische leidingen",
+    "Een afwijkende aanwijzing van het kompas door het nest",
+    "Een snellere ontlading van de accu door vocht en uitwerpselen in het nest bij de bedrading"
+   ],
+   "juist": 1,
+   "uitleg": "Nestmateriaal kan stangen, katrollen en hefbomen blokkeren of slangen verstoppen. Na stalling controleer je de romp grondig, ook pitot- en statische openingen."
+  },
+  {
+   "v": "Waarom moet een vervormde of ingesleten sleep- of lierkabelring direct worden vervangen?",
+   "a": [
+    "Hij kan in de haak klemmen of onbedoeld vrijkomen",
+    "Een ingesleten ring verhoogt de sterkte van het breukstuk",
+    "Een beschadigde ring maakt de lierkabel elektrisch geleidend",
+    "Een ingesleten ring is een cosmetisch probleem"
+   ],
+   "juist": 0,
+   "uitleg": "De haak is ontworpen voor ringen van de juiste vorm en afmetingen. Slijtage of vervorming maakt het ontkoppelen onbetrouwbaar."
+  },
+  {
+   "v": "Hoe controleer je bij de montage of de remkleppen goed zijn aangesloten?",
+   "a": [
+    "Beide kleppen gaan gelijktijdig en even ver open, en vergrendelen voelbaar in ingetrokken stand",
+    "Het volstaat dat de remklephendel in de cockpit soepel heen en weer beweegt",
+    "Het volstaat dat één klep goed opent, want de andere volgt via de koppeling in de romp automatisch",
+    "Remkleppen hoeven na montage niet gecontroleerd te worden, de roeren wel"
+   ],
+   "juist": 0,
+   "uitleg": "Een losse remklepaansluiting kan tot een asymmetrische klepstand leiden. Kijk aan beide vleugels en controleer de vergrendeling."
+  },
+  {
+   "v": "Tijdens de nadering opent door een losgeraakte aansluiting maar één remklep. Wat merk je?",
+   "a": [
+    "Niets bijzonders, omdat één klep precies de halve remwerking geeft",
+    "Het toestel giert en rolt naar de kant van de geopende klep",
+    "Het toestel rolt naar de kant van de gesloten klep, omdat die meer lift heeft verloren",
+    "Het toestel gaat steil omhoog, omdat de geopende klep een neus-op moment geeft"
+   ],
+   "juist": 1,
+   "uitleg": "De geopende klep geeft aan die kant extra weerstand en liftverlies. Het toestel giert en rolt daardoor naar die kant."
+  },
+  {
+   "v": "Wat is het doel van een onafhankelijke montagecontrole door een tweede persoon?",
+   "a": [
+    "De tweede persoon neemt de verantwoordelijkheid voor de vlucht over van de gezagvoerder en tekent daarvoor",
+    "Fouten die de monteur zelf over het hoofd ziet, worden met een checklist alsnog ontdekt",
+    "Het is bedoeld voor toestellen zonder automatische aansluitingen; met automatische niet",
+    "Het vervangt de dagelijkse inspectie voor de rest van de dag"
+   ],
+   "juist": 1,
+   "uitleg": "Wie zelf monteert, ziet makkelijk over het hoofd wat hij denkt gedaan te hebben. Een tweede, systematische controle vangt die fouten op; de gezagvoerder blijft verantwoordelijk."
+  },
+  {
+   "v": "Bij veel T-staarttypen wordt het stabilo met een veerbelaste borgpen of borgschroef vastgezet. Wat is de belangrijkste controle na montage?",
+   "a": [
+    "Het stabilo moet met de hand iets heen en weer kunnen bewegen, zodat het in de vlucht kan meeveren",
+    "Het stabilo spelingsvrij met zichtbaar juiste borging, en hoogteroer positief gecontroleerd",
+    "Het volstaat dat de borgschroef is aangedraaid; de stand van de borging is niet te zien",
+    "Het stabilo hoeft niet te worden gecontroleerd als de vleugels goed gemonteerd zijn"
+   ],
+   "juist": 1,
+   "uitleg": "Een niet geborgd stabilo kan in de vlucht loskomen. Er zijn ongevallen gebeurd met verkeerd gemonteerde stabilo's; visueel controleren en een positieve controle zijn nodig."
+  },
+  {
+   "v": "Wat is het verschil tussen een pendelroer en een stabilo met hoogteroer?",
+   "a": [
+    "Bij een pendelroer beweegt het hele horizontale staartvlak, wat speling en massabalans kritisch maakt",
+    "Bij een pendelroer beweegt het achterste deel van het staartvlak, net als een gewoon hoogteroer",
+    "Een pendelroer heeft geen trim nodig, een stabilo met hoogteroer wel",
+    "Een pendelroer wordt met de pedalen bediend, een hoogteroer met de knuppel"
+   ],
+   "juist": 0,
+   "uitleg": "Een pendelroer is volledig beweegbaar en zeer effectief, maar gevoelig voor speling en flutter. Daarom is de massabalans en ophanging kritisch."
+  },
+  {
+   "v": "Wat toont een integrator (averager) op een variometer?",
+   "a": [
+    "De hoogste stijgsnelheid die je tijdens de hele vlucht hebt gehaald",
+    "De netto-aanwijzing, gecorrigeerd voor de wind en de waterballast",
+    "Het totaal aantal meters dat je tijdens de hele vlucht in thermiek bent gestegen, als score",
+    "De gemiddelde stijgsnelheid over een instelbare periode, bijv. 20 tot 30 seconden"
+   ],
+   "juist": 3,
+   "uitleg": "Door de schommelingen in thermiek is de momentane vario moeilijk te interpreteren. De integrator geeft het gemiddelde, handig om bellen te vergelijken en de MacCready-waarde te kiezen."
+  },
+  {
+   "v": "Waarom kun je in een vliegcomputer een instelling voor vervuiling (bugs) kiezen?",
+   "a": [
+    "Het vuil verslechtert de polaire; zonder correctie berekent de computer een te gunstige glijvlucht",
+    "Het voorkomt dat de computer trillingen van insecten op de vleugel als stijgen aanwijst",
+    "Het compenseert het extra gewicht van insecten en vuil op de vleugel in de massa- en zwaartepuntberekening",
+    "Het past de deviatie van het kompas aan voor vuil en insecten op de kap"
+   ],
+   "juist": 0,
+   "uitleg": "Vooral bij laminaire profielen geeft vervuiling meetbaar meer weerstand. Een realistische polaire voorkomt dat je te laag aankomt bij de eindglijvlucht."
+  },
+  {
+   "v": "Na het wassen vergeet je de tape van de statische openingen te verwijderen. Wat merk je tijdens de lierstart?",
+   "a": [
+    "De hoogtemeter wijst te veel aan, de variometer stijgen en de snelheidsmeter te hoog",
+    "Alle instrumenten werken normaal, omdat de pitotopening vrij is",
+    "Hoogtemeter blijft op de beginwaarde, vario op nul, snelheidsmeter wijst steeds te laag",
+    "De snelheidsmeter wijst nul, maar hoogtemeter en variometer werken normaal"
+   ],
+   "juist": 2,
+   "uitleg": "Met afgesloten statische openingen blijft op de grond ingesloten druk staan. Bij stijgen meet de snelheidsmeter pitotdruk tegen een te hoge statische druk en wijst te laag aan."
+  },
+  {
+   "v": "Wat kan er gebeuren als je de accu met verwisselde polen aansluit?",
+   "a": [
+    "Niets, moderne avionica werkt intern met wisselstroom en is daardoor ongevoelig voor polariteit",
+    "De accu laadt zichzelf op door de omgekeerde stroom",
+    "Het kompas wijst tijdelijk de verkeerde kant op",
+    "De zekering kan doorslaan en apparatuur zonder ompoolbeveiliging kan beschadigen"
+   ],
+   "juist": 3,
+   "uitleg": "Veel apparatuur heeft een ompoolbeveiliging, maar niet alles. Gebruik daarom duidelijk gemarkeerde, niet verwisselbare stekkers."
+  },
+  {
+   "v": "Een toestel heeft een vleugeloppervlak van 10,5 m². Zonder water weegt het 315 kg, met water 420 kg. Wat is de vleugelbelasting in beide gevallen?",
+   "a": [
+    "30 kg/m² zonder en 40 kg/m² met water",
+    "33 kg/m² zonder en 44 kg/m² met water",
+    "30 kg/m² zonder en 44 kg/m² met water",
+    "25 kg/m² zonder en 35 kg/m² met water"
+   ],
+   "juist": 0,
+   "uitleg": "Vleugelbelasting = massa / vleugeloppervlak: 315 / 10,5 = 30 en 420 / 10,5 = 40 kg/m²."
+  },
+  {
+   "v": "Waarom is een buitentemperatuurmeter nuttig bij vliegen met waterballast?",
+   "a": [
+    "De temperatuur bepaalt hoeveel water je mag meenemen volgens de maximale startmassa",
+    "Je ziet wanneer het vriest, zodat je tijdig kunt lozen voordat het water bevriest",
+    "Bij warmte verdampt het water en daalt de massa, wat je zo kunt berekenen",
+    "De buitentemperatuur is nodig om de snelheidsmeter te corrigeren voor waterballast"
+   ],
+   "juist": 1,
+   "uitleg": "Het vlieghandboek geeft voorwaarden voor vliegen met water bij lage temperaturen. Een OAT-meter laat zien wanneer je die grens nadert."
+  },
+  {
+   "v": "Wat controleer je bij het magnetisch kompas tijdens de dagelijkse inspectie?",
+   "a": [
+    "Dat het kompas exact ware noord aanwijst als het toestel op het noorden staat",
+    "Dat de kompasvloeistof kleurloos is; gekleurde vloeistof moet vervangen worden",
+    "Dat de roos vrij beweegt, er geen (grote) luchtbel of lekkage is en de deviatiekaart aanwezig is",
+    "Dat het kompas bij het inschakelen van de radio niet beweegt; dat test je pas in de vlucht zelf"
+   ],
+   "juist": 2,
+   "uitleg": "Een kompas met luchtbel of stroeve roos is onbetrouwbaar. De deviatiekaart hoort bij het kompas, omdat de deviatie per toestel verschilt."
+  },
+  {
+   "v": "Je merkt na een lierstart dat de ontkoppelknop zwaarder te bedienen was dan normaal. Wat is verstandig?",
+   "a": [
+    "Melden en laten controleren voor de volgende lierstart; de haak kan gaan vastlopen",
+    "Niets doen, want een zware knop betekent juist dat de haak extra stevig en dus veilig vergrendelt",
+    "De bowdenkabel zelf iets inkorten, zodat de knop weer licht bedient",
+    "Noteren en bij de volgende jaarlijkse inspectie laten bekijken"
+   ],
+   "juist": 0,
+   "uitleg": "Een stroeve ontkoppeling kan een voorbode zijn van een haak of bowdenkabel die vastloopt. Een haak die niet ontkoppelt is een ernstig noodgeval."
+  },
+  {
+   "v": "Waarom zit het magnetisch kompas bij voorkeur ver van luidsprekers, elektrische leidingen en de accu?",
+   "a": [
+    "Warmte van die apparatuur laat de kompasvloeistof verdampen, waardoor er luchtbellen in de ketel ontstaan",
+    "Magneten en stroomdraden geven deviatie, die ook wisselt als apparatuur aan of uit gaat",
+    "Het kompas verstoort anders de radio-ontvangst en het bereik van de FLARM",
+    "Het kompas trekt anders via inductie stroom uit de accu en de bedrading"
+   ],
+   "juist": 1,
+   "uitleg": "Een luidspreker bevat een sterke magneet en een stroomdraad wekt een magnetisch veld op. Wisselende stroom geeft wisselende deviatie die niet op de deviatiekaart te corrigeren is."
+  },
+  {
+   "v": "Waarom hebben veel overlandtoestellen twee accu's met een omschakelaar?",
+   "a": [
+    "Omdat de meeste avionica op 24 V werkt en daarom twee 12V-accu's in serie nodig zijn",
+    "Voor meer capaciteit op lange vluchten en als reserve als één accu leeg of defect raakt",
+    "Omdat één accu wettelijk niet is toegestaan in een zweefvliegtuig",
+    "Om de accu's tijdens de vlucht om beurten via de wind te laten opladen"
+   ],
+   "juist": 1,
+   "uitleg": "Met twee accu's kun je bij een lege of defecte accu overschakelen, zodat radio, FLARM en transponder beschikbaar blijven."
+  },
+  {
+   "v": "Waarom kan een FLARM met een slecht geplaatste antenne te laat of helemaal niet waarschuwen?",
+   "a": [
+    "Een slecht geplaatste antenne laat de FLARM de hoogte van ander verkeer verkeerd berekenen",
+    "Het bereik kan in bepaalde richtingen worden afgeschermd door koolstof, vlieger of metaal",
+    "De plaats van de antenne bepaalt mede de verloopdatum van de FLARM-firmware",
+    "Een slecht geplaatste antenne zet de FLARM automatisch in een loggerstand zonder waarschuwingen"
+   ],
+   "juist": 1,
+   "uitleg": "FLARM werkt alleen als de signalen in alle richtingen voldoende bereik hebben. Afscherming geeft blinde sectoren; de installatie hoort volgens de instructies van de fabrikant te zijn."
+  },
+  {
+   "v": "Mag je de linkervleugel van een ander toestel van hetzelfde type op jouw romp monteren als je eigen vleugel beschadigd is?",
+   "a": [
+    "Niet zonder meer: uitwisselen moet door een bevoegde partij worden beoordeeld en vastgelegd",
+    "Ja, onderdelen van hetzelfde type zijn zonder meer onderling uitwisselbaar, ook vleugels",
+    "Ja, mits de vleugel dezelfde kleur heeft, zodat de temperatuurgrens gelijk blijft",
+    "Nee, dat mag pas na een volledige nieuwe typecertificering"
+   ],
+   "juist": 0,
+   "uitleg": "Vleugels zijn soms per toestel ingepast en de massa en het zwaartepunt horen bij de registratie van dat toestel. Uitwisselen is een onderhoudszaak met documentatie en vrijgave."
+  }
+ ]
+}
