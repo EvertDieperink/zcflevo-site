@@ -13,7 +13,7 @@ Oefen hier de **SPL-theorie** per examenvak. Kies een vak en je krijgt **20 will
 
 Je resultaten worden **alleen in je eigen browser** bewaard (er wordt niets naar een server gestuurd). Via "Mijn resultaten" zie je je voortgang per vak.
 
-Liever luisteren, bijvoorbeeld in de auto? De theorie staat ook als podcast op [Theorie om te luisteren]({{< url "/spl-theorie/podcast/" >}}).
+Liever luisteren, bijvoorbeeld in de auto? De theorie staat ook als podcast op [Theorie om te luisteren](/spl-theorie/podcast/).
 
 > De oefenvragen volgen de vakkenlijst van [zweefvliegopleiding.nl](https://zweefvliegopleiding.nl/index.php/spl). Zie je een vraag die niet klopt? Meld het via [theorie@zcflevo.nl](mailto:theorie@zcflevo.nl).
 
