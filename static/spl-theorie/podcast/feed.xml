@@ -3,11 +3,11 @@
   <channel>
     <title>ZC Flevo Theorie</title>
     <link>https://zcflevo.nl/spl-theorie/podcast/</link>
-    <atom:link href="https://zcflevo.nl/podcast/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://zcflevo.nl/spl-theorie/podcast/feed.xml" rel="self" type="application/rss+xml"/>
     <language>nl</language>
     <description>De zweefvliegtheorie van de LAPL(S)/SPL-opleiding om te luisteren, per paragraaf. Gemaakt door Zweefvliegclub Flevo op basis van de lesstof van zweefvliegopleiding.nl. Wij vliegen vanaf Zweefvliegveld Terlet bij Arnhem.</description>
     <itunes:author>ZC Flevo</itunes:author>
-    <itunes:image href="https://zcflevo.nl/podcast/omslag.jpg"/>
+    <itunes:image href="https://zcflevo.nl/spl-theorie/podcast/omslag.jpg"/>
     <itunes:category text="Education"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
@@ -43,7 +43,7 @@
 0:49:46 Oefenen en gevaarlijke houdingen
 0:51:48 Tot slot
 0:52:25 Aftiteling</description>
-      <enclosure url="https://zcflevo.nl/podcast/afleveringen/2-compact-menselijk.mp3" length="25276911" type="audio/mpeg"/>
+      <enclosure url="https://zcflevo.nl/spl-theorie/podcast/afleveringen/2-compact-menselijk.mp3" length="25276911" type="audio/mpeg"/>
       <guid isPermaLink="false">zcflevo-theorie-2-compact-menselijk.mp3</guid>
       <pubDate>Wed, 28 Oct 2026 05:19:39 GMT</pubDate>
       <itunes:duration>3151</itunes:duration>
@@ -67,7 +67,7 @@
 0:15:31 Het monument op de Wasserkuppe
 0:17:30 Samenvatting
 0:18:28 Aftiteling</description>
-      <enclosure url="https://zcflevo.nl/podcast/afleveringen/2.1-mensfactoren.mp3" length="8987122" type="audio/mpeg"/>
+      <enclosure url="https://zcflevo.nl/spl-theorie/podcast/afleveringen/2.1-mensfactoren.mp3" length="8987122" type="audio/mpeg"/>
       <guid isPermaLink="false">zcflevo-theorie-2.1-mensfactoren.mp3</guid>
       <pubDate>Wed, 28 Oct 2026 04:34:37 GMT</pubDate>
       <itunes:duration>1115</itunes:duration>
@@ -86,7 +86,7 @@
 0:03:44 Longen, ogen en gehoor
 0:04:52 Hartfilmpje en het oordeel van de arts
 0:05:37 Aftiteling</description>
-      <enclosure url="https://zcflevo.nl/podcast/afleveringen/2.2-fysiologie.mp3" length="2819259" type="audio/mpeg"/>
+      <enclosure url="https://zcflevo.nl/spl-theorie/podcast/afleveringen/2.2-fysiologie.mp3" length="2819259" type="audio/mpeg"/>
       <guid isPermaLink="false">zcflevo-theorie-2.2-fysiologie.mp3</guid>
       <pubDate>Wed, 28 Oct 2026 04:37:42 GMT</pubDate>
       <itunes:duration>344</itunes:duration>
@@ -109,7 +109,7 @@
 0:13:09 Versnellingen en G-krachten
 0:15:26 Samenvatting
 0:16:22 Aftiteling</description>
-      <enclosure url="https://zcflevo.nl/podcast/afleveringen/2.2.1-atmosfeer.mp3" length="7977372" type="audio/mpeg"/>
+      <enclosure url="https://zcflevo.nl/spl-theorie/podcast/afleveringen/2.2.1-atmosfeer.mp3" length="7977372" type="audio/mpeg"/>
       <guid isPermaLink="false">zcflevo-theorie-2.2.1-atmosfeer.mp3</guid>
       <pubDate>Wed, 28 Oct 2026 04:40:46 GMT</pubDate>
       <itunes:duration>988</itunes:duration>
@@ -133,7 +133,7 @@
 0:11:05 Naderings- en landingsillusies
 0:12:20 Samenvatting
 0:13:06 Aftiteling</description>
-      <enclosure url="https://zcflevo.nl/podcast/afleveringen/2.2.2-zien.mp3" length="6410536" type="audio/mpeg"/>
+      <enclosure url="https://zcflevo.nl/spl-theorie/podcast/afleveringen/2.2.2-zien.mp3" length="6410536" type="audio/mpeg"/>
       <guid isPermaLink="false">zcflevo-theorie-2.2.2-zien.mp3</guid>
       <pubDate>Wed, 28 Oct 2026 04:43:42 GMT</pubDate>
       <itunes:duration>792</itunes:duration>
@@ -153,7 +153,7 @@
 0:04:56 Halfcirkelvormige kanalen en otolieten
 0:05:46 Samenvatting
 0:06:21 Aftiteling</description>
-      <enclosure url="https://zcflevo.nl/podcast/afleveringen/2.2.3-gehoor.mp3" length="3175853" type="audio/mpeg"/>
+      <enclosure url="https://zcflevo.nl/spl-theorie/podcast/afleveringen/2.2.3-gehoor.mp3" length="3175853" type="audio/mpeg"/>
       <guid isPermaLink="false">zcflevo-theorie-2.2.3-gehoor.mp3</guid>
       <pubDate>Wed, 28 Oct 2026 04:44:44 GMT</pubDate>
       <itunes:duration>388</itunes:duration>
@@ -176,7 +176,7 @@
 0:11:10 Luchtziekte voorkomen
 0:12:13 Samenvatting
 0:12:53 Aftiteling</description>
-      <enclosure url="https://zcflevo.nl/podcast/afleveringen/2.2.4-desorientatie.mp3" length="6306182" type="audio/mpeg"/>
+      <enclosure url="https://zcflevo.nl/spl-theorie/podcast/afleveringen/2.2.4-desorientatie.mp3" length="6306182" type="audio/mpeg"/>
       <guid isPermaLink="false">zcflevo-theorie-2.2.4-desorientatie.mp3</guid>
       <pubDate>Wed, 28 Oct 2026 04:46:19 GMT</pubDate>
       <itunes:duration>779</itunes:duration>
@@ -198,7 +198,7 @@
 0:10:09 Vermoeidheid en oververmoeidheid
 0:11:16 Samenvatting
 0:11:59 Aftiteling</description>
-      <enclosure url="https://zcflevo.nl/podcast/afleveringen/2.2.5-gezondheid.mp3" length="5878967" type="audio/mpeg"/>
+      <enclosure url="https://zcflevo.nl/spl-theorie/podcast/afleveringen/2.2.5-gezondheid.mp3" length="5878967" type="audio/mpeg"/>
       <guid isPermaLink="false">zcflevo-theorie-2.2.5-gezondheid.mp3</guid>
       <pubDate>Wed, 28 Oct 2026 04:48:23 GMT</pubDate>
       <itunes:duration>726</itunes:duration>
@@ -220,7 +220,7 @@
 0:10:28 Wie is vatbaar voor ongevallen
 0:11:03 Samenvatting
 0:11:38 Aftiteling</description>
-      <enclosure url="https://zcflevo.nl/podcast/afleveringen/2.3-psychologie.mp3" length="5705184" type="audio/mpeg"/>
+      <enclosure url="https://zcflevo.nl/spl-theorie/podcast/afleveringen/2.3-psychologie.mp3" length="5705184" type="audio/mpeg"/>
       <guid isPermaLink="false">zcflevo-theorie-2.3-psychologie.mp3</guid>
       <pubDate>Wed, 28 Oct 2026 04:51:05 GMT</pubDate>
       <itunes:duration>704</itunes:duration>
@@ -238,7 +238,7 @@
 0:02:53 Zenuwstelsel, drempels en illusies
 0:04:03 Samenvatting
 0:04:25 Aftiteling</description>
-      <enclosure url="https://zcflevo.nl/podcast/afleveringen/2.3.1-informatieproces.mp3" length="2248439" type="audio/mpeg"/>
+      <enclosure url="https://zcflevo.nl/spl-theorie/podcast/afleveringen/2.3.1-informatieproces.mp3" length="2248439" type="audio/mpeg"/>
       <guid isPermaLink="false">zcflevo-theorie-2.3.1-informatieproces.mp3</guid>
       <pubDate>Wed, 28 Oct 2026 04:52:00 GMT</pubDate>
       <itunes:duration>272</itunes:duration>
@@ -255,7 +255,7 @@
 0:01:15 Situational awareness
 0:03:00 Samenvatting
 0:03:26 Aftiteling</description>
-      <enclosure url="https://zcflevo.nl/podcast/afleveringen/2.3.2-besluitvorming.mp3" length="1771607" type="audio/mpeg"/>
+      <enclosure url="https://zcflevo.nl/spl-theorie/podcast/afleveringen/2.3.2-besluitvorming.mp3" length="1771607" type="audio/mpeg"/>
       <guid isPermaLink="false">zcflevo-theorie-2.3.2-besluitvorming.mp3</guid>
       <pubDate>Wed, 28 Oct 2026 04:52:39 GMT</pubDate>
       <itunes:duration>213</itunes:duration>
@@ -275,7 +275,7 @@
 0:05:09 Symptomen en aanpak
 0:06:51 Samenvatting
 0:07:16 Aftiteling</description>
-      <enclosure url="https://zcflevo.nl/podcast/afleveringen/2.3.3-stress.mp3" length="3613041" type="audio/mpeg"/>
+      <enclosure url="https://zcflevo.nl/spl-theorie/podcast/afleveringen/2.3.3-stress.mp3" length="3613041" type="audio/mpeg"/>
       <guid isPermaLink="false">zcflevo-theorie-2.3.3-stress.mp3</guid>
       <pubDate>Wed, 28 Oct 2026 04:53:46 GMT</pubDate>
       <itunes:duration>443</itunes:duration>
@@ -292,7 +292,7 @@
 0:02:14 Fouten op elk niveau
 0:03:55 Samenvatting
 0:04:24 Aftiteling</description>
-      <enclosure url="https://zcflevo.nl/podcast/afleveringen/2.3.4-inzicht.mp3" length="2237224" type="audio/mpeg"/>
+      <enclosure url="https://zcflevo.nl/spl-theorie/podcast/afleveringen/2.3.4-inzicht.mp3" length="2237224" type="audio/mpeg"/>
       <guid isPermaLink="false">zcflevo-theorie-2.3.4-inzicht.mp3</guid>
       <pubDate>Wed, 28 Oct 2026 04:54:30 GMT</pubDate>
       <itunes:duration>271</itunes:duration>
@@ -314,7 +314,7 @@
 0:07:00 De zuurstofinstallatie
 0:08:48 Samenvatting
 0:09:28 Aftiteling</description>
-      <enclosure url="https://zcflevo.nl/podcast/afleveringen/2.4-zuurstof.mp3" length="4671033" type="audio/mpeg"/>
+      <enclosure url="https://zcflevo.nl/spl-theorie/podcast/afleveringen/2.4-zuurstof.mp3" length="4671033" type="audio/mpeg"/>
       <guid isPermaLink="false">zcflevo-theorie-2.4-zuurstof.mp3</guid>
       <pubDate>Wed, 28 Oct 2026 04:49:41 GMT</pubDate>
       <itunes:duration>575</itunes:duration>
