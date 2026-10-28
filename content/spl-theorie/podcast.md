@@ -1,6 +1,6 @@
 ---
 title: "Theorie om te luisteren"
-description: "De zweefvliegtheorie als podcast: per vak één aflevering van ongeveer een uur."
+description: "De zweefvliegtheorie als podcast: per vak één aflevering."
 robots: "noindex, nofollow"
 _build:
   list: never
@@ -9,7 +9,7 @@ _build:
 
 <!-- Gegenereerd door build-podcast.js in de repo zcflevo-theorievideos; niet met de hand aanpassen. -->
 
-De theorie ook gewoon luisteren, in de auto of onderweg: per vak één aflevering van ongeveer een uur, waarin alle stof zit. Met de hoofdstukken spring je naar het onderwerp dat je wilt horen.
+De theorie ook gewoon luisteren, in de auto of onderweg: per vak één aflevering waarin alle stof zit. Met de hoofdstukken spring je naar het onderwerp dat je wilt horen.
 
 **Abonneren in je podcast-app:** tik op je telefoon op de knop van je app. Nieuwe vakken verschijnen dan vanzelf.
 
@@ -24,15 +24,24 @@ Werkt de knop niet, of gebruik je een andere app? Voeg de show dan toe via "Volg
 
 <p><code>https://zcflevo.nl/spl-theorie/podcast/feed.xml</code></p>
 
-> Gebaseerd op de lesstof van Dirk Corporaal op [zweefvliegopleiding.nl](https://zweefvliegopleiding.nl/index.php/spl). Ingesproken met een computerstem.
+> Gebaseerd op de lesstof van [zweefvliegopleiding.nl](https://zweefvliegopleiding.nl/index.php/spl). Ingesproken met een computerstem.
 
 ## 2. Menselijke prestaties en beperkingen
 
 <div class="podcast-aflevering">
-<h3>Menselijke prestaties in een uur</h3>
+<h3>Menselijke prestaties en beperkingen</h3>
 <p>53 minuten · 27 hoofdstukken · <a href="{{< url "/spl-theorie/podcast/afleveringen/2-compact-menselijk.mp3" >}}" download>download</a></p>
 <audio controls preload="none" src="{{< url "/spl-theorie/podcast/afleveringen/2-compact-menselijk.mp3" >}}"></audio>
 <details><summary>Hoofdstukken</summary><ol><li><button type="button" class="podcast-sprong" data-t="0">00:00</button> Waarom dit vak</li><li><button type="button" class="podcast-sprong" data-t="56">00:56</button> Waar het misgaat</li><li><button type="button" class="podcast-sprong" data-t="240">04:01</button> In welke fase, en wat je ervan leert</li><li><button type="button" class="podcast-sprong" data-t="380">06:20</button> Recente ervaring en risico</li><li><button type="button" class="podcast-sprong" data-t="530">08:50</button> Het monument op de Wasserkuppe</li><li><button type="button" class="podcast-sprong" data-t="585">09:45</button> Je lichaam op de keuring</li><li><button type="button" class="podcast-sprong" data-t="739">12:20</button> Hart en bloed</li><li><button type="button" class="podcast-sprong" data-t="824">13:45</button> De lucht boven je</li><li><button type="button" class="podcast-sprong" data-t="942">15:43</button> Ademhaling, zuurstoftekort en de T.U.C.</li><li><button type="button" class="podcast-sprong" data-t="1109">18:29</button> De zuurstofinstallatie</li><li><button type="button" class="podcast-sprong" data-t="1184">19:45</button> Hyperventilatie</li><li><button type="button" class="podcast-sprong" data-t="1258">20:58</button> Decompressieziekte en G-krachten</li><li><button type="button" class="podcast-sprong" data-t="1385">23:05</button> Je ogen</li><li><button type="button" class="podcast-sprong" data-t="1565">26:06</button> Uitkijken en landingsillusies</li><li><button type="button" class="podcast-sprong" data-t="1679">27:59</button> Je oren</li><li><button type="button" class="podcast-sprong" data-t="1784">29:45</button> Evenwicht en desoriëntatie</li><li><button type="button" class="podcast-sprong" data-t="1905">31:45</button> Draai-illusies en luchtziekte</li><li><button type="button" class="podcast-sprong" data-t="2092">34:53</button> Fit om te vliegen: I'M SAFE</li><li><button type="button" class="podcast-sprong" data-t="2205">36:45</button> Alcohol, drugs, eten en drinken</li><li><button type="button" class="podcast-sprong" data-t="2337">38:58</button> Je hart sparen en vermoeidheid</li><li><button type="button" class="podcast-sprong" data-t="2395">39:55</button> Hoe je hoofd informatie verwerkt</li><li><button type="button" class="podcast-sprong" data-t="2505">41:46</button> Besluiten en situational awareness</li><li><button type="button" class="podcast-sprong" data-t="2675">44:36</button> Stress</li><li><button type="button" class="podcast-sprong" data-t="2847">47:27</button> De keten van fouten</li><li><button type="button" class="podcast-sprong" data-t="2985">49:46</button> Oefenen en gevaarlijke houdingen</li><li><button type="button" class="podcast-sprong" data-t="3108">51:48</button> Tot slot</li><li><button type="button" class="podcast-sprong" data-t="3144">52:25</button> Aftiteling</li></ol></details>
+</div>
+
+## 3. Meteorologie
+
+<div class="podcast-aflevering">
+<h3>Meteorologie</h3>
+<p>63 minuten · 36 hoofdstukken · <a href="{{< url "/spl-theorie/podcast/afleveringen/3-meteorologie.mp3" >}}" download>download</a></p>
+<audio controls preload="none" src="{{< url "/spl-theorie/podcast/afleveringen/3-meteorologie.mp3" >}}"></audio>
+<details><summary>Hoofdstukken</summary><ol><li><button type="button" class="podcast-sprong" data-t="0">00:00</button> Waarom het weer</li><li><button type="button" class="podcast-sprong" data-t="64">01:05</button> Lucht en lagen</li><li><button type="button" class="podcast-sprong" data-t="175">02:55</button> Zon en temperatuur</li><li><button type="button" class="podcast-sprong" data-t="310">05:10</button> Druk, dichtheid en standaard</li><li><button type="button" class="podcast-sprong" data-t="433">07:14</button> De hoogtemeter</li><li><button type="button" class="podcast-sprong" data-t="557">09:17</button> Windkracht en windrichting</li><li><button type="button" class="podcast-sprong" data-t="664">11:05</button> Hoe wind ontstaat</li><li><button type="button" class="podcast-sprong" data-t="803">13:24</button> Rond de aarde</li><li><button type="button" class="podcast-sprong" data-t="878">14:39</button> Bergen, zee en golf</li><li><button type="button" class="podcast-sprong" data-t="1017">16:57</button> Turbulentie en windgradiënt</li><li><button type="button" class="podcast-sprong" data-t="1120">18:40</button> Warmte en vocht</li><li><button type="button" class="podcast-sprong" data-t="1243">20:43</button> Adiabatisch en stabiel</li><li><button type="button" class="podcast-sprong" data-t="1364">22:45</button> Thermiek vinden</li><li><button type="button" class="podcast-sprong" data-t="1533">25:34</button> Thermiek voorspellen en wolkenstraten</li><li><button type="button" class="podcast-sprong" data-t="1692">28:13</button> Hoe wolken ontstaan</li><li><button type="button" class="podcast-sprong" data-t="1742">29:03</button> Wolken herkennen</li><li><button type="button" class="podcast-sprong" data-t="1858">30:58</button> Bedekkingsgraad en mist</li><li><button type="button" class="podcast-sprong" data-t="2001">33:22</button> Hoe neerslag ontstaat</li><li><button type="button" class="podcast-sprong" data-t="2098">34:59</button> Sneeuw, ijzel en hagel</li><li><button type="button" class="podcast-sprong" data-t="2157">35:57</button> Luchtsoorten</li><li><button type="button" class="podcast-sprong" data-t="2239">37:20</button> Warme en koude massa</li><li><button type="button" class="podcast-sprong" data-t="2298">38:19</button> Fronten</li><li><button type="button" class="podcast-sprong" data-t="2464">41:04</button> Hoge druk</li><li><button type="button" class="podcast-sprong" data-t="2553">42:34</button> Depressies zonder front</li><li><button type="button" class="podcast-sprong" data-t="2644">44:05</button> Klimaat en klimaatzones</li><li><button type="button" class="podcast-sprong" data-t="2762">46:02</button> Föhn, mistral en sirocco</li><li><button type="button" class="podcast-sprong" data-t="2824">47:04</button> IJs, turbulentie en windschering</li><li><button type="button" class="podcast-sprong" data-t="2908">48:28</button> Onweer</li><li><button type="button" class="podcast-sprong" data-t="3115">51:55</button> Wervelwinden en de bergen</li><li><button type="button" class="podcast-sprong" data-t="3280">54:40</button> Slecht zicht</li><li><button type="button" class="podcast-sprong" data-t="3338">55:39</button> Waar haal je het weer</li><li><button type="button" class="podcast-sprong" data-t="3447">57:27</button> METAR en TAF</li><li><button type="button" class="podcast-sprong" data-t="3631">1:00:32</button> Weerkaarten</li><li><button type="button" class="podcast-sprong" data-t="3661">1:01:01</button> Vluchtplanning en onderweg</li><li><button type="button" class="podcast-sprong" data-t="3763">1:02:43</button> Tot slot</li><li><button type="button" class="podcast-sprong" data-t="3780">1:03:00</button> Aftiteling</li></ol></details>
 </div>
 
 <script>
