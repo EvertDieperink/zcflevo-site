@@ -54,6 +54,8 @@ document.querySelectorAll(".podcast-sprong").forEach(function (knop) {
 <style>
 .podcast-apps { display: flex; flex-wrap: wrap; gap: .5rem; }
 .podcast-app { font: inherit; display: inline-block; padding: .5rem 1rem; border-radius: 999px; background: var(--blue); color: #fff; border: 0; text-decoration: none; cursor: pointer; }
+/* Het thema kleurt links in .page-content blauw; de knoppen houden witte tekst. */
+.page-content .podcast-apps a.podcast-app, .page-content .podcast-apps a.podcast-app:visited, .page-content .podcast-apps a.podcast-app:hover { color: #fff; }
 .podcast-aflevering { margin: 0 0 2rem; }
 .podcast-aflevering audio { width: 100%; }
 .podcast-aflevering h3 { margin-bottom: .25rem; }
