@@ -8,6 +8,8 @@ _build:
   render: always
 ---
 
+Liever eerst luisteren? Dit vak staat ook als podcast op [Theorie om te luisteren]({{< url "/spl-theorie/podcast/" >}}).
+
 <div id="theorie-app" data-basis="{{< url "/spl-theorie/" >}}" data-vak="menselijke-prestaties">
   <noscript><p>Voor deze oefenpagina is JavaScript nodig.</p></noscript>
 </div>
