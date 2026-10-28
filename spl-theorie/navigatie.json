@@ -1,0 +1,2755 @@
+{
+ "vak": "Navigatie voor zweefvliegen",
+ "vragen": [
+  {
+   "v": "Positie A ligt op 52°10'N 005°20'E, positie B op 49°40'N 005°20'E. Hoe groot is de afstand tussen A en B?",
+   "a": [
+    "150 NM",
+    "130 NM",
+    "92 NM",
+    "250 NM"
+   ],
+   "juist": 0,
+   "uitleg": "A en B liggen op dezelfde meridiaan. Het breedteverschil is 2°30' = 150 boogminuten en 1 boogminuut breedte is 1 NM, dus 150 NM. 250 NM ontstaat als je 2°30' als 2,5 x 100 leest."
+  },
+  {
+   "v": "Twee punten liggen op 60°N, op 010°E en 020°E. Hoe lang is de afstand langs de breedtecirkel tussen deze punten? (cos 60° = 0,5)",
+   "a": [
+    "600 NM",
+    "520 NM",
+    "300 NM",
+    "150 NM"
+   ],
+   "juist": 2,
+   "uitleg": "Lengteverschil 10° = 600 boogminuten. Langs een parallel geldt: afstand = lengteverschil in minuten x cos(breedte) = 600 x 0,5 = 300 NM. 600 NM geldt alleen op de evenaar."
+  },
+  {
+   "v": "Wat is het kortste lengteverschil tussen 175°E en 172°W?",
+   "a": [
+    "13°",
+    "347°",
+    "3°",
+    "177°"
+   ],
+   "juist": 0,
+   "uitleg": "Van 175°E tot de 180°-meridiaan is 5°, en van 180° tot 172°W is nog 8°. Samen 13°. 347° is de lange weg om de aarde; 3° ontstaat door de getallen gewoon af te trekken."
+  },
+  {
+   "v": "Welke van de volgende lijnen is GEEN grootcirkel?",
+   "a": [
+    "De evenaar",
+    "Een meridiaan samen met de tegenoverliggende meridiaan",
+    "Een cirkel waarvan het vlak door het middelpunt van de aarde gaat",
+    "De parallel van 52°N"
+   ],
+   "juist": 3,
+   "uitleg": "Een grootcirkel is een cirkel op het aardoppervlak waarvan het vlak door het middelpunt van de aarde gaat. Van alle parallellen geldt dat alleen voor de evenaar; 52°N is een kleincirkel."
+  },
+  {
+   "v": "Welke bewering over een loxodroom (rhumb line) is juist?",
+   "a": [
+    "Hij is de kortste verbinding tussen twee punten op aarde",
+    "Hij snijdt alle meridianen onder dezelfde hoek",
+    "Hij snijdt de meridianen onder een steeds veranderende hoek",
+    "Op een Lambertkaart verschijnt hij als een rechte lijn"
+   ],
+   "juist": 1,
+   "uitleg": "Een loxodroom is een lijn met constante ware koers en snijdt dus elke meridiaan onder dezelfde hoek. De kortste verbinding is de grootcirkel; een loxodroom is alleen recht op een Mercatorkaart."
+  },
+  {
+   "v": "Je zou (theoretisch) een grootcirkelroute vliegen van A naar B, beide op 52°N, waarbij B ver ten westen van A ligt. Wat geldt voor de ware koers?",
+   "a": [
+    "Aan het begin kleiner dan 270°, aan het eind groter dan 270°",
+    "Aan het begin en aan het eind precies 270°",
+    "Aan het begin en aan het eind beide groter dan 270°",
+    "Aan het begin groter dan 270°, aan het eind kleiner dan 270°"
+   ],
+   "juist": 3,
+   "uitleg": "Op het noordelijk halfrond ligt de grootcirkel tussen twee punten op dezelfde breedte dichter bij de pool dan de parallel. Je begint dus noordwestelijk (meer dan 270°) en eindigt zuidwestelijk (minder dan 270°)."
+  },
+  {
+   "v": "Waarom is 1 boogminuut breedteverschil overal op aarde (vrijwel) 1 NM, maar 1 boogminuut lengteverschil niet?",
+   "a": [
+    "Parallellen zijn grootcirkels, meridianen worden naar de polen toe steeds korter en dichter bij elkaar",
+    "Meridianen zijn grootcirkels, parallellen zijn kleincirkels die naar de polen toe kleiner worden",
+    "De aarde is aan de polen afgeplat, waardoor lengteminuten overal korter zijn dan breedteminuten",
+    "Lengteminuten worden in tijd gemeten en niet in afstand, zodat ze niet in NM uit te drukken zijn"
+   ],
+   "juist": 1,
+   "uitleg": "De NM is gedefinieerd als 1 boogminuut op een grootcirkel. Breedte meet je langs een meridiaan (grootcirkel); lengte langs een parallel, waarvan de omtrek met cos(breedte) afneemt."
+  },
+  {
+   "v": "Hoeveel NM is 1° lengteverschil op 52°N? (cos 52° = 0,62)",
+   "a": [
+    "Ongeveer 37 NM",
+    "60 NM",
+    "Ongeveer 47 NM",
+    "Ongeveer 97 NM"
+   ],
+   "juist": 0,
+   "uitleg": "1° = 60 boogminuten; langs de parallel is dat 60 x cos 52° = 60 x 0,62 = 37,2 NM. 47 NM krijg je met sin 52° (0,79); 97 NM door te delen in plaats van te vermenigvuldigen."
+  },
+  {
+   "v": "Je vliegt vanaf 52°N 004°00'E pal oost langs de parallel en legt 74 NM af. Op welke lengte kom je ongeveer uit? (cos 52° = 0,62)",
+   "a": [
+    "005°14'E",
+    "006°00'E",
+    "002°00'E",
+    "007°59'E"
+   ],
+   "juist": 1,
+   "uitleg": "Lengteverschil = afstand / cos(breedte) = 74 / 0,62 = 119 boogminuten, ongeveer 2°. Oostwaarts: 004° + 2° = 006°E. 005°14'E krijg je als je 74 NM gelijkstelt aan 74 minuten lengte."
+  },
+  {
+   "v": "Hoe ver is het langs een meridiaan van de evenaar tot de noordpool?",
+   "a": [
+    "10.800 NM",
+    "5.400 NM",
+    "6.000 NM",
+    "3.240 NM"
+   ],
+   "juist": 1,
+   "uitleg": "Van de evenaar tot de pool is 90° breedte = 90 x 60 = 5.400 boogminuten = 5.400 NM. 10.800 NM is een halve omtrek van de aarde."
+  },
+  {
+   "v": "Welke positie ligt precies aan de andere kant van de aarde (antipode) van 52°N 005°E?",
+   "a": [
+    "52°S 005°W",
+    "52°S 175°E",
+    "38°S 175°W",
+    "52°S 175°W"
+   ],
+   "juist": 3,
+   "uitleg": "De antipode heeft dezelfde breedte op het andere halfrond (52°S) en een lengte die 180° verschilt: 180° - 5° = 175° aan de andere kant van Greenwich, dus 175°W."
+  },
+  {
+   "v": "Een GPS toont de breedte als 52,375° N. Hoe schrijf je dit in graden, minuten en seconden?",
+   "a": [
+    "52°37'30\"N",
+    "52°22'50\"N",
+    "52°03'45\"N",
+    "52°22'30\"N"
+   ],
+   "juist": 3,
+   "uitleg": "0,375° x 60 = 22,5 minuten en 0,5 minuut x 60 = 30 seconden, dus 52°22'30\". De fout 52°22'50\" ontstaat door ',5' als 50 seconden te lezen; 52°37'30\" door 0,375 als 37,5 minuten te lezen."
+  },
+  {
+   "v": "Je vliegt pal noord van 51°50'N naar 52°35'N langs dezelfde meridiaan met een grondsnelheid van 90 kt. Hoe lang duurt dit?",
+   "a": [
+    "34 minuten",
+    "57 minuten",
+    "45 minuten",
+    "30 minuten"
+   ],
+   "juist": 3,
+   "uitleg": "Het breedteverschil is 45' = 45 NM. Bij 90 kt (1,5 NM per minuut) duurt dat 30 minuten. 34 minuten krijg je als je 52,35 - 51,50 = 0,85° als decimale graden rekent."
+  },
+  {
+   "v": "Op welke breedte is 1° lengteverschil precies 30 NM?",
+   "a": [
+    "30°",
+    "60°",
+    "45°",
+    "52°"
+   ],
+   "juist": 1,
+   "uitleg": "1° lengte = 60 NM x cos(breedte). 30 NM betekent cos(breedte) = 0,5 en dat geldt voor 60°. Op 30° is het juist ongeveer 52 NM."
+  },
+  {
+   "v": "Twee punten liggen op 80°N, op lengte 000° en 180°. Wat is de kortste afstand tussen deze punten? (cos 80° = 0,17)",
+   "a": [
+    "Ongeveer 1.840 NM",
+    "1.200 NM",
+    "10.800 NM",
+    "2.400 NM"
+   ],
+   "juist": 1,
+   "uitleg": "De kortste weg is de grootcirkel over de noordpool: 10° naar de pool plus 10° terug = 20° = 1.200 NM. Langs de parallel is het 180 x 60 x 0,17 = ongeveer 1.840 NM, dus langer."
+  },
+  {
+   "v": "Je vertrekt op 52°N met een beginkoers van precies 090° (waar) en volgt daarna nauwkeurig een grootcirkel over een zeer grote afstand. Waar kom je uit ten opzichte van de parallel van 52°N?",
+   "a": [
+    "Precies op 52°N",
+    "Ten zuiden van 52°N",
+    "Ten noorden van 52°N",
+    "Eerst ten noorden, daarna weer precies op 52°N"
+   ],
+   "juist": 1,
+   "uitleg": "Een grootcirkel die op 52°N oost loopt, raakt daar zijn noordelijkste punt en buigt daarna naar het zuiden af. Alleen een loxodroom met koers 090° blijft op de parallel."
+  },
+  {
+   "v": "Welke bewering over de nautische mijl is juist?",
+   "a": [
+    "1 NM = 1609 m en komt overeen met 1 boogminuut lengte",
+    "1 NM = 1852 m en komt overeen met 1 boogseconde breedte",
+    "1 NM = 1000 vadem en is per breedtegraad verschillend vastgesteld",
+    "1 NM = 1852 m en komt overeen met 1 boogminuut op een grootcirkel"
+   ],
+   "juist": 3,
+   "uitleg": "De internationale NM is 1852 m, vastgesteld als (gemiddeld) 1 boogminuut langs een meridiaan of andere grootcirkel. 1609 m is de statute mile."
+  },
+  {
+   "v": "Je vliegt met 120 km/h. Hoeveel knopen is dat ongeveer?",
+   "a": [
+    "60 kt",
+    "65 kt",
+    "75 kt",
+    "222 kt"
+   ],
+   "juist": 1,
+   "uitleg": "1 kt = 1,852 km/h, dus 120 / 1,852 = 64,8 kt. 222 kt krijg je door te vermenigvuldigen in plaats van te delen."
+  },
+  {
+   "v": "Je variometer geeft 2 m/s stijgen aan. Welke combinatie klopt?",
+   "a": [
+    "Ongeveer 390 ft/min en ongeveer 7,2 kt",
+    "Ongeveer 660 ft/min en ongeveer 7,2 kt",
+    "Ongeveer 200 ft/min en ongeveer 1 kt",
+    "Ongeveer 390 ft/min en ongeveer 3,9 kt"
+   ],
+   "juist": 3,
+   "uitleg": "1 m/s = 196,85 ft/min, dus 2 m/s = 394 ft/min. 1 m/s = 3,6 km/h = 1,94 kt, dus 2 m/s = 3,9 kt. 7,2 is de waarde in km/h, niet in knopen."
+  },
+  {
+   "v": "Hoeveel kilometer is 25 NM?",
+   "a": [
+    "Ongeveer 40 km",
+    "Ongeveer 46 km",
+    "Ongeveer 50 km",
+    "Ongeveer 13,5 km"
+   ],
+   "juist": 1,
+   "uitleg": "25 x 1,852 = 46,3 km. 40 km krijg je met de factor 1,609 van de statute mile; 13,5 km door te delen in plaats van te vermenigvuldigen."
+  },
+  {
+   "v": "Je ware luchtsnelheid is 100 km/h en je vliegt recht tegen een wind van 25 kt in. Wat is je grondsnelheid?",
+   "a": [
+    "Ongeveer 54 km/h",
+    "75 km/h",
+    "Ongeveer 64 km/h",
+    "Ongeveer 46 km/h"
+   ],
+   "juist": 0,
+   "uitleg": "25 kt = 25 x 1,852 = 46,3 km/h. Grondsnelheid = 100 - 46 = ongeveer 54 km/h. 75 km/h is de klassieke fout van knopen en km/h door elkaar halen."
+  },
+  {
+   "v": "Wat betekent FL 045?",
+   "a": [
+    "4500 ft boven gemiddeld zeeniveau met de actuele QNH",
+    "4500 ft boven het terrein",
+    "450 ft boven de transitiehoogte",
+    "4500 ft drukhoogte, gemeten ten opzichte van 1013,25 hPa"
+   ],
+   "juist": 3,
+   "uitleg": "Een vliegniveau is een drukhoogte in honderden voeten met de hoogtemeter op de standaardinstelling 1013,25 hPa. Het is dus geen hoogte boven zee of terrein."
+  },
+  {
+   "v": "Je legt 5 km af in 3 minuten en 20 seconden. Wat is je grondsnelheid in knopen?",
+   "a": [
+    "Ongeveer 90 kt",
+    "Ongeveer 49 kt",
+    "Ongeveer 167 kt",
+    "Ongeveer 27 kt"
+   ],
+   "juist": 1,
+   "uitleg": "3 min 20 s = 200 s. 5 km in 200 s is 90 km/h (5 / 200 x 3600). 90 / 1,852 = 48,6 kt. 90 is de waarde in km/h; 167 krijg je door met 1,852 te vermenigvuldigen."
+  },
+  {
+   "v": "Een mast staat op de kaart als 1250 (1200). Hoeveel meter steekt de mast boven de grond uit?",
+   "a": [
+    "Ongeveer 381 m",
+    "Ongeveer 366 m",
+    "Ongeveer 3937 m",
+    "Ongeveer 400 m"
+   ],
+   "juist": 1,
+   "uitleg": "Het getal tussen haakjes is de hoogte boven de grond: 1200 ft x 0,3048 = 365,8 m. 381 m is de tophoogte (1250 ft) boven zeeniveau; 3937 krijg je door met 3,28 te vermenigvuldigen."
+  },
+  {
+   "v": "De wind wordt opgegeven als 20 kt. Hoeveel m/s is dat ongeveer?",
+   "a": [
+    "Ongeveer 5,6 m/s",
+    "Ongeveer 37 m/s",
+    "Ongeveer 10 m/s",
+    "Ongeveer 15 m/s"
+   ],
+   "juist": 2,
+   "uitleg": "1 kt = 1852 m / 3600 s = 0,514 m/s, dus 20 kt = 10,3 m/s. Vuistregel: knopen gedeeld door 2. 5,6 m/s zou 20 km/h zijn; 37 is de waarde in km/h."
+  },
+  {
+   "v": "Je zweefvliegtuig heeft in windstilte een glijgetal van 40. Hoe ver kun je theoretisch glijden vanaf 1000 m hoogte boven het terrein, uitgedrukt in NM?",
+   "a": [
+    "40 NM",
+    "Ongeveer 74 NM",
+    "Ongeveer 21,6 NM",
+    "Ongeveer 25 NM"
+   ],
+   "juist": 2,
+   "uitleg": "1000 m x 40 = 40 km. 40 / 1,852 = 21,6 NM. 25 NM krijg je met de statute mile (1,609 km); 74 NM door met 1,852 te vermenigvuldigen."
+  },
+  {
+   "v": "Een TMA heeft een ondergrens van 1500 ft AMSL. Hoeveel meter boven zeeniveau is dat ongeveer?",
+   "a": [
+    "Ongeveer 457 m",
+    "1500 m",
+    "Ongeveer 492 m",
+    "Ongeveer 4921 m"
+   ],
+   "juist": 0,
+   "uitleg": "1500 x 0,3048 = 457 m. Wie de ondergrens als 1500 m leest, vliegt ruim 1000 m te hoog de TMA in. 4921 is 1500 m omgerekend naar ft."
+  },
+  {
+   "v": "Een vlieger in een motorzwever klimt met 500 ft/min. Wat is dat ongeveer in m/s?",
+   "a": [
+    "Ongeveer 5 m/s",
+    "Ongeveer 2,5 m/s",
+    "Ongeveer 1,5 m/s",
+    "Ongeveer 8,3 m/s"
+   ],
+   "juist": 1,
+   "uitleg": "500 ft/min x 0,3048 = 152 m/min; gedeeld door 60 is dat 2,54 m/s. Vuistregel: 100 ft/min is ongeveer 0,5 m/s. 8,3 is 500 ft/min zonder omrekening naar meter, gedeeld door 60."
+  },
+  {
+   "v": "Welke omrekening is juist?",
+   "a": [
+    "1 kt is ongeveer 1,61 km/h en ongeveer 0,51 m/s",
+    "1 m/s is ongeveer 1,85 kt en ongeveer 3,28 km/h",
+    "1 kt is ongeveer 0,51 m/s en ongeveer 101 ft/min",
+    "1 km/h is ongeveer 1,85 kt"
+   ],
+   "juist": 2,
+   "uitleg": "1 kt = 1852 m per uur = 0,514 m/s = 30,9 m/min = 101 ft/min. 1,61 hoort bij de statute mile, 3,28 is het aantal ft per meter, en 1 km/h is juist 0,54 kt."
+  },
+  {
+   "v": "Op de ICAO-kaart 1:500.000 meet je tussen twee keerpunten 7,4 cm. Hoeveel NM is dat?",
+   "a": [
+    "37 NM",
+    "Ongeveer 20 NM",
+    "3,7 NM",
+    "Ongeveer 69 NM"
+   ],
+   "juist": 1,
+   "uitleg": "1 cm op 1:500.000 is 5 km, dus 7,4 cm = 37 km. 37 / 1,852 = 20 NM. 37 NM is de afstand in km verward met NM."
+  },
+  {
+   "v": "Op een kaart met onbekende schaal komt een afstand van 15 NM overeen met 5,5 cm. Wat is de schaal ongeveer?",
+   "a": [
+    "1:500.000",
+    "1:250.000",
+    "1:1.000.000",
+    "1:270.000"
+   ],
+   "juist": 0,
+   "uitleg": "15 NM = 27,78 km = 2.778.000 cm. 2.778.000 / 5,5 = ongeveer 505.000, dus 1:500.000. 1:270.000 ontstaat als je NM als km neemt."
+  },
+  {
+   "v": "Een route is op de kaart 1:500.000 precies 12 cm lang. Hoe lang is dezelfde route op een kaart 1:250.000?",
+   "a": [
+    "6 cm",
+    "12 cm",
+    "48 cm",
+    "24 cm"
+   ],
+   "juist": 3,
+   "uitleg": "Bij 1:250.000 is 1 cm 2,5 km, de helft van 1:500.000. Dezelfde werkelijke afstand wordt dus twee keer zo lang getekend: 24 cm."
+  },
+  {
+   "v": "Je hebt geen schaalliniaal bij je. Hoe bepaal je op de Lambertkaart toch nauwkeurig een afstand in NM?",
+   "a": [
+    "Met een passer langs de lengteschaal op een parallel: 1 boogminuut lengte is 1 NM",
+    "Door de afstand tussen twee isogonen als eenheid te gebruiken",
+    "Met een passer langs de breedteschaal op een meridiaan: 1 boogminuut breedte is 1 NM",
+    "Door de afstand langs de evenaarsschaal in de kaartrand te meten"
+   ],
+   "juist": 2,
+   "uitleg": "Op elke meridiaan is 1 boogminuut breedte 1 NM. Lengteminuten zijn in Nederland maar ongeveer 0,6 NM. Isogonen staan niet op vaste afstanden van elkaar."
+  },
+  {
+   "v": "Je wilt op je kaart 1:500.000 aangeven dat een TMA-grens 4 NM naast je route ligt. Hoeveel millimeter is dat op de kaart?",
+   "a": [
+    "Ongeveer 15 mm",
+    "Ongeveer 8 mm",
+    "Ongeveer 4 mm",
+    "Ongeveer 27 mm"
+   ],
+   "juist": 0,
+   "uitleg": "4 NM = 7,4 km. Op 1:500.000 is 5 km 1 cm, dus 7,4 km = 1,48 cm = ongeveer 15 mm. 8 mm krijg je als je 4 km in plaats van 4 NM rekent."
+  },
+  {
+   "v": "Op welke kaartschaal is 1 cm op de kaart gelijk aan 10 km in werkelijkheid?",
+   "a": [
+    "1:1.000.000",
+    "1:100.000",
+    "1:500.000",
+    "1:10.000.000"
+   ],
+   "juist": 0,
+   "uitleg": "10 km = 1.000.000 cm; 1 cm kaart staat dan voor 1.000.000 cm werkelijkheid, dus 1:1.000.000."
+  },
+  {
+   "v": "Ware koers 312°, variatie 2° E, deviatie 3° E. Wat is de kompaskoers?",
+   "a": [
+    "311°",
+    "313°",
+    "317°",
+    "307°"
+   ],
+   "juist": 3,
+   "uitleg": "Oostelijke afwijkingen trek je af: MC = 312 - 2 = 310°, CC = 310 - 3 = 307°. 311° krijg je met het verkeerde teken voor de variatie, 313° met het verkeerde teken voor de deviatie."
+  },
+  {
+   "v": "Op de deviatiekaart van je zweefvliegtuig staat: 'voor MH 270° stuur 273°'. Hoe groot is de deviatie op deze koers?",
+   "a": [
+    "3° E",
+    "Er is geen deviatie, het verschil is variatie",
+    "3° W",
+    "Dat hangt af van de variatie ter plaatse"
+   ],
+   "juist": 2,
+   "uitleg": "De kompaskoers is 3° groter dan de magnetische koers. Bij westelijke deviatie is de kompaskoers groter (deviation west, compass best), dus 3° W. Deviatie staat los van de variatie ter plaatse."
+  },
+  {
+   "v": "Je ware koers blijft de hele vlucht 090°. Bij vertrek is de variatie 1° W, op de bestemming 3° E. Hoe verandert de magnetische koers die je moet aanhouden?",
+   "a": [
+    "Van 089° naar 093°",
+    "Die blijft 090°, want de ware koers verandert niet",
+    "Van 091° naar 093°",
+    "Van 091° naar 087°"
+   ],
+   "juist": 3,
+   "uitleg": "MC = TC + westelijke variatie of - oostelijke variatie. Bij vertrek 090 + 1 = 091°, op de bestemming 090 - 3 = 087°."
+  },
+  {
+   "v": "Welke bewering over variatie en deviatie is juist?",
+   "a": [
+    "Variatie hangt af van je plaats, deviatie van je koers en het toestel",
+    "Variatie hangt af van je stuurkoers, deviatie van je plaats op aarde",
+    "Variatie en deviatie hangen allebei af van je stuurkoers en het toestel",
+    "Deviatie is voor alle toestellen gelijk en staat daarom op de kaart"
+   ],
+   "juist": 0,
+   "uitleg": "Variatie is het verschil tussen geografisch en magnetisch noorden en verschilt per plaats (en verandert langzaam in de tijd). Deviatie ontstaat door ijzer en elektrische velden in het toestel en is per koers verschillend."
+  },
+  {
+   "v": "Waarom staat bij de isogonen op een luchtvaartkaart een jaartal of een jaarlijkse verandering vermeld?",
+   "a": [
+    "Omdat de variatie elk jaar iets verandert door het verschuiven van de magnetische pool",
+    "Omdat de deviatie van alle toestellen elk jaar opnieuw wordt bepaald en vastgelegd",
+    "Omdat de ware noordrichting op de kaart elk jaar een fractie verschuift",
+    "Omdat de kaartprojectie elk jaar opnieuw aan de aardbol wordt aangepast"
+   ],
+   "juist": 0,
+   "uitleg": "Het aardmagnetisch veld en de magnetische pool verplaatsen zich. Daardoor verandert de variatie elk jaar een klein beetje; de kaart geeft de waarde voor een bepaald jaar."
+  },
+  {
+   "v": "Je draait op het noordelijk halfrond met een magnetisch kompas naar het noorden (naar 360°). Wanneer begin je de bocht uit te leiden?",
+   "a": [
+    "Nadat het kompas 360° aanwijst, omdat het kompas bij draaien naar het noorden voorloopt",
+    "Voordat het kompas 360° aanwijst, omdat het kompas bij draaien naar het noorden achterloopt",
+    "Precies als het kompas 360° aanwijst",
+    "Dat maakt niet uit: draaifouten zijn het grootst bij oost- en westkoersen"
+   ],
+   "juist": 1,
+   "uitleg": "Door de inclinatie loopt het kompas op het noordelijk halfrond achter bij draaien naar het noorden en voor bij draaien naar het zuiden (ezelsbrug UNOS: undershoot north, overshoot south). Je leidt dus eerder uit."
+  },
+  {
+   "v": "Je vliegt op een oostelijke koers en versnelt duidelijk door de neus te laten zakken. Wat laat het magnetisch kompas tijdelijk zien (noordelijk halfrond)?",
+   "a": [
+    "Een draai naar het zuiden",
+    "Geen verandering, versnellingsfouten zijn het grootst bij noord- en zuidkoersen",
+    "Een snelle draai van 180°",
+    "Een draai naar het noorden"
+   ],
+   "juist": 3,
+   "uitleg": "Versnellingsfouten zijn het grootst op oost- en westkoersen. Op het noordelijk halfrond geeft versnellen een schijnbare draai naar het noorden en vertragen een draai naar het zuiden (ezelsbrug ANDS)."
+  },
+  {
+   "v": "Wat is de oorzaak van de draai- en versnellingsfouten van het magnetisch kompas?",
+   "a": [
+    "De variatie: het verschil tussen de ware en de magnetische noordrichting",
+    "De inclinatie: de veldlijnen van het aardmagnetisch veld lopen schuin",
+    "De deviatie: verstoring door ijzer en elektrische apparatuur in het toestel",
+    "De traagheid van het kompasvocht, die bij lage temperaturen sterk toeneemt"
+   ],
+   "juist": 1,
+   "uitleg": "Omdat de veldlijnen schuin naar beneden wijzen, hangt het kompasroosje met een tegengewicht scheef. Bij versnellen en in bochten gaat dat zwaartepunt verkeerd zitten, waardoor het roosje draait."
+  },
+  {
+   "v": "Je bevestigt een telefoonhouder met een magneet vlak naast het kompas in de cockpit. Wat is het gevolg?",
+   "a": [
+    "De variatie verandert, zodat de kaart niet meer klopt",
+    "Er verandert niets zolang de telefoon uit staat",
+    "De draaifouten worden groter, maar rechtuit blijft het kompas juist",
+    "De deviatie verandert, zodat de deviatiekaart niet meer klopt"
+   ],
+   "juist": 3,
+   "uitleg": "Een magneet in de buurt van het kompas verstoort de richting die het kompas aanwijst. Dat is deviatie, en die is dan op verschillende koersen anders dan op de kaart staat. Ook een uitgeschakelde telefoonmagneet blijft een magneet."
+  },
+  {
+   "v": "Je ware heading is 300°. Een kerktoren staat precies 90° rechts van je neus. In welke ware richting ligt de toren vanaf jou?",
+   "a": [
+    "210°",
+    "120°",
+    "030°",
+    "270°"
+   ],
+   "juist": 2,
+   "uitleg": "Rechts van de neus tel je op: 300 + 90 = 390, en dat is 390 - 360 = 030°. 210° is links van de neus."
+  },
+  {
+   "v": "Vanaf je veld ligt een opvallende watertoren in richting 065°. Welke koers vlieg je van de watertoren rechtstreeks terug naar het veld?",
+   "a": [
+    "065°",
+    "295°",
+    "245°",
+    "155°"
+   ],
+   "juist": 2,
+   "uitleg": "De terugrichting is de tegengestelde richting: 065 + 180 = 245°."
+  },
+  {
+   "v": "Waarom wordt een magnetisch kompas onbetrouwbaar in de buurt van de magnetische polen?",
+   "a": [
+    "Omdat de variatie daar 0° wordt en het kompas geen richting meer vindt",
+    "Omdat de horizontale component van het aardmagnetisch veld daar erg klein is",
+    "Omdat de deviatie van het toestel daar veel groter wordt dan elders",
+    "Omdat de meridianen daar samenkomen en het kompas tussen hen gaat slingeren"
+   ],
+   "juist": 1,
+   "uitleg": "Het kompas richt zich op de horizontale component van het veld. Bij de polen lopen de veldlijnen bijna verticaal, waardoor die component heel klein wordt en het roosje nauwelijks richtkracht heeft."
+  },
+  {
+   "v": "Welke ezelsbrug voor de omrekening van ware naar magnetische koers is juist?",
+   "a": [
+    "Variation east, magnetic least; variation west, magnetic best",
+    "Variation east, magnetic best; variation west, magnetic least",
+    "Variation east, true least; variation west, true best",
+    "Oostelijke variatie optellen en westelijke aftrekken, ongeacht de richting van de omrekening"
+   ],
+   "juist": 0,
+   "uitleg": "Bij oostelijke variatie is de magnetische koers kleiner dan de ware, bij westelijke groter. Van magnetisch naar waar werk je precies andersom."
+  },
+  {
+   "v": "Op je deviatiekaart staat: voor MH 060° stuur 063°, voor MH 090° stuur 092°. Welke kompaskoers stuur je ongeveer voor MH 075°?",
+   "a": [
+    "Ongeveer 072-073°",
+    "075°",
+    "Ongeveer 077-078°",
+    "Ongeveer 080°"
+   ],
+   "juist": 2,
+   "uitleg": "De deviatie loopt van 3° W (060°) naar 2° W (090°). Bij 075° ligt die halverwege, ongeveer 2,5° W. Westelijke deviatie tel je op: 075 + 2,5 = ongeveer 077,5°."
+  },
+  {
+   "v": "Hoe wordt de deviatiekaart van een kompas correct bepaald?",
+   "a": [
+    "Met één meting op de noordkoers, met alle elektronica uitgeschakeld",
+    "Door de variatie van de kaart af te lezen en op de kaart in te vullen",
+    "Door kompas en GPS-track te vergelijken tijdens een vlucht met wind",
+    "Op een kompasroos, op meerdere koersen, met de normale apparatuur aan"
+   ],
+   "juist": 3,
+   "uitleg": "Deviatie verschilt per koers en hangt af van wat er aan boord aan staat. Daarom meet je op meerdere koersen in de normale configuratie. Een GPS-track in de wind bevat ook drift en variatie."
+  },
+  {
+   "v": "Welke ware richting hoort bij de windstreek ZZW?",
+   "a": [
+    "247,5°",
+    "157,5°",
+    "225°",
+    "202,5°"
+   ],
+   "juist": 3,
+   "uitleg": "Z = 180°, ZW = 225°. ZZW ligt daar precies tussen: 202,5°. 247,5° is WZW, 157,5° is ZZO."
+  },
+  {
+   "v": "De ware koers is 357° en de variatie is 5° W. Wat is de magnetische koers?",
+   "a": [
+    "002°",
+    "352°",
+    "362°",
+    "008°"
+   ],
+   "juist": 0,
+   "uitleg": "Westelijke variatie optellen: 357 + 5 = 362, en voorbij 360 tel je weer vanaf 000: 002°. '362°' is geen geldige notatie."
+  },
+  {
+   "v": "De magnetische koers is 358° en de variatie is 4° E. Wat is de ware koers?",
+   "a": [
+    "354°",
+    "002°",
+    "358°",
+    "006°"
+   ],
+   "juist": 1,
+   "uitleg": "Van magnetisch naar waar tel je oostelijke variatie op: 358 + 4 = 362 = 002°. 354° is het verkeerde teken."
+  },
+  {
+   "v": "Waarom lees je na een bocht het magnetisch kompas pas af als je enkele seconden recht en gelijkmatig vliegt?",
+   "a": [
+    "Omdat de variatie in een bocht tijdelijk een paar graden verandert",
+    "Omdat het kompas in een bocht wordt vastgezet om schade te voorkomen",
+    "Omdat het roosje door draaifouten en meedraaiend vocht nog uitslingert",
+    "Omdat het kompas pas na een bocht opnieuw op het ware noorden wordt ingesteld"
+   ],
+   "juist": 2,
+   "uitleg": "In en direct na de bocht zorgen draaifouten, versnellingsfouten en het meedraaiende vocht ervoor dat het roosje beweegt. Pas in rechtlijnige, gelijkmatige vlucht geeft het een bruikbare waarde."
+  },
+  {
+   "v": "Bij windstilte vlieg je volgens de GPS een ware track van 090°. Het kompas, waarvan je de deviatie op deze koers 0° weet, wijst 087°. Hoe groot is de variatie?",
+   "a": [
+    "3° E",
+    "3° W",
+    "0°",
+    "6° E"
+   ],
+   "juist": 0,
+   "uitleg": "Zonder wind is track gelijk aan heading, dus TH = 090°. MH = 087°. De magnetische koers is kleiner dan de ware, dus oostelijke variatie van 3° (variation east, magnetic least)."
+  },
+  {
+   "v": "Je stuurt een magnetische koers van 270°. Het kompas wijst 266°. Hoe groot is de deviatie op deze koers?",
+   "a": [
+    "4° E",
+    "4° W",
+    "266°",
+    "Niet te bepalen zonder de variatie"
+   ],
+   "juist": 0,
+   "uitleg": "De kompaskoers is kleiner dan de magnetische koers, dus de deviatie is oostelijk (deviation east, compass least): 4° E. De variatie speelt bij de stap van MH naar CH geen rol."
+  },
+  {
+   "v": "Bij welke stuurkoersen zijn de versnellingsfouten van het magnetisch kompas het grootst?",
+   "a": [
+    "Noord en zuid",
+    "Oost en west",
+    "Noordoost en zuidwest",
+    "Ze zijn op alle koersen even groot"
+   ],
+   "juist": 1,
+   "uitleg": "Versnellingsfouten zijn maximaal op oost- en westkoersen en nul op noord- en zuidkoersen. Bij draaifouten is het precies andersom: die zijn het grootst bij draaien vanaf noord en zuid."
+  },
+  {
+   "v": "Kompaskoers 127°, deviatie 2° W, variatie 3° E, drift 6° links. Wat is de ware track?",
+   "a": [
+    "134°",
+    "122°",
+    "126°",
+    "116°"
+   ],
+   "juist": 1,
+   "uitleg": "CH 127 met 2° W deviatie geeft MH 125 (westelijk aftrekken bij terugrekenen). MH 125 met 3° E variatie geeft TH 128. Drift 6° links: track = 128 - 6 = 122°."
+  },
+  {
+   "v": "Welke stelling over het magnetisch noorden is juist?",
+   "a": [
+    "De magnetische noordpool ligt precies op de geografische noordpool; de deviatie zorgt voor de verschillen",
+    "De magnetische noordpool ligt vast; de isogonen worden per jaar opnieuw gemeten voor de nauwkeurigheid",
+    "De magnetische noordpool valt niet samen met de geografische noordpool en verplaatst zich langzaam",
+    "Op de agone lijn is de variatie juist het grootst"
+   ],
+   "juist": 2,
+   "uitleg": "Omdat de magnetische pool niet op de geografische pool ligt, bestaat er variatie, en omdat de pool zich verplaatst, verandert die variatie langzaam. Op de agone lijn is de variatie juist 0°."
+  },
+  {
+   "v": "Wat is de agone lijn?",
+   "a": [
+    "De lijn waarlangs de inclinatie 0° is",
+    "De lijn waarlangs de variatie 0° is",
+    "De lijn waarlangs de deviatie voor elk toestel 0° is",
+    "De lijn die alle plaatsen met dezelfde breedte verbindt"
+   ],
+   "juist": 1,
+   "uitleg": "Isogonen verbinden plaatsen met gelijke variatie; de agone is de isogoon van 0°. De lijn met 0° inclinatie heet de magnetische evenaar (aclinische lijn)."
+  },
+  {
+   "v": "Welke combinatie van eigenschappen maakt de Lambertkaart (conforme kegelprojectie) geschikt voor VFR-navigatie?",
+   "a": [
+    "Hoekgetrouw, vrijwel constante schaal, grootcirkel bijna recht",
+    "Hoekgetrouw, meridianen evenwijdig, loxodroom een rechte lijn",
+    "Oppervlaktegetrouw, schaal groeit met de breedte, grootcirkel gekromd",
+    "Afstandsgetrouw in alle richtingen, meridianen evenwijdig"
+   ],
+   "juist": 0,
+   "uitleg": "De Lambertkaart is conform (hoekgetrouw), heeft tussen en rond de standaardparallellen een bijna constante schaal en een rechte lijn benadert de grootcirkel. Evenwijdige meridianen en rechte loxodromen horen bij Mercator."
+  },
+  {
+   "v": "Hoe ziet een grootcirkel (geen meridiaan of evenaar) eruit op een Mercatorkaart?",
+   "a": [
+    "Als een rechte lijn tussen de twee punten",
+    "Als een gekromde lijn met de bolle kant naar de evenaar",
+    "Als een cirkelboog rond de dichtstbijzijnde pool",
+    "Als een gekromde lijn met de bolle kant naar de pool"
+   ],
+   "juist": 3,
+   "uitleg": "Op Mercator is de loxodroom recht. De grootcirkel ligt dichter bij de pool dan de loxodroom en verschijnt daarom als een boog die naar de pool toe bolt."
+  },
+  {
+   "v": "Op een Mercatorkaart is 1° lengteverschil op de evenaar 2 cm lang. Hoe lang is 1° lengteverschil op dezelfde kaart op 60°N?",
+   "a": [
+    "1 cm, net als de werkelijke afstand die half zo groot is",
+    "4 cm, omdat de kaartschaal met de breedte toeneemt",
+    "2 cm, maar de werkelijke afstand is daar half zo groot",
+    "2 cm, en de werkelijke afstand is daar ook even groot"
+   ],
+   "juist": 2,
+   "uitleg": "Op Mercator lopen de meridianen evenwijdig, dus elke graad lengte is overal even lang op de kaart. In werkelijkheid is 1° lengte op 60°N maar half zo lang (cos 60° = 0,5): de schaal is daar dus twee keer zo groot."
+  },
+  {
+   "v": "Welke bewering over de Lambertkaart is NIET juist?",
+   "a": [
+    "De meridianen zijn rechte lijnen die naar de pool convergeren",
+    "Een loxodroom wordt als rechte lijn weergegeven",
+    "De parallellen zijn concentrische cirkelbogen",
+    "De kaart is hoekgetrouw"
+   ],
+   "juist": 1,
+   "uitleg": "Op de Lambertkaart is juist de grootcirkel (bijna) recht. Een loxodroom snijdt alle convergerende meridianen onder dezelfde hoek en wordt daardoor een gebogen lijn."
+  },
+  {
+   "v": "Waar is de schaal van een Lambertkaart precies juist?",
+   "a": [
+    "Op de middenmeridiaan",
+    "Op de evenaar",
+    "Overal op de kaart even juist",
+    "Op de twee standaardparallellen"
+   ],
+   "juist": 3,
+   "uitleg": "De kegel snijdt de aardbol langs twee standaardparallellen; daar is de schaal exact. Daartussen is hij iets te klein en daarbuiten iets te groot, maar binnen een kaartblad is het verschil verwaarloosbaar."
+  },
+  {
+   "v": "Wat betekent het dat een kaartprojectie hoekgetrouw (conform) is?",
+   "a": [
+    "Oppervlakten zijn overal op de kaart in de juiste verhouding",
+    "Afstanden zijn overal op de kaart met één schaal te meten",
+    "Hoeken en kleine vormen zijn juist, dus gemeten richtingen kloppen",
+    "Meridianen en parallellen lopen overal evenwijdig aan de kaartrand"
+   ],
+   "juist": 2,
+   "uitleg": "Bij een conforme projectie zijn hoeken op elk punt juist. Dat is essentieel om koersen te meten. Oppervlakte- en afstandsgetrouwheid zijn andere eigenschappen die niet tegelijk te bereiken zijn."
+  },
+  {
+   "v": "Je tekent op een Lambertkaart een lange rechte lijn van west naar oost (noordelijk halfrond) en meet de ware koers ten opzichte van de meridianen langs de lijn. Wat zie je?",
+   "a": [
+    "De ware koers neemt van west naar oost geleidelijk toe",
+    "De ware koers neemt van west naar oost geleidelijk af",
+    "De ware koers blijft overal gelijk, want de kaart is hoekgetrouw",
+    "De ware koers neemt eerst af en daarna weer toe"
+   ],
+   "juist": 0,
+   "uitleg": "De meridianen convergeren naar de pool. Een rechte lijn snijdt ze daardoor elk onder een iets andere hoek: oostwaarts wordt de hoek met het noorden steeds groter. Daarom meet je een lange lijn bij de middenmeridiaan."
+  },
+  {
+   "v": "Waarom meet je op de Lambertkaart de koers van een lange route bij voorkeur bij de meridiaan halverwege de route?",
+   "a": [
+    "Omdat de schaal halverwege de route het grootst en het nauwkeurigst is",
+    "Omdat de variatie halverwege de route het kleinst is",
+    "Omdat de meridianen convergeren; halverwege meet je de gemiddelde koers",
+    "Omdat het niet uitmaakt en de middenmeridiaan het makkelijkst te vinden is"
+   ],
+   "juist": 2,
+   "uitleg": "Door de convergentie van de meridianen verschilt de gemeten koers aan het begin en eind van een lange lijn. Bij de middenmeridiaan meet je ongeveer de gemiddelde (loxodromische) koers."
+  },
+  {
+   "v": "Waarom is een Mercatorkaart minder geschikt om afstanden te meten over een route met een groot noord-zuidverschil?",
+   "a": [
+    "Omdat de meridianen naar de pool convergeren en de afstanden vervormen",
+    "Omdat de schaal met de breedte toeneemt en dus langs de route verandert",
+    "Omdat de kaart niet hoekgetrouw is en afstanden daardoor scheef lopen",
+    "Omdat je afstanden op Mercator met de lengteschaal langs de evenaar meet"
+   ],
+   "juist": 1,
+   "uitleg": "Op Mercator wordt de schaal groter met de breedte (evenredig met 1/cos breedte). Je moet daarom de breedteschaal ter hoogte van het midden van de route gebruiken; over grote noord-zuidverschillen wordt dat onnauwkeurig."
+  },
+  {
+   "v": "Hoe ziet een loxodroom (geen meridiaan of parallel) eruit op een Lambertkaart?",
+   "a": [
+    "Als een rechte lijn",
+    "Als een gekromde lijn met de holle kant naar de evenaar",
+    "Als een gekromde lijn met de holle kant naar de pool",
+    "Als een cirkelboog rond het middelpunt van de kaart, gelijk aan een parallel"
+   ],
+   "juist": 2,
+   "uitleg": "Op Lambert is de grootcirkel bijna recht en de loxodroom ligt aan de evenaarkant daarvan. Hij buigt dus naar de evenaar uit, met de holle kant naar de pool."
+  },
+  {
+   "v": "Waarom kun je op de ICAO-kaart 1:500.000 van Nederland zonder merkbare fout een rechte lijn als route tekenen en overal dezelfde schaallijn gebruiken?",
+   "a": [
+    "Kleine Lambertkaart: schaal vrijwel constant en rechte lijn vrijwel grootcirkel",
+    "Mercatorprojectie, waarop elke rechte lijn ook de kortste route over de aarde is",
+    "Omdat Nederland precies op de evenaar van de gebruikte projectie ligt",
+    "Omdat de meridianen op deze kaart overal evenwijdig aan elkaar lopen"
+   ],
+   "juist": 0,
+   "uitleg": "De ICAO-kaart van Nederland is een conforme Lambertprojectie. Over de afmetingen van Nederland is de schaalfout verwaarloosbaar en het verschil tussen grootcirkel en loxodroom te klein om te meten."
+  },
+  {
+   "v": "Op welk type kaart is een op de kaart getrokken rechte lijn een loxodroom met overal dezelfde ware koers?",
+   "a": [
+    "Lambertkaart",
+    "Polaire stereografische kaart",
+    "Elke conforme kaart",
+    "Mercatorkaart"
+   ],
+   "juist": 3,
+   "uitleg": "Alleen op de Mercatorprojectie zijn meridianen evenwijdig, zodat een rechte lijn alle meridianen onder dezelfde hoek snijdt. Lambert en polair stereografisch zijn ook conform, maar daar convergeren de meridianen."
+  },
+  {
+   "v": "Hoe meet je op een Mercatorkaart de afstand van een route die van 50°N naar 54°N loopt het nauwkeurigst?",
+   "a": [
+    "Met de lengteschaal langs de onder- of bovenrand",
+    "Met de breedteschaal rond 50°N, het vertrekpunt",
+    "Met de breedteschaal rond 52°N, het midden van de route",
+    "Met een vaste schaalliniaal, de schaal is overal gelijk"
+   ],
+   "juist": 2,
+   "uitleg": "Op Mercator neemt de schaal toe met de breedte. Door de breedteschaal rond de middelste breedte van de route te gebruiken compenseer je dat het best. De lengteschaal is in NM onbruikbaar."
+  },
+  {
+   "v": "Ware koers 090°, wind 360°/20 kt, TAS 80 kt. Gebruik de vuistregel WCA = dwarswind / TAS x 60. Wat zijn ware stuurkoers en grondsnelheid ongeveer?",
+   "a": [
+    "TH 105°, GS ongeveer 77 kt",
+    "TH 075°, GS 80 kt",
+    "TH 075°, GS ongeveer 77 kt",
+    "TH 075°, GS 60 kt"
+   ],
+   "juist": 2,
+   "uitleg": "De wind komt pal van links: WCA = 20 / 80 x 60 = 15° links, TH = 075°. Omdat je schuin tegen de wind in stuurt, gaat een deel van je snelheid op aan het compenseren: GS = 80 x cos 15° = ongeveer 77 kt, dus iets minder dan TAS."
+  },
+  {
+   "v": "Je track is 240° en de wind is 270°/20 kt. Hoe groot zijn de dwarswind- en de tegenwindcomponent? (sin 30° = 0,5, cos 30° = 0,87)",
+   "a": [
+    "Dwarswind 10 kt van rechts, tegenwind ongeveer 17 kt",
+    "Dwarswind ongeveer 17 kt van rechts, tegenwind 10 kt",
+    "Dwarswind 10 kt van links, tegenwind ongeveer 17 kt",
+    "Dwarswind 10 kt van rechts, tegenwind 10 kt"
+   ],
+   "juist": 0,
+   "uitleg": "De wind staat 30° rechts van de track (270 ligt rechtsom van 240). Dwarswind = 20 x sin 30° = 10 kt, tegenwind = 20 x cos 30° = 17 kt."
+  },
+  {
+   "v": "Je vliegt een been van 50 km heen en daarna 50 km terug. De wind staat recht op de lijn met 30 km/h, je TAS is 100 km/h. Hoe lang duurt de hele vlucht?",
+   "a": [
+    "60 minuten, want de wind heft zichzelf heen en terug op",
+    "Ongeveer 66 minuten, langer dan bij windstilte",
+    "Ongeveer 54 minuten, korter dan bij windstilte",
+    "Ongeveer 72 minuten, langer dan bij windstilte"
+   ],
+   "juist": 1,
+   "uitleg": "Tegen de wind in: GS 70 km/h, 50 / 70 = 42,9 min. Met de wind mee: GS 130 km/h, 50 / 130 = 23,1 min. Samen 66 min. Je verliest tegen de wind in meer tijd dan je met de wind mee wint."
+  },
+  {
+   "v": "Na 30 NM blijk je 3 NM links van je geplande track te zitten. De bestemming ligt nog 45 NM verder. Hoeveel graden moet je je heading wijzigen om rechtstreeks naar de bestemming te vliegen? (1-in-60-regel)",
+   "a": [
+    "6° naar rechts",
+    "4° naar rechts",
+    "10° naar links",
+    "10° naar rechts"
+   ],
+   "juist": 3,
+   "uitleg": "Koersfout = 3 x 60 / 30 = 6°. Naderingshoek naar de bestemming = 3 x 60 / 45 = 4°. Totaal 6 + 4 = 10° naar rechts, omdat je links van de lijn zit."
+  },
+  {
+   "v": "Je vliegt met een grondsnelheid van 120 km/h. Na 15 minuten zie je dat je 1,5 km rechts van je geplande lijn zit. Hoe groot is je koersfout (track error)?",
+   "a": [
+    "6°",
+    "1,5°",
+    "12°",
+    "3°"
+   ],
+   "juist": 3,
+   "uitleg": "In 15 minuten heb je bij 120 km/h 30 km afgelegd. Koersfout = 1,5 x 60 / 30 = 3°. 6° krijg je als je 15 km als afgelegde afstand neemt (15 minuten als km)."
+  },
+  {
+   "v": "Na 20 km zit je 2 km links van je geplande track (koersfout 6°). Je wilt na nog eens 20 km weer precies op de lijn zitten en dan de lijn volgen. Wat doe je?",
+   "a": [
+    "Nu 6° naar rechts draaien en die koers aanhouden",
+    "Nu 12° naar rechts draaien; zodra je op de lijn bent 12° terug naar links",
+    "Nu 6° naar links draaien",
+    "Nu 12° naar rechts draaien; zodra je op de lijn bent 6° terug naar links"
+   ],
+   "juist": 3,
+   "uitleg": "Met 6° correctie vlieg je evenwijdig aan de lijn; met nog eens 6° (samen 12°) kom je over dezelfde afstand terug op de lijn. Daar neem je 6° terug, zodat je per saldo 6° rechts van je oude heading houdt om de drift te compenseren."
+  },
+  {
+   "v": "Welke bewering over de grondsnelheid bij een zuivere dwarswind (wind haaks op de track) is juist?",
+   "a": [
+    "De grondsnelheid is precies gelijk aan de TAS, want er is geen tegenwind",
+    "De grondsnelheid is iets lager dan de TAS door het schuin voorhouden",
+    "De grondsnelheid is iets hoger dan de TAS door de zijwaartse duw van de wind",
+    "De grondsnelheid is gelijk aan de TAS min de volledige windsnelheid"
+   ],
+   "juist": 1,
+   "uitleg": "Om de track te houden stuur je met de WCA schuin tegen de wind in. Alleen de component TAS x cos(WCA) werkt langs de track, dus GS is iets lager dan TAS."
+  },
+  {
+   "v": "Je volgt track 010° en je grondsnelheid is duidelijk groter dan je TAS. Je heading is 000°. Uit welke richting waait de wind ongeveer?",
+   "a": [
+    "Uit het zuidwesten",
+    "Uit het noordwesten",
+    "Uit het zuidoosten",
+    "Uit het noordoosten"
+   ],
+   "juist": 0,
+   "uitleg": "Je track ligt 10° rechts van je heading, dus je drift naar rechts en de wind komt van links (westelijke kant). GS groter dan TAS betekent meewind, dus wind van achteren (zuidelijke kant). Samen: zuidwest."
+  },
+  {
+   "v": "Volgens de vuistregel is de maximale drifthoek (wind loodrecht op de track) WCA = windsnelheid / TAS x 60. Hoe groot is die bij TAS 60 kt en wind 15 kt?",
+   "a": [
+    "4°",
+    "25°",
+    "15°",
+    "7,5°"
+   ],
+   "juist": 2,
+   "uitleg": "15 / 60 x 60 = 15°. Exact is het arcsin(0,25) = 14,5°, dus de vuistregel klopt goed. Bij windrichtingen schuin op de track is de drift kleiner."
+  },
+  {
+   "v": "Ware koers 300°, wind 345°/30 kt, TAS 90 kt. Gebruik dwarswind = tegenwind = 0,7 x windsnelheid en WCA = dwarswind / TAS x 60. Wat zijn TH en GS ongeveer?",
+   "a": [
+    "TH ongeveer 286°, GS tussen 65 en 70 kt",
+    "TH ongeveer 314°, GS tussen 65 en 70 kt",
+    "TH ongeveer 314°, GS ongeveer 111 kt",
+    "TH ongeveer 321°, GS 60 kt"
+   ],
+   "juist": 1,
+   "uitleg": "De wind staat 45° rechts van de track: dwarswind = tegenwind = 0,7 x 30 = 21 kt. WCA = 21 / 90 x 60 = 14° rechts, TH = 314°. GS = TAS - tegenwind = 69 kt (nauwkeurig met de cos(WCA) erbij ongeveer 66 kt)."
+  },
+  {
+   "v": "Je passeert een checkpoint om 14:12 UTC. Het volgende keerpunt ligt 63 km verder op een been met recht meewind van 21 km/h. Je TAS is 105 km/h. Wat is je ETA?",
+   "a": [
+    "14:48 UTC",
+    "14:42 UTC",
+    "14:57 UTC",
+    "14:36 UTC"
+   ],
+   "juist": 1,
+   "uitleg": "GS = 105 + 21 = 126 km/h. 63 / 126 = 0,5 uur = 30 min. 14:12 + 30 min = 14:42. 14:48 is de ETA zonder wind (36 min), 14:57 met de wind als tegenwind (84 km/h, 45 min)."
+  },
+  {
+   "v": "Je passeert punt A om 10:00 en punt B, 12 NM verder, om 10:09. Van B naar C is het nog 40 NM bij dezelfde wind en snelheid. Wat is je nieuwe ETA voor C?",
+   "a": [
+    "10:35",
+    "10:39",
+    "10:43",
+    "10:49"
+   ],
+   "juist": 1,
+   "uitleg": "Grondsnelheid = 12 NM in 9 min = 80 kt (1,33 NM/min). 40 NM / 1,33 = 30 min. 10:09 + 30 = 10:39."
+  },
+  {
+   "v": "In de vliegweerverwachting staat de wind op 2000 ft als 250°/20 kt. De variatie is 3° E. Welke windrichting gebruik je in een windberekening met ware koersen, en welke richting zou een verkeerstoren voor dezelfde wind melden?",
+   "a": [
+    "253° in de berekening; de toren meldt 250°",
+    "247° in de berekening; de toren meldt 250°",
+    "250° in de berekening en de toren meldt ook 250°",
+    "250° in de berekening; de toren meldt ongeveer 247°"
+   ],
+   "juist": 3,
+   "uitleg": "Windrichtingen in verwachtingen en METAR/TAF zijn ten opzichte van het ware noorden. Een toren en ATIS geven de wind magnetisch, omdat banen magnetisch zijn benoemd: 250 - 3 (oostelijke variatie) = 247°."
+  },
+  {
+   "v": "In windstilte kun je vanaf je huidige hoogte 30 km ver glijden bij 100 km/h. Er staat recht tegenwind van 20 km/h en je blijft 100 km/h vliegen met dezelfde daalsnelheid. Hoe ver kom je nu ongeveer?",
+   "a": [
+    "24 km",
+    "30 km",
+    "10 km",
+    "36 km"
+   ],
+   "juist": 0,
+   "uitleg": "De tijd in de lucht blijft gelijk (zelfde hoogte en daalsnelheid), maar je grondsnelheid daalt van 100 naar 80 km/h. De afstand neemt dus af met factor 0,8: 30 x 0,8 = 24 km."
+  },
+  {
+   "v": "Je GPS toont track 095° en GS 72 kt. Volgens kompas (gecorrigeerd naar waar) is je heading 085° en je TAS is 80 kt. Wat is de wind ongeveer?",
+   "a": [
+    "Uit ongeveer 210° met ongeveer 15 kt",
+    "Uit ongeveer 030° met ongeveer 15 kt",
+    "Uit ongeveer 330° met ongeveer 15 kt",
+    "Uit ongeveer 030° met ongeveer 8 kt"
+   ],
+   "juist": 1,
+   "uitleg": "Track 10° rechts van heading betekent wind van links (noordelijke kant). GS kleiner dan TAS betekent een tegenwindcomponent. Uitgerekend met de vectoren komt de wind uit ongeveer 031° met 15,5 kt."
+  },
+  {
+   "v": "Je vliegt een gesloten driehoek en de wind is de hele vlucht constant. Hoe verhoudt de totale vliegtijd zich tot die bij windstilte (zelfde TAS)?",
+   "a": [
+    "Langer, bij elke windrichting",
+    "Precies gelijk, de wind valt over een gesloten baan weg",
+    "Korter als de wind dwars op het langste been staat",
+    "Korter of langer, afhankelijk van de windrichting"
+   ],
+   "juist": 0,
+   "uitleg": "Op een gesloten baan verlies je tegen de wind en bij dwarswind meer tijd dan je met de wind mee wint. Bij elke wind is de totale tijd langer dan bij windstilte."
+  },
+  {
+   "v": "Je TAS is 110 km/h en er staat een zuivere dwarswind van 20 kt. Hoe groot is de WCA volgens de vuistregel dwarswind / TAS x 60?",
+   "a": [
+    "Ongeveer 20°",
+    "Ongeveer 11°",
+    "Ongeveer 34°",
+    "Ongeveer 6°"
+   ],
+   "juist": 0,
+   "uitleg": "Eerst dezelfde eenheid: 20 kt = 37 km/h. 37 / 110 x 60 = 20°. Wie 20 kt direct deelt door 110 km/h krijgt 11° en corrigeert dus maar half."
+  },
+  {
+   "v": "Ware koers 245°, wind 200°/20 kt, TAS 90 kt, variatie 2° E, deviatie 3° W. Gebruik dwarswind = 0,7 x windsnelheid en WCA = dwarswind / TAS x 60. Wat is de kompaskoers?",
+   "a": [
+    "237°",
+    "231°",
+    "241°",
+    "255°"
+   ],
+   "juist": 0,
+   "uitleg": "Wind 45° links van de track: dwarswind 14 kt, WCA = 14 / 90 x 60 = 9° links. TH = 236°. Oostelijke variatie aftrekken: MH = 234°. Westelijke deviatie optellen: CH = 237°."
+  },
+  {
+   "v": "Je moet een melding doen 2 minuten voordat je een CTR-grens bereikt die nog 17,5 NM verder ligt. Je grondsnelheid is 105 kt en het is nu 14:00. Wanneer doe je de melding?",
+   "a": [
+    "14:10",
+    "14:12",
+    "14:06",
+    "14:08"
+   ],
+   "juist": 3,
+   "uitleg": "105 kt = 1,75 NM per minuut. 17,5 / 1,75 = 10 minuten tot de grens, dus om 14:10. Twee minuten eerder is 14:08."
+  },
+  {
+   "v": "Je passeert twee checkpoints die 6 km uit elkaar liggen met 3 minuten tussentijd. Je TAS is 100 km/h. Welke windcomponent langs de track heb je?",
+   "a": [
+    "Ongeveer 20 km/h tegenwind",
+    "Ongeveer 20 km/h meewind",
+    "Ongeveer 40 km/h meewind",
+    "Ongeveer 10 km/h meewind"
+   ],
+   "juist": 1,
+   "uitleg": "6 km in 3 minuten is 2 km per minuut = 120 km/h grondsnelheid. Dat is 20 km/h meer dan de TAS, dus 20 km/h meewindcomponent."
+  },
+  {
+   "v": "Welke drie vectoren vormen samen de navigatiedriehoek (windtriangel)?",
+   "a": [
+    "Luchtvector (TH/TAS), windvector (W/V) en grondvector (track/GS)",
+    "Luchtvector (TH/IAS), windvector (W/V) en kompasvector (CH/GS)",
+    "Grondvector (track/TAS), windvector (W/V) en kompasvector (CH/IAS)",
+    "Luchtvector (track/TAS), windvector (W/V) en grondvector (TH/GS)"
+   ],
+   "juist": 0,
+   "uitleg": "Het toestel beweegt door de lucht met heading en TAS (luchtvector); de lucht beweegt met de wind (windvector); de som is de beweging over de grond: track en grondsnelheid."
+  },
+  {
+   "v": "IAS 90 kt op 6000 ft, ongeveer standaardatmosfeer. Welke TAS gebruik je ongeveer bij je planning? (vuistregel: TAS is 2% hoger dan IAS per 1000 ft)",
+   "a": [
+    "90 kt",
+    "Ongeveer 79 kt",
+    "Ongeveer 101 kt",
+    "Ongeveer 108 kt"
+   ],
+   "juist": 2,
+   "uitleg": "6 x 2% = 12%. 90 x 1,12 = 100,8 kt. Bij navigatieberekeningen moet je met TAS rekenen; met lagere luchtdichtheid op hoogte is de TAS groter dan de IAS."
+  },
+  {
+   "v": "Bij een gegeven dwarswindcomponent hangt de benodigde windcorrectiehoek af van:",
+   "a": [
+    "De grondsnelheid",
+    "De tegenwindcomponent",
+    "De TAS",
+    "De IAS op de grond"
+   ],
+   "juist": 2,
+   "uitleg": "De WCA volgt uit sin(WCA) = dwarswind / TAS. Hoe sneller je door de lucht vliegt, hoe kleiner de hoek die nodig is om dezelfde dwarswind te compenseren."
+  },
+  {
+   "v": "Je vliegt een been eerst met 150 km/h. Later vlieg je bij zwakker weer met 100 km/h, bij dezelfde dwarswind. Wat gebeurt er met de benodigde WCA?",
+   "a": [
+    "Die blijft gelijk, want de wind is gelijk",
+    "Die wordt ongeveer 1,5 keer zo klein",
+    "Die wordt ongeveer 1,5 keer zo groot",
+    "Die wordt ongeveer 50 km/h groter"
+   ],
+   "juist": 2,
+   "uitleg": "WCA is ongeveer dwarswind / TAS x 60. Bij een factor 1,5 lagere TAS wordt de WCA ongeveer 1,5 keer zo groot. Langzamer vliegen betekent dus meer voorhouden."
+  },
+  {
+   "v": "Je cirkelt 6 minuten in een thermiekbel. De wind is 270°/25 km/h. Waar ben je na het uitcirkelen ten opzichte van het punt waar je begon te cirkelen?",
+   "a": [
+    "Ongeveer 2,5 km ten westen",
+    "Ongeveer 4,6 km ten oosten",
+    "Ongeveer 2,5 km ten oosten",
+    "Op hetzelfde punt, want cirkelen heft de wind op"
+   ],
+   "juist": 2,
+   "uitleg": "Tijdens het cirkelen drijf je met de luchtmassa mee. Wind uit het westen verplaatst je naar het oosten: 25 km/h x 0,1 h = 2,5 km. 4,6 km krijg je als je 25 als knopen rekent."
+  },
+  {
+   "v": "Ware koers 000°, wind 135°/20 kt, TAS 90 kt. Gebruik dwarswind = meewind = 0,7 x windsnelheid. Wat zijn TH en GS ongeveer?",
+   "a": [
+    "TH ongeveer 009°, GS ongeveer 103 kt",
+    "TH ongeveer 351°, GS ongeveer 103 kt",
+    "TH ongeveer 009°, GS ongeveer 76 kt",
+    "TH ongeveer 351°, GS ongeveer 76 kt"
+   ],
+   "juist": 0,
+   "uitleg": "De wind komt van rechts-achter (135° ligt 135° rechts van de track). Dwarswind 14 kt van rechts: WCA = 14 / 90 x 60 = 9° naar rechts, TH = 009°. Meewind 14 kt: GS = ongeveer 103 kt."
+  },
+  {
+   "v": "Ware koers 000°, zuivere dwarswind van 25 kt, TAS 50 kt. Wat zijn de WCA en de grondsnelheid exact? (sin 30° = 0,5, cos 30° = 0,87)",
+   "a": [
+    "WCA 30°, GS 50 kt",
+    "WCA 26,6°, GS ongeveer 56 kt",
+    "WCA 60°, GS 25 kt",
+    "WCA 30°, GS ongeveer 43 kt"
+   ],
+   "juist": 3,
+   "uitleg": "sin(WCA) = 25 / 50 = 0,5, dus WCA = 30°. GS = TAS x cos(WCA) = 50 x 0,87 = 43 kt. Bij grote correcties wordt het snelheidsverlies door het schuin vliegen goed merkbaar."
+  },
+  {
+   "v": "Je vergeet de windcorrectie en vliegt 30 minuten met de ware koers als heading. De drift is 6° en je grondsnelheid 100 km/h. Hoe ver zit je dan naast je geplande lijn?",
+   "a": [
+    "Ongeveer 3 km",
+    "Ongeveer 6 km",
+    "Ongeveer 10 km",
+    "Ongeveer 5 km"
+   ],
+   "juist": 3,
+   "uitleg": "In 30 minuten leg je 50 km af. Volgens de 1-in-60-regel geeft 6° op 60 km 6 km afwijking, dus op 50 km: 50 x 6 / 60 = 5 km."
+  },
+  {
+   "v": "Op de heenweg langs een been is je grondsnelheid 120 km/h, op de terugweg langs hetzelfde been 80 km/h. De wind staat recht op de lijn en je TAS is beide keren gelijk. Wat zijn TAS en windcomponent?",
+   "a": [
+    "TAS 100 km/h, windcomponent 20 km/h",
+    "TAS 100 km/h, windcomponent 40 km/h",
+    "TAS 120 km/h, windcomponent 40 km/h",
+    "TAS 80 km/h, windcomponent 20 km/h"
+   ],
+   "juist": 0,
+   "uitleg": "Heen: TAS + W = 120, terug: TAS - W = 80. Optellen: 2 x TAS = 200, dus TAS = 100 km/h en W = 20 km/h."
+  },
+  {
+   "v": "Je moet 45 km afleggen in 25 minuten. Er staat 20 km/h tegenwind recht op de lijn. Welke TAS heb je nodig?",
+   "a": [
+    "128 km/h",
+    "108 km/h",
+    "88 km/h",
+    "120 km/h"
+   ],
+   "juist": 0,
+   "uitleg": "Benodigde GS = 45 km / (25/60 h) = 108 km/h. Bij 20 km/h tegenwind is de benodigde TAS 108 + 20 = 128 km/h."
+  },
+  {
+   "v": "Je stuurt je geplande heading, maar ziet na 30 km dat je 2 km links van de lijn zit. Hoeveel graden extra stuur je naar rechts om vanaf hier evenwijdig aan de geplande lijn te vliegen?",
+   "a": [
+    "4°",
+    "2°",
+    "8°",
+    "15°"
+   ],
+   "juist": 0,
+   "uitleg": "Koersfout = 2 x 60 / 30 = 4°. Met 4° correctie naar rechts vlieg je evenwijdig; om ook terug te komen op de lijn is extra correctie nodig."
+  },
+  {
+   "v": "De wind komt schuin van rechts-voor. Naar welke kant stuur je je correctie en wat doet je grondsnelheid ten opzichte van de TAS?",
+   "a": [
+    "Correctie naar links, grondsnelheid lager dan TAS",
+    "Correctie naar rechts, grondsnelheid lager dan TAS",
+    "Correctie naar rechts, grondsnelheid hoger dan TAS",
+    "Correctie naar links, grondsnelheid hoger dan TAS"
+   ],
+   "juist": 1,
+   "uitleg": "Je stuurt de neus altijd de wind in, dus naar rechts. Een wind van voren geeft een tegenwindcomponent en bovendien kost het voorhouden snelheid, dus GS is lager dan TAS."
+  },
+  {
+   "v": "Met een koersfout van 4° vlieg je 90 NM. Hoe ver zit je aan het eind naast de geplande track? (1-in-60-regel)",
+   "a": [
+    "6 NM",
+    "4 NM",
+    "2,7 NM",
+    "9 NM"
+   ],
+   "juist": 0,
+   "uitleg": "Volgens de 1-in-60-regel geeft 1° op 60 NM 1 NM afwijking. 4° geeft op 60 NM 4 NM, op 90 NM dus 4 x 90 / 60 = 6 NM."
+  },
+  {
+   "v": "Op je geplande been van 20 minuten passeer je het checkpoint pas na 23 minuten. Het volgende been ligt in dezelfde richting en was gepland op 30 minuten. Wat is je beste nieuwe schatting voor dat been?",
+   "a": [
+    "33 minuten",
+    "30 minuten",
+    "Ongeveer 26 minuten",
+    "Ongeveer 34-35 minuten"
+   ],
+   "juist": 3,
+   "uitleg": "Je grondsnelheid is een factor 20/23 lager dan gepland. Het volgende been duurt dus 30 x 23 / 20 = 34,5 minuten. 33 minuten (30 + 3) negeert dat de vertraging evenredig met de afstand groeit."
+  },
+  {
+   "v": "Je hebt bij de planning een WCA van 8° naar links uitgerekend. Onderweg zie je dat je ondanks deze correctie langzaam naar rechts van de lijn wegdrijft. Wat is de meest waarschijnlijke verklaring?",
+   "a": [
+    "De dwarswind van links is sterker dan verwacht, of je TAS is lager",
+    "De dwarswind van rechts is sterker dan in de verwachting stond",
+    "De wind is helemaal gedraaid en komt nu van rechts in plaats van links",
+    "Je vliegt sneller dan gepland, waardoor je correctie te groot is geworden"
+   ],
+   "juist": 0,
+   "uitleg": "Je drijft nog steeds naar rechts, dus de correctie naar links is te klein. Dat gebeurt als de dwarswind van links sterker is dan gepland of als je TAS lager is, waardoor een grotere WCA nodig is."
+  },
+  {
+   "v": "Bij een vuistregelberekening kom je op een WCA van 20° bij een TAS van 60 kt. Wat weet je over de grondsnelheid bij zuivere dwarswind? (cos 20° = 0,94)",
+   "a": [
+    "Die is ongeveer 56 kt, ongeveer 6% lager dan de TAS",
+    "Die is precies 60 kt, want er is geen tegenwindcomponent",
+    "Die is ongeveer 40 kt, de TAS min de WCA",
+    "Die is ongeveer 64 kt, omdat de wind je vooruit duwt"
+   ],
+   "juist": 0,
+   "uitleg": "Langs de track werkt alleen TAS x cos(WCA) = 60 x 0,94 = 56 kt. Bij grote correctiehoeken mag je dit verlies niet verwaarlozen."
+  },
+  {
+   "v": "Je vertrekt om 13:20 UTC voor een been van 54 km. Je grondsnelheid op de eerste 18 km is 72 km/h, daarna draait de wind en is je grondsnelheid op de rest 108 km/h. Hoe laat ben je op het keerpunt?",
+   "a": [
+    "13:55 UTC",
+    "13:56 UTC",
+    "14:05 UTC",
+    "13:50 UTC"
+   ],
+   "juist": 0,
+   "uitleg": "18 km bij 72 km/h duurt 15 minuten; de overige 36 km bij 108 km/h duurt 20 minuten. Samen 35 minuten, dus 13:55 UTC. 13:56 krijg je als je het gewone gemiddelde van de snelheden (90 km/h) neemt, wat niet mag omdat je niet even lang met elke snelheid vliegt."
+  },
+  {
+   "v": "Op de ICAO-kaart staat bij een obstakel '425 (390)'. Hoe hoog ligt het terrein aan de voet van het obstakel?",
+   "a": [
+    "35 ft AMSL",
+    "390 ft AMSL",
+    "425 ft AMSL",
+    "815 ft AMSL"
+   ],
+   "juist": 0,
+   "uitleg": "Het eerste getal is de tophoogte boven gemiddeld zeeniveau (AMSL), het getal tussen haakjes de hoogte boven de grond (AGL). Terrein = 425 - 390 = 35 ft AMSL."
+  },
+  {
+   "v": "Een TMA-sector heeft een bovengrens van FL 065 en een ondergrens van 1500 ft AMSL. Je vliegt met de actuele QNH ingesteld op 1800 ft. Waar bevind je je?",
+   "a": [
+    "Onder de TMA, want 1500 ft betekent FL 015",
+    "Onder de TMA, want de ondergrens is 1500 ft boven het terrein",
+    "In de TMA, want je zit boven de ondergrens van 1500 ft AMSL",
+    "Boven de TMA, want 1800 ft is hoger dan 1500 ft"
+   ],
+   "juist": 2,
+   "uitleg": "Een ondergrens in ft zonder FL is een hoogte ten opzichte van zeeniveau (AMSL), die je met de QNH afleest. Op 1800 ft QNH zit je boven de ondergrens en dus in de TMA."
+  },
+  {
+   "v": "De ondergrens van een TMA is FL 035. De QNH is 993 hPa. Tot welke hoogte op QNH kun je ongeveer vliegen zonder de TMA in te gaan (zonder extra marge, 1 hPa = 30 ft)?",
+   "a": [
+    "Ongeveer 2900 ft",
+    "3500 ft",
+    "Ongeveer 4100 ft",
+    "Ongeveer 3200 ft"
+   ],
+   "juist": 0,
+   "uitleg": "FL 035 is 3500 ft boven het 1013-drukvlak. Bij QNH 993 ligt dat drukvlak 20 hPa x 30 ft = 600 ft onder zeeniveau, dus FL 035 ligt op ongeveer 3500 - 600 = 2900 ft QNH."
+  },
+  {
+   "v": "Je vliegt op 5700 ft met de actuele QNH van 1028 hPa ingesteld. De TMA boven je begint op FL 055. Wat geldt? (1 hPa = 30 ft)",
+   "a": [
+    "Je zit ongeveer 200 ft in de TMA, want 5700 ft is meer dan 5500 ft",
+    "Je zit ongeveer 650 ft in de TMA",
+    "Je zit precies op de ondergrens van de TMA",
+    "Je zit ongeveer 250 ft onder de ondergrens van de TMA"
+   ],
+   "juist": 3,
+   "uitleg": "Bij hoge druk ligt het 1013-drukvlak boven zeeniveau: 15 hPa x 30 = 450 ft. FL 055 ligt dan op ongeveer 5500 + 450 = 5950 ft QNH, dus op 5700 ft zit je er 250 ft onder. 650 ft in de TMA krijg je als je de correctie de verkeerde kant op toepast."
+  },
+  {
+   "v": "Bij welke QNH ligt FL 035 het laagst boven gemiddeld zeeniveau?",
+   "a": [
+    "1013 hPa",
+    "1025 hPa",
+    "990 hPa",
+    "1035 hPa"
+   ],
+   "juist": 2,
+   "uitleg": "Hoe lager de druk, hoe lager het 1013,25-drukvlak en alle vliegniveaus daarboven liggen. Bij lage QNH ligt een FL-ondergrens dus lager dan het getal doet vermoeden."
+  },
+  {
+   "v": "Welke omschrijving van P-, R- en D-gebieden is juist?",
+   "a": [
+    "P: beperkt; R: verboden; D: mogelijk gevaarlijke activiteiten",
+    "P: parachutespringen; R: radioplicht; D: doorvliegen verboden",
+    "P: verboden; R: alleen onder voorwaarden; D: mogelijk gevaarlijke activiteiten",
+    "P: verboden; R: mogelijk gevaarlijke activiteiten; D: alleen onder voorwaarden"
+   ],
+   "juist": 2,
+   "uitleg": "Prohibited area: verboden. Restricted area: beperkt, alleen onder voorwaarden (bijvoorbeeld buiten activatietijden of met toestemming). Danger area: er kunnen gevaarlijke activiteiten plaatsvinden, zoals schieten."
+  },
+  {
+   "v": "Een veld staat op de kaart met 'ELEV -11'. Je zet op de grond de actuele QNH in. Wat wijst de hoogtemeter aan?",
+   "a": [
+    "0 ft",
+    "+11 ft",
+    "1013 ft",
+    "-11 ft"
+   ],
+   "juist": 3,
+   "uitleg": "Met de QNH ingesteld wijst de hoogtemeter op de grond de veldhoogte boven zeeniveau aan. Dit veld ligt 11 ft onder zeeniveau, dus -11 ft. 0 ft lees je af met de QFE."
+  },
+  {
+   "v": "Wat geeft een obstakelsymbool met korte stralen (flitsjes) eromheen op de ICAO-kaart aan?",
+   "a": [
+    "Dat het obstakel verlicht is",
+    "Dat het een zendmast met radiostraling is",
+    "Dat het obstakel hoger is dan 1000 ft",
+    "Dat het een tijdelijk obstakel is dat per NOTAM is gepubliceerd"
+   ],
+   "juist": 0,
+   "uitleg": "In de ICAO-legenda geven stralen rond het obstakelsymbool aan dat het obstakel verlicht is. De hoogte lees je uit de getallen erbij."
+  },
+  {
+   "v": "Welk verschil tussen een CTR en een TMA is juist?",
+   "a": [
+    "Een TMA begint bij het aardoppervlak, een CTR heeft een ondergrens erboven",
+    "Een CTR is ongecontroleerd luchtruim, een TMA is gecontroleerd luchtruim",
+    "Een CTR ligt boven een TMA en sluit daar direct op aan",
+    "Een CTR begint bij het aardoppervlak, een TMA heeft een ondergrens erboven"
+   ],
+   "juist": 3,
+   "uitleg": "Een control zone (CTR) loopt van het aardoppervlak tot een bepaalde hoogte rond een vliegveld. Een TMA is een gecontroleerd gebied met een ondergrens erboven, waaronder je zonder klaring kunt blijven vliegen."
+  },
+  {
+   "v": "Op de kaart is een gebied aangegeven als TMZ. Wat betekent dat voor een zweefvliegtuig zonder transponder?",
+   "a": [
+    "Je mag er niet in, tenzij er een uitzondering of afspraak geldt",
+    "Je mag erin, want de transponderplicht in een TMZ geldt voor motorvliegtuigen",
+    "Je mag erin zolang je een werkende radio aan boord hebt en uitluistert",
+    "Je mag erin zolang je boven de transitiehoogte van 3000 ft blijft"
+   ],
+   "juist": 0,
+   "uitleg": "In een Transponder Mandatory Zone is het voeren van een werkende transponder verplicht (SERA.6005(b)). Zonder transponder mag je er alleen in als de luchtverkeersdienstverlener daar een alternatieve regeling voor heeft vastgesteld; een radio vervangt de transponder niet."
+  },
+  {
+   "v": "Wat houdt een RMZ (Radio Mandatory Zone) in?",
+   "a": [
+    "Een werkende transponder is verplicht, radio is niet nodig",
+    "Je hebt vooraf een klaring van de luchtverkeersleiding nodig",
+    "Tweewegradio is verplicht en je meldt je vóór het invliegen",
+    "Toegang is beperkt tot noodvluchten en staatsluchtvaart"
+   ],
+   "juist": 2,
+   "uitleg": "In een RMZ is het hebben van radio en het uitluisteren en melden op de voorgeschreven frequentie verplicht. Een RMZ zegt op zichzelf niets over een klaring of transponder."
+  },
+  {
+   "v": "Een TMA heeft een ondergrens van 2500 ft AMSL. Het terrein onder je route ligt op 400 ft AMSL. Je wilt minstens 200 ft onder de TMA-ondergrens blijven. Hoe hoog boven het terrein kun je maximaal vliegen?",
+   "a": [
+    "2300 ft",
+    "1900 ft",
+    "2100 ft",
+    "2700 ft"
+   ],
+   "juist": 1,
+   "uitleg": "Maximale hoogte AMSL: 2500 - 200 = 2300 ft. Boven het terrein van 400 ft is dat 2300 - 400 = 1900 ft AGL. 2300 ft is de hoogte boven zeeniveau."
+  },
+  {
+   "v": "Je wilt recht over een mast vliegen die op de kaart staat als '820 (790)'. Je bent niet bezig met opstijgen of landen en vliegt buiten bebouwd gebied. Wat is volgens SERA de minimale hoogte op QNH?",
+   "a": [
+    "1290 ft",
+    "530 ft",
+    "1000 ft",
+    "1320 ft"
+   ],
+   "juist": 3,
+   "uitleg": "Buiten bebouwd gebied moet je minimaal 500 ft boven de grond of het water vliegen, of 500 ft boven het hoogste obstakel binnen 150 m. Top mast 820 ft AMSL + 500 = 1320 ft QNH. 1290 ft is 500 ft boven de masthoogte AGL zonder het terrein mee te tellen."
+  },
+  {
+   "v": "Je vliegt over een stad. Het hoogste obstakel binnen 600 m van je toestel heeft een tophoogte van 280 ft AMSL. Wat is volgens SERA de minimale hoogte op QNH (niet bij opstijgen of landen)?",
+   "a": [
+    "1000 ft",
+    "1280 ft",
+    "780 ft",
+    "1500 ft"
+   ],
+   "juist": 1,
+   "uitleg": "Boven bebouwd gebied geldt minimaal 1000 ft boven het hoogste obstakel binnen een straal van 600 m: 280 + 1000 = 1280 ft. 780 ft is de regel voor buiten bebouwd gebied."
+  },
+  {
+   "v": "Je hebt de luchtvaartkaart van dit jaar. Welke informatie moet je voor een overlandvlucht toch nog apart controleren?",
+   "a": [
+    "NOTAM's en AIP-supplementen met tijdelijke beperkingen en activaties",
+    "Niets, want de kaart van dit jaar bevat alle geldende informatie",
+    "De magnetische variatie, omdat die maandelijks wordt bijgesteld",
+    "De veldhoogtes, omdat die elk voorjaar opnieuw worden gemeten"
+   ],
+   "juist": 0,
+   "uitleg": "De kaart is een momentopname. Tijdelijke gebieden, wijzigingen en activaties worden via NOTAM en AIP SUP bekendgemaakt en moet je voor elke vlucht controleren."
+  },
+  {
+   "v": "Waarom vlieg je niet laag over een zweefvliegterrein dat op de kaart staat, ook als daar geen verkeer zichtbaar lijkt?",
+   "a": [
+    "Omdat zweefvliegterreinen verboden gebied zijn voor ander verkeer",
+    "Omdat er bijna onzichtbare lierkabels tot honderden meters hoog kunnen zijn",
+    "Omdat je boven een zweefvliegterrein een klaring van de veldleider nodig hebt",
+    "Omdat de veldhoogte van zweefvliegterreinen niet op de kaart staat"
+   ],
+   "juist": 1,
+   "uitleg": "Bij lierstarts gaat de kabel tot honderden meters hoogte en valt na ontkoppeling naar beneden. Kabels en startende toestellen zijn van boven moeilijk te zien."
+  },
+  {
+   "v": "Je ziet op de kaart een parachutespringterrein vlak bij je route. Wat is de beste planning?",
+   "a": [
+    "Ruim vermijden: springers en afzettoestel kunnen tot grote hoogte actief zijn",
+    "Er laag overheen vliegen, want springers openen hun scherm boven 3000 ft",
+    "Er gewoon doorheen vliegen, want springers moeten voorrang verlenen",
+    "Opletten als er een NOTAM is, want zonder NOTAM wordt er niet gesprongen"
+   ],
+   "juist": 0,
+   "uitleg": "Bij parachutespringen wordt vanaf grote hoogte gesprongen en dalen springers door alle hoogtes naar het terrein. Ze zijn slecht zichtbaar; ruim vermijden of vooraf informeren is de veilige keuze."
+  },
+  {
+   "v": "Je veld ligt op 60 ft AMSL. De QNH is 1018 hPa. Wat is de QFE ongeveer? (1 hPa = 30 ft)",
+   "a": [
+    "1020 hPa",
+    "1018 hPa",
+    "1013 hPa",
+    "1016 hPa"
+   ],
+   "juist": 3,
+   "uitleg": "De QFE is de druk op veldhoogte. Het veld ligt 60 ft boven zeeniveau, dus de druk is daar 60 / 30 = 2 hPa lager dan de QNH: 1016 hPa."
+  },
+  {
+   "v": "Je veld ligt op 60 ft AMSL en je vliegt met de hoogtemeter op QFE. Boven je ligt een TMA met ondergrens 1500 ft AMSL. Welke hoogtemeterwaarde mag je maximaal aanhouden om onder de TMA te blijven (zonder marge)?",
+   "a": [
+    "1500 ft",
+    "1440 ft",
+    "1560 ft",
+    "1013 ft"
+   ],
+   "juist": 1,
+   "uitleg": "Op QFE lees je de hoogte boven het veld. De ondergrens ligt 1500 - 60 = 1440 ft boven het veld. Wie 1500 ft op QFE vliegt, zit 60 ft in de TMA. Daarom hoort de QNH bij luchtruimgrenzen."
+  },
+  {
+   "v": "Je ware track is 178°, de variatie 4° W. Je vliegt hoger dan 3000 ft boven het terrein en past de semicirkelregel toe. Welk VFR-kruisniveau is juist?",
+   "a": [
+    "FL 045",
+    "FL 055",
+    "FL 050",
+    "FL 035"
+   ],
+   "juist": 0,
+   "uitleg": "De semicirkelregel gaat uit van de magnetische track: 178 + 4 = 182°. Voor 180-359° geldt bij VFR even duizendtallen plus 500 ft, dus FL 045 (of FL 065). Wie de ware track gebruikt, komt ten onrechte op een oneven niveau."
+  },
+  {
+   "v": "Vanaf welke hoogte moet je volgens SERA in kruisvlucht VFR de semicirkelregel voor kruisniveaus toepassen?",
+   "a": [
+    "Boven de transitiehoogte van 3000 ft AMSL",
+    "Boven 3000 ft boven de grond of het water",
+    "Vanaf 1000 ft boven de grond",
+    "In luchtruim klasse C en D, ongeacht de hoogte"
+   ],
+   "juist": 1,
+   "uitleg": "SERA schrijft VFR-kruisniveaus volgens de tabel voor wanneer je in kruisvlucht boven 900 m (3000 ft) boven de grond of het water vliegt. Het gaat om de hoogte boven het terrein, niet om de transitiehoogte."
+  },
+  {
+   "v": "In Nederland is de transitiehoogte 3000 ft. Je klimt vanaf je veld naar FL 055. Wanneer stel je de hoogtemeter in op 1013,25 hPa?",
+   "a": [
+    "Bij het passeren van het transitieniveau tijdens de klim",
+    "Al op de grond voor vertrek",
+    "Bij het passeren van de transitiehoogte tijdens de klim",
+    "Pas als je FL 055 hebt bereikt"
+   ],
+   "juist": 2,
+   "uitleg": "Tijdens de klim stel je bij het passeren van de transitiehoogte de standaardinstelling in; daarboven vlieg je op vliegniveaus. In de daling stel je de QNH in bij het passeren van het transitieniveau."
+  },
+  {
+   "v": "Je daalt vanaf FL 055 naar 2000 ft. Wanneer stel je de hoogtemeter weer in op de QNH?",
+   "a": [
+    "Bij het passeren van de transitiehoogte",
+    "Pas bij het intreden van het circuit",
+    "Pas op de grond na de landing",
+    "Bij het passeren van het transitieniveau"
+   ],
+   "juist": 3,
+   "uitleg": "In de daling ga je bij het transitieniveau (het laagste bruikbare vliegniveau boven de transitiehoogte) over op QNH, zodat je daaronder hoogtes ten opzichte van zeeniveau afleest."
+  },
+  {
+   "v": "Je vertrekt met de QNH van 1025 hPa ingesteld en vliegt naar een gebied waar de QNH 1010 hPa is, zonder bij te stellen. Je hoogtemeter wijst 2000 ft aan. Hoe hoog vlieg je werkelijk ongeveer boven zeeniveau? (1 hPa = 30 ft)",
+   "a": [
+    "Ongeveer 2450 ft",
+    "2000 ft",
+    "Ongeveer 1550 ft",
+    "Ongeveer 1985 ft"
+   ],
+   "juist": 2,
+   "uitleg": "De ingestelde waarde is 15 hPa te hoog, dus de hoogtemeter wijst 15 x 30 = 450 ft te veel aan: werkelijk ongeveer 1550 ft. Van hoog naar laag: kijk uit naar beneden."
+  },
+  {
+   "v": "De temperatuur is 20 °C lager dan in de standaardatmosfeer. Je vliegt op 3000 ft boven het veld waarvan je de QNH hebt ingesteld (veld op zeeniveau). Wat geldt voor je werkelijke hoogte? (vuistregel 4 ft per 1000 ft per °C)",
+   "a": [
+    "Ongeveer 240 ft hoger dan aangewezen",
+    "Ongeveer 240 ft lager dan aangewezen",
+    "Ongeveer 600 ft lager dan aangewezen",
+    "Gelijk aan de aangewezen hoogte, de QNH corrigeert voor temperatuur"
+   ],
+   "juist": 1,
+   "uitleg": "4 ft x 3 x 20 = 240 ft. Koude lucht is dichter, de drukvlakken liggen dichter bij elkaar en de hoogtemeter wijst te veel aan. De QNH corrigeert alleen voor de druk op zeeniveau, niet voor de temperatuur."
+  },
+  {
+   "v": "Bij welke combinatie wijst je hoogtemeter de grootste overschatting van je werkelijke hoogte aan, als je de QNH van je vertrekveld laat staan?",
+   "a": [
+    "Je vliegt naar een gebied met lagere druk en de lucht is kouder dan standaard",
+    "Je vliegt naar een gebied met hogere druk en de lucht is warmer dan standaard",
+    "Je vliegt naar een gebied met lagere druk en de lucht is warmer dan standaard",
+    "Je vliegt naar een gebied met hogere druk en de lucht is kouder dan standaard"
+   ],
+   "juist": 0,
+   "uitleg": "Zowel lagere druk als lagere temperatuur zorgen ervoor dat de hoogtemeter te veel aanwijst. Samen tellen ze op, waardoor je werkelijk het laagst vliegt ten opzichte van de aanwijzing."
+  },
+  {
+   "v": "Je route loopt 36 km lang evenwijdig aan een CTR-grens op 2 km afstand. Vanaf welke koersfout zit je aan het eind van het been in de CTR? (1-in-60-regel)",
+   "a": [
+    "Ongeveer 6°",
+    "Ongeveer 1°",
+    "Ongeveer 3,3°",
+    "Ongeveer 10°"
+   ],
+   "juist": 2,
+   "uitleg": "Afwijking = afstand x koersfout / 60. 2 km op 36 km geeft koersfout = 2 x 60 / 36 = 3,3°. Een kleine fout in variatie of drift is dus al genoeg; plan ruimere marges."
+  },
+  {
+   "v": "Je wilt tijdens een overland altijd een veld kunnen bereiken met 300 m aankomsthoogte. Je rekent met een glijgetal van 1:25 (inclusief wind en marge) en zit op 1100 m boven het terreinniveau. Hoe ver mag het dichtstbijzijnde geschikte veld maximaal liggen?",
+   "a": [
+    "27,5 km",
+    "20 km",
+    "7,5 km",
+    "25 km"
+   ],
+   "juist": 1,
+   "uitleg": "Beschikbare hoogte voor de glijvlucht: 1100 - 300 = 800 m. 800 m x 25 = 20 km. 27,5 km krijg je als je de aankomsthoogte vergeet."
+  },
+  {
+   "v": "Een R-gebied is volgens NOTAM actief van 0800 tot 1600 (UTC). Op een dag in juli passeer je het gebied om 17:30 lokale tijd. Wat is de situatie?",
+   "a": [
+    "Het gebied is niet meer actief, want 17:30 is na 16:00",
+    "Het gebied is niet meer actief, want 17:30 lokale tijd is 18:30 UTC",
+    "Dat is niet te zeggen, NOTAM-tijden zijn in lokale tijd",
+    "Het gebied is actief, want 17:30 lokale zomertijd is 15:30 UTC"
+   ],
+   "juist": 3,
+   "uitleg": "NOTAM-tijden zijn in UTC. In de zomer geldt in Nederland UTC+2, dus 17:30 lokale tijd = 15:30 UTC, binnen de activatietijd."
+  },
+  {
+   "v": "Welke volgorde gebruik je om van ware koers naar kompaskoers te rekenen?",
+   "a": [
+    "TC, variatie, deviatie, CH, en daarna de windcorrectie",
+    "TC, windcorrectie, TH, variatie, MH, deviatie, CH",
+    "TC, deviatie, MC, variatie, windcorrectie, CH",
+    "CH, variatie, windcorrectie, deviatie, TC"
+   ],
+   "juist": 1,
+   "uitleg": "Wind en koersen op de kaart zijn waar, dus eerst de windcorrectie (TC naar TH), dan variatie (naar MH) en als laatste de deviatie, die afhangt van de heading die je werkelijk stuurt (naar CH)."
+  },
+  {
+   "v": "Een R-gebied loopt volgens de kaart van GND tot FL 065 en is actief. De QNH is 1013 hPa. Je wilt over het gebied heen vliegen. Wat geldt?",
+   "a": [
+    "Op 4000 ft QNH zit je boven het gebied, want 4000 ft is meer dan 650 ft",
+    "Je moet hoger dan FL 065 vliegen, op 4000 ft QNH zit je in het gebied",
+    "Op 4000 ft zit je erboven, want de bovengrens is 6500 ft boven het terrein",
+    "Je mag op elke hoogte door het gebied, omdat een R-gebied een waarschuwing is"
+   ],
+   "juist": 1,
+   "uitleg": "FL 065 is 6500 ft drukhoogte; bij QNH 1013 is dat ongeveer 6500 ft boven zeeniveau. Op 4000 ft zit je dus in het actieve gebied. Een R-gebied is een beperking, geen waarschuwing."
+  },
+  {
+   "v": "Het hoogste punt van Nederland ligt ongeveer 322 m boven zeeniveau. Welke hoogte past daarbij in de eenheid van de ICAO-kaart?",
+   "a": [
+    "322 ft AMSL",
+    "Ongeveer 981 ft AMSL",
+    "Ongeveer 1056 ft AMSL",
+    "Ongeveer 1150 ft AMSL"
+   ],
+   "juist": 2,
+   "uitleg": "Terreinhoogtes op de ICAO-kaart staan in voet boven zeeniveau. 322 / 0,3048 = 1056 ft. Wie het getal zonder omrekening leest, onderschat de hoogte met een factor 3,3."
+  },
+  {
+   "v": "Een windturbine met een tiphoogte van 200 m staat op terrein dat 15 ft onder zeeniveau ligt. Hoe zou dit obstakel op de ICAO-kaart staan (top AMSL, hoogte AGL tussen haakjes)?",
+   "a": [
+    "641 (656)",
+    "656 (641)",
+    "671 (656)",
+    "200 (215)"
+   ],
+   "juist": 0,
+   "uitleg": "200 m = 656 ft boven de grond. De grond ligt op -15 ft, dus de top ligt op 656 - 15 = 641 ft AMSL. Onder zeeniveau is de AMSL-waarde dus kleiner dan de AGL-waarde."
+  },
+  {
+   "v": "In welke luchtruimklasse heb je als VFR-vlieger geen klaring van de luchtverkeersleiding nodig, maar is het luchtruim wel gecontroleerd?",
+   "a": [
+    "Klasse D",
+    "Klasse E",
+    "Klasse C",
+    "Klasse A"
+   ],
+   "juist": 1,
+   "uitleg": "Klasse E is gecontroleerd luchtruim waarin alleen IFR-verkeer een klaring nodig heeft. In C en D heb je als VFR-vlieger een klaring nodig; in A is VFR niet toegestaan."
+  },
+  {
+   "v": "Wat biedt een vluchtinformatiedienst (FIS) je tijdens een overlandvlucht in ongecontroleerd luchtruim?",
+   "a": [
+    "Separatie van al het andere verkeer en klaringen voor alle luchtruimen",
+    "Hulp in noodsituaties, maar geen verkeersinformatie of gebiedsstatus",
+    "Informatie, zoals verkeer en status van gebieden, maar geen separatie",
+    "Een verplichte route die je moet volgen tot aan je bestemming"
+   ],
+   "juist": 2,
+   "uitleg": "FIS geeft nuttige informatie (verkeer, weer, activiteit van gebieden), maar verantwoordelijkheid voor separatie en navigatie blijft bij jou. Klaringen komen van de luchtverkeersleiding."
+  },
+  {
+   "v": "Een NOTAM is geldig vanaf '2607181030'. Wat betekent dit tijdstip?",
+   "a": [
+    "18 juli 2026, 10:30 UTC, dus 12:30 lokale zomertijd",
+    "18 juli 2026, 10:30 lokale tijd",
+    "26 juli 2018, 10:30 UTC",
+    "18 juli 2026, 10:30 UTC, dus 11:30 lokale zomertijd"
+   ],
+   "juist": 0,
+   "uitleg": "Een NOTAM-tijdstip is opgebouwd als JJMMDDuumm in UTC. In de Nederlandse zomertijd (UTC+2) is 10:30 UTC 12:30 lokale tijd."
+  },
+  {
+   "v": "Je moet om een CTR heen vliegen: in plaats van direct 30 NM vlieg je twee benen van elk 20 NM. Je grondsnelheid is 80 kt. Hoeveel extra tijd kost de omweg?",
+   "a": [
+    "7,5 minuten",
+    "10 minuten",
+    "15 minuten",
+    "5 minuten"
+   ],
+   "juist": 0,
+   "uitleg": "De omweg is 40 - 30 = 10 NM extra. Bij 80 kt (1,33 NM per minuut) kost dat 10 / 1,33 = 7,5 minuten."
+  },
+  {
+   "v": "Je plant een overland met een motorzwever. De route loopt onder drie TMA-sectoren met ondergrenzen van achtereenvolgens 2500 ft, 1500 ft en FL 035. Welke planning is juist?",
+   "a": [
+    "Overal op de hoogste ondergrens vliegen, de verkeersleiding waarschuwt je wel",
+    "Overal 2400 ft aanhouden, omdat dat onder de eerste sector past",
+    "Op FL 035 vliegen, omdat een FL-grens boven een ft-grens ligt",
+    "Per sector een eigen maximale hoogte en vóór elke lagere sector op tijd dalen"
+   ],
+   "juist": 3,
+   "uitleg": "Elke sector heeft zijn eigen ondergrens. Bij de planning markeer je waar de grenzen veranderen en zorg je dat je vóór een lagere sector gedaald bent. Een FL-grens kan bij lage druk lager liggen dan je denkt."
+  },
+  {
+   "v": "Je vliegt op 1300 ft QNH boven een niet-bebouwd gebied. Volgens de kaart is het terrein daar 350 ft AMSL en staat er binnen 150 m een mast '700 (350)'. Voldoe je aan de SERA-minimumhoogte?",
+   "a": [
+    "Nee, je moet 1000 ft boven het hoogste obstakel binnen 600 m vliegen",
+    "Nee, buiten bebouwd gebied moet je 1000 ft boven de grond zitten",
+    "Ja, 950 ft boven de grond en 600 ft boven de top van de mast",
+    "Ja, je zit 950 ft boven de top van de mast en dat is ruim voldoende"
+   ],
+   "juist": 2,
+   "uitleg": "Boven niet-bebouwd gebied geldt minimaal 500 ft boven grond of water, of 500 ft boven het hoogste obstakel binnen 150 m. 1300 - 350 = 950 ft boven de grond en 1300 - 700 = 600 ft boven de top. De 1000 ft-regel geldt boven bebouwd gebied."
+  },
+  {
+   "v": "Waarom gebruik je bij het vliegen rond luchtruimgrenzen die in ft AMSL zijn opgegeven de QNH en niet de QFE?",
+   "a": [
+    "Omdat de QFE pas bruikbaar is boven de transitiehoogte van 3000 ft",
+    "Omdat de QNH gelijk is aan de standaardwaarde 1013,25 hPa",
+    "Omdat de QNH wel temperatuurgecorrigeerd is en de QFE niet",
+    "Omdat je met de QNH hoogte boven zeeniveau afleest, net als de grenzen"
+   ],
+   "juist": 3,
+   "uitleg": "Grenzen in ft (zonder FL) zijn hoogtes boven zeeniveau (AMSL). Met de QNH leest je hoogtemeter dezelfde grootheid af. De QFE geeft hoogte boven je veld, die alleen klopt als het veld op zeeniveau ligt."
+  },
+  {
+   "v": "Op je kaart staat een luchtruimgrens met als ondergrens '1500 ft AGL'. Het terrein stijgt langs je route van 50 ft naar 650 ft AMSL. Wat gebeurt er met de ondergrens ten opzichte van zeeniveau?",
+   "a": [
+    "Die blijft overal op 1500 ft AMSL liggen",
+    "Die stijgt mee van 1550 ft naar 2150 ft AMSL",
+    "Die daalt van 1550 ft naar 850 ft AMSL",
+    "Die ligt overal op FL 015, dus ongeveer 1500 ft"
+   ],
+   "juist": 1,
+   "uitleg": "Een AGL-grens volgt het terrein. Boven 50 ft terrein ligt de grens op 1550 ft AMSL en boven 650 ft terrein op 2150 ft AMSL. Je QNH-hoogtemeter geeft AMSL, dus je moet zelf de terreinhoogte optellen."
+  },
+  {
+   "v": "De dichtstbijzijnde ondergrens van gecontroleerd luchtruim op je route is 2500 ft AMSL. Je wilt op 2400 ft vliegen. De QNH is 1003 hPa maar je hebt per vergissing 1013 hPa ingesteld. Wat is er aan de hand? (1 hPa = 30 ft)",
+   "a": [
+    "Je vliegt werkelijk ongeveer 2700 ft AMSL en zit dus in het gecontroleerde luchtruim",
+    "Je vliegt precies op 2400 ft AMSL, de instelling maakt bij deze hoogte niet uit",
+    "Je vliegt werkelijk ongeveer 2100 ft AMSL, dus lager dan je denkt en nog onder de grens",
+    "Je vliegt werkelijk ongeveer 2390 ft AMSL"
+   ],
+   "juist": 2,
+   "uitleg": "Met 1013 in plaats van 1003 is de instelling 10 hPa te hoog: de hoogtemeter wijst 300 ft te veel aan. Bij 2400 ft aanwijzing vlieg je werkelijk ongeveer 2100 ft. Andersom (te lage instelling) zou je juist te hoog vliegen."
+  },
+  {
+   "v": "Een gebied heeft volgens de kaart als ondergrens 'SFC' en als bovengrens '2000 ft AMSL'. Het terrein ligt op 400 ft. Hoeveel verticale ruimte heeft het gebied boven het terrein?",
+   "a": [
+    "2000 ft",
+    "1600 ft",
+    "2400 ft",
+    "400 ft"
+   ],
+   "juist": 1,
+   "uitleg": "SFC betekent dat het gebied bij het aardoppervlak begint. Bovengrens 2000 ft AMSL min terrein 400 ft = 1600 ft boven het terrein."
+  },
+  {
+   "v": "Je plant een overland. Het hoogste obstakel binnen je routecorridor staat op de kaart als '880 (650)'. Je wilt overal minstens 500 ft boven alle obstakels blijven. Welke minimale hoogte op QNH plan je?",
+   "a": [
+    "1150 ft",
+    "730 ft",
+    "1380 ft",
+    "1650 ft"
+   ],
+   "juist": 2,
+   "uitleg": "Het eerste getal (880) is de tophoogte boven zeeniveau en die vergelijk je met je QNH-hoogte: 880 + 500 = 1380 ft. 1150 ft krijg je door de AGL-waarde (650) als referentie te nemen; dan zit je maar 270 ft boven de top."
+  },
+  {
+   "v": "Welk checkpoint is voor een overland boven Nederland het meest betrouwbaar?",
+   "a": [
+    "Een groot, donker bos dat vlak naast de geplande route ligt",
+    "Een lange, rechte polderweg met boerderijen aan weerszijden",
+    "Een spoorlijn die een kanaal kruist naast een herkenbaar dorp",
+    "Een groepje windturbines in een gebied met veel windturbines"
+   ],
+   "juist": 2,
+   "uitleg": "Een goed checkpoint is eenduidig: een combinatie van kenmerken die op de kaart staan en nergens anders in de buurt zo voorkomen. Bossen veranderen, polderwegen en windturbines lijken op elkaar."
+  },
+  {
+   "v": "Waarom draai je de kaart tijdens het vliegen in de vliegrichting (track up)?",
+   "a": [
+    "Omdat de Lambertkaart in die stand hoekgetrouw wordt",
+    "Zodat links en rechts op de kaart en buiten overeenkomen",
+    "Zodat de magnetische variatie vanzelf goed wordt verrekend",
+    "Omdat de schaal van de kaart anders niet meer goed klopt"
+   ],
+   "juist": 1,
+   "uitleg": "Met de kaart in de vliegrichting liggen kenmerken op de kaart aan dezelfde kant als buiten. Dat voorkomt spiegelfouten bij het herkennen van checkpoints."
+  },
+  {
+   "v": "Wanneer werk je bij kaartlezen bewust 'van grond naar kaart'?",
+   "a": [
+    "Als je onzeker bent: een kenmerk buiten opzoeken op de kaart",
+    "Standaard, omdat je zo het best vooruit kunt kijken en plannen",
+    "Boven zee, omdat daar weinig kenmerken op de kaart staan",
+    "Als je precies op koers zit en het volgende checkpoint verwacht"
+   ],
+   "juist": 0,
+   "uitleg": "Normaal werk je van kaart naar grond: je voorspelt wat je gaat zien. Ben je onzeker, dan neem je een opvallend kenmerk dat je ziet en zoek je dat op de kaart, beperkt tot het gebied waar je volgens gegist bestek kunt zijn."
+  },
+  {
+   "v": "Wat is een opvanglijn (catching feature) bij navigatie?",
+   "a": [
+    "Een lijnkenmerk dwars op je route net voorbij je doel",
+    "Een denkbeeldige lijn op 10 km van je route waarbinnen je blijft",
+    "De lijn die je op de kaart trekt tussen twee keerpunten",
+    "Een isogoon die je route kruist en de variatie aangeeft"
+   ],
+   "juist": 0,
+   "uitleg": "Een opvanglijn, zoals een snelweg of rivier vlak achter je doel, vertelt je ondubbelzinnig dat je het doel voorbij bent. Zo kun je niet ongemerkt verder doorvliegen."
+  },
+  {
+   "v": "Je doel ligt aan een kanaal dat haaks op je route loopt. Waarom stuur je bewust 5 tot 10 graden links van het doel?",
+   "a": [
+    "Omdat je dan minder last hebt van drift door de zijwind",
+    "Omdat je zo een kortere route naar het doel kunt vliegen",
+    "Omdat de variatie dan precies tegen de drift wegvalt",
+    "Omdat je dan bij het kanaal zeker weet dat je naar rechts moet"
+   ],
+   "juist": 3,
+   "uitleg": "Dit heet aiming off. Als je recht op het doel mikt en het niet ziet, weet je niet of je links of rechts moet zoeken. Door bewust aan één kant te mikken, ken je de draairichting zeker."
+  },
+  {
+   "v": "Je laatste zekere positie was 20 minuten geleden. Sindsdien vlieg je met een grondsnelheid van 90 kt een track van 045°. Waar ben je volgens gegist bestek en hoe groot is je onzekerheid volgens de 10%-vuistregel?",
+   "a": [
+    "20 NM in richting 045°, met een onzekerheid van ongeveer 2 NM",
+    "30 NM in richting 225° vanaf de laatste positie, met een onzekerheid van ongeveer 3 NM",
+    "45 NM in richting 045°, met een onzekerheid van ongeveer 4,5 NM",
+    "30 NM in richting 045° vanaf de laatste positie, met een onzekerheid van ongeveer 3 NM"
+   ],
+   "juist": 3,
+   "uitleg": "20 minuten bij 90 kt is 1/3 uur x 90 = 30 NM in de richting van je track. De onzekerheidscirkel is ongeveer 10% van de afgelegde afstand sinds de laatste fix: 3 NM."
+  },
+  {
+   "v": "Je ziet onder je een nieuwe snelweg die niet op je kaart staat. Wat is de beste reactie?",
+   "a": [
+    "Concluderen dat je verdwaald bent en direct omkeren naar je laatste fix",
+    "De snelweg volgen, omdat die je vanzelf naar een herkenbare stad brengt",
+    "Uitgaan van nieuwe aanleg en je positie met andere kenmerken bevestigen",
+    "Aannemen dat je kaart van het verkeerde jaar of land is en hem wegleggen"
+   ],
+   "juist": 2,
+   "uitleg": "Kaarten lopen achter op nieuwe wegen en bebouwing. Eén ontbrekend kenmerk bewijst niets; bevestig je positie met een combinatie van andere, betrouwbare kenmerken."
+  },
+  {
+   "v": "Je ziet een spoorlijn die een rivier kruist. Op je kaart staan binnen je gegist gebied twee van zulke kruisingen, 15 km uit elkaar. Hoe stel je vast waar je bent?",
+   "a": [
+    "Je controleert met tijd, snelheid en een derde kenmerk",
+    "Je kiest de kruising die het dichtst bij je geplande lijn ligt",
+    "Je kiest de eerste kruising die je op de kaart tegenkomt",
+    "Je blijft boven de kruising cirkelen tot je het zeker weet"
+   ],
+   "juist": 0,
+   "uitleg": "Twee kenmerken samen zijn hier niet uniek. Gebruik tijd en afstand om te beoordelen welke kruising past, en bevestig met een derde kenmerk zoals een dorp of een bocht in de rivier."
+  },
+  {
+   "v": "Waarom zet je bij de vluchtvoorbereiding om de 10 km een streepje op je routelijn?",
+   "a": [
+    "Omdat de regelgeving dat voor overlandvluchten voorschrijft",
+    "Om snel je voortgang, grondsnelheid en ETA te controleren",
+    "Omdat je bij elk streepje een positiemelding moet doen",
+    "Om de schaalverandering langs de route te kunnen corrigeren"
+   ],
+   "juist": 1,
+   "uitleg": "Met afstandsstreepjes zie je in een oogopslag hoe ver je bent en kun je met de tijd je werkelijke grondsnelheid en ETA bijstellen."
+  },
+  {
+   "v": "Je kruist een lange, rechte snelweg die haaks op je route loopt. Wat weet je daarmee zeker?",
+   "a": [
+    "Je exacte positie, want je kruist op dat moment de geplande lijn",
+    "Of je links of rechts van de lijn zit, maar niet hoe ver je bent",
+    "Hoe ver je langs de route bent, maar niet of je links of rechts zit",
+    "Niets, lijnvormige kenmerken zijn ongeschikt voor positiebepaling"
+   ],
+   "juist": 2,
+   "uitleg": "Een lijnkenmerk haaks op je route geeft je positie langs de route (afstand). Een lijnkenmerk evenwijdig aan je route geeft juist je zijdelingse positie. Voor een fix heb je een kruispunt van beide nodig."
+  },
+  {
+   "v": "Je verwacht na 12 minuten een groot kanaal te kruisen. Na 14 minuten zie je het nog niet. Wat is de beste aanpak?",
+   "a": [
+    "Direct 180° omdraaien en terugvliegen naar het laatste zekere checkpoint",
+    "Gaan cirkelen op de huidige plek tot je het kanaal toch ergens ziet",
+    "Koers houden, kompas checken en wat langer wachten op het kanaal",
+    "Steeds van koers veranderen om het kanaal zo snel mogelijk te vinden"
+   ],
+   "juist": 2,
+   "uitleg": "Een afwijking van een paar minuten kan door wind komen. Houd je koers aan, controleer je instrumenten en geef het een redelijke marge. Pas als het kenmerk dan nog steeds uitblijft, begin je met een systematische procedure."
+  },
+  {
+   "v": "Welke kenmerken zijn in het vlakke Nederland voor positiebepaling meestal het betrouwbaarst?",
+   "a": [
+    "Losse boerderijen, bomenrijen en kleine sloten in de polder",
+    "Grote waterwegen, spoorlijnen en snelwegen, met plaatsvormen",
+    "Hoogteverschillen in het landschap volgens de hoogtelijnen",
+    "De kleuren en vormen van akkers, weilanden en bosjes"
+   ],
+   "juist": 1,
+   "uitleg": "In vlak land zijn hoogteverschillen nauwelijks bruikbaar. Grote, op de kaart duidelijk aangegeven lijnkenmerken in combinatie met herkenbare plaatsvormen zijn het meest eenduidig."
+  },
+  {
+   "v": "Waarom is kaartlezen tegen een laagstaande zon in extra lastig?",
+   "a": [
+    "Omdat de kaart in tegenlicht van kleur lijkt te veranderen",
+    "Omdat tegenlicht en nevel weinig contrast in het landschap geven",
+    "Omdat het kompas door het zonlicht een afwijking krijgt",
+    "Omdat je kompas door de opgewarmde cockpit trager reageert"
+   ],
+   "juist": 1,
+   "uitleg": "Bij tegenlicht en heiigheid valt het contrast weg. Water kan dan wel opvallen door reflectie, maar wegen en dorpen zijn moeilijk te onderscheiden. Plan zo nodig checkpoints die met de zon in de rug te zien zijn."
+  },
+  {
+   "v": "Je weet je positie niet meer zeker. Welke aanpak is de juiste?",
+   "a": [
+    "Direct 180° omkeren en terugvliegen tot je weer iets herkent in het landschap",
+    "Boven de huidige positie blijven rondcirkelen tot je iets herkent",
+    "Kalm blijven en vliegen, tijd en heading noteren, gegist gebied bepalen en zoeken",
+    "Zo snel mogelijk dalen om plaatsnamen op borden te kunnen lezen"
+   ],
+   "juist": 2,
+   "uitleg": "Eerst vliegen en kalm blijven. Met tijd, heading en grondsnelheid sinds de laatste fix bepaal je een gebied waar je moet zijn; daarbinnen zoek je naar onmiskenbare kenmerken. Willekeurig omkeren of cirkelen vergroot de verwarring."
+  },
+  {
+   "v": "Je bent met een zweefvliegtuig verdwaald op 400 m boven onbekend terrein, zonder thermiek in zicht. Wat heeft nu de hoogste prioriteit?",
+   "a": [
+    "Een landingsveld kiezen en de buitenlanding voorbereiden",
+    "Eerst je positie bepalen, want zonder positie kun je niet veilig landen",
+    "Met de GPS het thuisveld zoeken, ook als je daarvoor onder 200 m komt",
+    "De verkeersleiding oproepen en op hun instructies blijven wachten"
+   ],
+   "juist": 0,
+   "uitleg": "Op lage hoogte gaat een veilige landing voor alles. Waar je precies bent, kun je na de landing uitzoeken. Zoeken naar je positie terwijl je hoogte verliest leidt tot een slecht voorbereide buitenlanding."
+  },
+  {
+   "v": "Je bent verdwaald, maakt je zorgen en krijgt geen contact op de frequentie van de vluchtinformatiedienst. Welke frequentie kun je gebruiken om hulp te vragen?",
+   "a": [
+    "122,000 MHz",
+    "121,500 MHz",
+    "118,100 MHz",
+    "130,000 MHz"
+   ],
+   "juist": 1,
+   "uitleg": "121,500 MHz is de internationale noodfrequentie die door luchtverkeersdiensten wordt uitgeluisterd. Daar kun je ook hulp krijgen bij positiebepaling."
+  },
+  {
+   "v": "Je bent verdwaald en verkeert in nood. Welke transpondercode stel je in?",
+   "a": [
+    "7600",
+    "7500",
+    "7700",
+    "7000"
+   ],
+   "juist": 2,
+   "uitleg": "7700 is de noodcode. 7600 betekent radiostoring, 7500 wederrechtelijke inmenging; 7000 is de standaard VFR-code. Een aparte code voor verdwaald bestaat niet."
+  },
+  {
+   "v": "Welke reactie op het kwijtraken van je positie is het minst verstandig?",
+   "a": [
+    "Je heading en de tijd noteren en een gegist gebied op de kaart bepalen",
+    "Doelloos rondcirkelen en van richting wisselen tot je iets herkent",
+    "Een groot, onmiskenbaar lijnkenmerk opzoeken in een bekende richting",
+    "Tijdig de vluchtinformatiedienst om hulp vragen bij je positie"
+   ],
+   "juist": 1,
+   "uitleg": "Door rondcirkelen en richtingwisselingen verlies je de informatie die je nodig hebt voor gegist bestek (heading, tijd, afstand). De andere opties helpen juist bij het terugvinden van je positie."
+  },
+  {
+   "v": "Je bent je positie kwijt in de buurt van gecontroleerd luchtruim. Wat is verstandig?",
+   "a": [
+    "Doorvliegen, de verkeersleiding ziet je toch wel op de radar",
+    "Van het luchtruim wegvliegen of eronder blijven en vroeg hulp vragen",
+    "Klimmen voor overzicht, ook als je daardoor in het luchtruim komt",
+    "Wachten met melden tot je zeker weet waar je precies bent"
+   ],
+   "juist": 1,
+   "uitleg": "Een ongeautoriseerde luchtruimschending moet je voorkomen. Vlieg ervan weg en vraag tijdig hulp: een luchtverkeersdienst kan je vaak met radar of andere middelen helpen je positie te bepalen."
+  },
+  {
+   "v": "Zonder wind vlieg je met kompas en kaart. Na 30 km blijk je 3 km naast je lijn te zitten. De variatie is 3°. Welke fout verklaart deze afwijking precies?",
+   "a": [
+    "De deviatie van 1° is vergeten",
+    "De afstand is met de verkeerde schaal gemeten",
+    "De variatie is helemaal niet toegepast",
+    "De variatie is met het verkeerde teken toegepast"
+   ],
+   "juist": 3,
+   "uitleg": "1-in-60: 3 km op 30 km is 6°. De variatie met het verkeerde teken toepassen geeft 2 x 3° = 6° fout. De variatie vergeten geeft 3°; een schaalfout beïnvloedt de afstand en niet de richting."
+  },
+  {
+   "v": "Wanneer meld je je bij de vluchtinformatiedienst als je je positie niet meer zeker weet?",
+   "a": [
+    "Pas als je alle andere middelen hebt geprobeerd zonder resultaat",
+    "Pas wanneer je onder de minimale veilige hoogte dreigt te komen",
+    "Zo vroeg mogelijk, zeker bij nabij luchtruim of krappe tijd en hoogte",
+    "Pas na de landing, door een melding van het voorval te doen"
+   ],
+   "juist": 2,
+   "uitleg": "Hoe eerder je hulp vraagt, hoe meer opties er zijn. Wachten tot het echt misgaat, verkleint de marges, vooral bij luchtruim in de buurt of afnemende hoogte."
+  },
+  {
+   "v": "Je bent boven Nederland je positie kwijt, maar je hebt nog veel hoogte en het weer is goed. Wat is een slimme aanpak?",
+   "a": [
+    "Blijven cirkelen tot er een ander toestel langs komt dat je kunt volgen",
+    "In een willekeurige richting vliegen tot je ergens een vliegveld ziet",
+    "Naar een groot kenmerk vliegen, zoals de kust of een groot meer",
+    "Direct een buitenlanding maken om bij iemand de weg te vragen"
+   ],
+   "juist": 2,
+   "uitleg": "Een groot lijnkenmerk of een groot water is vanaf hoogte niet te missen en geeft een betrouwbaar referentiepunt. Daarna kun je langs dat kenmerk een fix vinden."
+  },
+  {
+   "v": "Na een lange thermiekvlucht met veel cirkelen weet je niet meer precies waar je bent. Wat maakt je gegist bestek hier extra onnauwkeurig?",
+   "a": [
+    "Tijdens het cirkelen verandert de magnetische variatie",
+    "Tijdens het cirkelen ben je met de wind meegedreven",
+    "Tijdens het cirkelen klopt de schaal van de kaart niet meer",
+    "Tijdens het cirkelen staat de tijd voor navigatie stil"
+   ],
+   "juist": 1,
+   "uitleg": "Elke minuut cirkelen verplaatst je met de wind. Na veel cirkelen kan je werkelijke positie kilometers benedenwinds van je geplande lijn liggen."
+  },
+  {
+   "v": "Waarom heeft een GPS-ontvanger minimaal vier satellieten nodig voor een driedimensionale positie?",
+   "a": [
+    "Drie voor de positie en een vierde voor de klokfout van de ontvanger",
+    "Eén voor elke windrichting: noord, oost, zuid en west",
+    "Drie voor de positie en een vierde voor de magnetische variatie ter plaatse",
+    "Twee voor de breedte en twee voor de lengte van de positie"
+   ],
+   "juist": 0,
+   "uitleg": "De ontvanger meet afstanden via looptijden en heeft geen atoomklok. Met vier onbekenden (x, y, z en de klokfout) zijn minstens vier satellieten nodig."
+  },
+  {
+   "v": "Welke grootheden levert een GPS NIET rechtstreeks?",
+   "a": [
+    "Track en grondsnelheid",
+    "Heading en TAS",
+    "Positie en track",
+    "Grondsnelheid en geometrische hoogte"
+   ],
+   "juist": 1,
+   "uitleg": "Een GPS meet alleen je beweging over de grond: positie, track en grondsnelheid (en een geometrische hoogte). Waar de neus heen wijst (heading) en je snelheid door de lucht (TAS) kan hij niet meten."
+  },
+  {
+   "v": "Je GPS toont 2600 ft, je hoogtemeter op de actuele QNH 2400 ft. Boven je ligt een TMA met ondergrens 2500 ft. Welke waarde gebruik je om onder de TMA te blijven?",
+   "a": [
+    "De GPS-hoogte, omdat die niet door luchtdrukveranderingen wordt beïnvloed",
+    "De hoogtemeter op QNH: luchtruimgrenzen zijn barometrisch",
+    "Het gemiddelde van beide waarden, dan is de fout het kleinst",
+    "De hoogste van de twee waarden, omdat dat het veiligst is"
+   ],
+   "juist": 1,
+   "uitleg": "Luchtruimgrenzen en alle hoogtes van de luchtverkeersdienst zijn barometrisch. De GPS-hoogte is geometrisch en kan door temperatuur en druk honderden voeten afwijken van wat je hoogtemeter aanwijst."
+  },
+  {
+   "v": "Je navigatie-app gebruikt een luchtruimdatabase van vorig jaar. Wat is het belangrijkste risico?",
+   "a": [
+    "De GPS-positie wordt met een oude database onnauwkeuriger",
+    "De app rekent ware koersen verkeerd om naar magnetische koersen",
+    "De grondsnelheid en ETE worden met verouderde gegevens berekend",
+    "De app waarschuwt niet voor gewijzigde grenzen en nieuwe gebieden"
+   ],
+   "juist": 3,
+   "uitleg": "De GPS-positie zelf blijft goed, maar de app vergelijkt die met verouderde luchtruimdata. Grenzen en gebieden veranderen jaarlijks; je kunt dus zonder waarschuwing een luchtruim invliegen."
+  },
+  {
+   "v": "Een NOTAM meldt GNSS-interferentie (jamming) in je vlieggebied. Wat is het juiste gevolg voor je navigatie?",
+   "a": [
+    "Primair op kaart, kompas en klok navigeren en de GPS niet blind vertrouwen",
+    "Niets, jamming is gericht op grote verkeersvliegtuigen op kruishoogte",
+    "Je GPS uitzetten, want je mag hem dan niet meer gebruiken",
+    "Op de GPS-hoogte vliegen, omdat de hoogtemeter ook gestoord wordt"
+   ],
+   "juist": 0,
+   "uitleg": "Bij jamming kan de GPS-positie wegvallen of afwijken. Je moet dan kunnen terugvallen op klassieke navigatie. De barometrische hoogtemeter wordt niet beïnvloed."
+  },
+  {
+   "v": "Je voert een waypoint in met breedte 52°30,30'N, maar je bedoelde 52°30'30\"N. Hoe groot is de fout in noord-zuidrichting ongeveer?",
+   "a": [
+    "Ongeveer 3,7 km",
+    "Ongeveer 30 m",
+    "Ongeveer 370 m",
+    "Geen fout, het is dezelfde notatie"
+   ],
+   "juist": 2,
+   "uitleg": "30 seconden is 0,50 minuut. Je voerde 0,30 minuut in: het verschil is 0,20 boogminuut breedte = 0,2 NM = ongeveer 370 m. Let goed op het coördinatenformaat van je apparaat."
+  },
+  {
+   "v": "Je GPS geeft tracks ten opzichte van het ware noorden. Het is windstil, de variatie is 3° E en de deviatie 0°. De GPS toont track 093°. Wat wijst je kompas aan?",
+   "a": [
+    "090°",
+    "096°",
+    "093°",
+    "087°"
+   ],
+   "juist": 0,
+   "uitleg": "Zonder wind is heading gelijk aan track: TH = 093°. Met 3° oostelijke variatie is MH = 093 - 3 = 090°. Bij deviatie 0° wijst het kompas 090°."
+  },
+  {
+   "v": "Wat kun je met de rekenschijf van een klassieke navigatiecomputer (zoals de E6B) NIET bepalen?",
+   "a": [
+    "De grondsnelheid uit afstand en tijd",
+    "De TAS uit CAS, drukhoogte en temperatuur",
+    "De omrekening van NM naar km",
+    "De magnetische variatie op je positie"
+   ],
+   "juist": 3,
+   "uitleg": "Een navigatiecomputer rekent tijd, snelheid, afstand, eenheden en TAS. De variatie hangt af van je positie en haal je van de kaart."
+  },
+  {
+   "v": "Welke invoerfout in je glijcomputer leidt tot een te optimistische eindglijberekening?",
+   "a": [
+    "De MacCready-waarde is hoger ingesteld dan nodig",
+    "De tegenwind is lager ingevoerd dan hij werkelijk is",
+    "De veldhoogte van de bestemming is hoger ingevoerd dan werkelijk",
+    "Er is een extra veiligheidsmarge van 100 m ingesteld"
+   ],
+   "juist": 1,
+   "uitleg": "Met te weinig tegenwind berekent de computer een te hoge grondsnelheid en dus een te klein hoogteverlies. De andere fouten leiden juist tot een te voorzichtige (pessimistische) berekening."
+  },
+  {
+   "v": "Hoe bepaalt een glijcomputer zonder kompassensor tijdens het thermieken de wind?",
+   "a": [
+    "Uit de wisselende grondsnelheid en verschuiving van de cirkels",
+    "Uit de magnetische variatie op de positie van het toestel",
+    "Uit het verschil tussen de ingestelde QNH en de QFE",
+    "Uit het verloop van de buitentemperatuur tijdens het klimmen"
+   ],
+   "juist": 0,
+   "uitleg": "Tijdens het cirkelen vlieg je met ongeveer constante TAS alle richtingen uit. De GPS ziet dan de grondsnelheid wisselen en de cirkels verschuiven met de wind; daaruit volgen windrichting en windsnelheid."
+  },
+  {
+   "v": "Je drukt op 'GO TO' naar je thuisveld. Wat is het grootste risico?",
+   "a": [
+    "De rechte lijn kan door luchtruim of slecht terrein lopen",
+    "De GPS schakelt dan automatisch over op magnetische koersen",
+    "De GPS houdt bij GO TO geen rekening met de grondsnelheid",
+    "Je kunt de route daarna niet meer wijzigen of annuleren"
+   ],
+   "juist": 0,
+   "uitleg": "GO TO geeft de kortste rechte lijn, zonder rekening te houden met luchtruim, gebieden of terrein. Controleer altijd waar die lijn doorheen loopt."
+  },
+  {
+   "v": "Welke bewering over de nauwkeurigheid van GPS is juist?",
+   "a": [
+    "De verticale nauwkeurigheid is beter dan de horizontale",
+    "GPS is horizontaal en verticaal even nauwkeurig",
+    "GPS heeft geen fouten als er minstens vier satellieten zijn",
+    "De verticale nauwkeurigheid is meestal slechter dan de horizontale"
+   ],
+   "juist": 3,
+   "uitleg": "Satellieten staan allemaal boven de horizon, waardoor de geometrie in verticale richting minder gunstig is. De verticale fout is daardoor typisch groter dan de horizontale."
+  },
+  {
+   "v": "Wat betekent een hoge PDOP-waarde op je GPS?",
+   "a": [
+    "Veel satellieten in beeld, dus een extra nauwkeurige positie",
+    "Ongunstige satellietgeometrie, dus een minder nauwkeurige positie",
+    "De batterij van de ontvanger is bijna leeg en moet worden geladen",
+    "De ontvanger staat ingesteld op magnetische koersen"
+   ],
+   "juist": 1,
+   "uitleg": "DOP (dilution of precision) geeft aan hoe de satellietgeometrie de nauwkeurigheid beïnvloedt. Hoe hoger de waarde, hoe ongunstiger de geometrie en hoe groter de mogelijke fout."
+  },
+  {
+   "v": "Waarom is de door de GPS berekende ETE (resterende vliegtijd) tijdens een zweefvlucht met veel thermieken weinig betrouwbaar?",
+   "a": [
+    "De GPS rekent met de TAS in plaats van de grondsnelheid",
+    "De GPS rekent met de actuele grondsnelheid, die sterk wisselt",
+    "De GPS kent de afstand tot het doel niet precies genoeg",
+    "De ETE wordt in UTC gegeven en niet in lokale tijd"
+   ],
+   "juist": 1,
+   "uitleg": "ETE = resterende afstand / actuele grondsnelheid. Tijdens cirkelen is de grondsnelheid richting doel vrijwel nul of negatief, daarna weer hoog. Gebruik liever je eigen planning en gemiddelde snelheid."
+  },
+  {
+   "v": "Waaraan kun je spoofing (een vervalst GPS-signaal) het best herkennen?",
+   "a": [
+    "De GPS meldt dat er minder dan vier satellieten in beeld zijn",
+    "Het scherm van de GPS wordt zwart en reageert nergens meer op",
+    "Positie klopt niet met zicht en kompas, zonder storingsmelding",
+    "De barometrische hoogtemeter gaat plotseling sterk heen en weer"
+   ],
+   "juist": 2,
+   "uitleg": "Bij spoofing toont de ontvanger een schijnbaar geldige maar verkeerde positie. Alleen een vergelijking met kaartlezen, kompas en gegist bestek laat dat zien."
+  },
+  {
+   "v": "Je vluchtcomputer vergelijkt de GPS-hoogte (ongeveer je werkelijke hoogte) met een TMA-ondergrens van FL 035 alsof dat 3500 ft is. De QNH is 998 hPa. Wat is het gevolg? (1 hPa = 30 ft)",
+   "a": [
+    "De computer waarschuwt te vroeg, je hebt meer ruimte dan aangegeven",
+    "Er is geen verschil, bij QNH 998 ligt FL 035 op 3500 ft",
+    "De computer schakelt automatisch over op drukhoogte",
+    "Je kunt al in de TMA zitten zonder dat de computer waarschuwt"
+   ],
+   "juist": 3,
+   "uitleg": "Bij QNH 998 ligt het 1013-drukvlak 15 x 30 = 450 ft onder zeeniveau, dus FL 035 ligt op ongeveer 3500 - 450 = 3050 ft. Op 3200 ft werkelijk zit je dus al in de TMA, terwijl de computer denkt dat je 300 ft onder de grens zit."
+  },
+  {
+   "v": "Wat doet RAIM in een GNSS-ontvanger?",
+   "a": [
+    "Het rekent ware koersen automatisch om naar magnetische koersen",
+    "Het corrigeert de GPS-hoogte met de actueel ingestelde QNH",
+    "Het houdt de luchtruimdatabase in de ontvanger automatisch actueel",
+    "Het controleert met extra satellieten of de positie betrouwbaar is"
+   ],
+   "juist": 3,
+   "uitleg": "Receiver Autonomous Integrity Monitoring gebruikt overtallige satellieten om een foutieve meting te ontdekken. Daarvoor zijn meer dan de vier minimaal benodigde satellieten nodig."
+  },
+  {
+   "v": "Welke gegevens heb je nodig om met een navigatiecomputer de TAS uit de gecalibreerde luchtsnelheid te berekenen?",
+   "a": [
+    "Grondsnelheid en track van de GPS",
+    "Windrichting en windsnelheid op hoogte",
+    "Drukhoogte en buitenluchttemperatuur",
+    "QFE en veldhoogte van het vertrekveld"
+   ],
+   "juist": 2,
+   "uitleg": "De TAS hangt af van de luchtdichtheid, die bepaald wordt door druk en temperatuur. Met drukhoogte en buitenluchttemperatuur zet je op de rekenschijf CAS om naar TAS."
+  },
+  {
+   "v": "Het is 15:30 lokale tijd op een dag in juli in Nederland. Hoe laat is het in UTC?",
+   "a": [
+    "13:30 UTC",
+    "14:30 UTC",
+    "16:30 UTC",
+    "17:30 UTC"
+   ],
+   "juist": 0,
+   "uitleg": "In de zomer geldt in Nederland zomertijd, UTC+2. 15:30 - 2 uur = 13:30 UTC. 14:30 zou kloppen in de winter (UTC+1)."
+  },
+  {
+   "v": "Hoeveel verschilt de lokale middelbare tijd (LMT) tussen een plaats op 3°E en een plaats op 7°E?",
+   "a": [
+    "4 minuten",
+    "28 minuten",
+    "40 minuten",
+    "16 minuten"
+   ],
+   "juist": 3,
+   "uitleg": "De aarde draait 360° in 24 uur, dus 15° per uur of 1° per 4 minuten. 4° lengteverschil is 16 minuten."
+  },
+  {
+   "v": "Op welke lokale zomertijd staat de zon op 6°E ongeveer in het zuiden (verwaarloos de tijdvereffening)?",
+   "a": [
+    "13:36",
+    "12:24",
+    "12:00",
+    "14:24"
+   ],
+   "juist": 0,
+   "uitleg": "Om 12:00 LMT staat de zon in het zuiden. 6°E ligt 24 minuten voor op Greenwich, dus 12:00 LMT = 11:36 UTC. Zomertijd is UTC+2: 13:36."
+  },
+  {
+   "v": "Volgens een tabel gaat de zon op 52°N, lengte 0°, op een bepaalde dag om 19:40 UTC onder. Hoe laat (UTC) gaat de zon die dag ongeveer onder op 52°N, 5°E?",
+   "a": [
+    "20:00 UTC",
+    "19:20 UTC",
+    "19:40 UTC",
+    "19:35 UTC"
+   ],
+   "juist": 1,
+   "uitleg": "Op dezelfde breedte gebeurt alles 4 minuten per graad eerder naarmate je oostelijker zit. 5° x 4 = 20 minuten eerder: 19:20 UTC."
+  },
+  {
+   "v": "Wanneer eindigt de burgerlijke avondschemering?",
+   "a": [
+    "Als de bovenrand van de zon de horizon raakt",
+    "Als het middelpunt van de zon 12° onder de horizon staat",
+    "Als het middelpunt van de zon 6° onder de horizon staat",
+    "Als het middelpunt van de zon 18° onder de horizon staat"
+   ],
+   "juist": 2,
+   "uitleg": "Burgerlijke schemering loopt tot de zon 6° onder de horizon staat; 12° hoort bij de nautische en 18° bij de astronomische schemering."
+  },
+  {
+   "v": "Hoe definieert SERA de nacht?",
+   "a": [
+    "Van einde avond- tot begin ochtendschemering (burgerlijk)",
+    "De periode tussen zonsondergang en zonsopkomst, zoals in de tabellen",
+    "Vanaf 30 minuten na zonsondergang tot 30 minuten voor zonsopkomst",
+    "De periode waarin de zon meer dan 12° onder de horizon staat"
+   ],
+   "juist": 0,
+   "uitleg": "In SERA en de EASA-regels begint de nacht aan het einde van de burgerlijke avondschemering (zon 6° onder de horizon) en eindigt aan het begin van de burgerlijke ochtendschemering."
+  },
+  {
+   "v": "Op 21 juni: in welke plaats is de dag het langst, Groningen (53°N) of Maastricht (51°N)?",
+   "a": [
+    "In Maastricht, omdat de zon daar hoger aan de hemel staat",
+    "Even lang, omdat beide plaatsen in dezelfde tijdzone liggen",
+    "In Groningen: in de zomer is de dag noordelijker langer",
+    "In Maastricht, omdat het dichter bij de evenaar ligt"
+   ],
+   "juist": 2,
+   "uitleg": "In de zomer is de dag noordelijker langer; in de winter is het andersom. De tijdzone en de lengte bepalen alleen wanneer zonsopkomst en -ondergang op de klok vallen, niet hoe lang de dag is."
+  },
+  {
+   "v": "In welke richting komt de zon eind juni in Nederland ongeveer op?",
+   "a": [
+    "Precies in het oosten",
+    "In het zuidoosten",
+    "Precies in het noorden",
+    "In het noordoosten"
+   ],
+   "juist": 3,
+   "uitleg": "Alleen rond de equinoxen (maart en september) komt de zon vrijwel precies in het oosten op. In de zomer komt hij in het noordoosten op en gaat hij in het noordwesten onder."
+  },
+  {
+   "v": "De zon gaat onder om 19:42 UTC. Je wilt 30 minuten voor zonsondergang geland zijn. Je vlucht duurt 2 uur en 45 minuten. Wat is in Nederlandse zomertijd de uiterste starttijd?",
+   "a": [
+    "16:27",
+    "18:27",
+    "19:27",
+    "17:27"
+   ],
+   "juist": 1,
+   "uitleg": "19:42 - 0:30 = 19:12 UTC uiterste landingstijd. Min 2:45 = 16:27 UTC. In zomertijd (UTC+2) is dat 18:27."
+  },
+  {
+   "v": "Met hoeveel tijd komt een lengteverschil van 2°30' overeen?",
+   "a": [
+    "2,5 minuten",
+    "25 minuten",
+    "150 minuten",
+    "10 minuten"
+   ],
+   "juist": 3,
+   "uitleg": "1° lengte is 4 minuten tijd, dus 2,5° x 4 = 10 minuten. Of: 1 boogminuut is 4 seconden, 150' x 4 s = 600 s = 10 minuten."
+  },
+  {
+   "v": "Het is 00:30 lokale tijd op 15 juli in Nederland. Welke datum en tijd is het in UTC?",
+   "a": [
+    "15 juli, 22:30 UTC",
+    "14 juli, 23:30 UTC",
+    "14 juli, 22:30 UTC",
+    "15 juli, 02:30 UTC"
+   ],
+   "juist": 2,
+   "uitleg": "In de zomer is Nederland UTC+2. Twee uur terug vanaf 00:30 op 15 juli is 22:30 op 14 juli. Let op de datumovergang."
+  },
+  {
+   "v": "Twee plaatsen liggen op precies dezelfde breedte; plaats B ligt 2°30' oostelijker dan plaats A. Wat geldt voor de zonsondergang op dezelfde dag?",
+   "a": [
+    "In A gaat de zon 10 minuten eerder onder dan in B",
+    "In beide plaatsen gaat de zon tegelijk onder als ze in dezelfde tijdzone liggen",
+    "In B gaat de zon 2,5 minuten eerder onder dan in A",
+    "In B gaat de zon 10 minuten eerder onder dan in A"
+   ],
+   "juist": 3,
+   "uitleg": "Hoe oostelijker, hoe eerder de zon op- en ondergaat: 4 minuten per graad lengte, dus 2,5 x 4 = 10 minuten. De tijdzone verandert alleen de kloktijd, niet de stand van de zon."
+  },
+  {
+   "v": "Een tabel geeft voor een plaats op 52°N een zonsondergang van 19:00 LMT. De plaats ligt op 5°30'E. Hoe laat is dat in Nederlandse zomertijd?",
+   "a": [
+    "19:22",
+    "20:38",
+    "21:22",
+    "18:38"
+   ],
+   "juist": 1,
+   "uitleg": "LMT naar UTC: oosterlengte aftrekken, 5,5° x 4 = 22 minuten. 19:00 - 0:22 = 18:38 UTC. Zomertijd is UTC+2: 20:38."
+  },
+  {
+   "v": "Je vliegt op 4°E om 13:44 lokale zomertijd recht op de zon af. Welke ware koers vlieg je ongeveer (verwaarloos de tijdvereffening)?",
+   "a": [
+    "135°",
+    "225°",
+    "180°",
+    "090°"
+   ],
+   "juist": 2,
+   "uitleg": "4°E ligt 16 minuten voor op Greenwich: 12:00 LMT = 11:44 UTC = 13:44 zomertijd. Dan staat de zon in het zuiden, dus je vliegt ongeveer 180°."
+  },
+  {
+   "v": "Wat wordt in luchtvaarttabellen bedoeld met zonsopkomst en zonsondergang?",
+   "a": [
+    "Het moment waarop de bovenrand van de zon op de zichtbare horizon staat",
+    "Het moment waarop het middelpunt van de zon 6° onder de horizon staat",
+    "Het moment waarop het middelpunt van de zon precies op de wiskundige horizon staat zonder rekening te houden met breking",
+    "Het moment waarop het licht genoeg is om te kunnen vliegen"
+   ],
+   "juist": 0,
+   "uitleg": "Zonsopkomst en zonsondergang zijn de momenten waarop de bovenrand van de zon de horizon raakt (met verrekening van de lichtbreking). De schemering die daarna komt is een aparte periode."
+  },
+  {
+   "v": "Waarom duurt de burgerlijke schemering in Nederland eind juni langer dan eind maart?",
+   "a": [
+    "Omdat de zomertijd een uur extra licht aan de avond geeft",
+    "Omdat de zon in de zomer dichter bij de aarde staat",
+    "Omdat de zon in de zomer schuiner onder de horizon zakt",
+    "Omdat de schemering een vast deel van de daglengte is"
+   ],
+   "juist": 2,
+   "uitleg": "Op hogere breedte daalt de zon in de zomer onder een schuine hoek; het duurt dan langer voordat hij 6° onder de horizon staat. Rond de equinoxen gaat de zon steiler onder en is de schemering korter."
+  },
+  {
+   "v": "Op een dag in januari is het 09:15 lokale tijd in Nederland. Hoe laat is het in UTC?",
+   "a": [
+    "07:15 UTC",
+    "10:15 UTC",
+    "08:15 UTC",
+    "09:15 UTC"
+   ],
+   "juist": 2,
+   "uitleg": "In de winter geldt in Nederland Midden-Europese Tijd, UTC+1. 09:15 - 1 uur = 08:15 UTC."
+  },
+  {
+   "v": "Je vliegt langs dezelfde meridiaan van 51°58'N naar 53°04'N. Hoeveel kilometer is dat ongeveer?",
+   "a": [
+    "Ongeveer 66 km",
+    "Ongeveer 122 km",
+    "Ongeveer 162 km",
+    "Ongeveer 106 km"
+   ],
+   "juist": 1,
+   "uitleg": "Het breedteverschil is 1°06' = 66' = 66 NM. 66 x 1,852 = 122 km. 162 km krijg je als je 53,04 - 51,58 = 1,46 als decimale graden rekent (88 NM); 106 km door met de statute mile (1,609) te vermenigvuldigen."
+  },
+  {
+   "v": "Je vliegt op 52°N 20 NM pal naar het westen. Hoeveel boogminuten verandert je lengte? (cos 52° = 0,62)",
+   "a": [
+    "20'",
+    "Ongeveer 12'",
+    "Ongeveer 52'",
+    "Ongeveer 32'"
+   ],
+   "juist": 3,
+   "uitleg": "Langs een parallel is 1 lengteminuut cos(breedte) NM lang: 0,62 NM. 20 / 0,62 = 32 boogminuten. 12' krijg je door te vermenigvuldigen in plaats van te delen."
+  },
+  {
+   "v": "Ware koers 270°, WCA 8° naar rechts, variatie 2° E, deviatie 1° W. Wat is de kompaskoers?",
+   "a": [
+    "275°",
+    "281°",
+    "261°",
+    "277°"
+   ],
+   "juist": 3,
+   "uitleg": "TH = 270 + 8 = 278°. Oostelijke variatie aftrekken: MH = 276°. Westelijke deviatie optellen: CH = 277°. 281° is de variatie verkeerd om, 275° de deviatie verkeerd om, 261° de WCA naar de verkeerde kant."
+  },
+  {
+   "v": "Op de heenweg met track 090° moest je 7° naar links voorhouden. Hoeveel en naar welke kant houd je voor op de terugweg met track 270°, bij dezelfde wind en TAS?",
+   "a": [
+    "7° naar links",
+    "14° naar rechts",
+    "7° naar rechts",
+    "0°, de wind staat nu recht van achteren"
+   ],
+   "juist": 2,
+   "uitleg": "De dwarswindcomponent is even groot, maar komt op de terugweg van de andere kant van het toestel. Met dezelfde TAS is de WCA dus even groot, maar naar de andere kant."
+  },
+  {
+   "v": "Hoeveel kilometer leg je af in 7 minuten bij een grondsnelheid van 96 km/h?",
+   "a": [
+    "Ongeveer 6,7 km",
+    "Ongeveer 13,7 km",
+    "Ongeveer 11,2 km",
+    "Ongeveer 10 km"
+   ],
+   "juist": 2,
+   "uitleg": "96 km/h is 1,6 km per minuut. 7 x 1,6 = 11,2 km."
+  },
+  {
+   "v": "Je vliegt twee benen van elk 30 km. Op het eerste been is je grondsnelheid 60 km/h, op het tweede 120 km/h. Wat is je gemiddelde grondsnelheid over de hele afstand?",
+   "a": [
+    "80 km/h",
+    "90 km/h",
+    "85 km/h",
+    "100 km/h"
+   ],
+   "juist": 0,
+   "uitleg": "Been 1 duurt 30 minuten, been 2 15 minuten. 60 km in 45 minuten = 80 km/h. Het gewone gemiddelde (90 km/h) klopt niet, omdat je langer met de lage snelheid vliegt."
+  },
+  {
+   "v": "Op de kaart staat bij een vliegveld een baan '05/23'. De variatie is 2° E. Wat is ongeveer de ware richting van baan 23?",
+   "a": [
+    "Ongeveer 228°",
+    "230°, baannummers zijn ware richtingen",
+    "Ongeveer 023°",
+    "Ongeveer 232°"
+   ],
+   "juist": 3,
+   "uitleg": "Baannummers geven de magnetische richting in tientallen graden: baan 23 is ongeveer 230° magnetisch. Van magnetisch naar waar tel je oostelijke variatie op: ongeveer 232° waar."
+  },
+  {
+   "v": "Een coördinaat in je navigatie-app staat als 005,30° E. Wat is dat in graden en minuten?",
+   "a": [
+    "005°18'E",
+    "005°30'E",
+    "005°03'E",
+    "005°50'E"
+   ],
+   "juist": 0,
+   "uitleg": "0,30° x 60 = 18 minuten. Wie decimale graden leest als graden en minuten, zit 12 boogminuten (in Nederland ongeveer 7 NM) naast de bedoelde positie."
+  },
+  {
+   "v": "Je route loopt langs een meridiaan en beslaat volgens de minutenverdeling op de meridiaan 27 boogminuten. Hoeveel kilometer is dat?",
+   "a": [
+    "27 km",
+    "Ongeveer 43 km",
+    "Ongeveer 15 km",
+    "Ongeveer 50 km"
+   ],
+   "juist": 3,
+   "uitleg": "Langs een meridiaan is 1 boogminuut 1 NM. 27 NM x 1,852 = 50 km. 43 km krijg je met de statute mile (1,609 km)."
+  },
+  {
+   "v": "Waarom zoek je bij sterke wind tijdens een overland de thermiek bij voorkeur aan de bovenwindse kant van je routelijn?",
+   "a": [
+    "Omdat thermiek vooral aan de bovenwindse kant van een route ontstaat",
+    "Omdat de variatie aan de bovenwindse kant kleiner is",
+    "Omdat je tijdens het cirkelen naar je lijn toe drijft",
+    "Omdat je daar minder last hebt van de draaifouten van het kompas"
+   ],
+   "juist": 2,
+   "uitleg": "Tijdens het cirkelen verplaats je met de luchtmassa. Begin je bovenwinds van de lijn, dan drijf je tijdens het klimmen naar de lijn toe in plaats van er verder vanaf."
+  },
+  {
+   "v": "Welke wind gebruik je bij de navigatieplanning van een overland?",
+   "a": [
+    "De grondwind uit de METAR van je vertrekveld",
+    "De wind op 10 m hoogte op de bestemming",
+    "Geen wind, die verandert toch onderweg",
+    "De verwachte wind op je geplande vlieghoogte"
+   ],
+   "juist": 3,
+   "uitleg": "De wind op hoogte is meestal sterker en anders van richting dan de grondwind. Je rekent met de verwachte wind op de hoogte waarop je werkelijk vliegt."
+  },
+  {
+   "v": "Waarom is de kompasroos rond een VOR op de luchtvaartkaart niet naar het ware noorden gericht?",
+   "a": [
+    "Omdat de kaart rond een VOR een andere projectie gebruikt",
+    "Omdat de roos de gemiddelde deviatie van toestellen weergeeft",
+    "Omdat VOR-radialen ten opzichte van het magnetische noorden zijn",
+    "Omdat de meridianen op de Lambertkaart evenwijdig lopen"
+   ],
+   "juist": 2,
+   "uitleg": "VOR-radialen zijn ten opzichte van het magnetische noorden. De kompasroos rond een VOR op de kaart is daarom met de variatie verdraaid ten opzichte van de meridianen."
+  },
+  {
+   "v": "Hoeveel kilometer leg je per minuut af bij een grondsnelheid van 81 kt?",
+   "a": [
+    "Ongeveer 1,35 km",
+    "Ongeveer 1,5 km",
+    "Ongeveer 4,6 km",
+    "Ongeveer 2,5 km"
+   ],
+   "juist": 3,
+   "uitleg": "81 kt = 81 x 1,852 = 150 km/h. Per minuut is dat 150 / 60 = 2,5 km. 1,35 km is 81 gedeeld door 60, dus de afstand in NM per minuut."
+  },
+  {
+   "v": "Ware koers 270°, wind 330°/20 kt, TAS 100 kt. (sin 60° = 0,87, cos 60° = 0,5; WCA = dwarswind / TAS x 60) Wat zijn TH en GS ongeveer?",
+   "a": [
+    "TH ongeveer 260°, GS ongeveer 89 kt",
+    "TH ongeveer 280°, GS ongeveer 83 kt",
+    "TH ongeveer 282°, GS ongeveer 110 kt",
+    "TH ongeveer 280°, GS ongeveer 89 kt"
+   ],
+   "juist": 3,
+   "uitleg": "De wind staat 60° rechts van de track. Dwarswind = 20 x 0,87 = 17 kt, WCA = 17 / 100 x 60 = 10° naar rechts, TH = 280°. Tegenwind = 20 x 0,5 = 10 kt; met het verlies door het voorhouden is GS ongeveer 89 kt."
+  },
+  {
+   "v": "Je ziet tijdens rechtuit vliegen dat kenmerken op de grond van rechts-voor naar links-achter onder je doorschuiven. Wat zegt dat over drift en wind?",
+   "a": [
+    "Je drift naar links, de wind komt van rechts",
+    "Je hebt geen drift, maar wel tegenwind",
+    "Je drift naar rechts, de wind komt van links",
+    "Je drift naar rechts, de wind komt van rechts"
+   ],
+   "juist": 2,
+   "uitleg": "Ten opzichte van het toestel beweegt de grond tegengesteld aan je track. Schuift de grond naar links-achter, dan beweeg je over de grond naar rechts-voor: je track ligt rechts van je heading. Drift naar rechts betekent wind van links."
+  },
+  {
+   "v": "Je vertrekt om 10:50 UTC voor een vlucht van 3 uur en 40 minuten. Hoe laat land je in Nederlandse zomertijd?",
+   "a": [
+    "14:30",
+    "16:30",
+    "15:30",
+    "17:30"
+   ],
+   "juist": 1,
+   "uitleg": "10:50 + 3:40 = 14:30 UTC. Zomertijd is UTC+2: 16:30 lokale tijd."
+  },
+  {
+   "v": "Je meet aan de rand van een Lambertkaart een koers met de rand van het kaartblad als noordreferentie. Wat is het probleem?",
+   "a": [
+    "Geen probleem, de kaartrand wijst op een Lambertkaart overal naar het ware noorden",
+    "De kaartrand wijst op een ICAO-kaart naar het magnetische noorden",
+    "Het enige probleem is dat de schaal aan de rand van de kaart anders is",
+    "De rand loopt evenwijdig aan de middenmeridiaan, niet aan de andere; meet bij een meridiaan"
+   ],
+   "juist": 3,
+   "uitleg": "Op Lambert convergeren de meridianen naar de pool. Aan de rand van het kaartblad kan een meridiaan enkele graden schuin staan ten opzichte van de rand. Meet daarom altijd ten opzichte van een meridiaan bij je route."
+  },
+  {
+   "v": "Wat betekenen hoogtelijnen die op een topografische kaart dicht bij elkaar liggen?",
+   "a": [
+    "Vlak terrein",
+    "Een gebied onder zeeniveau",
+    "Een gebied met veel obstakels",
+    "Steil terrein"
+   ],
+   "juist": 3,
+   "uitleg": "Hoogtelijnen verbinden punten met dezelfde hoogte. Liggen ze dicht bij elkaar, dan verandert de hoogte over een korte afstand: het terrein is steil."
+  },
+  {
+   "v": "Waarom staat de zon in Nederland in de winter pas rond 12:40 lokale tijd in het zuiden?",
+   "a": [
+    "Omdat de zon in de winter langzamer door het zuiden lijkt te bewegen",
+    "Omdat Nederland in de winter UTC+2 gebruikt in plaats van UTC+1",
+    "Omdat de magnetische variatie in Nederland de zonnestand verschuift",
+    "Omdat de Midden-Europese Tijd 15°E volgt en Nederland rond 5°E ligt"
+   ],
+   "juist": 3,
+   "uitleg": "De zon staat op 12:00 LMT in het zuiden. De klok volgt in de winter de meridiaan van 15°E. Op 5°E loopt de zon 40 minuten achter op die meridiaan (afgezien van de tijdvereffening)."
+  },
+  {
+   "v": "Hoeveel voet is 1 NM ongeveer?",
+   "a": [
+    "5280 ft",
+    "1852 ft",
+    "3280 ft",
+    "6076 ft"
+   ],
+   "juist": 3,
+   "uitleg": "1852 m / 0,3048 = 6076 ft. 5280 ft is de statute mile; 1852 is het aantal meters."
+  },
+  {
+   "v": "Je hebt een GPS met moving map. Waarom maak je voor een overland toch een navigatielog met koersen, afstanden en tijden?",
+   "a": [
+    "Omdat je bij uitval van de GPS met kaart, kompas en klok verder kunt",
+    "Omdat de GPS de afstanden tot waypoints vaak verkeerd berekent",
+    "Omdat een GPS in Nederland niet voor navigatie gebruikt mag worden",
+    "Omdat een navigatielog na elke overland bij de ILT moet worden ingeleverd"
+   ],
+   "juist": 0,
+   "uitleg": "Een GPS kan uitvallen (batterij, storing, jamming). Met een vooraf gemaakte log heb je de koersen, afstanden en tijden direct beschikbaar en kun je de GPS bovendien controleren."
+  },
+  {
+   "v": "Een meridiaan is:",
+   "a": [
+    "Een halve grootcirkel van pool tot pool, die alle punten met dezelfde lengte verbindt",
+    "Een cirkel evenwijdig aan de evenaar, die alle punten met dezelfde breedte verbindt",
+    "Een lijn met overal dezelfde magnetische variatie",
+    "Een volledige kleincirkel om de aarde"
+   ],
+   "juist": 0,
+   "uitleg": "Meridianen lopen van pool tot pool en verbinden punten met dezelfde lengte. Samen met de tegenoverliggende meridiaan vormen ze een grootcirkel. Parallellen verbinden punten met dezelfde breedte."
+  },
+  {
+   "v": "Je vliegt een been van 60 km met een TAS van 100 km/h. De eerste 15 minuten heb je 40 km/h wind recht van achteren. Dan draait de wind en heb je de rest van het been 40 km/h recht tegen. Hoe lang duurt het hele been?",
+   "a": [
+    "36 minuten",
+    "33 minuten",
+    "45 minuten",
+    "40 minuten"
+   ],
+   "juist": 3,
+   "uitleg": "Eerste deel: GS 140 km/h, in 15 minuten 35 km. Rest: 60 - 35 = 25 km bij GS 60 km/h = 25 minuten. Totaal 40 minuten, langer dan de 36 minuten zonder wind: de wind heft zichzelf niet op."
+  },
+  {
+   "v": "Je moet tijdens een overland omkeren omdat de bewolking dichtgaat. Je stuurde heading 040° met 6° windcorrectie naar rechts (track 034°). Welke heading stuur je terug langs dezelfde lijn?",
+   "a": [
+    "Ongeveer 220°",
+    "Ongeveer 214°",
+    "Ongeveer 208°",
+    "Ongeveer 202°"
+   ],
+   "juist": 2,
+   "uitleg": "De terugtrack is 034 + 180 = 214°. De wind komt nu van de andere kant, dus de correctie van 6° gaat naar de andere kant: 214 - 6 = 208°. 220° krijg je door simpelweg 180° bij je heading op te tellen."
+  },
+  {
+   "v": "Op de kaart lees je dat een windturbinepark in een gebied met terrein op 0 ft turbines heeft van '650 (650)'. Je vliegt erboven langs op 1000 ft QNH, direct boven de turbines. Voldoe je aan de SERA-minimumhoogte buiten bebouwd gebied?",
+   "a": [
+    "Ja, want je zit meer dan 500 ft boven de grond",
+    "Ja, want buiten bebouwd gebied is 1000 ft QNH ruim voldoende",
+    "Nee, minimaal 1000 ft boven de top, dus 1650 ft",
+    "Nee, minimaal 500 ft boven de top, dus 1150 ft"
+   ],
+   "juist": 3,
+   "uitleg": "Buiten bebouwd gebied geldt 500 ft boven grond of water, of 500 ft boven het hoogste obstakel binnen 150 m. Recht boven de turbines betekent 650 + 500 = 1150 ft minimaal. De 1000 ft-regel geldt boven bebouwd gebied."
+  },
+  {
+   "v": "Een METAR meldt wind 240/18KT. De variatie is 2° E. Je wilt de wind invullen in een windberekening met magnetische koersen. Welke windrichting gebruik je?",
+   "a": [
+    "238°",
+    "240°",
+    "242°",
+    "060°"
+   ],
+   "juist": 0,
+   "uitleg": "Windrichtingen in een METAR zijn ware richtingen. Om met magnetische koersen te rekenen trek je de oostelijke variatie af: 240 - 2 = 238°."
+  },
+  {
+   "v": "Je gegist bestek zegt dat je over 8 minuten een rivier kruist. Je grondsnelheid is 75 kt. Op welke afstand ligt de rivier?",
+   "a": [
+    "8 NM",
+    "6 NM",
+    "10 NM",
+    "12,5 NM"
+   ],
+   "juist": 2,
+   "uitleg": "75 kt is 1,25 NM per minuut. 8 x 1,25 = 10 NM."
+  },
+  {
+   "v": "Je vliegt een zweefvliegtuig zonder GPS. Na een thermiekbel van 8 minuten bij wind uit 090° met 15 kt vlieg je verder op je geplande track van 000°. Wat moet je doen om weer op je lijn te komen?",
+   "a": [
+    "Naar links bijsturen, omdat je ongeveer 2 NM naar het oosten bent verdreven",
+    "Naar rechts bijsturen, omdat je ongeveer 2 NM naar het westen bent verdreven",
+    "Niets, cirkelen heeft geen invloed op je positie",
+    "Naar rechts bijsturen, omdat je ongeveer 15 NM naar het westen bent verdreven"
+   ],
+   "juist": 1,
+   "uitleg": "Wind uit het oosten verdrijft je naar het westen: 15 kt x 8/60 h = 2 NM. Met een noordelijke track ligt de lijn dan rechts (oostelijk) van je, dus stuur je naar rechts bij."
+  },
+  {
+   "v": "Op je navigatielog staat voor een been: afstand 27 NM, GS 81 kt. Hoe lang duurt dit been?",
+   "a": [
+    "33 minuten",
+    "18 minuten",
+    "20 minuten",
+    "22 minuten"
+   ],
+   "juist": 2,
+   "uitleg": "81 kt is 1,35 NM per minuut. 27 / 1,35 = 20 minuten."
+  },
+  {
+   "v": "Een navigatie-app toont je afstand tot een waypoint in km, terwijl je kaart en log in NM zijn. Het toont 37 km. Welke waarde komt overeen?",
+   "a": [
+    "20 NM",
+    "23 NM",
+    "37 NM",
+    "69 NM"
+   ],
+   "juist": 0,
+   "uitleg": "37 / 1,852 = 20 NM. 23 NM krijg je met de statute mile (37 / 1,609); 69 door te vermenigvuldigen."
+  },
+  {
+   "v": "Op de kaart is de isogoon van 2° E getekend. Je meet een ware koers van 154°. Je vliegt boven 3000 ft boven het terrein. Welke magnetische koers en welke VFR-kruishoogte passen erbij?",
+   "a": [
+    "MC 156°, FL 045 of FL 065",
+    "MC 152°, FL 045 of FL 065",
+    "MC 156°, FL 055 of FL 035",
+    "MC 152°, FL 055 of FL 035"
+   ],
+   "juist": 3,
+   "uitleg": "Oostelijke variatie aftrekken: 154 - 2 = 152°. Voor magnetische tracks van 000-179° gelden bij VFR oneven duizendtallen plus 500 ft, zoals FL 035 en FL 055."
+  },
+  {
+   "v": "Waarom heeft het roosje van een magnetisch kompas een klein contragewicht?",
+   "a": [
+    "Om de deviatie door elektrische apparatuur in het toestel te compenseren",
+    "Om te voorkomen dat de magneet door de inclinatie scheef gaat hangen",
+    "Om de magnetische variatie op de positie van het toestel te verrekenen",
+    "Om het roosje sneller te laten uitslingeren na een bocht of versnelling"
+   ],
+   "juist": 1,
+   "uitleg": "De veldlijnen lopen in Nederland steil de aarde in. Zonder contragewicht zou de magneet met de noordkant omlaag kantelen. Juist dit scheve zwaartepunt veroorzaakt de draai- en versnellingsfouten."
+  },
+  {
+   "v": "Er wordt bruikbare thermiek verwacht van 11:00 tot 17:00 UTC. Je start op een dag in juli om 13:00 lokale tijd en rekent op een gemiddelde snelheid van 70 km/h. Welke afstand kun je theoretisch binnen het thermiekvenster afleggen?",
+   "a": [
+    "280 km",
+    "350 km",
+    "420 km",
+    "560 km"
+   ],
+   "juist": 2,
+   "uitleg": "13:00 lokale zomertijd is 11:00 UTC, precies het begin van het venster. Je hebt dus 6 uur: 6 x 70 = 420 km. 280 km krijg je als je 13:00 als UTC leest en maar 4 uur overhoudt."
+  },
+  {
+   "v": "Op de ICAO-kaart 1:500.000 meet je voor een been 9 cm. Je verwacht een grondsnelheid van 90 km/h. Hoe lang duurt het been?",
+   "a": [
+    "6 minuten",
+    "60 minuten",
+    "30 minuten",
+    "15 minuten"
+   ],
+   "juist": 2,
+   "uitleg": "9 cm x 5 km = 45 km. Bij 90 km/h (1,5 km per minuut) duurt dat 30 minuten. 60 minuten krijg je met de schaal 1:1.000.000 (90 km)."
+  },
+  {
+   "v": "Je vliegt met een grondsnelheid van 120 km/h en hebt een koersfout van 5°. Na hoeveel minuten zit je 2 km naast je geplande lijn? (1-in-60-regel)",
+   "a": [
+    "6 minuten",
+    "12 minuten",
+    "24 minuten",
+    "5 minuten"
+   ],
+   "juist": 1,
+   "uitleg": "Bij 5° fout kom je per 60 km 5 km naast de lijn, dus 2 km na 2 x 60 / 5 = 24 km. Bij 120 km/h (2 km per minuut) is dat na 12 minuten."
+  },
+  {
+   "v": "Waarom lijkt Groenland op een Mercatorwereldkaart ongeveer even groot als Afrika, terwijl het in werkelijkheid veel kleiner is?",
+   "a": [
+    "Mercator is oppervlaktegetrouw maar niet hoekgetrouw, waardoor vormen vervormen",
+    "De meridianen convergeren op Mercator, waardoor poolgebieden breder lijken",
+    "Op Mercator groeit de schaal met de breedte, dus poolgebieden worden groot",
+    "Groenland ligt buiten de standaardparallellen, waar de schaal juist kleiner is"
+   ],
+   "juist": 2,
+   "uitleg": "Mercator is hoekgetrouw maar niet oppervlaktegetrouw. De schaal groeit met 1/cos(breedte); gebieden op hoge breedte worden daardoor sterk vergroot weergegeven."
+  },
+  {
+   "v": "Je gebruikt een snelweg als leidlijn naar je doel. Waar moet je vooral op letten?",
+   "a": [
+    "Of het echt de juiste snelweg is en waar je hem volgens plan moet verlaten",
+    "Of de snelweg op de kaart dezelfde kleur heeft als in werkelijkheid",
+    "Of je de snelweg steeds recht onder je toestel houdt om te kunnen landen",
+    "Of het verkeer op de snelweg dezelfde richting op rijdt als jij vliegt"
+   ],
+   "juist": 0,
+   "uitleg": "Een leidlijn is handig, maar alleen als je zeker weet dat het de goede is. Bij knooppunten en afslagen kun je ongemerkt een verkeerde weg gaan volgen; bevestig met andere kenmerken en plan het punt waar je de lijn verlaat."
+  },
+  {
+   "v": "Je GPS toont: gewenste track (DTK) 250°, actuele track 245°, cross-track error 0,8 NM (je zit rechts van de geplande lijn). Wat is juist?",
+   "a": [
+    "Rechts van de lijn, en je drijft er nog steeds verder vanaf",
+    "Links van de lijn, en je track loopt er schuin van weg",
+    "Op de lijn, maar je heading wijkt 5° af van de track",
+    "Rechts van de lijn, maar je track loopt al terug naar de lijn"
+   ],
+   "juist": 3,
+   "uitleg": "Rechts van de lijn betekent dat je naar links moet om terug te komen. Je actuele track (245°) ligt links van de gewenste track (250°), dus je nadert de lijn al onder een hoek van 5°."
+  }
+ ]
+}

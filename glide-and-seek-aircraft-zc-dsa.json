@@ -1,0 +1,14 @@
+[
+  {"name":"PH-1433","cn":"YE","glider":"DG-1000","flarm":["484BB4"]},
+  {"name":"PH-974","cn":"YS","glider":"LS-4","flarm":["48482D"]},
+  {"name":"PH-1382","cn":"YW","glider":"ASK-21","flarm":["48482F"]},
+  {"name":"PH-1006","cn":"YT","glider":"SZD-51 Junior","flarm":["484832"]},
+  {"name":"PH-1273","cn":"YZ","glider":"LS-7","flarm":["484879"]},
+  {"name":"PH-1210","cn":"YF","glider":"Discus 2","flarm":["48482C"]},
+  {"name":"PH-1571","cn":"YD","glider":"Duo Discus XLT","flarm":["485360"]},
+  {"name":"PH-1357","cn":"RL","glider":"DG-505","flarm":["484836","DD8518"]},
+  {"name":"PH-1364","cn":"XV","glider":"DG-500","flarm":["484723","DD851B"]},
+  {"name":"PH-1268","cn":"BVO","glider":"Discus","flarm":["484721","D0051B"]},
+  {"name":"PH-777","cn":"IC","glider":"Discus","flarm":["484A29"]},
+  {"name":"PH-785","cn":"YB","glider":"LS-6","flarm":["48502A","DD8282"]}
+]
