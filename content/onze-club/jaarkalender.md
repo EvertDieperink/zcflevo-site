@@ -115,7 +115,7 @@ Het vliegseizoen 2027 loopt van **begin maart t/m zondag 31 oktober**. Hieronder
 
 ## Augustus
 
-<div class="kalender-item" data-van="2027-08-02" data-tot="2027-08-15" data-cat="kamp">
+<div class="kalender-item" data-van="2027-08-02" data-tot="2027-08-15" data-cat="kamp" data-locatie="{{< adres >}}">
   <div class="kalender-datum"><span class="kd-d">2 aug</span><span class="kd-tot">t/m</span><span class="kd-d">15 aug</span></div>
   <div class="kalender-info">
     <div class="kalender-titel">Lokaal zomerkamp <span class="kchip kchip--kamp">Kamp</span></div>
@@ -140,7 +140,7 @@ Het vliegseizoen 2027 loopt van **begin maart t/m zondag 31 oktober**. Hieronder
   </div>
 </div>
 
-<div class="kalender-item" data-van="2027-10-31" data-tot="2027-10-31" data-cat="club">
+<div class="kalender-item" data-van="2027-10-31" data-tot="2027-10-31" data-cat="club" data-locatie="{{< adres >}}">
   <div class="kalender-datum"><span class="kd-dag">zondag</span><span class="kd-d">31 okt</span></div>
   <div class="kalender-info">
     <div class="kalender-titel">Laatste vliegdag <span class="kchip kchip--club">Clubactiviteit</span></div>
@@ -171,3 +171,5 @@ Het vliegseizoen 2027 loopt van **begin maart t/m zondag 31 oktober**. Hieronder
   if (volgende) { volgende.classList.add('kalender-item--volgende'); }
 })();
 </script>
+
+<script src="{{< url "/js/kalender-agenda.js" >}}" defer></script>

@@ -2065,12 +2065,85 @@ body.nav-open { overflow: hidden; }
 .kalender-item--volgende,
 .kalender-item--nu { box-shadow: var(--shadow); }
 
+/* "In mijn agenda" (js/kalender-agenda.js): alleen bij items van de club zelf */
+.kalender-alles {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem 1rem;
+  margin: 1.25rem 0 0.25rem;
+}
+.kalender-alles .btn { display: inline-flex; align-items: center; gap: 0.5rem; }
+.page-content .kalender-alles p {
+  margin: 0;
+  flex: 1 1 18rem;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+.kalender-agenda {
+  position: relative;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+.kalender-agenda summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  list-style: none;
+  cursor: pointer;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--blue);
+  background: #fff;
+  white-space: nowrap;
+  transition: background var(--transition), border-color var(--transition);
+}
+.kalender-agenda summary::-webkit-details-marker { display: none; }
+.kalender-agenda summary:hover,
+.kalender-agenda[open] summary { background: var(--hp-pill); border-color: var(--blue); }
+.kalender-agenda-menu {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 0.35rem);
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  min-width: 15rem;
+  padding: 0.35rem;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+}
+.kalender-agenda-menu a,
+.kalender-agenda-menu button {
+  display: block;
+  width: 100%;
+  padding: 0.55rem 0.75rem;
+  border: 0;
+  border-radius: var(--radius);
+  background: none;
+  font: inherit;
+  font-size: 0.9rem;
+  color: var(--text);
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+}
+.kalender-agenda-menu a:hover,
+.kalender-agenda-menu button:hover { background: var(--bg-light); color: var(--blue-dark); }
+
 @media (max-width: 560px) {
   .kalender-item {
     flex-direction: column;
     align-items: stretch;
     gap: 0.6rem;
   }
+  .kalender-agenda { margin-left: 0; }
+  .kalender-agenda-menu { left: 0; right: auto; }
   .kalender-datum {
     flex-direction: row;
     justify-content: flex-start;
