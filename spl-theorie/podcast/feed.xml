@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ZC Flevo Theorie</title>
+    <link>https://zcflevo.nl/spl-theorie/podcast/</link>
+    <atom:link href="https://zcflevo.nl/spl-theorie/podcast/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>nl</language>
+    <description>De zweefvliegtheorie van de LAPL(S)/SPL-opleiding om te luisteren, per vak één aflevering. Gemaakt door Zweefvliegclub Flevo op basis van de lesstof van zweefvliegopleiding.nl. Wij vliegen vanaf Zweefvliegveld Terlet bij Arnhem.</description>
+    <itunes:author>ZC Flevo</itunes:author>
+    <itunes:image href="https://zcflevo.nl/spl-theorie/podcast/omslag.jpg"/>
+    <itunes:category text="Education"/>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>serial</itunes:type>
+    <itunes:block>Yes</itunes:block>
+    <item>
+      <title>Menselijke prestaties en beperkingen</title>
+      <description>Vak 2. Menselijke prestaties en beperkingen
+
+0:00:00 Waarom dit vak
+0:00:50 Waar het misgaat
+0:02:36 In welke fase, en wat je ervan leert
+0:04:17 Recente ervaring en risico
+0:06:44 Het monument op de Wasserkuppe
+0:07:40 Je lichaam op de keuring
+0:10:00 Hart en bloed
+0:11:12 De lucht boven je
+0:12:49 Ademhaling, zuurstoftekort en de T.U.C.
+0:14:56 De zuurstofinstallatie
+0:16:05 Hyperventilatie
+0:17:21 Decompressieziekte en G-krachten
+0:19:31 Je ogen
+0:22:24 Uitkijken en landingsillusies
+0:24:16 Je oren
+0:26:01 Evenwicht en desoriëntatie
+0:28:04 Draai-illusies en luchtziekte
+0:31:04 Fit om te vliegen: I'M SAFE
+0:33:00 Alcohol, drugs, eten en drinken
+0:35:00 Je hart sparen en vermoeidheid
+0:35:56 Hoe je hoofd informatie verwerkt
+0:37:48 Besluiten en situational awareness
+0:40:35 Stress
+0:43:31 De keten van fouten
+0:45:51 Oefenen en gevaarlijke houdingen
+0:47:57 Tot slot
+0:48:32 Aftiteling</description>
+      <enclosure url="https://zcflevo.nl/spl-theorie/podcast/afleveringen/2-menselijk.mp3" length="23417837" type="audio/mpeg"/>
+      <guid isPermaLink="false">zcflevo-theorie-2-menselijk.mp3</guid>
+      <pubDate>Wed, 28 Oct 2026 13:49:54 GMT</pubDate>
+      <itunes:duration>2918</itunes:duration>
+      <itunes:season>2</itunes:season>
+      <itunes:episode>1</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title>Meteorologie</title>
+      <description>Vak 3. Meteorologie
+
+0:00:00 Waarom het weer
+0:01:05 Lucht en lagen
+0:02:55 Zon en temperatuur
+0:05:10 Druk, dichtheid en standaard
+0:07:14 De hoogtemeter
+0:09:17 Windkracht en windrichting
+0:11:05 Hoe wind ontstaat
+0:13:24 Rond de aarde
+0:14:39 Bergen, zee en golf
+0:16:57 Turbulentie en windgradiënt
+0:18:40 Warmte en vocht
+0:20:43 Adiabatisch en stabiel
+0:22:45 Thermiek vinden
+0:25:34 Thermiek voorspellen en wolkenstraten
+0:28:13 Hoe wolken ontstaan
+0:29:03 Wolken herkennen
+0:30:58 Bedekkingsgraad en mist
+0:33:22 Hoe neerslag ontstaat
+0:34:59 Sneeuw, ijzel en hagel
+0:35:57 Luchtsoorten
+0:37:20 Warme en koude massa
+0:38:19 Fronten
+0:41:04 Hoge druk
+0:42:34 Depressies zonder front
+0:44:05 Klimaat en klimaatzones
+0:46:02 Föhn, mistral en sirocco
+0:47:04 IJs, turbulentie en windschering
+0:48:28 Onweer
+0:51:55 Wervelwinden en de bergen
+0:54:40 Slecht zicht
+0:55:39 Waar haal je het weer
+0:57:27 METAR en TAF
+1:00:32 Weerkaarten
+1:01:01 Vluchtplanning en onderweg
+1:02:43 Tot slot
+1:03:00 Aftiteling</description>
+      <enclosure url="https://zcflevo.nl/spl-theorie/podcast/afleveringen/3-meteorologie.mp3" length="30361213" type="audio/mpeg"/>
+      <guid isPermaLink="false">zcflevo-theorie-3-meteorologie.mp3</guid>
+      <pubDate>Wed, 28 Oct 2026 06:35:34 GMT</pubDate>
+      <itunes:duration>3786</itunes:duration>
+      <itunes:season>3</itunes:season>
+      <itunes:episode>2</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>
