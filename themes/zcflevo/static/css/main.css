@@ -2759,3 +2759,22 @@ body.nav-open { overflow: hidden; }
   .hp-final::before { background: linear-gradient(180deg, rgba(35,86,150,.9) 0%, rgba(5,107,179,.78) 60%, rgba(5,107,179,.45) 100%); }
   .hp-final-actions { flex-direction: column; align-items: flex-start; }
 }
+
+/* Jaarkalender: melding zolang de kalender een concept is */
+.kalender-concept {
+  background: #fff3cd;
+  border-left: 4px solid #e9b400;
+  border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+  padding: 0.85rem 1.1rem;
+  margin: 0 0 0.8rem;
+  font-size: 0.95rem;
+  color: #5c4500;
+}
+.kalender-concept strong { color: #5c4500; }
+.page-content .ka-concept {
+  margin: 0.25rem 0 0;
+  padding: 0.45rem 0.75rem 0.2rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.8rem;
+  color: #7a5d00;
+}

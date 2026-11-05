@@ -8,6 +8,9 @@
   if (!kalender) return;
 
   var CLUB_CATS = ['club', 'kamp', 'wedstrijd'];
+  // conceptkalender: data staan nog niet vast; dat moet ook in de agenda te zien zijn
+  var concept = kalender.getAttribute('data-concept') === 'ja';
+  var CONCEPT_TEKST = 'Let op: conceptdatum, nog niet officieel vastgesteld. Kijk later op de website of deze datum nog klopt.';
   var paginaUrl = location.origin + location.pathname;
   var jaar = (document.title.match(/\d{4}/) || [''])[0];
 
@@ -34,7 +37,7 @@
     return {
       van: item.getAttribute('data-van'),
       tot: item.getAttribute('data-tot'),
-      titel: 'ZC Flevo: ' + titel.replace(/\s+/g, ' ').trim(),
+      titel: 'ZC Flevo: ' + titel.replace(/\s+/g, ' ').trim() + (concept ? ' (concept)' : ''),
       detail: detail,
       locatie: item.getAttribute('data-locatie') || '',
       uid: 'zcflevo-' + item.getAttribute('data-van') + '-' + titel.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') + '@zcflevo.nl'
@@ -42,7 +45,7 @@
   }
 
   function omschrijving(ev) {
-    return (ev.detail ? ev.detail + '\n\n' : '') + 'Actuele data en details: ' + paginaUrl;
+    return (concept ? CONCEPT_TEKST + '\n\n' : '') + (ev.detail ? ev.detail + '\n\n' : '') + 'Actuele data en details: ' + paginaUrl;
   }
 
   // RFC 5545: tekst escapen en lange regels vouwen
@@ -67,7 +70,8 @@
       'SUMMARY:' + esc(ev.titel),
       'DESCRIPTION:' + esc(omschrijving(ev)),
       'URL:' + paginaUrl,
-      'TRANSP:TRANSPARENT'
+      'TRANSP:TRANSPARENT',
+      'STATUS:' + (concept ? 'TENTATIVE' : 'CONFIRMED')
     ];
     if (ev.locatie) r.push('LOCATION:' + esc(ev.locatie));
     r.push('END:VEVENT');
@@ -109,7 +113,7 @@
   }
 
   function bestandsnaam(ev) {
-    return 'zcflevo-' + ev.van + '-' + ev.titel.replace(/^ZC Flevo: /, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-$/, '') + '.ics';
+    return 'zcflevo-' + ev.van + '-' + ev.titel.replace(/^ZC Flevo: /, '').replace(/ \(concept\)$/, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-$/, '') + '.ics';
   }
 
   var icoon = '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4M12 13v4M10 15h4"/></svg>';
@@ -134,6 +138,7 @@
       '<div class="kalender-agenda-menu">' +
         '<a class="ka-google" target="_blank" rel="noopener">Google Agenda</a>' +
         '<button type="button" class="ka-ics">Apple Agenda of Outlook (.ics)</button>' +
+        (concept ? '<p class="ka-concept">Conceptdatum: kan nog wijzigen.</p>' : '') +
       '</div>';
     keuze.querySelector('.ka-google').href = googleUrl(ev);
     keuze.querySelector('.ka-ics').addEventListener('click', function () {
@@ -163,7 +168,8 @@
     blok.className = 'kalender-alles';
     blok.innerHTML =
       '<button type="button" class="btn btn-blue">' + icoon + '<span>Alle ZC Flevo-data in mijn agenda</span></button>' +
-      '<p>Eén bestand met ' + komend.length + ' clubactiviteiten en kampen voor Apple Agenda, Outlook en Google Agenda. Schoolvakanties en feestdagen staan er niet in.</p>';
+      '<p>Eén bestand met ' + komend.length + ' clubactiviteiten en kampen voor Apple Agenda, Outlook en Google Agenda. Schoolvakanties en feestdagen staan er niet in.' +
+      (concept ? ' <strong>Het zijn conceptdata</strong>: in je agenda staan ze als "(concept)".' : '') + '</p>';
     blok.querySelector('button').addEventListener('click', function () {
       download('zcflevo-jaarkalender-' + jaar + '.ics', ics(komend));
     });

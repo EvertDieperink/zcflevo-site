@@ -10,9 +10,14 @@ menu:
     weight: 24
 ---
 
-Het vliegseizoen 2027 loopt van **begin maart t/m zondag 31 oktober**. Hieronder staan de bijzondere data van 2027 op een rij. Dit is de conceptkalender: data kunnen nog wijzigen.
+Het vliegseizoen 2027 loopt van **begin maart t/m zondag 31 oktober**. Hieronder staan de bijzondere data van 2027 op een rij.
 
-<div class="kalender">
+<div class="kalender" data-concept="ja">
+
+<!-- Conceptkalender: verwijder deze melding en data-concept="ja" hierboven zodra de kalender definitief is. -->
+<div class="kalender-concept">
+  <strong>Let op: dit is de conceptkalender.</strong> De data staan nog niet officieel vast en kunnen nog wijzigen. Zet je iets in je agenda, kijk dan later nog even op deze pagina of de datum nog klopt.
+</div>
 
 <div class="kalender-vliegdagen">
   <strong>Wanneer vliegen we?</strong> Tijdens het vliegseizoen vliegen we <strong>elk weekend</strong>, op zaterdag en zondag. Bij mooi weer wordt er vaak ook op <strong>vrijdag</strong> gevlogen. Een vrijdag is wel minder vanzelfsprekend dan een weekenddag: hij gaat alleen door bij goed weer en voldoende aanmeldingen, en er is dan niet altijd een instructeur aanwezig. DBO'ers en solisten kunnen op vrijdag dus niet altijd vliegen.
